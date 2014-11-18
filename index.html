@@ -52,6 +52,8 @@
     <!-- Compiled (using less on node) with "lessc fonts.less > stylesheet.css" -->
     <link rel="stylesheet" href="fonts/stylesheets/stylesheet.css">
 
+    <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+
     <!-- Google/Typekit Web Font Loader: https://github.com/typekit/webfontloader -->
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.6/webfont.js"></script>
 
@@ -68,6 +70,17 @@
         position: fixed;
         z-index: 1;
       }
+      h1 {
+        font-family: 'Patua One', serif;
+        font-weight: bold;
+        color: #f5f5f5;
+        font-size: 45px;
+      }
+      article {
+        max-width: 90%;
+        width: 600px;
+
+      }
       pre,
       textarea,
       .CodeMirror {font-family: "gnu-freefont";}
@@ -79,7 +92,7 @@
   <div class="background"></div>
 
   <article>
-    <h2>Theme Demo</h2>
+    <h1>Programming Fonts Test Drive</h1>
     <form>
       <textarea id="code" name="code">
 # This is just some placeholder stuff, but feel free to type your own
@@ -184,6 +197,17 @@ function findSequence(goal) {
 
     </article>
 
+    <footer>
+      <p>
+        Built with <a href="http://codemirror.net/" rel="external">CodeMirror</a>, <a href="https://github.com/typekit/webfontloader" rel="external">The Google/Typekit Web Font Loader</a>, <a href="http://cdnjs.com/" rel="external">CDNJS</a>
+      </p>
+      <p>
+        <a href="http://programmingfonts.org">Back to the blog</a>
+      </p>
+      <p>
+        &copy; 2014 <a href="http://koenlageveen.nl">Koen Lageveen</a>
+      </p>
+    </footer>
 
     <!-- Some jquery to make live easier -->
     <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>

@@ -4,7 +4,6 @@
     <title>Programmingfonts Test Drive App</title>
     <meta charset="utf-8"/>
 
-
     <!-- YUI reset -->
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
 
@@ -50,15 +49,22 @@
 
     <!-- ProgrammingFonts @font-faces -->
     <!-- Compiled (using less on node) with "lessc fonts.less > stylesheet.css" -->
-    <link rel="stylesheet" href="fonts/stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="../fonts/stylesheets/stylesheet.css">
 
     <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
 
     <!-- Google/Typekit Web Font Loader: https://github.com/typekit/webfontloader -->
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.6/webfont.js"></script>
 
 
     <style type="text/css">
+    body {
+      color:#eee;
+      font-family: "Karla", sans-serif;
+      font-size: 16px;
+      line-height: 2;
+    }
     .background {
         background: url('http://static.tumblr.com/29b40daad2ef73e757cea2aa8538f348/ythva06/puMnf7dz7/tumblr_static_5c6usnox6y8880o08kk4gcwgo.jpg') no-repeat center center fixed;
         -webkit-background-size: cover;
@@ -68,31 +74,90 @@
         height:100%;
         width:100%;
         position: fixed;
-        z-index: 1;
+        z-index: -1;
       }
       h1 {
         font-family: 'Patua One', serif;
-        font-weight: bold;
+        font-weight: normal;
         color: #f5f5f5;
-        font-size: 45px;
+        font-size: 60px;
+        line-height: 60px;
+        margin: 0 0 60px 0;
+        text-align: center;
+        padding-top: 60px;
+        color: #f5f5f5;
+      }
+      .description {
+        color:#eee; text-align: center;
+        margin: 0 0 30px 0;
+        font-size: 19px;
+        font-weight: bold;
       }
       article {
         max-width: 90%;
-        width: 600px;
-
+        width: 800px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        background: white;
+        border: 0;
+        border-radius: 3px;
+        box-shadow: 0 0 4px rgba(0,0,0,.4);
+        color: #505050;
+      }
+      article p {
+        text-align: center;
+        padding: 30px;
+      }
+      select {
+        margin-right: 30px;
+      }
+      footer {
+        max-width: 90%;
+        width: 800px;
+        text-align: center;
+        margin: 60px auto;
+      }
+      a,
+      a:link,
+      a:visited,
+      a:hover {
+        color: #44cc9a;
+        text-decoration: none;
+      }
+      a:hover {
+        opacity: .8;
+        transition: opacity .5s;
       }
       pre,
       textarea,
       .CodeMirror {font-family: "gnu-freefont";}
-      .CodeMirror {border: 1px solid black; font-size:16px;}
+      .CodeMirror {
+              border: none;
+              font-size:16px;
+              border-top-left-radius: 3px;
+              border-top-right-radius: 3px;
+              background: transparent;
+      }
+      .CodeMirror-gutters {
+        background: transparent;
+      }
+      @media screen and (max-width:800px) {
+        .select {
+          display: block;
+          text-align: right;
+        }
+      }
     </style>
   </head>
   <body>
 
   <div class="background"></div>
 
+  <h1>Programming Fonts Test Drive</h1>
+
+  <p class="description">Want to know which font looks best in a code editor? Try over 40 free programming fonts right here.</p>
+
   <article>
-    <h1>Programming Fonts Test Drive</h1>
     <form>
       <textarea id="code" name="code">
 # This is just some placeholder stuff, but feel free to type your own
@@ -111,9 +176,8 @@ function findSequence(goal) {
 }</textarea>
 </form>
 
-    <p>Select a theme:
+    <p><span class="select">Select a theme
       <select onchange="selectTheme()" id="select">
-          <option selected>default</option>
           <option>3024-day</option>
           <option>3024-night</option>
           <option>ambiance</option>
@@ -128,7 +192,7 @@ function findSequence(goal) {
           <option>mbo</option>
           <option>mdn-like</option>
           <option>midnight</option>
-          <option>monokai</option>
+          <option selected>monokai</option>
           <option>neat</option>
           <option>neo</option>
           <option>night</option>
@@ -144,11 +208,8 @@ function findSequence(goal) {
           <option>vibrant-ink</option>
           <option>xq-dark</option>
           <option>xq-light</option>
-      </select>
-    </p>
-
-    <p>Select a font:
-      <select onchange="selectFont()" id="select-font">
+      </select></span>
+      <span class="select">Select a font <select onchange="selectFont()" id="select-font">
         <option value="anka-coder">Anka/Coder</option>,
         <option value="anonymous-pro">Anonymous Pro</option>,
         <option value="average">Average Mono</option>,
@@ -192,20 +253,19 @@ function findSequence(goal) {
         <option value="ubuntu">ubuntu</option>,
         <option value="unifont">unifont</option>,
         <option value="vt323">vt323</option>
-      </select>
+      </select></span>
     </p>
 
     </article>
 
     <footer>
       <p>
-        Built with <a href="http://codemirror.net/" rel="external">CodeMirror</a>, <a href="https://github.com/typekit/webfontloader" rel="external">The Google/Typekit Web Font Loader</a>, <a href="http://cdnjs.com/" rel="external">CDNJS</a>
+        Built with <a href="http://codemirror.net/" rel="external">CodeMirror</a>, <a href="https://github.com/typekit/webfontloader" rel="external">Google/Typekit Web Font Loader</a>, <a href="http://cdnjs.com/" rel="external">CDNJS</a>, Photography from <a href="http://unsplash.com">Unsplash</a>
       </p>
       <p>
-        <a href="http://programmingfonts.org">Back to the blog</a>
-      </p>
+        <a href="http://programmingfonts.org">Back to the blog</a> -  &copy; 2014 <a href="http://koenlageveen.nl" style="color: #eee;">Koen Lageveen</a>
       <p>
-        &copy; 2014 <a href="http://koenlageveen.nl">Koen Lageveen</a>
+
       </p>
     </footer>
 
@@ -277,7 +337,8 @@ function findSequence(goal) {
       var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
         lineNumbers: true,
         styleActiveLine: true,
-        matchBrackets: true
+        matchBrackets: true,
+        theme: "monokai"
       });
 
       // CodeMirror theme selector

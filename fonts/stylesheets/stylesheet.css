@@ -1,0 +1,522 @@
+@font-face {
+  font-family: 'anka-coder';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/anka-coder/anka-coder-bold.ttf');
+}
+@font-face {
+  font-family: 'anka-coder';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/anka-coder/anka-coder-italic.ttf');
+}
+@font-face {
+  font-family: 'anka-coder';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/anka-coder/anka-coder.ttf');
+}
+@font-face {
+  font-family: 'anonymous-pro';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/anonymous-pro/anonymous-pro-bold.ttf');
+}
+@font-face {
+  font-family: 'anonymous-pro';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/anonymous-pro/anonymous-pro-italic.ttf');
+}
+@font-face {
+  font-family: 'anonymous-pro';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/anonymous-pro/anonymous-pro.ttf');
+}
+@font-face {
+  font-family: 'average';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/average/average-bold.otf');
+}
+@font-face {
+  font-family: 'average';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/average/average-bold-italic.otf');
+}
+@font-face {
+  font-family: 'average';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/average/average-italic.otf');
+}
+@font-face {
+  font-family: 'average';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/average/average.otf');
+}
+@font-face {
+  font-family: 'bitstream-vera';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/bitstream-vera/bitstream-vera-bold.woff');
+}
+@font-face {
+  font-family: 'bitstream-vera';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/bitstream-vera/bitstream-vera-italic.woff');
+}
+@font-face {
+  font-family: 'bitstream-vera';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/bitstream-vera/bitstream-vera.woff');
+}
+@font-face {
+  font-family: 'bpmono';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/bpmono/bpmono-bold.woff');
+}
+@font-face {
+  font-family: 'bpmono';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/bpmono/bpmono-italic.woff');
+}
+@font-face {
+  font-family: 'bpmono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/bpmono/bpmono.woff');
+}
+@font-face {
+  font-family: 'consolamono';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/consolamono/consolamono-bold.ttf');
+}
+@font-face {
+  font-family: 'consolamono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/consolamono/consolamono.ttf');
+}
+@font-face {
+  font-family: 'cousine';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/cousine/cousine-bold.ttf');
+}
+@font-face {
+  font-family: 'cousine';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/cousine/cousine-italic.ttf');
+}
+@font-face {
+  font-family: 'cousine';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/cousine/cousine.ttf');
+}
+@font-face {
+  font-family: 'cutive';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/cutive/cutive.ttf');
+}
+@font-face {
+  font-family: 'cutive';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/cutive/cutive.ttf');
+}
+@font-face {
+  font-family: 'dejavu';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/dejavu/dejavu-bold.ttf');
+}
+@font-face {
+  font-family: 'dejavu';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/dejavu/dejavu-italic.ttf');
+}
+@font-face {
+  font-family: 'dejavu';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/dejavu/dejavu.ttf');
+}
+@font-face {
+  font-family: 'droid-sans';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/droid-sans/droid-sans.woff');
+}
+@font-face {
+  font-family: 'effects-eighty';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/effects-eighty/effects-eighty-bold.otf');
+}
+@font-face {
+  font-family: 'effects-eighty';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/effects-eighty/effects-eighty-italic.otf');
+}
+@font-face {
+  font-family: 'effects-eighty';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/effects-eighty/effects-eighty.otf');
+}
+@font-face {
+  font-family: 'fantasque-sans';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/fantasque-sans/fantasque-sans-bold.woff');
+}
+@font-face {
+  font-family: 'fantasque-sans';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/fantasque-sans/fantasque-sans-italic.woff');
+}
+@font-face {
+  font-family: 'fantasque-sans';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/fantasque-sans/fantasque-sans.woff');
+}
+@font-face {
+  font-family: 'fifteen';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/fifteen/fifteen.ttf');
+}
+@font-face {
+  font-family: 'fira';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/fira/fira-bold.otf');
+}
+@font-face {
+  font-family: 'fira';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/fira/fira.otf');
+}
+@font-face {
+  font-family: 'generic';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/generic/generic.otf');
+}
+@font-face {
+  font-family: 'gnu-freefont';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/gnu-freefont/gnu-freefont-bold.otf');
+}
+@font-face {
+  font-family: 'gnu-freefont';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/gnu-freefont/gnu-freefont-italic.otf');
+}
+@font-face {
+  font-family: 'gnu-freefont';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/gnu-freefont/gnu-freefont.otf');
+}
+@font-face {
+  font-family: 'gnutypewriter';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/gnutypewriter/gnutypewriter.otf');
+}
+@font-face {
+  font-family: 'hermit';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/hermit/hermit-bold.otf');
+}
+@font-face {
+  font-family: 'hermit';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/hermit/hermit.otf');
+}
+@font-face {
+  font-family: 'inconsolata';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/inconsolata/inconsolata.otf');
+}
+@font-face {
+  font-family: 'inconsolata-g';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/inconsolata-g/inconsolata-g.otf');
+}
+@font-face {
+  font-family: 'latin-modern';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/latin-modern/latin-modern-italic.otf');
+}
+@font-face {
+  font-family: 'latin-modern';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/latin-modern/latin-modern.otf');
+}
+@font-face {
+  font-family: 'lekton';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/lekton/lekton-bold.ttf');
+}
+@font-face {
+  font-family: 'lekton';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/lekton/lekton-italic.ttf');
+}
+@font-face {
+  font-family: 'lekton';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/lekton/lekton.ttf');
+}
+@font-face {
+  font-family: 'liberation';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/liberation/liberation-bold.woff');
+}
+@font-face {
+  font-family: 'liberation';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/liberation/liberation-italic.woff');
+}
+@font-face {
+  font-family: 'liberation';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/liberation/liberation.woff');
+}
+@font-face {
+  font-family: 'luxi';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/luxi/luxi-bold.woff');
+}
+@font-face {
+  font-family: 'luxi';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/luxi/luxi-italic.woff');
+}
+@font-face {
+  font-family: 'luxi';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/luxi/luxi.woff');
+}
+@font-face {
+  font-family: 'meslo';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/meslo/meslo-bold.ttf');
+}
+@font-face {
+  font-family: 'meslo';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/meslo/meslo-italic.ttf');
+}
+@font-face {
+  font-family: 'meslo';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/meslo/meslo.ttf');
+}
+@font-face {
+  font-family: 'monofur';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/monofur/monofur-italic.ttf');
+}
+@font-face {
+  font-family: 'monofur';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/monofur/monofur.ttf');
+}
+@font-face {
+  font-family: 'mplus';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/mplus/mplus-bold.woff');
+}
+@font-face {
+  font-family: 'mplus';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/mplus/mplus.woff');
+}
+@font-face {
+  font-family: 'notcouriersans';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/notcouriersans/notcouriersans-bold.woff');
+}
+@font-face {
+  font-family: 'notcouriersans';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/notcouriersans/notcouriersans.woff');
+}
+@font-face {
+  font-family: 'nova';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/nova/nova.ttf');
+}
+@font-face {
+  font-family: 'nova';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/nova/nova.ttf');
+}
+@font-face {
+  font-family: 'oxygen';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/oxygen/oxygen.otf');
+}
+@font-face {
+  font-family: 'profont';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/profont/profont.ttf');
+}
+@font-face {
+  font-family: 'proggy-clean';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/proggy-clean/proggy-clean.ttf');
+}
+@font-face {
+  font-family: 'pt';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/pt/pt.ttf');
+}
+@font-face {
+  font-family: 'quinze';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/quinze/quinze.ttf');
+}
+@font-face {
+  font-family: 'sax';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/sax/sax.woff');
+}
+@font-face {
+  font-family: 'share-tech';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/share-tech/share-tech.ttf');
+}
+@font-face {
+  font-family: 'source-code-pro';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/source-code-pro/source-code-pro-bold.otf');
+}
+@font-face {
+  font-family: 'source-code-pro';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/source-code-pro/source-code-pro.otf');
+}
+@font-face {
+  font-family: 'sudo';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/sudo/sudo-bold.ttf');
+}
+@font-face {
+  font-family: 'sudo';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/sudo/sudo-italic.ttf');
+}
+@font-face {
+  font-family: 'sudo';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/sudo/sudo.ttf');
+}
+@font-face {
+  font-family: 'tex-gyre-cursor';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/tex-gyre-cursor/tex-gyre-cursor-bold.woff');
+}
+@font-face {
+  font-family: 'tex-gyre-cursor';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/tex-gyre-cursor/tex-gyre-cursor-italic.woff');
+}
+@font-face {
+  font-family: 'tex-gyre-cursor';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/tex-gyre-cursor/tex-gyre-cursor.woff');
+}
+@font-face {
+  font-family: 'ubuntu';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/ubuntu/ubuntu-bold.ttf');
+}
+@font-face {
+  font-family: 'ubuntu';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/ubuntu/ubuntu-italic.ttf');
+}
+@font-face {
+  font-family: 'ubuntu';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/ubuntu/ubuntu.ttf');
+}
+@font-face {
+  font-family: 'unifont';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/unifont/unifont.ttf');
+}
+@font-face {
+  font-family: 'vt323';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/vt323/vt323.ttf');
+}

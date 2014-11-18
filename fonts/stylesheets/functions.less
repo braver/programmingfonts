@@ -1,0 +1,66 @@
+@root-path: '../resources';
+
+
+.font (@name, @weight, @style, @file)
+  when (@weight = normal)
+  and (@style = normal) {
+
+
+  @font-path: '@{root-path}/@{file}';
+
+  @font-face {
+    font-family: @name;
+    font-weight: @weight;
+    font-style: @style;
+    src: url(@font-path);
+  }
+
+}
+
+.font (@name, @weight, @style, @file)
+  when (@weight = bold)
+  and (@style = normal) {
+
+
+  @font-path: '@{root-path}/@{file}';
+
+  @font-face {
+    font-family: @name;
+    font-weight: @weight;
+    font-style: @style;
+    src: url(@font-path);
+  }
+
+}
+
+.font (@name, @weight, @style, @file)
+  when (@weight = normal)
+  and (@style = italic) {
+
+
+  @font-path: '@{root-path}/@{file}';
+
+  @font-face {
+    font-family: @name;
+    font-weight: @weight;
+    font-style: @style;
+    src: url(@font-path);
+  }
+
+}
+
+.font (@name, @weight, @style, @file)
+  when (@weight = 'bold')
+  and (@style = 'italic') {
+
+
+  @font-path: '@{root-path}/@{file}';
+
+  @font-face {
+    font-family: @name;
+    font-weight: @weight;
+    font-style: @style;
+    src: url(@font-path);
+  }
+
+}

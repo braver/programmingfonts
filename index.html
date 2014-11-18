@@ -1,10 +1,298 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Programming Fonts Test Drive App</title>
-</head>
-<body>
-<h1>Hello World</h1>
-</body>
+<!doctype html>
+<html>
+  <head>
+    <title>Programmingfonts Test Drive App</title>
+    <meta charset="utf-8"/>
+
+
+    <!-- YUI reset -->
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+
+
+    <!-- CodeMirror Themes -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/codemirror.min/css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/3024-day.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/3024-night.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/ambiance.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/base16-dark.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/base16-light.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/blackboard.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/cobalt.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/eclipse.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/elegant.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/erlang-dark.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/lesser-dark.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/mbo.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/mdn-like.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/midnight.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/monokai.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/neat.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/neo.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/night.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/paraiso-dark.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/paraiso-light.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/pastel-on-dark.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/rubyblue.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/solarized.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/the-matrix.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/tomorrow-night-eighties.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/twilight.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/vibrant-ink.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/xq-dark.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/xq-light.min.css">
+
+    <!-- CodeMirror JS -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/codemirror.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/mode/javascript/javascript.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/addon/selection/active-line.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/addon/edit/matchbrackets.min.js"></script>
+
+
+    <!-- ProgrammingFonts @font-faces -->
+    <!-- Compiled (using less on node) with "lessc fonts.less > stylesheet.css" -->
+    <link rel="stylesheet" href="fonts/stylesheets/stylesheet.css">
+
+    <!-- Google/Typekit Web Font Loader: https://github.com/typekit/webfontloader -->
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.6/webfont.js"></script>
+
+
+    <style type="text/css">
+    .background {
+        background: url('http://static.tumblr.com/29b40daad2ef73e757cea2aa8538f348/ythva06/puMnf7dz7/tumblr_static_5c6usnox6y8880o08kk4gcwgo.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height:100%;
+        width:100%;
+        position: fixed;
+        z-index: 1;
+      }
+      pre,
+      textarea,
+      .CodeMirror {font-family: "gnu-freefont";}
+      .CodeMirror {border: 1px solid black; font-size:16px;}
+    </style>
+  </head>
+  <body>
+
+  <div class="background"></div>
+
+  <article>
+    <h2>Theme Demo</h2>
+    <form>
+      <textarea id="code" name="code">
+# This is just some placeholder stuff, but feel free to type your own
+
+function findSequence(goal) {
+  function find(start, history) {
+    if (start == goal)
+      return history;
+    else if (start > goal)
+      return null;
+    else
+      return find(start + 5, "(" + history + " + 5)") ||
+             find(start * 3, "(" + history + " * 3)");
+  }
+  return find(1, "1");
+}</textarea>
+</form>
+
+    <p>Select a theme:
+      <select onchange="selectTheme()" id="select">
+          <option selected>default</option>
+          <option>3024-day</option>
+          <option>3024-night</option>
+          <option>ambiance</option>
+          <option>base16-dark</option>
+          <option>base16-light</option>
+          <option>blackboard</option>
+          <option>cobalt</option>
+          <option>eclipse</option>
+          <option>elegant</option>
+          <option>erlang-dark</option>
+          <option>lesser-dark</option>
+          <option>mbo</option>
+          <option>mdn-like</option>
+          <option>midnight</option>
+          <option>monokai</option>
+          <option>neat</option>
+          <option>neo</option>
+          <option>night</option>
+          <option>paraiso-dark</option>
+          <option>paraiso-light</option>
+          <option>pastel-on-dark</option>
+          <option>rubyblue</option>
+          <option>solarized dark</option>
+          <option>solarized light</option>
+          <option>the-matrix</option>
+          <option>tomorrow-night-eighties</option>
+          <option>twilight</option>
+          <option>vibrant-ink</option>
+          <option>xq-dark</option>
+          <option>xq-light</option>
+      </select>
+    </p>
+
+    <p>Select a font:
+      <select onchange="selectFont()" id="select-font">
+        <option value="anka-coder">Anka/Coder</option>,
+        <option value="anonymous-pro">Anonymous Pro</option>,
+        <option value="average">Average Mono</option>,
+        <option value="bitstream-vera">Bitstream Vera Sans Mono</option>,
+        <option value="bpmono">bpmono</option>,
+        <option value="consolamono">consolamono</option>,
+        <option value="cousine">cousine</option>,
+        <option value="cutive">cutive</option>,
+        <option value="dejavu">dejavu</option>,
+        <option value="droid-sans">droid-sans</option>,
+        <option value="effects-eighty">effects-eighty</option>,
+        <option value="fantasque-sans">fantasque-sans</option>,
+        <option value="fifteen">fifteen</option>,
+        <option value="fira">fira</option>,
+        <option value="generic">generic</option>,
+        <option selected value="gnu-freefont">gnu-freefont</option>,
+        <option value="gnutypewriter">gnutypewriter</option>,
+        <option value="gohu">gohu</option>,
+        <option value="hermit">hermit</option>,
+        <option value="inconsolata">inconsolata</option>,
+        <option value="inconsolata-g">inconsolata-g</option>,
+        <option value="lekton">lekton</option>,
+        <option value="latin-modern">latin-modern</option>,
+        <option value="liberation">liberation</option>,
+        <option value="luxi">luxi</option>,
+        <option value="meslo">meslo</option>,
+        <option value="monofur">monofur</option>,
+        <option value="mplus-1m">mplus-1m</option>,
+        <option value="notcouriersans">notcouriersans</option>,
+        <option value="nova">nova</option>,
+        <option value="oxygen">oxygen</option>,
+        <option value="profont">profont</option>,
+        <option value="proggy-clean">proggy-clean</option>,
+        <option value="pt">pt</option>,
+        <option value="quinze">quinze</option>,
+        <option value="sax">sax</option>,
+        <option value="share-tech">share-tech</option>,
+        <option value="source-code-pro">source-code-pro</option>,
+        <option value="sudo">sudo</option>,
+        <option value="tex-gyre-cursor">tex-gyre-cursor</option>,
+        <option value="ubuntu">ubuntu</option>,
+        <option value="unifont">unifont</option>,
+        <option value="vt323">vt323</option>
+      </select>
+    </p>
+
+    </article>
+
+
+    <!-- Some jquery to make live easier -->
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+    <!-- The business -->
+    <script>
+      // configure the webfont loader
+      WebFont.load({
+        custom: {
+          families: [
+            'anka-coder',
+            'anonymous-pro',
+            'average',
+            'bitstream-vera',
+            'bpmono',
+            'consolamono',
+            'cousine',
+            'cutive',
+            'dejavu',
+            'droid-sans',
+            'effects-eighty',
+            'fantasque-sans',
+            'fifteen',
+            'fira',
+            'generic',
+            'gnu-freefont',
+            'gnutypewriter',
+            'gohu',
+            'hermit',
+            'inconsolata',
+            'inconsolata-g',
+            'lekton',
+            'latin-modern',
+            'liberation',
+            'luxi',
+            'meslo',
+            'monofur',
+            'mplus-1m',
+            'notcouriersans',
+            'nova',
+            'oxygen',
+            'profont',
+            'proggy-clean',
+            'pt',
+            'quinze',
+            'sax',
+            'share-tech',
+            'source-code-pro',
+            'sudo',
+            'tex-gyre-cursor',
+            'ubuntu',
+            'unifont',
+            'vt323'
+          ]
+        }
+      });
+      WebFontConfig = {
+        loading: function() {},
+        active: function() {},  //<-- think I need to put all codemirror stuff into this callback
+        inactive: function() {},
+        fontloading: function(familyName, fvd) {},
+        fontactive: function(familyName, fvd) {},
+        fontinactive: function(familyName, fvd) {}
+      };
+
+      // CodeMirror
+      var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+        lineNumbers: true,
+        styleActiveLine: true,
+        matchBrackets: true
+      });
+
+      // CodeMirror theme selector
+      var input = document.getElementById("select");
+      function selectTheme() {
+        var theme = input.options[input.selectedIndex].innerHTML;
+        editor.setOption("theme", theme);
+      }
+
+      var choice = document.location.search &&
+                   decodeURIComponent(document.location.search.slice(1));
+
+      if (choice) {
+        input.value = choice;
+        editor.setOption("theme", choice);
+      }
+
+      // ProgrammingFonts font selector
+      function selectFont() {
+        var font = $("#select-font").val();
+        console.log(font);
+
+
+        $("pre").css({
+          fontFamily: font
+        });
+        $("textarea").css({
+          fontFamily: font
+        });
+        $(".CodeMirror").css({
+          fontFamily: font
+        });
+
+      }
+
+      $(document).ready(function(){
+        selectFont();
+      });
+
+    </script>
+  </body>
 </html>

@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Programmingfonts Test Drive App</title>
+    <title>Programming Fonts - Test Drive App</title>
     <meta charset="utf-8"/>
 
 
@@ -101,24 +101,24 @@
         font-family: 'Patua One', serif;
         font-weight: normal;
         color: #f5f5f5;
-        font-size: 60px;
-        line-height: 60px;
-        margin: 0 0 60px 0;
+        font-size: 64px;
+        line-height: 64px;
+        margin: 0 0 64px 0;
         text-align: center;
-        padding-top: 60px;
+        padding-top: 64px;
         color: #f5f5f5;
       }
       .description {
         color:#eee; text-align: center;
         margin: 0 0 30px 0;
-        font-size: 19px;
+        font-size: 20px;
         font-weight: bold;
       }
       article {
         max-width: 90%;
         width: 800px;
         margin: 0 auto;
-        margin-bottom: 60px;
+        margin-bottom: 64px;
         background: white;
         border: 0;
         border-radius: 3px;
@@ -127,16 +127,16 @@
       }
       article p {
         text-align: center;
-        padding: 30px;
+        padding: 32px;
       }
       select {
-        margin-right: 30px;
+        margin-right: 32px;
       }
       footer {
         max-width: 90%;
         width: 800px;
         text-align: center;
-        margin: 60px auto;
+        margin: 64px auto;
       }
       a,
       a:link,
@@ -151,13 +151,16 @@
       }
       pre,
       textarea,
-      .CodeMirror {font-family: "gnu-freefont";}
       .CodeMirror {
-              border: none;
-              font-size:16px;
-              border-top-left-radius: 3px;
-              border-top-right-radius: 3px;
-              background: transparent;
+        font-family: "gnu-freefont";
+      }
+      .CodeMirror {
+        border: none;
+        font-size:16px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        background: transparent;
+        box-shadow: none !important;
       }
       .CodeMirror-gutters {
         background: transparent;
@@ -181,7 +184,7 @@
   <article>
     <form>
       <textarea id="code" name="code">
-# This is just some placeholder stuff, but feel free to type your own
+# Type some code:
 
 function findSequence(goal) {
   function find(start, history) {
@@ -245,10 +248,10 @@ function findSequence(goal) {
         <option value="fantasque-sans">fantasque-sans</option>,
         <option value="fifteen">fifteen</option>,
         <option value="fira">fira</option>,
+        <option value="fixedsys">Fixedsys</option>,
         <option value="generic">generic</option>,
         <option selected value="gnu-freefont">gnu-freefont</option>,
         <option value="gnutypewriter">gnutypewriter</option>,
-        <option value="gohu">gohu</option>,
         <option value="hermit">hermit</option>,
         <option value="inconsolata">inconsolata</option>,
         <option value="inconsolata-g">inconsolata-g</option>,
@@ -258,7 +261,7 @@ function findSequence(goal) {
         <option value="luxi">luxi</option>,
         <option value="meslo">meslo</option>,
         <option value="monofur">monofur</option>,
-        <option value="mplus-1m">mplus-1m</option>,
+        <option value="mplus">mplus-1m</option>,
         <option value="notcouriersans">notcouriersans</option>,
         <option value="nova">nova</option>,
         <option value="oxygen">oxygen</option>,
@@ -274,10 +277,17 @@ function findSequence(goal) {
         <option value="ubuntu">ubuntu</option>,
         <option value="unifont">unifont</option>,
         <option value="vt323">vt323</option>
+
+        <!-- In need of testing -->
+        <!-- <option value="gohu">gohu</option>, -->
+
       </select></span>
     </p>
 
+
     </article>
+
+    <p class="description"><a href="https://github.com/braver/fonts/blob/master/FONTS.md" rel="external">Dowload your favourite fonts</a></p>
 
     <footer>
       <p>
@@ -313,10 +323,11 @@ function findSequence(goal) {
             'fantasque-sans',
             'fifteen',
             'fira',
+            'fixedsys',
             'generic',
             'gnu-freefont',
             'gnutypewriter',
-            'gohu',
+            // 'gohu',
             'hermit',
             'inconsolata',
             'inconsolata-g',
@@ -326,7 +337,7 @@ function findSequence(goal) {
             'luxi',
             'meslo',
             'monofur',
-            'mplus-1m',
+            'mplus',
             'notcouriersans',
             'nova',
             'oxygen',
@@ -380,8 +391,6 @@ function findSequence(goal) {
       // ProgrammingFonts font selector
       function selectFont() {
         var font = $("#select-font").val();
-        console.log(font);
-
 
         $("pre").css({
           fontFamily: font

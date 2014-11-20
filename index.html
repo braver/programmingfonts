@@ -2,7 +2,9 @@
 <html>
   <head>
     <title>Programming Fonts - Test Drive App</title>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8"/>-    
+    
+    <meta name="viewport" content="width=device-width" />
 
 
     <!-- Favicons -->
@@ -124,10 +126,17 @@
         box-shadow: 0 0 4px rgba(0,0,0,.4);
         color: #505050;
       }
-      article p {
-        text-align: center;
-        padding: 32px;
+       article p {
+         text-align: center;
+         padding: 0 32px 16px 32px;
       }
+      article p:last-child {
+        padding-bottom: 32px;
+      }
+      article form {
+        margin-bottom: 32px;
+        padding: 32px;
+       }
       select {
         margin-right: 32px;
       }
@@ -168,7 +177,16 @@
         .select {
           display: block;
           text-align: right;
+          margin: 0;
         }
+      }
+      @media screen and (max-width:640px) {
+        h1 {
+          font-size: 48px;
+          line-height: 48px;
+          padding-top: 48px;
+          margin-bottom: 48px;
+         }
       }
     </style>
   </head>
@@ -283,14 +301,13 @@ function findSequence(goal) {
       </select></span>
     </p>
 
+    <p class="description"><a href="http://programmingfonts.org/list" rel="external">Download your favourite fonts</a></p>
 
     </article>
 
-    <p class="description"><a href="http://programmingfonts.org/list" rel="external">Download your favourite fonts</a></p>
-
     <footer>
       <p>
-        Built with <a href="http://codemirror.net/" rel="external">CodeMirror</a>, <a href="https://github.com/typekit/webfontloader" rel="external">Google/Typekit Web Font Loader</a>, <a href="http://cdnjs.com/" rel="external">CDNJS</a>, Photography from <a href="http://unsplash.com">Unsplash</a>
+        Built with <a href="http://codemirror.net/" rel="external">CodeMirror</a>, <a href="https://github.com/typekit/webfontloader" rel="external">Google/Typekit Web Font Loader</a>, <a href="http://cdnjs.com/" rel="external">CDNJS</a>, <a href="https://github.com/braver/programmingfonts">Github</a>, Photography from <a href="http://unsplash.com">Unsplash</a>
       </p>
       <p>
         <a href="http://programmingfonts.org">Back to the blog</a> -  &copy; 2014 <a href="http://koenlageveen.nl" style="color: #eee;">Koen Lageveen</a>

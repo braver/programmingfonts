@@ -215,6 +215,12 @@
   src: url('../resources/fira/fira.otf');
 }
 @font-face {
+  font-family: 'fixedsys';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/fixedsys/fixedsys.ttf');
+}
+@font-face {
   font-family: 'generic';
   font-weight: normal;
   font-style: normal;
@@ -243,6 +249,18 @@
   font-weight: normal;
   font-style: normal;
   src: url('../resources/gnutypewriter/gnutypewriter.otf');
+}
+@font-face {
+  font-family: 'gohu';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/gohu/gohu.ttf');
+}
+@font-face {
+  font-family: 'gohu';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/gohu/gohu.ttf');
 }
 @font-face {
   font-family: 'hermit';

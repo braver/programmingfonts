@@ -35,6 +35,12 @@
   src: url('../resources/anonymous-pro/anonymous-pro.ttf');
 }
 @font-face {
+  font-family: 'aurulent';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/aurulent/aurulent.otf');
+}
+@font-face {
   font-family: 'average';
   font-weight: bold;
   font-style: normal;
@@ -531,6 +537,12 @@
   font-weight: normal;
   font-style: normal;
   src: url('../resources/unifont/unifont.ttf');
+}
+@font-face {
+  font-family: 'verily';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/verily/verily.otf');
 }
 @font-face {
   font-family: 'vt323';

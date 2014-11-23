@@ -213,7 +213,8 @@ function findSequence(goal) {
              find(start * 3, "(" + history + " * 3)");
   }
   return find(1, "1");
-}</textarea>
+}
+</textarea>
 </form>
 
     <p><span class="select">Select a theme
@@ -252,6 +253,7 @@ function findSequence(goal) {
       <span class="select">Select a font <select onchange="selectFont()" id="select-font">
         <option value="anka-coder">Anka/Coder</option>,
         <option value="anonymous-pro">Anonymous Pro</option>,
+        <option value="aurulent">Aurulent Sans Mono</option>,
         <option value="average">Average Mono</option>,
         <option value="bitstream-vera">Bitstream Vera Sans Mono</option>,
         <option value="bpmono">BPmono</option>,
@@ -266,7 +268,7 @@ function findSequence(goal) {
         <option value="fira">Fira Mono</option>,
         <option value="fixedsys">Fixedsys</option>,
         <option value="generic">Generic Mono</option>,
-        <option selected value="gnu-freefont"> GNU Freefont</option>,
+        <option selected value="gnu-freefont">GNU Freefont</option>,
         <option value="gnutypewriter">GNUTypewriter</option>,
         <option value="unifont">GNU Unifont</option>,
         <option value="hermit">Hermit</option>,
@@ -292,6 +294,7 @@ function findSequence(goal) {
         <option value="sudo">Sudo</option>,
         <option value="tex-gyre-cursor">TeX Qyre Cursor</option>,
         <option value="ubuntu">Ubuntu Mono</option>,
+        <option value="verily">Verily Serif Mono</option>
         <option value="vt323">VT323</option>
 
         <!-- In need of testing -->
@@ -326,6 +329,7 @@ function findSequence(goal) {
           families: [
             'anka-coder',
             'anonymous-pro',
+            'aurulent',
             'average',
             'bitstream-vera',
             'bpmono',
@@ -367,18 +371,11 @@ function findSequence(goal) {
             'tex-gyre-cursor',
             'ubuntu',
             'unifont',
+            'verily',
             'vt323'
           ]
         }
       });
-      WebFontConfig = {
-        loading: function() {},
-        active: function() {},  //<-- think I need to put all codemirror stuff into this callback
-        inactive: function() {},
-        fontloading: function(familyName, fvd) {},
-        fontactive: function(familyName, fvd) {},
-        fontinactive: function(familyName, fvd) {}
-      };
 
       // CodeMirror
       var editor = CodeMirror.fromTextArea(document.getElementById("code"), {

@@ -68,11 +68,12 @@ http://openfontlibrary.org/en/font/average-mono
 
 If to be copied is the sincerest form of flattery, Jim Lyles has much to be proud of: this has to be the [most copied font ever](http://dejavu-fonts.org/wiki/index.php?title=Bitstream_Vera_derivatives)). A classic, this font especially well suited for use on Windows since it's fully hinted. Although Bitstream did a wonderful job, its 300 glyphs can be limiting. Luckily, it has been open sourced, inspiring the [DejaVu Project](http://dejavu-fonts.org/wiki/Main_Page) to expand the coverage of this wonderful typeface.
 
-bitstream, sans, 2002
+bitstream, sans, 2002, professional
 
 By **Jim Lyles** (2002)
 *Alias: bitstream-vera - License: Bitstream Vera License*
 http://www.fontsquirrel.com/fonts/Bitstream-Vera-Sans-Mono
+
 
 # BPmono
 
@@ -83,6 +84,7 @@ sans, display
 By **Backpacker**
 *Alias: bpmono - License: Creative Commons*
 http://www.fontsquirrel.com/fonts/BPmono
+
 
 # Consolamono
 
@@ -106,7 +108,7 @@ http://openfontlibrary.org/en/font/consolamono
 
 This font was designed by Steve Matteson, more widely known for his work on the Droid fontfaces you'll find on any Android device. It was created especially for on-screen use, and covers regular, bold and italic in an amazing 2391 Glyphs. Compatibility might be its strongest feat, but it's a serious font for every day use.
 
-courier, steve matteson, 2010, sans, compatibility
+courier, steve matteson, 2010, sans, compatibility, professional
 
 By **Steve Matteson** (2010?)
 *Alias: cousine - License: Apache*
@@ -149,7 +151,7 @@ http://dejavu-fonts.org/wiki/Main_Page
 
 Designed to carry Google Android's friendly character, Steve Matteson designed this font to be at its best on (small) screens. Sincs its initial relase it has been perfected  and expanded, making it a reliable use-anywhere font. At the same time it's fun and ligh-hearted. For some reason it lacks a true italic, and it should better distinguish o's and zeros, but it supports more languages that you can swing a smartphone at.
 
-sans, humanist, 2006, steve matteson
+sans, humanist, 2006, steve matteson, professional
 
 By **Steve Matteson** (2006)
 *Alias: droid-sans - License: Apache*
@@ -164,7 +166,7 @@ http://www.droidfonts.com
 
 If you're feeling nostalgic for the days of dot-matrix printers (oh the noise they made!) this is your font. Perhaps more whimsycal than than practical, Effects Eighty works as advertised. Excellent retro.
 
-display, 2013, retro
+display, 2013, retro, sans
 
 By **Peter Hull** (2013)
 *Alias: effects-eighty - License: SIL OFL*
@@ -178,29 +180,36 @@ http://openfontlibrary.org/en/font/effects-eighty
 
 Conceived as the "the mutant child of Comic Sans and Helvetica Neue", this is fun as a programming font can get (legally at least). Make no mistakes though, this isn't Comic Sans and Fantasque Sans Mono is very serious. The open source project has seen a great many updates throughout the year. Add a dash of wibbly-wobbly to make a day of debugging a bit less dreary.
 
-2013, github, active development
+2013, github, active development, open source, sans
 
 By **Jany Belluz** (2013)
 *Alias: fantasque-sans - License: SIL OFL*
 http://openfontlibrary.org/en/font/fantasque-sans-mono
 https://github.com/belluzj/fantasque-sans
 
+
 # Fifteen
 
 >"Fifteen is a faux bitmap font. This font is designed to be used as a monotype font for use in a terminal, or at a larger size, to look like an over scaled bitmap. It is designed for 15 pixel use. It is as narrow as I could make it, and works well in a 132 column terminal window."
 [...](http://openfontlibrary.org/en/font/fifteen)
 
-This is not just some programming font. It's designed like a bitmap font, but built as an outline font for maximum compatibility. That does however mean it only looks good at 15 pixels. Indeed, it seems it could not have been made any more narrow:it is supremely efficient at getting lots of code on the screen without sacrificing readability. Fifteen is nearly halve the width of Cousine or Droid Sans, ideal for digging though log files.
+This is not just some programming font. It's designed like a bitmap font, but built as an outline font for maximum compatibility. That does however mean it only looks good at 15 pixels and doesn't have any true bold or italic styles. Indeed, it seems it could not have been made any more narrow: it is supremely efficient at getting lots of code on the screen without sacrificing readability. Fifteen is nearly halve the width of Cousine or Droid Sans, ideal for digging though log files.
 
-2013, pixel, narrow
+2013, pixel, narrow, sans
 
 By **James Kilfiger** (2013?)
 *Alias: fifteen - License: SIL OFL*
 http://openfontlibrary.org/en/font/fifteen
 
+
 # Fira Mono
-"Designed to integrate with the character of the FirefoxOS, the Fira typefaces also aim to cover the legibility needs for a large range of handsets varying in screen quality and rendering."
+
+> "Designed to integrate with the character of the FirefoxOS, the Fira typefaces also aim to cover the legibility needs for a large range of handsets varying in screen quality and rendering."
 [...](http://www.google.com/fonts/specimen/Fira+Mono)
+
+Fira was designed as the default fontface for the Firefox OS. A smartphone OS looking to leverage web technology to a create a more open alternative to iOS and Android. Like the best new fonts it's a fresh design specifically developed for on-screen usage. While a true italic has been ommitted, it does cover over 1100 glyphs and should basically work everywhere. This is no cheap free font but a true professional font by a reknowned designer.
+
+professional, 2013, sans
 
 By **Erik Spiekerman, Carois Type Design** (2013)
 *Alias: fira - License: SIL OFL*
@@ -208,33 +217,54 @@ https://www.mozilla.org/en-US/styleguide/products/firefox-os/typeface/
 http://www.fontsquirrel.com/fonts/fira-mono
 http://www.google.com/fonts/specimen/Fira+Mono
 
+
 # Fixedsys
-"Fixedsys is a family of raster monospaced fonts. The name means fixed system, because its glyphs are monospace or fixed-width (although bolded characters are wider than non-bolded, unlike other monospace fonts such as Courier). It is the oldest font in Windows, and was the system font in Windows 1.0 and 2.0, where it was simply named "System". For Windows 3.x, the system font was changed to a proportional sans-serif font named System, but Fixedsys remained the default font in Notepad."
+
+> "Fixedsys is a family of raster monospaced fonts. The name means fixed system, because its glyphs are monospace or fixed-width (although bolded characters are wider than non-bolded, unlike other monospace fonts such as Courier). It is the oldest font in Windows, and was the system font in Windows 1.0 and 2.0, where it was simply named "System". For Windows 3.x, the system font was changed to a proportional sans-serif font named System, but Fixedsys remained the default font in Notepad."
+
+Switch to black on white, turn of anti-aliasing, set it to 10 pixels and imagine yourself back in a time when [Madonna was ground-breaking](https://www.youtube.com/watch?v=a7mxzs649t4) and you could get shoes with lights that would blink as you walked. Awesome? Yes. Would you want to go back? Definitely, but perhaps not indefinitely. Retro has its place though and this might bring you there without giving up modern niceties like good coffee and  [phone](http://20thcenturyprops.co.uk/65/Telephones/1980s-retro-Philips-portable-cellular-phone-P405.html) you can [fit in your pocket](http://www.theverge.com/2014/10/1/6880089/this-bent-iphone-6-poster-is-perfect).
+
+pixel, retro, 1980
 
 By **Microsoft** (1980's?)
 *Alias: fixedsys - License: GNU GPL*
-http://www.moviecorner.de/en/font-fixedsys-ttf/description.html
+http://www.moviecorner.de/en/font-fixedsys-ttf/description  
 https://en.wikipedia.org/wiki/Fixedsys
 
+
 # Generic Mono
-"A generic monospaced font"
+
+> "A generic monospaced font"
 [...](http://openfontlibrary.org/en/font/generic-mono)
+
+Hard to say much about a font is so generic and proud of it. It's functional on non-offensive, but it's limited coverage and lack of bold and italics hold it back. It's hard to fault its basic design though, and it's very new, so who knows what the future holds for this font.
+
+sans, 2014
 
 By **Luc Devroye** (2014)
 *Alias: generic - License: SIL OFL*
 http://openfontlibrary.org/en/font/generic-mono
 
+
 # GNU Freefont
-"GNU FreeFont is a free family of scalable outline fonts, suitable for general use on computers and for desktop publishing. It is Unicode-encoded for compatibility with all modern operating systems."
+
+> "GNU FreeFont is a free family of scalable outline fonts, suitable for general use on computers and for desktop publishing. It is Unicode-encoded for compatibility with all modern operating systems."
 [...](https://www.gnu.org/software/freefont/)
+
+This isn't a designer's font, but a truly open source community effort to create a single font that has it all. It comes in bold and italic and has the most complete coverage of any font featured on this blog. While an OS will mix and match fonts for missing glyphs FreeFont looks to be a consistent source for anything mankind has ever put into writing. Still, every now and then new releases [improve the offering](https://savannah.gnu.org/bugs/?group=freefont). If you need specific scripts or write a lot of math in LateX, this font will not let you down.
+
+open source, compatibility, 2002, active development, serif, latex
 
 By **Primož Peterlin, Steve White** (2002)
 *Alias: gnu-freefont - License: GNU GPL*
 https://www.gnu.org/software/freefont/
 
+
 # GNUTypewriter
-"Multilingual font imitating a real typewriter."
+
+>"Multilingual font imitating a real typewriter."
 [...](http://openfontlibrary.org/en/font/gnutypewriter)
+
 
 By **Lukasz Komsta** (2011)
 *Alias: gnutypewriter - License: SIL OFL*

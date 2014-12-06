@@ -326,13 +326,19 @@ http://leonardo-m.livejournal.com/77079.html
 > "The Latin Modern fonts are derived from the famous Computer Modern fonts designed by Donald E. Knuth and described in Volume E of his Computers & Typesetting series."
 [...](http://www.gust.org.pl/gust/projects/e-foundry/latin-modern)
 
+This font has been developed by the Polish TeX Users Group (GUST). It supports both diacritical and mathematical characters. If you really need extended math support there's even an Latin Modern Math font to help you out. It features subtle serifs, great coverage (734 glyphs), and wonderful light and italic styles.
+
+2002, latex, serif
+
 By **Bogusław Jackowski, Janusz M. Nowacki** (2002)
 *Alias: latin-modern - License: GUST Font License*
 http://www.gust.org.pl/gust/projects/e-foundry/latin-modern
 http://www.fontsquirrel.com/fonts/Latin-Modern-Mono
 
+
 # Lekton
-"Lekton has been designed at ISIA Urbino, Italy, and is inspired by some of the typefaces used on the Olivetti typewriters."
+
+> "Lekton has been designed at ISIA Urbino, Italy, and is inspired by some of the typefaces used on the Olivetti typewriters."
 [...](http://www.google.com/fonts/specimen/Lekton)
 
 By **Accademia di Belle Arti di Urbino** (2008)

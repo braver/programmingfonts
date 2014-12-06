@@ -251,7 +251,7 @@ http://openfontlibrary.org/en/font/generic-mono
 > "GNU FreeFont is a free family of scalable outline fonts, suitable for general use on computers and for desktop publishing. It is Unicode-encoded for compatibility with all modern operating systems."
 [...](https://www.gnu.org/software/freefont/)
 
-This isn't a designer's font, but an open source community effort to create a single font that has it all. It comes in bold and italic and has the most complete coverage of any font featured on this blog. While an OS will mix and match fonts for missing glyphs FreeFont looks to be a consistent source for anything mankind has ever put into writing. Still, every now and then new releases [improve the offering](https://savannah.gnu.org/bugs/?group=freefont). If you need specific scripts or write a lot of math in LateX, this font will not let you down.
+This isn't a designer's font, but an open source community effort to create a single font that has it all. It comes in bold and italic and has the most complete coverage of any font featured on this blog. While an OS will mix and match fonts for missing glyphs FreeFont looks to be a consistent source for anything mankind has ever put into writing. Still, every now and then new releases [improve the offering](https://savannah.gnu.org/bugs/?group=freefont). If you need specific scripts or write a lot of math in LateX, this font will not let you down. It would have been better with a more distinct zero though, it lacks a slash or dot to set it apart from the capital o.
 
 open source, compatibility, 2002, active development, serif, latex
 
@@ -277,6 +277,10 @@ http://openfontlibrary.org/en/font/gnutypewriter
 "This version provides full coverage of the Unicode 7.0 Basic Mulitlingual Plane (BMP). The BMP is the first Unicode "plane" of 65,536 code points, and has character encoding for most of the world's modern scripts.
 As of 20 June 2008 (by coincidence the Summer Solstice), GNU Unifont had a glyph for every printable code point in the Unicode BMP. That version covered Unicode 5.1, which was the current version at the time. Roman Czyborra began this effort in 1998, with earlier efforts starting around 1994. The 2008 release was thus the culmination of a more than ten-year effort."
 [...](http://www.unifoundry.com/unifont.html)
+
+Another typical GNU project, it's like a sans version of the GNU Freefont. Not in style but in intent: its coverage is equally amazing and the project is also very active (the most recent update was last October).
+
+sans, open source, active development
 
 By **Roman Czyborra** (1998)
 *Alias: gnu-unifont - License: GNU GPL*

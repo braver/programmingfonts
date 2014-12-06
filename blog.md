@@ -251,7 +251,7 @@ http://openfontlibrary.org/en/font/generic-mono
 > "GNU FreeFont is a free family of scalable outline fonts, suitable for general use on computers and for desktop publishing. It is Unicode-encoded for compatibility with all modern operating systems."
 [...](https://www.gnu.org/software/freefont/)
 
-This isn't a designer's font, but a truly open source community effort to create a single font that has it all. It comes in bold and italic and has the most complete coverage of any font featured on this blog. While an OS will mix and match fonts for missing glyphs FreeFont looks to be a consistent source for anything mankind has ever put into writing. Still, every now and then new releases [improve the offering](https://savannah.gnu.org/bugs/?group=freefont). If you need specific scripts or write a lot of math in LateX, this font will not let you down.
+This isn't a designer's font, but an open source community effort to create a single font that has it all. It comes in bold and italic and has the most complete coverage of any font featured on this blog. While an OS will mix and match fonts for missing glyphs FreeFont looks to be a consistent source for anything mankind has ever put into writing. Still, every now and then new releases [improve the offering](https://savannah.gnu.org/bugs/?group=freefont). If you need specific scripts or write a lot of math in LateX, this font will not let you down.
 
 open source, compatibility, 2002, active development, serif, latex
 
@@ -265,6 +265,9 @@ https://www.gnu.org/software/freefont/
 >"Multilingual font imitating a real typewriter."
 [...](http://openfontlibrary.org/en/font/gnutypewriter)
 
+This font doesn't even try to be practical, it's all style. Its imitation of a typewriter (and one that needs cleaning at that...) is fun, but it
+
+display, typewriter
 
 By **Lukasz Komsta** (2011)
 *Alias: gnutypewriter - License: SIL OFL*

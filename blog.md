@@ -37,7 +37,7 @@ http://www.google.com/fonts/specimen/Anonymous+Pro
 > "Aurulent Sans is a sans serif font I'm developing for use as the primary interface font on X Windows on GNU/Linux."
 [...](http://delubrum.org)
 
-It's a bit limited, 264 Glyphs, and bold and italic need to be synthesized. The creator is an Associate Professor in the Department of Mathematics of the University of Nebraska–Lincoln. While Aurulent may [have its flaws](http://typophile.com/node/31970), and doesn't distinguish the 0's and O's, it's a pretty good looking font considering it basically seems to be an enthusiasts hobby project.
+It's a bit limited, 264 Glyphs, and bold and italic need to be synthesized. The creator is an Associate Professor in the Department of Mathematics of the University of Nebraska–Lincoln. While Aurulent may [have its flaws](http://typophile.com/node/31970), and doesn't distinguish the 0's and O's, it's a pretty good looking font considering it basically seems to be a hobby project.
 
 stephen g hartke, sans, 2007, humanist
 
@@ -92,8 +92,6 @@ This is a beautiful, rounded font with loads of character. While it might not lo
 
 sans, display, 2011
 
-I1i!0oO
-
 [...](http://openfontlibrary.org/en/font/consolamono)
 
 By **Wojciech Kalinowski** (2011)
@@ -120,7 +118,7 @@ http://www.google.com/fonts/specimen/Cousine
 
 > "The design of Cutive, and this monospace sister family Cutive Mono, is based on a number of classic typewriter typefaces, in particular the faces of IBM's 'Executive,' and the older 'Smith-Premier.'" [...](http://www.google.com/fonts/specimen/Cutive+Mono)
 
-Cutive is a thin and light typewriter font with subtle serifs. A fresh and modern take on the classic style, this wonderful writer's typeface covers the basic western character set. It doesn't have true bold and italic, but that shouldn't hold you back. Get your Hemingway on and blog away with this modern classic.
+Cutive is a thin and light typewriter font with subtle serifs. A fresh and modern take on the classic style, this wonderful writer's typeface covers the basic western character set. It doesn't have true bold and italic, and zero's and o's aren't very distinct, but that shouldn't hold you back. Get your Hemingway on and blog away with this modern classic.
 
 2012, typewriter, github, serif
 
@@ -149,24 +147,38 @@ http://dejavu-fonts.org/wiki/Main_Page
 > "The Droid family of fonts was designed by Ascender’s Steve Matteson beginning in the fall of 2006. The goal was to provide optimal quality and reading comfort on a mobile handset. The Droid fonts were optimized for use in application menus, web browsers and for other screen text."
 [...](http://www.droidfonts.com)
 
+Designed to carry Google Android's friendly character, Steve Matteson designed this font to be at its best on (small) screens. Sincs its initial relase it has been perfected  and expanded, making it a reliable use-anywhere font. At the same time it's fun and ligh-hearted. For some reason it lacks a true italic, and it should better distinguish o's and zeros, but it supports more languages that you can swing a smartphone at.
 
+sans, humanist, 2006, steve matteson
 
 By **Steve Matteson** (2006)
 *Alias: droid-sans - License: Apache*
 http://www.google.com/fonts/specimen/Droid+Sans+Mono
 http://www.droidfonts.com
 
+
 # Effects Eighty
-"Effects Eighty is an homage to the dot-matrix printers of the 1980s. It is a very faithful reproduction of the output of one of that class of printers. The family includes normal, italic, bold, and bold italic versions. It supports the ASCII printable character set. An update with at least some Latin-1 support is planned."
+
+> "Effects Eighty is an homage to the dot-matrix printers of the 1980s. It is a very faithful reproduction of the output of one of that class of printers. The family includes normal, italic, bold, and bold italic versions. It supports the ASCII printable character set. An update with at least some Latin-1 support is planned."
 [...](http://openfontlibrary.org/en/font/effects-eighty)
+
+If you're feeling nostalgic for the days of dot-matrix printers (oh the noise they made!) this is your font. Perhaps more whimsycal than than practical, Effects Eighty works as advertised. Excellent retro.
+
+display, 2013, retro
 
 By **Peter Hull** (2013)
 *Alias: effects-eighty - License: SIL OFL*
 http://openfontlibrary.org/en/font/effects-eighty
 
+
 # Fantasque Sans Mono
-"A programming font, designed with functionality in mind, and with some wibbly-wobbly handwriting-like fuzziness that makes it unassumingly cool."
+
+> "A programming font, designed with functionality in mind, and with some wibbly-wobbly handwriting-like fuzziness that makes it unassumingly cool."
 [...](https://github.com/belluzj/fantasque-sans)
+
+Conceived as the "the mutant child of Comic Sans and Helvetica Neue", this is fun as a programming font can get (legally at least). Make no mistakes though, this isn't Comic Sans and Fantasque Sans Mono is very serious. The open source project has seen a great many updates throughout the year. Add a dash of wibbly-wobbly to make a day of debugging a bit less dreary.
+
+2013, github, active development
 
 By **Jany Belluz** (2013)
 *Alias: fantasque-sans - License: SIL OFL*
@@ -174,8 +186,13 @@ http://openfontlibrary.org/en/font/fantasque-sans-mono
 https://github.com/belluzj/fantasque-sans
 
 # Fifteen
-"Fifteen is a faux bitmap font. This font is designed to be used as a monotype font for use in a terminal, or at a larger size, to look like an over scaled bitmap. It is designed for 15 pixel use. It is as narrow as I could make it, and works well in a 132 column terminal window. It is, of course, monospaced and has clearly distinct 1I and l, and the zero is slashed. Character set is limited in this first release to ascii + smart quotes."
+
+>"Fifteen is a faux bitmap font. This font is designed to be used as a monotype font for use in a terminal, or at a larger size, to look like an over scaled bitmap. It is designed for 15 pixel use. It is as narrow as I could make it, and works well in a 132 column terminal window."
 [...](http://openfontlibrary.org/en/font/fifteen)
+
+This is not just some programming font. It's designed like a bitmap font, but built as an outline font for maximum compatibility. That does however mean it only looks good at 15 pixels. Indeed, it seems it could not have been made any more narrow:it is supremely efficient at getting lots of code on the screen without sacrificing readability. Fifteen is nearly halve the width of Cousine or Droid Sans, ideal for digging though log files.
+
+2013, pixel, narrow
 
 By **James Kilfiger** (2013?)
 *Alias: fifteen - License: SIL OFL*

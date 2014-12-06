@@ -260,61 +260,70 @@ By **Primož Peterlin, Steve White** (2002)
 https://www.gnu.org/software/freefont/
 
 
-# GNUTypewriter
-
->"Multilingual font imitating a real typewriter."
-[...](http://openfontlibrary.org/en/font/gnutypewriter)
-
-This font doesn't even try to be practical, it's all style. Its imitation of a typewriter (and one that needs cleaning at that...) is fun, but it
-
-display, typewriter
-
-By **Lukasz Komsta** (2011)
-*Alias: gnutypewriter - License: SIL OFL*
-http://openfontlibrary.org/en/font/gnutypewriter
-
 # GNU Unifont
-"This version provides full coverage of the Unicode 7.0 Basic Mulitlingual Plane (BMP). The BMP is the first Unicode "plane" of 65,536 code points, and has character encoding for most of the world's modern scripts.
-As of 20 June 2008 (by coincidence the Summer Solstice), GNU Unifont had a glyph for every printable code point in the Unicode BMP. That version covered Unicode 5.1, which was the current version at the time. Roman Czyborra began this effort in 1998, with earlier efforts starting around 1994. The 2008 release was thus the culmination of a more than ten-year effort."
+
+> "This version provides full coverage of the Unicode 7.0 Basic Mulitlingual Plane (BMP). The BMP is the first Unicode "plane" of 65,536 code points, and has character encoding for most of the world's modern scripts.
+As of 20 June 2008 (by coincidence the Summer Solstice), GNU Unifont had a glyph for every printable code point in the Unicode BMP."
 [...](http://www.unifoundry.com/unifont.html)
 
-Another typical GNU project, it's like a sans version of the GNU Freefont. Not in style but in intent: its coverage is equally amazing and the project is also very active (the most recent update was last October).
+Another typical GNU project, it's like a sans version of the GNU Freefont. Not in style but in intent: its coverage is equally amazing and the project is also very active (the most recent update was last October). While the project is somewhat done, they're still pushing for compatibility and development in open tools like Fontforge. If you need your font to be reliable, you can't go wrong with GNU Unifont even though it lacks a distinct zero.
 
-sans, open source, active development
+sans, open source, active development, 1998
 
 By **Roman Czyborra** (1998)
 *Alias: gnu-unifont - License: GNU GPL*
 http://www.unifoundry.com/unifont.html
+https://savannah.gnu.org/projects/unifont
+
 
 # Hermit
-"Hermit is a monospace font designed to be clear, pragmatic and very readable. Its creation has been focused on programming. Every glyph was carefully planned and calculated, according to defined principles and rules. For this reason, Hermit is coherent and regular."
+
+> "Hermit is a monospace font designed to be clear, pragmatic and very readable. Its creation has been focused on programming. Every glyph was carefully planned and calculated, according to defined principles and rules. For this reason, Hermit is coherent and regular."
 [...](https://pcaro.es/p/hermit/)
+
+This font is a clear and modern (futuristic even) sans, created by a programmer to be free  for everyone. It's limited coverage won't fill everyones needs, but it is well done and quite popular.
+
+sans, 2013
 
 By **Pablo Caro** (2013)
 *Alias: hermit - License: SIL OFL*
 https://pcaro.es/p/hermit/
 
+
 # Inconsolata
-"Inconsolata is my first serious original font release. It is a monospace font, designed for printed code listings and the like. There are a great many "programmer fonts," designed primarily for use on the screen, but in most cases do not have the attention to detail for high resolution rendering.
+
+> "Inconsolata is my first serious original font release. It is a monospace font, designed for printed code listings and the like. There are a great many "programmer fonts," designed primarily for use on the screen, but in most cases do not have the attention to detail for high resolution rendering.
 Inconsolata draws from many inspirations and sources. I was particularly struck by the beauty of Luc(as) de Groot's Consolas, which is his monospaced design for Microsoft's Vista release. This font, similar to his earlier TheSansMono, demonstrated clearly to me that monospaced fonts do not have to suck."
 [...](http://www.levien.com/type/myfonts/inconsolata.html)
+
+Inconsolata, inspired (also in name) by Consolas, is very well made and easy on the eyes. Its creator is a Google Android engineer, who was also involved with Google Fonts. Although this font doesn't come from a foundry it shows the designer knew what he was doing. If there is a downside it's a lack of coverage (291 glyphs) of certain scripts and true bold and italics.
+
+sans, 2001, consolas
 
 By **Raph Levien** (2001)
 *Alias: inconsolata - License: SIL OFL*
 http://www.levien.com/type/myfonts/inconsolata.html
-http://www.google.com/fonts/specimen/Inconsolata
+http://www.google.com/fonts/specimen/Inconsolata  
+http://www.fontsquirrel.com/fonts/Inconsolata
+
 
 # Inconsolata-g
-"I use the free Inconsolata font (by Raph Levien) to program and as shell font, and I like it a lot. I have seen this blog post: "Adding straight single and double quotes to Inconsolata", that offers Inconsolata-dz:
-So I've uses FontForge to modify more his Inconsolata version, to fix some of the things I don't like of Inconsolata."
+
+> "I use the free Inconsolata font (by Raph Levien) to program and as shell font, and I like it a lot... So I've uses FontForge to modify more his Inconsolata version, to fix some of the things I don't like of Inconsolata."
 [...](http://leonardo-m.livejournal.com/77079.html)
+
+This variation of Inconsolata, made possible by the OFL license, contains some minor tweaks. Most immediately visible is its increased size. It also uses straight quotes by default. If you  agree with Leonardo Maffi that this is an improvement, well there you go.
+
+sans, consolas, 2009
 
 By **Leonardo Maffi** (2009)
 *Alias: inconsolata-g - License: SIL OFL*
 http://leonardo-m.livejournal.com/77079.html
 
+
 # Latin Modern Mono
-"The Latin Modern fonts are derived from the famous Computer Modern fonts designed by Donald E. Knuth and described in Volume E of his Computers & Typesetting series."
+
+> "The Latin Modern fonts are derived from the famous Computer Modern fonts designed by Donald E. Knuth and described in Volume E of his Computers & Typesetting series."
 [...](http://www.gust.org.pl/gust/projects/e-foundry/latin-modern)
 
 By **Bogusław Jackowski, Janusz M. Nowacki** (2002)

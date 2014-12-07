@@ -386,23 +386,38 @@ http://www.fontsquirrel.com/fonts/Luxi-Mono
 (which is a customized Bitstream Vera Sans Mono)."
 [...](https://github.com/andreberg/Meslo-Font)
 
+This font was created to tweak the already wonderful Menlo font. Recent updates enhance Windows compatibility with special tweaks to hinting for ClearType.
+
+bitstream vera, 2010, sans, github
+
 By **André Berg** (2010)
 *Alias: meslo - License: Apache*
 https://github.com/andreberg/Meslo-Font
 
+
+# Monofur
+
+Not much is known about this font, that is available freely from services like [dafont.com](http://www.dafont.com/monofur.font). It looks great though, has distinct zeros and features a character all its own.
+
+By **Tobias Benjamin Köhler** (2000)
+*Alias: monofur - License: Freeware*
+http://www.dafont.com/monofur.font
+
+
 # M+
-"M+ M emphasize the balance of natural letterform and high legibility. while M+ MN is aimed at a new distinctive design for a terminal font specialized to programming."
+
+> "M+ M emphasize the balance of natural letterform and high legibility. while M+ MN is aimed at a new distinctive design for a terminal font specialized to programming."
 [...](http://mplus-fonts.sourceforge.jp/mplus-outline-fonts/design/index-en.html)
+
+This font was developed by the Japanese M+ Fonts Project, so there are als Japanese script versions available. It covers 1681 glyphs, but lacks a true italic. It's actually quite narrow but quite readable. M+ is also well suited for programming as all similar characters have something to set it apart visually.
+
+2003, sans
 
 By **Coji Morishita** (2003)
 *Alias: mplus - License: custom*
 http://www.fontsquirrel.com/fonts/M-1m
 http://mplus-fonts.sourceforge.jp
 
-# Monofur
-By **Tobias Benjamin Köhler** (2000)
-*Alias: monofur - License: Freeware*
-http://www.dafont.com/monofur.font
 
 # NotCourierSans
 "NotCourierSans is a re-interpretation of Nimbus Mono whose design began in Wroclaw at the occasion of the Libre Graphics Meeting 2008."
@@ -549,9 +564,11 @@ By **Mark Simonson**
 http://www.fontsquirrel.com/fonts/Anonymous
 
 # Audimat Mono
+247 Glyphs light and smallcaps
 By **SMeltery**
 *License: requires permission*
 http://www.fontsquirrel.com/fonts/Audimat-Mono
+http://www.smeltery.net/fonts/audimat-mono
 
 # Creep
 By **Romeo Van Snick**
@@ -644,6 +661,10 @@ https://en.wikipedia.org/wiki/Lucida_(typeface)
 # Monaco
 By Susan Kare and Kris Holmes
 https://en.wikipedia.org/wiki/Monaco_(typeface)
+
+# Nu Sans Monospaced
+By Scooter Graphics  
+http://www.scootergraphics.com/nusansmono/index.html
 
 # PragmataPro
 By Fabrizio Schiavi

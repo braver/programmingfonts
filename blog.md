@@ -326,7 +326,7 @@ http://leonardo-m.livejournal.com/77079.html
 > "The Latin Modern fonts are derived from the famous Computer Modern fonts designed by Donald E. Knuth and described in Volume E of his Computers & Typesetting series."
 [...](http://www.gust.org.pl/gust/projects/e-foundry/latin-modern)
 
-This font has been developed by the Polish TeX Users Group (GUST). It supports both diacritical and mathematical characters. If you really need extended math support there's even an Latin Modern Math font to help you out. It features subtle serifs, great coverage (734 glyphs), and wonderful light and italic styles.
+This font has been developed by the Polish TeX Users Group (GUST). They paid specific attention to both diacritical and mathematical characters. If you really need extended math support there's even an Latin Modern Math font to help you out. Latin Modern Mono features subtle serifs, great coverage (734 glyphs), and wonderful light and italic styles.
 
 2002, latex, serif
 
@@ -341,32 +341,48 @@ http://www.fontsquirrel.com/fonts/Latin-Modern-Mono
 > "Lekton has been designed at ISIA Urbino, Italy, and is inspired by some of the typefaces used on the Olivetti typewriters."
 [...](http://www.google.com/fonts/specimen/Lekton)
 
+Originally designed by [a group of students at ISIA Urbino](http://lektongroups.blogspot.co.uk/2010/04/luglio-2008.html), this font was inspired by some of the typefaces used on the Olivetti typewriters. It is monospaced because the typewriter fonts were like that too. A programmer may fault it for its lack of a distint zero, but on the upside it features 953 glyphs in regular, bold and italic. Perhaps not surprising considering its origin, Lekton is really a writers typeface.
+
+2008, typewriter, sans
+
 By **Accademia di Belle Arti di Urbino** (2008)
 *Alias: lekton - License: SIL OFL*
 http://www.fontsquirrel.com/fonts/lekton
 http://www.google.com/fonts/specimen/Lekton
 
+
 # Liberation Mono
-"Liberation Sans, Liberation Sans Narrow and Liberation Serif closely match the metrics of Monotype Corporation fonts Arial, Arial Narrow and Times New Roman, respectively.
-Liberation Mono is styled closer to Liberation Sans than Monotype's Courier New, though its metrics match with Courier New.
-The Liberation fonts are intended as free, open-source replacements of the aforementioned commercial fonts."
+
+> "On May 9, 2007, Red Hat announced the public release of these fonts under the trademark LIBERATION at the Red Hat Summit. There are three sets: Sans (a substitute for Arial, Albany, Helvetica, Nimbus Sans L, and Bitstream Vera Sans), Serif (a substitute for Times New Roman, Thorndale, Nimbus Roman, and Bitstream Vera Serif) and Mono (a substitute for Courier New, Cumberland, Courier, Nimbus Mono L, and Bitstream Vera Sans Mono)."
 [...](https://fedorahosted.org/liberation-fonts/)
+
+Red Hat sponsored Steve Matteson in 2007 to create a set of fonts it could package with its Linux distribution. The family features metrically compatible replacements for Arial and Times New Roman, as well as a monospaced Courier replacement. While it lacks a distinct zero, this is a solid font with 665 glyphs and true bold and italic.
+
+2007, steve matteson, sans, professional
 
 By **Steve Matteson** (2007)
 *Alias: liberation - License: Red Hat Liberation License*
 https://fedorahosted.org/liberation-fonts/
 http://www.fontsquirrel.com/fonts/Liberation-Mono
 
+
 # Luxi Mono
-"Luxi is a family of typefaces originally designed for the X Window System by Kris Holmes and Charles Bigelow from Bigelow & Holmes Inc. The Luxi typefaces are similar to Lucida – their previous font design."
+
+> "Luxi is a family of typefaces originally designed for the X Window System by Kris Holmes and Charles Bigelow from Bigelow & Holmes Inc. The Luxi typefaces are similar to Lucida – their previous font design."
 [...](https://en.wikipedia.org/wiki/Luxi_fonts)
+
+In many ways similar to Lucida (by the same designers), this font was designed for the X Window System used in many Linux desktops. It features subtle serifs and is great for reading text. It doesn't have a distinct zero however, if you require that. With an adequate 376 glyphs in true bold and italic, you could do worse than go with  Luxi for your daily writing.
+
+professional, serif, 2001
 
 By **Kris Holmes, Charles Bigelow** (2001)
 *Alias: luxi - License: Luxi font license*
 http://www.fontsquirrel.com/fonts/Luxi-Mono
 
+
 # Meslo
-"Meslo LG is a customized version of Apple’s Menlo-Regular font
+
+> "Meslo LG is a customized version of Apple’s Menlo-Regular font
 (which is a customized Bitstream Vera Sans Mono)."
 [...](https://github.com/andreberg/Meslo-Font)
 

@@ -358,7 +358,7 @@ http://www.google.com/fonts/specimen/Lekton
 
 Red Hat sponsored Steve Matteson in 2007 to create a set of fonts it could package with its Linux distribution. The family features metrically compatible replacements for Arial and Times New Roman, as well as a monospaced Courier replacement. While it lacks a distinct zero, this is a solid font with 665 glyphs and true bold and italic.
 
-2007, steve matteson, sans, professional
+2007, steve matteson, sans, professional, linux
 
 By **Steve Matteson** (2007)
 *Alias: liberation - License: Red Hat Liberation License*
@@ -373,7 +373,7 @@ http://www.fontsquirrel.com/fonts/Liberation-Mono
 
 In many ways similar to Lucida (by the same designers), this font was designed for the X Window System used in many Linux desktops. It features subtle serifs and is great for reading text. It doesn't have a distinct zero however, if you require that. With an adequate 376 glyphs in true bold and italic, you could do worse than go with  Luxi for your daily writing.
 
-professional, serif, 2001
+professional, serif, 2001, linux
 
 By **Kris Holmes, Charles Bigelow** (2001)
 *Alias: luxi - License: Luxi font license*
@@ -420,25 +420,42 @@ http://mplus-fonts.sourceforge.jp
 
 
 # NotCourierSans
-"NotCourierSans is a re-interpretation of Nimbus Mono whose design began in Wroclaw at the occasion of the Libre Graphics Meeting 2008."
+
+> "NotCourierSans is a re-interpretation of Nimbus Mono whose design began in Wroclaw at the occasion of the Libre Graphics Meeting 2008."
 [...](http://openfontlibrary.org/en/font/notcouriersans)
+
+NotCourierSans was created by the [OSP collective](http://osp.kitchen/about) by taking Nimbus Mono and chopping of the serifs. While that doesn't seem like a realy good idea, it has created a quite servicable font. It doesn't feature italics or a distinct zero, but does cover 658 glyphs.
+
+sans, 2008
 
 By **Open Source Publishing** (2008)
 *Alias: notcouriersans - License: SIL OFL*
 http://www.fontsquirrel.com/fonts/NotCourierSans
 http://openfontlibrary.org/en/font/notcouriersans
 
+
 # Nova Mono
-"I created the NovaCut font about 14-15 years ago for making inscriptions on stone. Initially the font contained only capitals and digits and existed only on paper and stone inscriptions. In 2010 I decided transfer this font to a computer, and made the missing lowercase and some basical signs; it was initially named Gothica."
+
+> "I created the NovaCut font about 14-15 years ago for making inscriptions on stone. Initially the font contained only capitals and digits and existed only on paper and stone inscriptions. In 2010 I decided transfer this font to a computer, and made the missing lowercase and some basical signs; it was initially named Gothica."
 [...](http://www.google.com/fonts/specimen/Nova+Mono)
 
+This is a unique font with lots of character. The rounded flourishes really make it stand out. It does have all the most important features for programming (like a slashed zero), so why not spice up your debugging with Nova.
+
+sans, 2010, display
+
 By **Wojciech Kalinowski** (2010)
-*Alias: SIL OFL - License: nova*
+*Alias: nova - License: SIL OFL*
 http://www.google.com/fonts/specimen/Nova+Mono
 
+
 # Oxygen Mono
-"The Oxygen typeface family is created as part of the KDE Project, a libre desktop for the GNU+Linux operating system. The design is optimised for the FreeType font rendering system and works well in all graphical user interfaces, desktops and devices."
+
+> "The Oxygen typeface family is created as part of the KDE Project, a libre desktop for the GNU+Linux operating system. The design is optimised for the FreeType font rendering system and works well in all graphical user interfaces, desktops and devices."
 [...](http://www.google.com/fonts/specimen/Oxygen+Mono)
+
+Most fonts work fine on a Mac, the best ones add hinting for The Windows ClearType system, but a scarce few pay special attention to the FreeType rendering used in Linux. Oxygen was created to work well in KDE, and this mono variation is a great choice for programmers on Linux. It features a slashed zero and 397 glyphs are enough for pretty much anyone, although purists would prefer true bold and italic.
+
+linux, 2012, sans
 
 By **Vernon Adams** (2012)
 *Alias: oxygen - License: SIL OFL*

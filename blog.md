@@ -470,24 +470,38 @@ http://www.google.com/fonts/specimen/Oxygen+Mono
 > "ProFont began life as a better version of Monaco 9 which is especially good for programmers."
 [...](http://infohost.nmt.edu/tcc/help/fonts/profont/MProFont/profontdoc.txt)
 
-free, 1987
+Designed during the Eighties specifically for coding, this font has all the important features: readability at small sizes, a slashed zero, disting i's and 1's. The original font had bitmaps for a range of sizes, the more recent (and Mac compatible) versions are outline fonts. Perhaps the bitmaps (turn antialiasing off) are still the best, even though this retro trip isn't for everyone (nor does it work everywhere). You'll also have to do without bold and italic. Get the version for your system from [Tobias Young](http://tobiasjung.name/profont/index.php?fs=12&pf=on).
+
+free, 1987, bitmap, retro, free
 
 By **Andrew Welch** (1987)
 *Alias: profont - License: MIT*
 http://tobiasjung.name/profont/
 http://www.fontsquirrel.com/fonts/ProFontWindows
 
+
 # Proggy Clean
-"The proggy fonts are a set of fixed-width screen fonts that are designed for code listings."
+
+> "The proggy fonts are a set of fixed-width screen fonts that are designed for code listings."
 [...](http://www.proggyfonts.net/)
+
+"Probably the most popular programming font", Proggy Clean is the most popular font available from proggyfonts.net. If your editor supports it and you run it at its proper size, this font is incredibly crisp and clear. Of course it lacks true bold and italic, that would only disturb its cleanliness.
+
+bitmap, retro, 2004, free
 
 By **Tristan Grimmer** (2004)
 *Alias: proggy-clean - License: MIT*
 http://www.proggyfonts.net/
 
+
 # PT Mono
-"At the end of 2011 we released a monospaced font PT Mono™ — the last addition to the pan-Cyrillic font superfamily PT Sans – PT Serif developed for the project “Public Types of Russian Federation”."
+
+> "At the end of 2011 we released a monospaced font PT Mono™ — the last addition to the pan-Cyrillic font superfamily PT Sans – PT Serif developed for the project “Public Types of Russian Federation”."
 [...](http://paratype.com/public/)
+
+The PT family of fonts were created with the aim of fully supporting the Russian language. 811 glyphs in regular and bold includes a slahed zero and it perfect for programming. Even if you're not Russian.
+
+professional, serif, 2011, free
 
 By **Alexandra Korolkova, Isabella Chaeva** (2011)
 *Alias: pt - License: SIL OFL*
@@ -495,30 +509,55 @@ http://paratype.com/public/
 http://www.fontsquirrel.com/fonts/pt-mono
 http://www.google.com/fonts/specimen/PT+Mono
 
+
 # Quinze
-"Quinze is a narrow monospaced font, for programming and terminal emulators. It is designed to be narrow, and allow 132 columns to be comfortably fitted on a screen The 1, l and I are clearly distinguished, as are O and 0. The ascii circumflex is presented as an arrow, consistent with its use as exponentiation operator."
+
+> "Quinze is a narrow monospaced font, for programming and terminal emulators. It is designed to be narrow, and allow 132 columns to be comfortably fitted on a screen The 1, l and I are clearly distinguished, as are O and 0. The ascii circumflex is presented as an arrow, consistent with its use as exponentiation operator."
 [...](http://openfontlibrary.org/en/font/fifteen)
+
+Like Fifteen, Quinze was made to fit lots of code on a line. It's very narrow but still readable. Where Fifteen is a faux bitmap font that only really works at 15 pixels, Quinze is a true outline font. It has all the features required of a programming font, but lacks true bold and italic and its character set is a bit limited. A bit of a specialist font perhaps, but well executed and usefull.
+
+sans, narrow, 2013, free
 
 By **James Kilfiger** (2013)
 *Alias: quinze - License: SIL OFL*
 http://openfontlibrary.org/en/font/fifteen
 
+
 # saxMono
+
+Not much is known about this font. It features 495 glyphs, only in regular. Also, its zero and capital o are almost equal, as are the one and capital i. So, saxMono might not be an obvious first choice for programming, but it's a well made and modern typeface.
+
+sans, free
+
 By **s.a.x. Software**
 *Alias: sax - License: custom*
 http://www.fontsquirrel.com/fonts/saxMono
 
+
 # Share Tech Mono
-"Share Tech Mono is a monospaced sans serif, based on the Share family. There is also Share Tech, a proportionally spaced version."
+
+> "Share Tech Mono is a monospaced sans serif, based on the Share family. There is also Share Tech, a proportionally spaced version."
 [...](http://www.google.com/fonts/specimen/Share+Tech+Mono)
+
+In 2009 Carrois Type Design developed the extensive Share family of fonts, featuring the Share Tech Mono that's suitable for programming. It has 256 glyphs, only in regular, with a slahed zero and distinct characters.
+
+professional, 2012, sans
 
 By **Ralph du Carrois** (2012)
 *Alias: SIL OFL - License: share-tech*
 http://www.google.com/fonts/specimen/Share+Tech+Mono
+http://www.fontsquirrel.com/fonts/Share-Regular
+
 
 # Source Code Pro
-"One particularly surprising aspect of Source Sans’s release was the amount of interest generated by the teaser graphic of the monospaced version. It seemed that this generated about as much buzz as the fonts that we released. Brackets, the open source code editor created by Adobe, has just recently implemented the regular weight of Source Code into their project. Likewise, the font will be integrated into Adobe Edge Code, which was announced this morning at our Create the Web event in San Francisco. The complete family of six weights will also be available as part of our new Adobe Edge Web Fonts service."
+
+> "One particularly surprising aspect of Source Sans’s release was the amount of interest generated by the teaser graphic of the monospaced version. It seemed that this generated about as much buzz as the fonts that we released. Brackets, the open source code editor created by Adobe, has just recently implemented the regular weight of Source Code into their project. Likewise, the font will be integrated into Adobe Edge Code, which was announced this morning at our Create the Web event in San Francisco. The complete family of six weights will also be available as part of our new Adobe Edge Web Fonts service."
 [...](http://blog.typekit.com/2012/09/24/source-code-pro/)
+
+Source Sans Pro has been one of the most succesful new, free and designed-for-screen fonts to surface the past few years. Developing an additional monospaced font for code only makes sense. It's modern but still with a notion of playfulness, and special attention has been paid to make every character easily distinguishable. It features an impressive 963 glyphs in seven (yes, 7) weights ranging from ExtraLight to Black. And if all of that is not amazing enough, it has been open sourced on Github and has seen regular updates. An italic version is currently in beta. It's great to see Adobe open sourcing this truly wonderful font.
+
+professional, adobe, 2012, sans, open source, github
 
 By **Paul D. Hunt** (2012)
 *Alias: source-code-pro - License: SIL OFL*
@@ -527,10 +566,10 @@ http://www.fontsquirrel.com/fonts/source-code-pro
 http://www.google.com/fonts/specimen/Source+Code+Pro
 https://github.com/adobe-fonts/source-sans-pro
 
-Note: Not all weights of this awesome font are currently available in this package, I will add them later.
 
 # Sudo
-"In 2009 I wasn’t satisfied with the available text editor fonts and decided to draw my own: Sudo. Over the last years I used it as my main font in the Terminal, as well as my text editor font for coding on Mac and Windows. Whenever something bugged me, I refined the design and could instantly evaluate if a change was an improvement."
+
+> "In 2009 I wasn’t satisfied with the available text editor fonts and decided to draw my own: Sudo. Over the last years I used it as my main font in the Terminal, as well as my text editor font for coding on Mac and Windows. Whenever something bugged me, I refined the design and could instantly evaluate if a change was an improvement."
 [...](http://www.netzallee.de/extra/sudo)
 
 By **Jens Kutilek** (2009)

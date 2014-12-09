@@ -321,7 +321,7 @@ By **Leonardo Maffi** (2009)
 http://leonardo-m.livejournal.com/77079.html
 
 
-# §dern Mono
+# Latin Modern Mono
 
 > "The Latin Modern fonts are derived from the famous Computer Modern fonts designed by Donald E. Knuth and described in Volume E of his Computers & Typesetting series."
 [...](http://www.gust.org.pl/gust/projects/e-foundry/latin-modern)
@@ -557,7 +557,7 @@ http://www.fontsquirrel.com/fonts/Share-Regular
 
 Source Sans Pro has been one of the most succesful new, free and designed-for-screen fonts to surface the past few years. Developing an additional monospaced font for code only makes sense. It's modern but still with a notion of playfulness, and special attention has been paid to make every character easily distinguishable. It features an impressive 963 glyphs in seven (yes, 7) weights ranging from ExtraLight to Black. And if all of that is not amazing enough, it has been open sourced on Github and has seen regular updates. An italic version is currently in beta. It's great to see Adobe open sourcing this truly wonderful font.
 
-professional, adobe, 2012, sans, open source, github
+professional, adobe, 2012, sans, open source, github, active development
 
 By **Paul D. Hunt** (2012)
 *Alias: source-code-pro - License: SIL OFL*
@@ -612,18 +612,15 @@ http://font.ubuntu.com
 http://www.fontsquirrel.com/fonts/ubuntu-mono
 http://www.google.com/fonts/specimen/Ubuntu+Mono
 
-# VT323
-"This font was created from the glyphs of the DEC VT320 text terminal, which I used in college, and for which I have retained an unaccountable nostalgia."
-[...](http://www.google.com/fonts/specimen/VT323)
-
-By **Peter Hull** (2014)
-*Alias: vt323 - License: SIL OFL*
-https://fedoraproject.org/wiki/VT323_Fonts
-http://www.google.com/fonts/specimen/VT323
 
 # Verily Serif Mono
-"Verily Serif Mono is derived from Bitstream Vera Serif with the same proportions as Bitstream Vera Sans Mono"
+
+> "Verily Serif Mono is derived from Bitstream Vera Serif with the same proportions as Bitstream Vera Sans Mono"
 [...](http://delubrum.org)
+
+From the same creator as Aurulent Sans Mono comes this Bitstream Vera variation. Basically, it's Bitstream Vera, but with serifs. It covers 240 glyphs, just in regular.
+
+bistream vera, 2006, serif, stephen g hartke
 
 By **Stephen G. Hartke** (2006)
 *Alias: verily - License: Bitstream Vera License*
@@ -631,31 +628,56 @@ http://delubrum.org
 http://www.fontsquirrel.com/fonts/Verily-Serif-Mono
 
 
-# Excluded
+# VT323
 
-Some fonts don't allow packaging, or don't come in a format compatible with @font-face. You can download and install from provided links.
+>"This font was created from the glyphs of the DEC VT320 text terminal, which I used in college, and for which I have retained an unaccountable nostalgia."
+[...](http://www.google.com/fonts/specimen/VT323)
+
+VT323 is the recreation of a classic pixel font, converted to outlines. As a result, it doesn't cover that many characters or anything fancy like italic. It may however scratch that itch if you find yourself longing for the days of yonder.
+
+retro, pixel, 2014
+
+By **Peter Hull** (2014)
+*Alias: vt323 - License: SIL OFL*
+https://fedoraproject.org/wiki/VT323_Fonts
+http://www.google.com/fonts/specimen/VT323
+
 
 # Anonymous
-Anonymous Pro is an updated version of this font, also by Mark Simonson.
+
+Anonymous Pro is an updated version of this font, also by Mark Simonson. The original has the same character shapes but is more limited in coverage and styles, making the newer Pro version prefable all around.
+
+free, 2001, mark simonson
+
 By **Mark Simonson**
 *License: requires permission*
 http://www.fontsquirrel.com/fonts/Anonymous
 
+
 # Audimat Mono
+
 247 Glyphs light and smallcaps
+
 By **SMeltery**
 *License: requires permission*
 http://www.fontsquirrel.com/fonts/Audimat-Mono
 http://www.smeltery.net/fonts/audimat-mono
 
 # Creep
+
+This pixel font (really only works at one size, no antialiasing) is great for tiny text. It's a bit specialized at that, but perfect if it's what you're looking for.
+
+sans, pixel, free, github, active development
+
 By **Romeo Van Snick**
 *License: MIT*
 *Format incompatible*
 https://github.com/romeovs/creep
 
 # Crystal
+
 I haven't found any informaion about this font or conclusive license information.
+
 By **Jerry Fitzpatrick**
 http://www.dafont.com/crystal.font
 
@@ -676,6 +698,9 @@ By **Heimatdesign**
 http://www.fontsquirrel.com/fonts/klartext-mono
 
 # MonospaceTypewriter
+
+No distinct zero, 240 glyohs
+
 By **Manfred Klein Fonteria**
 *License: requires permission*
 http://www.fontsquirrel.com/fonts/MonospaceTypewriter
@@ -702,7 +727,15 @@ By **YOFonts**
 *Requires permission*
 http://www.fontsquirrel.com/fonts/Telegrama
 
+
 # Terminus
+
+> "Terminus Font is a clean, fixed width bitmap font, designed for long (8 and more hours per day) work with computers. Version 4.39 contains 891 characters, covers about 120 language sets and supports ISO8859-1/2/5/7/9/13/15/16, Paratype-PT154/PT254, KOI8-R/U/E/F, Esperanto, many IBM, Windows and Macintosh code pages, as well as the IBM VGA, vt100 and xterm pseudographic characters."
+
+Terminus is a very complete bitmap font, with very clean and clear rendering at a number of sizes. It's coverage is impressive, and even features a bold weight. The zero is slahed to set it apart.
+
+bitmap, free, sans
+
 By **Dimitar Zhekov**
 *Alias: terminus - License: SIL-OFL*
 *Format incompatible*

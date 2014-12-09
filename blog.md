@@ -321,14 +321,14 @@ By **Leonardo Maffi** (2009)
 http://leonardo-m.livejournal.com/77079.html
 
 
-# Latin Modern Mono
+# §dern Mono
 
 > "The Latin Modern fonts are derived from the famous Computer Modern fonts designed by Donald E. Knuth and described in Volume E of his Computers & Typesetting series."
 [...](http://www.gust.org.pl/gust/projects/e-foundry/latin-modern)
 
 This font has been developed by the Polish TeX Users Group (GUST). They paid specific attention to both diacritical and mathematical characters. If you really need extended math support there's even an Latin Modern Math font to help you out. Latin Modern Mono features subtle serifs, great coverage (734 glyphs), and wonderful light and italic styles.
 
-2002, latex, serif, free
+2002, latex, serif, free, gust
 
 By **Bogusław Jackowski, Janusz M. Nowacki** (2002)
 *Alias: latin-modern - License: GUST Font License*
@@ -572,23 +572,39 @@ https://github.com/adobe-fonts/source-sans-pro
 > "In 2009 I wasn’t satisfied with the available text editor fonts and decided to draw my own: Sudo. Over the last years I used it as my main font in the Terminal, as well as my text editor font for coding on Mac and Windows. Whenever something bugged me, I refined the design and could instantly evaluate if a change was an improvement."
 [...](http://www.netzallee.de/extra/sudo)
 
+What do you do when you can't find the right font? You create one of course. Of course such a personal project can't match the coverage of more professional efforts, but you have to like the attitude. The files are on github and you can trak Jens's additions and tweaks there.
+
+github, 2009, free
+
 By **Jens Kutilek** (2009)
 *Alias: sudo - License: SIL OFL*
 http://www.netzallee.de/extra/sudo
 
+
 # TeX Gyre Cursor
-"TeX Gyre Cursor is based on the URW Nimbus Mono L kindly released by URW++ Design and Development Inc. under GFL (independently of the GPL release accompanying Ghostscript). The Vietnamese glyphs were added by Han The Thanh.
+
+> "TeX Gyre Cursor is based on the URW Nimbus Mono L kindly released by URW++ Design and Development Inc. under GFL (independently of the GPL release accompanying Ghostscript). The Vietnamese glyphs were added by Han The Thanh.
 TeX Gyre Cursor can be used as a replacement for a well-known Courier typeface (designed by Howard G. “Bud” Kettler, 1955, for the IBM corporation)."
 [...](http://www.gust.org.pl/projects/e-foundry/tex-gyre)
+
+This font was created by the same organisation responsible for Latin Moder. The goal was to build a TeX compatible font, based on Nimbus family originally packaged with Ghostscript. Also like Latin Modern, there is a special math font available. The TeX Gyre Cursor was based on URW Nimbus Mono L. It's a light, subtly serifed font. Although a more distinct zero would've been welcome it's superbly readable and comes in 1236 glyphs and true bold and italic.
+
+2006, serif, gust, free
 
 By **GUST e-foundry** (2006)
 *Alias: tex-gyre-cursor - License: LPPL*
 http://www.gust.org.pl/projects/e-foundry/tex-gyre
 http://www.fontsquirrel.com/fonts/TeX-Gyre-Cursor
 
+
 # Ubuntu Mono
-"The Ubuntu Font Family are a set of matching new libre/open fonts in development during 2010-2011. The development is being funded by Canonical Ltd on behalf the wider Free Software community and the Ubuntu project. The technical font design work and implementation is being undertaken by Dalton Maag."
+
+> "The Ubuntu Font Family are a set of matching new libre/open fonts in development during 2010-2011. The development is being funded by Canonical Ltd on behalf the wider Free Software community and the Ubuntu project. The technical font design work and implementation is being undertaken by Dalton Maag."
 [...](http://www.fontsquirrel.com/fonts/ubuntu-mono)
+
+Dalton Maag, reknowned for strong typographic identities like Nokia, developed this font to carry the Ubuntu identity throught the Linux distro's user interface. As such it was meant to look great on screen. Matching Ubuntu's mission, the family covers and impressive list of languages and scripts. Its mono variant comes in 1299 glyphs, includes bold and italic, and it features (a dotted zero, distinct ones and i's) make it perfect for programming. It's friendly, modern, and exceptionally readable.
+
+free, professional, 2010, sans
 
 By **Dalton Maag** (2010)
 *Alias: ubuntu - License: Ubuntu/SIL OFL*

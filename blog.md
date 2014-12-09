@@ -699,7 +699,7 @@ http://www.fontsquirrel.com/fonts/klartext-mono
 
 # MonospaceTypewriter
 
-No distinct zero, 240 glyohs
+No distinct zero, 240 glyphs. A typewriter font does not a programmers font make, but a good typewriter font can be great for reading (and writing that blog in markdown).
 
 By **Manfred Klein Fonteria**
 *License: requires permission*
@@ -760,10 +760,19 @@ https://en.wikipedia.org/wiki/Courier_(typeface)
 By Michael Everson
 http://www.evertype.com/emono/
 
+
 # Letter Gothic
+
+> "Designed for IBM between 1956 and 1962 for use on the Selectric typewriter, Letter Gothic is a monospaced, sans serif face."
+
+A classic, designed for typewriter font, that's still great for reading and writing. It's a complete set of regular, bold and oblique, 253 glyphs in each. It doesn't have a distinct zero, but it's a wonderful retro typeface none-the-less.
+
+retro, typewriter, 1956, sans, commercial
+
 By Roger Roberson in 1956
 https://en.wikipedia.org/wiki/Letter_Gothic
 http://www.fonts.com/font/monotype/letter-gothic
+
 
 # Lucida Console
 By Charles Bigelow and Kris Holmes in 1985

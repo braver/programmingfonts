@@ -122,7 +122,7 @@ http://www.google.com/fonts/specimen/Cousine
 
 Cutive is a thin and light typewriter font with subtle serifs. A fresh and modern take on the classic style, this wonderful writer's typeface covers the basic western character set. It doesn't have true bold and italic, and zero's and o's aren't very distinct, but that shouldn't hold you back. Get your Hemingway on and blog away with this modern classic.
 
-2012, typewriter, github, serif, free
+2012, writing, github, serif, free
 
 By **Vernon Adams** (2012)
 *Alias: cutive - License: SIL OFL*
@@ -343,7 +343,7 @@ http://www.fontsquirrel.com/fonts/Latin-Modern-Mono
 
 Originally designed by [a group of students at ISIA Urbino](http://lektongroups.blogspot.co.uk/2010/04/luglio-2008.html), this font was inspired by some of the typefaces used on the Olivetti typewriters. It is monospaced because the typewriter fonts were like that too. A programmer may fault it for its lack of a distint zero, but on the upside it features 953 glyphs in regular, bold and italic. Perhaps not surprising considering its origin, Lekton is really a writers typeface.
 
-2008, typewriter, sans, free
+2008, writing, sans, free
 
 By **Accademia di Belle Arti di Urbino** (2008)
 *Alias: lekton - License: SIL OFL*
@@ -373,7 +373,7 @@ http://www.fontsquirrel.com/fonts/Liberation-Mono
 
 In many ways similar to Lucida (by the same designers), this font was designed for the X Window System used in many Linux desktops. It features subtle serifs and is great for reading text. It doesn't have a distinct zero however, if you require that. With an adequate 376 glyphs in true bold and italic, you could do worse than go with  Luxi for your daily writing.
 
-professional, serif, 2001, linux, free, bigelow, holmes
+professional, serif, 2001, linux, free, bigelow, holmes, writing
 
 By **Kris Holmes, Charles Bigelow** (2001)
 *Alias: luxi - License: Luxi font license*
@@ -428,7 +428,7 @@ http://mplus-fonts.sourceforge.jp
 
 NotCourierSans was created by the [OSP collective](http://osp.kitchen/about) by taking Nimbus Mono and chopping of the serifs. While that doesn't seem like a realy good idea, it has created a quite servicable font. It doesn't feature italics or a distinct zero, but does cover 658 glyphs.
 
-sans, 2008, free
+sans, 2008, free, nimbus
 
 By **Open Source Publishing** (2008)
 *Alias: notcouriersans - License: SIL OFL*
@@ -589,7 +589,7 @@ TeX Gyre Cursor can be used as a replacement for a well-known Courier typeface (
 
 This font was created by the same organisation responsible for Latin Moder. The goal was to build a TeX compatible font, based on Nimbus family originally packaged with Ghostscript. Also like Latin Modern, there is a special math font available. The TeX Gyre Cursor was based on URW Nimbus Mono L. It's a light, subtly serifed font. Although a more distinct zero would've been welcome it's superbly readable and comes in 1236 glyphs and true bold and italic.
 
-2006, serif, gust, free
+2006, serif, gust, free, nimbus
 
 By **GUST e-foundry** (2006)
 *Alias: tex-gyre-cursor - License: LPPL*
@@ -656,12 +656,15 @@ http://www.fontsquirrel.com/fonts/Anonymous
 
 # Audimat Mono
 
-247 Glyphs light and smallcaps
+Audimat covers 247 glyphs in bold and italic as well as light and smallcaps. Sadly, one and capital i, and zero and capital o are quite similar.
 
-By **SMeltery**
+2008, sans
+
+By **SMeltery**, 2008
 *License: requires permission*
 http://www.fontsquirrel.com/fonts/Audimat-Mono
 http://www.smeltery.net/fonts/audimat-mono
+
 
 # Creep
 
@@ -674,55 +677,91 @@ By **Romeo Van Snick**
 *Format incompatible*
 https://github.com/romeovs/creep
 
+
 # Crystal
 
-I haven't found any information about this font or conclusive license information.
+Not much is known about this seemingly freely available font. It has a slashed zero, but lacks bold and italic. Also, it's character set is very limited and omits things like the euro and copyright signs (although it does include box drawing characters).
+
+sans
 
 By **Jerry Fitzpatrick**
 http://www.dafont.com/crystal.font
 
+
 # Envy Code R
+
+Like its name implies this font is meant for coding and makes sure all letterforms are easily recognized. It covers 643 glyphs in regular, bold and italic and is freely available from Fontsquirrel.
+
+free, sans
+
 By **Damien Guard**
 *License: redistribution prohibited*
 http://www.fontsquirrel.com/fonts/Envy-Code-R
 
+
+
 # Gohu
-I'm having some issues with these files.
+
+> "Gohufont is a monospace bitmap font well suited for programming and terminal use. It is intended to be very legible and offers very discernable glyphs for all characters, including signs and symbols."
+
+With bitmaps for two sizes, normal and bold, this is a very simple and practical font. All character shapes are different, so no confusion between o's and zeros. If you're up for tiny aliased type, you can fit loads of code on a screen with Gohu.
+
+free, sans, pixel
+
 By **Hugo Chargois**
 *Alias: gohu - License: WTFPL*
 http://font.gohu.org
 
+
 # Klartext Mono
+
+> "As a special feature, Klartext contains a bunch of uncommon glyphs like the German capital sharp S, a nice arrowset and a complete phonetic alphabet."
+
+While only the light version is available freely, this is a very extensive family also including thin, regular, medium, and both (and an italic for all). It's character includes a few uncommon features, in addition to distinct shapes suitable for coding.
+
+commercial, sans
+
 By **Heimatdesign**
 *Requires extended license*
 http://www.fontsquirrel.com/fonts/klartext-mono
+
 
 # MonospaceTypewriter
 
 No distinct zero, 240 glyphs. A typewriter font does not a programmers font make, but a good typewriter font can be great for reading (and writing that blog in markdown).
 
+free, writing, sans
+
 By **Manfred Klein Fonteria**
 *License: requires permission*
 http://www.fontsquirrel.com/fonts/MonospaceTypewriter
 
+
 # Nimbus Mono L
-The fonts originally packaged with Ghostscript were released under LPPL. However, I haven't found any suitable files.
-[...](https://en.wikipedia.org/wiki/Nimbus_Mono_L)
+
+Nimbus Mono has been packaged with Ghostscript and many Linux distributions. The Ghostscript fonts were licensed under the LPPL, enabling a number of derivative fonts like TeX Gyre Cursor. Like Courier it lacks a distinct zero, but it does come in bold and italic.
+
+serif, 1984, writing, nimbus, commercial
+
 By **URW++ Studio** (1984)
 *Alias: nimbus - License: GNU GPL*
-http://ghostscript.com/download/gsdnld.html
+https://en.wikipedia.org/wiki/Nimbus_Mono_L
+
 
 # Selectric
-I haven't found any informaion about this font or conclusive license information.
+
+This font, that seems to be available freely, has a name that refers to the IBM Selectric. Like Courier before it, it seems to be derived from that typewriter. It might not be the best choice for coding (no distinct zero), but good typewriter fonts are still great for writing.
+
+sans, writing
+
 By **Paradox 2005**
 http://www.dafont.com/paradox-2005.d961
 
-# Skyhook Mono
-By **FontomType**
-*License: custom*
-http://www.fontsquirrel.com/fonts/skyhook-mono
 
 # Telegrama
+
+Telegrama comes in a faux-pixel version (aka "Raw") and a smooth outline version (aka "Render"). 
+
 By **YOFonts**
 *Requires permission*
 http://www.fontsquirrel.com/fonts/Telegrama
@@ -768,7 +807,7 @@ https://en.wikipedia.org/wiki/Consolas
 
 Developed for the IBM Selectric Composer typewriter, it has for ages been the standard monospaced font. Courier is still packaged with OSX and Windows, along with the much thinner New variation created by Monotype for digital applications (and featured in Windows 3.1). Originally a typewriter font, it doesn't have a distinct zero.
 
-serif, commercial
+serif, commercial, writing
 
 By Howard "Bud" Kettler, 1995
 https://en.wikipedia.org/wiki/Courier_(typeface)
@@ -794,7 +833,7 @@ http://www.evertype.com/emono/
 
 A classic, designed for typewriter font, that's still great for reading and writing. It's a complete set of regular, bold and oblique, 253 glyphs in each. It doesn't have a distinct zero, but it's a wonderful retro typeface none-the-less.
 
-retro, typewriter, 1956, sans, commercial
+retro, 1956, sans, commercial, writing
 
 By Roger Roberson in 1956
 https://en.wikipedia.org/wiki/Letter_Gothic

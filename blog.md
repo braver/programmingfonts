@@ -224,7 +224,7 @@ http://www.google.com/fonts/specimen/Fira+Mono
 
 Switch to black on white, turn of anti-aliasing, set it to 10 pixels and imagine yourself back in a time when [Madonna was ground-breaking](https://www.youtube.com/watch?v=a7mxzs649t4) and you could get shoes with lights that would blink as you walked. Awesome? Yes. Would you want to go back? Definitely, but perhaps not indefinitely. Retro has its place though and this might bring you there without giving up modern niceties like good coffee and  [phone](http://20thcenturyprops.co.uk/65/Telephones/1980s-retro-Philips-portable-cellular-phone-P405.html) you can [fit in your pocket](http://www.theverge.com/2014/10/1/6880089/this-bent-iphone-6-poster-is-perfect).
 
-pixel, retro, 1980, free
+pixel, retro, 1980, free, sans
 
 By **Microsoft** (1980's?)
 *Alias: fixedsys - License: GNU GPL*
@@ -373,7 +373,7 @@ http://www.fontsquirrel.com/fonts/Liberation-Mono
 
 In many ways similar to Lucida (by the same designers), this font was designed for the X Window System used in many Linux desktops. It features subtle serifs and is great for reading text. It doesn't have a distinct zero however, if you require that. With an adequate 376 glyphs in true bold and italic, you could do worse than go with  Luxi for your daily writing.
 
-professional, serif, 2001, linux, free
+professional, serif, 2001, linux, free, bigelow, holmes
 
 By **Kris Holmes, Charles Bigelow** (2001)
 *Alias: luxi - License: Luxi font license*
@@ -676,7 +676,7 @@ https://github.com/romeovs/creep
 
 # Crystal
 
-I haven't found any informaion about this font or conclusive license information.
+I haven't found any information about this font or conclusive license information.
 
 By **Jerry Fitzpatrick**
 http://www.dafont.com/crystal.font
@@ -745,18 +745,45 @@ http://terminus-font.sourceforge.net
 # Commercial or shareware fonts
 
 # Andale Mono
+
+This font is packaged with OSX, and used to be available in Windows up to ME. It includes true bold and italic, and has a dot inside the zero. Language specific versions (e.g. Cherokee) are available through Monotype and Ascender. Andale Mono used to be part of the "Core fonts for the web" (oh, the old days), which can still be downloaded and used freely from various places on the web (like the [archive](http://web.archive.org/web/20020124085641/http://www.microsoft.com/typography/fontpack/default.htm)).
+
+commercial, steve matteson, sans
+
 By Steve Matteson
 https://en.wikipedia.org/wiki/Andale_Mono
 
+
 # Consolas
+
+This may be the single best programming font for Windows. It was created specifically for ClearType and is included in Windows Vista and onward. Consolas features true bold and italic, a slashed zero and great coverage (2736 glyphs).
+
+sans, commercial
+
 By Lucas de Groot
 https://en.wikipedia.org/wiki/Consolas
 
+
 # Courier
-By Howard "Bud" Kettler
+
+Developed for the IBM Selectric Composer typewriter, it has for ages been the standard monospaced font. Courier is still packaged with OSX and Windows, along with the much thinner New variation created by Monotype for digital applications (and featured in Windows 3.1). Originally a typewriter font, it doesn't have a distinct zero.
+
+serif, commercial
+
+By Howard "Bud" Kettler, 1995
 https://en.wikipedia.org/wiki/Courier_(typeface)
 
-# Everson
+
+# Everson Mono
+
+> "Everson Mono is a simple, elegant, monowidth font. I started designing it in 1994 primarily to make glyphs available to support the non-Han characters in Unicode and ISO/IEC 10646, though I hope that users may find it a pleasant alternative to Courier and Monaco for general purposes, e-mail, and so forth. I have found it quite legible at sizes as small as 4 points. It is lighter and a bit looser than Courier."
+
+Michael Everson's project has been running for over 20 years. As a result this is a well rounded font  with impressive coverage. In recent years it has been updated with bold and italic versions. The interests of the creator of Everson Mono are reflected in the many languages in Evertype Publishing's portfolio. As a writer's font, it lacks a distinct zero.
+
+http://www.evertype.com/emono/
+
+shareware, 1994, sans, active development
+
 By Michael Everson
 http://www.evertype.com/emono/
 
@@ -775,12 +802,24 @@ http://www.fonts.com/font/monotype/letter-gothic
 
 
 # Lucida Console
-By Charles Bigelow and Kris Holmes in 1985
+
+It has been extended to include mathematical characters for TeX. First created almost 30, Lucida Console has been updated in 2014 to include bold and italic, and it's now the default Notepad font in Windows 8.
+
+1985, latex, bigelow, holmes, sans, commercial
+
+By Charles Bigelow and Kris Holmes, 1985
 https://en.wikipedia.org/wiki/Lucida_(typeface)
 
+
 # Monaco
+
+While superseded in 2009's Snow Leopard by Menlo, Monaco has always been present in OSX. While it lacks bold and italic styles, letterforms like i, 1, o and 0 are all distinct.
+
+holmes, sans, commercial
+
 By Susan Kare and Kris Holmes
 https://en.wikipedia.org/wiki/Monaco_(typeface)
+
 
 # Nu Sans Monospaced
 By Scooter Graphics  

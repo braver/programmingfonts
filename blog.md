@@ -68,7 +68,7 @@ http://openfontlibrary.org/en/font/average-mono
 
 If to be copied is the sincerest form of flattery, Jim Lyles has much to be proud of: this has to be the [most copied font ever](http://dejavu-fonts.org/wiki/index.php?title=Bitstream_Vera_derivatives)). A classic, this font especially well suited for use on Windows since it's fully hinted. Although Bitstream did a wonderful job, its 300 glyphs can be limiting. Luckily, it has been open sourced, inspiring the [DejaVu Project](http://dejavu-fonts.org/wiki/Main_Page) to expand the coverage of this wonderful typeface.
 
-bitstream, sans, 2002, professional, free
+bitstream vera, sans, 2002, professional, free
 
 By **Jim Lyles** (2002)
 *Alias: bitstream-vera - License: Bitstream Vera License*
@@ -647,7 +647,7 @@ http://www.google.com/fonts/specimen/VT323
 
 Anonymous Pro is an updated version of this font, also by Mark Simonson. The original has the same character shapes but is more limited in coverage and styles, making the newer Pro version prefable all around.
 
-free, 2001, mark simonson
+free, 2001, mark simonson, professional
 
 By **Mark Simonson**
 *License: requires permission*
@@ -658,7 +658,7 @@ http://www.fontsquirrel.com/fonts/Anonymous
 
 Audimat covers 247 glyphs in bold and italic as well as light and smallcaps. Sadly, one and capital i, and zero and capital o are quite similar.
 
-2008, sans
+2008, sans, professional
 
 By **SMeltery**, 2008
 *License: requires permission*
@@ -699,7 +699,6 @@ By **Damien Guard**
 http://www.fontsquirrel.com/fonts/Envy-Code-R
 
 
-
 # Gohu
 
 > "Gohufont is a monospace bitmap font well suited for programming and terminal use. It is intended to be very legible and offers very discernable glyphs for all characters, including signs and symbols."
@@ -719,7 +718,7 @@ http://font.gohu.org
 
 While only the light version is available freely, this is a very extensive family also including thin, regular, medium, and both (and an italic for all). It's character includes a few uncommon features, in addition to distinct shapes suitable for coding.
 
-commercial, sans
+commercial, sans, professional
 
 By **Heimatdesign**
 *Requires extended license*
@@ -741,7 +740,7 @@ http://www.fontsquirrel.com/fonts/MonospaceTypewriter
 
 Nimbus Mono has been packaged with Ghostscript and many Linux distributions. The Ghostscript fonts were licensed under the LPPL, enabling a number of derivative fonts like TeX Gyre Cursor. Like Courier it lacks a distinct zero, but it does come in bold and italic.
 
-serif, 1984, writing, nimbus, commercial
+serif, 1984, writing, nimbus, commercial, professional
 
 By **URW++ Studio** (1984)
 *Alias: nimbus - License: GNU GPL*
@@ -760,7 +759,9 @@ http://www.dafont.com/paradox-2005.d961
 
 # Telegrama
 
-Telegrama comes in a faux-pixel version (aka "Raw") and a smooth outline version (aka "Render"). 
+Telegrama comes in a faux-pixel version (aka "Raw") and a smooth outline version (aka "Render"). It has 227 glyphs, among which a slashed zero.
+
+sans, free
 
 By **YOFonts**
 *Requires permission*
@@ -781,13 +782,11 @@ By **Dimitar Zhekov**
 http://terminus-font.sourceforge.net
 
 
-# Commercial or shareware fonts
-
 # Andale Mono
 
 This font is packaged with OSX, and used to be available in Windows up to ME. It includes true bold and italic, and has a dot inside the zero. Language specific versions (e.g. Cherokee) are available through Monotype and Ascender. Andale Mono used to be part of the "Core fonts for the web" (oh, the old days), which can still be downloaded and used freely from various places on the web (like the [archive](http://web.archive.org/web/20020124085641/http://www.microsoft.com/typography/fontpack/default.htm)).
 
-commercial, steve matteson, sans
+commercial, steve matteson, sans, professional
 
 By Steve Matteson
 https://en.wikipedia.org/wiki/Andale_Mono
@@ -797,7 +796,7 @@ https://en.wikipedia.org/wiki/Andale_Mono
 
 This may be the single best programming font for Windows. It was created specifically for ClearType and is included in Windows Vista and onward. Consolas features true bold and italic, a slashed zero and great coverage (2736 glyphs).
 
-sans, commercial
+sans, commercial, professional
 
 By Lucas de Groot
 https://en.wikipedia.org/wiki/Consolas
@@ -807,7 +806,7 @@ https://en.wikipedia.org/wiki/Consolas
 
 Developed for the IBM Selectric Composer typewriter, it has for ages been the standard monospaced font. Courier is still packaged with OSX and Windows, along with the much thinner New variation created by Monotype for digital applications (and featured in Windows 3.1). Originally a typewriter font, it doesn't have a distinct zero.
 
-serif, commercial, writing
+serif, commercial, writing, professional
 
 By Howard "Bud" Kettler, 1995
 https://en.wikipedia.org/wiki/Courier_(typeface)
@@ -818,8 +817,6 @@ https://en.wikipedia.org/wiki/Courier_(typeface)
 > "Everson Mono is a simple, elegant, monowidth font. I started designing it in 1994 primarily to make glyphs available to support the non-Han characters in Unicode and ISO/IEC 10646, though I hope that users may find it a pleasant alternative to Courier and Monaco for general purposes, e-mail, and so forth. I have found it quite legible at sizes as small as 4 points. It is lighter and a bit looser than Courier."
 
 Michael Everson's project has been running for over 20 years. As a result this is a well rounded font  with impressive coverage. In recent years it has been updated with bold and italic versions. The interests of the creator of Everson Mono are reflected in the many languages in Evertype Publishing's portfolio. As a writer's font, it lacks a distinct zero.
-
-http://www.evertype.com/emono/
 
 shareware, 1994, sans, active development
 
@@ -833,7 +830,7 @@ http://www.evertype.com/emono/
 
 A classic, designed for typewriter font, that's still great for reading and writing. It's a complete set of regular, bold and oblique, 253 glyphs in each. It doesn't have a distinct zero, but it's a wonderful retro typeface none-the-less.
 
-retro, 1956, sans, commercial, writing
+retro, 1956, sans, commercial, writing, professional
 
 By Roger Roberson in 1956
 https://en.wikipedia.org/wiki/Letter_Gothic
@@ -844,7 +841,7 @@ http://www.fonts.com/font/monotype/letter-gothic
 
 It has been extended to include mathematical characters for TeX. First created almost 30, Lucida Console has been updated in 2014 to include bold and italic, and it's now the default Notepad font in Windows 8.
 
-1985, latex, bigelow, holmes, sans, commercial
+1985, latex, bigelow, holmes, sans, commercial, professional
 
 By Charles Bigelow and Kris Holmes, 1985
 https://en.wikipedia.org/wiki/Lucida_(typeface)
@@ -854,20 +851,39 @@ https://en.wikipedia.org/wiki/Lucida_(typeface)
 
 While superseded in 2009's Snow Leopard by Menlo, Monaco has always been present in OSX. While it lacks bold and italic styles, letterforms like i, 1, o and 0 are all distinct.
 
-holmes, sans, commercial
+holmes, sans, commercial, professional
 
 By Susan Kare and Kris Holmes
 https://en.wikipedia.org/wiki/Monaco_(typeface)
 
 
+# Menlo
+
+Designed, like the Bitstream Vera Mono it was based on, by Jim Lyles, this has been the default programming font for OSX since Snow Leopard. The design seems to have drawn upon the DejaVu project and to be tweaked for rendering on modern OSX systems. Menlo also features a slashed zero (Vera has a dot). It's like the definitive Vera variant for OSX, simple and extremely well excecuted.. a good match for a Mac.
+
+bitstream vera, commercial, professional
+
+By Jim Lyles
+https://en.wikipedia.org/wiki/Menlo_(typeface)
+
+
 # Nu Sans Monospaced
-By Scooter Graphics  
+
+Inspired by the IBM Selectric, Nu Sans was designed as a sans alternative to Courier. It features a slahed zero and has in later years been upgraded with bold and italic versions.
+
+sans, courier, commercial, 1996
+
+By Scooter Graphics (1996)
 http://www.scootergraphics.com/nusansmono/index.html
 
-# PragmataPro
-By Fabrizio Schiavi
-http://www.fsd.it/fonts/pragmatapro.htm#.VGmwnYfUk_M
 
-# Prestige Elite
-By Clayton Smith
-http://www.fonts.com/font/linotype/prestige-elite#product_47118
+# PragmataPro
+
+> "PragmataPro™ is a condensed monospaced font optimized for screen, designed to be <strong>the ideal font for coding and engineering"
+
+An impressive font with over 4500 glyphs covered (2000 in bold and italic), it has been hand hinted and features distinct shapes in all the right places. Notable features also include math and phonetics. It is quite narrow to fit a lot on a screen, but it maintains readability quite well.
+
+sans, 2009, commercial
+
+By Fabrizio Schiavi (2009)
+http://www.fsd.it/fonts/pragmatapro.htm#.VGmwnYfUk_M

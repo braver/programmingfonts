@@ -772,7 +772,7 @@ http://www.fontsquirrel.com/fonts/Telegrama
 
 > "Terminus Font is a clean, fixed width bitmap font, designed for long (8 and more hours per day) work with computers. Version 4.39 contains 891 characters, covers about 120 language sets and supports ISO8859-1/2/5/7/9/13/15/16, Paratype-PT154/PT254, KOI8-R/U/E/F, Esperanto, many IBM, Windows and Macintosh code pages, as well as the IBM VGA, vt100 and xterm pseudographic characters."
 
-Terminus is a very complete bitmap font, with very clean and clear rendering at a number of sizes. It's coverage is impressive, and even features a bold weight. The zero is slahed to set it apart.
+Terminus is a very complete bitmap font, with very clean and clear rendering at a number of sizes. It's coverage is impressive, and even features a bold weight. The zero is slahed to set it apart. Sadly the links on the sourceforge site are broken.
 
 bitmap, free, sans
 
@@ -806,7 +806,17 @@ https://en.wikipedia.org/wiki/Consolas
 
 Developed for the IBM Selectric Composer typewriter, it has for ages been the standard monospaced font. Courier is still packaged with OSX and Windows, along with the much thinner New variation created by Monotype for digital applications (and featured in Windows 3.1). Originally a typewriter font, it doesn't have a distinct zero.
 
-serif, commercial, writing, professional
+serif, commercial, writing, professional, 1955, courier
+
+By Howard "Bud" Kettler, 1955
+https://en.wikipedia.org/wiki/Courier_(typeface)
+
+
+# Courier New
+
+Monotype created a new digital outline Courier by taking the character shapes directly from the Selectric typewriter's golf ball. This resulted in much thinner characters. This font was featuredin Windows 3.1 alongside the original raster Courier. Tweaks have later been made to make the thin font look acceptable in Windows ClearType.
+
+serif, commercial, writing, professional, 1955, courier
 
 By Howard "Bud" Kettler, 1995
 https://en.wikipedia.org/wiki/Courier_(typeface)
@@ -859,9 +869,9 @@ https://en.wikipedia.org/wiki/Monaco_(typeface)
 
 # Menlo
 
-Designed, like the Bitstream Vera Mono it was based on, by Jim Lyles, this has been the default programming font for OSX since Snow Leopard. The design seems to have drawn upon the DejaVu project and to be tweaked for rendering on modern OSX systems. Menlo also features a slashed zero (Vera has a dot). It's like the definitive Vera variant for OSX, simple and extremely well excecuted.. a good match for a Mac.
+Designed, like the Bitstream Vera Mono it was based on, by Jim Lyles, this has been the default programming font for OSX since Snow Leopard. The design seems to have drawn upon the DejaVu project and to be tweaked for rendering on modern OSX systems. Menlo also features a slashed zero (Vera has a dot). It's like the definitive Vera version for OSX, simple and extremely well excecuted.. a good match for a Mac.
 
-bitstream vera, commercial, professional
+bitstream vera, commercial, professional, sans
 
 By Jim Lyles
 https://en.wikipedia.org/wiki/Menlo_(typeface)

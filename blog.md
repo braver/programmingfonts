@@ -13,22 +13,6 @@ https://code.google.com/p/anka-coder-fonts/
 #modern #sans #2010 #free
 
 
-<h1>Anonymous Pro</h1>
-
-> "Anonymous Pro (2009) is a family of four fixed-width fonts designed with coding in mind. Anonymous Pro features an international, Unicode-based character set, with support for most Western and Central European Latin-based languages, plus Greek and Cyrillic."
-[...](http://www.google.com/fonts/specimen/Anonymous+Pro)
-
-Designed by [Mark Simonson](http://www.marksimonson.com), Anonymous Pro is an evolution of the original [Anonymous](http://www.fontsquirrel.com/fonts/Anonymous), adding lots of character sets and styles. It covers [all the characters (624 glyphs), styles and weights anyone will ever need](http://www.marksimonson.com/assets/content/fonts/AnonymousProSpecimen.pdf), and with all characters easily distinguishable. For fans of having lots of code on screen, it even features bitmap versions for really tiny characters (without anti-aliasing). It's a truly professional option with a splash of character.
-
-By **Mark Simonson** (2009)  
-*License: SIL OFL*  
-http://www.marksimonson.com/fonts/view/anonymous-pro  
-http://www.fontsquirrel.com/fonts/Anonymous-Pro  
-http://www.google.com/fonts/specimen/Anonymous+Pro
-
-#mark simonson #sans #professional #2009 #free
-
-
 <h1>Aurulent Sans Mono</h1>
 
 > "Aurulent Sans is a sans serif font I'm developing for use as the primary interface font on X Windows on GNU/Linux."
@@ -891,3 +875,24 @@ By **Fabrizio Schiavi** (2009)
 http://www.fsd.it/fonts/pragmatapro.htm#.VGmwnYfUk_M
 
 #sans #2009 #commercial
+
+
+-----------------------------------------------------
+<!-- Posted -->
+-----------------------------------------------------
+
+
+<h1>Anonymous Pro</h1>
+
+> "Anonymous Pro (2009) is a family of four fixed-width fonts designed with coding in mind. Anonymous Pro features an international, Unicode-based character set, with support for most Western and Central European Latin-based languages, plus Greek and Cyrillic."
+[...](http://www.google.com/fonts/specimen/Anonymous+Pro)
+
+Designed by [Mark Simonson](http://www.marksimonson.com), Anonymous Pro is an evolution of the original [Anonymous](http://www.fontsquirrel.com/fonts/Anonymous), adding lots of character sets and styles. It covers [all the characters (624 glyphs), styles and weights anyone will ever need](http://www.marksimonson.com/assets/content/fonts/AnonymousProSpecimen.pdf), and with all characters easily distinguishable. For fans of having lots of code on screen, it even features bitmap versions for really tiny characters (without anti-aliasing). It's a truly professional option with a splash of character.
+
+By **Mark Simonson** (2009)  
+*License: SIL OFL*  
+http://www.marksimonson.com/fonts/view/anonymous-pro  
+http://www.fontsquirrel.com/fonts/Anonymous-Pro  
+http://www.google.com/fonts/specimen/Anonymous+Pro
+
+#mark simonson #sans #professional #2009 #free

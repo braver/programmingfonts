@@ -10,7 +10,7 @@ By **Andrey Makarov** (2010)
 *License: SIL OFL*  
 https://code.google.com/p/anka-coder-fonts/
 
-#modern #sans #2010 #free
+#modern #sans #2010 #free #programming #fonts #typography
 
 
 <h1>Aurulent Sans Mono</h1>
@@ -25,7 +25,7 @@ By **Stephen G. Hartke** (2007)
 http://delubrum.org  
 http://www.fontsquirrel.com/fonts/Aurulent-Sans-Mono
 
-#stephen g hartke #sans #2007 #free
+#stephen g hartke #sans #2007 #free #programming #fonts #typography
 
 
 <h1>Average Mono</h1>
@@ -39,21 +39,7 @@ By **Richard Alexander Hall** (2013)
 *License: Bitstream Vera License*  
 http://openfontlibrary.org/en/font/average-mono
 
-#serif #courier #2013 #free
-
-
-<h1>Bitstream Vera Sans Mono</h1>
-
-> "Vera is a group typeface (font) with a liberal license. It was designed by Jim Lyles from Bitstream, and it is closely based on Bitstream Prima, for which Lyles was also responsible. It is a TrueType font with full hinting instructions, which improve its rendering quality on low-resolution devices such as computer monitors."
-[...](https://en.wikipedia.org/wiki/Bitstream_Vera)
-
-If to be copied is the sincerest form of flattery, Jim Lyles has much to be proud of: this has to be the [most copied font ever](http://dejavu-fonts.org/wiki/index.php?title=Bitstream_Vera_derivatives). A classic, this font is especially well suited for use on Windows since it's fully hinted. Although Bitstream did a wonderful job, its 300 glyphs can be limiting. Luckily, it has been open sourced, inspiring the [DejaVu Project](http://dejavu-fonts.org/wiki/Main_Page) to expand the coverage of this wonderful typeface.
-
-By **Jim Lyles** (2002)  
-*License: Bitstream Vera License*  
-http://www.fontsquirrel.com/fonts/Bitstream-Vera-Sans-Mono
-
-#bitstream vera #sans #2002 #professional #free
+#serif #courier #2013 #free #programming #fonts #typography
 
 
 <h1>BPmono</h1>
@@ -64,7 +50,7 @@ By **Backpacker**
 *License: Creative Commons*  
 http://www.fontsquirrel.com/fonts/BPmono
 
-#sans #display #free
+#sans #display #free #programming #fonts #typography
 
 
 <h1>Consolamono</h1>
@@ -78,22 +64,7 @@ By *Wojciech Kalinowski** (2011)
 *License: SIL OFL*  
 http://openfontlibrary.org/en/font/consolamono
 
-#sans #display #2011 #free
-
-
-<h1>Cousine</h1>
-
-> "Cousine was designed by Steve Matteson as an innovative, refreshing sans serif design that is metrically compatible with Courier New™. Cousine offers improved on-screen readability characteristics and the pan-European WGL character set and solves the needs of developers looking for width-compatible fonts to address document portability across platforms."
-[...](http://www.google.com/fonts/specimen/Cousine)
-
-This font was designed by Steve Matteson, more widely known for his work on the Droid fontfaces you'll find on any Android device. It was created especially for on-screen use, and covers regular, bold and italic in an amazing 2391 Glyphs. Compatibility might be its strongest feat, but it's a serious font for every day use.
-
-By **Steve Matteson** (2010?)  
-*License: Apache*  
-http://www.fontsquirrel.com/fonts/cousine  
-http://www.google.com/fonts/specimen/Cousine
-
-#courier #steve matteson, 2010, sans, compatibility, professional, free
+#sans #display #2011 #free #programming #fonts #typography
 
 
 <h1>Cutive Mono</h1>
@@ -109,7 +80,7 @@ http://www.google.com/fonts/specimen/Cutive+Mono
 https://github.com/vernnobile/CutiveFont  
 http://luc.devroye.org/fonts-47641.html
 
-#2012 #writing #github #serif #free #vernon adams #professional
+#2012 #writing #github #serif #free #vernon adams #professional #fonts #typography
 
 
 <h1>DejaVu Mono</h1>
@@ -123,7 +94,7 @@ By **Deja Vu Project** (2004)
 *License: Bitstream Vera License*  
 http://dejavu-fonts.org/wiki/Main_Page
 
-#2014 #open source #active development #bistream vera #sans #free
+#2014 #open source #active development #bistream vera #sans #free #programming #fonts #typography
 
 
 <h1>Droid Sans Mono</h1>
@@ -138,7 +109,7 @@ By **Steve Matteson** (2006)
 http://www.google.com/fonts/specimen/Droid+Sans+Mono  
 http://www.droidfonts.com
 
-#sans #humanist #2006 #steve matteson #professional #free
+#sans #humanist #2006 #steve matteson #professional #free #programming #fonts #typography
 
 
 <h1>Effects Eighty</h1>
@@ -152,7 +123,7 @@ By **Peter Hull** (2013)
 *License: SIL OFL*  
 http://openfontlibrary.org/en/font/effects-eighty
 
-#display #2013 #retro #sans #free
+#display #2013 #retro #sans #free #programming #fonts #typography
 
 
 <h1>Fantasque Sans Mono</h1>
@@ -167,21 +138,7 @@ By **Jany Belluz** (2013)
 http://openfontlibrary.org/en/font/fantasque-sans-mono  
 https://github.com/belluzj/fantasque-sans
 
-#2013 #github #active development #open source #sans #free
-
-
-<h1>Fifteen</h1>
-
->"Fifteen is a faux bitmap font. This font is designed to be used as a monotype font for use in a terminal, or at a larger size, to look like an over scaled bitmap. It is designed for 15 pixel use. It is as narrow as I could make it, and works well in a 132 column terminal window."
-[...](http://openfontlibrary.org/en/font/fifteen)
-
-This is not just some programming font. It's designed like a bitmap font, but built as an outline font for maximum compatibility. That does however mean it only looks good at 15 pixels and doesn't have any true bold or italic styles. Indeed, it seems it could not have been made any more narrow: it is supremely efficient at getting lots of code on the screen without sacrificing readability. Fifteen is nearly halve the width of Cousine or Droid Sans, ideal for digging though log files.
-
-By **James Kilfiger** (2013?)  
-*License: SIL OFL*  
-http://openfontlibrary.org/en/font/fifteen
-
-#2013 #pixel #narrow #sans #free
+#2013 #github #active development #open source #sans #free #programming #fonts #typography
 
 
 <h1>Fira Mono</h1>
@@ -197,7 +154,7 @@ https://www.mozilla.org/en-US/styleguide/products/firefox-os/typeface/
 http://www.fontsquirrel.com/fonts/fira-mono  
 http://www.google.com/fonts/specimen/Fira+Mono
 
-#professional #2013 #sans #free
+#professional #2013 #sans #free #programming #fonts #typography
 
 
 <h1>Fixedsys</h1>
@@ -211,7 +168,7 @@ By **Microsoft** (1980's?)
 http://www.moviecorner.de/en/font-fixedsys-ttf/description  
 https://en.wikipedia.org/wiki/Fixedsys
 
-#pixel #retro #1980 #free #sans
+#pixel #retro #1980 #free #sans #programming #fonts #typography
 
 
 <h1>Generic Mono</h1>
@@ -225,21 +182,7 @@ By **Luc Devroye** (2014)
 *License: SIL OFL*  
 http://openfontlibrary.org/en/font/generic-mono
 
-#sans #2014 #free
-
-
-<h1>GNU Freefont</h1>
-
-> "GNU FreeFont is a free family of scalable outline fonts #suitable for general use on computers and for desktop publishing. It is Unicode-encoded for compatibility with all modern operating systems."
-[...](https://www.gnu.org/software/freefont/)
-
-This isn't a designer's font, but an open source community effort to create a single font that has it all. It comes in bold and italic and has the most complete coverage of any font featured on this blog. While an OS will mix and match fonts for missing glyphs FreeFont looks to be a consistent source for anything mankind has ever put into writing. Still, every now and then new releases [improve the offering](https://savannah.gnu.org/bugs/?group=freefont). If you need specific scripts or write a lot of math in LateX, this font will not let you down. It would have been better with a more distinct zero though, it lacks a slash or dot to set it apart from the capital o.
-
-By **Primož Peterlin, Steve White** (2002)  
-*License: GNU GPL*  
-https://www.gnu.org/software/freefont/
-
-#open source #2002 #active development #serif #latex #free
+#sans #2014 #free #programming #fonts #typography
 
 
 <h1>GNU Unifont</h1>
@@ -255,7 +198,7 @@ By **Roman Czyborra** (1998)
 http://www.unifoundry.com/unifont.html  
 https://savannah.gnu.org/projects/unifont
 
-#sans #open source #active development #1998 #free
+#sans #open source #active development #1998 #free #programming #fonts #typography
 
 
 <h1>Hermit</h1>
@@ -269,24 +212,7 @@ By **Pablo Caro** (2013)
 *License: SIL OFL*  
 https://pcaro.es/p/hermit/
 
-#sans #2013 #free
-
-
-<h1>Inconsolata</h1>
-
-> "Inconsolata is my first serious original font release. It is a monospace font, designed for printed code listings and the like. There are a great many "programmer fonts," designed primarily for use on the screen, but in most cases do not have the attention to detail for high resolution rendering.
-Inconsolata draws from many inspirations and sources. I was particularly struck by the beauty of Luc(as) de Groot's Consolas, which is his monospaced design for Microsoft's Vista release. This font, similar to his earlier TheSansMono, demonstrated clearly to me that monospaced fonts do not have to suck."
-[...](http://www.levien.com/type/myfonts/inconsolata.html)
-
-Inconsolata, inspired (also in name) by Consolas, is very well made and easy on the eyes. Its creator is a [Google Android engineer](http://www.levien.com/), who was also involved with Google Fonts. Although this font doesn't come from a foundry it shows the designer knew what he was doing. If there is a downside it's a lack of coverage (291 glyphs) of certain scripts and true bold and italics.
-
-By **Raph Levien** (2001)  
-*License: SIL OFL*  
-http://www.levien.com/type/myfonts/inconsolata.html  
-http://www.google.com/fonts/specimen/Inconsolata  
-http://www.fontsquirrel.com/fonts/Inconsolata
-
-#sans #2001 #consolas #free
+#sans #2013 #free #programming #fonts #typography
 
 
 <h1>Inconsolata-g</h1>
@@ -300,22 +226,7 @@ By **Leonardo Maffi** (2009)
 *License: SIL OFL*  
 http://leonardo-m.livejournal.com/77079.html
 
-#sans #consolas #2009 #free
-
-
-<h1>Latin Modern Mono</h1>
-
-> "The Latin Modern fonts are derived from the famous Computer Modern fonts designed by Donald E. Knuth and described in Volume E of his Computers & Typesetting series."
-[...](http://www.gust.org.pl/gust/projects/e-foundry/latin-modern)
-
-This font has been developed by the Polish TeX Users Group (GUST). They paid specific attention to both diacritical and mathematical characters. If you really need extended math support there's even an Latin Modern Math font to help you out. Latin Modern Mono features subtle serifs, great coverage (734 glyphs), and wonderful light and italic styles.
-
-By **Bogusław Jackowski, Janusz M. Nowacki** (2002)  
-*License: GUST Font License*  
-http://www.gust.org.pl/gust/projects/e-foundry/latin-modern  
-http://www.fontsquirrel.com/fonts/Latin-Modern-Mono
-
-#2002 #latex #serif #free #gust
+#sans #consolas #2009 #free #programming #fonts #typography
 
 
 <h1>Lekton</h1>
@@ -330,7 +241,7 @@ By **Accademia di Belle Arti di Urbino** (2008)
 http://www.fontsquirrel.com/fonts/lekton  
 http://www.google.com/fonts/specimen/Lekton
 
-#2008 #writing #sans #free
+#2008 #writing #sans #free #fonts #typography
 
 
 <h1>Liberation Mono</h1>
@@ -345,21 +256,7 @@ By **Steve Matteson** (2007)
 https://fedorahosted.org/liberation-fonts/  
 http://www.fontsquirrel.com/fonts/Liberation-Mono
 
-#2007 #steve matteson #sans #professional #linux #free
-
-
-<h1>Luxi Mono</h1>
-
-> "Luxi is a family of typefaces originally designed for the X Window System by Kris Holmes and Charles Bigelow from Bigelow & Holmes Inc. The Luxi typefaces are similar to Lucida – their previous font design."
-[...](https://en.wikipedia.org/wiki/Luxi_fonts)
-
-In many ways similar to Lucida (by the same designers), this font was designed for the X Window System used in many Linux desktops. It features subtle serifs and is great for reading text. It doesn't have a distinct zero however, if you require that. With an adequate 376 glyphs in true bold and italic, you could do worse than go with  Luxi for your daily writing.
-
-By **Kris Holmes, Charles Bigelow** (2001)  
-*License: Luxi font license*  
-http://www.fontsquirrel.com/fonts/Luxi-Mono
-
-#professional #serif #2001 #linux #free #bigelow #holmes #writing
+#2007 #steve matteson #sans #professional #linux #free #programming #fonts #typography
 
 
 <h1>Meslo</h1>
@@ -374,7 +271,7 @@ By **André Berg** (2010)
 *License: Apache*  
 https://github.com/andreberg/Meslo-Font
 
-#bitstream vera #2010 #sans #github #free
+#bitstream vera #2010 #sans #github #free #programming #fonts #typography
 
 
 <h1>Monofur</h1>
@@ -385,7 +282,7 @@ By **Tobias Benjamin Köhler** (2000)
 *License: Freeware*  
 http://www.dafont.com/monofur.font
 
-#free #sans #2000
+#free #sans #2000 #programming #fonts #typography
 
 
 <h1>M+</h1>
@@ -400,7 +297,7 @@ By **Coji Morishita** (2003)
 http://www.fontsquirrel.com/fonts/M-1m  
 http://mplus-fonts.sourceforge.jp
 
-#2003 #sans #free
+#2003 #sans #free #programming #fonts #typography
 
 
 <h1>NotCourierSans</h1>
@@ -415,7 +312,7 @@ By **Open Source Publishing** (2008)
 http://www.fontsquirrel.com/fonts/NotCourierSans  
 http://openfontlibrary.org/en/font/notcouriersans
 
-#sans #2008 #free #nimbus
+#sans #2008 #free #nimbus #programming #fonts #typography
 
 
 <h1>Nova Mono</h1>
@@ -429,22 +326,7 @@ By **Wojciech Kalinowski** (2010)
 *License: SIL OFL*  
 http://www.google.com/fonts/specimen/Nova+Mono
 
-#sans #2010 #display #free
-
-
-<h1>Oxygen Mono</h1>
-
-> "The Oxygen typeface family is created as part of the KDE Project, a libre desktop for the GNU+Linux operating system. The design is optimised for the FreeType font rendering system and works well in all graphical user interfaces, desktops and devices."
-[...](http://www.google.com/fonts/specimen/Oxygen+Mono)
-
-Most fonts work fine on a Mac, the best ones add hinting for The Windows ClearType system, but a scarce few pay special attention to the FreeType rendering used in Linux. Oxygen was created to work well in KDE, and this mono variation is a great choice for programmers on Linux. It features a slashed zero and 397 glyphs are enough for pretty much anyone, although purists would prefer true bold and italic.
-
-By **Vernon Adams** (2012)  
-*License: SIL OFL*  
-http://www.fontsquirrel.com/fonts/oxygen-mono  
-http://www.google.com/fonts/specimen/Oxygen+Mono
-
-#linux #2012 #sans #free #vernon adams #professional
+#sans #2010 #display #free #programming #fonts #typography
 
 
 <h1>Profont</h1>
@@ -459,37 +341,7 @@ By **Andrew Welch** (1987)
 http://tobiasjung.name/profont/  
 http://www.fontsquirrel.com/fonts/ProFontWindows
 
-#free #1987 #bitmap #retro
-
-
-<h1>Proggy Clean</h1>
-
-> "The proggy fonts are a set of fixed-width screen fonts that are designed for code listings."
-[...](http://www.proggyfonts.net/)
-
-"Probably the most popular programming font", Proggy Clean is the most popular font available from proggyfonts.net. If your editor supports it and you run it at its proper size, this font is incredibly crisp and clear. Of course it lacks true bold and italic, that would only disturb its cleanliness.
-
-By **Tristan Grimmer** (2004)  
-*License: MIT*  
-http://www.proggyfonts.net/
-
-#bitmap #retro #2004 #free
-
-
-<h1>PT Mono</h1>
-
-> "At the end of 2011 we released a monospaced font PT Mono™ — the last addition to the pan-Cyrillic font superfamily PT Sans – PT Serif developed for the project “Public Types of Russian Federation”."
-[...](http://paratype.com/public/)
-
-The PT family of fonts were created with the aim of fully supporting the Russian language. 811 glyphs in regular and bold includes a slahed zero and it perfect for programming. Even if you're not Russian.
-
-By **Alexandra Korolkova, Isabella Chaeva** (2011)  
-*License: SIL OFL*  
-http://paratype.com/public/  
-http://www.fontsquirrel.com/fonts/pt-mono  
-http://www.google.com/fonts/specimen/PT+Mono
-
-#professional #serif #2011 #free
+#free #1987 #bitmap #retro #programming #fonts #typography
 
 
 <h1>Quinze</h1>
@@ -503,7 +355,7 @@ By **James Kilfiger** (2013)
 *License: SIL OFL*  
 http://openfontlibrary.org/en/font/fifteen
 
-#sans #narrow #2013 #free
+#sans #narrow #2013 #free #programming #fonts #typography
 
 
 <h1>saxMono</h1>
@@ -514,7 +366,7 @@ By **s.a.x. Software**
 *License: custom*  
 http://www.fontsquirrel.com/fonts/saxMono
 
-#sans #free
+#sans #free #programming #fonts #typography
 
 
 <h1>Share Tech Mono</h1>
@@ -529,24 +381,7 @@ By **Ralph du Carrois** (2012)
 http://www.google.com/fonts/specimen/Share+Tech+Mono  
 http://www.fontsquirrel.com/fonts/Share-Regular
 
-#professional #2012 #sans
-
-
-<h1>Source Code Pro</h1>
-
-> "One particularly surprising aspect of Source Sans’s release was the amount of interest generated by the teaser graphic of the monospaced version. It seemed that this generated about as much buzz as the fonts that we released. Brackets, the open source code editor created by Adobe, has just recently implemented the regular weight of Source Code into their project. Likewise, the font will be integrated into Adobe Edge Code, which was announced this morning at our Create the Web event in San Francisco. The complete family of six weights will also be available as part of our new Adobe Edge Web Fonts service."
-[...](http://blog.typekit.com/2012/09/24/source-code-pro/)
-
-Source Sans Pro has been one of the most succesful new, free and designed-for-screen fonts to surface the past few years. Developing an additional monospaced font for code only makes sense. It's modern but still with a notion of playfulness, and special attention has been paid to make every character easily distinguishable. It features an impressive 963 glyphs in seven (yes, 7) weights ranging from ExtraLight to Black. And if all of that is not amazing enough, it has been open sourced on Github and has seen regular updates. An italic version is currently in beta. It's great to see Adobe open sourcing this truly wonderful font.
-
-By **Paul D. Hunt** (2012)  
-*License: SIL OFL*  
-http://blog.typekit.com/2012/09/24/source-code-pro/  
-http://www.fontsquirrel.com/fonts/source-code-pro  
-http://www.google.com/fonts/specimen/Source+Code+Pro  
-https://github.com/adobe-fonts/source-sans-pro
-
-#professional #2012 #sans #open source #github #active development
+#professional #2012 #sans #programming #fonts #typography
 
 
 <h1>Sudo</h1>
@@ -560,54 +395,7 @@ By **Jens Kutilek** (2009)
 *License: SIL OFL*  
 http://www.netzallee.de/extra/sudo
 
-#github #2009 #free #sans
-
-
-<h1>TeX Gyre Cursor</h1>
-
-> "TeX Gyre Cursor is based on the URW Nimbus Mono L kindly released by URW++ Design and Development Inc. under GFL (independently of the GPL release accompanying Ghostscript). The Vietnamese glyphs were added by Han The Thanh.
-TeX Gyre Cursor can be used as a replacement for a well-known Courier typeface (designed by Howard G. “Bud” Kettler, 1955, for the IBM corporation)."
-[...](http://www.gust.org.pl/projects/e-foundry/tex-gyre)
-
-This font was created by the same organisation responsible for Latin Moder. The goal was to build a TeX compatible font, based on Nimbus family originally packaged with Ghostscript. Also like Latin Modern, there is a special math font available. The TeX Gyre Cursor was based on URW Nimbus Mono L. It's a light, subtly serifed font. Although a more distinct zero would've been welcome it's superbly readable and comes in 1236 glyphs and true bold and italic.
-
-By **GUST e-foundry** (2006)  
-*License: LPPL*  
-http://www.gust.org.pl/projects/e-foundry/tex-gyre  
-http://www.fontsquirrel.com/fonts/TeX-Gyre-Cursor
-
-#2006 #serif #gust, free, nimbus
-
-
-<h1>Ubuntu Mono</h1>
-
-> "The Ubuntu Font Family are a set of matching new libre/open fonts in development during 2010-2011. The development is being funded by Canonical Ltd on behalf the wider Free Software community and the Ubuntu project. The technical font design work and implementation is being undertaken by Dalton Maag."
-[...](http://www.fontsquirrel.com/fonts/ubuntu-mono)
-
-Dalton Maag, reknowned for strong typographic identities like Nokia, developed this font to carry the Ubuntu identity throught the Linux distro's user interface. As such it was meant to look great on screen. Matching Ubuntu's mission, the family covers and impressive list of languages and scripts. Its mono variant comes in 1299 glyphs, includes bold and italic, and it features (a dotted zero, distinct ones and i's) make it perfect for programming. It's friendly, modern, and exceptionally readable.
-
-By **Dalton Maag** (2010)  
-*License: Ubuntu/SIL OFL*  
-http://font.ubuntu.com  
-http://www.fontsquirrel.com/fonts/ubuntu-mono  
-http://www.google.com/fonts/specimen/Ubuntu+Mono
-
-#free #professional #2010 #sans
-
-
-<h1>Verily Serif Mono</h1>
-
-> "Verily Serif Mono is derived from Bitstream Vera Serif with the same proportions as Bitstream Vera Sans Mono"
-[...](http://delubrum.org)
-
-From the same creator as Aurulent Sans Mono comes this Bitstream Vera variation. Basically, it's Bitstream Vera, but with serifs. It covers 240 glyphs, just in regular.
-
-By **Stephen G. Hartke** (2006)  
-*License: Bitstream Vera License*  
-http://delubrum.org  
-http://www.fontsquirrel.com/fonts/Verily-Serif-Mono
-
-#bistream vera #2006 #serif #stephen g hartke
+#github #2009 #free #sans #programming #fonts #typography
 
 
 <h1>VT323</h1>
@@ -622,7 +410,7 @@ By **Peter Hull** (2014)
 https://fedoraproject.org/wiki/VT323_Fonts  
 http://www.google.com/fonts/specimen/VT323
 
-#retro #pixel #2014 #sans
+#retro #pixel #2014 #sans #programming #fonts #typography
 
 
 <h1>Anonymous</h1>
@@ -634,14 +422,14 @@ By **Mark Simonson**
 http://www.fontsquirrel.com/fonts/Anonymous  
 http://www.marksimonson.com/fonts/view/anonymous-pro
 
-#free #2001 #mark simonson #professional
+#free #2001 #mark simonson #professional #programming #fonts #typography
 
 
 <h1>Audimat Mono</h1>
 
 Audimat covers 247 glyphs in bold and italic as well as light and smallcaps. Sadly, one and capital i, and zero and capital o are quite similar.
 
-#sans #professional #2008
+#sans #professional #2008 #programming #fonts #typography
 
 By **SMeltery** (2008)  
 *License: requires permission*  
@@ -657,7 +445,7 @@ By **Romeo Van Snick**
 *License: MIT*  
 https://github.com/romeovs/creep
 
-#sans #pixel #free #github #active development
+#sans #pixel #free #github #active development #programming #fonts #typography
 
 
 <h1>Crystal</h1>
@@ -677,7 +465,7 @@ Like its name implies this font is meant for coding and makes sure all letterfor
 By **Damien Guard**  
 http://www.fontsquirrel.com/fonts/Envy-Code-R
 
-#free #sans
+#free #sans #programming #fonts #typography
 
 
 <h1>Gohu</h1>
@@ -690,7 +478,7 @@ By **Hugo Chargois**
 *License: WTFPL*  
 http://font.gohu.org
 
-#free #sans #pixel
+#free #sans #pixel #programming #fonts #typography
 
 
 <h1>Klartext Mono</h1>
@@ -702,7 +490,7 @@ While only the light version is available freely, this is a very extensive famil
 By **Heimatdesign**  
 http://www.fontsquirrel.com/fonts/klartext-mono
 
-#commercial #sans #professional
+#commercial #sans #professional #programming #fonts #typography
 
 
 <h1>MonospaceTypewriter</h1>
@@ -712,7 +500,7 @@ No distinct zero, 240 glyphs. A typewriter font does not a programmers font make
 By **Manfred Klein Fonteria**  
 http://www.fontsquirrel.com/fonts/MonospaceTypewriter
 
-#free #writing #sans
+#free #writing #sans #fonts #typography
 
 
 <h1>Nimbus Mono L</h1>
@@ -723,7 +511,7 @@ By **URW++ Studio** (1984)
 *License: GNU GPL*  
 https://en.wikipedia.org/wiki/Nimbus_Mono_L
 
-#serif #1984 #writing #nimbus #commercial #professional
+#serif #1984 #writing #nimbus #commercial #professional #fonts #typography
 
 
 <h1>Selectric</h1>
@@ -733,7 +521,7 @@ This font, that seems to be available freely, has a name that refers to the IBM 
 By **Paradox 2005**
 http://www.dafont.com/paradox-2005.d961
 
-#sans #writing
+#sans #writing #fonts #typography
 
 
 <h1>Telegrama</h1>
@@ -743,7 +531,7 @@ Telegrama comes in a faux-pixel version (aka "Raw") and a smooth outline version
 By **YOFonts**  
 http://www.fontsquirrel.com/fonts/Telegrama
 
-#sans #free
+#sans #free #programming #fonts #typography
 
 
 <h1>Terminus</h1>
@@ -757,17 +545,7 @@ By **Dimitar Zhekov**
 *Format incompatible*  
 http://terminus-font.sourceforge.net
 
-#pixel #free #sans
-
-
-<h1>Andale Mono</h1>
-
-This font is packaged with OSX, and used to be available in Windows up to ME. It includes true bold and italic, and has a dot inside the zero. Language specific versions (e.g. Cherokee) are available through Monotype and Ascender. Andale Mono used to be part of the "Core fonts for the web" (oh, the old days), which can still be downloaded and used freely from various places on the web (like the [archive](http://web.archive.org/web/20020124085641/http://www.microsoft.com/typography/fontpack/default.htm)).
-
-By **Steve Matteson**  
-https://en.wikipedia.org/wiki/Andale_Mono
-
-#commercial #steve matteson #sans #professional
+#pixel #free #sans #programming #fonts #typography
 
 
 <h1>Consolas</h1>
@@ -777,17 +555,7 @@ This may be the single best programming font for Windows. It was created specifi
 By **Lucas de Groot**  
 https://en.wikipedia.org/wiki/Consolas
 
-#sans #commercial #professional #consolas
-
-
-<h1>Courier</h1>
-
-Developed for the IBM Selectric Composer typewriter, it has for ages been the standard monospaced font. Courier is still packaged with OSX and Windows, along with the much thinner New variation created by Monotype for digital applications (and featured in Windows 3.1). Originally a typewriter font, it doesn't have a distinct zero.
-
-By **Howard "Bud" Kettler** (1955)  
-https://en.wikipedia.org/wiki/Courier_(typeface)
-
-#serif #commercial #writing #professional #1955 #courier
+#sans #commercial #professional #consolas #programming #fonts #typography
 
 
 <h1>Courier New</h1>
@@ -797,7 +565,7 @@ Monotype created a new digital outline Courier by taking the character shapes di
 By **Howard "Bud" Kettler** (1955)  
 https://en.wikipedia.org/wiki/Courier_(typeface)
 
-#serif #commercial #writing #professional #1955 #courier
+#serif #commercial #writing #professional #1955 #courier #fonts #typography
 
 
 <h1>Everson Mono</h1>
@@ -809,7 +577,7 @@ Michael Everson's project has been running for over 20 years. As a result this i
 By **Michael Everson** (1994)  
 http://www.evertype.com/emono/
 
-#shareware #1994 #sans #active development
+#shareware #1994 #sans #active development #programming #fonts #typography
 
 
 <h1>Letter Gothic</h1>
@@ -822,7 +590,7 @@ By **Roger Roberson** (1956)
 https://en.wikipedia.org/wiki/Letter_Gothic  
 http://www.fonts.com/font/monotype/letter-gothic
 
-#retro #1956 #sans #commercial #writing #professional
+#retro #1956 #sans #commercial #writing #professional #fonts #typography
 
 
 <h1>Lucida Console</h1>
@@ -832,7 +600,7 @@ It has been extended to include mathematical characters for TeX. First created a
 By **Charles Bigelow and Kris Holmes** (1985)  
 https://en.wikipedia.org/wiki/Lucida_(typeface)
 
-#1985 #latex #bigelow #holmes #sans #commercial #professional
+#1985 #latex #bigelow #holmes #sans #commercial #professional #programming #fonts #typography
 
 
 <h1>Monaco</h1>
@@ -842,7 +610,7 @@ While superseded in 2009's Snow Leopard by Menlo, Monaco has always been present
 By **Susan Kare and Kris Holmes**  
 https://en.wikipedia.org/wiki/Monaco_(typeface)
 
-#holmes #sans #commercial #professional
+#holmes #sans #commercial #professional #programming #fonts #typography
 
 
 <h1>Menlo</h1>
@@ -852,7 +620,7 @@ Designed, like the Bitstream Vera Mono it was based on, by Jim Lyles, this has b
 By **Jim Lyles**  
 https://en.wikipedia.org/wiki/Menlo_(typeface)
 
-#bitstream vera #commercial #professional #sans
+#bitstream vera #commercial #professional #sans #programming #fonts #typography
 
 
 <h1>Nu Sans Monospaced</h1>
@@ -862,24 +630,27 @@ Inspired by the IBM Selectric, Nu Sans was designed as a sans alternative to Cou
 By **Scooter Graphics** (1996)  
 http://www.scootergraphics.com/nusansmono/index.html
 
-#sans #courier #commercial #1996
+#sans #courier #commercial #1996 #programming #fonts #typography
 
 
 <h1>PragmataPro</h1>
 
-> "PragmataPro™ is a condensed monospaced font optimized for screen, designed to be <strong>the ideal font for coding and engineering"
+> "PragmataPro™ is a condensed monospaced font optimized for screen, designed to be the ideal font for coding and engineering"
 
 An impressive font with over 4500 glyphs covered (2000 in bold and italic), it has been hand hinted and features distinct shapes in all the right places. Notable features also include math and phonetics. It is quite narrow to fit a lot on a screen, but it maintains readability quite well.
 
 By **Fabrizio Schiavi** (2009)  
 http://www.fsd.it/fonts/pragmatapro.htm#.VGmwnYfUk_M
 
-#sans #2009 #commercial
+#sans #2009 #commercial #programming #fonts #typography
 
 
------------------------------------------------------
-<!-- Posted -->
------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+<!-- Posted
+
+
 
 
 <h1>Anonymous Pro</h1>
@@ -895,4 +666,236 @@ http://www.marksimonson.com/fonts/view/anonymous-pro
 http://www.fontsquirrel.com/fonts/Anonymous-Pro  
 http://www.google.com/fonts/specimen/Anonymous+Pro
 
-#mark simonson #sans #professional #2009 #free
+#mark simonson #sans #professional #2009 #free #programming #fonts #typography
+
+
+<h1>GNU Freefont</h1>
+
+> "GNU FreeFont is a free family of scalable outline fonts #suitable for general use on computers and for desktop publishing. It is Unicode-encoded for compatibility with all modern operating systems."
+[...](https://www.gnu.org/software/freefont/)
+
+This isn't a designer's font, but an open source community effort to create a single font that has it all. It comes in bold and italic and has the most complete coverage of any font featured on this blog. While an OS will mix and match fonts for missing glyphs FreeFont looks to be a consistent source for anything mankind has ever put into writing. Still, every now and then new releases [improve the offering](https://savannah.gnu.org/bugs/?group=freefont). If you need specific scripts or write a lot of math in LateX, this font will not let you down. It would have been better with a more distinct zero though, it lacks a slash or dot to set it apart from the capital o.
+
+By **Primož Peterlin, Steve White** (2002)  
+*License: GNU GPL*  
+https://www.gnu.org/software/freefont/
+
+#open source #2002 #active development #serif #latex #free #programming #fonts #typography
+
+
+<h1>Fifteen</h1>
+
+>"Fifteen is a faux bitmap font. This font is designed to be used as a monotype font for use in a terminal, or at a larger size, to look like an over scaled bitmap. It is designed for 15 pixel use. It is as narrow as I could make it, and works well in a 132 column terminal window."
+[...](http://openfontlibrary.org/en/font/fifteen)
+
+This is not just some programming font. It's designed like a bitmap font, but built as an outline font for maximum compatibility. That does however mean it only looks good at 15 pixels and doesn't have any true bold or italic styles. Indeed, it seems it could not have been made any more narrow: it is supremely efficient at getting lots of code on the screen without sacrificing readability. Fifteen is nearly halve the width of Cousine or Droid Sans, ideal for digging though log files.
+
+By **James Kilfiger** (2013?)  
+*License: SIL OFL*  
+http://openfontlibrary.org/en/font/fifteen
+
+#2013 #pixel #narrow #sans #free #programming #fonts #typography
+
+
+<h1>Cousine</h1>
+
+> "Cousine was designed by Steve Matteson as an innovative, refreshing sans serif design that is metrically compatible with Courier New™. Cousine offers improved on-screen readability characteristics and the pan-European WGL character set and solves the needs of developers looking for width-compatible fonts to address document portability across platforms."
+[...](http://www.google.com/fonts/specimen/Cousine)
+
+This font was designed by Steve Matteson, more widely known for his work on the Droid fontfaces you'll find on any Android device. It was created especially for on-screen use, and covers regular, bold and italic in an amazing 2391 Glyphs. Compatibility might be its strongest feat, but it's a serious font for every day use.
+
+By **Steve Matteson** (2010?)  
+*License: Apache*  
+http://www.fontsquirrel.com/fonts/cousine  
+http://www.google.com/fonts/specimen/Cousine
+
+#courier #steve matteson #2010 #sans #compatibility #professional #free #programming #fonts #typography
+
+
+<h1>Source Code Pro</h1>
+
+> "One particularly surprising aspect of Source Sans’s release was the amount of interest generated by the teaser graphic of the monospaced version. It seemed that this generated about as much buzz as the fonts that we released. Brackets, the open source code editor created by Adobe, has just recently implemented the regular weight of Source Code into their project. Likewise, the font will be integrated into Adobe Edge Code, which was announced this morning at our Create the Web event in San Francisco. The complete family of six weights will also be available as part of our new Adobe Edge Web Fonts service."
+[...](http://blog.typekit.com/2012/09/24/source-code-pro/)
+
+Source Sans Pro has been one of the most succesful new, free and designed-for-screen fonts to surface the past few years. Developing an additional monospaced font for code only makes sense. It's modern but still with a notion of playfulness, and special attention has been paid to make every character easily distinguishable. It features an impressive 963 glyphs in seven (yes, 7) weights ranging from ExtraLight to Black. And if all of that is not amazing enough, it has been open sourced on Github and has seen regular updates. An italic version is currently in beta. It's great to see Adobe open sourcing this truly wonderful font.
+
+By **Paul D. Hunt** (2012)  
+*License: SIL OFL*  
+http://blog.typekit.com/2012/09/24/source-code-pro/  
+http://www.fontsquirrel.com/fonts/source-code-pro  
+http://www.google.com/fonts/specimen/Source+Code+Pro  
+https://github.com/adobe-fonts/source-sans-pro
+
+#professional #2012 #sans #open source #github #active development #programming #fonts #typography
+
+
+<h1>Oxygen Mono</h1>
+
+> "The Oxygen typeface family is created as part of the KDE Project, a libre desktop for the GNU+Linux operating system. The design is optimised for the FreeType font rendering system and works well in all graphical user interfaces, desktops and devices."
+[...](http://www.google.com/fonts/specimen/Oxygen+Mono)
+
+Most fonts work fine on a Mac, the best ones add hinting for The Windows ClearType system, but a scarce few pay special attention to the FreeType rendering used in Linux. Oxygen was created to work well in KDE, and this mono variation is a great choice for programmers on Linux. It features a slashed zero and 397 glyphs are enough for pretty much anyone, although purists would prefer true bold and italic.
+
+By **Vernon Adams** (2012)  
+*License: SIL OFL*  
+http://www.fontsquirrel.com/fonts/oxygen-mono  
+http://www.google.com/fonts/specimen/Oxygen+Mono
+
+#linux #2012 #sans #free #vernon adams #professional #programming #fonts #typography
+
+
+<h1>Ubuntu Mono</h1>
+
+> "The Ubuntu Font Family are a set of matching new libre/open fonts in development during 2010-2011. The development is being funded by Canonical Ltd on behalf the wider Free Software community and the Ubuntu project. The technical font design work and implementation is being undertaken by Dalton Maag."
+[...](http://www.fontsquirrel.com/fonts/ubuntu-mono)
+
+Dalton Maag, reknowned for strong typographic identities like Nokia, developed this font to carry the Ubuntu identity throught the Linux distro's user interface. As such it was meant to look great on screen. Matching Ubuntu's mission, the family covers and impressive list of languages and scripts. Its mono variant comes in 1299 glyphs, includes bold and italic, and it features (a dotted zero, distinct ones and i's) make it perfect for programming. It's friendly, modern, and exceptionally readable.
+
+By **Dalton Maag** (2010)  
+*License: Ubuntu/SIL OFL*  
+http://font.ubuntu.com  
+http://www.fontsquirrel.com/fonts/ubuntu-mono  
+http://www.google.com/fonts/specimen/Ubuntu+Mono
+
+#free #professional #2010 #sans #programming #fonts #typography
+
+
+<h1>Inconsolata</h1>
+
+> "Inconsolata is my first serious original font release. It is a monospace font, designed for printed code listings and the like. There are a great many "programmer fonts," designed primarily for use on the screen, but in most cases do not have the attention to detail for high resolution rendering.
+Inconsolata draws from many inspirations and sources. I was particularly struck by the beauty of Luc(as) de Groot's Consolas, which is his monospaced design for Microsoft's Vista release. This font, similar to his earlier TheSansMono, demonstrated clearly to me that monospaced fonts do not have to suck."
+[...](http://www.levien.com/type/myfonts/inconsolata.html)
+
+Inconsolata, inspired (also in name) by Consolas, is very well made and easy on the eyes. Its creator is a [Google Android engineer](http://www.levien.com/), who was also involved with Google Fonts. Although this font doesn't come from a foundry it shows the designer knew what he was doing. If there is a downside it's a lack of coverage (291 glyphs) of certain scripts and true bold and italics.
+
+By **Raph Levien** (2001)  
+*License: SIL OFL*  
+http://www.levien.com/type/myfonts/inconsolata.html  
+http://www.google.com/fonts/specimen/Inconsolata  
+http://www.fontsquirrel.com/fonts/Inconsolata
+
+#sans #2001 #consolas #free #programming #fonts #typography
+
+
+<h1>Andale Mono</h1>
+
+This font is packaged with OSX, and used to be available in Windows up to ME. It includes true bold and italic, and has a dot inside the zero. Language specific versions (e.g. Cherokee) are available through Monotype and Ascender. Andale Mono used to be part of the "Core fonts for the web" (oh, the old days), which can still be downloaded and used freely from various places on the web (like the [archive](http://web.archive.org/web/20020124085641/http://www.microsoft.com/typography/fontpack/default.htm)).
+
+By **Steve Matteson**  
+https://en.wikipedia.org/wiki/Andale_Mono
+
+#commercial #steve matteson #sans #professional #programming #fonts #typography
+
+
+<h1>Latin Modern Mono</h1>
+
+> "The Latin Modern fonts are derived from the famous Computer Modern fonts designed by Donald E. Knuth and described in Volume E of his Computers & Typesetting series."
+[...](http://www.gust.org.pl/gust/projects/e-foundry/latin-modern)
+
+This font has been developed by the Polish TeX Users Group (GUST). They paid specific attention to both diacritical and mathematical characters. If you really need extended math support there's even an Latin Modern Math font to help you out. Latin Modern Mono features subtle serifs, great coverage (734 glyphs), and wonderful light and italic styles.
+
+By **Bogusław Jackowski, Janusz M. Nowacki** (2002)  
+*License: GUST Font License*  
+http://www.gust.org.pl/gust/projects/e-foundry/latin-modern  
+http://www.fontsquirrel.com/fonts/Latin-Modern-Mono
+
+#2002 #latex #serif #free #gust #programming #fonts #typography
+
+
+<h1>Proggy Clean</h1>
+
+> "The proggy fonts are a set of fixed-width screen fonts that are designed for code listings."
+[...](http://www.proggyfonts.net/)
+
+"Probably the most popular programming font", Proggy Clean is the most popular font available from proggyfonts.net. If your editor supports it and you run it at its proper size, this font is incredibly crisp and clear. Of course it lacks true bold and italic, that would only disturb its cleanliness.
+
+By **Tristan Grimmer** (2004)  
+*License: MIT*  
+http://www.proggyfonts.net/
+
+#bitmap #retro #2004 #free #programming #fonts #typography
+
+
+<h1>Luxi Mono</h1>
+
+> "Luxi is a family of typefaces originally designed for the X Window System by Kris Holmes and Charles Bigelow from Bigelow & Holmes Inc. The Luxi typefaces are similar to Lucida – their previous font design."
+[...](https://en.wikipedia.org/wiki/Luxi_fonts)
+
+In many ways similar to Lucida (by the same designers), this font was designed for the X Window System used in many Linux desktops. It features subtle serifs and is great for reading text. It doesn't have a distinct zero however, if you require that. With an adequate 376 glyphs in true bold and italic, you could do worse than go with  Luxi for your daily writing.
+
+By **Kris Holmes, Charles Bigelow** (2001)  
+*License: Luxi font license*  
+http://www.fontsquirrel.com/fonts/Luxi-Mono
+
+#professional #serif #2001 #linux #free #bigelow #holmes #writing #fonts #typography
+
+
+<h1>Courier</h1>
+
+Developed for the IBM Selectric Composer typewriter, it has for ages been the standard monospaced font. Courier is still packaged with OSX and Windows, along with the much thinner New variation created by Monotype for digital applications (and featured in Windows 3.1). Originally a typewriter font, it doesn't have a distinct zero.
+
+By **Howard "Bud" Kettler** (1955)  
+https://en.wikipedia.org/wiki/Courier_(typeface)
+
+#serif #commercial #writing #professional #1955 #courier #fonts #typography
+
+
+<h1>PT Mono</h1>
+
+> "At the end of 2011 we released a monospaced font PT Mono™ — the last addition to the pan-Cyrillic font superfamily PT Sans – PT Serif developed for the project “Public Types of Russian Federation”."
+[...](http://paratype.com/public/)
+
+The PT family of fonts were created with the aim of fully supporting the Russian language. 811 glyphs in regular and bold includes a slahed zero and it perfect for programming. Even if you're not Russian.
+
+By **Alexandra Korolkova, Isabella Chaeva** (2011)  
+*License: SIL OFL*  
+http://paratype.com/public/  
+http://www.fontsquirrel.com/fonts/pt-mono  
+http://www.google.com/fonts/specimen/PT+Mono
+
+#professional #serif #2011 #free #programming #fonts #typography
+
+
+<h1>Verily Serif Mono</h1>
+
+> "Verily Serif Mono is derived from Bitstream Vera Serif with the same proportions as Bitstream Vera Sans Mono"
+[...](http://delubrum.org)
+
+From the same creator as Aurulent Sans Mono comes this Bitstream Vera variation. Basically, it's Bitstream Vera, but with serifs. It covers 240 glyphs, just in regular.
+
+By **Stephen G. Hartke** (2006)  
+*License: Bitstream Vera License*  
+http://delubrum.org  
+http://www.fontsquirrel.com/fonts/Verily-Serif-Mono
+
+#bistream vera #2006 #serif #stephen g hartke #programming #fonts #typography
+
+
+<h1>TeX Gyre Cursor</h1>
+
+> "TeX Gyre Cursor is based on the URW Nimbus Mono L kindly released by URW++ Design and Development Inc. under GFL (independently of the GPL release accompanying Ghostscript). The Vietnamese glyphs were added by Han The Thanh.
+TeX Gyre Cursor can be used as a replacement for a well-known Courier typeface (designed by Howard G. “Bud” Kettler, 1955, for the IBM corporation)."
+[...](http://www.gust.org.pl/projects/e-foundry/tex-gyre)
+
+This font was created by the same organisation responsible for Latin Moder. The goal was to build a TeX compatible font, based on Nimbus family originally packaged with Ghostscript. Also like Latin Modern, there is a special math font available. The TeX Gyre Cursor was based on URW Nimbus Mono L. It's a light, subtly serifed font. Although a more distinct zero would've been welcome it's superbly readable and comes in 1236 glyphs and true bold and italic.
+
+By **GUST e-foundry** (2006)  
+*License: LPPL*  
+http://www.gust.org.pl/projects/e-foundry/tex-gyre  
+http://www.fontsquirrel.com/fonts/TeX-Gyre-Cursor
+
+#2006 #serif #gust #free #nimbus #programming #fonts #typography
+
+
+<h1>Bitstream Vera Sans Mono</h1>
+
+> "Vera is a group typeface (font) with a liberal license. It was designed by Jim Lyles from Bitstream, and it is closely based on Bitstream Prima, for which Lyles was also responsible. It is a TrueType font with full hinting instructions, which improve its rendering quality on low-resolution devices such as computer monitors."
+[...](https://en.wikipedia.org/wiki/Bitstream_Vera)
+
+If to be copied is the sincerest form of flattery, Jim Lyles has much to be proud of: this has to be the [most copied font ever](http://dejavu-fonts.org/wiki/index.php?title=Bitstream_Vera_derivatives). A classic, this font is especially well suited for use on Windows since it's fully hinted. Although Bitstream did a wonderful job, its 300 glyphs can be limiting. Luckily, it has been open sourced, inspiring the [DejaVu Project](http://dejavu-fonts.org/wiki/Main_Page) to expand the coverage of this wonderful typeface.
+
+By **Jim Lyles** (2002)  
+*License: Bitstream Vera License*  
+http://www.fontsquirrel.com/fonts/Bitstream-Vera-Sans-Mono
+
+#bitstream vera #sans #2002 #professional #free #programming #fonts #typography

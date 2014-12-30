@@ -42,17 +42,6 @@ http://openfontlibrary.org/en/font/average-mono
 #serif #courier #2013 #free #programming #fonts #typography
 
 
-<h1>BPmono</h1>
-
-Not much is known about this font or its creator. Its wide characters pack lots of style, but you could wonder if 208 Glyphs is sufficient. BPmono shines when used large as a display font.
-
-By **Backpacker**  
-*License: Creative Commons*  
-http://www.fontsquirrel.com/fonts/BPmono
-
-#sans #display #free #programming #fonts #typography
-
-
 <h1>Consolamono</h1>
 
 > "It's my old unfinished font. I made some sketches of several glyphs 5-6 years ago, and I never finished this. Now I made missing glyphs, did changes of some glyphs and turn into monospaced font. The font is updated now (2011.06.17) - I made all glyphs for Latin Extended B, Cyrillic, and Cyrillic Supplement. Added Bold version 2012.11.16 2013.01.27"
@@ -141,21 +130,6 @@ https://github.com/belluzj/fantasque-sans
 #2013 #github #active development #open source #sans #free #programming #fonts #typography
 
 
-<h1>Fira Mono</h1>
-
-> "Designed to integrate with the character of the FirefoxOS, the Fira typefaces also aim to cover the legibility needs for a large range of handsets varying in screen quality and rendering."
-[...](http://www.google.com/fonts/specimen/Fira+Mono)
-
-Fira was designed as the default fontface for the Firefox OS. A smartphone OS looking to leverage web technology to a create a more open alternative to iOS and Android. Like the best new fonts it's a fresh design specifically developed for on-screen usage. While a true italic has been ommitted, it does cover over 1100 glyphs and should basically work everywhere. This is no cheap free font but a true professional font by a reknowned designer.
-
-By **Erik Spiekerman, Carois Type Design** (2013)  
-*License: SIL OFL*  
-https://www.mozilla.org/en-US/styleguide/products/firefox-os/typeface/  
-http://www.fontsquirrel.com/fonts/fira-mono  
-http://www.google.com/fonts/specimen/Fira+Mono
-
-#professional #2013 #sans #free #programming #fonts #typography
-
 
 <h1>Fixedsys</h1>
 
@@ -183,22 +157,6 @@ By **Luc Devroye** (2014)
 http://openfontlibrary.org/en/font/generic-mono
 
 #sans #2014 #free #programming #fonts #typography
-
-
-<h1>GNU Unifont</h1>
-
-> "This version provides full coverage of the Unicode 7.0 Basic Mulitlingual Plane (BMP). The BMP is the first Unicode "plane" of 65,536 code points, and has character encoding for most of the world's modern scripts.
-As of 20 June 2008 (by coincidence the Summer Solstice), GNU Unifont had a glyph for every printable code point in the Unicode BMP."
-[...](http://www.unifoundry.com/unifont.html)
-
-Another typical [GNU](https://www.gnu.org) project, it's like a sans version of the GNU Freefont. Not in style but in intent: its coverage is equally amazing and the project is also very active (the most recent update was last October). While the project is somewhat done, they're still pushing for compatibility and development in open tools like Fontforge. If you need your font to be reliable, you can't go wrong with GNU Unifont even though it lacks a distinct zero.
-
-By **Roman Czyborra** (1998)  
-*License: GNU GPL*  
-http://www.unifoundry.com/unifont.html  
-https://savannah.gnu.org/projects/unifont
-
-#sans #open source #active development #1998 #free #programming #fonts #typography
 
 
 <h1>Hermit</h1>
@@ -283,21 +241,6 @@ By **Tobias Benjamin Köhler** (2000)
 http://www.dafont.com/monofur.font
 
 #free #sans #2000 #programming #fonts #typography
-
-
-<h1>M+</h1>
-
-> "M+ M emphasize the balance of natural letterform and high legibility. while M+ MN is aimed at a new distinctive design for a terminal font specialized to programming."
-[...](http://mplus-fonts.sourceforge.jp/mplus-outline-fonts/design/index-en.html)
-
-This font was developed by the Japanese M+ Fonts Project, so there are als Japanese script versions available. It covers 1681 glyphs, but lacks a true italic. It's actually quite narrow but quite readable. M+ is also well suited for programming as all similar characters have something to set it apart visually.
-
-By **Coji Morishita** (2003)  
-*License: custom*  
-http://www.fontsquirrel.com/fonts/M-1m  
-http://mplus-fonts.sourceforge.jp
-
-#2003 #sans #free #programming #fonts #typography
 
 
 <h1>NotCourierSans</h1>
@@ -899,3 +842,61 @@ By **Jim Lyles** (2002)
 http://www.fontsquirrel.com/fonts/Bitstream-Vera-Sans-Mono
 
 #bitstream vera #sans #2002 #professional #free #programming #fonts #typography
+
+
+<h1>BPmono</h1>
+
+Not much is known about this font or its creator. Its wide characters pack lots of style, but you could wonder if 208 Glyphs is sufficient. BPmono shines when used large as a display font.
+
+By **Backpacker**  
+*License: Creative Commons*  
+http://www.fontsquirrel.com/fonts/BPmono
+
+#sans #display #free #programming #fonts #typography
+
+
+<h1>M+</h1>
+
+> "M+ M emphasize the balance of natural letterform and high legibility. while M+ MN is aimed at a new distinctive design for a terminal font specialized to programming."
+[...](http://mplus-fonts.sourceforge.jp/mplus-outline-fonts/design/index-en.html)
+
+This font was developed by the Japanese M+ Fonts Project, so there are als Japanese script versions available. It covers 1681 glyphs, but lacks a true italic. It's actually quite narrow but quite readable. M+ is also well suited for programming as all similar characters have something to set it apart visually.
+
+By **Coji Morishita** (2003)  
+*License: custom*  
+http://www.fontsquirrel.com/fonts/M-1m  
+http://mplus-fonts.sourceforge.jp
+
+#2003 #sans #free #programming #fonts #typography
+
+
+<h1>GNU Unifont</h1>
+
+> "This version provides full coverage of the Unicode 7.0 Basic Mulitlingual Plane (BMP). The BMP is the first Unicode "plane" of 65,536 code points, and has character encoding for most of the world's modern scripts.
+As of 20 June 2008 (by coincidence the Summer Solstice), GNU Unifont had a glyph for every printable code point in the Unicode BMP."
+[...](http://www.unifoundry.com/unifont.html)
+
+Another typical [GNU](https://www.gnu.org) project, it's like a sans version of the GNU Freefont. Not in style but in intent: its coverage is equally amazing and the project is also very active (the most recent update was last October). While the project is somewhat done, they're still pushing for compatibility and development in open tools like Fontforge. If you need your font to be reliable, you can't go wrong with GNU Unifont even though it lacks a distinct zero.
+
+By **Roman Czyborra** (1998)  
+*License: GNU GPL*  
+http://www.unifoundry.com/unifont.html  
+https://savannah.gnu.org/projects/unifont
+
+#sans #open source #active development #1998 #free #programming #fonts #typography
+
+
+<h1>Fira Mono</h1>
+
+> "Designed to integrate with the character of the FirefoxOS, the Fira typefaces also aim to cover the legibility needs for a large range of handsets varying in screen quality and rendering."
+[...](http://www.google.com/fonts/specimen/Fira+Mono)
+
+Fira was designed as the default fontface for the Firefox OS. A smartphone OS looking to leverage web technology to a create a more open alternative to iOS and Android. Like the best new fonts it's a fresh design specifically developed for on-screen usage. While a true italic has been ommitted, it does cover over 1100 glyphs and should basically work everywhere. This is no cheap free font but a true professional font by a reknowned designer.
+
+By **Erik Spiekerman, Carois Type Design** (2013)  
+*License: SIL OFL*  
+https://www.mozilla.org/en-US/styleguide/products/firefox-os/typeface/  
+http://www.fontsquirrel.com/fonts/fira-mono  
+http://www.google.com/fonts/specimen/Fira+Mono
+
+#professional #2013 #sans #free #programming #fonts #typography

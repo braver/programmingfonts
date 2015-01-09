@@ -13,21 +13,6 @@ https://code.google.com/p/anka-coder-fonts/
 #modern #sans #2010 #free #programming #fonts #typography
 
 
-<h1>Aurulent Sans Mono</h1>
-
-> "Aurulent Sans is a sans serif font I'm developing for use as the primary interface font on X Windows on GNU/Linux."
-[...](http://delubrum.org)
-
-It's a bit limited, 264 Glyphs, and bold and italic need to be synthesized. The creator is an Associate Professor in the Department of Mathematics of the University of Nebraska–Lincoln. While Aurulent may [have its flaws](http://typophile.com/node/31970), and doesn't distinguish the 0's and O's, it's a pretty good looking font considering it basically seems to be a hobby project.
-
-By **Stephen G. Hartke** (2007)  
-*License: SIL OFL*  
-http://delubrum.org  
-http://www.fontsquirrel.com/fonts/Aurulent-Sans-Mono
-
-#stephen g hartke #sans #2007 #free #programming #fonts #typography
-
-
 <h1>Average Mono</h1>
 
 > "AverageMono is an average of thirteen different fonts which are all derivatives of the public domain "Courier" typeface. Or, rather, a subset of the Western Latin characters in it, minus punctuation, are thus. Everything else is imported wholesale from the GNU FreeMono typeface."
@@ -40,20 +25,6 @@ By **Richard Alexander Hall** (2013)
 http://openfontlibrary.org/en/font/average-mono
 
 #serif #courier #2013 #free #programming #fonts #typography
-
-
-<h1>Consolamono</h1>
-
-> "It's my old unfinished font. I made some sketches of several glyphs 5-6 years ago, and I never finished this. Now I made missing glyphs, did changes of some glyphs and turn into monospaced font. The font is updated now (2011.06.17) - I made all glyphs for Latin Extended B, Cyrillic, and Cyrillic Supplement. Added Bold version 2012.11.16 2013.01.27"
-[...](http://openfontlibrary.org/en/font/consolamono)
-
-This is a beautiful, rounded font with tons of character. While it might not look like the most obvious choice for a programming font it's very well made and its coverage is very good. Consolamono doesn't come with true italics. However, if you're looking for something fun and different, this might just be it.
-
-By *Wojciech Kalinowski** (2011)  
-*License: SIL OFL*  
-http://openfontlibrary.org/en/font/consolamono
-
-#sans #display #2011 #free #programming #fonts #typography
 
 
 <h1>Cutive Mono</h1>
@@ -86,21 +57,6 @@ http://dejavu-fonts.org/wiki/Main_Page
 #2014 #open source #active development #bistream vera #sans #free #programming #fonts #typography
 
 
-<h1>Droid Sans Mono</h1>
-
-> "The Droid family of fonts was designed by Ascender’s Steve Matteson beginning in the fall of 2006. The goal was to provide optimal quality and reading comfort on a mobile handset. The Droid fonts were optimized for use in application menus, web browsers and for other screen text."
-[...](http://www.droidfonts.com)
-
-Designed to carry Google Android's friendly character, Steve Matteson designed this font to be at its best on (small) screens. Sincs its initial relase it has been perfected  and expanded, making it a reliable use-anywhere font. At the same time it's fun and ligh-hearted. For some reason it lacks a true italic, and it should better distinguish o's and zeros, but it supports more languages that you can swing a smartphone at.
-
-By **Steve Matteson** (2006)  
-*License: Apache*  
-http://www.google.com/fonts/specimen/Droid+Sans+Mono  
-http://www.droidfonts.com
-
-#sans #humanist #2006 #steve matteson #professional #free #programming #fonts #typography
-
-
 <h1>Effects Eighty</h1>
 
 > "Effects Eighty is an homage to the dot-matrix printers of the 1980s. It is a very faithful reproduction of the output of one of that class of printers. The family includes normal, italic, bold, and bold italic versions. It supports the ASCII printable character set. An update with at least some Latin-1 support is planned."
@@ -130,7 +86,6 @@ https://github.com/belluzj/fantasque-sans
 #2013 #github #active development #open source #sans #free #programming #fonts #typography
 
 
-
 <h1>Fixedsys</h1>
 
 > "Fixedsys is a family of raster monospaced fonts. The name means fixed system, because its glyphs are monospace or fixed-width (although bolded characters are wider than non-bolded, unlike other monospace fonts such as Courier). It is the oldest font in Windows, and was the system font in Windows 1.0 and 2.0, where it was simply named "System". For Windows 3.x, the system font was changed to a proportional sans-serif font named System, but Fixedsys remained the default font in Notepad."
@@ -145,34 +100,6 @@ https://en.wikipedia.org/wiki/Fixedsys
 #pixel #retro #1980 #free #sans #programming #fonts #typography
 
 
-<h1>Generic Mono</h1>
-
-> "A generic monospaced font"
-[...](http://openfontlibrary.org/en/font/generic-mono)
-
-Hard to say much about a font is so generic and proud of it. It's functional on non-offensive, but it's limited coverage and lack of bold and italics hold it back. It's hard to fault its basic design though, and it's very new, so who knows what the future holds for this font.
-
-By **Luc Devroye** (2014)  
-*License: SIL OFL*  
-http://openfontlibrary.org/en/font/generic-mono
-
-#sans #2014 #free #programming #fonts #typography
-
-
-<h1>Hermit</h1>
-
-> "Hermit is a monospace font designed to be clear, pragmatic and very readable. Its creation has been focused on programming. Every glyph was carefully planned and calculated, according to defined principles and rules. For this reason, Hermit is coherent and regular."
-[...](https://pcaro.es/p/hermit/)
-
-This font is a clear and modern (futuristic even) sans, created by a programmer to be free  for everyone. Its limited coverage won't fill everyones needs, but it is well done and quite popular.
-
-By **Pablo Caro** (2013)  
-*License: SIL OFL*  
-https://pcaro.es/p/hermit/
-
-#sans #2013 #free #programming #fonts #typography
-
-
 <h1>Inconsolata-g</h1>
 
 > "I use the free Inconsolata font (by Raph Levien) to program and as shell font, and I like it a lot... So I've uses FontForge to modify more his Inconsolata version, to fix some of the things I don't like of Inconsolata."
@@ -185,6 +112,18 @@ By **Leonardo Maffi** (2009)
 http://leonardo-m.livejournal.com/77079.html
 
 #sans #consolas #2009 #free #programming #fonts #typography
+
+
+<h1>Input</h1>
+"Input takes its aesthetic cues from monospaced fonts and pixel fonts designed for consoles and screens, but casts off the technical limitations that constrained them."
+[...](http://input.fontbureau.com)
+
+With this font Font Bureau has created a complete type system for programming. As demonstrated in the [interactive preview](http://input.fontbureau.com/preview/) it comes with a wide range of styles, sizes, weights and even a whole host of Open Type features. If you like you can even opt for proportional instead of monospace.
+
+By **David Jonathan Ross** (2014)  
+*License: SIL OFL*  
+http://input.fontbureau.com
+
 
 
 <h1>Lekton</h1>
@@ -272,21 +211,6 @@ http://www.google.com/fonts/specimen/Nova+Mono
 #sans #2010 #display #free #programming #fonts #typography
 
 
-<h1>Profont</h1>
-
-> "ProFont began life as a better version of Monaco 9 which is especially good for programmers."
-[...](http://infohost.nmt.edu/tcc/help/fonts/profont/MProFont/profontdoc.txt)
-
-Designed during the Eighties specifically for coding, this font has all the important features: readability at small sizes, a slashed zero, disting i's and 1's. The original font had bitmaps for a range of sizes, the more recent (and Mac compatible) versions are outline fonts. Perhaps the bitmaps (turn antialiasing off) are still the best, even though this retro trip isn't for everyone (nor does it work everywhere). You'll also have to do without bold and italic. Get the version for your system from [Tobias Young](http://tobiasjung.name/profont/index.php?fs=12&pf=on).
-
-By **Andrew Welch** (1987)  
-*License: MIT*  
-http://tobiasjung.name/profont/  
-http://www.fontsquirrel.com/fonts/ProFontWindows
-
-#free #1987 #bitmap #retro #programming #fonts #typography
-
-
 <h1>Quinze</h1>
 
 > "Quinze is a narrow monospaced font, for programming and terminal emulators. It is designed to be narrow, and allow 132 columns to be comfortably fitted on a screen The 1, l and I are clearly distinguished, as are O and 0. The ascii circumflex is presented as an arrow, consistent with its use as exponentiation operator."
@@ -310,35 +234,6 @@ By **s.a.x. Software**
 http://www.fontsquirrel.com/fonts/saxMono
 
 #sans #free #programming #fonts #typography
-
-
-<h1>Share Tech Mono</h1>
-
-> "Share Tech Mono is a monospaced sans serif, based on the Share family. There is also Share Tech, a proportionally spaced version."
-[...](http://www.google.com/fonts/specimen/Share+Tech+Mono)
-
-In 2009 Carrois Type Design developed the extensive Share family of fonts, featuring the Share Tech Mono that's suitable for programming. It has 256 glyphs, only in regular, with a slahed zero and distinct characters.
-
-By **Ralph du Carrois** (2012)  
-*License: share-tech*  
-http://www.google.com/fonts/specimen/Share+Tech+Mono  
-http://www.fontsquirrel.com/fonts/Share-Regular
-
-#professional #2012 #sans #programming #fonts #typography
-
-
-<h1>Sudo</h1>
-
-> "In 2009 I wasn’t satisfied with the available text editor fonts and decided to draw my own: Sudo. Over the last years I used it as my main font in the Terminal, as well as my text editor font for coding on Mac and Windows. Whenever something bugged me, I refined the design and could instantly evaluate if a change was an improvement."
-[...](http://www.netzallee.de/extra/sudo)
-
-What do you do when you can't find the right font? You create one of course. Of course such a personal project can't match the coverage of more professional efforts, but you have to like the attitude. The files are on github and you can trak Jens's additions and tweaks there.
-
-By **Jens Kutilek** (2009)  
-*License: SIL OFL*  
-http://www.netzallee.de/extra/sudo
-
-#github #2009 #free #sans #programming #fonts #typography
 
 
 <h1>VT323</h1>
@@ -399,16 +294,6 @@ By **Jerry Fitzpatrick**
 http://www.dafont.com/crystal.font
 
 #sans
-
-
-<h1>Envy Code R</h1>
-
-Like its name implies this font is meant for coding and makes sure all letterforms are easily recognized. It covers 643 glyphs in regular, bold and italic and is freely available from Fontsquirrel.
-
-By **Damien Guard**  
-http://www.fontsquirrel.com/fonts/Envy-Code-R
-
-#free #sans #programming #fonts #typography
 
 
 <h1>Gohu</h1>
@@ -900,3 +785,129 @@ http://www.fontsquirrel.com/fonts/fira-mono
 http://www.google.com/fonts/specimen/Fira+Mono
 
 #professional #2013 #sans #free #programming #fonts #typography
+
+
+<h1>Sudo</h1>
+
+> "In 2009 I wasn’t satisfied with the available text editor fonts and decided to draw my own: Sudo. Over the last years I used it as my main font in the Terminal, as well as my text editor font for coding on Mac and Windows. Whenever something bugged me, I refined the design and could instantly evaluate if a change was an improvement."
+[...](http://www.netzallee.de/extra/sudo)
+
+What do you do when you can't find the right font? You create one of course. Of course such a personal project can't match the coverage of more professional efforts, but you have to like the attitude. The files are on github and you can trak Jens's additions and tweaks there.
+
+By **Jens Kutilek** (2009)  
+*License: SIL OFL*  
+http://www.netzallee.de/extra/sudo
+
+#github #2009 #free #sans #programming #fonts #typography
+
+
+<h1>Hermit</h1>
+
+> "Hermit is a monospace font designed to be clear, pragmatic and very readable. Its creation has been focused on programming. Every glyph was carefully planned and calculated, according to defined principles and rules. For this reason, Hermit is coherent and regular."
+[...](https://pcaro.es/p/hermit/)
+
+This font is a clear and modern (futuristic even) sans, created by a programmer to be free  for everyone. Its limited coverage won't fill everyones needs, but it is well done and quite popular.
+
+By **Pablo Caro** (2013)  
+*License: SIL OFL*  
+https://pcaro.es/p/hermit/
+
+#sans #2013 #free #programming #fonts #typography
+
+
+<h1>Share Tech Mono</h1>
+
+> "Share Tech Mono is a monospaced sans serif, based on the Share family. There is also Share Tech, a proportionally spaced version."
+[...](http://www.google.com/fonts/specimen/Share+Tech+Mono)
+
+In 2009 Carrois Type Design developed the extensive Share family of fonts, featuring the Share Tech Mono that's suitable for programming. It has 256 glyphs, only in regular, with a slahed zero and distinct characters.
+
+By **Ralph du Carrois** (2012)  
+*License: share-tech*  
+http://www.google.com/fonts/specimen/Share+Tech+Mono  
+http://www.fontsquirrel.com/fonts/Share-Regular
+
+#professional #2012 #sans #programming #fonts #typography
+
+
+<h1>Envy Code R</h1>
+
+Like its name implies this font is meant for coding and makes sure all letterforms are easily recognized. It covers 643 glyphs in regular, bold and italic and is freely available from Fontsquirrel.
+
+By **Damien Guard**  
+http://www.fontsquirrel.com/fonts/Envy-Code-R
+
+#free #sans #programming #fonts #typography
+
+
+<h1>Aurulent Sans Mono</h1>
+
+> "Aurulent Sans is a sans serif font I'm developing for use as the primary interface font on X Windows on GNU/Linux."
+[...](http://delubrum.org)
+
+It's a bit limited, 264 Glyphs, and bold and italic need to be synthesized. The creator is an Associate Professor in the Department of Mathematics of the University of Nebraska–Lincoln. While Aurulent may [have its flaws](http://typophile.com/node/31970), and doesn't distinguish the 0's and O's, it's a pretty good looking font considering it basically seems to be a hobby project.
+
+By **Stephen G. Hartke** (2007)  
+*License: SIL OFL*  
+http://delubrum.org  
+http://www.fontsquirrel.com/fonts/Aurulent-Sans-Mono
+
+#stephen g hartke #sans #2007 #free #programming #fonts #typography
+
+
+<h1>Droid Sans Mono</h1>
+
+> "The Droid family of fonts was designed by Ascender’s Steve Matteson beginning in the fall of 2006. The goal was to provide optimal quality and reading comfort on a mobile handset. The Droid fonts were optimized for use in application menus, web browsers and for other screen text."
+[...](http://www.droidfonts.com)
+
+Designed to carry Google Android's friendly character, Steve Matteson designed this font to be at its best on (small) screens. Sincs its initial relase it has been perfected  and expanded, making it a reliable use-anywhere font. At the same time it's fun and ligh-hearted. For some reason it lacks a true italic, and it should better distinguish o's and zeros, but it supports more languages that you can swing a smartphone at.
+
+By **Steve Matteson** (2006)  
+*License: Apache*  
+http://www.google.com/fonts/specimen/Droid+Sans+Mono  
+http://www.droidfonts.com
+
+#sans #humanist #2006 #steve matteson #professional #free #programming #fonts #typography
+
+
+<h1>Generic Mono</h1>
+
+> "A generic monospaced font"
+[...](http://openfontlibrary.org/en/font/generic-mono)
+
+Hard to say much about a font is so generic and proud of it. It's functional on non-offensive, but it's limited coverage and lack of bold and italics hold it back. It's hard to fault its basic design though, and it's very new, so who knows what the future holds for this font.
+
+By **Luc Devroye** (2014)  
+*License: SIL OFL*  
+http://openfontlibrary.org/en/font/generic-mono
+
+#sans #2014 #free #programming #fonts #typography
+
+
+<h1>Profont</h1>
+
+> "ProFont began life as a better version of Monaco 9 which is especially good for programmers."
+[...](http://infohost.nmt.edu/tcc/help/fonts/profont/MProFont/profontdoc.txt)
+
+Designed during the Eighties specifically for coding, this font has all the important features: readability at small sizes, a slashed zero, disting i's and 1's. The original font had bitmaps for a range of sizes, the more recent (and Mac compatible) versions are outline fonts. Perhaps the bitmaps (turn antialiasing off) are still the best, even though this retro trip isn't for everyone (nor does it work everywhere). You'll also have to do without bold and italic. Get the version for your system from [Tobias Young](http://tobiasjung.name/profont/index.php?fs=12&pf=on).
+
+By **Andrew Welch** (1987)  
+*License: MIT*  
+http://tobiasjung.name/profont/  
+http://www.fontsquirrel.com/fonts/ProFontWindows
+
+#free #1987 #bitmap #retro #programming #fonts #typography
+
+
+<h1>Consolamono</h1>
+
+> "It's my old unfinished font. I made some sketches of several glyphs 5-6 years ago, and I never finished this. Now I made missing glyphs, did changes of some glyphs and turn into monospaced font. The font is updated now (2011.06.17) - I made all glyphs for Latin Extended B, Cyrillic, and Cyrillic Supplement. Added Bold version 2012.11.16 2013.01.27"
+[...](http://openfontlibrary.org/en/font/consolamono)
+
+This is a beautiful, rounded font with tons of character. While it might not look like the most obvious choice for a programming font it's very well made and its coverage is very good. Consolamono doesn't come with true italics. However, if you're looking for something fun and different, this might just be it.
+
+By *Wojciech Kalinowski** (2011)  
+*License: SIL OFL*  
+http://openfontlibrary.org/en/font/consolamono
+
+#sans #display #2011 #free #programming #fonts #typography

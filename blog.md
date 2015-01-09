@@ -118,12 +118,13 @@ http://leonardo-m.livejournal.com/77079.html
 "Input takes its aesthetic cues from monospaced fonts and pixel fonts designed for consoles and screens, but casts off the technical limitations that constrained them."
 [...](http://input.fontbureau.com)
 
-With this font Font Bureau has created a complete type system for programming. As demonstrated in the [interactive preview](http://input.fontbureau.com/preview/) it comes with a wide range of styles, sizes, weights and even a whole host of Open Type features. If you like you can even opt for proportional instead of monospace.
+With this font Font Bureau has created a complete type system for programming. As demonstrated in the [interactive preview](http://input.fontbureau.com/preview/) it comes with a wide range of styles, sizes, weights and even a whole host of Open Type features. This means you can even choose between a dot or a slash in your zero. If you like you can even opt for proportional instead of monospace.
 
 By **David Jonathan Ross** (2014)  
 *License: SIL OFL*  
 http://input.fontbureau.com
 
+#sans #professional #2014 #free #programming #fonts #typography
 
 
 <h1>Lekton</h1>

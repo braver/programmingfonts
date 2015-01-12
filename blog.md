@@ -27,22 +27,6 @@ http://openfontlibrary.org/en/font/average-mono
 #serif #courier #2013 #free #programming #fonts #typography
 
 
-<h1>Cutive Mono</h1>
-
-> "The design of Cutive, and this monospace sister family Cutive Mono, is based on a number of classic typewriter typefaces, in particular the faces of IBM's 'Executive,' and the older 'Smith-Premier.'"
-[...](http://www.google.com/fonts/specimen/Cutive+Mono)
-
-Cutive is a thin and light typewriter font with subtle serifs. A fresh and modern take on the classic style, this wonderful writer's typeface covers the basic western character set. It doesn't have true bold and italic, and zero's and o's aren't very distinct, but that shouldn't hold you back. Get your Hemingway on and blog away with this modern classic.
-
-By **Vernon Adams** (2012)  
-*License: SIL OFL*  
-http://www.google.com/fonts/specimen/Cutive+Mono  
-https://github.com/vernnobile/CutiveFont  
-http://luc.devroye.org/fonts-47641.html
-
-#2012 #writing #github #serif #free #vernon adams #professional #fonts #typography
-
-
 <h1>DejaVu Mono</h1>
 
 > "The DejaVu fonts are a font family based on the Vera Fonts. Its purpose is to provide a wider range of characters while maintaining the original look and feel through the process of collaborative development (see authors), under a Free license."
@@ -912,3 +896,19 @@ By *Wojciech Kalinowski** (2011)
 http://openfontlibrary.org/en/font/consolamono
 
 #sans #display #2011 #free #programming #fonts #typography
+
+
+<h1>Cutive Mono</h1>
+
+> "The design of Cutive, and this monospace sister family Cutive Mono, is based on a number of classic typewriter typefaces, in particular the faces of IBM's 'Executive,' and the older 'Smith-Premier.'"
+[...](http://www.google.com/fonts/specimen/Cutive+Mono)
+
+Cutive is a thin and light typewriter font with subtle serifs. A fresh and modern take on the classic style, this wonderful writer's typeface covers the basic western character set. It doesn't have true bold and italic, and zero's and o's aren't very distinct, but that shouldn't hold you back. Get your Hemingway on and blog away with this modern classic.
+
+By **Vernon Adams** (2012)  
+*License: SIL OFL*  
+http://www.google.com/fonts/specimen/Cutive+Mono  
+https://github.com/vernnobile/CutiveFont  
+http://luc.devroye.org/fonts-47641.html
+
+#2012 #writing #github #serif #free #vernon adams #professional #fonts #typography

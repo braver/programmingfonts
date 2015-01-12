@@ -71,21 +71,6 @@ http://openfontlibrary.org/en/font/effects-eighty
 #display #2013 #retro #sans #free #programming #fonts #typography
 
 
-<h1>Fantasque Sans Mono</h1>
-
-> "A programming font, designed with functionality in mind, and with some wibbly-wobbly handwriting-like fuzziness that makes it unassumingly cool."
-[...](https://github.com/belluzj/fantasque-sans)
-
-Conceived as the "the mutant child of Comic Sans and Helvetica Neue", this is fun as a programming font can get (legally at least). Make no mistakes though, this isn't Comic Sans and Fantasque Sans Mono is very serious. The open source project has seen a great many updates throughout the year. Add a dash of wibbly-wobbly to make a day of debugging a bit less dreary.
-
-By **Jany Belluz** (2013)  
-*License: SIL OFL*  
-http://openfontlibrary.org/en/font/fantasque-sans-mono  
-https://github.com/belluzj/fantasque-sans
-
-#2013 #github #active development #open source #sans #free #programming #fonts #typography
-
-
 <h1>Fixedsys</h1>
 
 > "Fixedsys is a family of raster monospaced fonts. The name means fixed system, because its glyphs are monospace or fixed-width (although bolded characters are wider than non-bolded, unlike other monospace fonts such as Courier). It is the oldest font in Windows, and was the system font in Windows 1.0 and 2.0, where it was simply named "System". For Windows 3.x, the system font was changed to a proportional sans-serif font named System, but Fixedsys remained the default font in Notepad."
@@ -100,20 +85,6 @@ https://en.wikipedia.org/wiki/Fixedsys
 #pixel #retro #1980 #free #sans #programming #fonts #typography
 
 
-<h1>Inconsolata-g</h1>
-
-> "I use the free Inconsolata font (by Raph Levien) to program and as shell font, and I like it a lot... So I've uses FontForge to modify more his Inconsolata version, to fix some of the things I don't like of Inconsolata."
-[...](http://leonardo-m.livejournal.com/77079.html)
-
-This variation of Inconsolata, made possible by the OFL license, contains some minor tweaks. Most immediately visible is its increased size. It also uses straight quotes by default. If you  agree with Leonardo Maffi that this is an improvement, well there you go.
-
-By **Leonardo Maffi** (2009)  
-*License: SIL OFL*  
-http://leonardo-m.livejournal.com/77079.html
-
-#sans #consolas #2009 #free #programming #fonts #typography
-
-
 <h1>Input</h1>
 "Input takes its aesthetic cues from monospaced fonts and pixel fonts designed for consoles and screens, but casts off the technical limitations that constrained them."
 [...](http://input.fontbureau.com)
@@ -125,22 +96,6 @@ By **David Jonathan Ross** (2014)
 http://input.fontbureau.com
 
 #sans #professional #2014 #free #programming #fonts #typography
-
-
-<h1>Lekton</h1>
-
-> "Lekton has been designed at ISIA Urbino, Italy, and is inspired by some of the typefaces used on the Olivetti typewriters."
-[...](http://www.google.com/fonts/specimen/Lekton)
-
-Originally designed by [a group of students at ISIA Urbino](http://lektongroups.blogspot.co.uk/2010/04/luglio-2008.html), this font was inspired by some of the typefaces used on the Olivetti typewriters. It is monospaced because the typewriter fonts were like that too. A programmer may fault it for its lack of a distint zero, but on the upside it features 953 glyphs in regular, bold and italic. Perhaps not surprising considering its origin, Lekton is really a writers typeface.
-
-By **Accademia di Belle Arti di Urbino** (2008)  
-*License: SIL OFL*  
-http://www.fontsquirrel.com/fonts/lekton  
-http://www.google.com/fonts/specimen/Lekton
-
-#2008 #writing #sans #free #fonts #typography
-
 
 <h1>Liberation Mono</h1>
 
@@ -351,16 +306,6 @@ By **Paradox 2005**
 http://www.dafont.com/paradox-2005.d961
 
 #sans #writing #fonts #typography
-
-
-<h1>Telegrama</h1>
-
-Telegrama comes in a faux-pixel version (aka "Raw") and a smooth outline version (aka "Render"). It has 227 glyphs, among which a slashed zero.
-
-By **YOFonts**  
-http://www.fontsquirrel.com/fonts/Telegrama
-
-#sans #free #programming #fonts #typography
 
 
 <h1>Terminus</h1>
@@ -912,3 +857,57 @@ By *Wojciech Kalinowski** (2011)
 http://openfontlibrary.org/en/font/consolamono
 
 #sans #display #2011 #free #programming #fonts #typography
+
+
+<h1>Fantasque Sans Mono</h1>
+
+> "A programming font, designed with functionality in mind, and with some wibbly-wobbly handwriting-like fuzziness that makes it unassumingly cool."
+[...](https://github.com/belluzj/fantasque-sans)
+
+Conceived as the "the mutant child of Comic Sans and Helvetica Neue", this is fun as a programming font can get (legally at least). Make no mistakes though, this isn't Comic Sans and Fantasque Sans Mono is very serious. The open source project has seen a great many updates throughout the year. Add a dash of wibbly-wobbly to make a day of debugging a bit less dreary.
+
+By **Jany Belluz** (2013)  
+*License: SIL OFL*  
+http://openfontlibrary.org/en/font/fantasque-sans-mono  
+https://github.com/belluzj/fantasque-sans
+
+#2013 #github #active development #open source #sans #free #programming #fonts #typography
+
+
+<h1>Inconsolata-g</h1>
+
+> "I use the free Inconsolata font (by Raph Levien) to program and as shell font, and I like it a lot... So I've uses FontForge to modify more his Inconsolata version, to fix some of the things I don't like of Inconsolata."
+[...](http://leonardo-m.livejournal.com/77079.html)
+
+This variation of Inconsolata, made possible by the OFL license, contains some minor tweaks. Most immediately visible is its increased size. It also uses straight quotes by default. If you  agree with Leonardo Maffi that this is an improvement, well there you go.
+
+By **Leonardo Maffi** (2009)  
+*License: SIL OFL*  
+http://leonardo-m.livejournal.com/77079.html
+
+#sans #consolas #2009 #free #programming #fonts #typography
+
+
+<h1>Lekton</h1>
+
+> "Lekton has been designed at ISIA Urbino, Italy, and is inspired by some of the typefaces used on the Olivetti typewriters."
+[...](http://www.google.com/fonts/specimen/Lekton)
+
+Originally designed by [a group of students at ISIA Urbino](http://lektongroups.blogspot.co.uk/2010/04/luglio-2008.html), this font was inspired by some of the typefaces used on the Olivetti typewriters. It is monospaced because the typewriter fonts were like that too. A programmer may fault it for its lack of a distint zero, but on the upside it features 953 glyphs in regular, bold and italic. Perhaps not surprising considering its origin, Lekton is really a writers typeface.
+
+By **Accademia di Belle Arti di Urbino** (2008)  
+*License: SIL OFL*  
+http://www.fontsquirrel.com/fonts/lekton  
+http://www.google.com/fonts/specimen/Lekton
+
+#2008 #writing #sans #free #fonts #typography
+
+
+<h1>Telegrama</h1>
+
+Telegrama comes in a faux-pixel version (aka "Raw") and a smooth outline version (aka "Render"). It has 227 glyphs, among which a slashed zero.
+
+By **YOFonts**  
+http://www.fontsquirrel.com/fonts/Telegrama
+
+#sans #free #programming #fonts #typography

@@ -27,20 +27,6 @@ http://openfontlibrary.org/en/font/average-mono
 #serif #courier #2013 #free #programming #fonts #typography
 
 
-<h1>DejaVu Mono</h1>
-
-> "The DejaVu fonts are a font family based on the Vera Fonts. Its purpose is to provide a wider range of characters while maintaining the original look and feel through the process of collaborative development (see authors), under a Free license."
-[...](http://dejavu-fonts.org/wiki/Main_Page)
-
-The DejaVu project is open source at its best. Started by expanding the coverage of the Bitstream Vera typeface, it has been in [active development](http://dejavu-fonts.org/wiki/Changelog) for the past ten years. You might not have missed the Turkish Lira sign, but if you did you'll be glad to know it has recently been added. DejaVu has an amazing coverage and has all the styles you'll ever need. It's classic and understated and the goto font for many coders.
-
-By **Deja Vu Project** (2004)  
-*License: Bitstream Vera License*  
-http://dejavu-fonts.org/wiki/Main_Page
-
-#2014 #open source #active development #bistream vera #sans #free #programming #fonts #typography
-
-
 <h1>Effects Eighty</h1>
 
 > "Effects Eighty is an homage to the dot-matrix printers of the 1980s. It is a very faithful reproduction of the output of one of that class of printers. The family includes normal, italic, bold, and bold italic versions. It supports the ASCII printable character set. An update with at least some Latin-1 support is planned."
@@ -911,3 +897,17 @@ https://github.com/vernnobile/CutiveFont
 http://luc.devroye.org/fonts-47641.html
 
 #2012 #writing #github #serif #free #vernon adams #professional #fonts #typography
+
+
+<h1>DejaVu Mono</h1>
+
+> "The DejaVu fonts are a font family based on the Vera Fonts. Its purpose is to provide a wider range of characters while maintaining the original look and feel through the process of collaborative development (see authors), under a Free license."
+[...](http://dejavu-fonts.org/wiki/Main_Page)
+
+The DejaVu project is open source at its best. Started by expanding the coverage of the Bitstream Vera typeface, it has been in [active development](http://dejavu-fonts.org/wiki/Changelog) for the past ten years. You might not have missed the Turkish Lira sign, but if you did you'll be glad to know it has recently been added. DejaVu has an amazing coverage and has all the styles you'll ever need. It's classic and understated and the goto font for many coders.
+
+By **Deja Vu Project** (2004)  
+*License: Bitstream Vera License*  
+http://dejavu-fonts.org/wiki/Main_Page
+
+#2014 #open source #active development #bistream vera #sans #free #programming #fonts #typography

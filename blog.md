@@ -302,16 +302,6 @@ https://en.wikipedia.org/wiki/Consolas
 #sans #commercial #professional #consolas #programming #fonts #typography
 
 
-<h1>Courier New</h1>
-
-Monotype created a new digital outline Courier by taking the character shapes directly from the Selectric typewriter's golf ball. This resulted in much thinner characters. This font was featuredin Windows 3.1 alongside the original raster Courier. Tweaks have later been made to make the thin font look acceptable in Windows ClearType.
-
-By **Howard "Bud" Kettler** (1955)  
-https://en.wikipedia.org/wiki/Courier_(typeface)
-
-#serif #commercial #writing #professional #1955 #courier #fonts #typography
-
-
 <h1>Everson Mono</h1>
 
 > "Everson Mono is a simple, elegant, monowidth font. I started designing it in 1994 primarily to make glyphs available to support the non-Han characters in Unicode and ISO/IEC 10646, though I hope that users may find it a pleasant alternative to Courier and Monaco for general purposes, e-mail, and so forth. I have found it quite legible at sizes as small as 4 points. It is lighter and a bit looser than Courier."
@@ -911,3 +901,13 @@ By **Deja Vu Project** (2004)
 http://dejavu-fonts.org/wiki/Main_Page
 
 #2014 #open source #active development #bistream vera #sans #free #programming #fonts #typography
+
+
+<h1>Courier New</h1>
+
+Monotype created a new digital outline Courier by taking the character shapes directly from the Selectric typewriter's [golf ball](https://en.wikipedia.org/wiki/IBM_Selectric_typewriter). This resulted in much thinner characters. This font was featuredin Windows 3.1 alongside the original raster Courier. Tweaks have later been made to make the thin font look acceptable in Windows ClearType.
+
+By **Howard "Bud" Kettler** (1955)  
+https://en.wikipedia.org/wiki/Courier_(typeface)
+
+#serif #commercial #writing #professional #1955 #courier #fonts #typography

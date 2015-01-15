@@ -27,20 +27,6 @@ http://openfontlibrary.org/en/font/average-mono
 #serif #courier #2013 #free #programming #fonts #typography
 
 
-<h1>Effects Eighty</h1>
-
-> "Effects Eighty is an homage to the dot-matrix printers of the 1980s. It is a very faithful reproduction of the output of one of that class of printers. The family includes normal, italic, bold, and bold italic versions. It supports the ASCII printable character set. An update with at least some Latin-1 support is planned."
-[...](http://openfontlibrary.org/en/font/effects-eighty)
-
-If you're feeling nostalgic for the days of dot-matrix printers (oh the noise they made!) this is your font. Perhaps more whimsycal than than practical, Effects Eighty works as advertised. Excellent retro.
-
-By **Peter Hull** (2013)  
-*License: SIL OFL*  
-http://openfontlibrary.org/en/font/effects-eighty
-
-#display #2013 #retro #sans #free #programming #fonts #typography
-
-
 <h1>Fixedsys</h1>
 
 > "Fixedsys is a family of raster monospaced fonts. The name means fixed system, because its glyphs are monospace or fixed-width (although bolded characters are wider than non-bolded, unlike other monospace fonts such as Courier). It is the oldest font in Windows, and was the system font in Windows 1.0 and 2.0, where it was simply named "System". For Windows 3.x, the system font was changed to a proportional sans-serif font named System, but Fixedsys remained the default font in Notepad."
@@ -911,3 +897,17 @@ By **Howard "Bud" Kettler** (1955)
 https://en.wikipedia.org/wiki/Courier_(typeface)
 
 #serif #commercial #writing #professional #1955 #courier #fonts #typography
+
+
+<h1>Effects Eighty</h1>
+
+> "Effects Eighty is an homage to the dot-matrix printers of the 1980s. It is a very faithful reproduction of the output of one of that class of printers. The family includes normal, italic, bold, and bold italic versions. It supports the ASCII printable character set. An update with at least some Latin-1 support is planned."
+[...](http://openfontlibrary.org/en/font/effects-eighty)
+
+If you're feeling nostalgic for the days of dot-matrix printers (oh the noise they made!) this is your font. Perhaps more whimsycal than than practical, Effects Eighty works as advertised. Excellent retro.
+
+By **Peter Hull** (2013)  
+*License: SIL OFL*  
+http://openfontlibrary.org/en/font/effects-eighty
+
+#display #2013 #retro #sans #free #programming #fonts #typography

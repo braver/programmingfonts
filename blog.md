@@ -109,20 +109,6 @@ http://openfontlibrary.org/en/font/notcouriersans
 #sans #2008 #free #nimbus #programming #fonts #typography
 
 
-<h1>Nova Mono</h1>
-
-> "I created the NovaCut font about 14-15 years ago for making inscriptions on stone. Initially the font contained only capitals and digits and existed only on paper and stone inscriptions. In 2010 I decided transfer this font to a computer, and made the missing lowercase and some basical signs; it was initially named Gothica."
-[...](http://www.google.com/fonts/specimen/Nova+Mono)
-
-This is a unique font with lots of character. The rounded flourishes really make it stand out. It does have all the most important features for programming (like a slashed zero), so why not spice up your debugging with Nova.
-
-By **Wojciech Kalinowski** (2010)  
-*License: SIL OFL*  
-http://www.google.com/fonts/specimen/Nova+Mono
-
-#sans #2010 #display #free #programming #fonts #typography
-
-
 <h1>Quinze</h1>
 
 > "Quinze is a narrow monospaced font, for programming and terminal emulators. It is designed to be narrow, and allow 132 columns to be comfortably fitted on a screen The 1, l and I are clearly distinguished, as are O and 0. The ascii circumflex is presented as an arrow, consistent with its use as exponentiation operator."
@@ -911,3 +897,17 @@ By **Peter Hull** (2013)
 http://openfontlibrary.org/en/font/effects-eighty
 
 #display #2013 #retro #sans #free #programming #fonts #typography
+
+
+<h1>Nova Mono</h1>
+
+> "I created the NovaCut font about 14-15 years ago for making inscriptions on stone. Initially the font contained only capitals and digits and existed only on paper and stone inscriptions. In 2010 I decided transfer this font to a computer, and made the missing lowercase and some basical signs; it was initially named Gothica."
+[...](http://www.google.com/fonts/specimen/Nova+Mono)
+
+This is a unique font with lots of character. The rounded flourishes really make it stand out. It does have all the most important features for programming (like a slashed zero), so why not spice up your debugging with Nova.
+
+By **Wojciech Kalinowski** (2010)  
+*License: SIL OFL*  
+http://www.google.com/fonts/specimen/Nova+Mono
+
+#sans #2010 #display #free #programming #fonts #typography

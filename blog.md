@@ -53,20 +53,6 @@ http://input.fontbureau.com
 
 #sans #professional #2014 #free #programming #fonts #typography
 
-<h1>Liberation Mono</h1>
-
-> "On May 9, 2007, Red Hat announced the public release of these fonts under the trademark LIBERATION at the Red Hat Summit. There are three sets: Sans (a substitute for Arial, Albany, Helvetica, Nimbus Sans L, and Bitstream Vera Sans), Serif (a substitute for Times New Roman, Thorndale, Nimbus Roman, and Bitstream Vera Serif) and Mono (a substitute for Courier New, Cumberland, Courier, Nimbus Mono L, and Bitstream Vera Sans Mono)."
-[...](https://fedorahosted.org/liberation-fonts/)
-
-Red Hat sponsored Steve Matteson in 2007 to create a set of fonts it could package with its Linux distribution. The family features metrically compatible replacements for Arial and Times New Roman, as well as a monospaced Courier replacement. While it lacks a distinct zero, this is a solid font with 665 glyphs and true bold and italic.
-
-By **Steve Matteson** (2007)  
-*License: Red Hat Liberation License*  
-https://fedorahosted.org/liberation-fonts/  
-http://www.fontsquirrel.com/fonts/Liberation-Mono
-
-#2007 #steve matteson #sans #professional #linux #free #programming #fonts #typography
-
 
 <h1>Meslo</h1>
 
@@ -911,3 +897,18 @@ By **Wojciech Kalinowski** (2010)
 http://www.google.com/fonts/specimen/Nova+Mono
 
 #sans #2010 #display #free #programming #fonts #typography
+
+
+<h1>Liberation Mono</h1>
+
+> "On May 9, 2007, Red Hat announced the public release of these fonts under the trademark LIBERATION at the Red Hat Summit. There are three sets: Sans (a substitute for Arial, Albany, Helvetica, Nimbus Sans L, and Bitstream Vera Sans), Serif (a substitute for Times New Roman, Thorndale, Nimbus Roman, and Bitstream Vera Serif) and Mono (a substitute for Courier New, Cumberland, Courier, Nimbus Mono L, and Bitstream Vera Sans Mono)."
+[...](https://fedorahosted.org/liberation-fonts/)
+
+Red Hat sponsored Steve Matteson in 2007 to create a set of fonts it could package with its Linux distribution. The family features metrically compatible replacements for Arial and Times New Roman, as well as a monospaced Courier replacement. While it lacks a distinct zero, this is a solid font with 665 glyphs and true bold and italic.
+
+By **Steve Matteson** (2007)  
+*License: Red Hat Liberation License*  
+https://fedorahosted.org/liberation-fonts/  
+http://www.fontsquirrel.com/fonts/Liberation-Mono
+
+#2007 #steve matteson #sans #professional #linux #free #programming #fonts #typography

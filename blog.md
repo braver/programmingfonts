@@ -95,20 +95,6 @@ http://openfontlibrary.org/en/font/notcouriersans
 #sans #2008 #free #nimbus #programming #fonts #typography
 
 
-<h1>Quinze</h1>
-
-> "Quinze is a narrow monospaced font, for programming and terminal emulators. It is designed to be narrow, and allow 132 columns to be comfortably fitted on a screen The 1, l and I are clearly distinguished, as are O and 0. The ascii circumflex is presented as an arrow, consistent with its use as exponentiation operator."
-[...](http://openfontlibrary.org/en/font/fifteen)
-
-Like Fifteen, Quinze was made to fit lots of code on a line. It's very narrow but still readable. Where Fifteen is a faux bitmap font that only really works at 15 pixels, Quinze is a true outline font. It has all the features required of a programming font, but lacks true bold and italic and its character set is a bit limited. A bit of a specialist font perhaps, but well executed and usefull.
-
-By **James Kilfiger** (2013)  
-*License: SIL OFL*  
-http://openfontlibrary.org/en/font/fifteen
-
-#sans #narrow #2013 #free #programming #fonts #typography
-
-
 <h1>saxMono</h1>
 
 Not much is known about this font. It features 495 glyphs, only in regular. Also, its zero and capital o are almost equal, as are the one and capital i. So, saxMono might not be an obvious first choice for programming, but it's a well made and modern typeface.
@@ -912,3 +898,17 @@ https://fedorahosted.org/liberation-fonts/
 http://www.fontsquirrel.com/fonts/Liberation-Mono
 
 #2007 #steve matteson #sans #professional #linux #free #programming #fonts #typography
+
+
+<h1>Quinze</h1>
+
+> "Quinze is a narrow monospaced font, for programming and terminal emulators. It is designed to be narrow, and allow 132 columns to be comfortably fitted on a screen The 1, l and I are clearly distinguished, as are O and 0. The ascii circumflex is presented as an arrow, consistent with its use as exponentiation operator."
+[...](http://openfontlibrary.org/en/font/fifteen)
+
+Like Fifteen, Quinze was made to fit lots of code on a line. It's very narrow but still readable. Where Fifteen is a faux bitmap font that only really works at 15 pixels, Quinze is a true outline font. It has all the features required of a programming font, but lacks true bold and italic and its character set is a bit limited. A bit of a specialist font perhaps, but well executed and usefull.
+
+By **James Kilfiger** (2013)  
+*License: SIL OFL*  
+http://openfontlibrary.org/en/font/fifteen
+
+#sans #narrow #2013 #free #programming #fonts #typography

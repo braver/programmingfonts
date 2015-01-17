@@ -145,17 +145,6 @@ http://www.fontsquirrel.com/fonts/Audimat-Mono
 http://www.smeltery.net/fonts/audimat-mono
 
 
-<h1>Creep</h1>
-
-This pixel font (really only works at one size, no antialiasing) is great for tiny text. It's a bit specialized at that, but perfect if it's what you're looking for.
-
-By **Romeo Van Snick**  
-*License: MIT*  
-https://github.com/romeovs/creep
-
-#sans #pixel #free #github #active development #programming #fonts #typography
-
-
 <h1>Crystal</h1>
 
 Not much is known about this seemingly freely available font. It has a slashed zero, but lacks bold and italic. Also, it's character set is very limited and omits things like the euro and copyright signs (although it does include box drawing characters).
@@ -912,3 +901,14 @@ By **James Kilfiger** (2013)
 http://openfontlibrary.org/en/font/fifteen
 
 #sans #narrow #2013 #free #programming #fonts #typography
+
+
+<h1>Creep</h1>
+
+This pixel font (really only works at one size, no antialiasing) is great for tiny text. It's a bit specialized at that, but perfect if it's what you're looking for.
+
+By **Romeo Van Snick**  
+*License: MIT*  
+https://github.com/romeovs/creep
+
+#sans #pixel #free #github #active development #programming #fonts #typography

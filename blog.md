@@ -1,18 +1,3 @@
-<h1>Anka/Coder</h1>
-
-> "The Anka/Coder family is a monospaced, courier-width (60% of height; em size 2048x1229) font that contains characters from 437, 866, 1251, 1252 and some other code pages and can be used for source code, terminal windows etc."
-[...](https://code.google.com/p/anka-coder-fonts/)
-
-It features true bold an italic variants so this font looks good all the time. Those requiring Greek and other character sets should look elsewhere though, Anka/Coder currently only supports common Latin characters. The open source files are hosted on [code.google.com](https://code.google.com/p/anka-coder-fonts/
-  ). There are narrow and condensed versions for printing lots of code on little space, and it features a slashed zero.
-
-By **Andrey Makarov** (2010)  
-*License: SIL OFL*  
-https://code.google.com/p/anka-coder-fonts/
-
-#modern #sans #2010 #free #programming #fonts #typography
-
-
 <h1>Average Mono</h1>
 
 > "AverageMono is an average of thirteen different fonts which are all derivatives of the public domain "Courier" typeface. Or, rather, a subset of the Western Latin characters in it, minus punctuation, are thus. Everything else is imported wholesale from the GNU FreeMono typeface."
@@ -912,3 +897,18 @@ By **Romeo Van Snick**
 https://github.com/romeovs/creep
 
 #sans #pixel #free #github #active development #programming #fonts #typography
+
+
+<h1>Anka/Coder</h1>
+
+> "The Anka/Coder family is a monospaced, courier-width (60% of height; em size 2048x1229) font that contains characters from 437, 866, 1251, 1252 and some other code pages and can be used for source code, terminal windows etc."
+[...](https://code.google.com/p/anka-coder-fonts/)
+
+It features true bold an italic variants so this font looks good all the time. Those requiring Greek and other character sets should look elsewhere though, Anka/Coder currently only supports common Latin characters. The open source files are hosted on [code.google.com](https://code.google.com/p/anka-coder-fonts/
+). There are narrow and condensed versions for printing lots of code on little space, and it features a slashed zero.
+
+By **Andrey Makarov** (2010)  
+*License: SIL OFL*  
+https://code.google.com/p/anka-coder-fonts/
+
+#modern #sans #2010 #free #programming #fonts #typography

@@ -12,20 +12,6 @@ http://openfontlibrary.org/en/font/average-mono
 #serif #courier #2013 #free #programming #fonts #typography
 
 
-<h1>Fixedsys</h1>
-
-> "Fixedsys is a family of raster monospaced fonts. The name means fixed system, because its glyphs are monospace or fixed-width (although bolded characters are wider than non-bolded, unlike other monospace fonts such as Courier). It is the oldest font in Windows, and was the system font in Windows 1.0 and 2.0, where it was simply named "System". For Windows 3.x, the system font was changed to a proportional sans-serif font named System, but Fixedsys remained the default font in Notepad."
-
-Switch to black on white, turn of anti-aliasing, set it to 10 pixels and imagine yourself back in a time when [Madonna was ground-breaking](https://www.youtube.com/watch?v=a7mxzs649t4) and you could get shoes with lights that would blink as you walked. Awesome? Yes. Would you want to go back? Definitely, but perhaps not indefinitely. Retro has its place though and this might bring you there without giving up modern niceties like good coffee and  [phone](http://20thcenturyprops.co.uk/65/Telephones/1980s-retro-Philips-portable-cellular-phone-P405.html) you can [fit in your pocket](http://www.theverge.com/2014/10/1/6880089/this-bent-iphone-6-poster-is-perfect).
-
-By **Microsoft** (1980's?)  
-*License: GNU GPL*  
-http://www.moviecorner.de/en/font-fixedsys-ttf/description  
-https://en.wikipedia.org/wiki/Fixedsys
-
-#pixel #retro #1980 #free #sans #programming #fonts #typography
-
-
 <h1>Input</h1>
 "Input takes its aesthetic cues from monospaced fonts and pixel fonts designed for consoles and screens, but casts off the technical limitations that constrained them."
 [...](http://input.fontbureau.com)
@@ -912,3 +898,17 @@ By **Andrey Makarov** (2010)
 https://code.google.com/p/anka-coder-fonts/
 
 #modern #sans #2010 #free #programming #fonts #typography
+
+
+<h1>Fixedsys</h1>
+
+> "Fixedsys is a family of raster monospaced fonts. The name means fixed system, because its glyphs are monospace or fixed-width (although bolded characters are wider than non-bolded, unlike other monospace fonts such as Courier). It is the oldest font in Windows, and was the system font in Windows 1.0 and 2.0, where it was simply named "System". For Windows 3.x, the system font was changed to a proportional sans-serif font named System, but Fixedsys remained the default font in Notepad."
+
+Switch to black on white, turn of anti-aliasing, set it to 10 pixels and imagine yourself back in a time when [Madonna was ground-breaking](https://www.youtube.com/watch?v=a7mxzs649t4) and you could get shoes with lights that would blink as you walked. Awesome? Yes. Would you want to go back? Definitely, but perhaps not indefinitely. Retro has its place though and this might bring you there without giving up modern niceties like good coffee and  [phone](http://20thcenturyprops.co.uk/65/Telephones/1980s-retro-Philips-portable-cellular-phone-P405.html) you can [fit in your pocket](http://www.theverge.com/2014/10/1/6880089/this-bent-iphone-6-poster-is-perfect).
+
+By **Microsoft** (1980's?)  
+*License: GNU GPL*  
+http://www.moviecorner.de/en/font-fixedsys-ttf/description  
+https://en.wikipedia.org/wiki/Fixedsys
+
+#pixel #retro #1980 #free #sans #programming #fonts #typography

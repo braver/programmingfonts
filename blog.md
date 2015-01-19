@@ -40,21 +40,6 @@ https://github.com/andreberg/Meslo-Font
 #bitstream vera #2010 #sans #github #free #programming #fonts #typography
 
 
-<h1>NotCourierSans</h1>
-
-> "NotCourierSans is a re-interpretation of Nimbus Mono whose design began in Wroclaw at the occasion of the Libre Graphics Meeting 2008."
-[...](http://openfontlibrary.org/en/font/notcouriersans)
-
-NotCourierSans was created by the [OSP collective](http://osp.kitchen/about) by taking Nimbus Mono and chopping of the serifs. While that doesn't seem like a realy good idea, it has created a quite servicable font. It doesn't feature italics or a distinct zero, but does cover 658 glyphs.
-
-By **Open Source Publishing** (2008)  
-*License: SIL OFL*  
-http://www.fontsquirrel.com/fonts/NotCourierSans  
-http://openfontlibrary.org/en/font/notcouriersans
-
-#sans #2008 #free #nimbus #programming #fonts #typography
-
-
 <h1>saxMono</h1>
 
 Not much is known about this font. It features 495 glyphs, only in regular. Also, its zero and capital o are almost equal, as are the one and capital i. So, saxMono might not be an obvious first choice for programming, but it's a well made and modern typeface.
@@ -912,3 +897,18 @@ By **Tobias Benjamin Köhler** (2000)
 http://www.dafont.com/monofur.font
 
 #free #sans #2000 #programming #fonts #typography
+
+
+<h1>NotCourierSans</h1>
+
+> "NotCourierSans is a re-interpretation of Nimbus Mono whose design began in Wroclaw at the occasion of the Libre Graphics Meeting 2008."
+[...](http://openfontlibrary.org/en/font/notcouriersans)
+
+NotCourierSans was created by the [OSP collective](http://osp.kitchen/about) by taking Nimbus Mono and chopping of the serifs. While that doesn't seem like a realy good idea, it has created a quite servicable font. It doesn't feature italics or a distinct zero, but does cover 658 glyphs.
+
+By **Open Source Publishing** (2008)  
+*License: SIL OFL*  
+http://www.fontsquirrel.com/fonts/NotCourierSans  
+http://openfontlibrary.org/en/font/notcouriersans
+
+#sans #2008 #free #nimbus #programming #fonts #typography

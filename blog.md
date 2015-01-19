@@ -40,17 +40,6 @@ https://github.com/andreberg/Meslo-Font
 #bitstream vera #2010 #sans #github #free #programming #fonts #typography
 
 
-<h1>Monofur</h1>
-
-Not much is known about this font, that is available freely from services like [dafont.com](http://www.dafont.com/monofur.font). It looks great though, has distinct zeros and features a character all its own.
-
-By **Tobias Benjamin Köhler** (2000)  
-*License: Freeware*  
-http://www.dafont.com/monofur.font
-
-#free #sans #2000 #programming #fonts #typography
-
-
 <h1>NotCourierSans</h1>
 
 > "NotCourierSans is a re-interpretation of Nimbus Mono whose design began in Wroclaw at the occasion of the Libre Graphics Meeting 2008."
@@ -912,3 +901,14 @@ By **Jim Lyles**
 https://en.wikipedia.org/wiki/Menlo_(typeface)
 
 #bitstream vera #commercial #professional #sans #programming #fonts #typography
+
+
+<h1>Monofur</h1>
+
+Not much is known about this font, that is available freely from services like [dafont.com](http://www.dafont.com/monofur.font). It looks great though, has distinct zeros and features a character all its own.
+
+By **Tobias Benjamin Köhler** (2000)  
+*License: Freeware*  
+http://www.dafont.com/monofur.font
+
+#free #sans #2000 #programming #fonts #typography

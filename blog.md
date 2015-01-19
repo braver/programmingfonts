@@ -251,16 +251,6 @@ https://en.wikipedia.org/wiki/Monaco_(typeface)
 #holmes #sans #commercial #professional #programming #fonts #typography
 
 
-<h1>Menlo</h1>
-
-Designed, like the Bitstream Vera Mono it was based on, by Jim Lyles, this has been the default programming font for OSX since Snow Leopard. The design seems to have drawn upon the DejaVu project and to be tweaked for rendering on modern OSX systems. Menlo also features a slashed zero (Vera has a dot). It's like the definitive Vera version for OSX, simple and extremely well excecuted.. a good match for a Mac.
-
-By **Jim Lyles**  
-https://en.wikipedia.org/wiki/Menlo_(typeface)
-
-#bitstream vera #commercial #professional #sans #programming #fonts #typography
-
-
 <h1>Nu Sans Monospaced</h1>
 
 Inspired by the IBM Selectric, Nu Sans was designed as a sans alternative to Courier. It features a slahed zero and has in later years been upgraded with bold and italic versions.
@@ -912,3 +902,13 @@ http://www.moviecorner.de/en/font-fixedsys-ttf/description
 https://en.wikipedia.org/wiki/Fixedsys
 
 #pixel #retro #1980 #free #sans #programming #fonts #typography
+
+
+<h1>Menlo</h1>
+
+Designed, like the Bitstream Vera Mono it was based on, by Jim Lyles, this has been the default programming font for OSX since Snow Leopard. The design seems to have drawn upon the DejaVu project and to be tweaked for rendering on modern OSX systems. Menlo also features a slashed zero (Vera has a dot). It's like the definitive Vera version for OSX, simple and extremely well excecuted.. a good match for a Mac.
+
+By **Jim Lyles**  
+https://en.wikipedia.org/wiki/Menlo_(typeface)
+
+#bitstream vera #commercial #professional #sans #programming #fonts #typography

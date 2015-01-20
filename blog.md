@@ -25,21 +25,6 @@ http://input.fontbureau.com
 #sans #professional #2014 #free #programming #fonts #typography
 
 
-<h1>Meslo</h1>
-
-> "Meslo LG is a customized version of Apple’s Menlo-Regular font
-(which is a customized Bitstream Vera Sans Mono)."
-[...](https://github.com/andreberg/Meslo-Font)
-
-This font was created to tweak the already wonderful Menlo font. Recent updates enhance Windows compatibility with special tweaks to hinting for ClearType.
-
-By **André Berg** (2010)  
-*License: Apache*  
-https://github.com/andreberg/Meslo-Font
-
-#bitstream vera #2010 #sans #github #free #programming #fonts #typography
-
-
 <h1>saxMono</h1>
 
 Not much is known about this font. It features 495 glyphs, only in regular. Also, its zero and capital o are almost equal, as are the one and capital i. So, saxMono might not be an obvious first choice for programming, but it's a well made and modern typeface.
@@ -912,3 +897,18 @@ http://www.fontsquirrel.com/fonts/NotCourierSans
 http://openfontlibrary.org/en/font/notcouriersans
 
 #sans #2008 #free #nimbus #programming #fonts #typography
+
+
+<h1>Meslo</h1>
+
+> "Meslo LG is a customized version of Apple’s Menlo-Regular font
+(which is a customized Bitstream Vera Sans Mono)."
+[...](https://github.com/andreberg/Meslo-Font)
+
+This font was created to tweak the already wonderful Menlo font. Recent updates enhance Windows compatibility with special tweaks to hinting for ClearType.
+
+By **André Berg** (2010)  
+*License: Apache*  
+https://github.com/andreberg/Meslo-Font
+
+#bitstream vera #2010 #sans #github #free #programming #fonts #typography

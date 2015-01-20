@@ -1,17 +1,3 @@
-<h1>Average Mono</h1>
-
-> "AverageMono is an average of thirteen different fonts which are all derivatives of the public domain "Courier" typeface. Or, rather, a subset of the Western Latin characters in it, minus punctuation, are thus. Everything else is imported wholesale from the GNU FreeMono typeface."
-[...](http://openfontlibrary.org/en/font/average-mono)
-
-The origin story for this font is mind boggling, as is its [coverage of languages](http://openfontlibrary.org/en/font/average-mono) (Urdu or Runic anyone?). Not unlikely one enabled the other. Bold and italic are also in. Basically, it may not have the most character (being Average and all that), but it's hard to find a situation where it won't work.
-
-By **Richard Alexander Hall** (2013)  
-*License: Bitstream Vera License*  
-http://openfontlibrary.org/en/font/average-mono
-
-#serif #courier #2013 #free #programming #fonts #typography
-
-
 <h1>Input</h1>
 "Input takes its aesthetic cues from monospaced fonts and pixel fonts designed for consoles and screens, but casts off the technical limitations that constrained them."
 [...](http://input.fontbureau.com)
@@ -912,3 +898,17 @@ By **André Berg** (2010)
 https://github.com/andreberg/Meslo-Font
 
 #bitstream vera #2010 #sans #github #free #programming #fonts #typography
+
+
+<h1>Average Mono</h1>
+
+> "AverageMono is an average of thirteen different fonts which are all derivatives of the public domain "Courier" typeface. Or, rather, a subset of the Western Latin characters in it, minus punctuation, are thus. Everything else is imported wholesale from the GNU FreeMono typeface."
+[...](http://openfontlibrary.org/en/font/average-mono)
+
+The origin story for this font is mind boggling, as is its [coverage of languages](http://openfontlibrary.org/en/font/average-mono) (Urdu or Runic anyone?). Not unlikely one enabled the other. Bold and italic are also in. Basically, it may not have the most character (being Average and all that), but it's hard to find a situation where it won't work.
+
+By **Richard Alexander Hall** (2013)  
+*License: Bitstream Vera License*  
+http://openfontlibrary.org/en/font/average-mono
+
+#serif #courier #2013 #free #programming #fonts #typography

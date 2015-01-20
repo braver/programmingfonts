@@ -11,17 +11,6 @@ http://input.fontbureau.com
 #sans #professional #2014 #free #programming #fonts #typography
 
 
-<h1>saxMono</h1>
-
-Not much is known about this font. It features 495 glyphs, only in regular. Also, its zero and capital o are almost equal, as are the one and capital i. So, saxMono might not be an obvious first choice for programming, but it's a well made and modern typeface.
-
-By **s.a.x. Software**  
-*License: custom*  
-http://www.fontsquirrel.com/fonts/saxMono
-
-#sans #free #programming #fonts #typography
-
-
 <h1>VT323</h1>
 
 >"This font was created from the glyphs of the DEC VT320 text terminal, which I used in college, and for which I have retained an unaccountable nostalgia."
@@ -912,3 +901,14 @@ By **Richard Alexander Hall** (2013)
 http://openfontlibrary.org/en/font/average-mono
 
 #serif #courier #2013 #free #programming #fonts #typography
+
+
+<h1>saxMono</h1>
+
+Not much is known about this font. It features 495 glyphs, only in regular. Also, its zero and capital o are almost equal, as are the one and capital i. So, saxMono might not be an obvious first choice for programming, but it's a well made and modern typeface.
+
+By **s.a.x. Software**  
+*License: custom*  
+http://www.fontsquirrel.com/fonts/saxMono
+
+#sans #free #programming #fonts #typography

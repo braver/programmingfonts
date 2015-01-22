@@ -38,18 +38,6 @@ http://www.marksimonson.com/fonts/view/anonymous-pro
 #free #2001 #mark simonson #professional #programming #fonts #typography
 
 
-<h1>Audimat Mono</h1>
-
-Audimat covers 247 glyphs in bold and italic as well as light and smallcaps. Sadly, one and capital i, and zero and capital o are quite similar.
-
-#sans #professional #2008 #programming #fonts #typography
-
-By **SMeltery** (2008)  
-*License: requires permission*  
-http://www.fontsquirrel.com/fonts/Audimat-Mono  
-http://www.smeltery.net/fonts/audimat-mono
-
-
 <h1>Crystal</h1>
 
 Not much is known about this seemingly freely available font. It has a slashed zero, but lacks bold and italic. Also, it's character set is very limited and omits things like the euro and copyright signs (although it does include box drawing characters).
@@ -912,3 +900,15 @@ By **s.a.x. Software**
 http://www.fontsquirrel.com/fonts/saxMono
 
 #sans #free #programming #fonts #typography
+
+
+<h1>Audimat Mono</h1>
+
+Audimat covers 247 glyphs in bold and italic as well as light and smallcaps. Sadly, one and capital i, and zero and capital o are quite similar.
+
+#sans #professional #2008 #programming #fonts #typography
+
+By **SMeltery** (2008)  
+*License: requires permission*  
+http://www.fontsquirrel.com/fonts/Audimat-Mono  
+http://www.smeltery.net/fonts/audimat-mono

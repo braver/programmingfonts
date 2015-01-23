@@ -163,16 +163,6 @@ https://en.wikipedia.org/wiki/Lucida_(typeface)
 #1985 #latex #bigelow #holmes #sans #commercial #professional #programming #fonts #typography
 
 
-<h1>Monaco</h1>
-
-While superseded in 2009's Snow Leopard by Menlo, Monaco has always been present in OSX. While it lacks bold and italic styles, letterforms like i, 1, o and 0 are all distinct.
-
-By **Susan Kare and Kris Holmes**  
-https://en.wikipedia.org/wiki/Monaco_(typeface)
-
-#holmes #sans #commercial #professional #programming #fonts #typography
-
-
 <h1>Nu Sans Monospaced</h1>
 
 Inspired by the IBM Selectric, Nu Sans was designed as a sans alternative to Courier. It features a slahed zero and has in later years been upgraded with bold and italic versions.
@@ -912,3 +902,13 @@ By **SMeltery** (2008)
 *License: requires permission*  
 http://www.fontsquirrel.com/fonts/Audimat-Mono  
 http://www.smeltery.net/fonts/audimat-mono
+
+
+<h1>Monaco</h1>
+
+While superseded in 2009's Snow Leopard by Menlo, Monaco has always been present in OSX. While it lacks bold and italic styles, letterforms like i, 1, o and 0 are all distinct.
+
+By **Susan Kare and Kris Holmes**  
+https://en.wikipedia.org/wiki/Monaco_(typeface)
+
+#holmes #sans #commercial #professional #programming #fonts #typography

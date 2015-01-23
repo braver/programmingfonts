@@ -73,16 +73,6 @@ http://www.fontsquirrel.com/fonts/klartext-mono
 #commercial #sans #professional #programming #fonts #typography
 
 
-<h1>MonospaceTypewriter</h1>
-
-No distinct zero, 240 glyphs. A typewriter font does not a programmers font make, but a good typewriter font can be great for reading (and writing that blog in markdown).
-
-By **Manfred Klein Fonteria**  
-http://www.fontsquirrel.com/fonts/MonospaceTypewriter
-
-#free #writing #sans #fonts #typography
-
-
 <h1>Nimbus Mono L</h1>
 
 Nimbus Mono has been packaged with Ghostscript and many Linux distributions. The Ghostscript fonts were licensed under the LPPL, enabling a number of derivative fonts like TeX Gyre Cursor. Like Courier it lacks a distinct zero, but it does come in bold and italic.
@@ -912,3 +902,28 @@ By **Susan Kare and Kris Holmes**
 https://en.wikipedia.org/wiki/Monaco_(typeface)
 
 #holmes #sans #commercial #professional #programming #fonts #typography
+
+
+<h1>MonospaceTypewriter</h1>
+
+No distinct zero, 240 glyphs. A typewriter font does not a programmers font make, but a good typewriter font can be great for reading (and writing that blog in markdown).
+
+By **Manfred Klein Fonteria**  
+http://www.fontsquirrel.com/fonts/MonospaceTypewriter
+
+#free #writing #sans #fonts #typography
+
+
+<h1>VT323</h1>
+
+>"This font was created from the glyphs of the DEC VT320 text terminal, which I used in college, and for which I have retained an unaccountable nostalgia."
+[...](http://www.google.com/fonts/specimen/VT323)
+
+VT323 is the recreation of a classic pixel font, converted to outlines. As a result, it doesn't cover that many characters or anything fancy like italic. It may however scratch that itch if you find yourself longing for the days of yonder.
+
+By **Peter Hull** (2014)  
+*License: SIL OFL*  
+https://fedoraproject.org/wiki/VT323_Fonts  
+http://www.google.com/fonts/specimen/VT323
+
+#retro #pixel #2014 #sans #programming #fonts #typography

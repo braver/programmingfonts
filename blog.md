@@ -1,52 +1,9 @@
-<h1>Input</h1>
-"Input takes its aesthetic cues from monospaced fonts and pixel fonts designed for consoles and screens, but casts off the technical limitations that constrained them."
-[...](http://input.fontbureau.com)
+screens
+---
+creep
+fixedsys
 
-With this font Font Bureau has created a complete type system for programming. As demonstrated in the [interactive preview](http://input.fontbureau.com/preview/) it comes with a wide range of styles, sizes, weights and even a whole host of Open Type features. This means you can even choose between a dot or a slash in your zero. If you like you can even opt for proportional instead of monospace.
-
-By **David Jonathan Ross** (2014)  
-*License: SIL OFL*  
-http://input.fontbureau.com
-
-#sans #professional #2014 #free #programming #fonts #typography
-
-
-<h1>VT323</h1>
-
->"This font was created from the glyphs of the DEC VT320 text terminal, which I used in college, and for which I have retained an unaccountable nostalgia."
-[...](http://www.google.com/fonts/specimen/VT323)
-
-VT323 is the recreation of a classic pixel font, converted to outlines. As a result, it doesn't cover that many characters or anything fancy like italic. It may however scratch that itch if you find yourself longing for the days of yonder.
-
-By **Peter Hull** (2014)  
-*License: SIL OFL*  
-https://fedoraproject.org/wiki/VT323_Fonts  
-http://www.google.com/fonts/specimen/VT323
-
-#retro #pixel #2014 #sans #programming #fonts #typography
-
-
-<h1>Anonymous</h1>
-
-Anonymous Pro is an updated version of this font, also by Mark Simonson. The original has the same character shapes but is more limited in coverage and styles, making the newer Pro version prefable all around.
-
-By **Mark Simonson**  
-*License: requires permission*  
-http://www.fontsquirrel.com/fonts/Anonymous  
-http://www.marksimonson.com/fonts/view/anonymous-pro
-
-#free #2001 #mark simonson #professional #programming #fonts #typography
-
-
-<h1>Crystal</h1>
-
-Not much is known about this seemingly freely available font. It has a slashed zero, but lacks bold and italic. Also, it's character set is very limited and omits things like the euro and copyright signs (although it does include box drawing characters).
-
-By **Jerry Fitzpatrick**  
-http://www.dafont.com/crystal.font
-
-#sans
-
+---
 
 <h1>Gohu</h1>
 
@@ -61,16 +18,29 @@ http://font.gohu.org
 #free #sans #pixel #programming #fonts #typography
 
 
-<h1>Klartext Mono</h1>
 
-> "As a special feature, Klartext contains a bunch of uncommon glyphs like the German capital sharp S, a nice arrowset and a complete phonetic alphabet."
+--weird--
 
-While only the light version is available freely, this is a very extensive family also including thin, regular, medium, and both (and an italic for all). It's character includes a few uncommon features, in addition to distinct shapes suitable for coding.
+<h1>Crystal</h1>
 
-By **Heimatdesign**  
-http://www.fontsquirrel.com/fonts/klartext-mono
+Not much is known about this seemingly freely available font. It has a slashed zero, but lacks bold and italic. Also, it's character set is very limited and omits things like the euro and copyright signs (although it does include box drawing characters).
 
-#commercial #sans #professional #programming #fonts #typography
+By **Jerry Fitzpatrick**  
+http://www.dafont.com/crystal.font
+
+#sans #free #programming #fonts #typography
+
+
+<h1>Everson Mono</h1>
+
+> "Everson Mono is a simple, elegant, monowidth font. I started designing it in 1994 primarily to make glyphs available to support the non-Han characters in Unicode and ISO/IEC 10646, though I hope that users may find it a pleasant alternative to Courier and Monaco for general purposes, e-mail, and so forth. I have found it quite legible at sizes as small as 4 points. It is lighter and a bit looser than Courier."
+
+Michael Everson's project has been running for over 20 years. As a result this is a well rounded font  with impressive coverage. In recent years it has been updated with bold and italic versions. The interests of the creator of Everson Mono are reflected in the many languages in Evertype Publishing's portfolio. As a writer's font, it lacks a distinct zero.
+
+By **Michael Everson** (1994)  
+http://www.evertype.com/emono/
+
+#shareware #1994 #sans #active development #programming #fonts #typography
 
 
 <h1>Nimbus Mono L</h1>
@@ -91,7 +61,7 @@ This font, that seems to be available freely, has a name that refers to the IBM 
 By **Paradox 2005**
 http://www.dafont.com/paradox-2005.d961
 
-#sans #writing #fonts #typography
+#sans #writing #fonts #typography #free
 
 
 <h1>Terminus</h1>
@@ -116,18 +86,6 @@ By **Lucas de Groot**
 https://en.wikipedia.org/wiki/Consolas
 
 #sans #commercial #professional #consolas #programming #fonts #typography
-
-
-<h1>Everson Mono</h1>
-
-> "Everson Mono is a simple, elegant, monowidth font. I started designing it in 1994 primarily to make glyphs available to support the non-Han characters in Unicode and ISO/IEC 10646, though I hope that users may find it a pleasant alternative to Courier and Monaco for general purposes, e-mail, and so forth. I have found it quite legible at sizes as small as 4 points. It is lighter and a bit looser than Courier."
-
-Michael Everson's project has been running for over 20 years. As a result this is a well rounded font  with impressive coverage. In recent years it has been updated with bold and italic versions. The interests of the creator of Everson Mono are reflected in the many languages in Evertype Publishing's portfolio. As a writer's font, it lacks a distinct zero.
-
-By **Michael Everson** (1994)  
-http://www.evertype.com/emono/
-
-#shareware #1994 #sans #active development #programming #fonts #typography
 
 
 <h1>Letter Gothic</h1>
@@ -161,18 +119,6 @@ By **Scooter Graphics** (1996)
 http://www.scootergraphics.com/nusansmono/index.html
 
 #sans #courier #commercial #1996 #programming #fonts #typography
-
-
-<h1>PragmataPro</h1>
-
-> "PragmataPro™ is a condensed monospaced font optimized for screen, designed to be the ideal font for coding and engineering"
-
-An impressive font with over 4500 glyphs covered (2000 in bold and italic), it has been hand hinted and features distinct shapes in all the right places. Notable features also include math and phonetics. It is quite narrow to fit a lot on a screen, but it maintains readability quite well.
-
-By **Fabrizio Schiavi** (2009)  
-http://www.fsd.it/fonts/pragmatapro.htm#.VGmwnYfUk_M
-
-#sans #2009 #commercial #programming #fonts #typography
 
 
 
@@ -927,3 +873,52 @@ https://fedoraproject.org/wiki/VT323_Fonts
 http://www.google.com/fonts/specimen/VT323
 
 #retro #pixel #2014 #sans #programming #fonts #typography
+
+
+<h1>Input</h1>
+"Input takes its aesthetic cues from monospaced fonts and pixel fonts designed for consoles and screens, but casts off the technical limitations that constrained them."
+[...](http://input.fontbureau.com)
+
+With this font Font Bureau has created a complete type system for programming. As demonstrated in the [interactive preview](http://input.fontbureau.com/preview/) it comes with a wide range of styles, sizes, weights and even a whole host of Open Type features. This means you can even choose between a dot or a slash in your zero. If you like you can even opt for proportional instead of monospace.
+
+By **David Jonathan Ross** (2014)  
+*License: SIL OFL*  
+http://input.fontbureau.com
+
+#sans #professional #2014 #free #programming #fonts #typography
+
+
+<h1>Anonymous</h1>
+
+Anonymous Pro is an updated version of this font, also by Mark Simonson. The original has the same character shapes but is more limited in coverage and styles, making the newer Pro version prefable all around.
+
+By **Mark Simonson**  
+*License: requires permission*  
+http://www.fontsquirrel.com/fonts/Anonymous  
+http://www.marksimonson.com/fonts/view/anonymous-pro
+
+#free #2001 #mark simonson #professional #programming #fonts #typography
+
+
+<h1>Klartext Mono</h1>
+
+> "As a special feature, Klartext contains a bunch of uncommon glyphs like the German capital sharp S, a nice arrowset and a complete phonetic alphabet."
+
+While only the light version is available freely, this is a very extensive family also including thin, regular, medium, and both (and an italic for all). It's character includes a few uncommon features, in addition to distinct shapes suitable for coding.
+
+By **Heimatdesign**  
+http://www.fontsquirrel.com/fonts/klartext-mono
+
+#commercial #sans #professional #programming #fonts #typography
+
+
+<h1>Everson Mono</h1>
+
+> "Everson Mono is a simple, elegant, monowidth font. I started designing it in 1994 primarily to make glyphs available to support the non-Han characters in Unicode and ISO/IEC 10646, though I hope that users may find it a pleasant alternative to Courier and Monaco for general purposes, e-mail, and so forth. I have found it quite legible at sizes as small as 4 points. It is lighter and a bit looser than Courier."
+
+Michael Everson's project has been running for over 20 years. As a result this is a well rounded font  with impressive coverage. In recent years it has been updated with bold and italic versions. The interests of the creator of Everson Mono are reflected in the many languages in Evertype Publishing's portfolio. As a writer's font, it lacks a distinct zero.
+
+By **Michael Everson** (1994)  
+http://www.evertype.com/emono/
+
+#shareware #1994 #sans #active development #programming #fonts #typography

@@ -54,16 +54,6 @@ http://terminus-font.sourceforge.net
 #pixel #free #sans #programming #fonts #typography
 
 
-<h1>Consolas</h1>
-
-This may be the single best programming font for Windows. It was created specifically for ClearType and is included in Windows Vista and onward. Consolas features true bold and italic, a slashed zero and great coverage (2736 glyphs).
-
-By **Lucas de Groot**  
-https://en.wikipedia.org/wiki/Consolas
-
-#sans #commercial #professional #consolas #programming #fonts #typography
-
-
 <h1>Letter Gothic</h1>
 
 > "Designed for IBM between 1956 and 1962 for use on the Selectric typewriter, Letter Gothic is a monospaced, sans serif face."
@@ -900,7 +890,6 @@ http://www.evertype.com/emono/
 #shareware #1994 #sans #active development #programming #fonts #typography
 
 
-
 <h1>Gohu</h1>
 
 > "Gohufont is a monospace bitmap font well suited for programming and terminal use. It is intended to be very legible and offers very discernable glyphs for all characters, including signs and symbols."
@@ -912,3 +901,13 @@ By **Hugo Chargois**
 http://font.gohu.org
 
 #free #sans #pixel #programming #fonts #typography
+
+
+<h1>Consolas</h1>
+
+This may be the single best programming font for Windows. It was created specifically for ClearType and is included in Windows Vista and onward. Consolas features true bold and italic, a slashed zero and great coverage (2736 glyphs).
+
+By **Lucas de Groot**  
+https://en.wikipedia.org/wiki/Consolas
+
+#sans #commercial #professional #consolas #programming #fonts #typography

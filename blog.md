@@ -19,17 +19,6 @@ http://www.dafont.com/crystal.font
 #sans #free #programming #fonts #typography
 
 
-<h1>Nimbus Mono L</h1>
-
-Nimbus Mono has been packaged with Ghostscript and many Linux distributions. The Ghostscript fonts were licensed under the LPPL, enabling a number of derivative fonts like TeX Gyre Cursor. Like Courier it lacks a distinct zero, but it does come in bold and italic.
-
-By **URW++ Studio** (1984)  
-*License: GNU GPL*  
-https://en.wikipedia.org/wiki/Nimbus_Mono_L
-
-#serif #1984 #writing #nimbus #commercial #professional #fonts #typography
-
-
 <h1>Selectric</h1>
 
 This font, that seems to be available freely, has a name that refers to the IBM Selectric. Like Courier before it, it seems to be derived from that typewriter. It might not be the best choice for coding (no distinct zero), but good typewriter fonts are still great for writing.
@@ -911,3 +900,14 @@ By **Lucas de Groot**
 https://en.wikipedia.org/wiki/Consolas
 
 #sans #commercial #professional #consolas #programming #fonts #typography
+
+
+<h1>Nimbus Mono L</h1>
+
+Nimbus Mono has been packaged with Ghostscript and many Linux distributions. The Ghostscript fonts were licensed under the LPPL, enabling a number of derivative fonts like TeX Gyre Cursor. Like Courier it lacks a distinct zero, but it does come in bold and italic.
+
+By **URW++ Studio** (1984)  
+*License: GNU GPL*  
+https://en.wikipedia.org/wiki/Nimbus_Mono_L
+
+#serif #1984 #writing #nimbus #commercial #professional #fonts #typography

@@ -5,18 +5,6 @@ fixedsys
 
 ---
 
-<h1>Gohu</h1>
-
-> "Gohufont is a monospace bitmap font well suited for programming and terminal use. It is intended to be very legible and offers very discernable glyphs for all characters, including signs and symbols."
-
-With bitmaps for two sizes, normal and bold, this is a very simple and practical font. All character shapes are different, so no confusion between o's and zeros. If you're up for tiny aliased type, you can fit loads of code on a screen with Gohu.
-
-By **Hugo Chargois**  
-*License: WTFPL*  
-http://font.gohu.org
-
-#free #sans #pixel #programming #fonts #typography
-
 
 
 --weird--
@@ -29,18 +17,6 @@ By **Jerry Fitzpatrick**
 http://www.dafont.com/crystal.font
 
 #sans #free #programming #fonts #typography
-
-
-<h1>Everson Mono</h1>
-
-> "Everson Mono is a simple, elegant, monowidth font. I started designing it in 1994 primarily to make glyphs available to support the non-Han characters in Unicode and ISO/IEC 10646, though I hope that users may find it a pleasant alternative to Courier and Monaco for general purposes, e-mail, and so forth. I have found it quite legible at sizes as small as 4 points. It is lighter and a bit looser than Courier."
-
-Michael Everson's project has been running for over 20 years. As a result this is a well rounded font  with impressive coverage. In recent years it has been updated with bold and italic versions. The interests of the creator of Everson Mono are reflected in the many languages in Evertype Publishing's portfolio. As a writer's font, it lacks a distinct zero.
-
-By **Michael Everson** (1994)  
-http://www.evertype.com/emono/
-
-#shareware #1994 #sans #active development #programming #fonts #typography
 
 
 <h1>Nimbus Mono L</h1>
@@ -922,3 +898,17 @@ By **Michael Everson** (1994)
 http://www.evertype.com/emono/
 
 #shareware #1994 #sans #active development #programming #fonts #typography
+
+
+
+<h1>Gohu</h1>
+
+> "Gohufont is a monospace bitmap font well suited for programming and terminal use. It is intended to be very legible and offers very discernable glyphs for all characters, including signs and symbols."
+
+With bitmaps for two sizes, normal and bold, this is a very simple and practical font. All character shapes are different, so no confusion between o's and zeros. If you're up for tiny aliased type, you can fit loads of code on a screen with Gohu.
+
+By **Hugo Chargois**  
+*License: WTFPL*  
+http://font.gohu.org
+
+#free #sans #pixel #programming #fonts #typography

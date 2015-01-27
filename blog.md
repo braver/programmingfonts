@@ -43,19 +43,6 @@ http://terminus-font.sourceforge.net
 #pixel #free #sans #programming #fonts #typography
 
 
-<h1>Letter Gothic</h1>
-
-> "Designed for IBM between 1956 and 1962 for use on the Selectric typewriter, Letter Gothic is a monospaced, sans serif face."
-
-A classic, designed for typewriter font, that's still great for reading and writing. It's a complete set of regular, bold and oblique, 253 glyphs in each. It doesn't have a distinct zero, but it's a wonderful retro typeface none-the-less.
-
-By **Roger Roberson** (1956)  
-https://en.wikipedia.org/wiki/Letter_Gothic  
-http://www.fonts.com/font/monotype/letter-gothic
-
-#retro #1956 #sans #commercial #writing #professional #fonts #typography
-
-
 <h1>Lucida Console</h1>
 
 It has been extended to include mathematical characters for TeX. First created almost 30, Lucida Console has been updated in 2014 to include bold and italic, and it's now the default Notepad font in Windows 8.
@@ -911,3 +898,16 @@ By **URW++ Studio** (1984)
 https://en.wikipedia.org/wiki/Nimbus_Mono_L
 
 #serif #1984 #writing #nimbus #commercial #professional #fonts #typography
+
+
+<h1>Letter Gothic</h1>
+
+> "Designed for IBM between 1956 and 1962 for use on the Selectric typewriter, Letter Gothic is a monospaced, sans serif face."
+
+A classic, designed for typewriter font, that's still great for reading and writing. It's a complete set of regular, bold and oblique, 253 glyphs in each. It doesn't have a distinct zero, but it's a wonderful retro typeface none-the-less.
+
+By **Roger Roberson** (1956)  
+https://en.wikipedia.org/wiki/Letter_Gothic  
+http://www.fonts.com/font/monotype/letter-gothic
+
+#retro #1956 #sans #commercial #writing #professional #fonts #typography

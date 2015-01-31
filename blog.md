@@ -43,6 +43,7 @@ http://terminus-font.sourceforge.net
 #pixel #free #sans #programming #fonts #typography
 
 
+<<<<<<< HEAD
 <h1>Lucida Console</h1>
 
 It has been extended to include mathematical characters for TeX. First created almost 30, Lucida Console has been updated in 2014 to include bold and italic, and it's now the default Notepad font in Windows 8.
@@ -51,6 +52,17 @@ By **Charles Bigelow and Kris Holmes** (1985)
 https://en.wikipedia.org/wiki/Lucida_(typeface)
 
 #1985 #latex #bigelow #holmes #sans #commercial #professional #programming #fonts #typography
+=======
+<h1>Nu Sans Monospaced</h1>
+
+Inspired by the IBM Selectric, Nu Sans was designed as a sans alternative to Courier. It features a slahed zero and has in later years been upgraded with bold and italic versions.
+
+By **Scooter Graphics** (1996)  
+http://www.scootergraphics.com/nusansmono/index.html
+
+#sans #courier #commercial #1996 #programming #fonts #typography
+
+>>>>>>> bb664e8a7ffb6554b62ca8cf0b9b0ec599be5845
 
 
 
@@ -910,3 +922,13 @@ By **Scooter Graphics** (1996)
 http://www.scootergraphics.com/nusansmono/index.html
 
 #sans #courier #commercial #1996 #programming #fonts #typography
+
+
+<h1>Lucida Console</h1>
+
+It has been extended to include mathematical characters for TeX. First created almost 30, Lucida Console has been updated in 2014 to include bold and italic, and it's now the default Notepad font in Windows 8.
+
+By **Charles Bigelow and Kris Holmes** (1985)  
+https://en.wikipedia.org/wiki/Lucida_(typeface)
+
+#1985 #latex #bigelow #holmes #sans #commercial #professional #programming #fonts #typography

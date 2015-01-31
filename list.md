@@ -145,6 +145,11 @@ By Leonardo Maffi, 2009
 *License: SIL OFL*  
 http://leonardo-m.livejournal.com/77079.html
 
+## Input
+By David Jonathan Ross, 2014  
+*License: SIL OFL*  
+http://input.fontbureau.com
+
 ## Klartext Mono*  
 By Heimatdesign
 *License: Fontspring Desktop/Webfont Font License*  

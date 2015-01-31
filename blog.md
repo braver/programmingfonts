@@ -29,42 +29,6 @@ http://www.dafont.com/paradox-2005.d961
 #sans #writing #fonts #typography #free
 
 
-<h1>Terminus</h1>
-
-> "Terminus Font is a clean, fixed width bitmap font, designed for long (8 and more hours per day) work with computers. Version 4.39 contains 891 characters, covers about 120 language sets and supports ISO8859-1/2/5/7/9/13/15/16, Paratype-PT154/PT254, KOI8-R/U/E/F, Esperanto, many IBM, Windows and Macintosh code pages, as well as the IBM VGA, vt100 and xterm pseudographic characters."
-
-Terminus is a very complete bitmap font, with very clean and clear rendering at a number of sizes. It's coverage is impressive, and even features a bold weight. The zero is slahed to set it apart. Sadly the links on the sourceforge site are broken.
-
-By **Dimitar Zhekov**  
-*License: SIL-OFL*  
-*Format incompatible*  
-http://terminus-font.sourceforge.net
-
-#pixel #free #sans #programming #fonts #typography
-
-
-<<<<<<< HEAD
-<h1>Lucida Console</h1>
-
-It has been extended to include mathematical characters for TeX. First created almost 30, Lucida Console has been updated in 2014 to include bold and italic, and it's now the default Notepad font in Windows 8.
-
-By **Charles Bigelow and Kris Holmes** (1985)  
-https://en.wikipedia.org/wiki/Lucida_(typeface)
-
-#1985 #latex #bigelow #holmes #sans #commercial #professional #programming #fonts #typography
-=======
-<h1>Nu Sans Monospaced</h1>
-
-Inspired by the IBM Selectric, Nu Sans was designed as a sans alternative to Courier. It features a slahed zero and has in later years been upgraded with bold and italic versions.
-
-By **Scooter Graphics** (1996)  
-http://www.scootergraphics.com/nusansmono/index.html
-
-#sans #courier #commercial #1996 #programming #fonts #typography
-
->>>>>>> bb664e8a7ffb6554b62ca8cf0b9b0ec599be5845
-
-
 
 ---------------------------------------------------------------------------------------
 <!-- Posted
@@ -932,3 +896,17 @@ By **Charles Bigelow and Kris Holmes** (1985)
 https://en.wikipedia.org/wiki/Lucida_(typeface)
 
 #1985 #latex #bigelow #holmes #sans #commercial #professional #programming #fonts #typography
+
+
+<h1>Terminus</h1>
+
+> "Terminus Font is a clean, fixed width bitmap font, designed for long (8 and more hours per day) work with computers. Version 4.39 contains 891 characters, covers about 120 language sets and supports ISO8859-1/2/5/7/9/13/15/16, Paratype-PT154/PT254, KOI8-R/U/E/F, Esperanto, many IBM, Windows and Macintosh code pages, as well as the IBM VGA, vt100 and xterm pseudographic characters."
+
+Terminus is a very complete bitmap font, with very clean and clear rendering at a number of sizes. It's coverage is impressive, and even features a bold weight. The zero is slahed to set it apart. Sadly the links on the sourceforge site are broken.
+
+By **Dimitar Zhekov**  
+*License: SIL-OFL*  
+*Format incompatible*  
+http://terminus-font.sourceforge.net
+
+#pixel #free #sans #programming #fonts #typography

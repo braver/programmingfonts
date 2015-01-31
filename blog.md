@@ -53,17 +53,6 @@ https://en.wikipedia.org/wiki/Lucida_(typeface)
 #1985 #latex #bigelow #holmes #sans #commercial #professional #programming #fonts #typography
 
 
-<h1>Nu Sans Monospaced</h1>
-
-Inspired by the IBM Selectric, Nu Sans was designed as a sans alternative to Courier. It features a slahed zero and has in later years been upgraded with bold and italic versions.
-
-By **Scooter Graphics** (1996)  
-http://www.scootergraphics.com/nusansmono/index.html
-
-#sans #courier #commercial #1996 #programming #fonts #typography
-
-
-
 
 ---------------------------------------------------------------------------------------
 <!-- Posted
@@ -911,3 +900,13 @@ https://en.wikipedia.org/wiki/Letter_Gothic
 http://www.fonts.com/font/monotype/letter-gothic
 
 #retro #1956 #sans #commercial #writing #professional #fonts #typography
+
+
+<h1>Nu Sans Monospaced</h1>
+
+Inspired by the IBM Selectric, Nu Sans was designed as a sans alternative to Courier. It features a slahed zero and has in later years been upgraded with bold and italic versions.
+
+By **Scooter Graphics** (1996)  
+http://www.scootergraphics.com/nusansmono/index.html
+
+#sans #courier #commercial #1996 #programming #fonts #typography

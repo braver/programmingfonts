@@ -1,36 +1,87 @@
-screens
----
-creep
+# Missing Screens (one dark syntax, 23px)
+terminus
+lucida console
+letter gothic
+nimbus mono
+consolas
+pragmata pro
 fixedsys
+creep
 
----
+# Collections
+-----------------------------------------------------------------------------
+## Bitstream Vera Sans derivatives
+[Bitstream Vera Sans][1] has been released under an open license that has allowed others to build on its solid design. The best known example of this is [Menlo][2], the current default monospaced font for OS X. Menlo also took a lot from the [DeJa Vu project][3]. In this project the open source community has taken to expanding the Bitstream Vera Sans font family with thousands of languages and special glyphs, making it one of the most complete font families available. There's even a [serif][4] variant.
+
+Check [the list of derivatives][5] here.
+
+[1][http://programmingfonts.org/post/106502343672/bitstream-vera-sans-mono-vera-is-a-group]
+[2][http://programmingfonts.org/post/108531801447/menlo-designed-like-the-bitstream-vera-mono-it]
+[3][http://dejavu-fonts.org/]
+[4][http://programmingfonts.org/post/106313939612/verily-serif-mono-verily-serif-mono-is]
+[5][http://programmingfonts.org/tagged/bitstream-vera]
+
+## famous designers
+While not Karl Lagerfeld famous, you'll see some names pop up more than others. Some fonts have become big hits even though we tend to take them for granted and type designers stay unknown.
+
+[Steve Matteson][1] designed the Droid fonts (used in every single Android device up to 2011), but also the Liberation fonts available on pretty much every Linux distribution, as well as a number of other fonts featured on this website. And all supremely excellent.
+
+[Mark Simonson][2] is perhaps best known for his Proxima Nova. He has also created the [Anonymous][3] monospaced font specifically for programming and has been so kind as to release it free to use.
+
+[Jim Lyles] originally worked for Bitstream, one of the very first digital type foundries. He was responsible for Bitstream Vera Sans, an excellent and widely used sans serif font. Later on he created a variation of [Vera Sans Mono][5] known as [Menlo][6], the default monospace font for OSX since 2009.
+
+[Vernon Adams][7] has designed a great number of fonts available throught Google Fonts, such as the Oxygen font family used throughout KDE.
+
+[Charles Bigelow][8] and [Kris Holmes][9] have been responsible for Wingdings among others like Monaco, which has been the default monospaced font for Macs between 1983 and 2009.
+
+[1][http://programmingfonts.org/tagged/steve-matteson]
+[2][http://programmingfonts.org/tagged/mark-simonson]
+[3][http://programmingfonts.org/post/105083537682/anonymous-pro-anonymous-pro-2009-is-a]
+[4]
+[5][http://programmingfonts.org/post/106502343672/bitstream-vera-sans-mono-vera-is-a-group]
+[6][http://programmingfonts.org/post/108531801447/menlo-designed-like-the-bitstream-vera-mono-it]
+[7][http://programmingfonts.org/tagged/vernon-adams]
+[8][http://programmingfonts.org/tagged/bigelow]
+[9][http://programmingfonts.org/tagged/holmes]
+
+## since 2010
+
+## bitmap / pixel fonts
+Creating a vector based (outline) font that looks great at many sizes and in many antialiasing/rendering systems is lots of hard work. Getting anything done can take over a year. However, if you just want to see lots of code on a screen, it makes a lot of sense to just create bitmaps at the resolution you need. In this age of high dpi displays, these fonts are even crisper than before.
+
+[An overview of the best bitmap fonts](http://programmingfonts.org/tagged/pixel)
 
 
+# Topics
+-----------------------------------------------------------------------------
+## About Courier
+All typewriters had monospaced fonts. It was simply impossible to make a mechanical machine use characters of variable width. So it used to be that everything that wasn't printed professionally (i.e. books and newspapers) was set in a monospace font. There wasn't really any choice. In fact, your typewriter would come with a single font "installed" and that was it. No menu where you could pick Arial, Georgia or Comic Sans: you're stuck with whatever font they put in there. On the upside though, typewriter manufacturers would put real effort into that single font.
 
---weird--
+Proportional fonts are usually the best choice for readability. It's easier to make words flow well if the i doesn't have to take up the same horizontal space a the m. Well designed monospace fonts can overcome that problem though, and Courier does this exceptionally well.
 
-<h1>Crystal</h1>
+It had been designed in the 1950's, by [Bud Kettler][1] for IBM's typewriters. Its excellent readability and "scannability", aided by it's (strategic) lack of copyright, enabled it to become the most pervasive font in history. It has been the [standard font for the US State Department][2] until 2004 and has been featured as the default monospace font in pretty much every computer operator system.
 
-Not much is known about this seemingly freely available font. It has a slashed zero, but lacks bold and italic. Also, it's character set is very limited and omits things like the euro and copyright signs (although it does include box drawing characters).
+Couriers popularity and lack of copyright allowed others to build on its design. Monotype created the thinner Courier New, and a number of [metrically compatible][3] fonts [have been created][4] over the years.
 
-By **Jerry Fitzpatrick**  
-http://www.dafont.com/crystal.font
+It has been so pervasive and so recognizable, that it's almost a metaphor for the age of typewriters. In today's age of choice it's easy to chose something else. Something [sans-serif or with a distinct zero][5], or something [fresh and modern][6]. However, Courier is still an unsurpassed font for writers and coders alike.
 
-#sans #free #programming #fonts #typography
+[1][http://www.graphos.org/courier.html]
+[2][http://www.abc.net.au/news/2004-01-30/us-bans-time-honoured-typeface/127908]
+[3][https://en.wikipedia.org/wiki/Typeface#Font_metrics]
+[4][http://programmingfonts.org/tagged/courier]
+[5][http://programmingfonts.org/post/105765510557/cousine-cousine-was-designed-by-steve]
+[6][http://programmingfonts.org/post/107404917837/droid-sans-mono-the-droid-family-of-fonts-was]
 
+## what is a "programming font"
+This website collects "programming fonts". While code can be written in any font you like, traditionally programming is done in monospaced fonts. This allows aligning text in a way that supports the structural character of code. There are many monospaced fonts that have a fancy, or overly retro typewriter style. If you're going to be looking at that font over 8 hours a day, readability is key though.
 
-<h1>Selectric</h1>
+[Some fonts][1] are designed specifically for programming (like Source Code Pro, Anonymous Pro, Input and Proggy Clean), with letter forms that are unique and well aligned braces and punctuation. This prevents bugs caused by mixing up 0 and O or 1 and l and improves readability of code.
+[Others][2] (like Everson, Lekton and Cutive) are simply excellently readable, which could be preferable for writers, and doing markup.
 
-This font, that seems to be available freely, has a name that refers to the IBM Selectric. Like Courier before it, it seems to be derived from that typewriter. It might not be the best choice for coding (no distinct zero), but good typewriter fonts are still great for writing.
+[1][http://programmingfonts.org/tagged/programming]
+[2][http://programmingfonts.org/tagged/writing]
 
-By **Paradox 2005**
-http://www.dafont.com/paradox-2005.d961
-
-#sans #writing #fonts #typography #free
-
-
-
----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------
 <!-- Posted
 
 

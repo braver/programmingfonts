@@ -21,7 +21,7 @@ Check [the list of derivatives][5] here.
 [4][http://programmingfonts.org/post/106313939612/verily-serif-mono-verily-serif-mono-is]
 [5][http://programmingfonts.org/tagged/bitstream-vera]
 
-## famous designers
+## Famous designers
 While not Karl Lagerfeld famous, you'll see some names pop up more than others. Some fonts have become big hits even though we tend to take them for granted and type designers stay unknown.
 
 [Steve Matteson][1] designed the Droid fonts (used in every single Android device up to 2011), but also the Liberation fonts available on pretty much every Linux distribution, as well as a number of other fonts featured on this website. And all supremely excellent.
@@ -44,16 +44,21 @@ While not Karl Lagerfeld famous, you'll see some names pop up more than others. 
 [8][http://programmingfonts.org/tagged/bigelow]
 [9][http://programmingfonts.org/tagged/holmes]
 
-## since 2010
+## Since 2010
+Now that pretty much all text based media have gone primarily digital, with great displays and webfonts everywhere, it seems typography is hot. Perhaps hotter than it has ever been. In recent years the supply of wonderful fonts has exploded. Where previously fonts were sometimes kept proprietary, it seems new fonts are open sourced and open licensed more often than not. You can find selections of fresh new fonts right here:
 
-## bitmap / pixel fonts
+- [2009](http://programmingfonts.org/tagged/2009)
+- [2010](http://programmingfonts.org/tagged/2010)
+- [2011](http://programmingfonts.org/tagged/2011)
+- [2012](http://programmingfonts.org/tagged/2012)
+- [2013](http://programmingfonts.org/tagged/2013)
+- [2014](http://programmingfonts.org/tagged/2014)
+
+## Bitmap / pixel fonts
 Creating a vector based (outline) font that looks great at many sizes and in many antialiasing/rendering systems is lots of hard work. Getting anything done can take over a year. However, if you just want to see lots of code on a screen, it makes a lot of sense to just create bitmaps at the resolution you need. In this age of high dpi displays, these fonts are even crisper than before.
 
 [An overview of the best bitmap fonts](http://programmingfonts.org/tagged/pixel)
 
-
-# Topics
------------------------------------------------------------------------------
 ## About Courier
 All typewriters had monospaced fonts. It was simply impossible to make a mechanical machine use characters of variable width. So it used to be that everything that wasn't printed professionally (i.e. books and newspapers) was set in a monospace font. There wasn't really any choice. In fact, your typewriter would come with a single font "installed" and that was it. No menu where you could pick Arial, Georgia or Comic Sans: you're stuck with whatever font they put in there. On the upside though, typewriter manufacturers would put real effort into that single font.
 

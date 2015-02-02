@@ -15,11 +15,11 @@ creep
 
 Check [the list of derivatives][5] here.
 
-[1][http://programmingfonts.org/post/106502343672/bitstream-vera-sans-mono-vera-is-a-group]
-[2][http://programmingfonts.org/post/108531801447/menlo-designed-like-the-bitstream-vera-mono-it]
-[3][http://dejavu-fonts.org/]
-[4][http://programmingfonts.org/post/106313939612/verily-serif-mono-verily-serif-mono-is]
-[5][http://programmingfonts.org/tagged/bitstream-vera]
+[1]: http://programmingfonts.org/post/106502343672/bitstream-vera-sans-mono-vera-is-a-group
+[2]: http://programmingfonts.org/post/108531801447/menlo-designed-like-the-bitstream-vera-mono-it
+[3]: http://dejavu-fonts.org/
+[4]: http://programmingfonts.org/post/106313939612/verily-serif-mono-verily-serif-mono-is
+[5]: http://programmingfonts.org/tagged/bitstream-vera
 
 ## Famous designers
 While not Karl Lagerfeld famous, you'll see some names pop up more than others. Some fonts have become big hits even though we tend to take them for granted and type designers stay unknown.
@@ -34,25 +34,14 @@ While not Karl Lagerfeld famous, you'll see some names pop up more than others. 
 
 [Charles Bigelow][8] and [Kris Holmes][9] have been responsible for Wingdings among others like Monaco, which has been the default monospaced font for Macs between 1983 and 2009.
 
-[1][http://programmingfonts.org/tagged/steve-matteson]
-[2][http://programmingfonts.org/tagged/mark-simonson]
-[3][http://programmingfonts.org/post/105083537682/anonymous-pro-anonymous-pro-2009-is-a]
-[4]
-[5][http://programmingfonts.org/post/106502343672/bitstream-vera-sans-mono-vera-is-a-group]
-[6][http://programmingfonts.org/post/108531801447/menlo-designed-like-the-bitstream-vera-mono-it]
-[7][http://programmingfonts.org/tagged/vernon-adams]
-[8][http://programmingfonts.org/tagged/bigelow]
-[9][http://programmingfonts.org/tagged/holmes]
-
-## Since 2010
-Now that pretty much all text based media have gone primarily digital, with great displays and webfonts everywhere, it seems typography is hot. Perhaps hotter than it has ever been. In recent years the supply of wonderful fonts has exploded. Where previously fonts were sometimes kept proprietary, it seems new fonts are open sourced and open licensed more often than not. You can find selections of fresh new fonts right here:
-
-- [2009](http://programmingfonts.org/tagged/2009)
-- [2010](http://programmingfonts.org/tagged/2010)
-- [2011](http://programmingfonts.org/tagged/2011)
-- [2012](http://programmingfonts.org/tagged/2012)
-- [2013](http://programmingfonts.org/tagged/2013)
-- [2014](http://programmingfonts.org/tagged/2014)
+[1]: http://programmingfonts.org/tagged/steve-matteson
+[2]: http://programmingfonts.org/tagged/mark-simonson
+[3]: http://programmingfonts.org/post/105083537682/anonymous-pro-anonymous-pro-2009-is-a
+[5]: http://programmingfonts.org/post/106502343672/bitstream-vera-sans-mono-vera-is-a-group
+[6]: http://programmingfonts.org/post/108531801447/menlo-designed-like-the-bitstream-vera-mono-it
+[7]: http://programmingfonts.org/tagged/vernon-adams
+[8]: http://programmingfonts.org/tagged/bigelow
+[9]: http://programmingfonts.org/tagged/holmes
 
 ## Bitmap / pixel fonts
 Creating a vector based (outline) font that looks great at many sizes and in many antialiasing/rendering systems is lots of hard work. Getting anything done can take over a year. However, if you just want to see lots of code on a screen, it makes a lot of sense to just create bitmaps at the resolution you need. In this age of high dpi displays, these fonts are even crisper than before.
@@ -70,25 +59,37 @@ Couriers popularity and lack of copyright allowed others to build on its design.
 
 It has been so pervasive and so recognizable, that it's almost a metaphor for the age of typewriters. In today's age of choice it's easy to chose something else. Something [sans-serif or with a distinct zero][5], or something [fresh and modern][6]. However, Courier is still an unsurpassed font for writers and coders alike.
 
-[1][http://www.graphos.org/courier.html]
-[2][http://www.abc.net.au/news/2004-01-30/us-bans-time-honoured-typeface/127908]
-[3][https://en.wikipedia.org/wiki/Typeface#Font_metrics]
-[4][http://programmingfonts.org/tagged/courier]
-[5][http://programmingfonts.org/post/105765510557/cousine-cousine-was-designed-by-steve]
-[6][http://programmingfonts.org/post/107404917837/droid-sans-mono-the-droid-family-of-fonts-was]
+[1]: http://www.graphos.org/courier.html
+[2]: http://www.abc.net.au/news/2004-01-30/us-bans-time-honoured-typeface/127908
+[3]: https://en.wikipedia.org/wiki/Typeface#Font_metrics
+[4]: http://programmingfonts.org/tagged/courier
+[5]: http://programmingfonts.org/post/105765510557/cousine-cousine-was-designed-by-steve
+[6]: http://programmingfonts.org/post/107404917837/droid-sans-mono-the-droid-family-of-fonts-was
 
 ## what is a "programming font"
-This website collects "programming fonts". While code can be written in any font you like, traditionally programming is done in monospaced fonts. This allows aligning text in a way that supports the structural character of code. There are many monospaced fonts that have a fancy, or overly retro typewriter style. If you're going to be looking at that font over 8 hours a day, readability is key though.
+This website collects "programming fonts". While code can be written in any font you like, traditionally programming is done using monospaced fonts. This allows you to align text in a way that enhances the structural character of code.
 
-[Some fonts][1] are designed specifically for programming (like Source Code Pro, Anonymous Pro, Input and Proggy Clean), with letter forms that are unique and well aligned braces and punctuation. This prevents bugs caused by mixing up 0 and O or 1 and l and improves readability of code.
+There are many monospaced fonts that have a fancy, or overly retro typewriter style. If you're going to be staring at text over 8 hours a day, readability is key over style though.
+
+[Some fonts][1] are designed specifically for programming (like Source Code Pro, Anonymous Pro, Input and Proggy Clean), with letter forms that are unique align nicely with braces and punctuation. This prevents bugs caused by mixing up 0 and O or 1 and l and improves readability.
 [Others][2] (like Everson, Lekton and Cutive) are simply excellently readable, which could be preferable for writers, and doing markup.
 
-[1][http://programmingfonts.org/tagged/programming]
-[2][http://programmingfonts.org/tagged/writing]
+[1]: http://programmingfonts.org/tagged/programming
+[2]: http://programmingfonts.org/tagged/writing
 
 -----------------------------------------------------------------------------
 <!-- Posted
 
+
+## Since 2010
+Now that pretty much all text based media have gone primarily digital, with great displays and webfonts everywhere, it seems typography is hot. Perhaps hotter than it has ever been. In recent years the supply of wonderful fonts has exploded. Where previously fonts were sometimes kept proprietary, it seems new fonts are open sourced and open licensed more often than not. You can find selections of fresh new fonts right here:
+
+- [2009](http://programmingfonts.org/tagged/2009)
+- [2010](http://programmingfonts.org/tagged/2010)
+- [2011](http://programmingfonts.org/tagged/2011)
+- [2012](http://programmingfonts.org/tagged/2012)
+- [2013](http://programmingfonts.org/tagged/2013)
+- [2014](http://programmingfonts.org/tagged/2014)
 
 
 

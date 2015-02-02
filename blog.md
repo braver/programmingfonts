@@ -66,6 +66,11 @@ It has been so pervasive and so recognizable, that it's almost a metaphor for th
 [5]: http://programmingfonts.org/post/105765510557/cousine-cousine-was-designed-by-steve
 [6]: http://programmingfonts.org/post/107404917837/droid-sans-mono-the-droid-family-of-fonts-was
 
+
+-----------------------------------------------------------------------------
+<!-- Posted
+
+
 ## what is a "programming font"
 This website collects "programming fonts". While code can be written in any font you like, traditionally programming is done using monospaced fonts. This allows you to align text in a way that enhances the structural character of code.
 
@@ -76,10 +81,6 @@ There are many monospaced fonts that have a fancy, or overly retro typewriter st
 
 [1]: http://programmingfonts.org/tagged/programming
 [2]: http://programmingfonts.org/tagged/writing
-
------------------------------------------------------------------------------
-<!-- Posted
-
 
 ## Since 2010
 Now that pretty much all text based media have gone primarily digital, with great displays and webfonts everywhere, it seems typography is hot. Perhaps hotter than it has ever been. In recent years the supply of wonderful fonts has exploded. Where previously fonts were sometimes kept proprietary, it seems new fonts are open sourced and open licensed more often than not. You can find selections of fresh new fonts right here:

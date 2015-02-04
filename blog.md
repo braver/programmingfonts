@@ -10,16 +10,6 @@ creep
 
 # Collections
 -----------------------------------------------------------------------------
-## Bitstream Vera Sans derivatives
-[Bitstream Vera Sans][1] has been released under an open license that has allowed others to build on its solid design. The best known example of this is [Menlo][2], the current default monospaced font for OS X. Menlo also took a lot from the [DeJa Vu project][3]. In this project the open source community has taken to expanding the Bitstream Vera Sans font family with thousands of languages and special glyphs, making it one of the most complete font families available. There's even a [serif][4] variant.
-
-Check [the list of derivatives][5] here.
-
-[1]: http://programmingfonts.org/post/106502343672/bitstream-vera-sans-mono-vera-is-a-group
-[2]: http://programmingfonts.org/post/108531801447/menlo-designed-like-the-bitstream-vera-mono-it
-[3]: http://dejavu-fonts.org/
-[4]: http://programmingfonts.org/post/106313939612/verily-serif-mono-verily-serif-mono-is
-[5]: http://programmingfonts.org/tagged/bitstream-vera
 
 ## Famous designers
 While not Karl Lagerfeld famous, you'll see some names pop up more than others. Some fonts have become big hits even though we tend to take them for granted and type designers stay unknown.
@@ -69,6 +59,17 @@ It has been so pervasive and so recognizable, that it's almost a metaphor for th
 
 -----------------------------------------------------------------------------
 <!-- Posted
+
+## Bitstream Vera Sans derivatives
+[Bitstream Vera Sans][1] has been released under an open license that has allowed others to build on its solid design. The best known example of this is [Menlo][2], the current default monospaced font for OS X. Menlo also took a lot from the [DeJa Vu project][3]. In this project the open source community has taken to expanding the Bitstream Vera Sans font family with thousands of languages and special glyphs, making it one of the most complete font families available. There's even a [serif][4] variant.
+
+Check [the list of derivatives][5] here.
+
+[1]: http://programmingfonts.org/post/106502343672/bitstream-vera-sans-mono-vera-is-a-group
+[2]: http://programmingfonts.org/post/108531801447/menlo-designed-like-the-bitstream-vera-mono-it
+[3]: http://dejavu-fonts.org/
+[4]: http://programmingfonts.org/post/106313939612/verily-serif-mono-verily-serif-mono-is
+[5]: http://programmingfonts.org/tagged/bitstream-vera
 
 
 ## what is a "programming font"

@@ -33,11 +33,6 @@ While not Karl Lagerfeld famous, you'll see some names pop up more than others. 
 [8]: http://programmingfonts.org/tagged/bigelow
 [9]: http://programmingfonts.org/tagged/holmes
 
-## Bitmap / pixel fonts
-Creating a vector based (outline) font that looks great at many sizes and in many antialiasing/rendering systems is lots of hard work. Getting anything done can take over a year. However, if you just want to see lots of code on a screen, it makes a lot of sense to just create bitmaps at the resolution you need. In this age of high dpi displays, these fonts are even crisper than before.
-
-[An overview of the best bitmap fonts](http://programmingfonts.org/tagged/pixel)
-
 ## About Courier
 All typewriters had monospaced fonts. It was simply impossible to make a mechanical machine use characters of variable width. So it used to be that everything that wasn't printed professionally (i.e. books and newspapers) was set in a monospace font. There wasn't really any choice. In fact, your typewriter would come with a single font "installed" and that was it. No menu where you could pick Arial, Georgia or Comic Sans: you're stuck with whatever font they put in there. On the upside though, typewriter manufacturers would put real effort into that single font.
 
@@ -59,6 +54,12 @@ It has been so pervasive and so recognizable, that it's almost a metaphor for th
 
 -----------------------------------------------------------------------------
 <!-- Posted
+
+## Bitmap / pixel fonts
+Creating a vector based (i.e. 'outline' in jargon) font that looks great at many sizes and in many antialiasing/rendering systems is a lot of hard work. Getting anything done can take over a year. However, if you just want to see lots of code on a screen, it makes a lot of sense to just create bitmaps at the resolution you need. At small sizes antialiasing loses much of its effect and carefuly made glyphs can do without. And this age of high dpi displays, these fonts are even crisper than before.
+
+[An overview of the best bitmap fonts](http://programmingfonts.org/tagged/pixel)
+
 
 ## Bitstream Vera Sans derivatives
 [Bitstream Vera Sans][1] has been released under an open license that has allowed others to build on its solid design. The best known example of this is [Menlo][2], the current default monospaced font for OS X. Menlo also took a lot from the [DeJa Vu project][3]. In this project the open source community has taken to expanding the Bitstream Vera Sans font family with thousands of languages and special glyphs, making it one of the most complete font families available. There's even a [serif][4] variant.

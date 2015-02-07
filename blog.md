@@ -11,28 +11,6 @@ creep
 # Collections
 -----------------------------------------------------------------------------
 
-## Famous designers
-While not Karl Lagerfeld famous, you'll see some names pop up more than others. Some fonts have become big hits even though we tend to take them for granted and type designers stay unknown.
-
-[Steve Matteson][1] designed the Droid fonts (used in every single Android device up to 2011), but also the Liberation fonts available on pretty much every Linux distribution, as well as a number of other fonts featured on this website. And all supremely excellent.
-
-[Mark Simonson][2] is perhaps best known for his Proxima Nova. He has also created the [Anonymous][3] monospaced font specifically for programming and has been so kind as to release it free to use.
-
-[Jim Lyles] originally worked for Bitstream, one of the very first digital type foundries. He was responsible for Bitstream Vera Sans, an excellent and widely used sans serif font. Later on he created a variation of [Vera Sans Mono][5] known as [Menlo][6], the default monospace font for OSX since 2009.
-
-[Vernon Adams][7] has designed a great number of fonts available throught Google Fonts, such as the Oxygen font family used throughout KDE.
-
-[Charles Bigelow][8] and [Kris Holmes][9] have been responsible for Wingdings among others like Monaco, which has been the default monospaced font for Macs between 1983 and 2009.
-
-[1]: http://programmingfonts.org/tagged/steve-matteson
-[2]: http://programmingfonts.org/tagged/mark-simonson
-[3]: http://programmingfonts.org/post/105083537682/anonymous-pro-anonymous-pro-2009-is-a
-[5]: http://programmingfonts.org/post/106502343672/bitstream-vera-sans-mono-vera-is-a-group
-[6]: http://programmingfonts.org/post/108531801447/menlo-designed-like-the-bitstream-vera-mono-it
-[7]: http://programmingfonts.org/tagged/vernon-adams
-[8]: http://programmingfonts.org/tagged/bigelow
-[9]: http://programmingfonts.org/tagged/holmes
-
 ## About Courier
 All typewriters had monospaced fonts. It was simply impossible to make a mechanical machine use characters of variable width. So it used to be that everything that wasn't printed professionally (i.e. books and newspapers) was set in a monospace font. There wasn't really any choice. In fact, your typewriter would come with a single font "installed" and that was it. No menu where you could pick Arial, Georgia or Comic Sans: you're stuck with whatever font they put in there. On the upside though, typewriter manufacturers would put real effort into that single font.
 
@@ -54,6 +32,28 @@ It has been so pervasive and so recognizable, that it's almost a metaphor for th
 
 -----------------------------------------------------------------------------
 <!-- Posted
+
+## Famous designers
+While not Karl Lagerfeld famous, you'll see some names pop up more than others. Some fonts have become big hits even though we tend to take them for granted and type designers stay unknown.
+
+[Steve Matteson][1] designed the Droid fonts (used in every single Android device up to 2011), but also the Liberation fonts available on pretty much every Linux distribution, as well as a number of other fonts featured on this website. And all supremely excellent.
+
+[Mark Simonson][2] is perhaps best known for his Proxima Nova. He has also created the [Anonymous][3] monospaced font specifically for programming and has been so kind as to release it free to use.
+
+[Jim Lyles] originally worked for Bitstream, one of the very first digital type foundries. He was responsible for Bitstream Vera Sans, an excellent and widely used sans serif font. Later on he created a variation of [Vera Sans Mono][5] known as [Menlo][6], the default monospace font for OSX since 2009.
+
+[Vernon Adams][7] has designed a great number of fonts available throught Google Fonts, such as the Oxygen font family used throughout KDE.
+
+[Charles Bigelow][8] and [Kris Holmes][9] have been responsible for Wingdings among others like Monaco, which has been the default monospaced font for Macs between 1983 and 2009.
+
+[1]: http://programmingfonts.org/tagged/steve-matteson
+[2]: http://programmingfonts.org/tagged/mark-simonson
+[3]: http://programmingfonts.org/post/105083537682/anonymous-pro-anonymous-pro-2009-is-a
+[5]: http://programmingfonts.org/post/106502343672/bitstream-vera-sans-mono-vera-is-a-group
+[6]: http://programmingfonts.org/post/108531801447/menlo-designed-like-the-bitstream-vera-mono-it
+[7]: http://programmingfonts.org/tagged/vernon-adams
+[8]: http://programmingfonts.org/tagged/bigelow
+[9]: http://programmingfonts.org/tagged/holmes
 
 ## Bitmap / pixel fonts
 Creating a vector based (i.e. 'outline' in jargon) font that looks great at many sizes and in many antialiasing/rendering systems is a lot of hard work. Getting anything done can take over a year. However, if you just want to see lots of code on a screen, it makes a lot of sense to just create bitmaps at the resolution you need. At small sizes antialiasing loses much of its effect and carefuly made glyphs can do without. And this age of high dpi displays, these fonts are even crisper than before.

@@ -8,17 +8,18 @@ pragmata pro
 fixedsys
 creep
 
-# Collections
+
 -----------------------------------------------------------------------------
+<!-- Posted
 
 ## About Courier
-All typewriters had monospaced fonts. It was simply impossible to make a mechanical machine use characters of variable width. So it used to be that everything that wasn't printed professionally (i.e. books and newspapers) was set in a monospace font. There wasn't really any choice. In fact, your typewriter would come with a single font "installed" and that was it. No menu where you could pick Arial, Georgia or Comic Sans: you're stuck with whatever font they put in there. On the upside though, typewriter manufacturers would put real effort into that single font.
+Proportional fonts are usually the best choice for readability. It's easier to make words flow well if the i doesn't have to be as wide as the m. However, until actually pretty recent you didn't really have that option. All typewriters used to have monospaced fonts. It was simply impossible to make a mechanical machine use characters of variable width. So it used to be that everything that wasn't handwriting or printed professionally (like books and newspapers) was set in a monospace font. In fact, your typewriter would come with a single font "installed" and that was it. You couldn't pick Arial, Georgia or Comic Sans: you were stuck with whatever font they put in the machine.
 
-Proportional fonts are usually the best choice for readability. It's easier to make words flow well if the i doesn't have to take up the same horizontal space a the m. Well designed monospace fonts can overcome that problem though, and Courier does this exceptionally well.
+On the upside though, typewriter manufacturers would put real effort into that one font. Well designed monospace fonts can overcome the limitations, and Courier does this exceptionally well.
 
-It had been designed in the 1950's, by [Bud Kettler][1] for IBM's typewriters. Its excellent readability and "scannability", aided by it's (strategic) lack of copyright, enabled it to become the most pervasive font in history. It has been the [standard font for the US State Department][2] until 2004 and has been featured as the default monospace font in pretty much every computer operator system.
+Courier was designed in the 1950's, by [Bud Kettler][1] for IBM's typewriters. It has excellent readability and "scannability". The creators decided to forego copyright, allowing it to become the most pervasive font in our recent history. It has been the [standard font for the US State Department][2] until 2004 and has been featured as the default monospaced font in pretty much every computer operator system.
 
-Couriers popularity and lack of copyright allowed others to build on its design. Monotype created the thinner Courier New, and a number of [metrically compatible][3] fonts [have been created][4] over the years.
+Others could build on its design. Monotype created the thinner Courier New, and a number of [metrically compatible][3] fonts [have been created][4] over the years.
 
 It has been so pervasive and so recognizable, that it's almost a metaphor for the age of typewriters. In today's age of choice it's easy to chose something else. Something [sans-serif or with a distinct zero][5], or something [fresh and modern][6]. However, Courier is still an unsurpassed font for writers and coders alike.
 
@@ -28,10 +29,6 @@ It has been so pervasive and so recognizable, that it's almost a metaphor for th
 [4]: http://programmingfonts.org/tagged/courier
 [5]: http://programmingfonts.org/post/105765510557/cousine-cousine-was-designed-by-steve
 [6]: http://programmingfonts.org/post/107404917837/droid-sans-mono-the-droid-family-of-fonts-was
-
-
------------------------------------------------------------------------------
-<!-- Posted
 
 ## Famous designers
 While not Karl Lagerfeld famous, you'll see some names pop up more than others. Some fonts have become big hits even though we tend to take them for granted and type designers stay unknown.

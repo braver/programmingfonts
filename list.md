@@ -129,6 +129,11 @@ By Hugo Chargois
 *License: WTFPL*  
 http://font.gohu.org
 
+## Hack
+By Chris Simpkins, 2015  
+*License: Bitstream Vera License*  
+https://github.com/chrissimpkins/Hack
+
 ## Hermit
 By Pablo Caro, 2013  
 *License: SIL OFL*  
@@ -236,6 +241,11 @@ http://www.google.com/fonts/specimen/PT+Mono
 By James Kilfiger, 2013  
 *License: SIL OFL*  
 http://openfontlibrary.org/en/font/fifteen
+
+## Roboto Mono
+By Christian Robertson, 2015  
+*License: Apache 2.0*  
+https://www.google.com/fonts/specimen/Roboto+Mono
 
 ## saxMono
 By **s.a.x. Software**  

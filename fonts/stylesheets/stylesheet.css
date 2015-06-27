@@ -269,6 +269,24 @@
   src: url('../resources/gohu/gohu.ttf');
 }
 @font-face {
+  font-family: 'hack';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/hack/hack-bold.woff');
+}
+@font-face {
+  font-family: 'hack';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/hack/hack-italic.woff');
+}
+@font-face {
+  font-family: 'hack';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/hack/hack.woff');
+}
+@font-face {
   font-family: 'hermit';
   font-weight: bold;
   font-style: normal;
@@ -453,6 +471,24 @@
   font-weight: normal;
   font-style: normal;
   src: url('../resources/quinze/quinze.ttf');
+}
+@font-face {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/roboto/roboto-bold.ttf');
+}
+@font-face {
+  font-family: 'roboto';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/roboto/roboto-italic.ttf');
+}
+@font-face {
+  font-family: 'roboto';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/roboto/roboto.ttf');
 }
 @font-face {
   font-family: 'sax';

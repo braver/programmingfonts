@@ -1,4 +1,4 @@
-# Missing Screens (one dark syntax, 23px)
+# Missing Screens (one dark syntax, 21px, 1.4)
 terminus
 lucida console
 letter gothic

@@ -101,6 +101,12 @@
   src: url('../resources/bpmono/bpmono.woff');
 }
 @font-face {
+  font-family: 'code-new-roman';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/code-new-roman/code-new-roman.otf');
+}
+@font-face {
   font-family: 'consolamono';
   font-weight: bold;
   font-style: normal;
@@ -441,6 +447,24 @@
   font-weight: normal;
   font-style: normal;
   src: url('../resources/nova/nova.ttf');
+}
+@font-face {
+  font-family: 'office-code-pro';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/office-code-pro/office-code-pro-bold.woff');
+}
+@font-face {
+  font-family: 'office-code-pro';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/office-code-pro/office-code-pro-italic.woff');
+}
+@font-face {
+  font-family: 'office-code-pro';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/office-code-pro/office-code-pro.woff');
 }
 @font-face {
   font-family: 'oxygen';

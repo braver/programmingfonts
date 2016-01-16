@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Programming Fonts - Test Drive App</title>
+    <title>Programming Fonts - Test Drive</title>
     <meta charset="utf-8"/>
 
     <meta name="viewport" content="width=device-width" />
@@ -74,48 +74,38 @@
     <!-- Compiled (using less on node) with "lessc fonts.less > stylesheet.css" -->
     <link rel="stylesheet" href="fonts/stylesheets/stylesheet.css">
 
-    <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 
     <!-- Google/Typekit Web Font Loader: https://github.com/typekit/webfontloader -->
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.6/webfont.js"></script>
 
 
     <style type="text/css">
+    html {
+      min-height: 100%;
+      background: #f5f1ed;
+    }
     body {
-      color:#eee;
-      font-family: "Karla", sans-serif;
+      color:#444;
+      font-family: "Lato", sans-serif;
       font-size: 16px;
       line-height: 2;
     }
-    .background {
-        background: url('http://static.tumblr.com/5c5a2b58eb02d73886b75e948c4231aa/ythva06/cCenfcrzk/tumblr_static_e2e836q1c88owkc00sos0444o.jpg') no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        height:100%;
-        width:100%;
-        position: fixed;
-        z-index: -1;
-      }
       h1 {
-        font-family: 'Patua One', serif;
+        font-family: 'Merriweather', serif;
         font-weight: normal;
-        color: #444;
         font-size: 64px;
         line-height: 64px;
         margin: 0 0 64px 0;
         text-align: center;
         padding-top: 64px;
-        text-shadow: 0 0 2px rgba(0,0,0,.2);
       }
       .description {
-        color:#eee; text-align: center;
+        font-weight: bold;
+        text-align: center;
         margin: 0 0 30px 0;
         font-size: 20px;
-        font-weight: bold;
-        text-shadow: 0 0 2px rgba(0,0,0,.2);
       }
       article {
         max-width: 90%;
@@ -124,9 +114,7 @@
         margin-bottom: 64px;
         background: white;
         border: 0;
-        border-radius: 3px;
-        box-shadow: 0 0 4px rgba(0,0,0,.4);
-        color: #505050;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
       }
        article p {
          text-align: center;
@@ -146,7 +134,6 @@
         width: 800px;
         text-align: center;
         margin: 64px auto;
-        text-shadow: 0 0 2px rgba(0,0,0,.2);
       }
       footer form {
         margin-top: 8px;
@@ -170,8 +157,6 @@
       .CodeMirror {
         border: none;
         font-size:16px;
-        border-top-left-radius: 3px;
-        border-top-right-radius: 3px;
         background: transparent;
         box-shadow: none !important;
       }
@@ -199,9 +184,9 @@
 
   <div class="background"></div>
 
-  <h1>Test Drive Programming Fonts</h1>
+  <h1>Programming Fonts Tester</h1>
 
-  <p class="description">What font looks best with code? Try over 40 free programming fonts and find out!</p>
+  <p class="description">What font looks best? Try over 40 free programming fonts and find out!</p>
 
   <article>
     <form>
@@ -274,12 +259,14 @@ function findSequence(goal) {
         <option value="fira">Fira Mono</option>,
         <option value="fixedsys">Fixedsys</option>,
         <option value="generic">Generic Mono</option>,
-        <option selected value="gnu-freefont">GNU Freefont</option>,
+        <option value="gnu-freefont">GNU Freefont</option>,
         <option value="unifont">GNU Unifont</option>,
         <option value="hack">Hack</option>,
         <option value="hermit">Hermit</option>,
         <option value="inconsolata">Inconsolata</option>,
         <option value="inconsolata-g">Inconsolata-G</option>,
+        <option value="input" selected>Input</option>,
+        <option value="input-compressed">Input Compressed</option>,
         <option value="latin-modern">Latin Modern Mono</option>,
         <option value="lekton">Lekton</option>,
         <option value="liberation">Liberation Mono</option>,
@@ -317,20 +304,20 @@ function findSequence(goal) {
 
     <footer>
       <p>
-        Built with <a href="http://codemirror.net/" rel="external">CodeMirror</a>, <a href="https://github.com/typekit/webfontloader" rel="external">Google/Typekit Web Font Loader</a>, <a href="http://cdnjs.com/" rel="external">CDNJS</a>, <a href="https://github.com/braver/programmingfonts">Github</a>, Photography from <a href="http://unsplash.com">Unsplash</a>
+        Contribute on <a href="https://github.com/braver/programmingfonts">Github</a>
       </p>
       <p>
-        <a href="http://programmingfonts.org">Back to the blog</a> -  &copy; 2014 <a href="http://koenlageveen.nl" style="color: #eee;">Koen Lageveen</a>
+        <a href="http://programmingfonts.org">Back to the blog</a> -  &copy; 2016 <a href="http://koenlageveen.nl">Koen Lageveen</a>
       <p>
 
       <!-- Paypal donate button -->
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
         ">
         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
         <img alt="" border="0" src="https://www.paypalobjects.com/nl_NL/i/scr/pixel.gif" width="1" height="1">
-      </form>
+      </form> -->
 
     </footer>
 

@@ -73,8 +73,7 @@
     <!-- ProgrammingFonts @font-faces -->
     <!-- Compiled (using less on node) with "lessc fonts.less > stylesheet.css" -->
     <link rel="stylesheet" href="fonts/stylesheets/stylesheet.css">
-
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
+    <link href="//cloud.webtype.com/css/7e544c5e-55dc-4b41-a8d3-c13f7e0a13d3.css" rel="stylesheet" type="text/css" />
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 
     <!-- Google/Typekit Web Font Loader: https://github.com/typekit/webfontloader -->
@@ -92,92 +91,92 @@
       font-size: 16px;
       line-height: 2;
     }
+    h1 {
+      font-family: 'Input Mono', serif;
+      font-weight: bold;
+      font-size: 64px;
+      line-height: 64px;
+      margin: 0 0 64px 0;
+      text-align: center;
+      padding-top: 64px;
+    }
+    .description {
+      font-weight: bold;
+      text-align: center;
+      margin: 0 0 30px 0;
+      font-size: 20px;
+    }
+    article {
+      max-width: 90%;
+      width: 800px;
+      margin: 0 auto;
+      margin-bottom: 64px;
+      background: white;
+      border: 0;
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    }
+     article p {
+       text-align: center;
+       padding: 0 32px 16px 32px;
+    }
+    article p:last-child {
+      padding-bottom: 32px;
+    }
+    article form {
+      margin-bottom: 32px;
+    }
+    select {
+      margin-right: 32px;
+    }
+    footer {
+      max-width: 90%;
+      width: 800px;
+      text-align: center;
+      margin: 64px auto;
+    }
+    footer form {
+      margin-top: 8px;
+    }
+    a,
+    a:link,
+    a:visited,
+    a:hover {
+      color: #44cc9a;
+      text-decoration: none;
+    }
+    a:hover {
+      opacity: .8;
+      transition: opacity .5s;
+    }
+    pre,
+    textarea,
+    .CodeMirror {
+      font-family: "Input Mono";
+    }
+    .CodeMirror {
+      border: none;
+      font-size:16px;
+      background: transparent;
+      box-shadow: none !important;
+    }
+    .CodeMirror-gutters {
+      background: transparent;
+    }
+    @media screen and (max-width:800px) {
+      .select {
+        display: block;
+        text-align: right;
+        margin: 0;
+      }
+    }
+    @media screen and (max-width:640px) {
       h1 {
-        font-family: 'Merriweather', serif;
-        font-weight: normal;
-        font-size: 64px;
-        line-height: 64px;
-        margin: 0 0 64px 0;
-        text-align: center;
-        padding-top: 64px;
-      }
-      .description {
-        font-weight: bold;
-        text-align: center;
-        margin: 0 0 30px 0;
-        font-size: 20px;
-      }
-      article {
-        max-width: 90%;
-        width: 800px;
-        margin: 0 auto;
-        margin-bottom: 64px;
-        background: white;
-        border: 0;
-        box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
-      }
-       article p {
-         text-align: center;
-         padding: 0 32px 16px 32px;
-      }
-      article p:last-child {
-        padding-bottom: 32px;
-      }
-      article form {
-        margin-bottom: 32px;
-      }
-      select {
-        margin-right: 32px;
-      }
-      footer {
-        max-width: 90%;
-        width: 800px;
-        text-align: center;
-        margin: 64px auto;
-      }
-      footer form {
-        margin-top: 8px;
-      }
-      a,
-      a:link,
-      a:visited,
-      a:hover {
-        color: #44cc9a;
-        text-decoration: none;
-      }
-      a:hover {
-        opacity: .8;
-        transition: opacity .5s;
-      }
-      pre,
-      textarea,
-      .CodeMirror {
-        font-family: "gnu-freefont";
-      }
-      .CodeMirror {
-        border: none;
-        font-size:16px;
-        background: transparent;
-        box-shadow: none !important;
-      }
-      .CodeMirror-gutters {
-        background: transparent;
-      }
-      @media screen and (max-width:800px) {
-        .select {
-          display: block;
-          text-align: right;
-          margin: 0;
-        }
-      }
-      @media screen and (max-width:640px) {
-        h1 {
-          font-size: 48px;
-          line-height: 48px;
-          padding-top: 48px;
-          margin-bottom: 48px;
-         }
-      }
+        font-size: 48px;
+        line-height: 48px;
+        padding-top: 48px;
+        margin-bottom: 48px;
+       }
+    }
     </style>
   </head>
   <body>
@@ -265,8 +264,8 @@ function findSequence(goal) {
         <option value="hermit">Hermit</option>,
         <option value="inconsolata">Inconsolata</option>,
         <option value="inconsolata-g">Inconsolata-G</option>,
-        <option value="input" selected>Input</option>,
-        <option value="input-compressed">Input Compressed</option>,
+        <option value="Input Mono" selected>Input Mono</option>,
+        <option value="input Mono Comp">Input Mono Compressed</option>,
         <option value="latin-modern">Latin Modern Mono</option>,
         <option value="lekton">Lekton</option>,
         <option value="liberation">Liberation Mono</option>,

@@ -413,6 +413,24 @@
   src: url('../resources/monofur/monofur.ttf');
 }
 @font-face {
+  font-family: 'monoid';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/meslo/monoid-bold.ttf');
+}
+@font-face {
+  font-family: 'monoid';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/meslo/monoid-italic.ttf');
+}
+@font-face {
+  font-family: 'monoid';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/meslo/monoid-regular.ttf');
+}
+@font-face {
   font-family: 'mplus';
   font-weight: bold;
   font-style: normal;

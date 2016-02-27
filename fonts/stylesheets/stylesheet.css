@@ -101,6 +101,24 @@
   src: url('../resources/bpmono/bpmono.woff');
 }
 @font-face {
+  font-family: 'camingocode';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/camingocode/camingocode-bold.woff');
+}
+@font-face {
+  font-family: 'camingocode';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/camingocode/camingocode-italic.woff');
+}
+@font-face {
+  font-family: 'camingocode';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/camingocode/camingocode.woff');
+}
+@font-face {
   font-family: 'code-new-roman';
   font-weight: normal;
   font-style: normal;
@@ -269,12 +287,6 @@
   src: url('../resources/gohu/gohu.ttf');
 }
 @font-face {
-  font-family: 'gohu';
-  font-weight: normal;
-  font-style: normal;
-  src: url('../resources/gohu/gohu.ttf');
-}
-@font-face {
   font-family: 'hack';
   font-weight: bold;
   font-style: normal;
@@ -303,6 +315,24 @@
   font-weight: normal;
   font-style: normal;
   src: url('../resources/hermit/hermit.otf');
+}
+@font-face {
+  font-family: 'iosevka';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/iosevka/iosevka-regular.ttf');
+}
+@font-face {
+  font-family: 'iosevka';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/iosevka/iosevka-italic.ttf');
+}
+@font-face {
+  font-family: 'iosevka';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/iosevka/iosevka-bold.ttf');
 }
 @font-face {
   font-family: 'inconsolata';

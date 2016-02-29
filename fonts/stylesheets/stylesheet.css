@@ -557,6 +557,12 @@
   src: url('../resources/share-tech/share-tech.ttf');
 }
 @font-face {
+  font-family: 'sk-modernist';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/sk-modernist/sk-modernist.otf');
+}
+@font-face {
   font-family: 'source-code-pro';
   font-weight: bold;
   font-style: normal;

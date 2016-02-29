@@ -1,0 +1,312 @@
+[{
+	"alias": "anka-coder",
+	"name": "Anka/Coder",
+	"author": "Andrey Makarov",
+	"year": 2010,
+	"website": "https://code.google.com/p/anka-coder-fonts/"
+},{
+	"alias": "anonymous-pro",
+	"name": "Anonymous Pro",
+	"author": "Mark Simonson",
+	"year": 2009,
+	"website": "http://www.marksimonson.com/fonts/view/anonymous-pro"
+},{
+	"alias": "aurulent",
+	"name": "Aurulent Sans Mono",
+	"author": "Stephen G. Hartke",
+	"year": 2007,
+	"website": "http://delubrum.org"
+},{
+	"alias": "average",
+	"name": "Average Mono",
+	"author": "Richard Alexander Hall",
+	"year": 2013,
+	"website": "http://openfontlibrary.org/en/font/average-mono"
+},{
+	"alias": "bitstream-vera",
+	"name": "Bitstream Vera Sans Mono",
+	"author": "Jim Lyles",
+	"year": 2002,
+	"website": "http://www.fontsquirrel.com/fonts/Bitstream-Vera-Sans-Mono"
+},{
+	"alias": "bpmono",
+	"name": "BPmono",
+	"author": "Backpacker",
+	"website": "http://www.fontsquirrel.com/fonts/BPmono"
+},{
+	"alias": "camingocode",
+	"name": "CamingoCode",
+	"author": "Jan Fromm",
+	"year": 2013,
+	"website": "http://www.janfromm.de/typefaces/camingomono/camingocode"
+},{
+	"alias": "code-new-roman",
+	"name": "Code New Roman",
+	"author": "Samiru R.",
+	"year": 2014,
+	"website": "http://sourceforge.net/projects/codenewroman/"
+},{
+	"alias": "consolamono",
+	"name": "Consolamono",
+	"author": "Wojciech Kalinowski",
+	"year": 2011,
+	"website": "http://openfontlibrary.org/en/font/consolamono"
+},{
+	"alias": "cousine",
+	"name": "Cousine",
+	"author": "Steve Matteson",
+	"year": 2010,
+	"website": "http://www.fontsquirrel.com/fonts/cousine"
+},{
+	"alias": "cutive",
+	"name": "Cutive Mono",
+	"author": "Vernon Adams",
+	"year": 2012,
+	"website": "http://www.google.com/fonts/specimen/Cutive+Mono"
+},{
+	"alias": "dejavu",
+	"name": "DejaVu Mono",
+	"author": "Deja Vu Project",
+	"year": 2004,
+	"website": "http://dejavu-fonts.org/wiki/Main_Page"
+},{
+	"alias": "droid-sans",
+	"name": "Droid Sans Mono",
+	"author": "Steve Matteson",
+	"year": 2006,
+	"website": "http://www.google.com/fonts/specimen/Droid+Sans+Mono"
+},{
+	"alias": "effects-eighty",
+	"name": "Effects Eighty",
+	"author": "Peter Hull",
+	"year": 2013,
+	"website": "http://openfontlibrary.org/en/font/effects-eighty"
+},{
+	"alias": "fantasque-sans",
+	"name": "Fantasque Sans Mono",
+	"author": "Jany Belluz",
+	"year": 2013,
+	"website": "https://github.com/belluzj/fantasque-sans"
+},{
+	"alias": "fifteen",
+	"name": "Fifteen",
+	"author": "James Kilfiger",
+	"year": 2013,
+	"website": "http://openfontlibrary.org/en/font/fifteen"
+},{
+	"alias": "fira",
+	"name": "Fira Mono",
+	"author": "Erik Spiekerman, Carois Type Design",
+	"year": 2013,
+	"website": "https://www.mozilla.org/en-US/styleguide/products/firefox-os/typeface/"
+},{
+	"alias": "fixedsys",
+	"name": "Fixedsys",
+	"author": "Microsoft",
+	"year": 1980,
+	"website": "http://www.moviecorner.de/en/font-fixedsys-ttf/description"
+},{
+	"alias": "generic",
+	"name": "Generic Mono",
+	"author": "Luc Devroye",
+	"year": 1980,
+	"website": "http://openfontlibrary.org/en/font/generic-mono"
+},{
+	"alias": "gnu-freefont",
+	"name": "GNU Freefont",
+	"author": "Primož Peterlin, Steve White",
+	"year": 2002,
+	"website": "https://www.gnu.org/software/freefont/"
+},{
+	"alias": "hack",
+	"name": "Hack",
+	"author": "Christopher Simpkins",
+	"year": 2015,
+	"website": "https://github.com/chrissimpkins/Hack"
+},{
+	"alias": "hermit",
+	"name": "Hermit",
+	"author": "Pablo Caro",
+	"year": 2013,
+	"website": "https://pcaro.es/p/hermit/"
+},{
+	"alias": "inconsolata",
+	"name": "Inconsolata",
+	"author": "Raph Levien",
+	"year": 2001,
+	"website": "http://www.levien.com/type/myfonts/inconsolata.html"
+},{
+	"alias": "inconsolata-g",
+	"name": "Inconsolata-g",
+	"author": "Leonardo Maffi",
+	"year": 2009,
+	"website": "http://leonardo-m.livejournal.com/77079.html"
+},{
+	"alias": "iosevka",
+	"name": "Iosevka",
+	"author": "Belleve Invis",
+	"year": 2015,
+	"website": "http://be5invis.github.io/Iosevka/"
+},{
+	"alias": "input",
+	"name": "Input",
+	"author": "David Jonathan Ross",
+	"year": 2014,
+	"website": "http://input.fontbureau.com"
+},{
+	"alias": "latin-modern",
+	"name": "Latin Modern Mono",
+	"author": "Bogusław Jackowski, Janusz M. Nowacki",
+	"year": 2002,
+	"website": "http://www.gust.org.pl/gust/projects/e-foundry/latin-modern"
+},{
+	"alias": "lekton",
+	"name": "Lekton",
+	"author": "Accademia di Belle Arti di Urbino",
+	"year": 2008,
+	"website": "http://www.fontsquirrel.com/fonts/lekton"
+},{
+	"alias": "liberation",
+	"name": "Liberation Mono",
+	"author": "Steve Matteson",
+	"year": 2007,
+	"website": "https://fedorahosted.org/liberation-fonts/"
+},{
+	"alias": "luxi",
+	"name": "Luxi Mono",
+	"author": "Kris Holmes, Charles Bigelow",
+	"year": 2001,
+	"website": "http://www.fontsquirrel.com/fonts/Luxi-Mono"
+},{
+	"alias": "meslo",
+	"name": "Meslo",
+	"author": "André Berg",
+	"year": 2010,
+	"website": "https://github.com/andreberg/Meslo-Font"
+},{
+	"alias": "monofur",
+	"name": "Monofur",
+	"author": "Tobias Benjamin Köhler",
+	"year": 2000,
+	"website": "http://www.dafont.com/monofur.font"
+},{
+	"alias": "mplus",
+	"name": "M+",
+	"author": "Coji Morishita",
+	"year": 2003,
+	"website": "http://mplus-fonts.sourceforge.jp"
+},{
+	"alias": "notcouriersans",
+	"name": "NotCourierSans",
+	"author": "Open Source Publishing",
+	"year": 2008,
+	"website": "http://www.fontsquirrel.com/fonts/NotCourierSans"
+},{
+	"alias": "nova",
+	"name": "Nova Mono",
+	"author": "Wojciech Kalinowski",
+	"year": 2010,
+	"website": "http://www.google.com/fonts/specimen/Nova+Mono"
+},{
+	"alias": "office-code-pro",
+	"name": "Office Code Pro",
+	"author": "Nathan Rutzky",
+	"year": 2015,
+	"website": "https://github.com/nathco/Office-Code-Pro"
+},{
+	"alias": "oxygen",
+	"name": "Oxygen Mono",
+	"author": "Vernon Adams",
+	"year": 2012,
+	"website": "http://www.google.com/fonts/specimen/Oxygen+Mono"
+},{
+	"alias": "profont",
+	"name": "Profont",
+	"author": "Andrew Welch",
+	"year": 1987,
+	"website": "http://tobiasjung.name/profont/"
+},{
+	"alias": "proggy-clean",
+	"name": "Proggy Clean",
+	"author": "Tristan Grimmer",
+	"year": 2004,
+	"website": "http://www.proggyfonts.net/"
+},{
+	"alias": "pt",
+	"name": "PT Mono",
+	"author": "Alexandra Korolkova, Isabella Chaeva",
+	"year": 2011,
+	"website": "http://paratype.com/public/"
+},{
+	"alias": "quinze",
+	"name": "Quinze",
+	"author": "James Kilfiger",
+	"year": 2013,
+	"website": "http://openfontlibrary.org/en/font/fifteen"
+},{
+	"alias": "roboto",
+	"name": "Roboto Mono",
+	"author": "Christian Robertson",
+	"year": 2015,
+	"website": "https://www.google.com/fonts/specimen/Roboto+Mono"
+},
+{
+	"alias": "sax",
+	"name": "saxMono",
+	"author": "s.a.x. Software",
+	"website": "http://www.fontsquirrel.com/fonts/saxMono"
+},{
+	"alias": "share-tech",
+	"name": "Share Tech Mono",
+	"author": "Ralph du Carrois",
+	"year": 2012,
+	"website": "http://www.google.com/fonts/specimen/Share+Tech+Mono"
+},{
+	"alias": "sk-modernist",
+	"name": "SK Modernist Mono",
+	"author": "Sean Kane",
+	"year": 2015,
+	"website": "http://seankanedesign.com/work/sk-modernist"
+},{
+	"alias": "source-code-pro",
+	"name": "Source Code Pro",
+	"author": "Paul D. Hunt",
+	"year": 2012,
+	"website": "https://github.com/adobe-fonts/source-sans-pro"
+},{
+	"alias": "sudo",
+	"name": "Sudo",
+	"author": "Jens Kutilek",
+	"year": 2009,
+	"website": "http://www.netzallee.de/extra/sudo"
+},{
+	"alias": "tex-gyre-cursor",
+	"name": "TeX Gyre Cursor",
+	"author": "GUST e-foundry",
+	"year": 2006,
+	"website": "http://www.gust.org.pl/projects/e-foundry/tex-gyre"
+},{
+	"alias": "ubuntu",
+	"name": "Ubuntu Mono",
+	"author": "Dalton Maag",
+	"year": 2010,
+	"website": "http://font.ubuntu.com"
+},{
+	"alias": "unifont",
+	"name": "GNU Unifont",
+	"author": "Roman Czyborra",
+	"year": 1998,
+	"website": "http://www.unifoundry.com/unifont.html"
+},{
+	"alias": "verily",
+	"name": "Verily Serif Mono",
+	"author": "Stephen G. Hartke",
+	"year": 2006,
+	"website": "http://delubrum.org"
+},{
+	"alias": "vt323",
+	"name": "VT323",
+	"author": "Peter Hull",
+	"year": 2014,
+	"website": "https://fedoraproject.org/wiki/VT323_Fonts"
+}]

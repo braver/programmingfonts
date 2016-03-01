@@ -638,7 +638,7 @@
   font-family: 'verily';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/verily/verily.otf');
+  src: url('../resources/verily/verily.woff');
 }
 @font-face {
   font-family: 'vt323';

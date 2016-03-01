@@ -404,19 +404,19 @@
   font-family: 'meslo';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/meslo/meslo-bold.ttf');
+  src: url('../resources/meslo/meslo-bold.woff');
 }
 @font-face {
   font-family: 'meslo';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/meslo/meslo-italic.ttf');
+  src: url('../resources/meslo/meslo-italic.woff');
 }
 @font-face {
   font-family: 'meslo';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/meslo/meslo.ttf');
+  src: url('../resources/meslo/meslo.woff');
 }
 @font-face {
   font-family: 'monofur';

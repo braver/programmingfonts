@@ -140,19 +140,19 @@
   font-family: 'cousine';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/cousine/cousine-bold.ttf');
+  src: url('../resources/cousine/cousine-bold.woff');
 }
 @font-face {
   font-family: 'cousine';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/cousine/cousine-italic.ttf');
+  src: url('../resources/cousine/cousine-italic.woff');
 }
 @font-face {
   font-family: 'cousine';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/cousine/cousine.ttf');
+  src: url('../resources/cousine/cousine.woff');
 }
 @font-face {
   font-family: 'cutive';

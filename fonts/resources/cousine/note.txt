@@ -1,0 +1,3 @@
+Derivative Work
+
+The original ttf font files have been subsetted and converted to woff for inclusion in this project. 

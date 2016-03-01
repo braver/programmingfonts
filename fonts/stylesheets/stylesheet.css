@@ -554,19 +554,25 @@
   font-family: 'sk-modernist';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/sk-modernist/sk-modernist.otf');
+  src: url('../resources/sk-modernist/sk-modernist.woff');
 }
 @font-face {
   font-family: 'source-code-pro';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/source-code-pro/source-code-pro-bold.otf');
+  src: url('../resources/source-code-pro/source-code-pro-bold.woff');
 }
 @font-face {
   font-family: 'source-code-pro';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/source-code-pro/source-code-pro.otf');
+  src: url('../resources/source-code-pro/source-code-pro.woff');
+}
+@font-face {
+  font-family: 'source-code-pro';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/source-code-pro/source-code-pro-italic.woff');
 }
 @font-face {
   font-family: 'sudo';

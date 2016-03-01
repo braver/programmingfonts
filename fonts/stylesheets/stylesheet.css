@@ -494,13 +494,13 @@
   font-family: 'profont';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/profont/profont.ttf');
+  src: url('../resources/profont/profont.woff');
 }
 @font-face {
   font-family: 'proggy-clean';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/proggy-clean/proggy-clean.ttf');
+  src: url('../resources/proggy-clean/proggy-clean.woff');
 }
 @font-face {
   font-family: 'pt';

@@ -275,18 +275,6 @@
   src: url('../resources/gnu-freefont/gnu-freefont.woff');
 }
 @font-face {
-  font-family: 'gnutypewriter';
-  font-weight: normal;
-  font-style: normal;
-  src: url('../resources/gnutypewriter/gnutypewriter.otf');
-}
-@font-face {
-  font-family: 'gohu';
-  font-weight: normal;
-  font-style: normal;
-  src: url('../resources/gohu/gohu.ttf');
-}
-@font-face {
   font-family: 'hack';
   font-weight: bold;
   font-style: normal;
@@ -350,13 +338,13 @@
   font-family: 'latin-modern';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/latin-modern/latin-modern-italic.otf');
+  src: url('../resources/latin-modern/latin-modern-italic.woff');
 }
 @font-face {
   font-family: 'latin-modern';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/latin-modern/latin-modern.otf');
+  src: url('../resources/latin-modern/latin-modern.woff');
 }
 @font-face {
   font-family: 'lekton';

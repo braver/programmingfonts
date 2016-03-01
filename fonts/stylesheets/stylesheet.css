@@ -524,19 +524,19 @@
   font-family: 'roboto';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/roboto/roboto-bold.ttf');
+  src: url('../resources/roboto/roboto-bold.woff');
 }
 @font-face {
   font-family: 'roboto';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/roboto/roboto-italic.ttf');
+  src: url('../resources/roboto/roboto-italic.woff');
 }
 @font-face {
   font-family: 'roboto';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/roboto/roboto.ttf');
+  src: url('../resources/roboto/roboto.woff');
 }
 @font-face {
   font-family: 'sax';

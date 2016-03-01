@@ -260,19 +260,19 @@
   font-family: 'gnu-freefont';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/gnu-freefont/gnu-freefont-bold.otf');
+  src: url('../resources/gnu-freefont/gnu-freefont-bold.woff');
 }
 @font-face {
   font-family: 'gnu-freefont';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/gnu-freefont/gnu-freefont-italic.otf');
+  src: url('../resources/gnu-freefont/gnu-freefont-italic.woff');
 }
 @font-face {
   font-family: 'gnu-freefont';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/gnu-freefont/gnu-freefont.otf');
+  src: url('../resources/gnu-freefont/gnu-freefont.woff');
 }
 @font-face {
   font-family: 'gnutypewriter';

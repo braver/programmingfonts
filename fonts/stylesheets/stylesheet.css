@@ -236,13 +236,13 @@
   font-family: 'fira';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/fira/fira-bold.otf');
+  src: url('../resources/fira/fira-bold.woff');
 }
 @font-face {
   font-family: 'fira';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/fira/fira.otf');
+  src: url('../resources/fira/fira.woff');
 }
 @font-face {
   font-family: 'fixedsys';

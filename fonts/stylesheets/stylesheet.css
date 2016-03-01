@@ -248,7 +248,7 @@
   font-family: 'fixedsys';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/fixedsys/fixedsys.ttf');
+  src: url('../resources/fixedsys/fixedsys.woff');
 }
 @font-face {
   font-family: 'generic';

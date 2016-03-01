@@ -506,7 +506,13 @@
   font-family: 'pt';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/pt/pt.ttf');
+  src: url('../resources/pt/pt.woff');
+}
+@font-face {
+  font-family: 'pt';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/pt/pt-bold.woff');
 }
 @font-face {
   font-family: 'quinze';

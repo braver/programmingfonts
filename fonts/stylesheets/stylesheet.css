@@ -422,13 +422,13 @@
   font-family: 'monofur';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/monofur/monofur-italic.ttf');
+  src: url('../resources/monofur/monofur-italic.woff');
 }
 @font-face {
   font-family: 'monofur';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/monofur/monofur.ttf');
+  src: url('../resources/monofur/monofur.woff');
 }
 @font-face {
   font-family: 'mplus';

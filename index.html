@@ -297,25 +297,13 @@ function findSequence(goal) {
         var font = $("#select-font").val();
 
         if (font === "input") {
-          $("pre").css({
-            fontFamily: "Input Mono"
-          });
-          $("textarea").css({
-            fontFamily: "Input Mono"
-          });
-          $(".CodeMirror").css({
-            fontFamily: "Input Mono"
-          });
+          $("pre").css({ fontFamily: "Input Mono" });
+          $("textarea").css({ fontFamily: "Input Mono" });
+          $(".CodeMirror").css({ fontFamily: "Input Mono" });
         } else {
-          $("pre").css({
-            fontFamily: font
-          });
-          $("textarea").css({
-            fontFamily: font
-          });
-          $(".CodeMirror").css({
-            fontFamily: font
-          });
+          $("pre").css({ fontFamily: font });
+          $("textarea").css({ fontFamily: font });
+          $(".CodeMirror").css({ fontFamily: font });
         }
 
         $("#font-info p").hide();

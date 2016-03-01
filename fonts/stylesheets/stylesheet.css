@@ -632,7 +632,7 @@
   font-family: 'unifont';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/unifont/unifont.ttf');
+  src: url('../resources/unifont/unifont.woff');
 }
 @font-face {
   font-family: 'verily';

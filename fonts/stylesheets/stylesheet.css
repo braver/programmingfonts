@@ -44,25 +44,25 @@
   font-family: 'average';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/average/average-bold.otf');
+  src: url('../resources/average/average-bold.woff');
 }
 @font-face {
   font-family: 'average';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/average/average-bold-italic.otf');
+  src: url('../resources/average/average-bold-italic.woff');
 }
 @font-face {
   font-family: 'average';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/average/average-italic.otf');
+  src: url('../resources/average/average-italic.woff');
 }
 @font-face {
   font-family: 'average';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/average/average.otf');
+  src: url('../resources/average/average.woff');
 }
 @font-face {
   font-family: 'bitstream-vera';

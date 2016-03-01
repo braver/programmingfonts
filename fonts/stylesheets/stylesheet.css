@@ -170,19 +170,19 @@
   font-family: 'dejavu';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/dejavu/dejavu-bold.ttf');
+  src: url('../resources/dejavu/dejavu-bold.woff');
 }
 @font-face {
   font-family: 'dejavu';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/dejavu/dejavu-italic.ttf');
+  src: url('../resources/dejavu/dejavu-italic.woff');
 }
 @font-face {
   font-family: 'dejavu';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/dejavu/dejavu.ttf');
+  src: url('../resources/dejavu/dejavu.woff');
 }
 @font-face {
   font-family: 'droid-sans';

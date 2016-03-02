@@ -1,217 +1,206 @@
 <!doctype html>
 <html>
-  <head>
-    <title>Programming Fonts - Test Drive</title>
-    <meta charset="utf-8"/>
+<head>
+  <title>Programming Fonts - Test Drive</title>
+  <meta charset="utf-8"/>
 
-    <meta name="viewport" content="width=device-width" />
-
-
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="favicons/favicon-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="favicons/favicon-160x160.png" sizes="160x160">
-    <link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
-    <meta name="msapplication-TileColor" content="#5b6268">
-    <meta name="msapplication-TileImage" content="favicons/mstile-144x144.png">
+  <meta name="viewport" content="width=device-width" />
 
 
-    <!-- YUI reset -->
-    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="favicons/favicon-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="favicons/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#5b6268">
+  <meta name="msapplication-TileImage" content="favicons/mstile-144x144.png">
 
 
-    <!-- CodeMirror -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/codemirror.min.css">
-    <!-- CodeMirror Themes -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/3024-day.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/3024-night.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/ambiance.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/base16-dark.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/base16-light.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/blackboard.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/cobalt.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/eclipse.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/elegant.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/erlang-dark.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/lesser-dark.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/mbo.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/mdn-like.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/midnight.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/monokai.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/neat.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/neo.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/night.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/paraiso-dark.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/paraiso-light.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/pastel-on-dark.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/rubyblue.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/solarized.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/the-matrix.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/tomorrow-night-eighties.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/twilight.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/vibrant-ink.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/xq-dark.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/xq-light.min.css">
-
-    <!-- CodeMirror JS -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/codemirror.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/mode/javascript/javascript.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/addon/selection/active-line.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/addon/edit/matchbrackets.min.js"></script>
+  <!-- YUI reset -->
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
 
 
-    <!-- ProgrammingFonts @font-faces -->
-    <!-- Compiled (using less on node) with "lessc fonts.less > stylesheet.css" -->
-    <link rel="stylesheet" href="fonts/stylesheets/stylesheet.css">
-    <link href="//cloud.webtype.com/css/7e544c5e-55dc-4b41-a8d3-c13f7e0a13d3.css" rel="stylesheet" type="text/css" />
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <!-- CodeMirror -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/codemirror.min.css">
+  <!-- CodeMirror Themes -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/3024-day.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/3024-night.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/ambiance.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/base16-dark.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/base16-light.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/blackboard.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/cobalt.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/eclipse.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/elegant.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/erlang-dark.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/lesser-dark.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/mbo.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/mdn-like.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/midnight.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/monokai.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/neat.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/neo.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/night.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/paraiso-dark.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/paraiso-light.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/pastel-on-dark.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/rubyblue.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/solarized.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/the-matrix.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/tomorrow-night-eighties.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/twilight.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/vibrant-ink.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/xq-dark.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/xq-light.min.css">
 
-    <!-- Google/Typekit Web Font Loader: https://github.com/typekit/webfontloader -->
-    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.6/webfont.js"></script>
+  <!-- CodeMirror JS -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/codemirror.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/mode/javascript/javascript.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/addon/selection/active-line.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/addon/edit/matchbrackets.min.js"></script>
 
 
-    <style type="text/css">
-    html {
-      min-height: 100%;
-      background: #F5F0E6;
-    }
-    body {
-      color:#444;
-      font-family: "Lato", sans-serif;
-      font-size: 16px;
-      line-height: 2;
-    }
-    h1 {
-      font-family: 'Input Mono', serif;
-      font-weight: bold;
-      font-size: 64px;
-      line-height: 64px;
-      margin: 0 0 16px 0;
-      text-align: center;
-      padding-top: 64px;
-    }
-    h1 + p {
-      font-weight: bold;
-      text-align: center;
-      margin: 0 0 48px 0;
-      font-size: 20px;
-    }
-    article {
-      max-width: 90%;
-      width: 800px;
-      margin: 0 auto;
-      margin-bottom: 64px;
-      background: white;
-      border: 0;
-      box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
-    }
-    article p {
-       text-align: center;
-       padding: 0 32px 16px 32px;
-    }
-    article p:last-child {
-      padding-bottom: 36px;
-    }
-    #font-info p {
-      display: none;
-      padding-bottom: 36px;
-    }
-    article form {
-      margin-bottom: 32px;
-    }
-    select {
-      margin-right: 32px;
-    }
-    footer {
-      max-width: 90%;
-      width: 800px;
-      text-align: center;
-      margin: 64px auto;
-    }
-    footer form {
-      margin-top: 8px;
-    }
-    a,
-    a:link,
-    a:visited,
-    a:hover {
-      color: #44cc9a;
-      text-decoration: none;
-    }
-    a:hover {
-      opacity: .8;
-      transition: opacity .5s;
-    }
-    pre,
-    textarea,
-    .CodeMirror {
-      font-family: "Input Mono";
-    }
-    .CodeMirror {
-      border: none;
-      font-size:16px;
-      background: transparent;
-      box-shadow: none !important;
-    }
-    .CodeMirror-gutters {
-      background: transparent;
-    }
-    @media screen and (max-width:800px) {
-      .select {
-        display: block;
-        text-align: right;
-        margin: 0;
-      }
-    }
-    @media screen and (max-width:640px) {
-      h1 {
-        font-size: 48px;
-        line-height: 48px;
-        padding-top: 48px;
-        margin-bottom: 48px;
-       }
-    }
-    </style>
-  </head>
-  <body>
+  <!-- ProgrammingFonts @font-faces -->
+  <!-- Compiled (using less on node) with "lessc fonts.less > stylesheet.css" -->
+  <link rel="stylesheet" href="fonts/stylesheets/stylesheet.css">
+  <link href="//cloud.webtype.com/css/7e544c5e-55dc-4b41-a8d3-c13f7e0a13d3.css" rel="stylesheet" type="text/css" />
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 
-  <div class="background"></div>
+  <!-- Google/Typekit Web Font Loader: https://github.com/typekit/webfontloader -->
+  <script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.6/webfont.js"></script>
 
-  <h1>Programming Fonts</h1>
 
-  <p class="description">What font looks best? Test drive over 50 free programming fonts and find out!</p>
+  <style type="text/css">
+  html {
+    min-height: 100%;
+    background: #F5F0E6;
+  }
+  body {
+    color: #fff;
+    background: #222;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    line-height: 2;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+  }
+  h1 + p {
+    line-height: 1;
+    padding: 1em 0;
+  }
+  article {
+    position: fixed;
+    background: transparent;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    text-align: right;
+    max-width: 50%;
+  }
+  footer {
+    font-size: .8em;
+  }
+  #font-info p {
+    display: none;
+    line-height: 1;
+    padding: 1em 0;
+  }
+  a,
+  a:link,
+  a:visited,
+  a:hover {
+    color: inherit;
+    opacity: .7;
+    transition: opacity .2s;
+  }
+  a:hover,
+  a:active {
+    opacity: 1;
+  }
+  select {
+    width: 12em;
+    margin-left: .5ex;
+  }
+  pre,
+  textarea,
+  .CodeMirror {
+    font-family: "Input Mono";
+    height: auto;
+  }
+  .CodeMirror {
+    border: none;
+    font-size:16px;
+    background: transparent;
+    box-shadow: none !important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .CodeMirror-gutters {
+    background: transparent;
+  }
+  @media (max-width: 400px) {
+    body { line-height: 1.5; }
+    article { margin-bottom: 1.5em; max-width: none; }
+    label { display: block; }
+    h1 { font-size: 1em; }
+    h1 + p,
+    footer { display: none; }
+  }
+  </style>
+</head>
+<body>
 
-  <article>
-    <form>
-      <textarea id="code" name="code">
+<form>
+<textarea id="code" name="code">
 # Type some code:
 
-function findSequence(goal) {
-  function find(start, history) {
-    if (start == goal)
-      return history;
-    else if (start > goal)
-      return null;
-    else
-      return find(start + 9, "(" + history + " + 9)") ||
-             find(start * 3, "(" + history + " * 3)");
+function updateGutters(cm) {
+  var gutters = cm.display.gutters, specs = cm.options.gutters;
+  removeChildren(gutters);
+  for (var i = 0; i < specs.length; ++i) {
+    var gutterClass = specs[i];
+    var gElt = gutters.appendChild(elt("div", null, "CodeMirror-gutter " + gutterClass));
+    if (gutterClass == "CodeMirror-linenumbers") {
+      cm.display.lineGutter = gElt;
+      gElt.style.width = (cm.display.lineNumWidth || 1) + "px";
+    }
   }
-  return find(1, "I");
+  gutters.style.display = i ? "" : "none";
+  updateGutterSpace(cm);
 }
+
+return "o0Og9ilL1!";
+
 </textarea>
 </form>
 
-    <p><span class="select">Select a theme
+  <article>
+
+    <h1>Programming Fonts</h1>
+
+    <p class="description">What font looks best?<br>
+    Test drive over 50 free programming fonts and find out!</p>
+
+    <p>
+    <span class="select"><label for="select">Select a theme</label>
       <select onchange="selectTheme()" id="select">
           <option>3024-day</option>
           <option>3024-night</option>
@@ -243,113 +232,130 @@ function findSequence(goal) {
           <option>vibrant-ink</option>
           <option>xq-dark</option>
           <option>xq-light</option>
-      </select></span>
-      <span class="select">Select a font <select onchange="selectFont()" id="select-font">
-      <!-- filled from json -->
-      </select></span>
+      </select>
+    </span>
+    </p>
+    <p>
+      <span class="select" id="fontselect"><label for="select-font">Select a font</label>
+        <select onchange="selectFont()" id="select-font">
+          <!-- filled from json -->
+        </select>
+      </span>
     </p>
 
     <dix id="font-info"></dix>
 
-    </article>
-
     <footer>
-      <p><a href="http://programmingfonts.org/list" rel="external">Download your favourite fonts</a>, or use <a href="http://atom.io/packages/fonts" rel="external">this package</a> in <a href="http://atom.io">Atom</a></p>
-      <p>
-        Contribute on <a href="https://github.com/braver/programmingfonts">Github</a>
-      </p>
-      <p>
-        <a href="http://programmingfonts.org">Back to the blog</a> -  &copy; 2016 <a href="http://koenlageveen.nl">Koen Lageveen</a>
-      <p>
+     <a href="http://programmingfonts.org/list" rel="external">The full list</a> -
+     <a href="http://programmingfonts.org">The blog</a> -
+     <a href="http://atom.io/packages/fonts" rel="external">Atom package</a> -
+     <a href="https://github.com/braver/programmingfonts">Fork this on Github</a> -
+     By <a href="http://koenlageveen.nl">Koen Lageveen</a>
     </footer>
 
-    <!-- Some jquery to make life easier -->
-    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  </article>
 
-    <!-- The business -->
-    <script>
 
-      // CodeMirror
-      var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
-        lineNumbers: true,
-        styleActiveLine: true,
-        matchBrackets: true,
-        theme: "monokai"
-      });
+  <!-- Some jquery to make life easier -->
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 
-      // CodeMirror theme selector
-      var input = document.getElementById("select");
-      function selectTheme() {
-        var theme = input.options[input.selectedIndex].innerHTML;
-        editor.setOption("theme", theme);
+  <!-- The business -->
+  <script>
+
+    // CodeMirror
+    var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+      lineNumbers: true,
+      styleActiveLine: true,
+      matchBrackets: true,
+      theme: "monokai"
+    });
+
+    function applyColors() {
+      $("body").css('color', $(".CodeMirror").css('color'));
+      $("article").css("text-shadow", "0 0 4px " + $(".CodeMirror").css('background-color'));
+    }
+
+    // CodeMirror theme selector
+    var input = document.getElementById("select");
+    function selectTheme() {
+      var theme = input.options[input.selectedIndex].innerHTML;
+      editor.setOption("theme", theme);
+      applyColors();
+    }
+
+    var choice = document.location.search &&
+      decodeURIComponent(document.location.search.slice(1));
+
+    if (choice) {
+      input.value = choice;
+      editor.setOption("theme", choice);
+    }
+
+    // ProgrammingFonts font selector
+    function selectFont() {
+      var font = $("#select-font").val();
+
+      if (font === "input") {
+        $("pre").css({ fontFamily: "Input Mono" });
+        $("textarea").css({ fontFamily: "Input Mono" });
+        $(".CodeMirror").css({ fontFamily: "Input Mono" });
+      } else {
+        $("pre").css({ fontFamily: font });
+        $("textarea").css({ fontFamily: font });
+        $(".CodeMirror").css({ fontFamily: font });
       }
 
-      var choice = document.location.search &&
-        decodeURIComponent(document.location.search.slice(1));
+      $("#font-info p").hide();
+      $("." + font).show();
+    }
 
-      if (choice) {
-        input.value = choice;
-        editor.setOption("theme", choice);
-      }
+    $(document).ready(function(){
 
-      // ProgrammingFonts font selector
-      function selectFont() {
-        var font = $("#select-font").val();
+      //randomly select a theme
+      var options = $("#select > option");
+      options[Math.floor(Math.random() * options.length)].selected = "selected";
+      selectTheme();
+      applyColors();
 
-        if (font === "input") {
-          $("pre").css({ fontFamily: "Input Mono" });
-          $("textarea").css({ fontFamily: "Input Mono" });
-          $(".CodeMirror").css({ fontFamily: "Input Mono" });
-        } else {
-          $("pre").css({ fontFamily: font });
-          $("textarea").css({ fontFamily: font });
-          $(".CodeMirror").css({ fontFamily: font });
-        }
+      var font_aliases = [];
+      $.getJSON("fonts.json", function(data) {
 
-        $("#font-info p").hide();
-        $("." + font).show();
-      }
-
-      $(document).ready(function(){
-        var font_aliases = [];
-        $.getJSON("fonts.json", function(data) {
-
-          $.each(data, function(k,v) {
-            font_aliases.push(v.alias);
-            $("#select-font").append("<option value=\"" + v.alias + "\">" + v.name + "</option>");
-            $("#font-info").append(
-              "<p class=\"" + v.alias + "\"> " + v.name +
-              " - " + v.author +
-              " (" + v.year + ")" +
-              "<br><a href=\""+ v.website + "\" rel=\"external\">" + v.website + "</a>" +
-              "</p>"
-            );
-          });
-
-          // configure the webfont loader
-          WebFont.load({
-            custom: { families: font_aliases }
-          });
-
-          $("#select-font").val('input'); // default to this awesome font
-          selectFont();
+        $.each(data, function(k,v) {
+          font_aliases.push(v.alias);
+          $("#select-font").append("<option value=\"" + v.alias + "\">" + v.name + "</option>");
+          $("#font-info").append(
+            "<p class=\"" + v.alias + "\"> " + v.name +
+            " - " + v.author +
+            " (" + v.year + ")" +
+            "<br><a href=\""+ v.website + "\" rel=\"external\">" + v.website + "</a>" +
+            "</p>"
+          );
         });
+
+        // configure the webfont loader
+        WebFont.load({
+          custom: { families: font_aliases }
+        });
+
+        $("#select-font").val('input'); // default to this awesome font
+        selectFont();
       });
+    });
 
-      // Google Analytics
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    // Google Analytics
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-56825926-1', 'auto');
-      ga('send', 'pageview');
+    ga('create', 'UA-56825926-1', 'auto');
+    ga('send', 'pageview');
 
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-56825926-1']);
-      _gaq.push(['_setDomainName', 'programmingfonts.org']);
-      _gaq.push(['_trackPageview']);
-    </script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-56825926-1']);
+    _gaq.push(['_setDomainName', 'programmingfonts.org']);
+    _gaq.push(['_trackPageview']);
+  </script>
 
-  </body>
+</body>
 </html>

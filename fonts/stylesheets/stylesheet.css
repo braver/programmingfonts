@@ -431,6 +431,24 @@
   src: url('../resources/monofur/monofur.woff');
 }
 @font-face {
+  font-family: 'mononoki';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/mononoki/mononoki-bold.woff');
+}
+@font-face {
+  font-family: 'mononoki';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/mononoki/mononoki-italic.woff');
+}
+@font-face {
+  font-family: 'mononoki';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/mononoki/mononoki.woff');
+}
+@font-face {
   font-family: 'mplus';
   font-weight: bold;
   font-style: normal;

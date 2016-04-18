@@ -190,6 +190,12 @@
 	"year": 2000,
 	"website": "http://www.dafont.com/monofur.font"
 },{
+	"alias": "mononoki",
+	"name": "Mononoki",
+	"author": "Matthias Tellen",
+	"year": 2013,
+	"website": "https://github.com/madmalik/mononoki"
+},{
 	"alias": "mplus",
 	"name": "M+",
 	"author": "Coji Morishita",

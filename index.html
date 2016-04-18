@@ -100,17 +100,17 @@
   }
   h1 + p {
     line-height: 1;
-    padding: 1em 0;
+    padding: 0 0 1em 0;
   }
   article {
     position: fixed;
     background: transparent;
     bottom: 0;
     right: 0;
-    margin-bottom: 2em;
-    margin-right: 2em;
+    left: 0;
+    padding-bottom: 2em;
+    padding-right: 2em;
     text-align: right;
-    max-width: 50%;
   }
   footer {
     font-size: .8em;
@@ -133,8 +133,26 @@
     opacity: 1;
   }
   select {
-    width: 12em;
+    width: 9em;
     margin-left: .5ex;
+    margin-right: 1ex;
+  }
+  #size {
+    width: 4em;
+    margin-left: .5ex;
+    margin-right: 1ex;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    color: inherit;
+    text-align: right;
+    opacity: .7;
+    transition: opacity .2s;
+  }
+  #size:hover,
+  #size:focus {
+    opacity: 1;
   }
   pre,
   textarea,
@@ -156,7 +174,7 @@
   .CodeMirror-gutters {
     background: transparent;
   }
-  @media (max-width: 400px) {
+  @media (max-width: 560px) {
     body { line-height: 1.5; }
     article { margin-bottom: 1.5em; max-width: none; }
     label { display: block; }
@@ -185,9 +203,9 @@ function updateGutters(cm) {
   }
   gutters.style.display = i ? "" : "none";
   updateGutterSpace(cm);
-}
 
-return "o0Og9ilL1!";
+  return "o0Og9ilL1!";
+}
 
 </textarea>
 </form>
@@ -196,12 +214,18 @@ return "o0Og9ilL1!";
 
     <h1>Programming Fonts</h1>
 
-    <p class="description">What font looks best?<br>
-    Test drive over 50 free programming fonts and find out!</p>
+    <p class="description">Test drive over 50 free programming fonts and find out which looks best!</p>
 
     <p>
-    <span class="select"><label for="select">Select a theme</label>
-      <select onchange="selectTheme()" id="select">
+    <span class="select" id="fontselect">
+      <label for="select-font">Font</label>
+      <select onchange="selectFont()" id="select-font">
+        <!-- filled from json -->
+      </select>
+    </span>
+    <span class="select">
+      <label for="select">Theme</label>
+        <select onchange="selectTheme()" id="select">
           <option>3024-day</option>
           <option>3024-night</option>
           <option>ambiance</option>
@@ -232,22 +256,19 @@ return "o0Og9ilL1!";
           <option>vibrant-ink</option>
           <option>xq-dark</option>
           <option>xq-light</option>
-      </select>
-    </span>
-    </p>
-    <p>
-      <span class="select" id="fontselect"><label for="select-font">Select a font</label>
-        <select onchange="selectFont()" id="select-font">
-          <!-- filled from json -->
         </select>
+      </span>
+      <span>
+        <label for="size">Size</label>
+        <input  onchange="setSize()" type="number" id="size" value="16">
       </span>
     </p>
 
     <dix id="font-info"></dix>
 
     <footer>
+     <a href="http://programmingfonts.org">Blog</a> -
      <a href="http://programmingfonts.org/list" rel="external">The full list</a> -
-     <a href="http://programmingfonts.org">The blog</a> -
      <a href="http://atom.io/packages/fonts" rel="external">Atom package</a> -
      <a href="https://github.com/braver/programmingfonts">Fork this on Github</a> -
      By <a href="http://koenlageveen.nl">Koen Lageveen</a>
@@ -272,7 +293,7 @@ return "o0Og9ilL1!";
 
     function applyColors() {
       $("body").css('color', $(".CodeMirror").css('color'));
-      $("article").css("text-shadow", "0 0 4px " + $(".CodeMirror").css('background-color'));
+      $("article").css("background", $(".CodeMirror").css('background-color'));
     }
 
     // CodeMirror theme selector
@@ -309,6 +330,11 @@ return "o0Og9ilL1!";
       $("." + font).show();
     }
 
+    function setSize() {
+      console.log($("#size").val());
+      $(".CodeMirror").css({ fontSize: $("#size").val() + "px" });
+    }
+
     $(document).ready(function(){
 
       //randomly select a theme
@@ -326,9 +352,8 @@ return "o0Og9ilL1!";
           $("#select-font").append("<option value=\"" + v.alias + "\">" + v.name + "</option>");
           $("#font-info").append(
             "<p class=\"" + v.alias + "\"> " + v.name +
-            " - " + v.author +
+            " - " + "<a href=\""+ v.website + "\" rel=\"external\">" + v.author + "</a>" +
             " (" + v.year + ")" +
-            "<br><a href=\""+ v.website + "\" rel=\"external\">" + v.website + "</a>" +
             "</p>"
           );
         });

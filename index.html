@@ -82,6 +82,7 @@
 
   <style type="text/css">
   html {
+    height: 100%;
     min-height: 100%;
     background: #F5F0E6;
   }
@@ -91,6 +92,8 @@
     font-family: "Lato", sans-serif;
     font-size: 16px;
     line-height: 2;
+    height: 100%;
+    min-height: 100%;
   }
   h1 {
     font-weight: bold;
@@ -101,16 +104,14 @@
   h1 + p {
     line-height: 1;
     padding: 0 0 1em 0;
+    margin-top: -.5em;
   }
   article {
-    position: fixed;
+    float: left;
     background: transparent;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    padding-bottom: 2em;
-    padding-right: 2em;
+    padding: 0 2em;
     text-align: right;
+    min-height: 100%;
   }
   footer {
     font-size: .8em;
@@ -122,11 +123,8 @@
   }
   a,
   a:link,
-  a:visited,
-  a:hover {
+  a:visited {
     color: inherit;
-    opacity: .7;
-    transition: opacity .2s;
   }
   a:hover,
   a:active {
@@ -135,24 +133,10 @@
   select {
     width: 9em;
     margin-left: .5ex;
-    margin-right: 1ex;
   }
   #size {
     width: 3em;
     margin-left: .5ex;
-    margin-right: 1ex;
-    border: 0;
-    padding: 0;
-    margin: 0;
-    background-color: transparent;
-    color: inherit;
-    text-align: right;
-    opacity: .7;
-    transition: opacity .2s;
-  }
-  #size:hover,
-  #size:focus {
-    opacity: 1;
   }
   pre,
   textarea,
@@ -160,25 +144,25 @@
     font-family: "Input Mono";
     height: auto;
   }
+  form {
+    height: 100%;
+    min-height: 100%;
+  }
   .CodeMirror {
     border: none;
     font-size: 100%;
     background: transparent;
     box-shadow: none !important;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    height: 100%;
+    min-height: 100%;
   }
+  .CodeMirror .cm-atom { font-style: italic; }
   .CodeMirror-gutters {
     background: transparent;
   }
   @media (max-width: 560px) {
-    body { line-height: 1.5; }
-    article { margin-bottom: 1.5em; max-width: none; }
-    label { display: block; }
-    h1 { font-size: 1em; }
+    article, form, .CodeMirror { height: auto; min-height: 0; }
+    article { float: none; text-align: left; }
     h1 + p,
     footer { display: none; }
   }
@@ -186,16 +170,89 @@
 </head>
 <body>
 
+  <article>
+
+    <h1>Programming Fonts</h1>
+
+    <p class="description">Test drive over 50 free programming fonts!</p>
+
+    <p class="select" id="fontselect">
+      <label for="select-font">Font</label>
+      <select onchange="selectFont()" id="select-font">
+        <!-- filled from json -->
+      </select>
+    </p>
+    <p class="select">
+      <label for="select">Theme</label>
+      <select onchange="selectTheme()" id="select">
+        <option>3024-day</option>
+        <option>3024-night</option>
+        <option>ambiance</option>
+        <option>base16-dark</option>
+        <option>base16-light</option>
+        <option>blackboard</option>
+        <option>cobalt</option>
+        <option>eclipse</option>
+        <option>elegant</option>
+        <option>erlang-dark</option>
+        <option>lesser-dark</option>
+        <option>mbo</option>
+        <option>mdn-like</option>
+        <option>midnight</option>
+        <option>monokai</option>
+        <option>neat</option>
+        <option>neo</option>
+        <option>night</option>
+        <option>paraiso-dark</option>
+        <option>paraiso-light</option>
+        <option selected>pastel-on-dark</option>
+        <option>rubyblue</option>
+        <option>solarized dark</option>
+        <option>solarized light</option>
+        <option>the-matrix</option>
+        <option>tomorrow-night-eighties</option>
+        <option>twilight</option>
+        <option>vibrant-ink</option>
+        <option>xq-dark</option>
+        <option>xq-light</option>
+      </select>
+    </p>
+    <p>
+      <label for="size">Size</label>
+      <input  onchange="setSize()" type="number" id="size" value="14">
+    </p>
+
+    <dix id="font-info"></dix>
+
+    <footer>
+      <a href="http://programmingfonts.org">Blog</a> -
+      <a href="http://programmingfonts.org/list" rel="external">The full list</a> -
+      <a href="http://atom.io/packages/fonts" rel="external">Atom package</a> -
+      <a href="https://github.com/braver/programmingfonts">Github</a><br>
+      By <a href="http://koenlageveen.nl">Koen Lageveen</a>
+    </footer>
+
+  </article>
+
 <form>
 <textarea id="code" name="code">
 # Type some code:
 
 function updateGutters(cm) {
-  var gutters = cm.display.gutters, specs = cm.options.gutters;
+  var gutters = cm.display.gutters,
+      specs = cm.options.gutters;
+
   removeChildren(gutters);
+
   for (var i = 0; i < specs.length; ++i) {
     var gutterClass = specs[i];
-    var gElt = gutters.appendChild(elt("div", null, "CodeMirror-gutter " + gutterClass));
+    var gElt = gutters.appendChild(
+      elt(
+        "div",
+        null,
+        "CodeMirror-gutter " + gutterClass
+      )
+    );
     if (gutterClass == "CodeMirror-linenumbers") {
       cm.display.lineGutter = gElt;
       gElt.style.width = (cm.display.lineNumWidth || 1) + "px";
@@ -204,78 +261,11 @@ function updateGutters(cm) {
   gutters.style.display = i ? "" : "none";
   updateGutterSpace(cm);
 
-  return "o0Og9ilL1!";
+  return false;
 }
 
 </textarea>
 </form>
-
-  <article>
-
-    <h1>Programming Fonts</h1>
-
-    <p class="description">Test drive over 50 free programming fonts and find out which looks best!</p>
-
-    <p>
-    <span class="select" id="fontselect">
-      <label for="select-font">Font</label>
-      <select onchange="selectFont()" id="select-font">
-        <!-- filled from json -->
-      </select>
-    </span>
-    <span class="select">
-      <label for="select">Theme</label>
-        <select onchange="selectTheme()" id="select">
-          <option>3024-day</option>
-          <option>3024-night</option>
-          <option>ambiance</option>
-          <option>base16-dark</option>
-          <option>base16-light</option>
-          <option>blackboard</option>
-          <option>cobalt</option>
-          <option>eclipse</option>
-          <option>elegant</option>
-          <option>erlang-dark</option>
-          <option>lesser-dark</option>
-          <option>mbo</option>
-          <option>mdn-like</option>
-          <option>midnight</option>
-          <option selected>monokai</option>
-          <option>neat</option>
-          <option>neo</option>
-          <option>night</option>
-          <option>paraiso-dark</option>
-          <option>paraiso-light</option>
-          <option>pastel-on-dark</option>
-          <option>rubyblue</option>
-          <option>solarized dark</option>
-          <option>solarized light</option>
-          <option>the-matrix</option>
-          <option>tomorrow-night-eighties</option>
-          <option>twilight</option>
-          <option>vibrant-ink</option>
-          <option>xq-dark</option>
-          <option>xq-light</option>
-        </select>
-      </span>
-      <span>
-        <label for="size">Size</label>
-        <input  onchange="setSize()" type="number" id="size" value="16">
-      </span>
-    </p>
-
-    <dix id="font-info"></dix>
-
-    <footer>
-     <a href="http://programmingfonts.org">Blog</a> -
-     <a href="http://programmingfonts.org/list" rel="external">The full list</a> -
-     <a href="http://atom.io/packages/fonts" rel="external">Atom package</a> -
-     <a href="https://github.com/braver/programmingfonts">Fork this on Github</a> -
-     By <a href="http://koenlageveen.nl">Koen Lageveen</a>
-    </footer>
-
-  </article>
-
 
   <!-- Some jquery to make life easier -->
   <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -288,12 +278,13 @@ function updateGutters(cm) {
       lineNumbers: true,
       styleActiveLine: true,
       matchBrackets: true,
-      theme: "monokai"
+      theme: "pastel-on-dark",
+      lineWrapping: true
     });
 
     function applyColors() {
       $("body").css('color', $(".CodeMirror").css('color'));
-      $("article").css("background", $(".CodeMirror").css('background-color'));
+      $("body").css("background", $(".CodeMirror").css('background-color'));
     }
 
     // CodeMirror theme selector
@@ -331,7 +322,6 @@ function updateGutters(cm) {
     }
 
     function setSize() {
-      console.log($("#size").val());
       $(".CodeMirror").css({ fontSize: $("#size").val() + "px" });
     }
 
@@ -343,6 +333,7 @@ function updateGutters(cm) {
 
       selectTheme();
       applyColors();
+      setSize();
 
       var font_aliases = [];
       $.getJSON("fonts.json", function(data) {

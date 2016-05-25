@@ -100,11 +100,23 @@
 	"year": 2013,
 	"website": "https://www.mozilla.org/en-US/styleguide/products/firefox-os/typeface/"
 },{
+	"alias": "firacode",
+	"name": "Fira Code",
+	"author": "Nikita Prokopov",
+	"year": 2014,
+	"website": "https://github.com/tonsky/FiraCode"
+},{
 	"alias": "fixedsys",
 	"name": "Fixedsys",
 	"author": "Microsoft",
 	"year": 1980,
 	"website": "http://www.moviecorner.de/en/font-fixedsys-ttf/description"
+},{
+	"alias": "fixedsys-ligatures",
+	"name": "Fixedsys with Ligatures",
+	"author": "Kirill Pertsev",
+	"year": 2016,
+	"website": "https://github.com/kika/fixedsys"
 },{
 	"alias": "generic",
 	"name": "Generic Mono",
@@ -123,6 +135,12 @@
 	"author": "Christopher Simpkins",
 	"year": 2015,
 	"website": "https://github.com/chrissimpkins/Hack"
+},{
+	"alias": "hasklig",
+	"name": "Hasklig",
+	"author": "Ian Tuomi",
+	"year": 2014,
+	"website": "https://github.com/i-tu/Hasklig"
 },{
 	"alias": "hermit",
 	"name": "Hermit",
@@ -195,6 +213,12 @@
 	"author": "Matthias Tellen",
 	"year": 2013,
 	"website": "https://github.com/madmalik/mononoki"
+},{
+	"alias": "monoid",
+	"name": "Monoid",
+	"author": "Chase Colman, Andreas Larsen",
+	"year": 2015,
+	"website": "http://larsenwork.com/monoid/"
 },{
 	"alias": "mplus",
 	"name": "M+",

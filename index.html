@@ -155,6 +155,7 @@
     box-shadow: none !important;
     height: 100%;
     min-height: 100%;
+    text-rendering: optimizeLegibility;
   }
   .CodeMirror .cm-atom { font-style: italic; }
   .CodeMirror-gutters {
@@ -236,7 +237,7 @@
 
 <form>
 <textarea id="code" name="code">
-# Type some code:
+# Type some code ->
 
 function updateGutters(cm) {
   var gutters = cm.display.gutters,

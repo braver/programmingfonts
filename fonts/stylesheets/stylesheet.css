@@ -245,10 +245,28 @@
   src: url('../resources/fira/fira.woff');
 }
 @font-face {
+  font-family: 'firacode';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/firacode/firacode-bold.otf');
+}
+@font-face {
+  font-family: 'firacode';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/firacode/firacode.otf');
+}
+@font-face {
   font-family: 'fixedsys';
   font-weight: normal;
   font-style: normal;
   src: url('../resources/fixedsys/fixedsys.woff');
+}
+@font-face {
+  font-family: 'fixedsys-ligatures';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/fixedsys-ligatures/fixedsys-ligatures.ttf');
 }
 @font-face {
   font-family: 'generic';
@@ -291,6 +309,24 @@
   font-weight: normal;
   font-style: normal;
   src: url('../resources/hack/hack.woff');
+}
+@font-face {
+  font-family: 'hasklig';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/hasklig/hasklig-bold.otf');
+}
+@font-face {
+  font-family: 'hasklig';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/hasklig/hasklig-italic.otf');
+}
+@font-face {
+  font-family: 'hasklig';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/hasklig/hasklig.otf');
 }
 @font-face {
   font-family: 'hermit';
@@ -447,6 +483,24 @@
   font-weight: normal;
   font-style: normal;
   src: url('../resources/mononoki/mononoki.woff');
+}
+@font-face {
+  font-family: 'monoid';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/monoid/monoid-bold.ttf');
+}
+@font-face {
+  font-family: 'monoid';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/monoid/monoid-italic.ttf');
+}
+@font-face {
+  font-family: 'monoid';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/monoid/monoid.ttf');
 }
 @font-face {
   font-family: 'mplus';

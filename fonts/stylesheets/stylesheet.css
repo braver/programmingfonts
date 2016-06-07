@@ -1,6 +1,12 @@
 @font-face {
   font-family: 'anka-coder';
   font-weight: bold;
+  font-style: italic;
+  src: url('../resources/anka-coder/anka-coder-bold-italic.ttf');
+}
+@font-face {
+  font-family: 'anka-coder';
+  font-weight: bold;
   font-style: normal;
   src: url('../resources/anka-coder/anka-coder-bold.ttf');
 }
@@ -15,6 +21,12 @@
   font-weight: normal;
   font-style: normal;
   src: url('../resources/anka-coder/anka-coder.ttf');
+}
+@font-face {
+  font-family: 'anonymous-pro';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/anonymous-pro/anonymous-pro-bold-italic.ttf');
 }
 @font-face {
   font-family: 'anonymous-pro';
@@ -67,6 +79,12 @@
 @font-face {
   font-family: 'bitstream-vera';
   font-weight: bold;
+  font-style: italic;
+  src: url('../resources/bitstream-vera/bitstream-vera-bold-italic.woff');
+}
+@font-face {
+  font-family: 'bitstream-vera';
+  font-weight: bold;
   font-style: normal;
   src: url('../resources/bitstream-vera/bitstream-vera-bold.woff');
 }
@@ -99,6 +117,12 @@
   font-weight: normal;
   font-style: normal;
   src: url('../resources/bpmono/bpmono.woff');
+}
+@font-face {
+  font-family: 'camingocode';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/camingocode/camingocode-bold-italic.woff');
 }
 @font-face {
   font-family: 'camingocode';
@@ -139,6 +163,12 @@
 @font-face {
   font-family: 'cousine';
   font-weight: bold;
+  font-style: italic;
+  src: url('../resources/cousine/cousine-bold-italic.woff');
+}
+@font-face {
+  font-family: 'cousine';
+  font-weight: bold;
   font-style: normal;
   src: url('../resources/cousine/cousine-bold.woff');
 }
@@ -169,6 +199,12 @@
 @font-face {
   font-family: 'dejavu';
   font-weight: bold;
+  font-style: italic;
+  src: url('../resources/dejavu/dejavu-bold-italic.woff');
+}
+@font-face {
+  font-family: 'dejavu';
+  font-weight: bold;
   font-style: normal;
   src: url('../resources/dejavu/dejavu-bold.woff');
 }
@@ -193,6 +229,12 @@
 @font-face {
   font-family: 'effects-eighty';
   font-weight: bold;
+  font-style: italic;
+  src: url('../resources/effects-eighty/effects-eighty-bold-italic.otf');
+}
+@font-face {
+  font-family: 'effects-eighty';
+  font-weight: bold;
   font-style: normal;
   src: url('../resources/effects-eighty/effects-eighty-bold.otf');
 }
@@ -207,6 +249,12 @@
   font-weight: normal;
   font-style: normal;
   src: url('../resources/effects-eighty/effects-eighty.otf');
+}
+@font-face {
+  font-family: 'fantasque-sans';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/fantasque-sans/fantasque-sans-bold-italic.woff');
 }
 @font-face {
   font-family: 'fantasque-sans';
@@ -277,6 +325,12 @@
 @font-face {
   font-family: 'gnu-freefont';
   font-weight: bold;
+  font-style: italic;
+  src: url('../resources/gnu-freefont/gnu-freefont-bold-italic.woff');
+}
+@font-face {
+  font-family: 'gnu-freefont';
+  font-weight: bold;
   font-style: normal;
   src: url('../resources/gnu-freefont/gnu-freefont-bold.woff');
 }
@@ -295,6 +349,12 @@
 @font-face {
   font-family: 'hack';
   font-weight: bold;
+  font-style: italic;
+  src: url('../resources/hack/hack-bold-italic.woff');
+}
+@font-face {
+  font-family: 'hack';
+  font-weight: bold;
   font-style: normal;
   src: url('../resources/hack/hack-bold.woff');
 }
@@ -309,6 +369,12 @@
   font-weight: normal;
   font-style: normal;
   src: url('../resources/hack/hack.woff');
+}
+@font-face {
+  font-family: 'hasklig';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/hasklig/hasklig-bold-italic.otf');
 }
 @font-face {
   font-family: 'hasklig';
@@ -359,6 +425,12 @@
   src: url('../resources/iosevka/iosevka-bold.ttf');
 }
 @font-face {
+  font-family: 'iosevka';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/iosevka/iosevka-bold-italic.ttf');
+}
+@font-face {
   font-family: 'inconsolata';
   font-weight: normal;
   font-style: normal;
@@ -403,6 +475,12 @@
 @font-face {
   font-family: 'liberation';
   font-weight: bold;
+  font-style: italic;
+  src: url('../resources/liberation/liberation-bold-italic.woff');
+}
+@font-face {
+  font-family: 'liberation';
+  font-weight: bold;
   font-style: normal;
   src: url('../resources/liberation/liberation-bold.woff');
 }
@@ -417,6 +495,36 @@
   font-weight: normal;
   font-style: normal;
   src: url('../resources/liberation/liberation.woff');
+}
+@font-face {
+  font-family: 'luculent';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/luculent/luculent-bold-italic.woff');
+}
+@font-face {
+  font-family: 'luculent';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/luculent/luculent-bold.woff');
+}
+@font-face {
+  font-family: 'luculent';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/luculent/luculent-italic.woff');
+}
+@font-face {
+  font-family: 'luculent';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/luculent/luculent.woff');
+}
+@font-face {
+  font-family: 'luxi';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/luxi/luxi-bold-italic.woff');
 }
 @font-face {
   font-family: 'luxi';
@@ -435,6 +543,12 @@
   font-weight: normal;
   font-style: normal;
   src: url('../resources/luxi/luxi.woff');
+}
+@font-face {
+  font-family: 'meslo';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/meslo/meslo-bold-italic.woff');
 }
 @font-face {
   font-family: 'meslo';
@@ -465,6 +579,12 @@
   font-weight: normal;
   font-style: normal;
   src: url('../resources/monofur/monofur.woff');
+}
+@font-face {
+  font-family: 'mononoki';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/mononoki/mononoki-bold-italic.woff');
 }
 @font-face {
   font-family: 'mononoki';
@@ -541,6 +661,12 @@
 @font-face {
   font-family: 'office-code-pro';
   font-weight: bold;
+  font-style: italic;
+  src: url('../resources/office-code-pro/office-code-pro-bold-italic.woff');
+}
+@font-face {
+  font-family: 'office-code-pro';
+  font-weight: bold;
   font-style: normal;
   src: url('../resources/office-code-pro/office-code-pro-bold.woff');
 }
@@ -595,6 +721,12 @@
 @font-face {
   font-family: 'roboto';
   font-weight: bold;
+  font-style: italic;
+  src: url('../resources/roboto/roboto-bold-italic.woff');
+}
+@font-face {
+  font-family: 'roboto';
+  font-weight: bold;
   font-style: normal;
   src: url('../resources/roboto/roboto-bold.woff');
 }
@@ -642,9 +774,21 @@
 }
 @font-face {
   font-family: 'source-code-pro';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/source-code-pro/source-code-pro-bold-italic.woff');
+}
+@font-face {
+  font-family: 'source-code-pro';
   font-weight: normal;
   font-style: italic;
   src: url('../resources/source-code-pro/source-code-pro-italic.woff');
+}
+@font-face {
+  font-family: 'sudo';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/sudo/sudo-bold-italic.ttf');
 }
 @font-face {
   font-family: 'sudo';
@@ -667,6 +811,12 @@
 @font-face {
   font-family: 'tex-gyre-cursor';
   font-weight: bold;
+  font-style: italic;
+  src: url('../resources/tex-gyre-cursor/tex-gyre-cursor-bold-italic.woff');
+}
+@font-face {
+  font-family: 'tex-gyre-cursor';
+  font-weight: bold;
   font-style: normal;
   src: url('../resources/tex-gyre-cursor/tex-gyre-cursor-bold.woff');
 }
@@ -681,6 +831,12 @@
   font-weight: normal;
   font-style: normal;
   src: url('../resources/tex-gyre-cursor/tex-gyre-cursor.woff');
+}
+@font-face {
+  font-family: 'ubuntu';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/ubuntu/ubuntu-bold-italic.ttf');
 }
 @font-face {
   font-family: 'ubuntu';

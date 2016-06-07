@@ -190,6 +190,12 @@
 	"year": 2007,
 	"website": "https://fedorahosted.org/liberation-fonts/"
 },{
+	"alias": "luculent",
+	"name": "Luculent",
+	"author": "Andrew Kensler",
+	"year": 2008,
+	"website": "http://eastfarthing.com/luculent/"
+},{
 	"alias": "luxi",
 	"name": "Luxi Mono",
 	"author": "Kris Holmes, Charles Bigelow",

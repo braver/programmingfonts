@@ -342,10 +342,16 @@ function updateGutters(cm) {
         $.each(data, function(k,v) {
           font_aliases.push(v.alias);
           $("#select-font").append("<option value=\"" + v.alias + "\">" + v.name + "</option>");
+
+          if (typeof v.year === "undefined") {
+            yearString = "";
+          } else {
+            yearString = " (" + v.year + ")";
+          }
+          
           $("#font-info").append(
             "<p class=\"" + v.alias + "\"> " + v.name +
-            " - " + "<a href=\""+ v.website + "\" rel=\"external\">" + v.author + "</a>" +
-            " (" + v.year + ")" +
+            " - " + "<a href=\""+ v.website + "\" rel=\"external\">" + v.author + "</a>" + yearString +
             "</p>"
           );
         });

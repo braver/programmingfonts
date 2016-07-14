@@ -1,8 +1,8 @@
 @font-face {
-  font-family: '3270';
+  font-family: 'font3270';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/3270/3270.woff');
+  src: url('../resources/font3270/font3270.woff');
 }
 @font-face {
   font-family: 'anka-coder';

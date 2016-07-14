@@ -1,4 +1,10 @@
 @font-face {
+  font-family: '3270';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/3270/3270.woff');
+}
+@font-face {
   font-family: 'anka-coder';
   font-weight: bold;
   font-style: italic;

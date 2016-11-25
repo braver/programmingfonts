@@ -158,6 +158,10 @@
     min-height: 100%;
     text-rendering: optimizeLegibility;
   }
+  .CodeMirror.no-smooth {
+    font-smooth: never;
+    -webkit-font-smoothing : none;
+  }
   .CodeMirror .cm-atom { font-style: italic; }
   .CodeMirror-gutters {
     background: transparent;
@@ -221,7 +225,10 @@
     </p>
     <p>
       <label for="size">Size</label>
-      <input  onchange="setSize()" type="number" id="size" value="14">
+      <input onchange="setSize()" type="number" id="size" value="14">
+    </p>
+    <p>
+      <label for="aliasing">Anti-aliasing </label><input onchange="setAntialiasing()" type="checkbox" id="aliasing" checked>
     </p>
 
     <dix id="font-info"></dix>
@@ -326,6 +333,13 @@ function updateGutters(cm) {
     function setSize() {
       $(".CodeMirror").css({ fontSize: $("#size").val() + "px" });
     }
+    function setAntialiasing() {
+      if ($("#aliasing").is(":checked")) {
+        $(".CodeMirror").removeClass("no-smooth");
+      } else {
+        $(".CodeMirror").addClass("no-smooth");
+      }
+    }
 
     $(document).ready(function(){
 
@@ -349,7 +363,7 @@ function updateGutters(cm) {
           } else {
             yearString = " (" + v.year + ")";
           }
-          
+
           $("#font-info").append(
             "<p class=\"" + v.alias + "\"> " + v.name +
             " - " + "<a href=\""+ v.website + "\" rel=\"external\">" + v.author + "</a>" + yearString +

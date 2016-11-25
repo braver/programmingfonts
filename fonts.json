@@ -135,6 +135,12 @@
 	"year": 2002,
 	"website": "https://www.gnu.org/software/freefont/"
 },{
+	"alias": "go-mono",
+	"name": "Go Mono",
+	"author": "Bigelow & Holmes",
+	"year": 2016,
+	"website": "https://blog.golang.org/go-fonts"
+},{
 	"alias": "hack",
 	"name": "Hack",
 	"author": "Christopher Simpkins",

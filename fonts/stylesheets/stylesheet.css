@@ -353,6 +353,30 @@
   src: url('../resources/gnu-freefont/gnu-freefont.woff');
 }
 @font-face {
+  font-family: 'go-mono';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/go-mono/go-mono-bold-italic.ttf');
+}
+@font-face {
+  font-family: 'go-mono';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/go-mono/go-mono-bold.ttf');
+}
+@font-face {
+  font-family: 'go-mono';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/go-mono/go-mono-italic.ttf');
+}
+@font-face {
+  font-family: 'go-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/go-mono/go-mono.ttf');
+}
+@font-face {
   font-family: 'hack';
   font-weight: bold;
   font-style: italic;

@@ -376,7 +376,14 @@ function updateGutters(cm) {
           custom: { families: font_aliases }
         });
 
-        $("#select-font").val('input'); // default to this awesome font
+        var hash = window.location.hash.substring(1);
+        if(hash){
+          $("#select-font").val(hash);
+        }
+        else {
+          $("#select-font").val('input'); // default to this awesome font
+        }
+
         selectFont();
       });
     });

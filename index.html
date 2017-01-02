@@ -328,6 +328,7 @@ function updateGutters(cm) {
 
       $("#font-info p").hide();
       $("." + font).show();
+      updateHash();
     }
 
     function setSize() {
@@ -340,7 +341,15 @@ function updateGutters(cm) {
         $(".CodeMirror").addClass("no-smooth");
       }
     }
-
+    function updateHash(){
+      var newHash = '#' + $("#select-font").val();
+      if(history.pushState) {
+        history.pushState(null, null, newHash);
+      }
+      else {
+        location.hash = newHash;
+      }
+    }
     $(document).ready(function(){
 
       //randomly select a theme

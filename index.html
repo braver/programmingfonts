@@ -1,459 +1,460 @@
 <!doctype html>
 <html>
 <head>
-  <title>Programming Fonts - Test Drive</title>
-  <meta charset="utf-8"/>
+	<title>Programming Fonts - Test Drive</title>
+	<meta charset="utf-8"/>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="favicons/favicon-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="favicons/favicon-160x160.png" sizes="160x160">
-  <link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
-  <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
-  <meta name="msapplication-TileColor" content="#5b6268">
-  <meta name="msapplication-TileImage" content="favicons/mstile-144x144.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <!-- YUI reset -->
-  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="favicons/favicon-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="favicons/favicon-160x160.png" sizes="160x160">
+	<link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+	<meta name="msapplication-TileColor" content="#5b6268">
+	<meta name="msapplication-TileImage" content="favicons/mstile-144x144.png">
 
 
-  <!-- CodeMirror -->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/codemirror.min.css">
-  <!-- CodeMirror Themes -->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/3024-day.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/3024-night.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/ambiance.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/base16-dark.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/base16-light.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/blackboard.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/cobalt.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/eclipse.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/elegant.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/erlang-dark.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/lesser-dark.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/mbo.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/mdn-like.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/midnight.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/monokai.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/neat.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/neo.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/night.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/paraiso-dark.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/paraiso-light.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/pastel-on-dark.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/rubyblue.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/solarized.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/the-matrix.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/tomorrow-night-eighties.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/twilight.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/vibrant-ink.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/xq-dark.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/xq-light.min.css">
-
-  <!-- CodeMirror JS -->
-  <script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/codemirror.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/mode/javascript/javascript.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/addon/selection/active-line.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/addon/edit/matchbrackets.min.js"></script>
+	<!-- YUI reset -->
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
 
 
-  <!-- ProgrammingFonts @font-faces -->
-  <!-- Compiled (using less on node) with "lessc fonts.less > stylesheet.css" -->
-  <link rel="stylesheet" href="fonts/stylesheets/stylesheet.css">
-  <link href="//cloud.webtype.com/css/7e544c5e-55dc-4b41-a8d3-c13f7e0a13d3.css" rel="stylesheet" type="text/css" />
-  <link href='http://fonts.googleapis.com/css?family=Poppins:300,500' rel='stylesheet' type='text/css'>
+	<!-- CodeMirror -->
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/codemirror.min.css">
+	<!-- CodeMirror Themes -->
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/3024-day.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/3024-night.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/ambiance.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/base16-dark.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/base16-light.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/blackboard.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/cobalt.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/eclipse.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/elegant.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/erlang-dark.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/lesser-dark.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/mbo.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/mdn-like.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/midnight.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/monokai.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/neat.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/neo.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/night.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/paraiso-dark.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/paraiso-light.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/pastel-on-dark.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/rubyblue.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/solarized.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/the-matrix.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/tomorrow-night-eighties.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/twilight.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/vibrant-ink.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/xq-dark.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/theme/xq-light.min.css">
 
-  <!-- Google/Typekit Web Font Loader: https://github.com/typekit/webfontloader -->
-  <script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.6/webfont.js"></script>
+	<!-- CodeMirror JS -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/codemirror.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/mode/javascript/javascript.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/addon/selection/active-line.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.7.0/addon/edit/matchbrackets.min.js"></script>
 
 
-  <style type="text/css">
-  html {
-    height: 100%;
-    min-height: 100%;
-    background: #F5F0E6;
-  }
-  body {
-    color: #fff;
-    background: #222;
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    line-height: 1.6;
-    height: 100%;
-    min-height: 100%;
-    font-weight: 300;
-  }
-  h1 {
-    font-weight: 500;
-    font-size: 2em;
-    margin: 0;
-    padding: 1em 0 0 0;
-  }
-  h1 + p {
-    line-height: 1;
-    padding: 0 0 2em 0;
-  }
-  p {
-    padding: 0 0 .5em 0;
-  }
-  article {
-    float: left;
-    background: transparent;
-    padding: 0 2em;
-    text-align: right;
-    min-height: 100%;
-    min-width: 38%;
-  }
-  footer {
-    font-size: .8em;
-    margin-top: 1rem;
-  }
-  #font-info p {
-    display: none;
-    line-height: 1;
-    padding: 0 0 2em 0;
-  }
-  a,
-  a:link,
-  a:visited {
-    color: inherit;
-  }
-  a:hover,
-  a:active {
-    opacity: 1;
-  }
-  select {
-    all: unset;
-    width: 9em;
-    margin-left: .5ex;
-    padding: 0 .5ex;
-    border: 1px solid rgba(100,100,100,.5);
-    border-radius: 3px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    cursor: pointer;
-  }
-  #size,
-  #spacing {
-    all: unset;
-    width: 4em;
-    margin-left: .5ex;
-    padding: 0 .5ex;
-    border: 1px solid rgba(100,100,100,.5);
-    border-radius: 3px;
-    text-align: left;
-  }
-  pre,
-  textarea,
-  .CodeMirror {
-    font-family: "Input Mono";
-    height: auto;
-  }
-  form {
-    height: 100%;
-    min-height: 100%;
-  }
-  .nav-button {
-    all: unset;
-    font-family: inherit;
-    cursor: pointer;
-  }
-  label + .nav-button {
-    margin-left: .5ex;
-  }
-  .CodeMirror {
-    border: none;
-    font-size: 100%;
-    background: transparent;
-    box-shadow: none !important;
-    height: 100%;
-    min-height: 100%;
-    text-rendering: optimizeLegibility;
-  }
-  .CodeMirror.no-smooth {
-    font-smooth: never;
-    -webkit-font-smoothing : none;
-  }
-  .CodeMirror .cm-atom { font-style: italic; }
-  .CodeMirror-gutters {
-    background: transparent;
-  }
-  @media (max-width: 560px) {
-    article, form, .CodeMirror { height: auto; min-height: 0; }
-    article { float: none; text-align: left; }
-    h1 + p,
-    footer { display: none; }
-  }
-  </style>
+	<!-- ProgrammingFonts @font-faces -->
+	<!-- Compiled (using less on node) with "lessc fonts.less > stylesheet.css" -->
+	<link rel="stylesheet" href="fonts/stylesheets/stylesheet.css">
+	<link href="//cloud.webtype.com/css/7e544c5e-55dc-4b41-a8d3-c13f7e0a13d3.css" rel="stylesheet" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Poppins:300,500' rel='stylesheet' type='text/css'>
+
+	<!-- Google/Typekit Web Font Loader: https://github.com/typekit/webfontloader -->
+	<script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.6/webfont.js"></script>
+
+
+	<style type="text/css">
+	html {
+		height: 100%;
+		min-height: 100%;
+		background: #F5F0E6;
+	}
+	body {
+		color: #fff;
+		background: #222;
+		font-family: "Poppins", sans-serif;
+		font-size: 14px;
+		line-height: 1.6;
+		height: 100%;
+		min-height: 100%;
+		font-weight: 300;
+	}
+	h1 {
+		font-weight: 500;
+		font-size: 2em;
+		margin: 0;
+		padding: 1em 0 0 0;
+	}
+	h1 + p {
+		line-height: 1;
+		padding: 0 0 2em 0;
+	}
+	p {
+		padding: 0 0 .5em 0;
+	}
+	article {
+		float: left;
+		background: transparent;
+		padding: 0 2em;
+		text-align: right;
+		min-height: 100%;
+		min-width: 38%;
+	}
+	footer {
+		font-size: .8em;
+		margin-top: 1rem;
+	}
+	#font-info p {
+		display: none;
+		line-height: 1;
+		padding: 0 0 2em 0;
+	}
+	a,
+	a:link,
+	a:visited {
+		color: inherit;
+	}
+	a:hover,
+	a:active {
+		opacity: 1;
+	}
+	select {
+		all: unset;
+		width: 9em;
+		margin-left: .5ex;
+		padding: 0 .5ex;
+		border: 1px solid rgba(100,100,100,.5);
+		border-radius: 3px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		cursor: pointer;
+	}
+	#size,
+	#spacing {
+		all: unset;
+		width: 4em;
+		margin-left: .5ex;
+		padding: 0 .5ex;
+		border: 1px solid rgba(100,100,100,.5);
+		border-radius: 3px;
+		text-align: left;
+	}
+	pre,
+	textarea,
+	.CodeMirror {
+		font-family: "Input Mono";
+		height: auto;
+	}
+	form {
+		height: 100%;
+		min-height: 100%;
+	}
+	.nav-button {
+		all: unset;
+		font-family: inherit;
+		cursor: pointer;
+	}
+	label + .nav-button {
+		margin-left: .5ex;
+	}
+	.CodeMirror {
+		border: none;
+		font-size: 100%;
+		background: transparent;
+		box-shadow: none !important;
+		height: 100%;
+		min-height: 100%;
+		text-rendering: optimizeLegibility;
+	}
+	.CodeMirror.no-smooth {
+		font-smooth: never;
+		-webkit-font-smoothing : none;
+	}
+	.CodeMirror .cm-atom { font-style: italic; }
+	.CodeMirror-gutters {
+		background: transparent;
+	}
+	@media (max-width: 560px) {
+		article, form, .CodeMirror { height: auto; min-height: 0; }
+		article { float: none; text-align: left; }
+		h1 + p,
+		footer { display: none; }
+	}
+	</style>
 </head>
 <body>
 
-  <article>
+	<article>
 
-    <h1>Programming Fonts</h1>
+		<h1>Programming Fonts</h1>
 
-    <p class="description">Test drive over 50 free programming fonts!</p>
+		<p class="description">Test drive over 50 free programming fonts!</p>
 
-    <p class="select" id="fontselect">
-      <label for="select-font">Font</label>
-      <button class="nav-button" id="previous">←</button>
-      <button class="nav-button" id="next">→</button>
-      <select onchange="selectFont()" id="select-font">
-        <!-- filled from json -->
-      </select>
-    </p>
-    <dix id="font-info"></dix>
-    <p class="select">
-      <label for="select">Theme</label>
-      <select onchange="selectTheme()" id="select">
-        <option>3024-day</option>
-        <option>3024-night</option>
-        <option>ambiance</option>
-        <option>base16-dark</option>
-        <option>base16-light</option>
-        <option>blackboard</option>
-        <option>cobalt</option>
-        <option>eclipse</option>
-        <option>elegant</option>
-        <option>erlang-dark</option>
-        <option>lesser-dark</option>
-        <option>mbo</option>
-        <option>mdn-like</option>
-        <option>midnight</option>
-        <option>monokai</option>
-        <option>neat</option>
-        <option>neo</option>
-        <option>night</option>
-        <option>paraiso-dark</option>
-        <option>paraiso-light</option>
-        <option selected>pastel-on-dark</option>
-        <option>rubyblue</option>
-        <option>solarized dark</option>
-        <option>solarized light</option>
-        <option>the-matrix</option>
-        <option>tomorrow-night-eighties</option>
-        <option>twilight</option>
-        <option>vibrant-ink</option>
-        <option>xq-dark</option>
-        <option>xq-light</option>
-      </select>
-    </p>
-    <p>
-      <label for="size">Size</label>
-      <input onchange="setSize()" type="number" id="size" value="14" min="1" max="32" step="1">
-    </p>
-    <p>
-      <label for="spacing">Spacing</label>
-      <input onchange="setSpacing()" type="number" id="spacing" value="1.2" min="1" max="2" step="0.1">
-    </p>
-    <p>
-      <label for="aliasing">Anti-aliasing </label><input onchange="setAntialiasing()" type="checkbox" id="aliasing" checked>
-    </p>
+		<p class="select" id="fontselect">
+			<label for="select-font">Font</label>
+			<button class="nav-button" id="previous">←</button>
+			<button class="nav-button" id="next">→</button>
+			<select onchange="selectFont()" id="select-font">
+				<!-- filled from json -->
+			</select>
+		</p>
+		<dix id="font-info"></dix>
+		<p class="select">
+			<label for="select">Theme</label>
+			<select onchange="selectTheme()" id="select">
+				<option>3024-day</option>
+				<option>3024-night</option>
+				<option>ambiance</option>
+				<option>base16-dark</option>
+				<option>base16-light</option>
+				<option>blackboard</option>
+				<option>cobalt</option>
+				<option>eclipse</option>
+				<option>elegant</option>
+				<option>erlang-dark</option>
+				<option>lesser-dark</option>
+				<option>mbo</option>
+				<option>mdn-like</option>
+				<option>midnight</option>
+				<option>monokai</option>
+				<option>neat</option>
+				<option>neo</option>
+				<option>night</option>
+				<option>paraiso-dark</option>
+				<option>paraiso-light</option>
+				<option selected>pastel-on-dark</option>
+				<option>rubyblue</option>
+				<option>solarized dark</option>
+				<option>solarized light</option>
+				<option>the-matrix</option>
+				<option>tomorrow-night-eighties</option>
+				<option>twilight</option>
+				<option>vibrant-ink</option>
+				<option>xq-dark</option>
+				<option>xq-light</option>
+			</select>
+		</p>
+		<p>
+			<label for="size">Size</label>
+			<input onchange="setSize()" type="number" id="size" value="14" min="1" max="32" step="1">
+		</p>
+		<p>
+			<label for="spacing">Spacing</label>
+			<input onchange="setSpacing()" type="number" id="spacing" value="1.4" min="1" max="2" step="0.1">
+		</p>
+		<p>
+			<label for="aliasing">Anti-aliasing </label><input onchange="setAntialiasing()" type="checkbox" id="aliasing" checked>
+		</p>
 
 
-    <footer>
-      <a href="http://programmingfonts.org">Blog</a> -
-      <a href="http://programmingfonts.org/list" rel="external">The full list</a> -
-      <a href="http://atom.io/packages/fonts" rel="external">Atom package</a> -
-      <a href="https://github.com/braver/programmingfonts">Github</a><br>
-      By <a href="http://koenlageveen.nl">Koen Lageveen</a>
-    </footer>
+		<footer>
+			<a href="http://programmingfonts.org">Blog</a> -
+			<a href="http://programmingfonts.org/list" rel="external">The full list</a> -
+			<a href="http://atom.io/packages/fonts" rel="external">Atom package</a> -
+			<a href="https://github.com/braver/programmingfonts">Github</a><br>
+			By <a href="http://koenlageveen.nl">Koen Lageveen</a>
+		</footer>
 
-  </article>
+	</article>
 
 <form>
 <textarea id="code" name="code">
 # Type some code ->
 
 function updateGutters(cm) {
-  var gutters = cm.display.gutters,
-      specs = cm.options.gutters;
+	var gutters = cm.display.gutters,
+			specs = cm.options.gutters;
 
-  removeChildren(gutters);
+	removeChildren(gutters);
 
-  for (var i = 0; i < specs.length; ++i) {
-    var gutterClass = specs[i];
-    var gElt = gutters.appendChild(
-      elt(
-        "div",
-        null,
-        "CodeMirror-gutter " + gutterClass
-      )
-    );
-    if (gutterClass == "CodeMirror-linenumbers") {
-      cm.display.lineGutter = gElt;
-      gElt.style.width = (cm.display.lineNumWidth || 1) + "px";
-    }
-  }
-  gutters.style.display = i ? "" : "none";
-  updateGutterSpace(cm);
+	for (var i = 0; i < specs.length; ++i) {
+		var gutterClass = specs[i];
+		var gElt = gutters.appendChild(
+			elt(
+				"div",
+				null,
+				"CodeMirror-gutter " + gutterClass
+			)
+		);
+		if (gutterClass == "CodeMirror-linenumbers") {
+			cm.display.lineGutter = gElt;
+			gElt.style.width = (cm.display.lineNumWidth || 1) + "px";
+		}
+	}
+	gutters.style.display = i ? "" : "none";
+	updateGutterSpace(cm);
 
-  return false;
+	return false;
 }
 
 </textarea>
 </form>
 
-  <!-- Some jquery to make life easier -->
-  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<!-- Some jquery to make life easier -->
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 
-  <!-- The business -->
-  <script>
+	<!-- The business -->
+	<script>
 
-    // CodeMirror
-    var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
-      lineNumbers: true,
-      styleActiveLine: true,
-      matchBrackets: true,
-      theme: "pastel-on-dark",
-      lineWrapping: true
-    });
+		// CodeMirror
+		var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+			lineNumbers: true,
+			styleActiveLine: true,
+			matchBrackets: true,
+			theme: "pastel-on-dark",
+			lineWrapping: true
+		});
 
-    function applyColors() {
-      $("body").css('color', $(".CodeMirror").css('color'));
-      $("body").css("background", $(".CodeMirror").css('background-color'));
-    }
+		function applyColors() {
+			$("body").css('color', $(".CodeMirror").css('color'));
+			$("body").css("background", $(".CodeMirror").css('background-color'));
+		}
 
-    // CodeMirror theme selector
-    var input = document.getElementById("select");
-    function selectTheme() {
-      var theme = input.options[input.selectedIndex].innerHTML;
-      editor.setOption("theme", theme);
-      applyColors();
-    }
+		// CodeMirror theme selector
+		var input = document.getElementById("select");
+		function selectTheme() {
+			var theme = input.options[input.selectedIndex].innerHTML;
+			editor.setOption("theme", theme);
+			applyColors();
+		}
 
-    var choice = document.location.search &&
-      decodeURIComponent(document.location.search.slice(1));
+		var choice = document.location.search &&
+			decodeURIComponent(document.location.search.slice(1));
 
-    if (choice) {
-      input.value = choice;
-      editor.setOption("theme", choice);
-    }
+		if (choice) {
+			input.value = choice;
+			editor.setOption("theme", choice);
+		}
 
-    // ProgrammingFonts font selector
-    function selectFont() {
-      var font = $("#select-font").val();
+		// ProgrammingFonts font selector
+		function selectFont() {
+			var font = $("#select-font").val();
 
-      if (font === "input") {
-        $("pre").css({ fontFamily: "Input Mono" });
-        $("textarea").css({ fontFamily: "Input Mono" });
-        $(".CodeMirror").css({ fontFamily: "Input Mono" });
-      } else {
-        $("pre").css({ fontFamily: font });
-        $("textarea").css({ fontFamily: font });
-        $(".CodeMirror").css({ fontFamily: font });
-      }
+			if (font === "input") {
+				$("pre").css({ fontFamily: "Input Mono" });
+				$("textarea").css({ fontFamily: "Input Mono" });
+				$(".CodeMirror").css({ fontFamily: "Input Mono" });
+			} else {
+				$("pre").css({ fontFamily: font });
+				$("textarea").css({ fontFamily: font });
+				$(".CodeMirror").css({ fontFamily: font });
+			}
 
-      $("#font-info p").hide();
-      $("." + font).show();
-      updateHash();
-    }
+			$("#font-info p").hide();
+			$("." + font).show();
+			updateHash();
+		}
 
-    function setSize() {
-      $(".CodeMirror").css({ fontSize: $("#size").val() + "px" });
-    }
-    function setSpacing() {
-      $(".CodeMirror").css({ lineHeight: $("#spacing").val() });
-    }
-    function setAntialiasing() {
-      if ($("#aliasing").is(":checked")) {
-        $(".CodeMirror").removeClass("no-smooth");
-      } else {
-        $(".CodeMirror").addClass("no-smooth");
-      }
-    }
+		function setSize() {
+			$(".CodeMirror").css({ fontSize: $("#size").val() + "px" });
+		}
+		function setSpacing() {
+			$(".CodeMirror").css({ lineHeight: $("#spacing").val() });
+		}
+		function setAntialiasing() {
+			if ($("#aliasing").is(":checked")) {
+				$(".CodeMirror").removeClass("no-smooth");
+			} else {
+				$(".CodeMirror").addClass("no-smooth");
+			}
+		}
 
-    function updateHash(){
-      var newHash = '#' + $("#select-font").val();
-      if(history.pushState) {
-        history.pushState(null, null, newHash);
-      }
-      else {
-        location.hash = newHash;
-      }
-    }
+		function updateHash(){
+			var newHash = '#' + $("#select-font").val();
+			if(history.pushState) {
+				history.pushState(null, null, newHash);
+			}
+			else {
+				location.hash = newHash;
+			}
+		}
 
-    $(document).ready(function(){
+		$(document).ready(function(){
 
-      //randomly select a theme
-      // var options = $("#select > option");
-      // options[Math.floor(Math.random() * options.length)].selected = "selected";
+			//randomly select a theme
+			// var options = $("#select > option");
+			// options[Math.floor(Math.random() * options.length)].selected = "selected";
 
-      selectTheme();
-      applyColors();
-      setSize();
+			selectTheme();
+			applyColors();
+			setSize();
+			setSpacing();
 
-      var font_aliases = [];
-      $.getJSON("fonts.json", function(data) {
+			var font_aliases = [];
+			$.getJSON("fonts.json", function(data) {
 
-        $.each(data, function(k,v) {
-          font_aliases.push(v.alias);
-          $("#select-font").append("<option value=\"" + v.alias + "\">" + v.name + "</option>");
+				$.each(data, function(k,v) {
+					font_aliases.push(v.alias);
+					$("#select-font").append("<option value=\"" + v.alias + "\">" + v.name + "</option>");
 
-          if (typeof v.year === "undefined") {
-            yearString = "";
-          } else {
-            yearString = " (" + v.year + ")";
-          }
+					if (typeof v.year === "undefined") {
+						yearString = "";
+					} else {
+						yearString = " (" + v.year + ")";
+					}
 
-          $("#font-info").append(
-            "<p class=\"" + v.alias + "\"> " + v.name +
-            " - " + "<a href=\""+ v.website + "\" rel=\"external\">" + v.author + "</a>" + yearString +
-            "</p>"
-          );
-        });
+					$("#font-info").append(
+						"<p class=\"" + v.alias + "\"> " + v.name +
+						" - " + "<a href=\""+ v.website + "\" rel=\"external\">" + v.author + "</a>" + yearString +
+						"</p>"
+					);
+				});
 
-        // configure the webfont loader
-        WebFont.load({
-          custom: { families: font_aliases }
-        });
+				// configure the webfont loader
+				WebFont.load({
+					custom: { families: font_aliases }
+				});
 
-        var hash = window.location.hash.substring(1);
-        if(hash){
-          $("#select-font").val(hash);
-        }
-        else {
-          $("#select-font").val('input'); // default to this awesome font
-        }
+				var hash = window.location.hash.substring(1);
+				if(hash){
+					$("#select-font").val(hash);
+				}
+				else {
+					$("#select-font").val('input'); // default to this awesome font
+				}
 
-        selectFont();
-      });
+				selectFont();
+			});
 
-      $("#next").click(function() {
-          $("#select-font :selected").next().prop("selected", true);
-          selectFont();
-      });
+			$("#next").click(function() {
+					$("#select-font :selected").next().prop("selected", true);
+					selectFont();
+			});
 
-      $("#previous").click(function() {
-          $("#select-font :selected").prev().prop("selected", true);
-          selectFont();
-      });
+			$("#previous").click(function() {
+					$("#select-font :selected").prev().prop("selected", true);
+					selectFont();
+			});
 
-    });
+		});
 
-    // Google Analytics
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		// Google Analytics
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-86647457-1', 'auto');
-    ga('send', 'pageview');
-  </script>
+		ga('create', 'UA-86647457-1', 'auto');
+		ga('send', 'pageview');
+	</script>
 
 </body>
 </html>

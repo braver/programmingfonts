@@ -112,15 +112,16 @@
     padding: 0 2em;
     text-align: right;
     min-height: 100%;
-    min-width: 30%;
+    min-width: 38%;
   }
   footer {
     font-size: .8em;
+    margin-top: 1rem;
   }
   #font-info p {
     display: none;
     line-height: 1;
-    padding: 1em 0;
+    padding: 0 0 1rem 0;
   }
   a,
   a:link,
@@ -149,6 +150,14 @@
   form {
     height: 100%;
     min-height: 100%;
+  }
+  .nav-button {
+    all: unset;
+    font-family: inherit;
+    cursor: pointer;
+  }
+  label + .nav-button {
+    margin-left: .5ex;
   }
   .CodeMirror {
     border: none;
@@ -185,10 +194,13 @@
 
     <p class="select" id="fontselect">
       <label for="select-font">Font</label>
+      <button class="nav-button" id="previous">←</button>
+      <button class="nav-button" id="next">→</button>
       <select onchange="selectFont()" id="select-font">
         <!-- filled from json -->
       </select>
     </p>
+    <dix id="font-info"></dix>
     <p class="select">
       <label for="select">Theme</label>
       <select onchange="selectTheme()" id="select">
@@ -230,13 +242,12 @@
     </p>
     <p>
       <label for="spacing">Spacing</label>
-      <input onchange="setSpacing()" type="number" id="spacing" value="1.2" min="1" max="2" step="0.1">
+      <input onchange="setSpacing()" type="number" id="spacing" value="1.1" min="1" max="2" step="0.1">
     </p>
     <p>
       <label for="aliasing">Anti-aliasing </label><input onchange="setAntialiasing()" type="checkbox" id="aliasing" checked>
     </p>
 
-    <dix id="font-info"></dix>
 
     <footer>
       <a href="http://programmingfonts.org">Blog</a> -
@@ -349,6 +360,7 @@ function updateGutters(cm) {
         $(".CodeMirror").addClass("no-smooth");
       }
     }
+
     function updateHash(){
       var newHash = '#' + $("#select-font").val();
       if(history.pushState) {
@@ -358,6 +370,7 @@ function updateGutters(cm) {
         location.hash = newHash;
       }
     }
+
     $(document).ready(function(){
 
       //randomly select a theme
@@ -403,6 +416,17 @@ function updateGutters(cm) {
 
         selectFont();
       });
+
+      $("#next").click(function() {
+          $("#select-font :selected").next().prop("selected", true);
+          selectFont();
+      });
+
+      $("#previous").click(function() {
+          $("#select-font :selected").prev().prop("selected", true);
+          selectFont();
+      });
+
     });
 
     // Google Analytics

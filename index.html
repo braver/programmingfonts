@@ -279,30 +279,32 @@
 <textarea id="code" name="code">
 # Type some code ->
 
+console.log "oO0 iIlL1 g9qCGQ";
+
 function updateGutters(cm) {
-	var gutters = cm.display.gutters,
-			specs = cm.options.gutters;
+    var gutters = cm.display.gutters,
+	      specs = cm.options.gutters;
 
-	removeChildren(gutters);
+    removeChildren(gutters);
 
-	for (var i = 0; i < specs.length; ++i) {
-		var gutterClass = specs[i];
-		var gElt = gutters.appendChild(
-			elt(
-				"div",
-				null,
-				"CodeMirror-gutter " + gutterClass
-			)
-		);
-		if (gutterClass == "CodeMirror-linenumbers") {
-			cm.display.lineGutter = gElt;
-			gElt.style.width = (cm.display.lineNumWidth || 1) + "px";
-		}
-	}
-	gutters.style.display = i ? "" : "none";
-	updateGutterSpace(cm);
+    for (var i = 0; i < specs.length; ++i) {
+        var gutterClass = specs[i];
+        var gElt = gutters.appendChild(
+            elt(
+                "div",
+                null,
+                "CodeMirror-gutter " + gutterClass
+            )
+        );
+        if (gutterClass == "CodeMirror-linenumbers") {
+            cm.display.lineGutter = gElt;
+            gElt.style.width = (cm.display.lineNumWidth || 1) + "px";
+        }
+    }
+    gutters.style.display = i ? "" : "none";
+    updateGutterSpace(cm);
 
-	return false;
+    return false;
 }
 
 </textarea>

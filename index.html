@@ -136,13 +136,26 @@
     opacity: 1;
   }
   select {
+    all: unset;
     width: 9em;
     margin-left: .5ex;
+    padding: 0 .5ex;
+    border: 1px solid rgba(100,100,100,.5);
+    border-radius: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
   }
   #size,
   #spacing {
+    all: unset;
     width: 4em;
     margin-left: .5ex;
+    padding: 0 .5ex;
+    border: 1px solid rgba(100,100,100,.5);
+    border-radius: 3px;
+    text-align: left;
   }
   pre,
   textarea,
@@ -245,7 +258,7 @@
     </p>
     <p>
       <label for="spacing">Spacing</label>
-      <input onchange="setSpacing()" type="number" id="spacing" value="1.1" min="1" max="2" step="0.1">
+      <input onchange="setSpacing()" type="number" id="spacing" value="1.2" min="1" max="2" step="0.1">
     </p>
     <p>
       <label for="aliasing">Anti-aliasing </label><input onchange="setAntialiasing()" type="checkbox" id="aliasing" checked>

@@ -713,6 +713,18 @@
   src: url('../resources/office-code-pro/office-code-pro.woff');
 }
 @font-face {
+  font-family: 'overpass';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/overpass/overpass.woff');
+}
+@font-face {
+  font-family: 'overpass';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/overpass/overpass.woff');
+}
+@font-face {
   font-family: 'oxygen';
   font-weight: normal;
   font-style: normal;
@@ -813,6 +825,30 @@
   font-weight: normal;
   font-style: italic;
   src: url('../resources/source-code-pro/source-code-pro-italic.woff');
+}
+@font-face {
+  font-family: 'space';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/space/space-bold.ttf');
+}
+@font-face {
+  font-family: 'space';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/space/space.ttf');
+}
+@font-face {
+  font-family: 'space';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/space/space-bold-italic.ttf');
+}
+@font-face {
+  font-family: 'space';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/space/space-italic.ttf');
 }
 @font-face {
   font-family: 'sudo';

@@ -210,8 +210,8 @@
 
 		<p class="select" id="fontselect">
 			<label for="select-font">Font</label>
-			<button class="nav-button" id="previous">←</button>
-			<button class="nav-button" id="next">→</button>
+			<button class="nav-button" id="previous">↑</button>
+			<button class="nav-button" id="next">↓</button>
 			<select onchange="selectFont()" id="select-font">
 				<!-- filled from json -->
 			</select>
@@ -219,6 +219,8 @@
 		<dix id="font-info"></dix>
 		<p class="select">
 			<label for="select">Theme</label>
+			<button class="nav-button" id="theme-previous">↑</button>
+			<button class="nav-button" id="theme-next">↓</button>
 			<select onchange="selectTheme()" id="select">
 				<option>3024-day</option>
 				<option>3024-night</option>
@@ -390,11 +392,6 @@ function updateGutters(cm) {
 		}
 
 		$(document).ready(function(){
-
-			//randomly select a theme
-			// var options = $("#select > option");
-			// options[Math.floor(Math.random() * options.length)].selected = "selected";
-
 			selectTheme();
 			applyColors();
 			setSize();
@@ -446,6 +443,15 @@ function updateGutters(cm) {
 					selectFont();
 			});
 
+			$("#theme-next").click(function() {
+				$("#select :selected").next().prop("selected", true);
+				selectTheme();
+			});
+
+			$("#theme-previous").click(function() {
+				$("#select :selected").prev().prop("selected", true);
+				selectTheme();
+			});
 		});
 
 		// Google Analytics
@@ -456,6 +462,7 @@ function updateGutters(cm) {
 
 		ga('create', 'UA-86647457-1', 'auto');
 		ga('send', 'pageview');
+
 	</script>
 
 </body>

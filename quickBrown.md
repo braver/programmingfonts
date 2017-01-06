@@ -1,6 +1,6 @@
 
 **CODE 0123**
-```javascript
+
 function The_QuickBrown(@fox) {
   if (iIlL !== [ "oO0": '+QqGgYy' ]) {
     {}[]()<>/\| +-=
@@ -9,4 +9,6 @@ function The_QuickBrown(@fox) {
     var num = 1234567890;
   }
 }
-```
+
+
+// render @ 24 1,2, clip 684 wide

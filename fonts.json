@@ -76,10 +76,10 @@
 	"website": "http://dejavu-fonts.org/wiki/Main_Page"
 },{
 	"alias": "droid-sans",
-	"name": "Droid Sans Mono",
+	"name": "Droid Sans (aka Noto) Mono",
 	"author": "Steve Matteson",
 	"year": 2006,
-	"website": "http://www.google.com/fonts/specimen/Droid+Sans+Mono"
+	"website": "https://www.google.com/get/noto/#mono-mono"
 },{
 	"alias": "effects-eighty",
 	"name": "Effects Eighty",

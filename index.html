@@ -84,9 +84,19 @@
 
 	<!-- CodeMirror JS -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.22.0/codemirror.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.22.0/mode/javascript/javascript.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.22.0/addon/selection/active-line.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.22.0/addon/edit/matchbrackets.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.22.0/addon/selection/active-line.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.22.0/mode/javascript/javascript.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.22.0/mode/php/php.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.22.0/mode/clike/clike.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.22.0/mode/ruby/ruby.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.22.0/mode/css/css.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.22.0/mode/perl/perl.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.22.0/mode/shell/shell.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.22.0/mode/r/r.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.22.0/mode/go/go.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.22.0/mode/haskell/haskell.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.22.0/mode/swift/swift.min.js"></script>
 
 
 	<!-- ProgrammingFonts @font-faces -->
@@ -302,6 +312,22 @@
 		<p>
 			<label for="aliasing">Anti-aliasing </label><input onchange="setAntialiasing()" type="checkbox" id="aliasing" checked>
 		</p>
+		<p class="select">
+			<label for="select">Language</label>
+			<select onchange="selectLanguage()" id="select_language">
+				<option selected="">JavaScript</option>
+				<option>PHP</option>
+				<option value="clike">C (-like)</option>
+				<option>Ruby</option>
+				<option>CSS</option>
+				<option>Perl</option>
+				<option>Shell</option>
+				<option>R</option>
+				<option>Go</option>
+				<option>Haskell</option>
+				<option>Swift</option>
+			</select>
+		</p>
 
 
 		<footer>
@@ -416,6 +442,10 @@ function updateGutters(cm) {
 			} else {
 				$(".CodeMirror").addClass("no-smooth");
 			}
+		}
+		function selectLanguage() {
+			console.log("lang change " + $("#select_language").val())
+			editor.setOption("mode", $("#select_language").val().toLowerCase());
 		}
 
 		function updateHash(){

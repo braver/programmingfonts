@@ -105,9 +105,6 @@
 	<link href="//cloud.webtype.com/css/7e544c5e-55dc-4b41-a8d3-c13f7e0a13d3.css" rel="stylesheet" type="text/css" />
 	<link href='http://fonts.googleapis.com/css?family=Poppins:300,500' rel='stylesheet' type='text/css'>
 
-	<!-- Google/Typekit Web Font Loader: https://github.com/typekit/webfontloader -->
-	<script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.6/webfont.js"></script>
-
 
 	<style type="text/css">
 	html {
@@ -482,11 +479,6 @@ function updateGutters(cm) {
 						" - " + "<a href=\""+ v.website + "\" rel=\"external\">" + v.author + "</a>" + yearString +
 						"</p>"
 					);
-				});
-
-				// configure the webfont loader
-				WebFont.load({
-					custom: { families: font_aliases }
 				});
 
 				var hash = window.location.hash.substring(1);

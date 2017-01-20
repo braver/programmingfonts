@@ -186,7 +186,7 @@
 	pre,
 	textarea,
 	.CodeMirror {
-		font-family: "Input Mono";
+		font-family: "Input Mono", monospace;
 		height: auto;
 	}
 	form {
@@ -413,13 +413,13 @@ function updateGutters(cm) {
 			var font = $("#select-font").val();
 
 			if (font === "input") {
-				$("pre").css({ fontFamily: "Input Mono" });
-				$("textarea").css({ fontFamily: "Input Mono" });
-				$(".CodeMirror").css({ fontFamily: "Input Mono" });
+				$("pre").css({ fontFamily: "Input Mono, monospace" });
+				$("textarea").css({ fontFamily: "Input Mono, monospace" });
+				$(".CodeMirror").css({ fontFamily: "Input Mono, monospace" });
 			} else {
-				$("pre").css({ fontFamily: font });
-				$("textarea").css({ fontFamily: font });
-				$(".CodeMirror").css({ fontFamily: font });
+				$("pre").css({ fontFamily: font + ", monospace" });
+				$("textarea").css({ fontFamily: font + ", monospace" });
+				$(".CodeMirror").css({ fontFamily: font + ", monospace" });
 			}
 
 			$("#font-info p").hide();
@@ -459,6 +459,10 @@ function updateGutters(cm) {
 			applyColors();
 			setSize();
 			setSpacing();
+
+			$(function() {
+				console.log("loaded")
+			});
 
 			var font_aliases = [];
 			$.getJSON("fonts.json", function(data) {

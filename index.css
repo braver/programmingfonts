@@ -1,0 +1,117 @@
+html {
+	height: 100%;
+	min-height: 100%;
+	background: #F5F0E6;
+}
+body {
+	color: #fff;
+	background: #222;
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	line-height: 1.6;
+	height: 100%;
+	min-height: 100%;
+	font-weight: 300;
+}
+h1 {
+	font-weight: 500;
+	font-size: 2em;
+	margin: 0;
+	padding: 1em 0 0 0;
+}
+h1 + p {
+	line-height: 1;
+	padding: 0 0 2em 0;
+}
+p {
+	padding: 0 0 .5em 0;
+}
+article {
+	float: left;
+	background: transparent;
+	padding: 0 2em;
+	text-align: right;
+	min-height: 100%;
+	min-width: 38%;
+}
+footer {
+	font-size: .8em;
+	margin-top: 1rem;
+}
+#font-info p {
+	display: none;
+	line-height: 1;
+	padding: 0 0 2em 0;
+}
+a,
+a:link,
+a:visited {
+	color: inherit;
+}
+a:hover,
+a:active {
+	opacity: 1;
+}
+select {
+	all: unset;
+	width: 9em;
+	margin-left: .5ex;
+	padding: 0 .5ex;
+	border: 1px solid rgba(100,100,100,.5);
+	border-radius: 3px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	cursor: pointer;
+}
+#size,
+#spacing {
+	all: unset;
+	width: 4em;
+	margin-left: .5ex;
+	padding: 0 .5ex;
+	border: 1px solid rgba(100,100,100,.5);
+	border-radius: 3px;
+	text-align: left;
+}
+pre,
+textarea,
+.CodeMirror {
+	font-family: "Input Mono", monospace;
+	height: auto;
+}
+form {
+	height: 100%;
+	min-height: 100%;
+}
+.nav-button {
+	all: unset;
+	font-family: inherit;
+	cursor: pointer;
+}
+label + .nav-button {
+	margin-left: .5ex;
+}
+.CodeMirror {
+	border: none;
+	font-size: 100%;
+	background: transparent;
+	box-shadow: none !important;
+	height: 100%;
+	min-height: 100%;
+	text-rendering: optimizeLegibility;
+}
+.CodeMirror.no-smooth {
+	font-smooth: never;
+	-webkit-font-smoothing : none;
+}
+.CodeMirror .cm-atom { font-style: italic; }
+.CodeMirror-gutters {
+	background: transparent;
+}
+@media (max-width: 560px) {
+	article, form, .CodeMirror { height: auto; min-height: 0; }
+	article { float: none; text-align: left; }
+	h1 + p,
+	footer { display: none; }
+}

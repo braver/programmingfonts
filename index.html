@@ -8,22 +8,14 @@
 
 
 	<!-- Favicons -->
-	<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon-180x180.png">
-	<link rel="icon" type="image/png" href="favicons/favicon-192x192.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="favicons/favicon-160x160.png" sizes="160x160">
-	<link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
-	<meta name="msapplication-TileColor" content="#5b6268">
-	<meta name="msapplication-TileImage" content="favicons/mstile-144x144.png">
+	<link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="favicons/manifest.json">
+	<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#ff6a00">
+	<link rel="shortcut icon" href="favicons/favicon.ico">
+	<meta name="msapplication-config" content="favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
 
 
 	<!-- YUI reset -->
@@ -98,12 +90,10 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.22.0/mode/haskell/haskell.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.22.0/mode/swift/swift.min.js"></script>
 
-
-	<!-- ProgrammingFonts @font-faces -->
-	<!-- Compiled (using less on node) with "lessc fonts.less > stylesheet.css" -->
 	<link href="//cloud.webtype.com/css/7e544c5e-55dc-4b41-a8d3-c13f7e0a13d3.css" rel="stylesheet" type="text/css" />
 	<link href='http://fonts.googleapis.com/css?family=Poppins:300,500' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="fonts/stylesheets/stylesheet.css">
+
+	<link rel="stylesheet" href="fonts/stylesheets/stylesheet.css"><!-- Compiled (using less on node) with "lessc fonts.less > stylesheet.css" -->
 	<link rel="stylesheet" href="index.css">
 
 
@@ -111,6 +101,24 @@
 <body>
 
 	<article>
+		<svg class="logo" width="96px" height="60px" viewBox="0 2 512 366" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+			<desc>Created with Sketch.</desc>
+			<defs>
+				<polygon id="path-1" points="162.003834 35.0340272 499.665602 0.137012496 213.972335 357.127615 0.15083048 160.478453"></polygon>
+				<mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-3" y="-3" width="505.514771" height="362.990602">
+					<rect x="-2.84916952" y="-2.8629875" width="505.514771" height="362.990602" fill="white"></rect>
+					<use xlink:href="#path-1" fill="black"></use>
+				</mask>
+			</defs>
+			<g id="Group" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(5.000000, 6.000000)">
+				<g id="Rectangle-2">
+					<use fill="#FF6A00" fill-rule="evenodd" xlink:href="#path-1"></use>
+					<!-- <use stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="6" xlink:href="#path-1"></use> -->
+				</g>
+				<path d="M224.512801,57.2692573 L93.5395258,184.313266 L112.668266,197.206201 L162.09647,147.09061 L198.484765,161.251529 C232.804161,174.607313 276.468673,158.768778 308.713778,121.263391 C341.074457,83.6235763 335.499938,58.6828826 294.60994,58.1620733 L224.512801,57.2692573 Z M235.379986,72.7879576 L272.133435,75.2699259 C301.93353,77.2823326 306.594107,92.1060064 284.753789,116.853712 C263.024334,141.475795 236.0921,150.491394 209.6677,142.167398 L177.077606,131.901135 L235.379986,72.7879576 Z" id="P" fill="#FFFFFF"></path>
+			</g>
+		</svg>
 
 		<h1>Programming Fonts</h1>
 
@@ -226,29 +234,29 @@
 console.log "oO0 iIlL1 g9qCGQ";
 
 function updateGutters(cm) {
-    var gutters = cm.display.gutters,
-	      specs = cm.options.gutters;
+	var gutters = cm.display.gutters,
+		  specs = cm.options.gutters;
 
-    removeChildren(gutters);
+	removeChildren(gutters);
 
-    for (var i = 0; i < specs.length; ++i) {
-        var gutterClass = specs[i];
-        var gElt = gutters.appendChild(
-            elt(
-                "div",
-                null,
-                "CodeMirror-gutter " + gutterClass
-            )
-        );
-        if (gutterClass == "CodeMirror-linenumbers") {
-            cm.display.lineGutter = gElt;
-            gElt.style.width = (cm.display.lineNumWidth || 1) + "px";
-        }
-    }
-    gutters.style.display = i ? "" : "none";
-    updateGutterSpace(cm);
+	for (var i = 0; i < specs.length; ++i) {
+		var gutterClass = specs[i];
+		var gElt = gutters.appendChild(
+			elt(
+				"div",
+				null,
+				"CodeMirror-gutter " + gutterClass
+			)
+		);
+		if (gutterClass == "CodeMirror-linenumbers") {
+			cm.display.lineGutter = gElt;
+			gElt.style.width = (cm.display.lineNumWidth || 1) + "px";
+		}
+	}
+	gutters.style.display = i ? "" : "none";
+	updateGutterSpace(cm);
 
-    return false;
+	return false;
 }
 
 </textarea>

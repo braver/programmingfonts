@@ -1,7 +1,7 @@
 html {
 	height: 100%;
 	min-height: 100%;
-	background: #F5F0E6;
+	background: #f5f0e6;
 }
 body {
 	color: #fff;
@@ -110,15 +110,27 @@ label + .nav-button {
 }
 .CodeMirror.no-smooth {
 	font-smooth: never;
-	-webkit-font-smoothing : none;
+	-webkit-font-smoothing: none;
 }
-.CodeMirror .cm-atom { font-style: italic; }
+.CodeMirror .cm-atom {
+	font-style: italic;
+}
 .CodeMirror-gutters {
 	background: transparent;
 }
 @media (max-width: 560px) {
-	article, form, .CodeMirror { height: auto; min-height: 0; }
-	article { float: none; text-align: left; }
+	article,
+	form,
+	.CodeMirror {
+		height: auto;
+		min-height: 0;
+	}
+	article {
+		float: none;
+		text-align: left;
+	}
 	h1 + p,
-	footer { display: none; }
+	footer {
+		display: none;
+	}
 }

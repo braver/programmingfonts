@@ -67,6 +67,10 @@ select {
 	text-overflow: ellipsis;
 	cursor: pointer;
 }
+select option {
+	background: #fff;
+	color: #000;
+}
 #size,
 #spacing {
 	all: unset;

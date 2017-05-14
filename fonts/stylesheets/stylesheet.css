@@ -899,6 +899,30 @@
   src: url('../resources/tex-gyre-cursor/tex-gyre-cursor.woff');
 }
 @font-face {
+  font-family: 'terminus';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/terminus/terminus-bold-italic.ttf');
+}
+@font-face {
+  font-family: 'terminus';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/terminus/terminus-bold.ttf');
+}
+@font-face {
+  font-family: 'terminus';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/terminus/terminus-italic.ttf');
+}
+@font-face {
+  font-family: 'terminus';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/terminus/terminus.ttf');
+}
+@font-face {
   font-family: 'ubuntu';
   font-weight: bold;
   font-style: italic;

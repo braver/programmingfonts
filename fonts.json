@@ -344,6 +344,12 @@
 	"year": 2006,
 	"website": "http://www.gust.org.pl/projects/e-foundry/tex-gyre"
 },{
+	"alias": "terminus",
+	"name": "Terminus (TTF)",
+	"author": "Dimitar Toshkov Zhekov",
+	"year": 2010,
+	"website": "https://files.ax86.net/terminus-ttf"
+},{
 	"alias": "ubuntu",
 	"name": "Ubuntu Mono",
 	"author": "Dalton Maag",

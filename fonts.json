@@ -76,10 +76,10 @@
 	"website": "https://dejavu-fonts.github.io"
 },{
 	"alias": "droid-sans",
-	"name": "Droid Sans (aka Noto) Mono",
+	"name": "Droid Sans",
 	"author": "Steve Matteson",
 	"year": 2006,
-	"website": "https://www.google.com/get/noto/#mono-mono"
+	"website": "https://fonts.google.com/specimen/Droid+Sans"
 },{
 	"alias": "effects-eighty",
 	"name": "Effects Eighty",
@@ -248,6 +248,12 @@
 	"author": "Open Source Publishing",
 	"year": 2008,
 	"website": "http://www.fontsquirrel.com/fonts/NotCourierSans"
+},{
+	"alias": "noto",
+	"name": "Noto Mono",
+	"author": "Steve Matteson",
+	"year": 2012,
+	"website": "https://www.google.com/get/noto/"
 },{
 	"alias": "nova",
 	"name": "Nova Mono",

@@ -302,13 +302,13 @@
   font-family: 'firacode';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/firacode/firacode-bold.otf');
+  src: url('../resources/firacode/firacode-bold.woff');
 }
 @font-face {
   font-family: 'firacode';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/firacode/firacode.otf');
+  src: url('../resources/firacode/firacode.woff');
 }
 @font-face {
   font-family: 'fixedsys';
@@ -675,6 +675,12 @@
   font-weight: normal;
   font-style: normal;
   src: url('../resources/notcouriersans/notcouriersans.woff');
+}
+@font-face {
+  font-family: 'noto';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/noto/noto.ttf');
 }
 @font-face {
   font-family: 'nova';

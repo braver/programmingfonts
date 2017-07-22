@@ -2,381 +2,581 @@
 	"alias": "font3270",
 	"name": "3270",
 	"author": "Ricardo Bánffy",
-	"website": "https://github.com/rbanffy/3270font"
+	"year": 2015,
+	"website": "https://github.com/rbanffy/3270font",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector",
+	"variants": ["medium", "narrow", "semi-narrow"]
 },{
 	"alias": "anka-coder",
 	"name": "Anka/Coder",
 	"author": "Andrey Makarov",
 	"year": 2010,
-	"website": "https://github.com/fitojb/anka-coder-fonts"
+	"website": "https://github.com/fitojb/anka-coder-fonts",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector",
+	"variants": ["regular", "condensed", "narrow"]
 },{
 	"alias": "anonymous-pro",
 	"name": "Anonymous Pro",
 	"author": "Mark Simonson",
 	"year": 2009,
-	"website": "http://www.marksimonson.com/fonts/view/anonymous-pro"
+	"website": "http://www.marksimonson.com/fonts/view/anonymous-pro",
+	"ligatures": false,
+	"style": "serif",
+	"rendering": "vector",
+	"variants": ["regular", "italic", "bold", "bold-italic"]
 },{
 	"alias": "aurulent",
 	"name": "Aurulent Sans Mono",
 	"author": "Stephen G. Hartke",
 	"year": 2007,
-	"website": "http://delubrum.org"
+	"website": "http://delubrum.org",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector",
+	"variants": ["regular"]
 },{
 	"alias": "average",
 	"name": "Average Mono",
 	"author": "Richard Alexander Hall",
 	"year": 2013,
-	"website": "http://openfontlibrary.org/en/font/average-mono"
+	"website": "http://openfontlibrary.org/en/font/average-mono",
+	"ligatures": false,
+	"style": "serif",
+	"rendering": "vector",
+	"variants": ["regular"]
 },{
 	"alias": "bitstream-vera",
 	"name": "Bitstream Vera Sans Mono",
 	"author": "Jim Lyles",
 	"year": 2002,
-	"website": "http://www.fontsquirrel.com/fonts/Bitstream-Vera-Sans-Mono"
+	"website": "http://www.fontsquirrel.com/fonts/Bitstream-Vera-Sans-Mono",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "bpmono",
 	"name": "BPmono",
 	"author": "Backpacker",
-	"website": "http://www.fontsquirrel.com/fonts/BPmono"
+	"year": 2007,
+	"website": "http://www.fontsquirrel.com/fonts/BPmono",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "camingocode",
 	"name": "CamingoCode",
 	"author": "Jan Fromm",
 	"year": 2013,
-	"website": "http://www.janfromm.de/typefaces/camingomono/camingocode"
+	"website": "http://www.janfromm.de/typefaces/camingomono/camingocode",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "code-new-roman",
 	"name": "Code New Roman",
 	"author": "Samiru R.",
 	"year": 2014,
-	"website": "http://sourceforge.net/projects/codenewroman/"
+	"website": "http://sourceforge.net/projects/codenewroman/",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "consolamono",
 	"name": "Consolamono",
 	"author": "Wojciech Kalinowski",
 	"year": 2011,
-	"website": "http://openfontlibrary.org/en/font/consolamono"
+	"website": "http://openfontlibrary.org/en/font/consolamono",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "cousine",
 	"name": "Cousine",
 	"author": "Steve Matteson",
 	"year": 2010,
-	"website": "http://www.fontsquirrel.com/fonts/cousine"
+	"website": "http://www.fontsquirrel.com/fonts/cousine",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "cutive",
 	"name": "Cutive Mono",
 	"author": "Vernon Adams",
 	"year": 2012,
-	"website": "http://www.google.com/fonts/specimen/Cutive+Mono"
+	"website": "http://www.google.com/fonts/specimen/Cutive+Mono",
+	"ligatures": false,
+	"style": "serif",
+	"rendering": "vector"
 },{
 	"alias": "dejavu",
 	"name": "DejaVu Mono",
 	"author": "Deja Vu Project",
 	"year": 2004,
-	"website": "https://dejavu-fonts.github.io"
+	"website": "https://dejavu-fonts.github.io",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "droid-sans",
 	"name": "Droid Sans",
 	"author": "Steve Matteson",
 	"year": 2006,
-	"website": "https://fonts.google.com/specimen/Droid+Sans"
+	"website": "https://fonts.google.com/specimen/Droid+Sans",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "effects-eighty",
 	"name": "Effects Eighty",
 	"author": "Peter Hull",
 	"year": 2013,
-	"website": "http://openfontlibrary.org/en/font/effects-eighty"
+	"website": "http://openfontlibrary.org/en/font/effects-eighty",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "bitmap"
 },{
 	"alias": "fantasque-sans",
 	"name": "Fantasque Sans Mono",
 	"author": "Jany Belluz",
 	"year": 2013,
-	"website": "https://github.com/belluzj/fantasque-sans"
+	"website": "https://github.com/belluzj/fantasque-sans",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "fifteen",
 	"name": "Fifteen",
 	"author": "James Kilfiger",
 	"year": 2013,
-	"website": "http://openfontlibrary.org/en/font/fifteen"
+	"website": "http://openfontlibrary.org/en/font/fifteen",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "bitmap"
 },{
 	"alias": "fira",
 	"name": "Fira Mono",
 	"author": "Erik Spiekerman, Carois Type Design",
 	"year": 2013,
-	"website": "https://www.mozilla.org/en-US/styleguide/products/firefox-os/typeface/"
+	"website": "https://www.mozilla.org/en-US/styleguide/products/firefox-os/typeface/",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "firacode",
 	"name": "Fira Code",
 	"author": "Nikita Prokopov",
 	"year": 2014,
-	"website": "https://github.com/tonsky/FiraCode"
+	"website": "https://github.com/tonsky/FiraCode",
+	"ligatures": true,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "fixedsys",
 	"name": "Fixedsys",
 	"author": "Microsoft",
 	"year": 1980,
-	"website": "http://www.moviecorner.de/en/font-fixedsys-ttf/description"
+	"website": "http://www.moviecorner.de/en/font-fixedsys-ttf/description",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "bitmap"
 },{
 	"alias": "fixedsys-ligatures",
 	"name": "Fixedsys with Ligatures",
 	"author": "Kirill Pertsev",
 	"year": 2016,
-	"website": "https://github.com/kika/fixedsys"
+	"website": "https://github.com/kika/fixedsys",
+	"ligatures": true,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "generic",
 	"name": "Generic Mono",
 	"author": "Luc Devroye",
+	"website": "http://luc.devroye.org/fonts-75172.html",
 	"year": 1980,
-	"website": "http://luc.devroye.org/fonts-75172.html"
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "gnu-freefont",
 	"name": "GNU Freefont",
 	"author": "Primož Peterlin, Steve White",
 	"year": 2002,
-	"website": "https://www.gnu.org/software/freefont/"
+	"website": "https://www.gnu.org/software/freefont/",
+	"ligatures": false,
+	"style": "serif",
+	"rendering": "vector"
 },{
 	"alias": "go-mono",
 	"name": "Go Mono",
 	"author": "Bigelow & Holmes",
 	"year": 2016,
-	"website": "https://blog.golang.org/go-fonts"
+	"website": "https://blog.golang.org/go-fonts",
+	"ligatures": false,
+	"style": "serif",
+	"rendering": "vector"
 },{
 	"alias": "hack",
 	"name": "Hack",
 	"author": "Christopher Simpkins",
 	"year": 2015,
-	"website": "https://github.com/chrissimpkins/Hack"
+	"website": "https://github.com/chrissimpkins/Hack",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "hasklig",
 	"name": "Hasklig",
 	"author": "Ian Tuomi",
 	"year": 2014,
-	"website": "https://github.com/i-tu/Hasklig"
+	"website": "https://github.com/i-tu/Hasklig",
+	"ligatures": true,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "hermit",
 	"name": "Hermit",
 	"author": "Pablo Caro",
 	"year": 2013,
-	"website": "https://pcaro.es/p/hermit/"
+	"website": "https://pcaro.es/p/hermit/",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "inconsolata",
 	"name": "Inconsolata",
 	"author": "Raph Levien",
 	"year": 2001,
-	"website": "http://www.levien.com/type/myfonts/inconsolata.html"
+	"website": "http://www.levien.com/type/myfonts/inconsolata.html",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "inconsolata-g",
 	"name": "Inconsolata-g",
 	"author": "Leonardo Maffi",
 	"year": 2009,
-	"website": "http://leonardo-m.livejournal.com/77079.html"
+	"website": "http://leonardo-m.livejournal.com/77079.html",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "iosevka",
 	"name": "Iosevka",
 	"author": "Belleve Invis",
 	"year": 2015,
-	"website": "http://be5invis.github.io/Iosevka/"
+	"website": "http://be5invis.github.io/Iosevka/",
+	"ligatures": true,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "input",
 	"name": "Input",
 	"author": "David Jonathan Ross",
 	"year": 2014,
-	"website": "http://input.fontbureau.com"
+	"website": "http://input.fontbureau.com",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "latin-modern",
 	"name": "Latin Modern Mono",
 	"author": "Bogusław Jackowski, Janusz M. Nowacki",
 	"year": 2002,
-	"website": "http://www.gust.org.pl/gust/projects/e-foundry/latin-modern"
+	"website": "http://www.gust.org.pl/gust/projects/e-foundry/latin-modern",
+	"ligatures": false,
+	"style": "serif",
+	"rendering": "vector"
 },{
 	"alias": "lekton",
 	"name": "Lekton",
 	"author": "Accademia di Belle Arti di Urbino",
 	"year": 2008,
-	"website": "http://www.fontsquirrel.com/fonts/lekton"
+	"website": "http://www.fontsquirrel.com/fonts/lekton",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "liberation",
 	"name": "Liberation Mono",
 	"author": "Steve Matteson",
 	"year": 2007,
-	"website": "https://fedorahosted.org/liberation-fonts/"
+	"website": "https://fedorahosted.org/liberation-fonts/",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "luculent",
 	"name": "Luculent",
 	"author": "Andrew Kensler",
 	"year": 2008,
-	"website": "http://eastfarthing.com/luculent/"
+	"website": "http://eastfarthing.com/luculent/",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "luxi",
 	"name": "Luxi Mono",
 	"author": "Kris Holmes, Charles Bigelow",
 	"year": 2001,
-	"website": "http://www.fontsquirrel.com/fonts/Luxi-Mono"
+	"website": "http://www.fontsquirrel.com/fonts/Luxi-Mono",
+	"ligatures": false,
+	"style": "serif",
+	"rendering": "vector"
 },{
 	"alias": "meslo",
 	"name": "Meslo",
 	"author": "André Berg",
 	"year": 2010,
-	"website": "https://github.com/andreberg/Meslo-Font"
+	"website": "https://github.com/andreberg/Meslo-Font",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "monofur",
 	"name": "Monofur",
 	"author": "Tobias Benjamin Köhler",
 	"year": 2000,
-	"website": "http://www.dafont.com/monofur.font"
+	"website": "http://www.dafont.com/monofur.font",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "mononoki",
 	"name": "Mononoki",
 	"author": "Matthias Tellen",
 	"year": 2013,
-	"website": "https://github.com/madmalik/mononoki"
+	"website": "https://github.com/madmalik/mononoki",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "monoid",
 	"name": "Monoid",
 	"author": "Chase Colman, Andreas Larsen",
 	"year": 2015,
-	"website": "http://larsenwork.com/monoid/"
+	"website": "http://larsenwork.com/monoid/",
+	"ligatures": true,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "mplus",
 	"name": "M+",
 	"author": "Coji Morishita",
 	"year": 2003,
-	"website": "http://mplus-fonts.sourceforge.jp"
+	"website": "http://mplus-fonts.sourceforge.jp",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "notcouriersans",
 	"name": "NotCourierSans",
 	"author": "Open Source Publishing",
 	"year": 2008,
-	"website": "http://www.fontsquirrel.com/fonts/NotCourierSans"
+	"website": "http://www.fontsquirrel.com/fonts/NotCourierSans",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "noto",
 	"name": "Noto Mono",
 	"author": "Steve Matteson",
 	"year": 2012,
-	"website": "https://www.google.com/get/noto/"
+	"website": "https://www.google.com/get/noto/",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "nova",
 	"name": "Nova Mono",
 	"author": "Wojciech Kalinowski",
 	"year": 2010,
-	"website": "http://www.google.com/fonts/specimen/Nova+Mono"
+	"website": "http://www.google.com/fonts/specimen/Nova+Mono",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "office-code-pro",
 	"name": "Office Code Pro",
 	"author": "Nathan Rutzky",
 	"year": 2015,
-	"website": "https://github.com/nathco/Office-Code-Pro"
+	"website": "https://github.com/nathco/Office-Code-Pro",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "overpass",
 	"name": "Overpass Mono",
 	"author": "Delve Withrington",
 	"year": 2015,
-	"website": "http://overpassfont.org"
+	"website": "http://overpassfont.org",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "oxygen",
 	"name": "Oxygen Mono",
 	"author": "Vernon Adams",
 	"year": 2012,
-	"website": "http://www.google.com/fonts/specimen/Oxygen+Mono"
+	"website": "http://www.google.com/fonts/specimen/Oxygen+Mono",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "profont",
 	"name": "Profont",
 	"author": "Andrew Welch",
 	"year": 1987,
-	"website": "http://tobiasjung.name/profont/"
+	"website": "http://tobiasjung.name/profont/",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "proggy-clean",
 	"name": "Proggy Clean",
 	"author": "Tristan Grimmer",
 	"year": 2004,
-	"website": "http://www.proggyfonts.net/"
+	"website": "http://www.proggyfonts.net/",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "bitmap"
 },{
 	"alias": "pt",
 	"name": "PT Mono",
 	"author": "Alexandra Korolkova, Isabella Chaeva",
 	"year": 2011,
-	"website": "http://paratype.com/public/"
+	"website": "http://paratype.com/public/",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "quinze",
 	"name": "Quinze",
 	"author": "James Kilfiger",
 	"year": 2013,
-	"website": "http://openfontlibrary.org/en/font/fifteen"
+	"website": "http://openfontlibrary.org/en/font/fifteen",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "roboto",
 	"name": "Roboto Mono",
 	"author": "Christian Robertson",
 	"year": 2015,
-	"website": "https://www.google.com/fonts/specimen/Roboto+Mono"
+	"website": "https://www.google.com/fonts/specimen/Roboto+Mono",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "sax",
 	"name": "saxMono",
 	"author": "s.a.x. Software",
-	"website": "http://www.fontsquirrel.com/fonts/saxMono"
+	"website": "http://www.fontsquirrel.com/fonts/saxMono",
+	"year": 2009,
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "share-tech",
 	"name": "Share Tech Mono",
 	"author": "Ralph du Carrois",
 	"year": 2012,
-	"website": "http://www.google.com/fonts/specimen/Share+Tech+Mono"
+	"website": "http://www.google.com/fonts/specimen/Share+Tech+Mono",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "sk-modernist",
 	"name": "SK Modernist Mono",
 	"author": "Sean Kane",
 	"year": 2015,
-	"website": "http://seankanedesign.com/work/sk-modernist"
+	"website": "http://seankanedesign.com/work/sk-modernist",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "source-code-pro",
 	"name": "Source Code Pro",
 	"author": "Paul D. Hunt",
 	"year": 2012,
-	"website": "https://github.com/adobe-fonts/source-sans-pro"
+	"website": "https://github.com/adobe-fonts/source-sans-pro",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "space",
 	"name": "Space Mono",
 	"author": "Colophon Foundry",
 	"year": 2016,
-	"website": "https://fonts.google.com/specimen/Space+Mono"
+	"website": "https://fonts.google.com/specimen/Space+Mono",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "sudo",
 	"name": "Sudo",
 	"author": "Jens Kutilek",
 	"year": 2009,
-	"website": "http://www.netzallee.de/extra/sudo"
+	"website": "http://www.netzallee.de/extra/sudo",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "tex-gyre-cursor",
 	"name": "TeX Gyre Cursor",
 	"author": "GUST e-foundry",
 	"year": 2006,
-	"website": "http://www.gust.org.pl/projects/e-foundry/tex-gyre"
+	"website": "http://www.gust.org.pl/projects/e-foundry/tex-gyre",
+	"ligatures": false,
+	"style": "serif",
+	"rendering": "vector"
 },{
 	"alias": "terminus",
 	"name": "Terminus (TTF)",
 	"author": "Dimitar Toshkov Zhekov",
 	"year": 2010,
-	"website": "https://files.ax86.net/terminus-ttf"
+	"website": "https://files.ax86.net/terminus-ttf",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "ubuntu",
 	"name": "Ubuntu Mono",
 	"author": "Dalton Maag",
 	"year": 2010,
-	"website": "http://font.ubuntu.com"
+	"website": "http://font.ubuntu.com",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "vector"
 },{
 	"alias": "unifont",
 	"name": "GNU Unifont",
 	"author": "Roman Czyborra",
 	"year": 1998,
-	"website": "http://www.unifoundry.com/unifont.html"
+	"website": "http://www.unifoundry.com/unifont.html",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "bitmap"
 },{
 	"alias": "verily",
 	"name": "Verily Serif Mono",
 	"author": "Stephen G. Hartke",
 	"year": 2006,
-	"website": "http://delubrum.org"
+	"website": "http://delubrum.org",
+	"ligatures": false,
+	"style": "serif",
+	"rendering": "vector"
 },{
 	"alias": "vt323",
 	"name": "VT323",
 	"author": "Peter Hull",
 	"year": 2014,
-	"website": "https://fedoraproject.org/wiki/VT323_Fonts"
+	"website": "https://fedoraproject.org/wiki/VT323_Fonts",
+	"ligatures": false,
+	"style": "sans",
+	"rendering": "bitmap"
 }]

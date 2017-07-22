@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"build_systems": [
+		{
+			"name": "Fonts Schema",
+			"working_dir": "$folder",
+			"quiet": false,
+			"shell": true,
+			"cmd": [ "ajv -s fonts-schema.json -d fonts.json" ]
+		}
+	]
+}

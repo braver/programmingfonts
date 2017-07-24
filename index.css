@@ -6,40 +6,44 @@ html {
 body {
 	color: #fff;
 	background: #222;
-	font-family: "Poppins", sans-serif;
-	font-size: 14px;
+	font-family: "Input Mono", sans-serif;
+	font-size: 12px;
 	line-height: 1.6;
 	height: 100%;
 	min-height: 100%;
 	font-weight: 300;
 }
-.logo {
-	padding-top: 2em;
-}
 h1 {
-	font-weight: 500;
-	font-size: 2em;
+	text-align: center;
+	font-weight: 700;
+	font-size: 1.618em;
 	margin: 0;
 	padding: .25em 0 0 0;
-}
-h1 + p {
-	line-height: 1;
-	padding: 0 0 2em 0;
 }
 p {
 	padding: 0 0 .5em 0;
 }
 article {
 	float: left;
-	background: transparent;
-	padding: 0 2em;
-	text-align: right;
-	min-height: 100%;
-	min-width: 38%;
+	margin: 1em;
+	border-radius: 1ex;
+	border: 1px solid rgba(0,0,0,.2);
+	min-height: calc(100% - 3em);
+	min-width: 33%;
+	background: rgba(255,255,255,.05);
+	display: flex;
+	flex-direction: column;
+}
+section {
+	flex: 1;
+	padding: 0.5em 1em;
 }
 footer {
+	flex: 0;
+	padding: 0.5em 1em 1em 1em;
+	text-align: center;
 	font-size: .8em;
-	margin-top: 1rem;
+	border-top: 1px solid rgba(255,255,255,.05);
 }
 #font-info p {
 	display: none;
@@ -55,10 +59,12 @@ a:hover,
 a:active {
 	opacity: 1;
 }
+label {
+	margin-right: .5ex;
+}
 select {
 	all: unset;
 	width: 9em;
-	margin-left: .5ex;
 	padding: 0 .5ex;
 	border: 1px solid rgba(100,100,100,.5);
 	border-radius: 3px;
@@ -98,6 +104,11 @@ form {
 }
 label + .nav-button {
 	margin-left: .5ex;
+}
+label[for="select-font"],
+label[for="select-language"],
+label[for="select-theme"] {
+	display: none;
 }
 .CodeMirror {
 	border: none;

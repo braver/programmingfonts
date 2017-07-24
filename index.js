@@ -8,12 +8,12 @@ var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
 });
 
 function applyColors() {
-	$("body").css("color", $(".CodeMirror").css("color"));
+	$("body").css("color", $(".CodeMirror .cm-def").css("color"));
 	$("body").css("background", $(".CodeMirror").css("background-color"));
 }
 
 // CodeMirror theme selector
-var input = document.getElementById("select");
+var input = document.getElementById("select-theme");
 function selectTheme() {
 	var theme = input.options[input.selectedIndex].innerHTML;
 	editor.setOption("theme", theme);
@@ -44,20 +44,27 @@ function selectFont() {
 
 	$("#font-info p").hide();
 	$("." + font).show();
+	document.cookie = "font=" + font;
 	updateHash();
 }
 
 function setSize() {
-	$(".CodeMirror").css({ fontSize: $("#size").val() + "px" });
+	var size = $("#size").val();
+	$(".CodeMirror").css({ fontSize: size + "px" });
+	document.cookie = "size=" + size;
 }
 function setSpacing() {
-	$(".CodeMirror").css({ lineHeight: $("#spacing").val() });
+	var spacing = $("#spacing").val();
+	$(".CodeMirror").css({ lineHeight: spacing });
+	document.cookie = "spacing=" + spacing;
 }
 function setAntialiasing() {
 	if ($("#aliasing").is(":checked")) {
 		$(".CodeMirror").removeClass("no-smooth");
+		document.cookie = "antialiasing=smooth";
 	} else {
 		$(".CodeMirror").addClass("no-smooth");
+		document.cookie = "antialiasing=no-smooth";
 	}
 }
 function selectLanguage() {
@@ -77,12 +84,26 @@ function updateHash(){
 $(document).ready(function(){
 	selectTheme();
 	applyColors();
+
+	var cookieValueSpacing = document.cookie.replace(/(?:(?:^|.*;\s*)spacing\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+	var cookieValueSize = document.cookie.replace(/(?:(?:^|.*;\s*)size\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+	var cookieValueAntialiasing = document.cookie.replace(/(?:(?:^|.*;\s*)antialiasing\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+
+	if (cookieValueSpacing !== "") {
+		$("#spacing").val(cookieValueSpacing);
+	}
+	if (cookieValueSize !== "") {
+		$("#size").val(cookieValueSize);
+	}
+	if (cookieValueAntialiasing === "smooth") {
+		$("#aliasing").prop('checked', true);
+	} else if (cookieValueAntialiasing === "no-smooth") {
+		$("#aliasing").prop('checked', false);
+	}
+
 	setSize();
 	setSpacing();
-
-	$(function() {
-		console.log("loaded")
-	});
+	setAntialiasing();
 
 	var font_aliases = [];
 	$.getJSON("fonts.json", function(data) {
@@ -98,8 +119,8 @@ $(document).ready(function(){
 			}
 
 			$("#font-info").append(
-				"<p class=\"" + v.alias + "\"> " + v.name +
-				" - " + "<a href=\""+ v.website + "\" rel=\"external\">" + v.author + "</a>" + yearString +
+				"<p class=\"" + v.alias + "\"> " +
+				"<a href=\""+ v.website + "\" rel=\"external\">" + v.author + "</a>" + yearString +
 				"</p>"
 			);
 		});
@@ -126,12 +147,12 @@ $(document).ready(function(){
 	});
 
 	$("#theme-next").click(function() {
-		$("#select :selected").next().prop("selected", true);
+		$("#select-theme :selected").next().prop("selected", true);
 		selectTheme();
 	});
 
 	$("#theme-previous").click(function() {
-		$("#select :selected").prev().prop("selected", true);
+		$("#select-theme :selected").prev().prop("selected", true);
 		selectTheme();
 	});
 });

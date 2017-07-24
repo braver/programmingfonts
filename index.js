@@ -17,15 +17,8 @@ var input = document.getElementById("select-theme");
 function selectTheme() {
 	var theme = input.options[input.selectedIndex].innerHTML;
 	editor.setOption("theme", theme);
+	document.cookie = "theme=" + theme;
 	applyColors();
-}
-
-var choice = document.location.search &&
-	decodeURIComponent(document.location.search.slice(1));
-
-if (choice) {
-	input.value = choice;
-	editor.setOption("theme", choice);
 }
 
 // ProgrammingFonts font selector
@@ -68,7 +61,9 @@ function setAntialiasing() {
 	}
 }
 function selectLanguage() {
-	editor.setOption("mode", $("#select_language").val().toLowerCase());
+	var lang = $("#select-language").val();
+	editor.setOption("mode", lang.toLowerCase());
+	document.cookie = "language=" + lang;
 }
 
 function updateHash(){
@@ -82,12 +77,12 @@ function updateHash(){
 }
 
 $(document).ready(function(){
-	selectTheme();
-	applyColors();
 
 	var cookieValueSpacing = document.cookie.replace(/(?:(?:^|.*;\s*)spacing\s*\=\s*([^;]*).*$)|^.*$/, "$1");
 	var cookieValueSize = document.cookie.replace(/(?:(?:^|.*;\s*)size\s*\=\s*([^;]*).*$)|^.*$/, "$1");
 	var cookieValueAntialiasing = document.cookie.replace(/(?:(?:^|.*;\s*)antialiasing\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+	var cookieValueTheme = document.cookie.replace(/(?:(?:^|.*;\s*)theme\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+	var cookieValueLanguage = document.cookie.replace(/(?:(?:^|.*;\s*)language\s*\=\s*([^;]*).*$)|^.*$/, "$1");
 
 	if (cookieValueSpacing !== "") {
 		$("#spacing").val(cookieValueSpacing);
@@ -100,10 +95,19 @@ $(document).ready(function(){
 	} else if (cookieValueAntialiasing === "no-smooth") {
 		$("#aliasing").prop('checked', false);
 	}
+	if (cookieValueTheme !== "") {
+		$("#select-theme").val(cookieValueTheme);
+	}
+	if (cookieValueLanguage !== "") {
+		$("#select-language").val(cookieValueLanguage);
+	}
 
+	selectTheme();
+	applyColors();
 	setSize();
 	setSpacing();
 	setAntialiasing();
+	selectLanguage();
 
 	var font_aliases = [];
 	$.getJSON("fonts.json", function(data) {

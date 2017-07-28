@@ -5,7 +5,9 @@ html {
 }
 body {
 	color: #fff;
+	color: var(--foreground);
 	background: #222;
+	background: var(--background);
 	font-family: "Input Mono", sans-serif;
 	font-size: 12px;
 	line-height: 1.6;
@@ -21,14 +23,26 @@ h1 {
 	padding: .25em 0 0 0;
 }
 p {
-	padding: 0 0 .5em 0;
+	padding: 0;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+	text-decoration: none;
+	color: inherit;
+}
+.octicon {
+	fill: currentcolor;
+	vertical-align: middle;
 }
 article {
 	float: left;
 	margin: 1em;
 	border-radius: 1ex;
 	border: 1px solid rgba(0,0,0,.2);
-	min-height: calc(100% - 3em);
+	height: calc(100% - 3em);
 	width: 34em;
 	background: rgba(255,255,255,.05);
 	display: flex;
@@ -36,7 +50,9 @@ article {
 }
 section {
 	flex: 1;
-	padding: 0.5em 1em;
+	flex-shrink: 0;
+	min-height: 1.6em;
+	padding: .5em 1em;
 	border-bottom: 1px solid rgba(0,0,0,.05);
 }
 section.config {
@@ -51,6 +67,44 @@ section.config > * {
 	text-align: center;
 	padding: 0;
 }
+section.select-list {
+	overflow: auto;
+}
+section.select-list .entry {
+	display: flex;
+	flex-direction: row;
+}
+section.select-list a[data-value] {
+	flex: 1;
+	display: block;
+	padding-bottom: .5em;
+	position: relative;
+}
+section.select-list a:hover .name,
+section.select-list a:active .name {
+	text-decoration: underline;
+}
+section.select-list a[rel="external"] {
+	opacity: 0;
+	transition: all .2s ease-in-out;
+}
+section.select-list .entry:hover a[rel="external"] {
+	opacity: 1;
+}
+section.select-list .details {
+	opacity: .6;
+	font-style: italic;
+	display: block;
+	font-size: .8em;
+	text-indent: 2em;
+}
+section.select-list .style {
+	position: absolute;
+	right: .5em;
+	top: .5em;
+	font-size: .7em;
+	opacity: .6;
+}
 footer {
 	flex: 0;
 	padding: 0.5em 1em 1em 1em;
@@ -59,19 +113,25 @@ footer {
 	border-top: 1px solid rgba(255,255,255,.05);
 	opacity: .6;
 }
+footer a:hover,
+footer a:active {
+	text-decoration: underline;
+}
 #font-info p {
 	display: none;
-	line-height: 1;
-	padding: 0 0 2em 0;
 }
-a,
-a:link,
-a:visited {
-	color: inherit;
+#font-info a,
+#font-info a:link,
+#font-info a:visited {
+	position: relative;
+	background: var(--foreground);
+	color: var(--background);
+	display: inline-block;
+	padding: 0 1em;
+	border-radius: 3px;
 }
-a:hover,
-a:active {
-	opacity: 1;
+#font-info a:active {
+	top: 1px;
 }
 label {
 	margin-right: .5ex;
@@ -126,7 +186,6 @@ form {
 label + .nav-button {
 	margin-left: .5ex;
 }
-label[for="select-font"],
 label[for="select-language"],
 label[for="select-theme"] {
 	display: none;

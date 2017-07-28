@@ -1,3 +1,5 @@
+var fonts=[];
+
 // CodeMirror
 var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
 	lineNumbers: true,
@@ -8,8 +10,7 @@ var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
 });
 
 function applyColors() {
-	$("body").css("color", $(".CodeMirror .cm-def").css("color"));
-	$("body").css("background", $(".CodeMirror").css("background-color"));
+	$("body").attr("style" ,"--foreground:" + $(".CodeMirror .cm-def").css("color") + "; --background:" + $(".CodeMirror").css("background-color") + ";");
 }
 
 // CodeMirror theme selector
@@ -23,7 +24,7 @@ function selectTheme() {
 
 // ProgrammingFonts font selector
 function selectFont() {
-	var font = $("#select-font").val();
+	var font = window.location.hash.substring(1);
 
 	if (font === "input") {
 		$("pre").css({ fontFamily: "Input Mono, monospace" });
@@ -36,10 +37,12 @@ function selectFont() {
 	}
 
 	$("#font-info p").hide();
-	$("." + font).show();
+	$("#font-info ." + font).show();
+
 	document.cookie = "font=" + font;
-	updateHash();
 }
+
+window.onhashchange = selectFont;
 
 function setSize() {
 	var size = $("#size").val();
@@ -64,16 +67,6 @@ function selectLanguage() {
 	var lang = $("#select-language").val();
 	editor.setOption("mode", lang.toLowerCase());
 	document.cookie = "language=" + lang;
-}
-
-function updateHash(){
-	var newHash = '#' + $("#select-font").val();
-	if(history.pushState) {
-		history.pushState(null, null, newHash);
-	}
-	else {
-		location.hash = newHash;
-	}
 }
 
 $(document).ready(function(){
@@ -109,44 +102,23 @@ $(document).ready(function(){
 	setAntialiasing();
 	selectLanguage();
 
-	var font_aliases = [];
+	var icon = '<svg class="octicon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 10h1v3c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h3v1H1v10h10v-3zM6 2l2.25 2.25L5 7.5 6.5 9l3.25-3.25L12 8V2H6z"></path></svg>'
+
 	$.getJSON("fonts.json", function(data) {
-
 		$.each(data, function(k,v) {
-			font_aliases.push(v.alias);
-			$("#select-font").append("<option value=\"" + v.alias + "\">" + v.name + "</option>");
-
-			if (typeof v.year === "undefined") {
-				yearString = "";
-			} else {
-				yearString = " (" + v.year + ")";
-			}
-
+			$("#select-font").append(
+				"<div class='entry'><a href='#" + v.alias + "' data-value=\"" + v.alias + "\">" +
+				"<span class='name'>" + v.name + "</span>" +
+				"<span class='details'>" + v.author + " — (" + v.year + ")</span>" +
+				"<span class='style'>" + v.style + ", " + v.rendering + "</span>" + "</a>" +
+				"<a href='" + v.website + "' rel=external> " + icon + "</a></div>"
+			);
 			$("#font-info").append(
 				"<p class=\"" + v.alias + "\"> " +
-				"<a href=\""+ v.website + "\" rel=\"external\">" + v.author + "</a>" + yearString +
+				"<a href=\""+ v.website + "\" rel=\"external\">Get " + v.name + " " + icon + "</a>" +
 				"</p>"
 			);
 		});
-
-		var hash = window.location.hash.substring(1);
-		if(hash){
-			$("#select-font").val(hash);
-		}
-		else {
-			$("#select-font").val('input'); // default to this awesome font
-		}
-
-		selectFont();
-	});
-
-	$("#next").click(function() {
-		$("#select-font :selected").next().prop("selected", true);
-		selectFont();
-	});
-
-	$("#previous").click(function() {
-		$("#select-font :selected").prev().prop("selected", true);
 		selectFont();
 	});
 

@@ -111,7 +111,27 @@
 				<button class="nav-button" id="next">↓</button>
 			</p>
 			<dix id="font-info"></dix>
+		</section>
+
+		<section class="config">
+			<p>
+				<label for="size">Size</label>
+				<input onchange="setSize()" type="number" id="size" value="14" min="1" max="32" step="1">
+			</p>
+			<p>
+				<label for="spacing">Spacing</label>
+				<input onchange="setSpacing()" type="number" id="spacing" value="1.4" min="1" max="2" step="0.1">
+			</p>
+			<p>
+				<label for="aliasing">AA</label>
+				<input onchange="setAntialiasing()" type="checkbox" id="aliasing" checked>
+			</p>
+		</section>
+
+		<section class="config">
 			<p class="select">
+				<button class="nav-button" id="theme-previous">↑</button>
+				<button class="nav-button" id="theme-next">↓</button>
 				<label for="select-theme">Theme</label>
 				<select onchange="selectTheme()" id="select-theme">
 					<option>3024-day</option>
@@ -163,8 +183,6 @@
 					<option>yeti</option>
 					<option>zenburn</option>
 				</select>
-				<button class="nav-button" id="theme-previous">↑</button>
-				<button class="nav-button" id="theme-next">↓</button>
 			</p>
 			<p class="select">
 				<label for="select-language">Language</label>
@@ -181,17 +199,6 @@
 					<option>Haskell</option>
 					<option>Swift</option>
 				</select>
-			</p>
-			<p>
-				<label for="size">Size</label>
-				<input onchange="setSize()" type="number" id="size" value="14" min="1" max="32" step="1">
-			</p>
-			<p>
-				<label for="spacing">Spacing</label>
-				<input onchange="setSpacing()" type="number" id="spacing" value="1.4" min="1" max="2" step="0.1">
-			</p>
-			<p>
-				<label for="aliasing">Anti-aliasing </label><input onchange="setAntialiasing()" type="checkbox" id="aliasing" checked>
 			</p>
 		</section>
 

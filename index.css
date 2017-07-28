@@ -29,7 +29,7 @@ article {
 	border-radius: 1ex;
 	border: 1px solid rgba(0,0,0,.2);
 	min-height: calc(100% - 3em);
-	min-width: 33%;
+	width: 34em;
 	background: rgba(255,255,255,.05);
 	display: flex;
 	flex-direction: column;
@@ -37,6 +37,19 @@ article {
 section {
 	flex: 1;
 	padding: 0.5em 1em;
+	border-bottom: 1px solid rgba(0,0,0,.05);
+}
+section.config {
+	border-top: 1px solid rgba(255,255,255,.05);
+	flex: 0;
+	padding: 0.5em 1em;
+	display: flex;
+	flex-direction: row;
+}
+section.config > * {
+	flex: 1;
+	text-align: center;
+	padding: 0;
 }
 footer {
 	flex: 0;
@@ -44,6 +57,7 @@ footer {
 	text-align: center;
 	font-size: .8em;
 	border-top: 1px solid rgba(255,255,255,.05);
+	opacity: .6;
 }
 #font-info p {
 	display: none;
@@ -61,12 +75,14 @@ a:active {
 }
 label {
 	margin-right: .5ex;
+	font-style: italic;
+	opacity: .6;
 }
 select {
 	all: unset;
 	width: 9em;
 	padding: 0 .5ex;
-	border: 1px solid rgba(100,100,100,.5);
+	border: 1px solid transparent;
 	border-radius: 3px;
 	white-space: nowrap;
 	overflow: hidden;
@@ -77,15 +93,20 @@ select option {
 	background: #fff;
 	color: #000;
 }
-#size,
-#spacing {
+input[type="number"] {
 	all: unset;
 	width: 4em;
 	margin-left: .5ex;
 	padding: 0 .5ex;
-	border: 1px solid rgba(100,100,100,.5);
+	border: 1px solid transparent;
 	border-radius: 3px;
 	text-align: left;
+}
+input[type="number"]:hover,
+input[type="number"]:focus,
+select:hover,
+select:focus {
+	border-color: rgba(100,100,100,.5);
 }
 pre,
 textarea,

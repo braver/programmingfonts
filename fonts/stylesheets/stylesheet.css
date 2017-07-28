@@ -749,6 +749,12 @@
   src: url('../resources/proggy-clean/proggy-clean.woff');
 }
 @font-face {
+  font-family: 'press-start-2p';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/press-start-2p/press-start-2p.ttf');
+}
+@font-face {
   font-family: 'pt';
   font-weight: normal;
   font-style: normal;

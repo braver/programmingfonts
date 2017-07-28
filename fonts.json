@@ -436,6 +436,15 @@
 	"style"     : "sans",
 	"rendering" : "vector"
 },{
+	"alias"     : "press-start-2p",
+	"name"      : "Press Start 2P",
+	"author"    : "Cody Boisclair",
+	"year"      : 2012,
+	"website"   : "https://github.com/codeman38/PressStart2P",
+	"ligatures" : false,
+	"style"     : "sans",
+	"rendering" : "bitmap"
+},{
 	"alias"     : "proggy-clean",
 	"name"      : "Proggy Clean",
 	"author"    : "Tristan Grimmer",

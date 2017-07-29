@@ -18,7 +18,7 @@ var input = document.getElementById("select-theme");
 function selectTheme() {
 	var theme = input.options[input.selectedIndex].innerHTML;
 	editor.setOption("theme", theme);
-	document.cookie = "theme=" + theme;
+	document.cookie = "theme=" + theme + ";max-age=172800";
 	applyColors();
 }
 
@@ -39,7 +39,7 @@ function selectFont() {
 	$("#font-info p").hide();
 	$("#font-info ." + font).show();
 
-	document.cookie = "font=" + font;
+	document.cookie = "font=" + font + ";max-age=172800";
 }
 
 window.onhashchange = selectFont;
@@ -47,26 +47,26 @@ window.onhashchange = selectFont;
 function setSize() {
 	var size = $("#size").val();
 	$(".CodeMirror").css({ fontSize: size + "px" });
-	document.cookie = "size=" + size;
+	document.cookie = "size=" + size + ";max-age=172800";
 }
 function setSpacing() {
 	var spacing = $("#spacing").val();
 	$(".CodeMirror").css({ lineHeight: spacing });
-	document.cookie = "spacing=" + spacing;
+	document.cookie = "spacing=" + spacing + ";max-age=172800";
 }
 function setAntialiasing() {
 	if ($("#aliasing").is(":checked")) {
 		$(".CodeMirror").removeClass("no-smooth");
-		document.cookie = "antialiasing=smooth";
+		document.cookie = "antialiasing=smooth" + ";max-age=172800";
 	} else {
 		$(".CodeMirror").addClass("no-smooth");
-		document.cookie = "antialiasing=no-smooth";
+		document.cookie = "antialiasing=no-smooth" + ";max-age=172800";
 	}
 }
 function selectLanguage() {
 	var lang = $("#select-language").val();
 	editor.setOption("mode", lang.toLowerCase());
-	document.cookie = "language=" + lang;
+	document.cookie = "language=" + lang + ";max-age=172800";
 }
 
 $(document).ready(function(){

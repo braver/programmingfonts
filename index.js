@@ -16,7 +16,11 @@ function applyColors() {
 // CodeMirror theme selector
 var input = document.getElementById("select-theme");
 function selectTheme() {
-	var theme = input.options[input.selectedIndex].innerHTML;
+	if (input.selectedIndex > -1) {
+		var theme = input.options[input.selectedIndex].innerHTML;
+	} else {
+		var theme = "monokai";
+	}
 	editor.setOption("theme", theme);
 	document.cookie = "theme=" + theme + ";max-age=172800";
 	applyColors();

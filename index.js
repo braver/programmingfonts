@@ -9,10 +9,6 @@ var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
 	lineWrapping: true
 });
 
-function applyColors() {
-	$("body").attr("style" ,"--foreground:" + $(".CodeMirror").css("color") + "; --background:" + $(".CodeMirror").css("background-color") + ";");
-}
-
 // CodeMirror theme selector
 var input = document.getElementById("select-theme");
 function selectTheme() {
@@ -23,7 +19,6 @@ function selectTheme() {
 	}
 	editor.setOption("theme", theme);
 	document.cookie = "theme=" + theme + ";max-age=172800";
-	applyColors();
 }
 
 // ProgrammingFonts font selector
@@ -39,9 +34,8 @@ function selectFont() {
 		$("textarea").css({ fontFamily: font + ", monospace" });
 		$(".CodeMirror").css({ fontFamily: font + ", monospace" });
 	}
-
-	$("#font-info p").hide();
-	$("#font-info ." + font).show();
+	$("#select-font a[data-value]").removeClass("active");
+	$("#select-font a[data-value='" + font + "']").addClass("active");
 
 	document.cookie = "font=" + font + ";max-age=172800";
 }
@@ -100,13 +94,12 @@ $(document).ready(function(){
 	}
 
 	selectTheme();
-	applyColors();
 	setSize();
 	setSpacing();
 	setAntialiasing();
 	selectLanguage();
 
-	var icon = '<svg class="octicon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 10h1v3c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h3v1H1v10h10v-3zM6 2l2.25 2.25L5 7.5 6.5 9l3.25-3.25L12 8V2H6z"></path></svg>'
+	var icon = '<svg class="octicon" viewBox="0 0 12 14" version="1.1" width="12" height="14" aria-hidden="true"><path fill-rule="evenodd" d="M11 10h1v3c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h3v1H1v10h10v-3zM6 2l2.25 2.25L5 7.5 6.5 9l3.25-3.25L12 8V2H6z"></path></svg>'
 
 	$.getJSON("fonts.json", function(data) {
 		$.each(data, function(k,v) {
@@ -116,11 +109,6 @@ $(document).ready(function(){
 				"<span class='details'>" + v.author + " (" + v.year + ") — " + v.style + ", " + v.rendering + "</span>" +
 				"</a>" +
 				"<a href='" + v.website + "' rel=external> " + icon + "</a></div>"
-			);
-			$("#font-info").append(
-				"<p class=\"" + v.alias + "\"> " +
-				"<a href=\""+ v.website + "\" rel=\"external\">Get " + v.name + " " + icon + "</a>" +
-				"</p>"
 			);
 		});
 		selectFont();

@@ -10,7 +10,7 @@ var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
 });
 
 function applyColors() {
-	$("body").attr("style" ,"--foreground:" + $(".CodeMirror .cm-def").css("color") + "; --background:" + $(".CodeMirror").css("background-color") + ";");
+	$("body").attr("style" ,"--foreground:" + $(".CodeMirror").css("color") + "; --background:" + $(".CodeMirror").css("background-color") + ";");
 }
 
 // CodeMirror theme selector

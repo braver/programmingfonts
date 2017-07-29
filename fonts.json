@@ -285,7 +285,7 @@
 },{
 	"alias"     : "latin-modern",
 	"name"      : "Latin Modern Mono",
-	"author"    : "Bogusław Jackowski, Janusz M. Nowacki",
+	"author"    : "Donald E. Knuth",
 	"year"      : 2002,
 	"website"   : "http://www.gust.org.pl/gust/projects/e-foundry/latin-modern",
 	"ligatures" : false,
@@ -456,7 +456,7 @@
 },{
 	"alias"     : "pt",
 	"name"      : "PT Mono",
-	"author"    : "Alexandra Korolkova, Isabella Chaeva",
+	"author"    : "Alexandra Korolkova",
 	"year"      : 2011,
 	"website"   : "http://paratype.com/public/",
 	"ligatures" : false,

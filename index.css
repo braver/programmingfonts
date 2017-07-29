@@ -39,10 +39,8 @@ a:active {
 }
 article {
 	float: left;
-	margin: 1em;
-	border-radius: 1ex;
 	border: 1px solid rgba(0,0,0,.2);
-	height: calc(100% - 3em);
+	height: 100%;
 	width: 34em;
 	background: rgba(255,255,255,.05);
 	display: flex;
@@ -53,10 +51,11 @@ section {
 	flex-shrink: 0;
 	min-height: 1.6em;
 	padding: .5em 1em;
-	border-bottom: 1px solid rgba(0,0,0,.05);
+	border-bottom: 1px solid rgba(0,0,0,.1);
 }
 section.config {
-	border-top: 1px solid rgba(255,255,255,.05);
+	border-top: 1px solid rgba(255,255,255,.1);
+	background: rgba(255,255,255,.05);
 	flex: 0;
 	padding: 0.5em 1em;
 	display: flex;
@@ -103,8 +102,9 @@ footer {
 	padding: 0.5em 1em 1em 1em;
 	text-align: center;
 	font-size: .8em;
-	border-top: 1px solid rgba(255,255,255,.05);
+	border-top: 1px solid rgba(255,255,255,.1);
 	opacity: .6;
+	background: rgba(255,255,255,.05);
 }
 footer a:hover,
 footer a:active {

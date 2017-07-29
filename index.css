@@ -202,19 +202,3 @@ label[for="select-theme"] {
 .CodeMirror-gutters {
 	background: transparent;
 }
-@media (max-width: 560px) {
-	article,
-	form,
-	.CodeMirror {
-		height: auto;
-		min-height: 0;
-	}
-	article {
-		float: none;
-		text-align: left;
-	}
-	h1 + p,
-	footer {
-		display: none;
-	}
-}

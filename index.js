@@ -109,8 +109,8 @@ $(document).ready(function(){
 			$("#select-font").append(
 				"<div class='entry'><a href='#" + v.alias + "' data-value=\"" + v.alias + "\">" +
 				"<span class='name'>" + v.name + "</span>" +
-				"<span class='details'>" + v.author + " — (" + v.year + ")</span>" +
-				"<span class='style'>" + v.style + ", " + v.rendering + "</span>" + "</a>" +
+				"<span class='details'>" + v.author + " (" + v.year + ") — " + v.style + ", " + v.rendering + "</span>" +
+				"</a>" +
 				"<a href='" + v.website + "' rel=external> " + icon + "</a></div>"
 			);
 			$("#font-info").append(

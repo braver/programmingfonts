@@ -98,13 +98,6 @@ section.select-list .details {
 	font-size: .8em;
 	text-indent: 2em;
 }
-section.select-list .style {
-	position: absolute;
-	right: .5em;
-	top: .5em;
-	font-size: .7em;
-	opacity: .6;
-}
 footer {
 	flex: 0;
 	padding: 0.5em 1em 1em 1em;

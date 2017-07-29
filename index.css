@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 html {
 	height: 100%;
 	min-height: 100%;
@@ -44,22 +47,21 @@ a:active {
 	max-height: 100%;
 	width: 28em;
 	overflow: hidden;
-	transition: width .2s ease-in-out;
 	position: relative;
-	z-index: 3;
+	z-index: 2;
 }
 article {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	width: 28em;
+	width: 100%;
 }
 section {
 	flex: 1;
 	flex-shrink: 0;
 }
 section.config {
-	min-height: 20px;
+	min-height: 30px;
 	font-size: 10px;
 	background: #eee;
 	flex: 0;
@@ -221,23 +223,18 @@ label[for="select-theme"] {
 	background: transparent;
 }
 
-.toggle {
-	display: none;
-	position: fixed;
-	z-index: 2;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 40px;
-}
 @media screen and (max-width: 56em) {
-	.toggle {
-		display: block;
+	.article-wrapper,
+	form {
+		width: 100%;
+		height: 50%;
+		min-height: 50%;
+		float: none;
 	}
-	body.menu-visible .toggle {
-		left: 28em;
+	section.select-list .entry {
+		padding: 0 1em;
 	}
-	body:not(.menu-visible) .article-wrapper {
-		width: 10px;
+	footer h1 + p {
+		display: none;
 	}
 }

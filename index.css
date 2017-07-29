@@ -19,7 +19,7 @@ body {
 h1 {
 	text-align: center;
 	font-weight: 700;
-	font-size: 1.414em;
+	font-size: 14px;
 	margin: 0;
 	padding: .25em 0 0 0;
 }
@@ -37,13 +37,22 @@ a:active {
 .octicon {
 	fill: currentcolor;
 }
-article {
+.article-wrapper {
 	float: left;
 	border-right: 1px solid #4a4a4a;
 	height: 100%;
+	max-height: 100%;
 	width: 28em;
+	overflow: hidden;
+	transition: width .2s ease-in-out;
+	position: relative;
+	z-index: 3;
+}
+article {
+	height: 100%;
 	display: flex;
 	flex-direction: column;
+	width: 28em;
 }
 section {
 	flex: 1;
@@ -127,28 +136,12 @@ footer {
 	background: #e4e4e4;
 	color: #777;
 }
+footer h1 + p {
+	font-style: italic;
+}
 footer a:hover,
 footer a:active {
 	text-decoration: underline;
-}
-#font-info p {
-	display: none;
-}
-#font-info a.button,
-#font-info a.button:link,
-#font-info a.button:visited {
-	position: relative;
-	background: #e4e4e4;
-	color: #777;
-	display: inline-block;
-	padding: 0 1ex;
-	border-radius: 3px;
-	font-size: 14px;
-	line-height: 22px;
-	margin-top: 2px;
-}
-#font-info a.button:active {
-	top: 1px;
 }
 label {
 	margin-right: .5ex;
@@ -193,6 +186,8 @@ textarea,
 form {
 	height: 100%;
 	min-height: 100%;
+	position: relative;
+	z-index: 1;
 }
 .nav-button {
 	all: unset;
@@ -224,4 +219,25 @@ label[for="select-theme"] {
 }
 .CodeMirror-gutters {
 	background: transparent;
+}
+
+.toggle {
+	display: none;
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 40px;
+}
+@media screen and (max-width: 56em) {
+	.toggle {
+		display: block;
+	}
+	body.menu-visible .toggle {
+		left: 28em;
+	}
+	body:not(.menu-visible) .article-wrapper {
+		width: 10px;
+	}
 }

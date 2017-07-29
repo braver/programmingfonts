@@ -89,101 +89,105 @@
 </head>
 <body>
 
-	<article>
-		<section class="select-list">
-			<div id="select-font">
-				<!-- filled from json -->
-			</div>
-		</section>
-		<section class="config">
-			<p>
-				<label for="size">Size</label>
-				<input onchange="setSize()" type="number" id="size" value="16" min="1" max="32" step="1">
-			</p>
-			<p>
-				<label for="spacing">Spacing</label>
-				<input onchange="setSpacing()" type="number" id="spacing" value="1.4" min="1" max="2" step="0.1">
-			</p>
-			<p>
-				<label for="aliasing">AA</label>
-				<input onchange="setAntialiasing()" type="checkbox" id="aliasing" checked>
-			</p>
-		</section>
+	<div class="article-wrapper">
+		<article>
+			<section class="select-list">
+				<div id="select-font">
+					<!-- filled from json -->
+				</div>
+			</section>
+			<section class="config">
+				<p>
+					<label for="size">Size</label>
+					<input onchange="setSize()" type="number" id="size" value="16" min="1" max="32" step="1">
+				</p>
+				<p>
+					<label for="spacing">Spacing</label>
+					<input onchange="setSpacing()" type="number" id="spacing" value="1.4" min="1" max="2" step="0.1">
+				</p>
+				<p>
+					<label for="aliasing">AA</label>
+					<input onchange="setAntialiasing()" type="checkbox" id="aliasing" checked>
+				</p>
+			</section>
 
-		<section class="config">
-			<p class="select">
-				<button class="nav-button" id="theme-previous">↑</button>
-				<button class="nav-button" id="theme-next">↓</button>
-				<label for="select-theme">Theme</label>
-				<select onchange="selectTheme()" id="select-theme">
-					<option>3024-day</option>
-					<option>3024-night</option>
-					<option>abcdef</option>
-					<option>ambiance</option>
-					<option>base16-dark</option>
-					<option>base16-light</option>
-					<option>bespin</option>
-					<option>blackboard</option>
-					<option>cobalt</option>
-					<option>colorforth</option>
-					<option>dracula</option>
-					<option>duotone-dark</option>
-					<option>duotone-light</option>
-					<option>erlang-dark</option>
-					<option>hopscotch</option>
-					<option>isotope</option>
-					<option>lesser-dark</option>
-					<option>liquibyte</option>
-					<option>material</option>
-					<option>mbo</option>
-					<option>mdn-like</option>
-					<option>midnight</option>
-					<option selected>monokai</option>
-					<option>neo</option>
-					<option>night</option>
-					<option>paraiso-dark</option>
-					<option>paraiso-light</option>
-					<option>pastel-on-dark</option>
-					<option>railscasts</option>
-					<option>rubyblue</option>
-					<option>seti</option>
-					<option>the-matrix</option>
-					<option>tomorrow-night-bright</option>
-					<option>tomorrow-night-eighties</option>
-					<option>twilight</option>
-					<option>vibrant-ink</option>
-					<option>xq-dark</option>
-					<option>yeti</option>
-				</select>
-			</p>
-			<p class="select">
-				<label for="select-language">Language</label>
-				<select onchange="selectLanguage()" id="select-language">
-					<option selected="">JavaScript</option>
-					<option>PHP</option>
-					<option value="clike">C (-like)</option>
-					<option>Ruby</option>
-					<option>CSS</option>
-					<option>Perl</option>
-					<option>Shell</option>
-					<option>R</option>
-					<option>Go</option>
-					<option>Haskell</option>
-					<option>Swift</option>
-				</select>
-			</p>
-		</section>
+			<section class="config">
+				<p class="select">
+					<button class="nav-button" id="theme-previous">↑</button>
+					<button class="nav-button" id="theme-next">↓</button>
+					<label for="select-theme">Theme</label>
+					<select onchange="selectTheme()" id="select-theme">
+						<option>3024-day</option>
+						<option>3024-night</option>
+						<option>abcdef</option>
+						<option>ambiance</option>
+						<option>base16-dark</option>
+						<option>base16-light</option>
+						<option>bespin</option>
+						<option>blackboard</option>
+						<option>cobalt</option>
+						<option>colorforth</option>
+						<option>dracula</option>
+						<option>duotone-dark</option>
+						<option>duotone-light</option>
+						<option>erlang-dark</option>
+						<option>hopscotch</option>
+						<option>isotope</option>
+						<option>lesser-dark</option>
+						<option>liquibyte</option>
+						<option>material</option>
+						<option>mbo</option>
+						<option>mdn-like</option>
+						<option>midnight</option>
+						<option selected>monokai</option>
+						<option>neo</option>
+						<option>night</option>
+						<option>paraiso-dark</option>
+						<option>paraiso-light</option>
+						<option>pastel-on-dark</option>
+						<option>railscasts</option>
+						<option>rubyblue</option>
+						<option>seti</option>
+						<option>the-matrix</option>
+						<option>tomorrow-night-bright</option>
+						<option>tomorrow-night-eighties</option>
+						<option>twilight</option>
+						<option>vibrant-ink</option>
+						<option>xq-dark</option>
+						<option>yeti</option>
+					</select>
+				</p>
+				<p class="select">
+					<label for="select-language">Language</label>
+					<select onchange="selectLanguage()" id="select-language">
+						<option selected="">JavaScript</option>
+						<option>PHP</option>
+						<option value="clike">C (-like)</option>
+						<option>Ruby</option>
+						<option>CSS</option>
+						<option>Perl</option>
+						<option>Shell</option>
+						<option>R</option>
+						<option>Go</option>
+						<option>Haskell</option>
+						<option>Swift</option>
+					</select>
+				</p>
+			</section>
 
-		<footer>
-			<h1>Programming Fonts</h1>
-			Test drive over 50 free programming fonts! <br>
-			<a href="http://programmingfonts.org">Blog</a> -
-			<a href="http://programmingfonts.org/list" rel="external">The full list</a> -
-			<a href="http://atom.io/packages/fonts" rel="external">Atom package</a> -
-			<a href="https://github.com/braver/programmingfonts">Github</a>
-		</footer>
+			<footer>
+				<h1>Programming Fonts</h1>
+				<p>Test drive over 50 free programming fonts!</p>
+				<p>
+					<a href="http://programmingfonts.org">Blog</a> -
+					<a href="http://programmingfonts.org/list" rel="external">The full list</a> -
+					<a href="http://atom.io/packages/fonts" rel="external">Atom package</a> -
+					<a href="https://github.com/braver/programmingfonts">Github</a>
+				</p>
+			</footer>
 
-	</article>
+		</article>
+	</div>
 
 <form>
 <textarea id="code" name="code">
@@ -220,6 +224,7 @@ function updateGutters(cm) {
 </textarea>
 </form>
 
+<div class="toggle"></div>
 
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="ga.js"></script>

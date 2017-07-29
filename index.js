@@ -38,6 +38,7 @@ function selectFont() {
 	$("#select-font a[data-value='" + font + "']").addClass("active");
 
 	document.cookie = "font=" + font + ";max-age=172800";
+	$("body").removeClass("menu-visible");
 }
 
 window.onhashchange = selectFont;
@@ -123,4 +124,8 @@ $(document).ready(function(){
 		$("#select-theme :selected").prev().prop("selected", true);
 		selectTheme();
 	});
+
+	$(".toggle").click(function(){
+		$("body").toggleClass("menu-visible");
+	})
 });

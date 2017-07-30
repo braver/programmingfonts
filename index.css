@@ -84,15 +84,14 @@ section.select-list {
 	overflow: auto;
 }
 section.select-list .entry {
-	display: flex;
-	flex-direction: row;
+	position: relative;
+	display: block;
 	padding: .5em 1em;
 }
 section.select-list .entry:hover {
 	background: #fff;
 }
 section.select-list a[data-value] {
-	flex: 1;
 	display: block;
 	position: relative;
 	overflow: hidden;
@@ -104,24 +103,36 @@ section.select-list a:active .name {
 section.select-list .active .name {
 	font-weight: bold;
 }
-section.select-list a[rel="external"] {
-	position: relative;
+section.select-list a.website {
+	position: absolute;
+	top: 5px;
+	right: 20px;
 	opacity: 0;
 	transition: all .2s ease-in-out;
-	flex: 0;
+	font-size: 10px;
+	padding: 2px 1ex;
 }
-section.select-list .entry:hover a[rel="external"] {
-	opacity: .5;
+section.select-list a.website span {
+	display: inline-block;
+	padding-right: 1ex;
 }
-section.select-list .entry a[rel="external"]:hover,
-section.select-list .entry a[rel="external"]:active {
+section.select-list .entry:hover a.website {
+	color: #e4e4e4;
 	opacity: 1;
 }
-section.select-list .entry a[rel="external"]:active {
-	top: 1px;
+section.select-list .entry .active + a.website,
+section.select-list .entry .active + a.website,
+section.select-list .entry a.website:hover,
+section.select-list .entry a.website:active {
+	background: #e4e4e4;
+	color: #777;
+	opacity: 1;
+}
+section.select-list a.website:active {
+	margin-top: 1px;
 }
 section.select-list .details {
-	opacity: .6;
+	color: #777;
 	font-style: italic;
 	display: block;
 	font-size: 10px;
@@ -227,14 +238,17 @@ label[for="select-theme"] {
 	.article-wrapper,
 	form {
 		width: 100%;
-		height: 50%;
-		min-height: 50%;
+		height: 50vh;
+		min-height: 50vh;
 		float: none;
 	}
 	section.select-list .entry {
 		padding: 0 1em;
 	}
-	footer h1 + p {
+}
+@media screen and (max-width: 56em) and (max-height: 36em) {
+	footer p:first-of-type,
+	footer p:first-of-type + p {
 		display: none;
 	}
 }

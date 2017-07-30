@@ -103,12 +103,16 @@ $(document).ready(function(){
 
 	$.getJSON("fonts.json", function(data) {
 		$.each(data, function(k,v) {
+			var liga_info = "";
+			if (v.ligatures) {
+				liga_info = ", ligatures";
+			}
 			$("#select-font").append(
 				"<div class='entry'><a href='#" + v.alias + "' data-value=\"" + v.alias + "\">" +
 				"<span class='name'>" + v.name + "</span>" +
-				"<span class='details'>" + v.author + " (" + v.year + ") — " + v.style + ", " + v.rendering + "</span>" +
+				"<span class='details'>" + v.author + " (" + v.year + ") — " + v.style + ", " + v.rendering + liga_info + "</span>" +
 				"</a>" +
-				"<a href='" + v.website + "' rel=external> " + icon + "</a></div>"
+				"<a class='website' href='" + v.website + "' rel=external> <span>Info & Download</span>" + icon + "</a></div>"
 			);
 		});
 		selectFont();

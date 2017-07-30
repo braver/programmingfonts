@@ -106,7 +106,7 @@ section.select-list .active .name {
 section.select-list a.website {
 	position: absolute;
 	top: 5px;
-	right: 20px;
+	right: 10px;
 	opacity: 0;
 	transition: all .2s ease-in-out;
 	font-size: 10px;
@@ -244,6 +244,9 @@ label[for="select-theme"] {
 	}
 }
 @media screen and (max-width: 56em) and (max-height: 36em) {
+	section.select-list a.website {
+		top: 0;
+	}
 	section.select-list .entry {
 		padding: 0 1em;
 	}

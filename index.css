@@ -242,11 +242,11 @@ label[for="select-theme"] {
 		min-height: 50vh;
 		float: none;
 	}
+}
+@media screen and (max-width: 56em) and (max-height: 36em) {
 	section.select-list .entry {
 		padding: 0 1em;
 	}
-}
-@media screen and (max-width: 56em) and (max-height: 36em) {
 	footer p:first-of-type,
 	footer p:first-of-type + p {
 		display: none;

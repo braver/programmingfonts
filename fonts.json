@@ -191,7 +191,7 @@
 	"website"   : "https://github.com/kika/fixedsys",
 	"ligatures" : true,
 	"style"     : "sans",
-	"rendering" : "vector"
+	"rendering" : "bitmap"
 },{
 	"alias"     : "generic",
 	"name"      : "Generic Mono",

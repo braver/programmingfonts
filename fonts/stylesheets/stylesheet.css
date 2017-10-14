@@ -485,6 +485,18 @@
   src: url('../resources/latin-modern/latin-modern.woff');
 }
 @font-face {
+  font-family: 'league';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/league/league-bold.woff');
+}
+@font-face {
+  font-family: 'league';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/league/league.woff');
+}
+@font-face {
   font-family: 'lekton';
   font-weight: bold;
   font-style: normal;
@@ -737,6 +749,12 @@
   src: url('../resources/oxygen/oxygen.otf');
 }
 @font-face {
+  font-family: 'press-start-2p';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/press-start-2p/press-start-2p.ttf');
+}
+@font-face {
   font-family: 'profont';
   font-weight: normal;
   font-style: normal;
@@ -747,12 +765,6 @@
   font-weight: normal;
   font-style: normal;
   src: url('../resources/proggy-clean/proggy-clean.woff');
-}
-@font-face {
-  font-family: 'press-start-2p';
-  font-weight: normal;
-  font-style: normal;
-  src: url('../resources/press-start-2p/press-start-2p.ttf');
 }
 @font-face {
   font-family: 'pt';

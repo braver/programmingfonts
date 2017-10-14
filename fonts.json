@@ -292,6 +292,15 @@
 	"style"     : "serif",
 	"rendering" : "vector"
 },{
+	"alias"     : "league",
+	"name"      : "League Mono",
+	"author"    : "Tyler Fink",
+	"year"      : 2017,
+	"website"   : "http://leaguemono.tylerfinck.com",
+	"ligatures" : false,
+	"style"     : "sans",
+	"rendering" : "vector"
+},{
 	"alias"     : "lekton",
 	"name"      : "Lekton",
 	"author"    : "Accademia di Belle Arti di Urbino",

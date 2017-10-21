@@ -167,6 +167,30 @@
   src: url('../resources/consolamono/consolamono.ttf');
 }
 @font-face {
+  font-family: 'courier-prime';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/courier-prime/courier-prime-bold-italic.ttf');
+}
+@font-face {
+  font-family: 'courier-prime';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/courier-prime/courier-prime-bold.ttf');
+}
+@font-face {
+  font-family: 'courier-prime';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/courier-prime/courier-prime-italic.ttf');
+}
+@font-face {
+  font-family: 'courier-prime';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/courier-prime/courier-prime.ttf');
+}
+@font-face {
   font-family: 'courier-prime-code';
   font-weight: normal;
   font-style: italic;

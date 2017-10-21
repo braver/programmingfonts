@@ -167,6 +167,18 @@
   src: url('../resources/consolamono/consolamono.ttf');
 }
 @font-face {
+  font-family: 'courier-prime-code';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/courier-prime-code/courier-prime-code-italic.ttf');
+}
+@font-face {
+  font-family: 'courier-prime-code';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/courier-prime-code/courier-prime-code.ttf');
+}
+@font-face {
   font-family: 'cousine';
   font-weight: bold;
   font-style: italic;

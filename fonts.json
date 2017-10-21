@@ -103,6 +103,15 @@
 	"style"     : "sans",
 	"rendering" : "vector"
 },{
+	"alias"     : "courier-prime-code",
+	"name"      : "Courier Prime Code",
+	"author"    : "Alan Dague-Greene",
+	"year"      : 2013,
+	"website"   : "https://quoteunquoteapps.com/courierprime",
+	"ligatures" : false,
+	"style"     : "serif",
+	"rendering" : "vector"
+},{
 	"alias"     : "cutive",
 	"name"      : "Cutive Mono",
 	"author"    : "Vernon Adams",

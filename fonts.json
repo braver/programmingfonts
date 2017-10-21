@@ -109,7 +109,7 @@
 	"year"      : 2013,
 	"website"   : "https://quoteunquoteapps.com/courierprime",
 	"ligatures" : false,
-	"style"     : "serif",
+	"style"     : "sans",
 	"rendering" : "vector"
 },{
 	"alias"     : "cutive",

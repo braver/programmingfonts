@@ -454,6 +454,15 @@
 	"style"     : "sans",
 	"rendering" : "vector"
 },{
+	"alias"     : "plex-mono",
+	"name"      : "Plex Mono",
+	"author"    : "IBM",
+	"year"      : 2017,
+	"website"   : "https://ibm.github.io/type/index.html",
+	"ligatures" : false,
+	"style"     : "sans",
+	"rendering" : "vector"
+},{
 	"alias"     : "profont",
 	"name"      : "Profont",
 	"author"    : "Andrew Welch",

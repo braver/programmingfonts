@@ -785,6 +785,30 @@
   src: url('../resources/oxygen/oxygen.otf');
 }
 @font-face {
+  font-family: 'plex-mono';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/plex-mono/plex-mono-semibold-italic.woff');
+}
+@font-face {
+  font-family: 'plex-mono';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/plex-mono/plex-mono-semibold.woff');
+}
+@font-face {
+  font-family: 'plex-mono';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/plex-mono/plex-mono-italic.woff');
+}
+@font-face {
+  font-family: 'plex-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/plex-mono/plex-mono.woff');
+}
+@font-face {
   font-family: 'press-start-2p';
   font-weight: normal;
   font-style: normal;

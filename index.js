@@ -27,6 +27,10 @@ function selectTheme() {
 function selectFont() {
 	var font = window.location.hash.substring(1);
 
+	if (font === "") {
+		font = "input";
+	}
+
 	if (font === "input") {
 		$("pre").css({ fontFamily: "Input Mono, monospace" });
 		$("textarea").css({ fontFamily: "Input Mono, monospace" });

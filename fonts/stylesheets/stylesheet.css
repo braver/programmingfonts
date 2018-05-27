@@ -767,6 +767,12 @@
   src: url('../resources/office-code-pro/office-code-pro.woff');
 }
 @font-face {
+  font-family: 'opendyslexic';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/opendyslexic/opendyslexic.otf');
+}
+@font-face {
   font-family: 'overpass';
   font-weight: bold;
   font-style: normal;

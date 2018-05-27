@@ -436,6 +436,15 @@
 	"style"     : "sans",
 	"rendering" : "vector"
 },{
+	"alias"     : "opendyslexic",
+	"name"      : "OpenDyslexic",
+	"author"    : "Abbie Gonzalez",
+	"year"      : 2011,
+	"website"   : "https://www.opendyslexic.org",
+	"ligatures" : false,
+	"style"     : "sans",
+	"rendering" : "vector"
+},{
 	"alias"     : "overpass",
 	"name"      : "Overpass Mono",
 	"author"    : "Delve Withrington",

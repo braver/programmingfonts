@@ -11,4 +11,4 @@ function The_QuickBrown(@fox) {
 }
 
 
-// render @ 24 1,2, clip 684 wide
+// render @ 24 1.2, clip 684 wide

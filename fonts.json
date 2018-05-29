@@ -29,6 +29,26 @@
 	"rendering" : "vector",
 	"variants"  : ["regular", "italic", "bold", "bold-italic"]
 },{
+	"alias"     : "apl2741",
+	"name"      : "APL2741",
+	"author"    : "Adrian Smith",
+	"year"      : 2003,
+	"website"   : "http://apl385.com/fonts/index.htm",
+	"ligatures" : false,
+	"style"     : "sans",
+	"rendering" : "vector",
+	"variants"  : ["regular"]
+},{
+	"alias"     : "apl385",
+	"name"      : "APL385",
+	"author"    : "Adrian Smith",
+	"year"      : 2003,
+	"website"   : "http://apl385.com/fonts/index.htm",
+	"ligatures" : false,
+	"style"     : "sans",
+	"rendering" : "vector",
+	"variants"  : ["regular"]
+},{
 	"alias"     : "aurulent",
 	"name"      : "Aurulent Sans Mono",
 	"author"    : "Stephen G. Hartke",

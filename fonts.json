@@ -78,6 +78,15 @@
 	"style"     : "sans",
 	"rendering" : "vector"
 },{
+	"alias"     : "borg-sans-mono",
+	"name"      : "Borg Sans Mono",
+	"author"    : "Marnen E. Laibow-Koser",
+	"year"      : 2016,
+	"website"   : "https://github.com/marnen/borg-sans-mono",
+	"ligatures" : true,
+	"style"     : "sans",
+	"rendering" : "vector"
+},{
 	"alias"     : "bpmono",
 	"name"      : "BPmono",
 	"author"    : "Backpacker",

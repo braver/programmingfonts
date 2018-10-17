@@ -119,6 +119,12 @@
   src: url('../resources/bitstream-vera/bitstream-vera.woff');
 }
 @font-face {
+  font-family: 'borg-sans-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/borg-sans-mono/borg-sans-mono.ttf');
+}
+@font-face {
   font-family: 'bpmono';
   font-weight: bold;
   font-style: normal;

@@ -5,6 +5,12 @@
   src: url('../resources/font3270/font3270.woff');
 }
 @font-face {
+  font-family: 'agave';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/agave/agave.ttf');
+}
+@font-face {
   font-family: 'anka-coder';
   font-weight: bold;
   font-style: italic;

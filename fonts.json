@@ -9,6 +9,16 @@
 	"rendering" : "vector",
 	"variants"  : ["medium", "narrow", "semi-narrow"]
 },{
+	"alias"     : "agave",
+	"name"      : "Agave",
+	"author"    : "agaric",
+	"year"      : 2015,
+	"website"   : "https://github.com/agarick/agave",
+	"ligatures" : false,
+	"style"     : "sans",
+	"rendering" : "vector",
+	"variants"  : ["regular"]
+},{
 	"alias"     : "anka-coder",
 	"name"      : "Anka/Coder",
 	"author"    : "Andrey Makarov",

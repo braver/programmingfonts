@@ -2,9 +2,6 @@
   "name": "programmingfonts",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:ABuffSeagull/programmingfonts.git",
-  "author": "ABuffSeagull <reecevanatta@gmail.com>",
-  "license": "MIT",
   "devDependencies": {
     "eslint": "^5.12.0",
     "less": "^3.9.0",

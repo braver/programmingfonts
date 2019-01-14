@@ -331,7 +331,7 @@
 	"style"     : "sans",
 	"rendering" : "vector"
 },{
-	"alias"     : "input",
+	"alias"     : "input mono",
 	"name"      : "Input",
 	"author"    : "David Jonathan Ross",
 	"year"      : 2014,

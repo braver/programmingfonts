@@ -86,19 +86,29 @@ section.select-list {
 section.select-list .entry {
 	position: relative;
 	display: block;
-	padding: .5em 1em;
 }
-section.select-list .entry:hover {
-	background: #fff;
-}
-section.select-list a[data-value] {
+section.select-list button[data-value] {
 	display: block;
 	position: relative;
 	overflow: hidden;
+	width: 100%;
+	padding: .5em 1em;
+	text-align: left;
+	cursor: pointer;
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
 }
-section.select-list a:hover .name,
-section.select-list a:active .name {
+section.select-list button[data-value]:hover {
+	background: #fff;
+}
+section.select-list button:hover .name,
+section.select-list button:active .name {
 	text-decoration: underline;
+}
+section.select-list button:focus {
+	outline: none;
 }
 section.select-list .active .name {
 	font-weight: bold;

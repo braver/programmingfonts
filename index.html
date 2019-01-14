@@ -75,7 +75,7 @@
 
 	<link href="//cloud.webtype.com/css/7e544c5e-55dc-4b41-a8d3-c13f7e0a13d3.css" rel="stylesheet" type="text/css" />
 
-	<link rel="stylesheet" href="fonts/stylesheets/stylesheet.css"><!-- Compiled (using less on node) with "lessc fonts.less > stylesheet.css" -->
+	<link rel="stylesheet" href="fonts/stylesheets/fonts.less">
 	<link rel="stylesheet" href="index.css">
 
 
@@ -86,21 +86,32 @@
 		<article>
 			<section class="select-list">
 				<div id="select-font">
-					<!-- filled from json -->
+					<template id="font-template">
+						<div class="entry">
+							<button>
+								<span class="name"></span>
+								<span class="details"></span>
+							</button>
+							<a class="website" rel=external>
+								<span>Info & Download</span>
+								<svg class="octicon" viewBox="0 0 12 14" version="1.1" width="12" height="14" aria-hidden="true"><path fill-rule="evenodd" d="M11 10h1v3c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h3v1H1v10h10v-3zM6 2l2.25 2.25L5 7.5 6.5 9l3.25-3.25L12 8V2H6z"></path></svg>
+							</a>
+						</div>
+					</template>
 				</div>
 			</section>
 			<section class="config">
 				<p>
 					<label for="size">Size</label>
-					<input onchange="setSize()" type="number" id="size" value="16" min="1" max="32" step="1">
+					<input type="number" id="size" value="16" min="1" max="32" step="1">
 				</p>
 				<p>
 					<label for="spacing">Spacing</label>
-					<input onchange="setSpacing()" type="number" id="spacing" value="1.4" min="1" max="2" step="0.1">
+					<input type="number" id="spacing" value="1.4" min="1" max="2" step="0.1">
 				</p>
 				<p>
 					<label for="aliasing">AA</label>
-					<input onchange="setAntialiasing()" type="checkbox" id="aliasing" checked>
+					<input type="checkbox" id="aliasing" checked>
 				</p>
 			</section>
 
@@ -152,7 +163,7 @@
 				</p>
 				<p class="select">
 					<label for="select-language">Language</label>
-					<select onchange="selectLanguage()" id="select-language">
+					<select id="select-language">
 						<option selected="">JavaScript</option>
 						<option>PHP</option>
 						<option value="clike">C (-like)</option>

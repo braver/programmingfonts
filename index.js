@@ -62,11 +62,6 @@ function selectFont(font) {
     .classList.add('active');
 }
 
-// Select theme
-document.getElementById('select-theme').onchange = ({ target: { value } }) => {
-  editor.setOption('theme', value);
-};
-
 // Set spacing
 document.getElementById('spacing').onchange = ({ target: { value } }) => {
   mirrorElement.style.lineHeight = value;
@@ -84,14 +79,28 @@ document.getElementById('select-language').onchange = ({
   editor.setOption('mode', value.toLowerCase());
 };
 
+// Select theme
+const selectTheme = document.getElementById('select-theme');
+const options = Array.from(document.querySelectorAll('#select-theme > option'));
+
+selectTheme.onchange = ({ target: { value } }) => {
+  editor.setOption('theme', value);
+};
+
 document.getElementById('theme-next').onclick = () => {
-  const nextElement = document.querySelector('#select-font button.active')
-    .parentNode.nextElementSibling;
-  if (nextElement) nextElement.querySelector('button').onclick();
+  const theme = editor.getOption('theme');
+  const foundIndex = options.findIndex(option => option.value == theme);
+  if (foundIndex != options.length - 1) {
+    selectTheme.value = options[foundIndex + 1].textContent;
+    editor.setOption('theme', selectTheme.value);
+  }
 };
 
 document.getElementById('theme-previous').onclick = () => {
-  const previousElement = document.querySelector('#select-font button.active')
-    .parentNode.previousElementSibling;
-  if (previousElement != fontTemplate) previousElement.querySelector('button').onclick();
+  const theme = editor.getOption('theme');
+  const foundIndex = options.findIndex(option => option.value == theme);
+  if (foundIndex != 0) {
+    selectTheme.value = options[foundIndex - 1].textContent;
+    editor.setOption('theme', selectTheme.value);
+  }
 };

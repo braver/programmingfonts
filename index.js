@@ -93,6 +93,5 @@ document.getElementById('theme-next').onclick = () => {
 document.getElementById('theme-previous').onclick = () => {
   const previousElement = document.querySelector('#select-font button.active')
     .parentNode.previousElementSibling;
-  if (previousElement != fontTemplate)
-    previousElement.querySelector('button').onclick();
+  if (previousElement != fontTemplate) previousElement.querySelector('button').onclick();
 };

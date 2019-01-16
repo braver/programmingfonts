@@ -81,7 +81,7 @@ document.getElementById('select-language').onchange = ({
 
 // Select theme
 const selectTheme = document.getElementById('select-theme');
-const options = Array.from(document.querySelectorAll('#select-theme > option'));
+const options = Array.from(document.querySelectorAll('#select-theme > option')).map(option => option.value);
 
 selectTheme.onchange = ({ target: { value } }) => {
   editor.setOption('theme', value);
@@ -89,7 +89,7 @@ selectTheme.onchange = ({ target: { value } }) => {
 
 document.getElementById('theme-next').onclick = () => {
   const theme = editor.getOption('theme');
-  const foundIndex = options.findIndex(option => option.value == theme);
+  const foundIndex = options.findIndex(option => option == theme);
   if (foundIndex != options.length - 1) {
     selectTheme.value = options[foundIndex + 1].textContent;
     editor.setOption('theme', selectTheme.value);

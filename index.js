@@ -7,36 +7,38 @@ const editor = CodeMirror.fromTextArea(document.getElementById('code'), {
   lineWrapping: true,
 });
 
-// parcel inlines the fonts
-import fonts from './fonts.json';
-
 const fontTemplate = document.getElementById('font-template');
 
+fetch('fonts.json')
+  .then(res => res.json())
+  .then(fonts => {
+    for (const font of fonts) {
+      const clone = document.importNode(fontTemplate.content, true);
+      const button = clone.querySelector('button');
+      if (font.alias == 'input mono') {
+        button.classList.add('active');
+      }
+      button.setAttribute('data-value', font.alias);
+      button.onclick = selectFont.bind(null, font.alias);
+      clone.querySelector('.name').textContent = font.name;
+
+      const extras = [
+        font.style,
+        font.ligatures && 'ligatures',
+        font.rendering == 'bitmap' ? 'bitmap' : null,
+      ]
+        .filter(value => !!value)
+        .join(', ');
+
+      clone.querySelector('.details').textContent = `${font.author} (${
+        font.year
+      }) - ${extras}`;
+      clone.querySelector('.website').href = font.website;
+      document.getElementById('select-font').appendChild(clone);
+    }
+  });
+
 // Create list
-for (const font of fonts) {
-  const clone = document.importNode(fontTemplate.content, true);
-  const button = clone.querySelector('button');
-  if (font.alias == 'input mono') {
-    button.classList.add('active');
-  }
-  button.setAttribute('data-value', font.alias);
-  button.onclick = selectFont.bind(null, font.alias);
-  clone.querySelector('.name').textContent = font.name;
-
-  const extras = [
-    font.style,
-    font.ligatures && 'ligatures',
-    font.rendering == 'bitmap' ? 'bitmap' : null,
-  ]
-    .filter(value => !!value)
-    .join(', ');
-
-  clone.querySelector('.details').textContent = `${font.author} (${
-    font.year
-  }) - ${extras}`;
-  clone.querySelector('.website').href = font.website;
-  document.getElementById('select-font').appendChild(clone);
-}
 
 const mirrorElement = document.querySelector('.CodeMirror');
 // Set the defaults

@@ -857,6 +857,12 @@
   src: url('../resources/proggy-clean/proggy-clean.woff');
 }
 @font-face {
+  font-family: 'proggy-vector';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/proggy-vector/proggy-vector.woff');
+}
+@font-face {
   font-family: 'pt';
   font-weight: normal;
   font-style: normal;

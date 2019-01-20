@@ -533,10 +533,19 @@
 	"name"      : "Proggy Clean",
 	"author"    : "Tristan Grimmer",
 	"year"      : 2004,
-	"website"   : "http://www.proggyfonts.net/",
+	"website"   : "https://github.com/bluescan/proggyfonts/",
 	"ligatures" : false,
 	"style"     : "sans",
 	"rendering" : "bitmap"
+},{
+	"alias"     : "proggy-vector",
+	"name"      : "Proggy Vector",
+	"author"    : "Tristan Grimmer",
+	"year"      : 2019,
+	"website"   : "https://github.com/bluescan/proggyfonts/",
+	"ligatures" : false,
+	"style"     : "sans",
+	"rendering" : "vector"
 },{
 	"alias"     : "pt",
 	"name"      : "PT Mono",

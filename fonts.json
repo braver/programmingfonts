@@ -218,7 +218,7 @@
 	"name"      : "Fira Mono",
 	"author"    : "Erik Spiekerman",
 	"year"      : 2013,
-	"website"   : "https://www.mozilla.org/en-US/styleguide/products/firefox-os/typeface/",
+	"website"   : "https://github.com/mozilla/Fira",
 	"ligatures" : false,
 	"style"     : "sans",
 	"rendering" : "vector"

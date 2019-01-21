@@ -82,6 +82,7 @@ section.config > * {
 }
 section.select-list {
 	overflow: auto;
+	-webkit-overflow-scrolling: touch;
 }
 section.select-list .entry {
 	position: relative;
@@ -232,6 +233,9 @@ label[for="select-theme"] {
 }
 .CodeMirror-gutters {
 	background: transparent;
+}
+.CodeMirror-scroll {
+	-webkit-overflow-scrolling: touch;
 }
 
 @media screen and (max-width: 56em) {

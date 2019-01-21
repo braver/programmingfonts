@@ -101,6 +101,54 @@
   src: url('../resources/average/average.woff');
 }
 @font-face {
+  font-family: 'b612';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/b612/B612-BoldItalic.ttf');
+}
+@font-face {
+  font-family: 'b612';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/b612/B612-Bold.ttf');
+}
+@font-face {
+  font-family: 'b612';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/b612/B612-Italic.ttf');
+}
+@font-face {
+  font-family: 'b612';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/b612/B612-Regular.ttf');
+}
+@font-face {
+  font-family: 'b612-mono';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/b612-mono/B612Mono-BoldItalic.ttf');
+}
+@font-face {
+  font-family: 'b612-mono';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/b612-mono/B612Mono-Bold.ttf');
+}
+@font-face {
+  font-family: 'b612-mono';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/b612-mono/B612Mono-Italic.ttf');
+}
+@font-face {
+  font-family: 'b612-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/b612-mono/B612Mono-Regular.ttf');
+}
+@font-face {
   font-family: 'bitstream-vera';
   font-weight: bold;
   font-style: italic;

@@ -2,7 +2,7 @@
 **CODE 0123**
 
 function The_QuickBrown(@fox) {
-  if (iIlL !== [ "oO0": '+QqGgYy' ]) {
+  if (iIlL !== [ "oO08": '+QqGgYy' ]) {
     {}[]()<>/\| +-=
      'qwertyuiop asdfghjkl zxcvbnm'
     //QWERTYUIOP ASDFGHJKL ZXCVBNM

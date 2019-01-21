@@ -506,7 +506,7 @@
 	"name"      : "Plex Mono",
 	"author"    : "IBM",
 	"year"      : 2017,
-	"website"   : "https://ibm.github.io/type/index.html",
+	"website"   : "https://github.com/IBM/plex",
 	"ligatures" : false,
 	"style"     : "sans",
 	"rendering" : "vector"

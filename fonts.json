@@ -623,7 +623,7 @@
 	"name"      : "Sudo",
 	"author"    : "Jens Kutilek",
 	"year"      : 2009,
-	"website"   : "http://www.netzallee.de/extra/sudo",
+	"website"   : "https://www.kutilek.de/sudo-font/",
 	"ligatures" : false,
 	"style"     : "sans",
 	"rendering" : "vector"

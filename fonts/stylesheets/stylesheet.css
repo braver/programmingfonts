@@ -263,6 +263,12 @@
   src: url('../resources/cutive/cutive.ttf');
 }
 @font-face {
+  font-family: 'DaddyTimeMono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/daddytimemono/DaddyTimeMono.woff');
+}
+@font-face {
   font-family: 'dejavu';
   font-weight: bold;
   font-style: italic;

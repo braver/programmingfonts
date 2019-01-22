@@ -689,6 +689,12 @@
   src: url('../resources/luxi/luxi.woff');
 }
 @font-face {
+  font-family: 'mensch';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/mensch/mensch.ttf');
+}
+@font-face {
   font-family: 'meslo';
   font-weight: bold;
   font-style: italic;

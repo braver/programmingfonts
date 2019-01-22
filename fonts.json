@@ -430,6 +430,15 @@
 	"style"     : "serif",
 	"rendering" : "vector"
 },{
+	"alias"     : "mensch",
+	"name"      : "Mensch",
+	"author"    : "Robey Pointer",
+	"year"      : 2010,
+	"website"   : "https://robey.lag.net/2010/06/21/mensch-font.html",
+	"ligatures" : false,
+	"style"     : "sans",
+	"rendering" : "vector"
+},{
 	"alias"     : "meslo",
 	"name"      : "Meslo",
 	"author"    : "André Berg",

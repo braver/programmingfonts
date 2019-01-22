@@ -287,10 +287,16 @@
   src: url('../resources/cutive/cutive.ttf');
 }
 @font-face {
-  font-family: 'cutive';
+  font-family: 'd2coding';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/d2coding/d2coding-bold.ttf');
+}
+@font-face {
+  font-family: 'd2coding';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/cutive/cutive.ttf');
+  src: url('../resources/d2coding/d2coding.ttf');
 }
 @font-face {
   font-family: 'daddytimemono';

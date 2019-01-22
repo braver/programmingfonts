@@ -323,6 +323,24 @@
   src: url('../resources/effects-eighty/effects-eighty.otf');
 }
 @font-face {
+  font-family: 'envy-code-r';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/envy-code-r/envy_code_r_bold.woff');
+}
+@font-face {
+  font-family: 'envy-code-r';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/envy-code-r/envy_code_r_italic.woff');
+}
+@font-face {
+  font-family: 'envy-code-r';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/envy-code-r/envy_code_r.woff');
+}
+@font-face {
   font-family: 'fantasque-sans';
   font-weight: bold;
   font-style: italic;

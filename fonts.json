@@ -205,6 +205,15 @@
 	"style"     : "sans",
 	"rendering" : "bitmap"
 },{
+	"alias"     : "envy-code-r",
+	"name"      : "Envy Code R",
+	"author"    : "Damien Guard",
+	"year"      : 2008,
+	"website"   : "https://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released",
+	"ligatures" : false,
+	"style"     : "sans",
+	"rendering" : "vector"
+},{
 	"alias"     : "fantasque-sans",
 	"name"      : "Fantasque Sans Mono",
 	"author"    : "Jany Belluz",

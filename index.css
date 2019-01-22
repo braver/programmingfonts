@@ -85,7 +85,7 @@ section.select-list {
 }
 section.select-list .entry {
 	position: relative;
-	display: block;
+	display: flex;
 	padding: .5em 1em;
 }
 section.select-list .entry:hover {
@@ -105,7 +105,10 @@ section.select-list .active .name {
 }
 section.select-list a.favoritelink {
 	margin-right: 2px;
-	color: red;
+	color: #ccc;
+}
+section.select-list a.pinned {
+	color: black;
 }
 section.select-list a.website {
 	position: absolute;

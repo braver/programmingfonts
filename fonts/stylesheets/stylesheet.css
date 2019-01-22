@@ -101,6 +101,12 @@
   src: url('../resources/average/average.woff');
 }
 @font-face {
+  font-family: 'bedstead';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/bedstead/bedstead.otf');
+}
+@font-face {
   font-family: 'bitstream-vera';
   font-weight: bold;
   font-style: italic;

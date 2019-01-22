@@ -79,6 +79,15 @@
 	"rendering" : "vector",
 	"variants"  : ["regular"]
 },{
+	"alias"     : "bedstead",
+	"name"      : "Bedstead",
+	"author"    : "Ben Harris",
+	"year"      : 2018,
+	"website"   : "https://bjh21.me.uk/bedstead/",
+	"ligatures" : false,
+	"style"     : "sans",
+	"rendering" : "vector"
+},{
 	"alias"     : "bitstream-vera",
 	"name"      : "Bitstream Vera Sans Mono",
 	"author"    : "Jim Lyles",

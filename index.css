@@ -103,6 +103,10 @@ section.select-list a:active .name {
 section.select-list .active .name {
 	font-weight: bold;
 }
+section.select-list a.favoritelink {
+	margin-right: 2px;
+	color: red;
+}
 section.select-list a.website {
 	position: absolute;
 	top: 5px;

@@ -165,6 +165,18 @@ function previousFont() {
 	}
 }
 
+function increaseFontSize() {
+    const sizeEl = document.getElementById("size");
+    sizeEl.value = Number(sizeEl.value) + 1;
+    sizeEl.onchange();
+}
+
+function decreaseFontSize() {
+    const sizeEl = document.getElementById("size");
+    sizeEl.value = Number(sizeEl.value) - 1;
+    sizeEl.onchange();
+}
+
 $(document).ready(function() {
 	var cookieValueSpacing = document.cookie.replace(/(?:(?:^|.*;\s*)spacing\s*=\s*([^;]*).*$)|^.*$/, "$1");
 	var cookieValueSize = document.cookie.replace(/(?:(?:^|.*;\s*)size\s*=\s*([^;]*).*$)|^.*$/, "$1");
@@ -219,10 +231,26 @@ $(document).ready(function() {
 				event.preventDefault();
 				event.stopPropagation();
 				previousFont();
+				return;
 			} else if (event.key === "ArrowDown") {
 				event.preventDefault();
 				event.stopPropagation();
 				nextFont();
+				return;
+			}
+		}
+
+		if (event.ctrlKey || event.metaKey) {
+			if (event.key === "-") {
+				event.preventDefault();
+				event.stopPropagation();
+				decreaseFontSize();
+				return;
+			} else if (event.key === "=") {
+				event.preventDefault();
+				event.stopPropagation();
+				increaseFontSize();
+				return;
 			}
 		}
 	});

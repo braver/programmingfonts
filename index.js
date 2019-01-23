@@ -76,6 +76,75 @@ function selectLanguage() {
 	document.cookie = "language=" + lang + ";max-age=172800";
 }
 
+function renderSelectList() {
+	$("#select-font").empty();
+
+	var icon = '<svg class="octicon" viewBox="0 0 12 14" version="1.1" width="12" height="14" aria-hidden="true"><path fill-rule="evenodd" d="M11 10h1v3c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h3v1H1v10h10v-3zM6 2l2.25 2.25L5 7.5 6.5 9l3.25-3.25L12 8V2H6z"></path></svg>';
+	var pinIcon = '<svg class="octicon octicon-pin" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 1.2V2l.5 1L6 6H2.2c-.44 0-.67.53-.34.86L5 10l-4 5 5-4 3.14 3.14a.5.5 0 0 0 .86-.34V10l3-4.5 1 .5h.8c.44 0 .67-.53.34-.86L10.86.86a.5.5 0 0 0-.86.34z"></path></svg>';
+
+	var favoritesMap = {};
+	try {
+		var favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+		favoritesMap = favorites.reduce(function(acc, alias) {
+			acc[alias] = true;
+			return acc;
+		}, {});
+	} catch (err) {
+		console.error('could not render favorites', err);
+	}
+
+	$.getJSON("fonts.json", function(data) {
+		data.sort(function(a, b) {
+			if (favoritesMap[a.alias] && !favoritesMap[b.alias]) return -1;
+			if (!favoritesMap[a.alias] && favoritesMap[b.alias]) return 1;
+			if (a.name.toLowerCase() < b.name.toLowerCase()) return -1;
+			if (a.name.toLowerCase() > b.name.toLowerCase()) return 1;
+			return 0;
+		});
+		$.each(data, function(k, v) {
+			var liga_info = "";
+			var render_info = "";
+
+			if (v.ligatures) {
+				liga_info = ", ligatures";
+			}
+			if (v.rendering === "bitmap") {
+				render_info = ", bitmap";
+			}
+			$("#select-font").append(
+				"<div class='entry'>" +
+					"<a class=\"favoritelink" + (favoritesMap[v.alias] ? ' pinned' : '') + "\" onclick=\"toggleFavorite('" + v.alias + "')\">" +
+						pinIcon +
+					"</a>" +
+					"<a href='#" + v.alias + "' data-value=\"" + v.alias + "\">" +
+						"<span class='name'>" + v.name + "</span>" +
+						"<span class='details'>" + v.author + " (" + v.year + ") — " + v.style + render_info + liga_info + "</span>" +
+					"</a>" +
+				"<a class='website' href='" + v.website + "' rel=external> <span>Info & Download</span>" + icon + "</a></div>"
+			);
+		});
+		selectFont();
+	});
+}
+
+function toggleFavorite(alias) {
+	try {
+		var favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+		if (favorites.indexOf(alias) > -1) {
+			favorites = favorites.filter(function(v) {
+				return v !== alias;
+			})
+		} else {
+			favorites.push(alias);
+		}
+		localStorage.setItem('favorites', JSON.stringify(Array.from(new Set(favorites))));
+	} catch (err) {
+		console.error('could not save favorite', err);
+	}
+	renderSelectList();
+	return false;
+}
+
 $(document).ready(function() {
 	var cookieValueSpacing = document.cookie.replace(/(?:(?:^|.*;\s*)spacing\s*=\s*([^;]*).*$)|^.*$/, "$1");
 	var cookieValueSize = document.cookie.replace(/(?:(?:^|.*;\s*)size\s*=\s*([^;]*).*$)|^.*$/, "$1");
@@ -106,30 +175,7 @@ $(document).ready(function() {
 	setSpacing();
 	setAntialiasing();
 	selectLanguage();
-
-	var icon = '<svg class="octicon" viewBox="0 0 12 14" version="1.1" width="12" height="14" aria-hidden="true"><path fill-rule="evenodd" d="M11 10h1v3c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h3v1H1v10h10v-3zM6 2l2.25 2.25L5 7.5 6.5 9l3.25-3.25L12 8V2H6z"></path></svg>';
-
-	$.getJSON("fonts.json", function(data) {
-		$.each(data, function(k, v) {
-			var liga_info = "";
-			var render_info = "";
-
-			if (v.ligatures) {
-				liga_info = ", ligatures";
-			}
-			if (v.rendering === "bitmap") {
-				render_info = ", bitmap";
-			}
-			$("#select-font").append(
-				"<div class='entry'><a href='#" + v.alias + "' data-value=\"" + v.alias + "\">" +
-				"<span class='name'>" + v.name + "</span>" +
-				"<span class='details'>" + v.author + " (" + v.year + ") — " + v.style + render_info + liga_info + "</span>" +
-				"</a>" +
-				"<a class='website' href='" + v.website + "' rel=external> <span>Info & Download</span>" + icon + "</a></div>"
-			);
-		});
-		selectFont();
-	});
+	renderSelectList();
 
 	$("#theme-next").click(function() {
 		$("#select-theme :selected").next().prop("selected", true);

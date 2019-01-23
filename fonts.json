@@ -650,7 +650,7 @@
 	"name"      : "Source Code Pro",
 	"author"    : "Paul D. Hunt",
 	"year"      : 2012,
-	"website"   : "https://github.com/adobe-fonts/source-sans-pro",
+	"website"   : "https://github.com/adobe-fonts/source-code-pro",
 	"ligatures" : false,
 	"style"     : "sans",
 	"rendering" : "vector"

@@ -113,13 +113,13 @@ function renderSelectList() {
 			}
 			$("#select-font").append(
 				"<div class='entry'>" +
-					"<a class=\"favoritelink" + (favoritesMap[v.alias] ? ' pinned' : '') + "\" onclick=\"toggleFavorite('" + v.alias + "')\">" +
-						pinIcon +
-					"</a>" +
-					"<a href='#" + v.alias + "' data-value=\"" + v.alias + "\">" +
-						"<span class='name'>" + v.name + "</span>" +
-						"<span class='details'>" + v.author + " (" + v.year + ") — " + v.style + render_info + liga_info + "</span>" +
-					"</a>" +
+				"<a href='#" + v.alias + "' data-value=\"" + v.alias + "\">" +
+					"<span class='name'>" + v.name + "</span>" +
+					"<span class='details'>" + v.author + " (" + v.year + ") — " + v.style + render_info + liga_info + "</span>" +
+				"</a>" +
+				"<a class=\"favoritelink" + (favoritesMap[v.alias] ? ' pinned' : '') + "\" onclick=\"toggleFavorite('" + v.alias + "')\">" +
+					pinIcon +
+				"</a>" +
 				"<a class='website' href='" + v.website + "' rel=external> <span>Info & Download</span>" + icon + "</a></div>"
 			);
 		});

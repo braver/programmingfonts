@@ -84,6 +84,9 @@ section.select-list {
 	overflow: auto;
 	-webkit-overflow-scrolling: touch;
 }
+section.select-list:focus {
+	outline: none;
+}
 section.select-list .entry {
 	position: relative;
 	display: flex;

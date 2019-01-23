@@ -145,6 +145,26 @@ function toggleFavorite(alias) {
 	return false;
 }
 
+function nextFont() {
+	const activeLink = document.querySelector(".entry .active");
+	const activeEntry = activeLink.parentNode;
+	const next = activeEntry.nextSibling;
+	if (next && next.matches(".entry")) {
+		next.querySelector("a").click();
+		next.scrollIntoView();
+	}
+}
+
+function previousFont() {
+	const activeLink = document.querySelector(".entry .active");
+	const activeEntry = activeLink.parentNode;
+	const next = activeEntry.previousSibling;
+	if (next && next.matches(".entry")) {
+		next.querySelector("a").click();
+		next.scrollIntoView();
+	}
+}
+
 $(document).ready(function() {
 	var cookieValueSpacing = document.cookie.replace(/(?:(?:^|.*;\s*)spacing\s*=\s*([^;]*).*$)|^.*$/, "$1");
 	var cookieValueSize = document.cookie.replace(/(?:(?:^|.*;\s*)size\s*=\s*([^;]*).*$)|^.*$/, "$1");
@@ -185,5 +205,25 @@ $(document).ready(function() {
 	$("#theme-previous").click(function() {
 		$("#select-theme :selected").prev().prop("selected", true);
 		selectTheme();
+	});
+
+	$("body").on("keydown", function(event) {
+		if (
+			event.target === document.querySelector(".select-list")
+			&& ! event.ctrlKey
+			&& ! event.altKey
+			&& ! event.metaKey
+			&& ! event.shiftKey
+		) {
+			if (event.key === "ArrowUp") {
+				event.preventDefault();
+				event.stopPropagation();
+				previousFont();
+			} else if (event.key === "ArrowDown") {
+				event.preventDefault();
+				event.stopPropagation();
+				nextFont();
+			}
+		}
 	});
 });

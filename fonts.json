@@ -187,11 +187,11 @@
 	"style"     : "serif",
 	"rendering" : "vector"
 },{
-	"alias"     : "d2coding",
-	"name"      : "D2 Coding",
+	"alias"     : "nanum-gothic-coding",
+	"name"      : "Nanum Gothic Coding",
 	"author"    : "NAVER Corp.",
-	"year"      : 2015,
-	"website"   : "https://github.com/naver/d2codingfont",
+	"year"      : 2009,
+	"website"   : "https://github.com/naver/nanumfont",
 	"ligatures" : true,
 	"style"     : "sans",
 	"rendering" : "vector"

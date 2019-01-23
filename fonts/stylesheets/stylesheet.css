@@ -287,18 +287,6 @@
   src: url('../resources/cutive/cutive.ttf');
 }
 @font-face {
-  font-family: 'd2coding';
-  font-weight: bold;
-  font-style: normal;
-  src: url('../resources/d2coding/d2coding-bold.ttf');
-}
-@font-face {
-  font-family: 'd2coding';
-  font-weight: normal;
-  font-style: normal;
-  src: url('../resources/d2coding/d2coding.ttf');
-}
-@font-face {
   font-family: 'daddytimemono';
   font-weight: normal;
   font-style: normal;
@@ -783,6 +771,18 @@
   font-weight: normal;
   font-style: normal;
   src: url('../resources/mplus/mplus.woff');
+}
+@font-face {
+  font-family: 'nanum-gothic-coding';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/nanum-gothic-coding/nanum-gothic-coding-bold.ttf');
+}
+@font-face {
+  font-family: 'nanum-gothic-coding';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/nanum-gothic-coding/nanum-gothic-coding.ttf');
 }
 @font-face {
   font-family: 'notcouriersans';

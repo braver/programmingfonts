@@ -340,6 +340,15 @@
 	"style"     : "sans",
 	"rendering" : "vector"
 },{
+	"alias"     : "ia-writer-mono",
+	"name"      : "iA Writer Mono",
+	"author"    : "Oliver Reichenstein, Bold Monday, Mike Abbink, Paul van der Laan, Pieter van Rosmalen",
+	"year"      : 2018,
+	"website"   : "https://ia.net/writer/blog/a-typographic-christmas",
+	"ligatures" : false,
+	"style"     : "sans",
+	"rendering" : "vector"
+},{
 	"alias"     : "inconsolata",
 	"name"      : "Inconsolata",
 	"author"    : "Raph Levien",
@@ -549,7 +558,7 @@
 },{
 	"alias"     : "plex-mono",
 	"name"      : "Plex Mono",
-	"author"    : "IBM",
+	"author"    : "Bold Monday, Mike Abbink",
 	"year"      : 2017,
 	"website"   : "https://github.com/IBM/plex",
 	"ligatures" : false,

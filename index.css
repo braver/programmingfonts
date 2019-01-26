@@ -38,7 +38,7 @@ a:active {
 	color: inherit;
 }
 .octicon {
-	fill: currentcolor;
+	fill: currentColor;
 }
 .article-wrapper {
 	float: left;
@@ -99,6 +99,7 @@ section.select-list a[data-value] {
 	display: block;
 	position: relative;
 	overflow: hidden;
+	width: 66.67%;
 }
 section.select-list a:hover .name,
 section.select-list a:active .name {

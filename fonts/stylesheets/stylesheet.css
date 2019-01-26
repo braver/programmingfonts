@@ -179,6 +179,18 @@
   src: url('../resources/bpmono/bpmono.woff');
 }
 @font-face {
+  font-family: 'bront-ubuntu';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/bront-ubuntu/bront-ubuntu.ttf');
+}
+@font-face {
+  font-family: 'bront-dejavu';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/bront-dejavu/bront-dejavu.ttf');
+}
+@font-face {
   font-family: 'camingocode';
   font-weight: bold;
   font-style: italic;

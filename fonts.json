@@ -124,6 +124,24 @@
 	"style"     : "sans",
 	"rendering" : "vector"
 },{
+	"alias"     : "bront-ubuntu",
+	"name"      : "Bront Ubuntu Mono",
+	"author"    : "Chris Wendt",
+	"year"      : 2015,
+	"website"   : "https://github.com/chrismwendt/bront",
+	"ligatures" : false,
+	"style"     : "sans",
+	"rendering" : "vector"
+},{
+	"alias"     : "bront-dejavu",
+	"name"      : "Bront DejaVu Sans Mono",
+	"author"    : "Chris Wendt",
+	"year"      : 2015,
+	"website"   : "https://github.com/chrismwendt/bront",
+	"ligatures" : false,
+	"style"     : "sans",
+	"rendering" : "vector"
+},{
 	"alias"     : "camingocode",
 	"name"      : "CamingoCode",
 	"author"    : "Jan Fromm",

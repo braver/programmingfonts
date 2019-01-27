@@ -133,7 +133,7 @@ function toggleFavorite(alias) {
 		if (favorites.indexOf(alias) > -1) {
 			favorites = favorites.filter(function(v) {
 				return v !== alias;
-			})
+			});
 		} else {
 			favorites.push(alias);
 		}

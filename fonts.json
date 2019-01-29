@@ -186,16 +186,14 @@
 	"description" : "This font was designed by Steve Matteson, more widely known for his work on the Droid fontfaces you’ll find on any Android device. It was created especially for on-screen use, and covers regular, bold and italic in an amazing 2391 Glyphs. Compatibility might be its strongest feat, but it’s a serious font for every day use."
 },{
 	"alias"       : "courier-prime",
-	"name"        : "Courier Prime Code",
+	"name"        : "Courier Prime",
 	"author"      : "Alan Dague-Greene",
 	"year"        : 2013,
 	"website"     : "https://quoteunquoteapps.com/courierprime",
 	"ligatures"   : false,
 	"style"       : "serif",
 	"rendering"   : "vector",
-	"license"     : "SIL OFL",
-	"variants"    : ["regular", "italic"],
-	"description" : "Courier Prime by Quote-Unquote Apps is designed to make screenplays (which are traditionally set in Courier at 12 points) more readable. Originally a typewriter font has been transferred to digital several times but all of them have problems. This adaptation is a bit fatter to look as good on displays as on paper. For programming use the Courier Prime Code variant, based on the new sans. Several characters are now more easily distinguished and there is a slashed zero."
+	"license"     : "SIL OFL"
 },{
 	"alias"       : "courier-prime-code",
 	"name"        : "Courier Prime Code",
@@ -204,7 +202,10 @@
 	"website"     : "https://quoteunquoteapps.com/courierprime",
 	"ligatures"   : false,
 	"style"       : "sans",
-	"rendering"   : "vector"
+	"rendering"   : "vector",
+	"license"     : "SIL OFL",
+	"variants"    : ["regular", "italic"],
+	"description" : "Courier Prime by Quote-Unquote Apps is designed to make screenplays (which are traditionally set in Courier at 12 points) more readable. Originally a typewriter font has been transferred to digital several times but all of them have problems. This adaptation is a bit fatter to look as good on displays as on paper. For programming use the Courier Prime Code variant, based on the new sans. Several characters are now more easily distinguished and there is a slashed zero."
 },{
 	"alias"       : "cutive",
 	"name"        : "Cutive Mono",

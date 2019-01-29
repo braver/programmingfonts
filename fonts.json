@@ -17,7 +17,9 @@
 	"ligatures"   : false,
 	"style"       : "sans",
 	"rendering"   : "vector",
-	"variants"    : ["regular"]
+	"variants"    : ["regular"],
+	"license"     : "MIT",
+	"description" : "Although in intention simple and systematic, Agave has lots of quirky character. Distinct, readable and well aligned characters round out a font that should cover all characters in most code use cases if not all languages of the world. The capital Q is particularly cool. Sadly, like a lot of alternatives, it doesn’t offer true bold and italic."
 },{
 	"alias"       : "anka-coder",
 	"name"        : "Anka/Coder",
@@ -179,18 +181,21 @@
 	"ligatures"   : false,
 	"style"       : "sans",
 	"rendering"   : "vector",
-	"variants"    : ["regular", "italic", "bold", "bold-italic"],
 	"license"     : "Apache",
+	"variants"    : ["regular", "italic", "bold", "bold-italic"],
 	"description" : "This font was designed by Steve Matteson, more widely known for his work on the Droid fontfaces you’ll find on any Android device. It was created especially for on-screen use, and covers regular, bold and italic in an amazing 2391 Glyphs. Compatibility might be its strongest feat, but it’s a serious font for every day use."
 },{
 	"alias"       : "courier-prime",
-	"name"        : "Courier Prime",
+	"name"        : "Courier Prime Code",
 	"author"      : "Alan Dague-Greene",
 	"year"        : 2013,
 	"website"     : "https://quoteunquoteapps.com/courierprime",
 	"ligatures"   : false,
 	"style"       : "serif",
-	"rendering"   : "vector"
+	"rendering"   : "vector",
+	"license"     : "SIL OFL",
+	"variants"    : ["regular", "italic"],
+	"description" : "Courier Prime by Quote-Unquote Apps is designed to make screenplays (which are traditionally set in Courier at 12 points) more readable. Originally a typewriter font has been transferred to digital several times but all of them have problems. This adaptation is a bit fatter to look as good on displays as on paper. For programming use the Courier Prime Code variant, based on the new sans. Several characters are now more easily distinguished and there is a slashed zero."
 },{
 	"alias"       : "courier-prime-code",
 	"name"        : "Courier Prime Code",
@@ -337,7 +342,10 @@
 	"website"     : "https://blog.golang.org/go-fonts",
 	"ligatures"   : false,
 	"style"       : "serif",
-	"rendering"   : "vector"
+	"rendering"   : "vector",
+	"license"     : "MIT",
+	"variants"    : ["regular", "bold", "italic", "bold-italic"],
+	"description" : "The new Go font was created especially for readability in the Go programming language. It’s a humanist, slab serif font created by the Bigelow & Holmes foundry (known for Lucida, Luxi Mono and several other fonts that are part of the Mac OS). Go is metrically compatible with Courier, but appears to be much larger for better legibility in smaller sizes. There’s obviously a lot of attention to detail here, and the true italics are especially well done. The font covers WGL4 and it’s a real solid choice all around if you like a serif on your mono font."
 },{
 	"alias"       : "hack",
 	"name"        : "Hack",
@@ -424,10 +432,13 @@
 	"name"        : "League Mono",
 	"author"      : "Tyler Fink",
 	"year"        : 2017,
-	"website"     : "http://leaguemono.tylerfinck.com",
+	"website"     : "https://www.tylerfinck.com/leaguemono/",
 	"ligatures"   : false,
 	"style"       : "sans",
-	"rendering"   : "vector"
+	"rendering"   : "vector",
+	"license"     : "SIL OFL",
+	"variants"    : ["100", "200", "300", "400", "500", "600", "700", "800"],
+	"description" : "League Mono is a new monospaced font that’s clean, practical and sans-serif. Glyphs are well aligned and distinct, featuring a dotted zero. With about 374 characters it has plenty of language support. Although there are no true italics the 5 weights from ultra light to bold provide a lot of creative options. There is now even a new variable variant for endless possibilities."
 },{
 	"alias"       : "lekton",
 	"name"        : "Lekton",
@@ -454,7 +465,10 @@
 	"website"     : "http://eastfarthing.com/luculent/",
 	"ligatures"   : false,
 	"style"       : "sans",
-	"rendering"   : "vector"
+	"rendering"   : "vector",
+	"license"     : "SIl OFL",
+	"variants"    : ["regular", "italic", "bold", "bold-italic"],
+	"description" : "Luculent is a narrow typeface with full bold, italic versions, each covering 643 characters. All glyphs are distinct and full of character. Additionally, the italics bring a wonderful twist to what is already an outstanding and unique font."
 },{
 	"alias"       : "luxi",
 	"name"        : "Luxi Mono",
@@ -556,13 +570,16 @@
 	"rendering"   : "vector"
 },{
 	"alias"       : "opendyslexic",
-	"name"        : "OpenDyslexic",
+	"name"        : "OpenDyslexic Mono",
 	"author"      : "Abbie Gonzalez",
 	"year"        : 2011,
 	"website"     : "https://www.opendyslexic.org",
 	"ligatures"   : false,
 	"style"       : "sans",
-	"rendering"   : "vector"
+	"rendering"   : "vector",
+	"license"     : "SIL OFL",
+	"variants"    : ["regular"],
+	"description" : "This is not just a cool looking font. The typical shapes of OpenDyslexic attempt to help with problems people with dyslexia face every day, like letter confusion or rotation, and crowding. There are a bunch of styles for the proportional version, and this monospace version. But sadly no real bold or italic for the monospace font. Of course, it’s super legible and the glyphs are easily distinguished."
 },{
 	"alias"       : "overpass",
 	"name"        : "Overpass Mono",
@@ -571,7 +588,10 @@
 	"website"     : "http://overpassfont.org",
 	"ligatures"   : false,
 	"style"       : "sans",
-	"rendering"   : "vector"
+	"rendering"   : "vector",
+	"license"     : "SIL OFL",
+	"variants"    : ["light", "regular", "semibold", "bold"],
+	"description" : "Overpass Mono is part of the new Overpass font family to be used by Red Hat in their branding and user interfaces. It was inspired by road signage, which should be great for at-a-glance readability. There are over 430 glyhps here, in light, regular, semibold and bold, but sadly no italics for the monospace variant."
 },{
 	"alias"       : "oxygen",
 	"name"        : "Oxygen Mono",
@@ -592,7 +612,10 @@
 	"website"     : "https://github.com/IBM/plex",
 	"ligatures"   : false,
 	"style"       : "sans",
-	"rendering"   : "vector"
+	"rendering"   : "vector",
+	"license"     : "SIL OFL",
+	"variants"    : ["bold", "bold-italic", "extralight", "extralight-italic", "italic", "light", "light-italic", "medium", "medium-italic", "regular", "semibold", "semibold-italic", "text", "text-italic", "thin", "thin-italic"],
+	"description" : "Plex is IBM’s own in-house developed typeface that is currently in pre-1.0 development (check it out at Github). It’s a neat sans-serif font, very practical and readable, but also with a lot of character in their curly braces and italics. There are is also an additional light weight and broad language support."
 },{
 	"alias"       : "profont",
 	"name"        : "Profont",
@@ -628,7 +651,10 @@
 	"website"     : "https://github.com/bluescan/proggyfonts/",
 	"ligatures"   : false,
 	"style"       : "sans",
-	"rendering"   : "vector"
+	"rendering"   : "vector",
+	"variants"    : ["regular"],
+	"license"     : "MIT",
+	"description" : "A vector graphics variant of the venerable Proggy font. You can also op for dotted zeros or crossed sevens and zeds, and a lot of attention is payed to the way operators and braces line up with text. No bold or italic variants, but otherwise it’s everything you’d want for in a programming font."
 },{
 	"alias"       : "pt",
 	"name"        : "PT Mono",
@@ -706,7 +732,10 @@
 	"website"     : "https://fonts.google.com/specimen/Space+Mono",
 	"ligatures"   : false,
 	"style"       : "sans",
-	"rendering"   : "vector"
+	"rendering"   : "vector",
+	"license"     : "SIL OFL",
+	"variants"    : ["regular", "italic", "bold", "bold-italic"],
+	"description" : "Space Mono has bags of character: a bit too much for body copy, but perhaps just right for code. In any case the characters are super readable and distinct. The clipped v shapes and wonderful italics are really something special. Also, there should be enough coverage for most code."
 },{
 	"alias"       : "sudo",
 	"name"        : "Sudo",

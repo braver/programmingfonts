@@ -261,6 +261,38 @@
 	"style"       : "sans",
 	"rendering"   : "bitmap"
 },{
+	"alias"       : "fairfax",
+	"name"        : "Fairfax",
+	"author"      : "Rebecca G. Bettencourt",
+	"year"        : 2008,
+	"website"     : "http://www.kreativekorp.com/software/fonts/fairfax.shtml",
+	"ligatures"   : false,
+	"style"       : "sans",
+	"rendering"   : "bitmap",
+	"variants"    : ["regular", "italic", "bold"],
+	"description" : "Fairfax is a 6x12 bitmap font for terminals, text editors, IDEs, etc. It supports many scripts and a large number of Unicode blocks as well as constructed scripts as encoded in the Under-ConScript Unicode Registry, pseudographics and semigraphics, and tons of private use characters."
+},{
+	"alias"       : "fairfax-hd",
+	"name"        : "Fairfax HD",
+	"author"      : "Rebecca G. Bettencourt",
+	"year"        : 2019,
+	"website"     : "http://www.kreativekorp.com/software/fonts/fairfaxhd.shtml",
+	"ligatures"   : false,
+	"style"       : "sans",
+	"rendering"   : "vector",
+	"license"     : "SIL OFL",
+	"description" : "Fairfax HD is a halfwidth scalable monospace font for terminals, text editors, IDEs, etc. It supports many scripts and a large number of Unicode blocks as well as constructed scripts as encoded in the Under-ConScript Unicode Registry, pseudographics and semigraphics, and tons of private use characters."
+},{
+	"alias"       : "fairfax-serif",
+	"name"        : "Fairfax Serif",
+	"author"      : "Rebecca G. Bettencourt",
+	"year"        : 2008,
+	"website"     : "http://www.kreativekorp.com/software/fonts/fairfax.shtml",
+	"ligatures"   : false,
+	"style"       : "serif",
+	"rendering"   : "bitmap",
+	"description" : "Fairfax is a 6x12 bitmap font for terminals, text editors, IDEs, etc. It supports many scripts and a large number of Unicode blocks as well as constructed scripts as encoded in the Under-ConScript Unicode Registry, pseudographics and semigraphics, and tons of private use characters."
+},{
 	"alias"       : "fantasque-sans",
 	"name"        : "Fantasque Sans Mono",
 	"author"      : "Jany Belluz",

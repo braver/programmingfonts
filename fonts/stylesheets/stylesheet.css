@@ -359,6 +359,36 @@
   src: url('../resources/effects-eighty/effects-eighty.otf');
 }
 @font-face {
+  font-family: 'fairfax';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/fairfax/FairfaxBold.ttf');
+}
+@font-face {
+  font-family: 'fairfax';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/fairfax/FairfaxItalic.ttf');
+}
+@font-face {
+  font-family: 'fairfax';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/fairfax/Fairfax.ttf');
+}
+@font-face {
+  font-family: 'fairfax-hd';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/fairfax-hd/FairfaxHD.ttf');
+}
+@font-face {
+  font-family: 'fairfax-serif';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/fairfax/FairfaxSerif.ttf');
+}
+@font-face {
   font-family: 'fantasque-sans';
   font-weight: bold;
   font-style: italic;

@@ -362,31 +362,31 @@
   font-family: 'fairfax';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/fairfax/FairfaxBold.ttf');
+  src: url('../resources/fairfax/fairfax-bold.ttf');
 }
 @font-face {
   font-family: 'fairfax';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/fairfax/FairfaxItalic.ttf');
+  src: url('../resources/fairfax/fairfax-italic.ttf');
 }
 @font-face {
   font-family: 'fairfax';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/fairfax/Fairfax.ttf');
+  src: url('../resources/fairfax/fairfax.ttf');
 }
 @font-face {
   font-family: 'fairfax-hd';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/fairfax-hd/FairfaxHD.ttf');
+  src: url('../resources/fairfax-hd/fairfax-hd.ttf');
 }
 @font-face {
   font-family: 'fairfax-serif';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/fairfax/FairfaxSerif.ttf');
+  src: url('../resources/fairfax-serif/fairfax-serif.ttf');
 }
 @font-face {
   font-family: 'fantasque-sans';

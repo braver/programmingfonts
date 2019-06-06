@@ -833,6 +833,15 @@
 	"style"       : "serif",
 	"rendering"   : "vector"
 },{
+	"alias"       : "victor-mono",
+	"name"        : "Victor Mono",
+	"author"      : "Rune B",
+	"year"        : 2019,
+	"website"     : "https://rubjo.github.io/victor-mono/",
+	"ligatures"   : true,
+	"style"       : "sans",
+	"rendering"   : "vector"
+},{
 	"alias"       : "vt323",
 	"name"        : "VT323",
 	"author"      : "Peter Hull",

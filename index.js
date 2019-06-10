@@ -13,6 +13,8 @@ var editor = CodeMirror.fromTextArea(document.getElementById('code'), {
 // CodeMirror theme selector
 var input = document.getElementById('select-theme');
 
+var font_data = {};
+
 function selectTheme() {
     var theme = 'monokai';
 
@@ -30,6 +32,8 @@ function selectFont() {
     if (font === '') {
         font = 'input';
     }
+
+    console.log(font_data[font]);
 
     if (font === 'input') {
         $('pre').css({ fontFamily: 'Input Mono, monospace' });
@@ -96,14 +100,24 @@ function renderSelectList() {
     }
 
     $.getJSON('fonts.json', function(data) {
-        data.sort(function(a, b) {
+        var fonts = [];
+        font_data = data;
+
+        $.each(font_data, function(k, v) {
+            var font_props = v;
+            font_props.alias = k;
+            fonts.push(v);
+        });
+
+        fonts.sort(function(a, b) {
             if (favoritesMap[a.alias] && !favoritesMap[b.alias]) {return -1;}
             if (!favoritesMap[a.alias] && favoritesMap[b.alias]) {return 1;}
             if (a.name.toLowerCase() < b.name.toLowerCase()) {return -1;}
             if (a.name.toLowerCase() > b.name.toLowerCase()) {return 1;}
             return 0;
         });
-        $.each(data, function(k, v) {
+
+        $.each(fonts, function(k, v) {
             var liga_info = '';
             var render_info = '';
 

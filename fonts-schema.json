@@ -1,50 +1,58 @@
 {
-	"$schema": "http://json-schema.org/draft-04/schema#",
-	"type":"array",
-	"uniqueItems": true,
-	"items": {
-		"type": "object",
-		"properties": {
-			"alias": {
-				"type":"string",
-				"pattern": "^[a-z][a-z0-9-]+$"
-			},
-			"name": { "type":"string" },
-			"author": { "type":"string" },
-			"description": { "type":"string" },
-			"year": { "type":"integer" },
-			"website": {
-				"type":"string",
-				"format":"uri"
-			},
-			"ligatures": { "type":"boolean" },
-			"style": {
-				"type":"string",
-				"enum": ["serif", "sans"]
-			},
-			"rendering": {
-				"type":"string",
-				"enum": ["bitmap", "vector"]
-			},
-			"variants": {
-				"type":"array",
-				"items": {
-					"type": "string",
-					"pattern": "^[a-z-]+$"
-				},
-				"minItems": 1
-			}
-		},
-		"additionalProperties": false,
-		"required": [
-			"alias",
-			"name",
-			"author",
-			"year",
-			"website",
-			"ligatures",
-			"style",
-			"rendering"
-		]
-	}
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type":"object",
+
+    "patternProperties": {
+        "^[a-z-]*$": {
+            "$ref": "#/definitions/font"
+        }
+    },
+
+    "definitions": {
+        "font": {
+            "type": "object",
+            "properties": {
+                "alias": {
+                    "type":"string",
+                    "pattern": "^[a-z][a-z0-9-]+$"
+                },
+                "name": { "type":"string" },
+                "author": { "type":"string" },
+                "description": { "type":"string" },
+                "year": { "type":"integer" },
+                "website": {
+                    "type":"string",
+                    "format":"uri"
+                },
+                "license": { "type":"string" },
+                "ligatures": { "type":"boolean" },
+                "style": {
+                    "type":"string",
+                    "enum": ["serif", "sans"]
+                },
+                "rendering": {
+                    "type":"string",
+                    "enum": ["bitmap", "vector"]
+                },
+                "variants": {
+                    "type":"array",
+                    "items": {
+                        "type": "string",
+                        "pattern": "^([a-z-]+|\\d00)$"
+                    },
+                    "minItems": 1
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "name",
+                "author",
+                "year",
+                "website",
+                "ligatures",
+                "style",
+                "rendering"
+            ]
+        }
+    }
 }

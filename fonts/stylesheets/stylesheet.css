@@ -1211,6 +1211,18 @@
   src: url('../resources/verily/verily.woff');
 }
 @font-face {
+  font-family: 'victor-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/victor-mono/victor-mono.woff');
+}
+@font-face {
+  font-family: 'victor-mono';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/victor-mono/victor-mono-italic.woff');
+}
+@font-face {
   font-family: 'vt323';
   font-weight: normal;
   font-style: normal;

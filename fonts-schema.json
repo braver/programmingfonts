@@ -5,7 +5,7 @@
 	"items": {
 		"type": "object",
 		"properties": {
-			"alias":    {
+			"alias": {
 				"type":"string",
 				"pattern": "^[a-z][a-z0-9-]+$"
 			},

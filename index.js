@@ -48,8 +48,8 @@ function selectFont() {
         $('textarea').css({ fontFamily: font + ', monospace' });
         $('.CodeMirror').css({ fontFamily: font + ', monospace' });
     }
-    $('#select-font a[data-value]').removeClass('active');
-    $('#select-font a[data-value=\'' + font + '\']').addClass('active');
+    $('#select-font [data-alias]').removeClass('active');
+    $('#select-font [data-alias=\'' + font + '\']').addClass('active');
 
     document.cookie = 'font=' + font + ';max-age=172800';
 }
@@ -123,8 +123,8 @@ function renderSelectList() {
                 render_info = ', bitmap';
             }
             $('#select-font').append(
-                '<div class="entry" data-style="' + v.style + '" data-rendering="' + v.rendering + '" data-ligatures="' + v.ligatures + '" data-author="' + v.author + '">' +
-                '<a href="#' + v.alias + '" data-value="' + v.alias + '">' +
+                '<div class="entry" data-alias="' + v.alias + '">' +
+                '<a href="#' + v.alias + '">' +
                     '<span class="name">' + v.name + '</span>' +
                     '<span class="details">' + v.author + ' (' + v.year + ') — ' + v.style + render_info + liga_info + '</span>' +
                 '</a>' +

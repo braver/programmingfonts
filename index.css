@@ -137,8 +137,8 @@ section.select-list .entry:hover a.website,
 section.select-list .entry:hover a.favoritelink {
 	color: #ccc;
 }
-section.select-list .entry .active + a.website,
-section.select-list .entry .active + a.website,
+section.select-list .entry .active a.website,
+section.select-list .entry .active a.website,
 section.select-list .entry a.website:hover,
 section.select-list .entry a.website:active {
 	background: #e4e4e4;

@@ -33,7 +33,11 @@ function selectFont() {
         font = 'input';
     }
 
-    console.log(font_data[font]);
+    if (font_data[font].rendering === 'bitmap') {
+        $('.CodeMirror').addClass('no-smooth');
+    } else {
+        $('.CodeMirror').removeClass('no-smooth');
+    }
 
     if (font === 'input') {
         $('pre').css({ fontFamily: 'Input Mono, monospace' });
@@ -63,15 +67,6 @@ function setSpacing() {
 
     $('.CodeMirror').css({ lineHeight: spacing });
     document.cookie = 'spacing=' + spacing + ';max-age=172800';
-}
-function setAntialiasing() {
-    if ($('#aliasing').is(':checked')) {
-        $('.CodeMirror').removeClass('no-smooth');
-        document.cookie = 'antialiasing=smooth;max-age=172800';
-    } else {
-        $('.CodeMirror').addClass('no-smooth');
-        document.cookie = 'antialiasing=no-smooth;max-age=172800';
-    }
 }
 function selectLanguage() {
     var lang = $('#select-language').val();
@@ -199,7 +194,6 @@ function decreaseFontSize() {
 $(document).ready(function() {
     var cookieValueSpacing = document.cookie.replace(/(?:(?:^|.*;\s*)spacing\s*=\s*([^;]*).*$)|^.*$/, '$1');
     var cookieValueSize = document.cookie.replace(/(?:(?:^|.*;\s*)size\s*=\s*([^;]*).*$)|^.*$/, '$1');
-    var cookieValueAntialiasing = document.cookie.replace(/(?:(?:^|.*;\s*)antialiasing\s*=\s*([^;]*).*$)|^.*$/, '$1');
     var cookieValueTheme = document.cookie.replace(/(?:(?:^|.*;\s*)theme\s*=\s*([^;]*).*$)|^.*$/, '$1');
     var cookieValueLanguage = document.cookie.replace(/(?:(?:^|.*;\s*)language\s*=\s*([^;]*).*$)|^.*$/, '$1');
 
@@ -208,11 +202,6 @@ $(document).ready(function() {
     }
     if (cookieValueSize !== '') {
         $('#size').val(cookieValueSize);
-    }
-    if (cookieValueAntialiasing === 'smooth') {
-        $('#aliasing').prop('checked', true);
-    } else if (cookieValueAntialiasing === 'no-smooth') {
-        $('#aliasing').prop('checked', false);
     }
     if (cookieValueTheme !== '') {
         $('#select-theme').val(cookieValueTheme);
@@ -224,7 +213,6 @@ $(document).ready(function() {
     selectTheme();
     setSize();
     setSpacing();
-    setAntialiasing();
     selectLanguage();
     renderSelectList();
 

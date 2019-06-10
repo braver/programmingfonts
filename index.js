@@ -264,9 +264,9 @@ function applyFilters() {
 
 }
 
-function toggleFilter(value, group) {
+function toggleFilter(filter, group) {
     function toggleValue(name, value) {
-        if (filters[name] == value) {
+        if (filters[name] === value) {
             filters[name] = false;
         } else {
             filters[name] = value;
@@ -274,11 +274,11 @@ function toggleFilter(value, group) {
     }
 
     if (group === 'style') {
-        toggleValue('style', value);
+        toggleValue('style', filter);
     } else if (group === 'rendering') {
-        toggleValue('rendering', value);
+        toggleValue('rendering', filter);
     } else if (group === 'liga') {
-        toggleValue('liga', value);
+        toggleValue('liga', filter);
     }
 
     applyFilters();

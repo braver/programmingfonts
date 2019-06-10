@@ -798,7 +798,7 @@
 	"rendering"   : "vector",
 	"variants"    : ["regular", "italic", "bold", "bold-italic", "medium", "medium-italic"],
 	"license"     : "SIL OFL",
-	"description" : "Sometype Mono is a free monospaced font family for coding and tabular layout which can be used for commercial purpose for free (licensed under the SIL OFL1.1 [https://github.com/dharmatype/Sometype-Mono/blob/master/OFL.txt]. Consists of 6 styles so far."
+	"description" : "Sometype Mono is a monospaced font family for coding and tabular layout. Consists of 6 styles so far."
 },{
 	"alias"       : "tex-gyre-cursor",
 	"name"        : "TeX Gyre Cursor",
@@ -852,7 +852,9 @@
 	"website"     : "https://rubjo.github.io/victor-mono/",
 	"ligatures"   : true,
 	"style"       : "sans",
-	"rendering"   : "vector"
+	"rendering"   : "vector",
+	"license"     : "MIT",
+	"description" : "Victor Mono is a programming font with semi-connected cursive italics and some symbol ligatures"
 },{
 	"alias"       : "vt323",
 	"name"        : "VT323",

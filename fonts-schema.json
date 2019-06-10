@@ -9,10 +9,11 @@
 				"type":"string",
 				"pattern": "^[a-z][a-z0-9-]+$"
 			},
-			"name":      { "type":"string" },
-			"author":    { "type":"string" },
-			"year":      { "type":"integer" },
-			"website":   {
+			"name": { "type":"string" },
+			"author": { "type":"string" },
+			"description": { "type":"string" },
+			"year": { "type":"integer" },
+			"website": {
 				"type":"string",
 				"format":"uri"
 			},

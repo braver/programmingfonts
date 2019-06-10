@@ -71,11 +71,18 @@ section.config {
 	display: grid;
 	grid-column-gap: 5px;
 	grid-row-gap: 5px;
+	grid-row-gap: 5px;
 	grid-template-columns: auto auto auto auto;
 }
 
 section#filters {
 	grid-template-columns: auto auto auto auto auto;
+	align-items: stretch;
+}
+section#filters input,
+section#filters select {
+	width: 100%;
+	margin: 0;
 }
 
 section.config > * {
@@ -195,6 +202,7 @@ label {
 }
 fieldset {
 	all: unset;
+	display: flex;
 }
 button {
 	all: unset;
@@ -222,7 +230,7 @@ button:active {
 	box-shadow: none;
 }
 button.selected {
-	background: inherit;
+	background: #fff;
 	border-color: #e4e4e4;
 	color: #2a2a2a;
 }
@@ -257,6 +265,10 @@ select option {
 	background: #fff;
 	color: #000;
 }
+input[type="text"] {
+	line-height: 12px;
+}
+input[type="text"],
 input[type="number"] {
 	all: unset;
 	width: 4em;
@@ -267,6 +279,8 @@ input[type="number"] {
 	text-align: left;
 	transition: all .2s ease-in-out;
 }
+input[type="text"]:hover,
+input[type="text"]:focus,
 input[type="number"]:hover,
 input[type="number"]:focus,
 select:hover,

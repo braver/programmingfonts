@@ -19,7 +19,7 @@ var filters = {
     'rendering': false,
     'liga': false,
     'author': 'all',
-    'name': false
+    'name': ''
 };
 
 function selectTheme() {
@@ -80,6 +80,13 @@ function selectLanguage() {
 
     editor.setOption('mode', lang.toLowerCase());
     document.cookie = 'language=' + lang + ';max-age=172800';
+}
+function setCounter(amount) {
+    if (amount === 1) {
+        $('h1 a').text(amount + ' Programming Font');
+    } else {
+        $('h1 a').text(amount + ' Programming Fonts');
+    }
 }
 
 function renderSelectList() {
@@ -154,6 +161,7 @@ function renderSelectList() {
             );
         });
         selectFont();
+        setCounter($('.entry[data-alias]').length);
     });
 }
 
@@ -260,7 +268,8 @@ function applyFilters() {
             (!filters.style || data.style === filters.style) &&
             (!filters.rendering || data.rendering === filters.rendering) &&
             (!filters.liga || data.ligatures === false && filters.liga === 'no' || data.ligatures === true && filters.liga === 'yes') &&
-            (filters.author === 'all' || data.author === filters.author)
+            (filters.author === 'all' || data.author === filters.author) &&
+            (!filters.name || data.name.toLowerCase().indexOf(filters.name) > -1)
         ) {
             $(element).removeClass('filtered-out');
             count++;
@@ -269,11 +278,7 @@ function applyFilters() {
         }
     });
 
-    if (count === 1) {
-        $('h1 a').text(count + ' Programming Font');
-    } else {
-        $('h1 a').text(count + ' Programming Fonts');
-    }
+    setCounter(count);
 }
 
 function toggleFilter(filter, group) {
@@ -315,11 +320,11 @@ $(document).ready(function() {
         $('#select-language').val(cookieValueLanguage);
     }
 
+    renderSelectList();
     selectTheme();
     setSize();
     setSpacing();
     selectLanguage();
-    renderSelectList();
 
     $('#theme-next').click(function() {
         $('#select-theme :selected').next().prop('selected', true);
@@ -340,6 +345,10 @@ $(document).ready(function() {
     });
     $('#authors-list').on('change', function() {
         filters.author = $(this).val();
+        applyFilters();
+    });
+    $('#name-search').on('keyup', function() {
+        filters.name = $(this).val().toLowerCase();
         applyFilters();
     });
 

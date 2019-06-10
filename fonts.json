@@ -788,6 +788,18 @@
 	"style"       : "sans",
 	"rendering"   : "vector"
 },{
+	"alias"       : "sometype-mono",
+	"name"        : "Sometype Mono",
+	"author"      : "Ryoichi Tsunekawa",
+	"year"        : 2018,
+	"website"     : "http://monospacedfont.com/",
+	"ligatures"   : false,
+	"style"       : "sans",
+	"rendering"   : "vector",
+	"variants"    : ["regular", "italic", "bold", "bold-italic", "medium", "medium-italic"],
+	"license"     : "SIL OFL",
+	"description" : "Sometype Mono is a free monospaced font family for coding and tabular layout which can be used for commercial purpose for free (licensed under the SIL OFL1.1 [https://github.com/dharmatype/Sometype-Mono/blob/master/OFL.txt]. Consists of 6 styles so far."
+},{
 	"alias"       : "tex-gyre-cursor",
 	"name"        : "TeX Gyre Cursor",
 	"author"      : "GUST e-foundry",

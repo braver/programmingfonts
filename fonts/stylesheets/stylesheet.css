@@ -1127,6 +1127,30 @@
   src: url('../resources/sudo/sudo.ttf');
 }
 @font-face {
+  font-family: 'sometype-mono';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/sometype-mono/sometype-mono-bold-italic.woff');
+}
+@font-face {
+  font-family: 'sometype-mono';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/sometype-mono/sometype-mono-bold.woff');
+}
+@font-face {
+  font-family: 'sometype-mono';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/sometype-mono/sometype-mono-regular-italic.woff');
+}
+@font-face {
+  font-family: 'sometype-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/sometype-mono/sometype-mono-regular.woff');
+}
+@font-face {
   font-family: 'tex-gyre-cursor';
   font-weight: bold;
   font-style: italic;

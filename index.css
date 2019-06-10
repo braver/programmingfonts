@@ -190,8 +190,15 @@ footer h1 + p {
 }
 footer a:hover,
 footer a:active {
+	color: #2a2a2a;
 	text-decoration: underline;
 }
+footer p a,
+footer p a:link,
+footer p a:visited {
+	text-decoration: underline;
+}
+
 footer svg {
 	margin-top: 4px;
 }
@@ -329,6 +336,19 @@ label[for="select-theme"] {
 }
 .CodeMirror-scroll {
 	-webkit-overflow-scrolling: touch;
+}
+
+.github-logo {
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	z-index: 2;
+	display: block;
+	width: 16px;
+	height: 16px;
+}
+.github-logo svg path {
+	fill: #ccc;
 }
 
 @media screen and (max-width: 56em) {

@@ -18,7 +18,7 @@ var filters = {
     'style': false,
     'rendering': false,
     'liga': false,
-    'author': false,
+    'author': 'all',
     'name': false
 };
 
@@ -103,12 +103,24 @@ function renderSelectList() {
 
     $.getJSON('fonts.json', function(data) {
         var fonts = [];
+        var authors = [];
         font_data = data;
 
         $.each(font_data, function(k, v) {
             var font_props = v;
             font_props.alias = k;
             fonts.push(v);
+            if (authors.indexOf(v.author) < 0) {
+                authors.push(v.author);
+            }
+        });
+
+        authors.sort();
+
+        $.each(authors, function(iteration, author) {
+            $('#authors-list .other').append(
+                '<option>' + author + '</option>'
+            );
         });
 
         fonts.sort(function(a, b) {
@@ -247,7 +259,8 @@ function applyFilters() {
         if (
             (!filters.style || data.style === filters.style) &&
             (!filters.rendering || data.rendering === filters.rendering) &&
-            (!filters.liga || data.ligatures === false && filters.liga === 'no' || data.ligatures === true && filters.liga === 'yes')
+            (!filters.liga || data.ligatures === false && filters.liga === 'no' || data.ligatures === true && filters.liga === 'yes') &&
+            (filters.author === 'all' || data.author === filters.author)
         ) {
             $(element).removeClass('filtered-out');
             count++;
@@ -261,7 +274,6 @@ function applyFilters() {
     } else {
         $('h1 a').text(count + ' Programming Fonts');
     }
-
 }
 
 function toggleFilter(filter, group) {
@@ -325,6 +337,10 @@ $(document).ready(function() {
         event.preventDefault();
         event.stopPropagation();
         toggleFilter(button.val(), button_group);
+    });
+    $('#authors-list').on('change', function() {
+        filters.author = $(this).val();
+        applyFilters();
     });
 
     $('body').on('keydown', function(event) {

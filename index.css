@@ -193,12 +193,61 @@ label {
 	font-style: italic;
 	color: #777;
 }
+fieldset {
+	all: unset;
+}
+button {
+	all: unset;
+
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20px;
+	height: 18px;
+	margin: 0;
+
+	border: 1px solid #e4e4e4;
+	border-bottom-color: #ccc;
+	border-right-color: #ccc;
+	border-radius: 4px;
+
+	color: #777;
+
+	background: linear-gradient(#fff, #e4e4e4);
+	cursor: pointer;
+
+}
+button:active {
+	box-shadow: none;
+}
+button.selected {
+	background: inherit;
+	border-color: #e4e4e4;
+	color: #2a2a2a;
+}
+button path,
+button rect {
+	fill: currentColor;
+}
+.toggle {
+	display: flex;
+}
+.toggle button:first-child {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-right-color: #e4e4e4;
+}
+.toggle button:not(:first-child) {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
 select {
 	all: unset;
 	width: 9em;
 	padding: 0 .5ex;
 	border: 1px solid #e4e4e4;
-	border-radius: 3px;
+	border-radius: 4px;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -214,45 +263,15 @@ input[type="number"] {
 	margin-left: .5ex;
 	padding: 0 .5ex;
 	border: 1px solid #e4e4e4;
-	border-radius: 3px;
+	border-radius: 4px;
 	text-align: left;
+	transition: all .2s ease-in-out;
 }
-fieldset {
-	all: unset;
-}
-button {
-	all: unset;
-	display: block;
-	margin: 0;
-	padding: 0 .5ex;
-	border: 1px solid #e4e4e4;
-	border-radius: 3px;
-	color: #777;
-	position: relative;
-	transition: top .2s ease-in-out;
-}
-button:active {
-	top: 1px;
-}
-
-.toggle {
-	display: flex;
-}
-.toggle button:first-child {
-	border-top-right-radius: 0;
-	border-bottom-right-radius: 0;
-}
-.toggle button:not(:first-child) {
-	border-top-left-radius: 0;
-	border-bottom-left-radius: 0;
-}
-button:hover,
-button.selected,
 input[type="number"]:hover,
 input[type="number"]:focus,
 select:hover,
 select:focus {
-	border-color: #777;
+	border-color: #ccc;
 	background: #f5f5f5;
 }
 pre,

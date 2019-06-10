@@ -20,7 +20,6 @@ body {
 	min-height: 100%;
 }
 h1 {
-	text-align: center;
 	font-weight: 700;
 	font-size: 14px;
 	margin: 0;
@@ -165,11 +164,12 @@ section.select-list .details {
 }
 footer {
 	flex: 0;
-	padding: 10px 0;
-	text-align: center;
+	padding: 6px 10px;
 	font-size: 10px;
+	text-align: center;
 	background: #e4e4e4;
 	color: #777;
+	line-height: 20px;
 }
 footer h1 + p {
 	font-style: italic;
@@ -177,6 +177,9 @@ footer h1 + p {
 footer a:hover,
 footer a:active {
 	text-decoration: underline;
+}
+footer svg {
+	margin-top: 4px;
 }
 label {
 	margin-right: .5ex;

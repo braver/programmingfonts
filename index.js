@@ -14,6 +14,13 @@ var editor = CodeMirror.fromTextArea(document.getElementById('code'), {
 var input = document.getElementById('select-theme');
 
 var font_data = {};
+var filters = {
+    'style': false,
+    'rendering': false,
+    'liga': false,
+    'author': false,
+    'name': false
+};
 
 function selectTheme() {
     var theme = 'monokai';
@@ -191,6 +198,92 @@ function decreaseFontSize() {
     sizeEl.onchange();
 }
 
+function applyFilters() {
+    var count = 0;
+    switch (filters.style) {
+    case 'sans':
+        $('[data-group="style"] [value="sans"]').addClass('selected');
+        $('[data-group="style"] [value="serif"]').removeClass('selected');
+        break;
+    case 'serif':
+        $('[data-group="style"] [value="sans"]').removeClass('selected');
+        $('[data-group="style"] [value="serif"]').addClass('selected');
+        break;
+    default:
+        $('[data-group="style"] [value="sans"]').removeClass('selected');
+        $('[data-group="style"] [value="serif"]').removeClass('selected');
+    }
+
+    switch (filters.rendering) {
+    case 'vector':
+        $('[data-group="rendering"] [value="vector"]').addClass('selected');
+        $('[data-group="rendering"] [value="bitmap"]').removeClass('selected');
+        break;
+    case 'bitmap':
+        $('[data-group="rendering"] [value="vector"]').removeClass('selected');
+        $('[data-group="rendering"] [value="bitmap"]').addClass('selected');
+        break;
+    default:
+        $('[data-group="rendering"] [value="vector"]').removeClass('selected');
+        $('[data-group="rendering"] [value="bitmap"]').removeClass('selected');
+    }
+
+    switch (filters.liga) {
+    case 'yes':
+        $('[data-group="liga"] [value="yes"]').addClass('selected');
+        $('[data-group="liga"] [value="no"]').removeClass('selected');
+        break;
+    case 'no':
+        $('[data-group="liga"] [value="yes"]').removeClass('selected');
+        $('[data-group="liga"] [value="no"]').addClass('selected');
+        break;
+    default:
+        $('[data-group="liga"] [value="yes"]').removeClass('selected');
+        $('[data-group="liga"] [value="no"]').removeClass('selected');
+    }
+
+    $('.entry[data-alias]').each(function(iteration, element) {
+        var data = font_data[$(element).data().alias];
+        if (
+            (!filters.style || data.style === filters.style) &&
+            (!filters.rendering || data.rendering === filters.rendering) &&
+            (!filters.liga || data.ligatures === false && filters.liga === 'no' || data.ligatures === true && filters.liga === 'yes')
+        ) {
+            $(element).removeClass('filtered-out');
+            count++;
+        } else {
+            $(element).addClass('filtered-out');
+        }
+    });
+
+    if (count === 1) {
+        $('h1 a').text(count + ' Programming Font');
+    } else {
+        $('h1 a').text(count + ' Programming Fonts');
+    }
+
+}
+
+function toggleFilter(value, group) {
+    function toggleValue(name, value) {
+        if (filters[name] == value) {
+            filters[name] = false;
+        } else {
+            filters[name] = value;
+        }
+    }
+
+    if (group === 'style') {
+        toggleValue('style', value);
+    } else if (group === 'rendering') {
+        toggleValue('rendering', value);
+    } else if (group === 'liga') {
+        toggleValue('liga', value);
+    }
+
+    applyFilters();
+}
+
 $(document).ready(function() {
     var cookieValueSpacing = document.cookie.replace(/(?:(?:^|.*;\s*)spacing\s*=\s*([^;]*).*$)|^.*$/, '$1');
     var cookieValueSize = document.cookie.replace(/(?:(?:^|.*;\s*)size\s*=\s*([^;]*).*$)|^.*$/, '$1');
@@ -224,6 +317,14 @@ $(document).ready(function() {
     $('#theme-previous').click(function() {
         $('#select-theme :selected').prev().prop('selected', true);
         selectTheme();
+    });
+
+    $('#filters button').on('click', function(event) {
+        var button = $(this);
+        var button_group = button.parent().data().group;
+        event.preventDefault();
+        event.stopPropagation();
+        toggleFilter(button.val(), button_group);
     });
 
     $('body').on('keydown', function(event) {

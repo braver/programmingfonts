@@ -89,6 +89,29 @@
 
 	<div class="article-wrapper">
 		<article>
+			<section id="filters">
+				<fieldset class="toggle" data-group="style">
+					<button value="sans" style="font-family: Input Mono;">Sans</button>
+					<button value="serif" style="font-family: cutive;">Serif</button>
+				</fieldset>
+				<fieldset class="toggle" data-group="rendering">
+					<button value="vector" style="font-family: Input Mono;">Vector</button>
+					<button value="bitmap" style="font-family: fixedsys;" class="no-smooth">Bitmap</button>
+				</fieldset>
+				<fieldset class="toggle" data-group="liga">
+					<button value="no" style="font-family: Input Mono;">=></button>
+					<button value="yes" style="font-family: firacode;">=></button>
+				</fieldset>
+				<!-- <select id="authors-list">
+					<optgroup>
+						<option>All</option>
+					</optgroup>
+					<optgroup>
+						<optgroup>Other</optgroup>
+					</optgroup>
+				</select>
+				<input type="text"> -->
+			</section>
 			<section class="select-list" tabindex="0">
 				<div id="select-font">
 					<!-- filled from json -->

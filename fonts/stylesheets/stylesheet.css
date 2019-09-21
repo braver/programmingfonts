@@ -215,6 +215,12 @@
   src: url('../resources/camingocode/camingocode.woff');
 }
 @font-face {
+  font-family: 'cascadia-code';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/cascadia-code/cascadia-code.ttf');
+}
+@font-face {
   font-family: 'code-new-roman';
   font-weight: normal;
   font-style: normal;

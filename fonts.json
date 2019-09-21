@@ -164,6 +164,15 @@
         "website": "http://www.janfromm.de/typefaces/camingomono/camingocode",
         "year": 2013
     },
+    "cascadia-code": {
+        "author": "Microsoft",
+        "ligatures": false,
+        "name": "Cascadia Code",
+        "rendering": "vector",
+        "style": "sans",
+        "website": "https://github.com/microsoft/cascadia-code",
+        "year": 2019
+    },
     "code-new-roman": {
         "author": "Samiru R.",
         "ligatures": false,

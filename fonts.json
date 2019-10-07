@@ -166,7 +166,7 @@
     },
     "cascadia-code": {
         "author": "Microsoft",
-        "ligatures": false,
+        "ligatures": true,
         "name": "Cascadia Code",
         "rendering": "vector",
         "style": "sans",

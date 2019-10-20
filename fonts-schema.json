@@ -24,7 +24,16 @@
                     "type":"string",
                     "format":"uri"
                 },
-                "license": { "type":"string" },
+                "license": {
+                    "type":"string",
+                    "enum": [
+                        "Apache",
+                        "GNU GPL",
+                        "MIT",
+                        "public domain",
+                        "SIL OFL"
+                    ]
+                },
                 "ligatures": { "type":"boolean" },
                 "style": {
                     "type":"string",

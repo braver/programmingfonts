@@ -245,6 +245,7 @@
     },
     "daddytimemono": {
         "author": "Jason Stewart",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "DaddyTimeMono",
         "rendering": "vector",
@@ -558,7 +559,7 @@
     "luculent": {
         "author": "Andrew Kensler",
         "description": "Luculent is a narrow typeface with full bold, italic versions, each covering 643 characters. All glyphs are distinct and full of character. Additionally, the italics bring a wonderful twist to what is already an outstanding and unique font.",
-        "license": "SIl OFL",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Luculent",
         "rendering": "vector",

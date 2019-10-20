@@ -103,6 +103,7 @@
     },
     "bedstead": {
         "author": "Ben Harris",
+        "license": "public domain",
         "ligatures": false,
         "name": "Bedstead",
         "rendering": "vector",

@@ -251,7 +251,10 @@
         "rendering": "vector",
         "style": "serif",
         "website": "https://github.com/BourgeoisBear/DaddyTimeMono",
-        "year": 2017
+        "year": 2017,
+        "variants": [
+            "regular"
+        ]
     },
     "dejavu": {
         "author": "Deja Vu Project",

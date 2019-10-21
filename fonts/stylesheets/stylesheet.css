@@ -665,6 +665,18 @@
   src: url('../resources/inconsolata-g/inconsolata-g.otf');
 }
 @font-face {
+  font-family: 'jura';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/jura/jura.otf');
+}
+@font-face {
+  font-family: 'jura';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/jura/jura-bold.otf');
+}
+@font-face {
   font-family: 'latin-modern';
   font-weight: normal;
   font-style: italic;

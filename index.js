@@ -189,8 +189,7 @@ function toggleFavorite(alias) {
 }
 
 function nextFont() {
-    var activeLink = document.querySelector('.entry .active');
-    var activeEntry = activeLink.parentNode;
+    var activeEntry = document.querySelector('.entry.active');
     var next = activeEntry.nextSibling;
     if (next && next.matches('.entry')) {
         next.querySelector('a').click();
@@ -199,8 +198,7 @@ function nextFont() {
 }
 
 function previousFont() {
-    var activeLink = document.querySelector('.entry .active');
-    var activeEntry = activeLink.parentNode;
+    var activeEntry = document.querySelector('.entry.active');
     var next = activeEntry.previousSibling;
     if (next && next.matches('.entry')) {
         next.querySelector('a').click();
@@ -355,6 +353,7 @@ $(document).ready(function() {
     });
 
     $('body').on('keydown', function(event) {
+        console.log(event.target);
         if (
             event.target === document.querySelector('.select-list')
             && ! event.ctrlKey

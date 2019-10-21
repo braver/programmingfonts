@@ -97,7 +97,7 @@
         "ligatures": false,
         "name": "B612 Mono",
         "rendering": "vector",
-        "style": "serif",
+        "style": "sans",
         "website": "https://github.com/polarsys/b612",
         "year": 2012
     },

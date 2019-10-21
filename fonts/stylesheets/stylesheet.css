@@ -428,25 +428,25 @@
   font-family: 'fantasque-sans';
   font-weight: bold;
   font-style: italic;
-  src: url('../resources/fantasque-sans/fantasque-sans-bold-italic.woff');
+  src: url('../resources/fantasque-sans/fantasque-sans-bold-italic.ttf');
 }
 @font-face {
   font-family: 'fantasque-sans';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/fantasque-sans/fantasque-sans-bold.woff');
+  src: url('../resources/fantasque-sans/fantasque-sans-bold.ttf');
 }
 @font-face {
   font-family: 'fantasque-sans';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/fantasque-sans/fantasque-sans-italic.woff');
+  src: url('../resources/fantasque-sans/fantasque-sans-italic.ttf');
 }
 @font-face {
   font-family: 'fantasque-sans';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/fantasque-sans/fantasque-sans.woff');
+  src: url('../resources/fantasque-sans/fantasque-sans.ttf');
 }
 @font-face {
   font-family: 'fifteen';

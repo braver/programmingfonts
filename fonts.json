@@ -525,24 +525,6 @@
         "website": "http://be5invis.github.io/Iosevka/",
         "year": 2015
     },
-    "jura": {
-        "author": "Daniel Johnson, Alexei Vanyashin",
-        "ligatures": false,
-        "license": "SIL OFL",
-        "name": "Jura",
-        "rendering": "vector",
-        "style": "sans",
-        "website": "https://github.com/ossobuffo/jura",
-        "year": 2009,
-        "description": "Jura is a family of sans-serif fonts in the Eurostile vein.",
-        "variants": [
-            "light",
-            "regular",
-            "medium",
-            "semibold",
-            "bold"
-        ]
-    },
     "latin-modern": {
         "author": "Donald E. Knuth",
         "ligatures": false,

@@ -243,6 +243,20 @@
         "website": "http://www.google.com/fonts/specimen/Cutive+Mono",
         "year": 2012
     },
+    "d2coding": {
+        "author": "NAVER Corp.",
+        "license": "SIL OFL",
+        "ligatures": true,
+        "name": "D2Coding",
+        "rendering": "vector",
+        "style": "sans",
+        "website": "https://github.com/naver/d2codingfont",
+        "year": 2016,
+        "variants": [
+            "regular",
+            "bold"
+        ]
+    },
     "daddytimemono": {
         "author": "Jason Stewart",
         "license": "SIL OFL",
@@ -644,7 +658,7 @@
         "ligatures": true,
         "name": "Nanum Gothic Coding",
         "rendering": "vector",
-        "style": "sans",
+        "style": "serif",
         "website": "https://github.com/naver/nanumfont",
         "year": 2009
     },

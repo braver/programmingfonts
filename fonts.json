@@ -660,7 +660,8 @@
         "rendering": "vector",
         "style": "serif",
         "website": "https://github.com/naver/nanumfont",
-        "year": 2009
+        "year": 2009,
+        "description": "Many years ago, there was some sort of competition in South Korea for developing/publishing Korean fonts among Internet/big companies. Naver, which is the biggest Internet company in South Korea, published Nanum fonts along with a few variations, and Nanum Gothic Coding was one of them. Nanum means \"sharing\" in Korean."
     },
     "notcouriersans": {
         "author": "Open Source Publishing",

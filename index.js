@@ -92,6 +92,69 @@ function setCounter(amount) {
     }
 }
 
+function applyFilters() {
+    var count = 0;
+    switch (filters.style) {
+    case 'sans':
+        $('[data-group="style"] [value="sans"]').addClass('selected');
+        $('[data-group="style"] [value="serif"]').removeClass('selected');
+        break;
+    case 'serif':
+        $('[data-group="style"] [value="sans"]').removeClass('selected');
+        $('[data-group="style"] [value="serif"]').addClass('selected');
+        break;
+    default:
+        $('[data-group="style"] [value="sans"]').removeClass('selected');
+        $('[data-group="style"] [value="serif"]').removeClass('selected');
+    }
+
+    switch (filters.rendering) {
+    case 'vector':
+        $('[data-group="rendering"] [value="vector"]').addClass('selected');
+        $('[data-group="rendering"] [value="bitmap"]').removeClass('selected');
+        break;
+    case 'bitmap':
+        $('[data-group="rendering"] [value="vector"]').removeClass('selected');
+        $('[data-group="rendering"] [value="bitmap"]').addClass('selected');
+        break;
+    default:
+        $('[data-group="rendering"] [value="vector"]').removeClass('selected');
+        $('[data-group="rendering"] [value="bitmap"]').removeClass('selected');
+    }
+
+    switch (filters.liga) {
+    case 'yes':
+        $('[data-group="liga"] [value="yes"]').addClass('selected');
+        $('[data-group="liga"] [value="no"]').removeClass('selected');
+        break;
+    case 'no':
+        $('[data-group="liga"] [value="yes"]').removeClass('selected');
+        $('[data-group="liga"] [value="no"]').addClass('selected');
+        break;
+    default:
+        $('[data-group="liga"] [value="yes"]').removeClass('selected');
+        $('[data-group="liga"] [value="no"]').removeClass('selected');
+    }
+
+    $('.entry[data-alias]').each(function(iteration, element) {
+        var data = font_data[$(element).data().alias];
+        if (
+            (!filters.style || data.style === filters.style) &&
+            (!filters.rendering || data.rendering === filters.rendering) &&
+            (!filters.liga || data.ligatures === false && filters.liga === 'no' || data.ligatures === true && filters.liga === 'yes') &&
+            (filters.author === 'all' || data.author === filters.author) &&
+            (!filters.name || data.name.toLowerCase().indexOf(filters.name) > -1)
+        ) {
+            $(element).removeClass('filtered-out');
+            count++;
+        } else {
+            $(element).addClass('filtered-out');
+        }
+    });
+
+    setCounter(count);
+}
+
 function renderSelectList() {
     var icon = '<svg class="octicon" viewBox="0 0 12 14" version="1.1" width="12" height="14" aria-hidden="true"><path fill-rule="evenodd" d="M11 10h1v3c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h3v1H1v10h10v-3zM6 2l2.25 2.25L5 7.5 6.5 9l3.25-3.25L12 8V2H6z"></path></svg>';
     var pinIcon = '<svg class="octicon octicon-pin" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 1.2V2l.5 1L6 6H2.2c-.44 0-.67.53-.34.86L5 10l-4 5 5-4 3.14 3.14a.5.5 0 0 0 .86-.34V10l3-4.5 1 .5h.8c.44 0 .67-.53.34-.86L10.86.86a.5.5 0 0 0-.86.34z"></path></svg>';
@@ -164,6 +227,7 @@ function renderSelectList() {
             );
         });
         selectFont();
+        applyFilters();
     });
 }
 
@@ -216,69 +280,6 @@ function decreaseFontSize() {
     var sizeEl = document.getElementById('size');
     sizeEl.value = Number(sizeEl.value) - 1;
     sizeEl.onchange();
-}
-
-function applyFilters() {
-    var count = 0;
-    switch (filters.style) {
-    case 'sans':
-        $('[data-group="style"] [value="sans"]').addClass('selected');
-        $('[data-group="style"] [value="serif"]').removeClass('selected');
-        break;
-    case 'serif':
-        $('[data-group="style"] [value="sans"]').removeClass('selected');
-        $('[data-group="style"] [value="serif"]').addClass('selected');
-        break;
-    default:
-        $('[data-group="style"] [value="sans"]').removeClass('selected');
-        $('[data-group="style"] [value="serif"]').removeClass('selected');
-    }
-
-    switch (filters.rendering) {
-    case 'vector':
-        $('[data-group="rendering"] [value="vector"]').addClass('selected');
-        $('[data-group="rendering"] [value="bitmap"]').removeClass('selected');
-        break;
-    case 'bitmap':
-        $('[data-group="rendering"] [value="vector"]').removeClass('selected');
-        $('[data-group="rendering"] [value="bitmap"]').addClass('selected');
-        break;
-    default:
-        $('[data-group="rendering"] [value="vector"]').removeClass('selected');
-        $('[data-group="rendering"] [value="bitmap"]').removeClass('selected');
-    }
-
-    switch (filters.liga) {
-    case 'yes':
-        $('[data-group="liga"] [value="yes"]').addClass('selected');
-        $('[data-group="liga"] [value="no"]').removeClass('selected');
-        break;
-    case 'no':
-        $('[data-group="liga"] [value="yes"]').removeClass('selected');
-        $('[data-group="liga"] [value="no"]').addClass('selected');
-        break;
-    default:
-        $('[data-group="liga"] [value="yes"]').removeClass('selected');
-        $('[data-group="liga"] [value="no"]').removeClass('selected');
-    }
-
-    $('.entry[data-alias]').each(function(iteration, element) {
-        var data = font_data[$(element).data().alias];
-        if (
-            (!filters.style || data.style === filters.style) &&
-            (!filters.rendering || data.rendering === filters.rendering) &&
-            (!filters.liga || data.ligatures === false && filters.liga === 'no' || data.ligatures === true && filters.liga === 'yes') &&
-            (filters.author === 'all' || data.author === filters.author) &&
-            (!filters.name || data.name.toLowerCase().indexOf(filters.name) > -1)
-        ) {
-            $(element).removeClass('filtered-out');
-            count++;
-        } else {
-            $(element).addClass('filtered-out');
-        }
-    });
-
-    setCounter(count);
 }
 
 function toggleFilter(filter, group) {

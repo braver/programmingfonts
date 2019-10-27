@@ -353,7 +353,6 @@ $(document).ready(function() {
     });
 
     $('body').on('keydown', function(event) {
-        console.log(event.target);
         if (
             event.target === document.querySelector('.select-list')
             && ! event.ctrlKey

@@ -166,7 +166,7 @@
         "year": 2013
     },
     "cascadia-code": {
-        "author": "Microsoft",
+        "author": "Aaron Bell",
         "ligatures": true,
         "name": "Cascadia Code",
         "rendering": "vector",

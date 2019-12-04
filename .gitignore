@@ -39,3 +39,7 @@ Thumbs.db
 # Editor #
 ######################
 *.sublime-workspace
+
+# NPM #
+######################
+node_modules

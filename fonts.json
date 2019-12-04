@@ -82,6 +82,7 @@
     },
     "average": {
         "author": "Richard Alexander Hall",
+        "license": "GNU GPL",
         "ligatures": false,
         "name": "Average Mono",
         "rendering": "vector",

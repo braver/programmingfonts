@@ -93,7 +93,8 @@
         "year": 2013
     },
     "b612-mono": {
-        "author": "Airbus",
+        "author": "Nicolas Chauveau, Thomas Paillot and Jonathan Favre-Lamarine",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "B612 Mono",
         "rendering": "vector",

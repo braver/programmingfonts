@@ -110,25 +110,25 @@
   font-family: 'b612-mono';
   font-weight: bold;
   font-style: italic;
-  src: url('../resources/b612-mono/B612Mono-BoldItalic.ttf');
+  src: url('../resources/b612-mono/b612-mono-bold-italic.ttf');
 }
 @font-face {
   font-family: 'b612-mono';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/b612-mono/B612Mono-Bold.ttf');
+  src: url('../resources/b612-mono/b612-mono-bold.ttf');
 }
 @font-face {
   font-family: 'b612-mono';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/b612-mono/B612Mono-Italic.ttf');
+  src: url('../resources/b612-mono/b612-mono-italic.ttf');
 }
 @font-face {
   font-family: 'b612-mono';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/b612-mono/B612Mono-Regular.ttf');
+  src: url('../resources/b612-mono/b612-mono.ttf');
 }
 @font-face {
   font-family: 'bitstream-vera';

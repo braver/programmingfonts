@@ -197,9 +197,6 @@ footer p a:visited {
 	text-decoration: underline;
 }
 
-footer svg {
-	margin-top: 4px;
-}
 label {
 	margin-right: .5ex;
 	font-style: italic;
@@ -335,17 +332,12 @@ label[for="select-theme"] {
 	-webkit-overflow-scrolling: touch;
 }
 
-.github-logo {
-	position: fixed;
-	bottom: 5px;
-	right: 5px;
-	z-index: 2;
-	display: block;
-	width: 16px;
-	height: 16px;
+footer .logo {
+	display: inline-block;
+	margin-left: 1ex;
 }
-.github-logo svg path {
-	fill: #ccc;
+footer .logo svg path {
+	fill: currentColor;
 }
 
 @media screen and (max-width: 56em) {

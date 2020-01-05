@@ -86,9 +86,9 @@ function selectLanguage() {
 }
 function setCounter(amount) {
     if (amount === 1) {
-        $('h1 a').text(amount + ' Programming Font');
+        $('h1 a:first-child').text(amount + ' Programming Font');
     } else {
-        $('h1 a').text(amount + ' Programming Fonts');
+        $('h1 a:first-child').text(amount + ' Programming Fonts');
     }
 }
 

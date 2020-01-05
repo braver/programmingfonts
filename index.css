@@ -6,9 +6,9 @@ html {
 	min-height: 100%;
 	background: #f5f0e6;
 	font-family: -apple-system, BlinkMacSystemFont,
-	    "Segoe UI", "Roboto", "Oxygen",
-	    "Ubuntu", "Cantarell", "Fira Sans",
-	    "Droid Sans", "Helvetica Neue", sans-serif;
+		"Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans",
+		"Droid Sans", "Helvetica Neue", sans-serif;
 	font-size: 14px;
 	line-height: 20px;
 	font-weight: 300;
@@ -37,7 +37,6 @@ a:active {
 	color: inherit;
 }
 .no-smooth {
-	font-smooth: never;
 	-webkit-font-smoothing: none;
 }
 .octicon {
@@ -158,7 +157,6 @@ section.select-list .entry:hover a.favoritelink {
 	color: #ccc;
 }
 section.select-list .entry .active a.website,
-section.select-list .entry .active a.website,
 section.select-list .entry a.website:hover,
 section.select-list .entry a.website:active {
 	background: #e4e4e4;
@@ -231,7 +229,6 @@ button {
 
 	background: linear-gradient(#fff, #e4e4e4);
 	cursor: pointer;
-
 }
 button:active {
 	box-shadow: none;

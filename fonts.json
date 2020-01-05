@@ -607,6 +607,9 @@
         "name": "Mensch",
         "rendering": "vector",
         "style": "sans",
+        "variants": [
+            "regular"
+        ],
         "website": "https://robey.lag.net/2010/06/21/mensch-font.html",
         "year": 2010
     },

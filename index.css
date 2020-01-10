@@ -97,6 +97,9 @@ section.select-list {
 section.select-list:focus {
 	outline: none;
 }
+section.select-list > * {
+	overflow: hidden;
+}
 section.select-list .entry {
 	position: relative;
 	display: flex;
@@ -108,6 +111,10 @@ section.select-list .entry:last-child {
 }
 section.select-list .entry:hover {
 	background: #fff;
+}
+section.select-list .entry > a {
+	display: block;
+	flex: 1;
 }
 section.select-list .entry.filtered-out {
 	display: none;
@@ -179,6 +186,8 @@ section.select-list .details {
 	display: block;
 	font-size: 10px;
 	text-indent: 2em;
+	display: block;
+	width: 60%;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;

@@ -101,6 +101,10 @@ section.select-list .entry {
 	position: relative;
 	display: flex;
 	padding: .5em 1em;
+	border-top: 1px solid #eee;
+}
+section.select-list .entry:last-child {
+	border-bottom: 1px solid #eee;
 }
 section.select-list .entry:hover {
 	background: #fff;
@@ -128,9 +132,6 @@ section.select-list a.favoritelink {
 	top: .5rem;
 	right: 1rem;
 	cursor: pointer;
-}
-section.select-list a.pinned {
-	color: #777;
 }
 section.select-list a.favoritelink:hover {
 	color: currentColor;
@@ -164,6 +165,13 @@ section.select-list .entry a.website:active {
 }
 section.select-list a.website:active {
 	margin-top: 1px;
+}
+section.select-list .pinned + .entry:not(.pinned) {
+	border-top-color: #ccc;
+}
+section.select-list .pinned a.favoritelink,
+section.select-list .pinned.entry:hover a.favoritelink {
+	color: #777;
 }
 section.select-list .details {
 	color: #777;

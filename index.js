@@ -215,12 +215,12 @@ function renderSelectList() {
                 render_info = ', bitmap';
             }
             $('#select-font').append(
-                '<div class="entry" data-alias="' + v.alias + '">' +
+                '<div class="entry' + (favoritesMap[v.alias] ? ' pinned' : '') + '" data-alias="' + v.alias + '">' +
                 '<a href="#' + v.alias + '">' +
                     '<span class="name">' + v.name + '</span>' +
                     '<span class="details">' + v.author + ' (' + v.year + ') — ' + v.style + render_info + liga_info + '</span>' +
                 '</a>' +
-                '<a class="favoritelink' + (favoritesMap[v.alias] ? ' pinned' : '') + '" onclick="toggleFavorite(\'' + v.alias + '\')">' +
+                '<a class="favoritelink" onclick="toggleFavorite(\'' + v.alias + '\')">' +
                     pinIcon +
                 '</a>' +
                 '<a class="website" href="' + v.website + '" rel="external"> <span>Info & Download</span>' + icon + '</a></div>'

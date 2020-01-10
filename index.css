@@ -132,17 +132,6 @@ section.select-list a:active .name {
 section.select-list .active .name {
     font-weight: bold;
 }
-section.select-list a.favoritelink {
-    position: absolute;
-    top: .5rem;
-    right: 1rem;
-    margin-right: .25em;
-    color: #F5F5F5;
-    cursor: pointer;
-}
-section.select-list a.favoritelink:hover {
-    color: currentColor;
-}
 section.select-list a.website {
     position: absolute;
     right: 1rem;
@@ -160,9 +149,19 @@ section.select-list a.website span {
     display: inline-block;
     padding-right: 1ex;
 }
+section.select-list a.favoritelink {
+    flex-grow: 0;
+    margin-right: .25em;
+    color: #F5F5F5;
+    cursor: pointer;
+}
 section.select-list .entry:hover a.website,
 section.select-list .entry:hover a.favoritelink {
     color: #CCC;
+}
+section.select-list .entry:hover a.favoritelink:hover,
+section.select-list a.favoritelink:hover {
+    color: #777;
 }
 section.select-list .entry .active a.website,
 section.select-list .entry a.website:hover,

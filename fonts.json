@@ -185,6 +185,17 @@
         "website": "http://sourceforge.net/projects/codenewroman/",
         "year": 2014
     },
+    "comic-shanns": {
+        "author": "Shannon Miwa",
+        "description": "Like if someone made a dumbass version of Comic Sans that is monospaced.",
+        "license": "MIT",
+        "ligatures": false,
+        "name": "Comic Shanns",
+        "rendering": "vector",
+        "style": "sans",
+        "website": "https://github.com/shannpersand/comic-shanns",
+        "year": 2018
+    },
     "consolamono": {
         "author": "Wojciech Kalinowski",
         "ligatures": false,

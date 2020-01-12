@@ -227,6 +227,12 @@
   src: url('../resources/code-new-roman/code-new-roman.otf');
 }
 @font-face {
+  font-family: 'comic-shanns';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/comic-shanns/comic-shanns.otf');
+}
+@font-face {
   font-family: 'consolamono';
   font-weight: bold;
   font-style: normal;

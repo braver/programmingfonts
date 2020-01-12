@@ -37,7 +37,7 @@ function selectFont() {
     var font = window.location.hash.substring(1);
 
     if (font === '') {
-        font = 'input';
+        font = 'cartograph';
         $('footer .subtitle').text('Test drive all the free programming fonts!');
     } else {
         $('footer .subtitle').html('Test drive <a rel="external" href="' + font_data[font].website + '">' + font_data[font].name + '!</a>');

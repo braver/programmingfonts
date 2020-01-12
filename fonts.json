@@ -167,6 +167,35 @@
         "website": "http://www.janfromm.de/typefaces/camingomono/camingocode",
         "year": 2013
     },
+    "cartograph": {
+        "author": "Connary Fagen",
+        "description": "A monospaced typeface with character and warmth, Cartograph is a handsome font family featuring a lush, cursive italic, code-friendly ligatures, and a proportional set accessible via OpenType. A tribute to the utilitarian beauty of terminals and typewriters, Cartograph excels in code and prose.",
+        "license": "commercial",
+        "ligatures": true,
+        "name": "Cartograph",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "regular",
+            "italic",
+            "bold",
+            "bold-italic",
+            "demi-bold",
+            "demi-bold-italic",
+            "extra-bold",
+            "extra-bold-italic",
+            "heavy",
+            "heavy-italic",
+            "light",
+            "light-italic",
+            "extra-light",
+            "extra-light-italic",
+            "thin",
+            "thin-italic"
+        ],
+        "website": "https://connary.com/cartograph.html",
+        "year": 2016
+    },
     "cascadia-code": {
         "author": "Aaron Bell",
         "ligatures": true,

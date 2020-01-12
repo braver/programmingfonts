@@ -215,6 +215,30 @@
   src: url('../resources/camingocode/camingocode.woff');
 }
 @font-face {
+  font-family: 'cartograph';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/cartograph/cartograph-bold-italic.woff');
+}
+@font-face {
+  font-family: 'cartograph';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/cartograph/cartograph-bold.woff');
+}
+@font-face {
+  font-family: 'cartograph';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/cartograph/cartograph-italic.woff');
+}
+@font-face {
+  font-family: 'cartograph';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/cartograph/cartograph.woff');
+}
+@font-face {
   font-family: 'cascadia-code';
   font-weight: normal;
   font-style: normal;

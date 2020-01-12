@@ -27,6 +27,7 @@
                 "license": {
                     "type":"string",
                     "enum": [
+                        "commercial",
                         "Apache",
                         "GNU GPL",
                         "MIT",

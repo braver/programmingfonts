@@ -222,6 +222,9 @@
         "name": "Comic Shanns",
         "rendering": "vector",
         "style": "sans",
+        "variants": [
+            "regular"
+        ],
         "website": "https://github.com/shannpersand/comic-shanns",
         "year": 2018
     },

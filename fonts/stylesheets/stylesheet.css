@@ -383,6 +383,12 @@
   src: url('../resources/droid-sans/droid-sans.woff');
 }
 @font-face {
+  font-family: 'edlo';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/edlo/edlo.ttf');
+}
+@font-face {
   font-family: 'effects-eighty';
   font-weight: bold;
   font-style: italic;

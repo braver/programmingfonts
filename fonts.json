@@ -333,6 +333,17 @@
         "website": "https://fonts.google.com/specimen/Droid+Sans",
         "year": 2006
     },
+    "edlo": {
+        "author": "Eric Hamiter",
+        "description": "Edlo is a modified version of Stephen G. Hartke’s Aurulent Sans, which I thought was beautiful, but hazardous for programming because the similarities between zeroes and ohs and ones and els were too close for comfort.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Edlo",
+        "rendering": "vector",
+        "style": "sans",
+        "website": "https://github.com/ehamiter/Edlo",
+        "year": 2011
+    },
     "effects-eighty": {
         "author": "Peter Hull",
         "ligatures": false,

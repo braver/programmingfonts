@@ -561,6 +561,37 @@
         "website": "http://input.fontbureau.com",
         "year": 2014
     },
+    "inter": {
+        "author": "Rasmus Andersson",
+        "description": "Inter started out in late 2016 as an experiment to build a perfectly pixel-fitting font at a specific small size (11px.) The idea was that by crafting a font in a particular way, with a particular coordinate system (Units Per EM), and for a particular target rasterization size (11), it would be possible to get the best of both sharpness and readability.",
+        "license": "SIL OFL",
+        "ligatures": true,
+        "name": "Inter",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "thin",
+            "thin-italic",
+            "extra-light",
+            "extra-light-italic",
+            "light",
+            "light-italic",
+            "regular",
+            "italic",
+            "medium",
+            "medium-italic",
+            "semi-bold",
+            "semi-bold-italic",
+            "bold",
+            "bold-italic",
+            "extra-bold",
+            "extra-bold-italic",
+            "black",
+            "black-italic"
+        ],
+        "website": "https://rsms.me/inter/",
+        "year": 2016
+    },
     "iosevka": {
         "author": "Belleve Invis",
         "ligatures": true,

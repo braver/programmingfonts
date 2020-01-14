@@ -659,6 +659,30 @@
   src: url('../resources/ia-writer-mono/ia-writer-mono-bold-italic.woff');
 }
 @font-face {
+  font-family: 'inter';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/inter/inter.woff');
+}
+@font-face {
+  font-family: 'inter';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/inter/inter-italic.woff');
+}
+@font-face {
+  font-family: 'inter';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/inter/inter-bold.woff');
+}
+@font-face {
+  font-family: 'inter';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/inter/inter-bold-italic.woff');
+}
+@font-face {
   font-family: 'iosevka';
   font-weight: normal;
   font-style: normal;

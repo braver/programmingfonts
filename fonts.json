@@ -612,6 +612,26 @@
         "website": "http://be5invis.github.io/Iosevka/",
         "year": 2015
     },
+    "jetbrainsmono": {
+        "author": "Philipp Nurullin",
+        "license": "Apache",
+        "ligatures": true,
+        "name": "JetBrains Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "bold-italic",
+            "bold",
+            "extrabold-italic",
+            "extrabold",
+            "italic",
+            "medium-italic",
+            "medium",
+            "regular"
+        ],
+        "website": "https://www.jetbrains.com/lp/mono/",
+        "year": 2020
+    },
     "latin-modern": {
         "author": "Donald E. Knuth",
         "ligatures": false,

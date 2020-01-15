@@ -725,6 +725,30 @@
   src: url('../resources/inconsolata-g/inconsolata-g.otf');
 }
 @font-face {
+  font-family: 'jetbrainsmono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/jetbrainsmono/jetbrainsmono-regular.ttf');
+}
+@font-face {
+  font-family: 'jetbrainsmono';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/jetbrainsmono/jetbrainsmono-italic.ttf');
+}
+@font-face {
+  font-family: 'jetbrainsmono';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/jetbrainsmono/jetbrainsmono-bold.ttf');
+}
+@font-face {
+  font-family: 'jetbrainsmono';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/jetbrainsmono/jetbrainsmono-bold-italic.ttf');
+}
+@font-face {
   font-family: 'latin-modern';
   font-weight: normal;
   font-style: italic;

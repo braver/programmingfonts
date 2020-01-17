@@ -375,16 +375,3 @@ footer .logo svg path {
         display: none;
     }
 }
-
-
-/*
-    custom options for specific fonts
-*/
-
-html[data-selected-font='inter'] {
-    /*
-        Stylistic set 2: Disambiguation (ie. slashed zero)
-        https://rsms.me/inter/#features/ss02
-    */
-    font-feature-settings: 'ss02' 1;
-}

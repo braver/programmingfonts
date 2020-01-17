@@ -61,7 +61,6 @@ function selectFont() {
     $('#select-font [data-alias]').removeClass('active');
     $('#select-font [data-alias=\'' + font + '\']').addClass('active');
 
-    document.documentElement.setAttribute('data-selected-font', font);
     document.cookie = 'font=' + font + ';max-age=172800';
 }
 

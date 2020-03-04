@@ -353,6 +353,35 @@
         "website": "http://openfontlibrary.org/en/font/effects-eighty",
         "year": 2013
     },
+    "ellograph": {
+        "author": "Connary Fagen",
+        "description": "A friendly monospaced typeface with a soft, rounded construction and striking cursive italics. A generous x-height and short descenders allow for even, flowing lines of text. Beautiful as a coding font; charming in logos, headlines, and print.",
+        "license": "commercial",
+        "ligatures": true,
+        "name": "Ellograph",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "bold",
+            "bold-italic",
+            "demibold",
+            "demibold-italic",
+            "extrabold",
+            "extrabold-italic",
+            "extralight",
+            "extralight-italic",
+            "heavy",
+            "heavy-italic",
+            "light",
+            "light-italic",
+            "regular",
+            "regular-italic",
+            "thin",
+            "thin-italic"
+        ],
+        "website": "https://connary.com/ellograph.html",
+        "year": 2020
+    },
     "envy-code-r": {
         "author": "Damien Guard",
         "ligatures": false,

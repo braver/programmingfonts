@@ -413,6 +413,30 @@
   src: url('../resources/effects-eighty/effects-eighty.otf');
 }
 @font-face {
+  font-family: 'ellograph';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/ellograph/ellograph-bold-italic.woff');
+}
+@font-face {
+  font-family: 'ellograph';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/ellograph/ellograph-bold.woff');
+}
+@font-face {
+  font-family: 'ellograph';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/ellograph/ellograph-italic.woff');
+}
+@font-face {
+  font-family: 'ellograph';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/ellograph/ellograph.woff');
+}
+@font-face {
   font-family: 'envy-code-r';
   font-weight: bold;
   font-style: normal;

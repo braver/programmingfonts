@@ -279,6 +279,15 @@
         "website": "http://www.fontsquirrel.com/fonts/cousine",
         "year": 2010
     },
+    "cozette": {
+        "author": "Slavfox",
+        "ligatures": false,
+        "name": "Cozette",
+        "rendering": "bitmap",
+        "style": "sans",
+        "website": "https://github.com/slavfox/Cozette",
+        "year": 2020
+    },
     "cutive": {
         "author": "Vernon Adams",
         "ligatures": false,

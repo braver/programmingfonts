@@ -329,6 +329,12 @@
   src: url('../resources/cousine/cousine.woff');
 }
 @font-face {
+  font-family: 'cozette';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/cozette/cozette.woff');
+}
+@font-face {
   font-family: 'cutive';
   font-weight: normal;
   font-style: normal;

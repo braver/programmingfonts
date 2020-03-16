@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/braver/programmingfonts#readme",
   "devDependencies": {
-    "ajv-cli": "^3.0.0",
+    "ajv-cli": "^3.1.0",
     "lessc": "^1.0.2"
   }
 }

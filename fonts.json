@@ -285,6 +285,9 @@
         "name": "Cozette",
         "rendering": "bitmap",
         "style": "sans",
+        "variants": [
+            "regular"
+        ],
         "website": "https://github.com/slavfox/Cozette",
         "year": 2020
     },

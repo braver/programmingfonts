@@ -184,7 +184,6 @@ section.select-list .details {
     width: 60%;
     font-size: 10px;
     font-style: italic;
-    text-indent: 2em;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;

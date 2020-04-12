@@ -1121,6 +1121,30 @@
   src: url('../resources/quinze/quinze.ttf');
 }
 @font-face {
+  font-family: 'recursive-mono-linear';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/recursive-mono-linear/recursive-mono-linear-bold-italic.ttf');
+}
+@font-face {
+  font-family: 'recursive-mono-linear';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/recursive-mono-linear/recursive-mono-linear-bold.ttf');
+}
+@font-face {
+  font-family: 'recursive-mono-linear';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/recursive-mono-linear/recursive-mono-linear-italic.ttf');
+}
+@font-face {
+  font-family: 'recursive-mono-linear';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/recursive-mono-linear/recursive-mono-linear.ttf');
+}
+@font-face {
   font-family: 'roboto';
   font-weight: bold;
   font-style: italic;

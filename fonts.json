@@ -957,6 +957,15 @@
         "website": "http://openfontlibrary.org/en/font/fifteen",
         "year": 2013
     },
+    "recursive-mono-linear": {
+        "author": "Arrow Type",
+        "ligatures": false,
+        "name": "Recursive",
+        "rendering": "vector",
+        "style": "sans",
+        "website": "https://www.recursive.design",
+        "year": 2018
+    },
     "roboto": {
         "author": "Christian Robertson",
         "ligatures": false,

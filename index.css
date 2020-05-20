@@ -42,7 +42,7 @@ a:active {
 .octicon {
     fill: currentColor;
 }
-.article-wrapper {
+.main-wrapper {
     width: 28em;
     height: 100%;
     max-height: 100%;
@@ -52,7 +52,7 @@ a:active {
     border-right: 1px solid #4A4A4A;
     overflow: hidden;
 }
-article {
+main {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -354,7 +354,7 @@ footer .logo svg path {
 }
 
 @media screen and (max-width: 56em) {
-    .article-wrapper,
+    .main-wrapper,
     form {
         width: 100%;
         height: 50vh;

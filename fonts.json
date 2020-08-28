@@ -7,6 +7,7 @@
         "name": "Agave",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "variants": [
             "regular"
         ],
@@ -19,6 +20,7 @@
         "name": "Anka/Coder",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "variants": [
             "regular",
             "condensed",
@@ -35,6 +37,7 @@
         "name": "Anonymous Pro",
         "rendering": "vector",
         "style": "serif",
+        "zerostyle": "slash",
         "variants": [
             "regular",
             "italic",
@@ -50,6 +53,7 @@
         "name": "APL2741",
         "rendering": "vector",
         "style": "serif",
+        "zerostyle": "empty",
         "variants": [
             "regular"
         ],
@@ -62,6 +66,7 @@
         "name": "APL385",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "empty",
         "variants": [
             "regular"
         ],
@@ -74,6 +79,7 @@
         "name": "Aurulent Sans Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "empty",
         "variants": [
             "regular"
         ],
@@ -87,6 +93,7 @@
         "name": "Average Mono",
         "rendering": "vector",
         "style": "serif",
+        "zerostyle": "empty",
         "variants": [
             "regular"
         ],
@@ -100,6 +107,7 @@
         "name": "B612 Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "empty",
         "website": "https://github.com/polarsys/b612",
         "year": 2012
     },
@@ -110,6 +118,7 @@
         "name": "Bedstead",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "empty",
         "website": "https://bjh21.me.uk/bedstead/",
         "year": 2018
     },
@@ -119,6 +128,7 @@
         "name": "Bitstream Vera Sans Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "website": "http://www.fontsquirrel.com/fonts/Bitstream-Vera-Sans-Mono",
         "year": 2002
     },
@@ -128,6 +138,7 @@
         "name": "Borg Sans Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "https://github.com/marnen/borg-sans-mono",
         "year": 2016
     },
@@ -137,6 +148,7 @@
         "name": "BPmono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "http://www.fontsquirrel.com/fonts/BPmono",
         "year": 2007
     },
@@ -146,6 +158,7 @@
         "name": "Bront DejaVu Sans Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "https://github.com/chrismwendt/bront",
         "year": 2015
     },
@@ -155,6 +168,7 @@
         "name": "Bront Ubuntu Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "https://github.com/chrismwendt/bront",
         "year": 2015
     },
@@ -164,6 +178,7 @@
         "name": "CamingoCode",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "http://www.janfromm.de/typefaces/camingomono/camingocode",
         "year": 2013
     },
@@ -175,6 +190,7 @@
         "name": "Cartograph",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "variants": [
             "regular",
             "italic",
@@ -202,6 +218,7 @@
         "name": "Cascadia Code",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "website": "https://github.com/microsoft/cascadia-code",
         "year": 2019
     },
@@ -211,6 +228,7 @@
         "name": "Code New Roman",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "http://sourceforge.net/projects/codenewroman/",
         "year": 2014
     },
@@ -222,6 +240,7 @@
         "name": "Comic Shanns",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "variants": [
             "regular"
         ],
@@ -234,6 +253,7 @@
         "name": "Consolamono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "http://openfontlibrary.org/en/font/consolamono",
         "year": 2011
     },
@@ -244,6 +264,7 @@
         "name": "Courier Prime",
         "rendering": "vector",
         "style": "serif",
+        "zerostyle": "empty",
         "website": "https://quoteunquoteapps.com/courierprime",
         "year": 2013
     },
@@ -255,6 +276,7 @@
         "name": "Courier Prime Code",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "variants": [
             "regular",
             "italic"
@@ -270,6 +292,7 @@
         "name": "Cousine",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "variants": [
             "regular",
             "italic",
@@ -285,6 +308,7 @@
         "name": "Cozette",
         "rendering": "bitmap",
         "style": "sans",
+        "zerostyle": "dot",
         "variants": [
             "regular"
         ],
@@ -297,6 +321,7 @@
         "name": "Cutive Mono",
         "rendering": "vector",
         "style": "serif",
+        "zerostyle": "empty",
         "website": "http://www.google.com/fonts/specimen/Cutive+Mono",
         "year": 2012
     },
@@ -307,6 +332,7 @@
         "name": "D2Coding",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "https://github.com/naver/d2codingfont",
         "year": 2016,
         "variants": [
@@ -321,6 +347,7 @@
         "name": "DaddyTimeMono",
         "rendering": "vector",
         "style": "serif",
+        "zerostyle": "slash",
         "website": "https://github.com/BourgeoisBear/DaddyTimeMono",
         "year": 2017,
         "variants": [
@@ -333,6 +360,7 @@
         "name": "DejaVu Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "website": "https://dejavu-fonts.github.io",
         "year": 2004
     },
@@ -342,6 +370,7 @@
         "name": "Droid Sans",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "empty",
         "website": "https://fonts.google.com/specimen/Droid+Sans",
         "year": 2006
     },
@@ -353,6 +382,7 @@
         "name": "Edlo",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "website": "https://github.com/ehamiter/Edlo",
         "year": 2011
     },
@@ -362,6 +392,7 @@
         "name": "Effects Eighty",
         "rendering": "bitmap",
         "style": "sans",
+        "zerostyle": "empty",
         "website": "http://openfontlibrary.org/en/font/effects-eighty",
         "year": 2013
     },
@@ -373,6 +404,7 @@
         "name": "Ellograph",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "variants": [
             "bold",
             "bold-italic",
@@ -400,6 +432,7 @@
         "name": "Envy Code R",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "https://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released",
         "year": 2008
     },
@@ -410,6 +443,7 @@
         "name": "Fairfax",
         "rendering": "bitmap",
         "style": "sans",
+        "zerostyle": "slash",
         "variants": [
             "regular",
             "italic",
@@ -426,6 +460,7 @@
         "name": "Fairfax HD",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "http://www.kreativekorp.com/software/fonts/fairfaxhd.shtml",
         "year": 2019
     },
@@ -436,6 +471,7 @@
         "name": "Fairfax Serif",
         "rendering": "bitmap",
         "style": "serif",
+        "zerostyle": "slash",
         "website": "http://www.kreativekorp.com/software/fonts/fairfax.shtml",
         "year": 2008
     },
@@ -445,6 +481,7 @@
         "name": "Fantasque Sans Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "https://github.com/belluzj/fantasque-sans",
         "year": 2013
     },
@@ -454,6 +491,7 @@
         "name": "Fifteen",
         "rendering": "bitmap",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "http://openfontlibrary.org/en/font/fifteen",
         "year": 2013
     },
@@ -463,6 +501,7 @@
         "name": "Fira Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "website": "https://github.com/mozilla/Fira",
         "year": 2013
     },
@@ -472,6 +511,7 @@
         "name": "Fira Code",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "website": "https://github.com/tonsky/FiraCode",
         "year": 2014
     },
@@ -481,6 +521,7 @@
         "name": "Fixedsys",
         "rendering": "bitmap",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "http://www.moviecorner.de/en/font-fixedsys-ttf/description",
         "year": 1980
     },
@@ -490,6 +531,7 @@
         "name": "Fixedsys with Ligatures",
         "rendering": "bitmap",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "https://github.com/kika/fixedsys",
         "year": 2016
     },
@@ -499,6 +541,7 @@
         "name": "3270",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "variants": [
             "medium",
             "narrow",
@@ -513,6 +556,7 @@
         "name": "Generic Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "http://luc.devroye.org/fonts-75172.html",
         "year": 1980
     },
@@ -524,6 +568,7 @@
         "name": "GNU Freefont",
         "rendering": "vector",
         "style": "serif",
+        "zerostyle": "empty",
         "variants": [
             "regular",
             "italic",
@@ -541,6 +586,7 @@
         "name": "Go Mono",
         "rendering": "vector",
         "style": "serif",
+        "zerostyle": "slash",
         "variants": [
             "regular",
             "bold",
@@ -556,6 +602,7 @@
         "name": "Hack",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "website": "https://github.com/chrissimpkins/Hack",
         "year": 2015
     },
@@ -565,6 +612,7 @@
         "name": "Hasklig",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "website": "https://github.com/i-tu/Hasklig",
         "year": 2014
     },
@@ -574,6 +622,7 @@
         "name": "Hermit",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "https://pcaro.es/p/hermit/",
         "year": 2013
     },
@@ -583,6 +632,7 @@
         "name": "iA Writer Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "website": "https://ia.net/writer/blog/a-typographic-christmas",
         "year": 2018
     },
@@ -592,6 +642,7 @@
         "name": "Inconsolata",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "http://www.levien.com/type/myfonts/inconsolata.html",
         "year": 2001
     },
@@ -601,6 +652,7 @@
         "name": "Inconsolata-g",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "website": "http://leonardo-m.livejournal.com/77079.html",
         "year": 2009
     },
@@ -610,6 +662,7 @@
         "name": "Input",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "website": "http://input.fontbureau.com",
         "year": 2014
     },
@@ -619,6 +672,7 @@
         "name": "Iosevka",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "http://be5invis.github.io/Iosevka/",
         "year": 2015
     },
@@ -629,6 +683,7 @@
         "name": "JetBrains Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "variants": [
             "bold-italic",
             "bold",
@@ -648,6 +703,7 @@
         "name": "Latin Modern Mono",
         "rendering": "vector",
         "style": "serif",
+        "zerostyle": "empty",
         "website": "http://www.gust.org.pl/gust/projects/e-foundry/latin-modern",
         "year": 2002
     },
@@ -659,6 +715,7 @@
         "name": "League Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "variants": [
             "100",
             "200",
@@ -678,6 +735,7 @@
         "name": "Lekton",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "empty",
         "website": "http://www.fontsquirrel.com/fonts/lekton",
         "year": 2008
     },
@@ -687,6 +745,7 @@
         "name": "Liberation Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "empty",
         "website": "https://fedorahosted.org/liberation-fonts/",
         "year": 2007
     },
@@ -698,6 +757,7 @@
         "name": "Luculent",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "variants": [
             "regular",
             "italic",
@@ -713,6 +773,7 @@
         "name": "Luxi Mono",
         "rendering": "vector",
         "style": "serif",
+        "zerostyle": "empty",
         "website": "http://www.fontsquirrel.com/fonts/Luxi-Mono",
         "year": 2001
     },
@@ -722,6 +783,7 @@
         "name": "Mensch",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "variants": [
             "regular"
         ],
@@ -734,6 +796,7 @@
         "name": "Meslo",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "https://github.com/andreberg/Meslo-Font",
         "year": 2010
     },
@@ -743,6 +806,7 @@
         "name": "Monofur",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "website": "http://www.dafont.com/monofur.font",
         "year": 2000
     },
@@ -752,6 +816,7 @@
         "name": "Monoid",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "http://larsenwork.com/monoid/",
         "year": 2015
     },
@@ -761,6 +826,7 @@
         "name": "Mononoki",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "https://github.com/madmalik/mononoki",
         "year": 2013
     },
@@ -770,6 +836,7 @@
         "name": "M+",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "http://mplus-fonts.sourceforge.jp",
         "year": 2003
     },
@@ -779,6 +846,7 @@
         "name": "Nanum Gothic Coding",
         "rendering": "vector",
         "style": "serif",
+        "zerostyle": "dot",
         "website": "https://github.com/naver/nanumfont",
         "year": 2009,
         "description": "Many years ago, there was some sort of competition in South Korea for developing/publishing Korean fonts among Internet/big companies. Naver, which is the biggest Internet company in South Korea, published Nanum fonts along with a few variations, and Nanum Gothic Coding was one of them. Nanum means \"sharing\" in Korean."
@@ -789,6 +857,7 @@
         "name": "NotCourierSans",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "empty",
         "website": "http://www.fontsquirrel.com/fonts/NotCourierSans",
         "year": 2008
     },
@@ -798,6 +867,7 @@
         "name": "Noto Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "empty",
         "website": "https://www.google.com/get/noto/",
         "year": 2012
     },
@@ -807,6 +877,7 @@
         "name": "Nova Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "http://www.google.com/fonts/specimen/Nova+Mono",
         "year": 2010
     },
@@ -816,6 +887,7 @@
         "name": "Office Code Pro",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "https://github.com/nathco/Office-Code-Pro",
         "year": 2015
     },
@@ -827,6 +899,7 @@
         "name": "OpenDyslexic Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "variants": [
             "regular"
         ],
@@ -841,6 +914,7 @@
         "name": "Overpass Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "variants": [
             "light",
             "regular",
@@ -858,6 +932,7 @@
         "name": "Oxygen Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "variants": [
             "regular"
         ],
@@ -872,6 +947,7 @@
         "name": "Plex Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "variants": [
             "bold",
             "bold-italic",
@@ -899,6 +975,7 @@
         "name": "Press Start 2P",
         "rendering": "bitmap",
         "style": "sans",
+        "zerostyle": "empty",
         "website": "https://github.com/codeman38/PressStart2P",
         "year": 2012
     },
@@ -908,6 +985,7 @@
         "name": "Profont",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "http://tobiasjung.name/profont/",
         "year": 1987
     },
@@ -917,6 +995,7 @@
         "name": "Proggy Clean",
         "rendering": "bitmap",
         "style": "sans",
+        "zerostyle": "dot",
         "website": "https://github.com/bluescan/proggyfonts/",
         "year": 2004
     },
@@ -928,6 +1007,7 @@
         "name": "Proggy Vector",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "variants": [
             "regular"
         ],
@@ -940,6 +1020,7 @@
         "name": "PT Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "http://paratype.com/public/",
         "year": 2011
     },
@@ -951,6 +1032,7 @@
         "name": "Quinze",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "variants": [
             "regular"
         ],
@@ -963,6 +1045,7 @@
         "name": "Recursive",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "https://www.recursive.design",
         "year": 2018
     },
@@ -972,6 +1055,7 @@
         "name": "Roboto Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "https://www.google.com/fonts/specimen/Roboto+Mono",
         "year": 2015
     },
@@ -981,6 +1065,7 @@
         "name": "saxMono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "empty",
         "website": "http://www.fontsquirrel.com/fonts/saxMono",
         "year": 2009
     },
@@ -990,6 +1075,7 @@
         "name": "Share Tech Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "http://www.google.com/fonts/specimen/Share+Tech+Mono",
         "year": 2012
     },
@@ -999,6 +1085,7 @@
         "name": "SK Modernist Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "http://seankanedesign.com/work/sk-modernist",
         "year": 2015
     },
@@ -1009,6 +1096,7 @@
         "ligatures": false,
         "name": "Sometype Mono",
         "rendering": "vector",
+        "zerostyle": "slash",
         "style": "sans",
         "variants": [
             "regular",
@@ -1029,6 +1117,7 @@
         "name": "Source Code Pro",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "variants": [
             "black",
             "black-italic",
@@ -1056,6 +1145,7 @@
         "name": "Space Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "variants": [
             "regular",
             "italic",
@@ -1071,6 +1161,7 @@
         "name": "Sudo",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "empty",
         "website": "https://www.kutilek.de/sudo-font/",
         "year": 2009
     },
@@ -1080,6 +1171,7 @@
         "name": "Terminus (TTF)",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "slash",
         "website": "https://files.ax86.net/terminus-ttf",
         "year": 2010
     },
@@ -1089,6 +1181,7 @@
         "name": "TeX Gyre Cursor",
         "rendering": "vector",
         "style": "serif",
+        "zerostyle": "empty",
         "website": "http://www.gust.org.pl/projects/e-foundry/tex-gyre",
         "year": 2006
     },
@@ -1098,6 +1191,7 @@
         "name": "Ubuntu Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "website": "http://font.ubuntu.com",
         "year": 2010
     },
@@ -1107,6 +1201,7 @@
         "name": "GNU Unifont",
         "rendering": "bitmap",
         "style": "sans",
+        "zerostyle": "empty",
         "website": "http://www.unifoundry.com/unifont.html",
         "year": 1998
     },
@@ -1116,6 +1211,7 @@
         "name": "Verily Serif Mono",
         "rendering": "vector",
         "style": "serif",
+        "zerostyle": "dot",
         "website": "https://www.fontsquirrel.com/fonts/Verily-Serif-Mono",
         "year": 2006
     },
@@ -1127,6 +1223,7 @@
         "name": "Victor Mono",
         "rendering": "vector",
         "style": "sans",
+        "zerostyle": "dot",
         "website": "https://rubjo.github.io/victor-mono/",
         "year": 2019
     },
@@ -1136,6 +1233,7 @@
         "name": "VT323",
         "rendering": "bitmap",
         "style": "sans",
+        "zerostyle": "empty",
         "website": "https://fedoraproject.org/wiki/VT323_Fonts",
         "year": 2014
     }

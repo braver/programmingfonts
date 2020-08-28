@@ -44,6 +44,10 @@
                     "type":"string",
                     "enum": ["bitmap", "vector"]
                 },
+                "zerostyle": {
+                    "type":"string",
+                    "enum": ["empty", "slash", "dot"]
+                },
                 "variants": {
                     "type":"array",
                     "items": {

@@ -18,6 +18,7 @@ var filters = {
     'style': false,
     'rendering': false,
     'liga': false,
+    'zerostyle': false,
     'author': 'all',
     'name': ''
 };
@@ -136,12 +137,35 @@ function applyFilters() {
         $('[data-group="liga"] [value="no"]').removeClass('selected');
     }
 
+    switch (filters.zerostyle) {
+    case 'empty':
+        $('[data-group="zerostyle"] [value="empty"]').addClass('selected');
+        $('[data-group="zerostyle"] [value="slash"]').removeClass('selected');
+        $('[data-group="zerostyle"] [value="dot"]').removeClass('selected');
+        break;
+    case 'slash':
+        $('[data-group="zerostyle"] [value="empty"]').removeClass('selected');
+        $('[data-group="zerostyle"] [value="slash"]').addClass('selected');
+        $('[data-group="zerostyle"] [value="dot"]').removeClass('selected');
+        break;
+    case 'dot':
+        $('[data-group="zerostyle"] [value="empty"]').removeClass('selected');
+        $('[data-group="zerostyle"] [value="slash"]').removeClass('selected');
+        $('[data-group="zerostyle"] [value="dot"]').addClass('selected');
+        break;
+    default:
+        $('[data-group="zerostyle"] [value="empty"]').removeClass('selected');
+        $('[data-group="zerostyle"] [value="slash"]').removeClass('selected');
+        $('[data-group="zerostyle"] [value="dot"]').removeClass('selected');
+    }
+
     $('.entry[data-alias]').each(function(iteration, element) {
         var data = font_data[$(element).data().alias];
         if (
             (!filters.style || data.style === filters.style) &&
             (!filters.rendering || data.rendering === filters.rendering) &&
             (!filters.liga || data.ligatures === false && filters.liga === 'no' || data.ligatures === true && filters.liga === 'yes') &&
+            (!filters.zerostyle || data.zerostyle === filters.zerostyle) &&
             (filters.author === 'all' || data.author === filters.author) &&
             (!filters.name || data.name.toLowerCase().indexOf(filters.name) > -1)
         ) {
@@ -297,6 +321,8 @@ function toggleFilter(filter, group) {
         toggleValue('rendering', filter);
     } else if (group === 'liga') {
         toggleValue('liga', filter);
+    } else if (group === 'zerostyle') {
+        toggleValue('zerostyle', filter);
     }
 
     applyFilters();

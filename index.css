@@ -229,7 +229,7 @@ button {
     width: 20px;
     height: 18px;
     position: relative;
-    margin: 0;
+    margin: 0 .5ex 0 0;
 
     border: 1px solid #E4E4E4;
     border-bottom-color: #CCC;
@@ -252,17 +252,9 @@ button path,
 button rect {
     fill: currentColor;
 }
-.toggle {
-    display: flex;
-}
-.toggle button:first-child {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-right-color: #E4E4E4;
-}
-.toggle button:not(:first-child) {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+button:not(.selected) > svg:not(:first-child),
+button.selected > svg:not(.selected) {
+    display: none;
 }
 select {
     all: unset;

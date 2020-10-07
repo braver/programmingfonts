@@ -7,7 +7,7 @@
         "name": "Agave",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "variants": [
             "regular"
         ],
@@ -20,7 +20,7 @@
         "name": "Anka/Coder",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "variants": [
             "regular",
             "condensed",
@@ -37,7 +37,7 @@
         "name": "Anonymous Pro",
         "rendering": "vector",
         "style": "serif",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "variants": [
             "regular",
             "italic",
@@ -128,7 +128,7 @@
         "name": "Bitstream Vera Sans Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "website": "http://www.fontsquirrel.com/fonts/Bitstream-Vera-Sans-Mono",
         "year": 2002
     },
@@ -138,7 +138,7 @@
         "name": "Borg Sans Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "https://github.com/marnen/borg-sans-mono",
         "year": 2016
     },
@@ -148,7 +148,7 @@
         "name": "BPmono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "http://www.fontsquirrel.com/fonts/BPmono",
         "year": 2007
     },
@@ -158,7 +158,7 @@
         "name": "Bront DejaVu Sans Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "https://github.com/chrismwendt/bront",
         "year": 2015
     },
@@ -168,7 +168,7 @@
         "name": "Bront Ubuntu Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "https://github.com/chrismwendt/bront",
         "year": 2015
     },
@@ -178,7 +178,7 @@
         "name": "CamingoCode",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "http://www.janfromm.de/typefaces/camingomono/camingocode",
         "year": 2013
     },
@@ -190,7 +190,7 @@
         "name": "Cartograph",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "variants": [
             "regular",
             "italic",
@@ -218,7 +218,7 @@
         "name": "Cascadia Code",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "website": "https://github.com/microsoft/cascadia-code",
         "year": 2019
     },
@@ -228,7 +228,7 @@
         "name": "Code New Roman",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "http://sourceforge.net/projects/codenewroman/",
         "year": 2014
     },
@@ -240,7 +240,7 @@
         "name": "Comic Shanns",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "variants": [
             "regular"
         ],
@@ -253,7 +253,7 @@
         "name": "Consolamono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "http://openfontlibrary.org/en/font/consolamono",
         "year": 2011
     },
@@ -270,13 +270,13 @@
     },
     "courier-prime-code": {
         "author": "Alan Dague-Greene",
-        "description": "Courier Prime by Quote-Unquote Apps is designed to make screenplays (which are traditionally set in Courier at 12 points) more readable. Originally a typewriter font has been transferred to digital several times but all of them have problems. This adaptation is a bit fatter to look as good on displays as on paper. For programming use the Courier Prime Code variant, based on the new sans. Several characters are now more easily distinguished and there is a slashed zero.",
+        "description": "Courier Prime by Quote-Unquote Apps is designed to make screenplays (which are traditionally set in Courier at 12 points) more readable. Originally a typewriter font has been transferred to digital several times but all of them have problems. This adaptation is a bit fatter to look as good on displays as on paper. For programming use the Courier Prime Code variant, based on the new sans. Several characters are now more easily distinguished and there is a slasheded zero.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Courier Prime Code",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "variants": [
             "regular",
             "italic"
@@ -292,7 +292,7 @@
         "name": "Cousine",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "variants": [
             "regular",
             "italic",
@@ -308,7 +308,7 @@
         "name": "Cozette",
         "rendering": "bitmap",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "variants": [
             "regular"
         ],
@@ -332,7 +332,7 @@
         "name": "D2Coding",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "https://github.com/naver/d2codingfont",
         "year": 2016,
         "variants": [
@@ -347,7 +347,7 @@
         "name": "DaddyTimeMono",
         "rendering": "vector",
         "style": "serif",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "https://github.com/BourgeoisBear/DaddyTimeMono",
         "year": 2017,
         "variants": [
@@ -360,7 +360,7 @@
         "name": "DejaVu Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "website": "https://dejavu-fonts.github.io",
         "year": 2004
     },
@@ -382,7 +382,7 @@
         "name": "Edlo",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "website": "https://github.com/ehamiter/Edlo",
         "year": 2011
     },
@@ -404,7 +404,7 @@
         "name": "Ellograph",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "variants": [
             "bold",
             "bold-italic",
@@ -432,7 +432,7 @@
         "name": "Envy Code R",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "https://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released",
         "year": 2008
     },
@@ -443,7 +443,7 @@
         "name": "Fairfax",
         "rendering": "bitmap",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "variants": [
             "regular",
             "italic",
@@ -460,7 +460,7 @@
         "name": "Fairfax HD",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "http://www.kreativekorp.com/software/fonts/fairfaxhd.shtml",
         "year": 2019
     },
@@ -471,7 +471,7 @@
         "name": "Fairfax Serif",
         "rendering": "bitmap",
         "style": "serif",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "http://www.kreativekorp.com/software/fonts/fairfax.shtml",
         "year": 2008
     },
@@ -481,7 +481,7 @@
         "name": "Fantasque Sans Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "https://github.com/belluzj/fantasque-sans",
         "year": 2013
     },
@@ -491,7 +491,7 @@
         "name": "Fifteen",
         "rendering": "bitmap",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "http://openfontlibrary.org/en/font/fifteen",
         "year": 2013
     },
@@ -501,7 +501,7 @@
         "name": "Fira Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "website": "https://github.com/mozilla/Fira",
         "year": 2013
     },
@@ -511,7 +511,7 @@
         "name": "Fira Code",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "website": "https://github.com/tonsky/FiraCode",
         "year": 2014
     },
@@ -521,7 +521,7 @@
         "name": "Fixedsys",
         "rendering": "bitmap",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "http://www.moviecorner.de/en/font-fixedsys-ttf/description",
         "year": 1980
     },
@@ -531,7 +531,7 @@
         "name": "Fixedsys with Ligatures",
         "rendering": "bitmap",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "https://github.com/kika/fixedsys",
         "year": 2016
     },
@@ -541,7 +541,7 @@
         "name": "3270",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "variants": [
             "medium",
             "narrow",
@@ -556,13 +556,13 @@
         "name": "Generic Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "http://luc.devroye.org/fonts-75172.html",
         "year": 1980
     },
     "gnu-freefont": {
         "author": "Primož Peterlin, Steve White",
-        "description": "This isn’t a designer’s font, but an open source community effort to create a single font that has it all. It comes in bold and italic and has the most complete coverage of any font featured on this blog. While an OS will mix and match fonts for missing glyphs FreeFont looks to be a consistent source for anything mankind has ever put into writing. Still, every now and then new releases improve the offering. If you need specific scripts or write a lot of math in LateX, this font will not let you down. It would have been better with a more distinct zero though, it lacks a slash or dot to set it apart from the capital o.",
+        "description": "This isn’t a designer’s font, but an open source community effort to create a single font that has it all. It comes in bold and italic and has the most complete coverage of any font featured on this blog. While an OS will mix and match fonts for missing glyphs FreeFont looks to be a consistent source for anything mankind has ever put into writing. Still, every now and then new releases improve the offering. If you need specific scripts or write a lot of math in LateX, this font will not let you down. It would have been better with a more distinct zero though, it lacks a slashed or dotted to set it apart from the capital o.",
         "license": "GNU GPL",
         "ligatures": false,
         "name": "GNU Freefont",
@@ -586,7 +586,7 @@
         "name": "Go Mono",
         "rendering": "vector",
         "style": "serif",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "variants": [
             "regular",
             "bold",
@@ -602,7 +602,7 @@
         "name": "Hack",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "website": "https://github.com/chrissimpkins/Hack",
         "year": 2015
     },
@@ -612,7 +612,7 @@
         "name": "Hasklig",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "website": "https://github.com/i-tu/Hasklig",
         "year": 2014
     },
@@ -622,7 +622,7 @@
         "name": "Hermit",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "https://pcaro.es/p/hermit/",
         "year": 2013
     },
@@ -632,7 +632,7 @@
         "name": "iA Writer Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "website": "https://ia.net/writer/blog/a-typographic-christmas",
         "year": 2018
     },
@@ -642,7 +642,7 @@
         "name": "Inconsolata",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "http://www.levien.com/type/myfonts/inconsolata.html",
         "year": 2001
     },
@@ -652,7 +652,7 @@
         "name": "Inconsolata-g",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "website": "http://leonardo-m.livejournal.com/77079.html",
         "year": 2009
     },
@@ -662,7 +662,7 @@
         "name": "Input",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "website": "http://input.fontbureau.com",
         "year": 2014
     },
@@ -672,7 +672,7 @@
         "name": "Iosevka",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "http://be5invis.github.io/Iosevka/",
         "year": 2015
     },
@@ -683,7 +683,7 @@
         "name": "JetBrains Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "variants": [
             "bold-italic",
             "bold",
@@ -709,13 +709,13 @@
     },
     "league": {
         "author": "Tyler Fink",
-        "description": "League Mono is a new monospaced font that’s clean, practical and sans-serif. Glyphs are well aligned and distinct, featuring a dotted zero. With about 374 characters it has plenty of language support. Although there are no true italics the 5 weights from ultra light to bold provide a lot of creative options. There is now even a new variable variant for endless possibilities.",
+        "description": "League Mono is a new monospaced font that’s clean, practical and sans-serif. Glyphs are well aligned and distinct, featuring a dottedted zero. With about 374 characters it has plenty of language support. Although there are no true italics the 5 weights from ultra light to bold provide a lot of creative options. There is now even a new variable variant for endless possibilities.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "League Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "variants": [
             "100",
             "200",
@@ -757,7 +757,7 @@
         "name": "Luculent",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "variants": [
             "regular",
             "italic",
@@ -783,7 +783,7 @@
         "name": "Mensch",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "variants": [
             "regular"
         ],
@@ -796,7 +796,7 @@
         "name": "Meslo",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "https://github.com/andreberg/Meslo-Font",
         "year": 2010
     },
@@ -806,7 +806,7 @@
         "name": "Monofur",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "website": "http://www.dafont.com/monofur.font",
         "year": 2000
     },
@@ -816,7 +816,7 @@
         "name": "Monoid",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "http://larsenwork.com/monoid/",
         "year": 2015
     },
@@ -826,7 +826,7 @@
         "name": "Mononoki",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "https://github.com/madmalik/mononoki",
         "year": 2013
     },
@@ -836,7 +836,7 @@
         "name": "M+",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "http://mplus-fonts.sourceforge.jp",
         "year": 2003
     },
@@ -846,7 +846,7 @@
         "name": "Nanum Gothic Coding",
         "rendering": "vector",
         "style": "serif",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "website": "https://github.com/naver/nanumfont",
         "year": 2009,
         "description": "Many years ago, there was some sort of competition in South Korea for developing/publishing Korean fonts among Internet/big companies. Naver, which is the biggest Internet company in South Korea, published Nanum fonts along with a few variations, and Nanum Gothic Coding was one of them. Nanum means \"sharing\" in Korean."
@@ -877,7 +877,7 @@
         "name": "Nova Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "http://www.google.com/fonts/specimen/Nova+Mono",
         "year": 2010
     },
@@ -887,7 +887,7 @@
         "name": "Office Code Pro",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "https://github.com/nathco/Office-Code-Pro",
         "year": 2015
     },
@@ -899,7 +899,7 @@
         "name": "OpenDyslexic Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "variants": [
             "regular"
         ],
@@ -914,7 +914,7 @@
         "name": "Overpass Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "variants": [
             "light",
             "regular",
@@ -926,13 +926,13 @@
     },
     "oxygen": {
         "author": "Vernon Adams",
-        "description": "Most fonts work fine on a Mac, the best ones add hinting for The Windows ClearType system, but a scarce few pay special attention to the FreeType rendering used in Linux. Oxygen was created to work well in KDE, and this mono variation is a great choice for programmers on Linux. It features a slashed zero and 397 glyphs are enough for pretty much anyone, although purists would prefer true bold and italic.",
+        "description": "Most fonts work fine on a Mac, the best ones add hinting for The Windows ClearType system, but a scarce few pay special attention to the FreeType rendering used in Linux. Oxygen was created to work well in KDE, and this mono variation is a great choice for programmers on Linux. It features a slasheded zero and 397 glyphs are enough for pretty much anyone, although purists would prefer true bold and italic.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Oxygen Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "variants": [
             "regular"
         ],
@@ -947,7 +947,7 @@
         "name": "Plex Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "variants": [
             "bold",
             "bold-italic",
@@ -985,7 +985,7 @@
         "name": "Profont",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "http://tobiasjung.name/profont/",
         "year": 1987
     },
@@ -995,19 +995,19 @@
         "name": "Proggy Clean",
         "rendering": "bitmap",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "website": "https://github.com/bluescan/proggyfonts/",
         "year": 2004
     },
     "proggy-vector": {
         "author": "Tristan Grimmer",
-        "description": "A vector graphics variant of the venerable Proggy font. You can also op for dotted zeros or crossed sevens and zeds, and a lot of attention is payed to the way operators and braces line up with text. No bold or italic variants, but otherwise it’s everything you’d want for in a programming font.",
+        "description": "A vector graphics variant of the venerable Proggy font. You can also op for dottedted zeros or crossed sevens and zeds, and a lot of attention is payed to the way operators and braces line up with text. No bold or italic variants, but otherwise it’s everything you’d want for in a programming font.",
         "license": "MIT",
         "ligatures": false,
         "name": "Proggy Vector",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "variants": [
             "regular"
         ],
@@ -1020,7 +1020,7 @@
         "name": "PT Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "http://paratype.com/public/",
         "year": 2011
     },
@@ -1032,7 +1032,7 @@
         "name": "Quinze",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "variants": [
             "regular"
         ],
@@ -1045,7 +1045,7 @@
         "name": "Recursive",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "https://www.recursive.design",
         "year": 2018
     },
@@ -1055,7 +1055,7 @@
         "name": "Roboto Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "https://www.google.com/fonts/specimen/Roboto+Mono",
         "year": 2015
     },
@@ -1075,7 +1075,7 @@
         "name": "Share Tech Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "http://www.google.com/fonts/specimen/Share+Tech+Mono",
         "year": 2012
     },
@@ -1085,7 +1085,7 @@
         "name": "SK Modernist Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "http://seankanedesign.com/work/sk-modernist",
         "year": 2015
     },
@@ -1096,7 +1096,7 @@
         "ligatures": false,
         "name": "Sometype Mono",
         "rendering": "vector",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "style": "sans",
         "variants": [
             "regular",
@@ -1117,7 +1117,7 @@
         "name": "Source Code Pro",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "variants": [
             "black",
             "black-italic",
@@ -1145,7 +1145,7 @@
         "name": "Space Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "variants": [
             "regular",
             "italic",
@@ -1171,7 +1171,7 @@
         "name": "Terminus (TTF)",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slash",
+        "zerostyle": "slashed",
         "website": "https://files.ax86.net/terminus-ttf",
         "year": 2010
     },
@@ -1191,7 +1191,7 @@
         "name": "Ubuntu Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "website": "http://font.ubuntu.com",
         "year": 2010
     },
@@ -1211,7 +1211,7 @@
         "name": "Verily Serif Mono",
         "rendering": "vector",
         "style": "serif",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "website": "https://www.fontsquirrel.com/fonts/Verily-Serif-Mono",
         "year": 2006
     },
@@ -1223,7 +1223,7 @@
         "name": "Victor Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dot",
+        "zerostyle": "dotted",
         "website": "https://rubjo.github.io/victor-mono/",
         "year": 2019
     },

@@ -95,69 +95,25 @@ function setCounter(amount) {
 
 function applyFilters() {
     var count = 0;
-    switch (filters.style) {
-    case 'sans':
-        $('[data-group="style"] [value="sans"]').addClass('selected');
-        $('[data-group="style"] [value="serif"]').removeClass('selected');
-        break;
-    case 'serif':
-        $('[data-group="style"] [value="sans"]').removeClass('selected');
-        $('[data-group="style"] [value="serif"]').addClass('selected');
-        break;
-    default:
-        $('[data-group="style"] [value="sans"]').removeClass('selected');
-        $('[data-group="style"] [value="serif"]').removeClass('selected');
-    }
 
-    switch (filters.rendering) {
-    case 'vector':
-        $('[data-group="rendering"] [value="vector"]').addClass('selected');
-        $('[data-group="rendering"] [value="bitmap"]').removeClass('selected');
-        break;
-    case 'bitmap':
-        $('[data-group="rendering"] [value="vector"]').removeClass('selected');
-        $('[data-group="rendering"] [value="bitmap"]').addClass('selected');
-        break;
-    default:
-        $('[data-group="rendering"] [value="vector"]').removeClass('selected');
-        $('[data-group="rendering"] [value="bitmap"]').removeClass('selected');
-    }
-
-    switch (filters.liga) {
-    case 'yes':
-        $('[data-group="liga"] [value="yes"]').addClass('selected');
-        $('[data-group="liga"] [value="no"]').removeClass('selected');
-        break;
-    case 'no':
-        $('[data-group="liga"] [value="yes"]').removeClass('selected');
-        $('[data-group="liga"] [value="no"]').addClass('selected');
-        break;
-    default:
-        $('[data-group="liga"] [value="yes"]').removeClass('selected');
-        $('[data-group="liga"] [value="no"]').removeClass('selected');
-    }
-
-    switch (filters.zerostyle) {
-    case 'empty':
-        $('[data-group="zerostyle"] [value="empty"]').addClass('selected');
-        $('[data-group="zerostyle"] [value="slash"]').removeClass('selected');
-        $('[data-group="zerostyle"] [value="dot"]').removeClass('selected');
-        break;
-    case 'slash':
-        $('[data-group="zerostyle"] [value="empty"]').removeClass('selected');
-        $('[data-group="zerostyle"] [value="slash"]').addClass('selected');
-        $('[data-group="zerostyle"] [value="dot"]').removeClass('selected');
-        break;
-    case 'dot':
-        $('[data-group="zerostyle"] [value="empty"]').removeClass('selected');
-        $('[data-group="zerostyle"] [value="slash"]').removeClass('selected');
-        $('[data-group="zerostyle"] [value="dot"]').addClass('selected');
-        break;
-    default:
-        $('[data-group="zerostyle"] [value="empty"]').removeClass('selected');
-        $('[data-group="zerostyle"] [value="slash"]').removeClass('selected');
-        $('[data-group="zerostyle"] [value="dot"]').removeClass('selected');
-    }
+    Object.keys(filters).forEach(function(filter) {
+        var button = document.querySelector('button[value="' + filter + '"]');
+        if (! button) {
+            return;
+        }
+        if (filters[filter]) {
+            button.classList.add('selected');
+            button.querySelectorAll('svg').forEach(function(image){
+                image.classList.remove('selected');
+            });
+            button.querySelector('svg[alt="' + filters[filter] + '"]').classList.add('selected');
+        } else {
+            button.classList.remove('selected');
+            button.querySelectorAll('svg').forEach(function(image){
+                image.classList.remove('selected');
+            });
+        }
+    });
 
     $('.entry[data-alias]').each(function(iteration, element) {
         var data = font_data[$(element).data().alias];
@@ -306,23 +262,23 @@ function decreaseFontSize() {
     sizeEl.onchange();
 }
 
-function toggleFilter(filter, group) {
-    function toggleValue(name, value) {
-        if (filters[name] === value) {
-            filters[name] = false;
-        } else {
-            filters[name] = value;
-        }
-    }
+function toggleFilter(filter) {
+    // cycle through the possible values for each filter
+    // and set the filters[filter] value,
+    // or at the end of the cycle set it to false
+    var options = {
+        'style': [false, 'sans', 'serif'],
+        'rendering': [false, 'vector', 'bitmap'],
+        'liga': [false, 'yes', 'no'],
+        'zerostyle': [false, 'slashed', 'dotted', 'empty'],
+    };
 
-    if (group === 'style') {
-        toggleValue('style', filter);
-    } else if (group === 'rendering') {
-        toggleValue('rendering', filter);
-    } else if (group === 'liga') {
-        toggleValue('liga', filter);
-    } else if (group === 'zerostyle') {
-        toggleValue('zerostyle', filter);
+    var current_index = options[filter].indexOf(filters[filter]);
+    var next = current_index + 1;
+    if (next < options[filter].length) {
+        filters[filter] = options[filter][next];
+    } else {
+        filters[filter] = options[filter][0];
     }
 
     applyFilters();
@@ -365,10 +321,9 @@ $(document).ready(function() {
 
     $('#filters button').on('click', function(event) {
         var button = $(this);
-        var button_group = button.parent().data().group;
         event.preventDefault();
         event.stopPropagation();
-        toggleFilter(button.val(), button_group);
+        toggleFilter(button.val());
     });
     $('#authors-list').on('change', function() {
         filters.author = $(this).val();

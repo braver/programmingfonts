@@ -96,7 +96,7 @@
     <div class="main-wrapper">
         <main>
             <section id="filters">
-                <fieldset>
+                <div>
                     <button value="style" title="serifs or sans">
                         <svg width="12" height="12" alt="sans" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
                             <g transform="matrix(1.64678,0,0,1.64678,-7.09053,3.87857)">
@@ -159,8 +159,9 @@
                             </g>
                         </svg>
                     </button>
-                </fieldset>
-                <fieldset>
+                </div>
+                <div>
+                    <label for="authors-list" class="screenreader-only">Authors</label>
                     <select id="authors-list">
                         <optgroup>
                             <option value="all">All Authors</option>
@@ -169,10 +170,11 @@
                             <!-- filled from json -->
                         </optgroup>
                     </select>
-                </fieldset>
-                <fieldset>
+                </div>
+                <div>
+                    <label for="name-search" class="screenreader-only">Search</label>
                     <input type="text" id="name-search" placeholder="Search">
-                </fieldset>
+                </div>
             </section>
             <section class="select-list" tabindex="0">
                 <div id="select-font">

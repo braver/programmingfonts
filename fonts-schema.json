@@ -46,7 +46,7 @@
                 },
                 "zerostyle": {
                     "type":"string",
-                    "enum": ["empty", "slash", "dot"]
+                    "enum": ["empty", "slashed", "dotted"]
                 },
                 "variants": {
                     "type":"array",

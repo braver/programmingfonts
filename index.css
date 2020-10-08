@@ -36,6 +36,14 @@ a:active {
     text-decoration: none;
     color: inherit;
 }
+.screenreader-only {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: -999px;
+    left: -999px;
+    overflow:hidden
+}
 .no-smooth {
     -webkit-font-smoothing: none;
 }
@@ -312,10 +320,6 @@ form {
 }
 label + .nav-button {
     margin-left: .5ex;
-}
-label[for='select-language'],
-label[for='select-theme'] {
-    display: none;
 }
 .CodeMirror {
     height: 100%;

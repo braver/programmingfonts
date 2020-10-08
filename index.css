@@ -83,6 +83,9 @@ section#filters select {
     width: 100%;
     margin: 0;
 }
+section#filters > div {
+    display: flex;
+}
 
 section.config > * {
     text-align: center;
@@ -215,10 +218,6 @@ label {
     margin-right: .5ex;
     font-style: italic;
     color: #777;
-}
-fieldset {
-    all: unset;
-    display: flex;
 }
 button {
     all: unset;

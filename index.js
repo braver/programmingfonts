@@ -1,4 +1,4 @@
-/* global CodeMirror window document $ Set */
+/* global CodeMirror window document Set */
 /* eslint-disable no-implicit-globals */
 
 // CodeMirror
@@ -13,7 +13,7 @@ var editor = CodeMirror.fromTextArea(document.getElementById('code'), {
 // CodeMirror theme selector
 var input = document.getElementById('select-theme');
 
-var font_data = {};
+var font_data;
 var filters = {
     'style': false,
     'rendering': false,
@@ -39,14 +39,14 @@ function selectFont() {
     var status_msg = document.querySelector('footer .subtitle');
     var code_mirror = document.querySelector('.CodeMirror');
 
-    if (font === '') {
+    if (! font) {
         font = 'cartograph';
         status_msg.innerHTML = 'Test drive all the programming fonts!';
-    } else {
+    } else if (typeof font_data !== 'undefined') {
         status_msg.innerHTML = 'Test drive <a rel="external" href="' + font_data[font].website + '">' + font_data[font].name + '!</a>';
     }
 
-    if (font_data[font].rendering === 'bitmap') {
+    if (typeof font_data !== 'undefined' && font_data[font].rendering === 'bitmap') {
         code_mirror.classList.add('no-smooth');
     } else {
         code_mirror.classList.remove('no-smooth');
@@ -150,6 +150,7 @@ function renderSelectList() {
     var pinIcon = '<svg class="octicon octicon-pin" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 1.2V2l.5 1L6 6H2.2c-.44 0-.67.53-.34.86L5 10l-4 5 5-4 3.14 3.14a.5.5 0 0 0 .86-.34V10l3-4.5 1 .5h.8c.44 0 .67-.53.34-.86L10.86.86a.5.5 0 0 0-.86.34z"></path></svg>';
     var favoritesMap = {};
     var favorites = [];
+    var ajax = new XMLHttpRequest();
 
     document.getElementById('select-font').innerHTML = '';
 
@@ -164,28 +165,23 @@ function renderSelectList() {
         console.error('could not render favorites', err);
     }
 
-    $.getJSON('fonts.json', function(data) {
+    ajax.onreadystatechange = function() {
         var fonts = [];
         var authors = [];
-        font_data = data;
+        if (ajax.readyState === 4 && ajax.status === 200) {
+            font_data = ajax.response;
 
-        $.each(font_data, function(k, v) {
-            var font_props = v;
-            font_props.alias = k;
-            fonts.push(v);
-            if (authors.indexOf(v.author) < 0) {
-                authors.push(v.author);
-            }
-        });
+            Object.keys(font_data).forEach(function(key){
+                var v= font_data[key];
+                v.alias = key;
+                fonts.push(v);
+                if (authors.indexOf(v.author) < 0) {
+                    authors.push(v.author);
+                }
+            });
+        }
 
         authors.sort();
-
-        $.each(authors, function(iteration, author) {
-            $('#authors-list .other').append(
-                '<option>' + author + '</option>'
-            );
-        });
-
         fonts.sort(function(a, b) {
             if (favoritesMap[a.alias] && !favoritesMap[b.alias]) {return -1;}
             if (!favoritesMap[a.alias] && favoritesMap[b.alias]) {return 1;}
@@ -194,9 +190,16 @@ function renderSelectList() {
             return 0;
         });
 
-        $.each(fonts, function(k, v) {
+        authors.forEach(function(author) {
+            var option = document.createElement('option');
+            option.innerHTML = author;
+            document.getElementById('authors-list').querySelector('.other').appendChild(option);
+        });
+
+        fonts.forEach(function(v) {
             var liga_info = '';
             var render_info = '';
+            var option = document.createElement('div');
 
             if (v.ligatures) {
                 liga_info = ', ligatures';
@@ -204,21 +207,30 @@ function renderSelectList() {
             if (v.rendering === 'bitmap') {
                 render_info = ', bitmap';
             }
-            $('#select-font').append(
-                '<div class="entry' + (favoritesMap[v.alias] ? ' pinned' : '') + '" data-alias="' + v.alias + '">' +
-                '<a href="#' + v.alias + '">' +
-                    '<span class="name">' + v.name + '</span>' +
-                    '<span class="details">' + v.author + ' (' + v.year + ') — ' + v.style + render_info + liga_info + '</span>' +
+
+            option.classList.add('entry');
+            if (favoritesMap[v.alias]) {
+                option.classList.add('pinned');
+            }
+            option.setAttribute('data-alias', v.alias);
+            option.innerHTML = '<a href="#' + v.alias + '">' +
+                '<span class="name">' + v.name + '</span>' +
+                '<span class="details">' + v.author + ' (' + v.year + ') — ' + v.style + render_info + liga_info + '</span>' +
                 '</a>' +
                 '<a class="favoritelink" onclick="toggleFavorite(\'' + v.alias + '\')">' +
                     pinIcon +
                 '</a>' +
-                '<a class="website" href="' + v.website + '" rel="external"> <span>Info & Download</span>' + icon + '</a></div>'
-            );
+                '<a class="website" href="' + v.website + '" rel="external"> <span>Info & Download</span>' + icon + '</a>';
+
+            document.getElementById('select-font').appendChild(option);
         });
+
         selectFont();
         applyFilters();
-    });
+    };
+    ajax.responseType = 'json';
+    ajax.open('GET', 'fonts.json', true);
+    ajax.send();
 }
 
 // eslint-disable-next-line no-unused-vars

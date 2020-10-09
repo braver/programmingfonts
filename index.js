@@ -232,21 +232,26 @@ function toggleFavorite(alias) {
     return false;
 }
 
-function nextFont() {
+function walk(direction) {
     var activeEntry = document.querySelector('.entry.active');
-    var next = activeEntry.nextSibling;
-    if (next && next.matches('.entry')) {
-        next.querySelector('a').click();
-        next.scrollIntoView();
-    }
-}
+    var target = null;
+    var next = direction === 'up' ? activeEntry.previousSibling : activeEntry.nextSibling;
 
-function previousFont() {
-    var activeEntry = document.querySelector('.entry.active');
-    var next = activeEntry.previousSibling;
-    if (next && next.matches('.entry')) {
-        next.querySelector('a').click();
-        next.scrollIntoView();
+    while (target === null) {
+        if (next) {
+            if (next.matches('.entry:not(.filtered-out)')) {
+                target = next;
+            } else {
+                next = direction === 'up' ? next.previousSibling : next.nextSibling;
+            }
+        } else {
+            target = false;
+        }
+    }
+
+    if (target) {
+        target.querySelector('a').click();
+        target.scrollIntoView();
     }
 }
 
@@ -345,12 +350,12 @@ $(document).ready(function() {
             if (event.key === 'ArrowUp') {
                 event.preventDefault();
                 event.stopPropagation();
-                previousFont();
+                walk('up');
                 return;
             } else if (event.key === 'ArrowDown') {
                 event.preventDefault();
                 event.stopPropagation();
-                nextFont();
+                walk('down');
                 return;
             }
         }

@@ -183,8 +183,8 @@ section.select-list .entry a.website:active {
 section.select-list a.website:active {
     margin-top: 1px;
 }
-section.select-list .pinned + .entry:not(.pinned) {
-    border-top-color: #CCC;
+section.select-list .pinned {
+    background: #FAFAFA;
 }
 section.select-list .pinned a.favoritelink,
 section.select-list .pinned.entry:hover a.favoritelink {

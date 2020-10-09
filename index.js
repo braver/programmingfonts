@@ -36,31 +36,40 @@ function selectTheme() {
 // ProgrammingFonts font selector
 function selectFont() {
     var font = window.location.hash.substring(1);
+    var status_msg = document.querySelector('footer .subtitle');
+    var code_mirror = document.querySelector('.CodeMirror');
 
     if (font === '') {
         font = 'cartograph';
-        $('footer .subtitle').text('Test drive all the programming fonts!');
+        status_msg.innerHTML = 'Test drive all the programming fonts!';
     } else {
-        $('footer .subtitle').html('Test drive <a rel="external" href="' + font_data[font].website + '">' + font_data[font].name + '!</a>');
+        status_msg.innerHTML = 'Test drive <a rel="external" href="' + font_data[font].website + '">' + font_data[font].name + '!</a>';
     }
 
     if (font_data[font].rendering === 'bitmap') {
-        $('.CodeMirror').addClass('no-smooth');
+        code_mirror.classList.add('no-smooth');
     } else {
-        $('.CodeMirror').removeClass('no-smooth');
+        code_mirror.classList.remove('no-smooth');
     }
 
     if (font === 'input') {
-        $('pre').css({ fontFamily: 'Input Mono, monospace' });
-        $('textarea').css({ fontFamily: 'Input Mono, monospace' });
-        $('.CodeMirror').css({ fontFamily: 'Input Mono, monospace' });
+        code_mirror.style.fontFamily = 'Input Mono, monospace';
+        code_mirror.querySelectorAll('pre, textarea').forEach(function(element){
+            element.style.fontFamily = 'Input Mono, monospace';
+        });
     } else {
-        $('pre').css({ fontFamily: font + ', monospace' });
-        $('textarea').css({ fontFamily: font + ', monospace' });
-        $('.CodeMirror').css({ fontFamily: font + ', monospace' });
+        code_mirror.style.fontFamily = font + ', monospace';
+        code_mirror.querySelectorAll('pre, textarea').forEach(function(element){
+            element.style.fontFamily = font + ', monospace';
+        });
     }
-    $('#select-font [data-alias]').removeClass('active');
-    $('#select-font [data-alias=\'' + font + '\']').addClass('active');
+
+    document.querySelectorAll('#select-font [data-alias]').forEach(function(element) {
+        element.classList.remove('active');
+    });
+    document.querySelectorAll('#select-font [data-alias=\'' + font + '\']').forEach(function(element) {
+        element.classList.add('active');
+    });
 
     document.cookie = 'font=' + font + ';max-age=172800';
 }
@@ -68,28 +77,29 @@ function selectFont() {
 window.onhashchange = selectFont;
 
 function setSize() {
-    var size = $('#size').val();
+    var size = document.getElementById('size').value;
 
-    $('.CodeMirror').css({ fontSize: size + 'px' });
+    document.querySelector('.CodeMirror').style.fontSize = size + 'px';
     document.cookie = 'size=' + size + ';max-age=172800';
 }
 function setSpacing() {
-    var spacing = $('#spacing').val();
+    var spacing = document.getElementById('spacing').value;
 
-    $('.CodeMirror').css({ lineHeight: spacing });
+    document.querySelector('.CodeMirror').style.lineHeight = spacing;
     document.cookie = 'spacing=' + spacing + ';max-age=172800';
 }
 function selectLanguage() {
-    var lang = $('#select-language').val();
+    var lang = document.getElementById('select-language').value;
 
     editor.setOption('mode', lang.toLowerCase());
     document.cookie = 'language=' + lang + ';max-age=172800';
 }
 function setCounter(amount) {
+    var counter_element = document.querySelector('h1 a:first-child');
     if (amount === 1) {
-        $('h1 a:first-child').text(amount + ' Programming Font');
+        counter_element.innerHTML = amount + ' Programming Font';
     } else {
-        $('h1 a:first-child').text(amount + ' Programming Fonts');
+        counter_element.innerHTML = amount + ' Programming Fonts';
     }
 }
 
@@ -115,8 +125,8 @@ function applyFilters() {
         }
     });
 
-    $('.entry[data-alias]').each(function(iteration, element) {
-        var data = font_data[$(element).data().alias];
+    document.querySelectorAll('.entry[data-alias]').forEach(function(element) {
+        var data = font_data[element.dataset.alias];
         if (
             (!filters.style || data.style === filters.style) &&
             (!filters.rendering || data.rendering === filters.rendering) &&
@@ -125,10 +135,10 @@ function applyFilters() {
             (filters.author === 'all' || data.author === filters.author) &&
             (!filters.name || data.name.toLowerCase().indexOf(filters.name) > -1)
         ) {
-            $(element).removeClass('filtered-out');
+            element.classList.remove('filtered-out');
             count++;
         } else {
-            $(element).addClass('filtered-out');
+            element.classList.add('filtered-out');
         }
     });
 
@@ -141,7 +151,7 @@ function renderSelectList() {
     var favoritesMap = {};
     var favorites = [];
 
-    $('#select-font').empty();
+    document.getElementById('select-font').innerHTML = '';
 
     try {
         favorites = JSON.parse(localStorage.getItem('favorites')) || [];
@@ -235,14 +245,14 @@ function toggleFavorite(alias) {
 function walk(direction) {
     var activeEntry = document.querySelector('.entry.active');
     var target = null;
-    var next = direction === 'up' ? activeEntry.previousSibling : activeEntry.nextSibling;
+    var next = direction === 'up' ? activeEntry.previousElementSibling : activeEntry.nextElementSibling;
 
     while (target === null) {
         if (next) {
             if (next.matches('.entry:not(.filtered-out)')) {
                 target = next;
             } else {
-                next = direction === 'up' ? next.previousSibling : next.nextSibling;
+                next = direction === 'up' ? next.previousElementSibling : next.nextElementSibling;
             }
         } else {
             target = false;
@@ -289,23 +299,23 @@ function toggleFilter(filter) {
     applyFilters();
 }
 
-$(document).ready(function() {
+window.addEventListener('DOMContentLoaded', function() {
     var cookieValueSpacing = document.cookie.replace(/(?:(?:^|.*;\s*)spacing\s*=\s*([^;]*).*$)|^.*$/, '$1');
     var cookieValueSize = document.cookie.replace(/(?:(?:^|.*;\s*)size\s*=\s*([^;]*).*$)|^.*$/, '$1');
     var cookieValueTheme = document.cookie.replace(/(?:(?:^|.*;\s*)theme\s*=\s*([^;]*).*$)|^.*$/, '$1');
     var cookieValueLanguage = document.cookie.replace(/(?:(?:^|.*;\s*)language\s*=\s*([^;]*).*$)|^.*$/, '$1');
 
     if (cookieValueSpacing !== '') {
-        $('#spacing').val(cookieValueSpacing);
+        document.getElementById('spacing').value = cookieValueSpacing;
     }
     if (cookieValueSize !== '') {
-        $('#size').val(cookieValueSize);
+        document.getElementById('size').value = cookieValueSize;
     }
     if (cookieValueTheme !== '') {
-        $('#select-theme').val(cookieValueTheme);
+        document.getElementById('select-theme').value = cookieValueTheme;
     }
     if (cookieValueLanguage !== '') {
-        $('#select-language').val(cookieValueLanguage);
+        document.getElementById('select-language').value = cookieValueLanguage;
     }
 
     renderSelectList();
@@ -314,32 +324,44 @@ $(document).ready(function() {
     setSpacing();
     selectLanguage();
 
-    $('#theme-next').click(function() {
-        $('#select-theme :selected').next().prop('selected', true);
+    function walkThemes(direction) {
+        var select = document.getElementById('select-theme');
+        var current = select.selectedOptions[0];
+        var next;
+        if (current) {
+            next = direction === 'up' ? current.previousElementSibling : current.nextElementSibling;
+        }
+        if (next) {
+            select.value = next.value;
+        }
         selectTheme();
-    });
+    }
 
-    $('#theme-previous').click(function() {
-        $('#select-theme :selected').prev().prop('selected', true);
-        selectTheme();
-    });
+    document.getElementById('theme-next').onclick = function() {
+        walkThemes('down');
+    };
 
-    $('#filters button').on('click', function(event) {
-        var button = $(this);
-        event.preventDefault();
-        event.stopPropagation();
-        toggleFilter(button.val());
+    document.getElementById('theme-previous').onclick = function() {
+        walkThemes('up');
+    };
+
+    document.getElementById('filters').querySelectorAll('button').forEach(function(button){
+        button.onclick = function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            toggleFilter(button.value);
+        };
     });
-    $('#authors-list').on('change', function() {
-        filters.author = $(this).val();
+    document.getElementById('authors-list').onchange = function(event) {
+        filters.author = event.target.value;
         applyFilters();
-    });
-    $('#name-search').on('keyup', function() {
-        filters.name = $(this).val().toLowerCase();
+    };
+    document.getElementById('name-search').onkeyup = function(event) {
+        filters.name = event.target.value.toLowerCase();
         applyFilters();
-    });
+    };
 
-    $('body').on('keydown', function(event) {
+    document.body.addEventListener('keydown', function(event) {
         if (
             event.target === document.querySelector('.select-list')
             && ! event.ctrlKey
@@ -365,12 +387,10 @@ $(document).ready(function() {
                 event.preventDefault();
                 event.stopPropagation();
                 decreaseFontSize();
-
             } else if (event.key === '=') {
                 event.preventDefault();
                 event.stopPropagation();
                 increaseFontSize();
-
             }
         }
     });

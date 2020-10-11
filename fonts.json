@@ -697,6 +697,25 @@
         "website": "https://www.jetbrains.com/lp/mono/",
         "year": 2020
     },
+    "julia-mono": {
+        "author": "cormullion",
+        "license": "SIL OFL",
+        "ligatures": true,
+        "name": "JuliaMono",
+        "rendering": "vector",
+        "style": "sans",
+        "zerostyle": "dotted",
+        "variants": [
+            "black",
+            "bold",
+            "extrabold",
+            "light",
+            "medium",
+            "regular"
+        ],
+        "website": "https://juliamono.netlify.app",
+        "year": 2020
+    },
     "latin-modern": {
         "author": "Donald E. Knuth",
         "ligatures": false,

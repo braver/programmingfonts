@@ -755,6 +755,18 @@
   src: url('../resources/jetbrainsmono/jetbrainsmono-bold-italic.ttf');
 }
 @font-face {
+  font-family: 'julia-mono';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/julia-mono/julia-mono-italic.ttf');
+}
+@font-face {
+  font-family: 'julia-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/julia-mono/julia-mono.ttf');
+}
+@font-face {
   font-family: 'latin-modern';
   font-weight: normal;
   font-style: italic;

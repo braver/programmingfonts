@@ -864,7 +864,7 @@
         "ligatures": true,
         "name": "Nanum Gothic Coding",
         "rendering": "vector",
-        "style": "serif",
+        "style": "sans",
         "zerostyle": "dotted",
         "website": "https://github.com/naver/nanumfont",
         "year": 2009,

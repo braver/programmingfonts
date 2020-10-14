@@ -333,6 +333,9 @@ label + .nav-button {
 .CodeMirror .cm-atom {
     font-style: italic;
 }
+.CodeMirror .cm-comment {
+    font-weight: bold;
+}
 .CodeMirror-gutters {
     background: transparent;
 }

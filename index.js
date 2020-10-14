@@ -197,30 +197,22 @@ function renderSelectList() {
         });
 
         fonts.forEach(function(v) {
-            var liga_info = '';
-            var render_info = '';
             var option = document.createElement('div');
-
-            if (v.ligatures) {
-                liga_info = ', ligatures';
-            }
-            if (v.rendering === 'bitmap') {
-                render_info = ', bitmap';
-            }
 
             option.classList.add('entry');
             if (favoritesMap[v.alias]) {
                 option.classList.add('pinned');
             }
+
             option.setAttribute('data-alias', v.alias);
-            option.innerHTML = '<a href="#' + v.alias + '">' +
+            option.innerHTML = '<a href="#' + v.alias + '" data-style="' + v.style + '">' +
                 '<span class="name">' + v.name + '</span>' +
-                '<span class="details">' + v.author + ' (' + v.year + ') — ' + v.style + render_info + liga_info + '</span>' +
+                '<span class="details">' + v.year + ' — ' + v.author + '</span>' +
                 '</a>' +
                 '<a class="favoritelink" onclick="toggleFavorite(\'' + v.alias + '\')">' +
                     pinIcon +
                 '</a>' +
-                '<a class="website" href="' + v.website + '" rel="external"> <span>Info & Download</span>' + icon + '</a>';
+                '<a class="website" href="' + v.website + '" rel="external"> <span>Website</span>' + icon + '</a>';
 
             document.getElementById('select-font').appendChild(option);
         });

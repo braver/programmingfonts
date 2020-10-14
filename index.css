@@ -1,14 +1,61 @@
+@font-face {
+    font-family: 'ui-font';
+    font-weight: normal;
+    font-style: normal;
+    src: url('merriweather/MerriweatherSans-Light.ttf');
+}
+@font-face {
+    font-family: 'ui-font';
+    font-weight: bold;
+    font-style: normal;
+    src: url('merriweather/MerriweatherSans-Bold.ttf');
+}
+@font-face {
+    font-family: 'ui-font';
+    font-weight: normal;
+    font-style: italic;
+    src: url('merriweather/MerriweatherSans-Italic.ttf');
+}
+@font-face {
+    font-family: 'ui-font';
+    font-weight: bold;
+    font-style: italic;
+    src: url('merriweather/MerriweatherSans-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'ui-font-serif';
+    font-weight: normal;
+    font-style: normal;
+    src: url('merriweather/Merriweather-Light.ttf');
+}
+@font-face {
+    font-family: 'ui-font-serif';
+    font-weight: bold;
+    font-style: normal;
+    src: url('merriweather/Merriweather-Bold.ttf');
+}
+@font-face {
+    font-family: 'ui-font-serif';
+    font-weight: normal;
+    font-style: italic;
+    src: url('merriweather/Merriweather-Italic.ttf');
+}
+@font-face {
+    font-family: 'ui-font-serif';
+    font-weight: bold;
+    font-style: italic;
+    src: url('merriweather/Merriweather-BoldItalic.ttf');
+}
+
 * {
     box-sizing: border-box;
 }
 html {
     height: 100%;
     min-height: 100%;
-    font-family: -apple-system, BlinkMacSystemFont,
-        'Segoe UI', 'Roboto', 'Oxygen',
-        'Ubuntu', 'Cantarell', 'Fira Sans',
-        'Droid Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 300;
+    font-family: 'ui-font', sans-serif;
+    font-weight: normal;
     font-size: 14px;
     line-height: 20px;
     background: #F5F0E6;
@@ -22,7 +69,7 @@ body {
 h1 {
     margin: 0;
     padding: .25em 0 0 0;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 14px;
 }
 p {
@@ -111,6 +158,9 @@ section.select-list:focus {
 section.select-list > * {
     overflow: hidden;
 }
+section.select-list [data-style='serif'] .name {
+    font-family: 'ui-font-serif', serif;
+}
 section.select-list .entry {
     display: flex;
     position: relative;
@@ -194,7 +244,6 @@ section.select-list .details {
     display: block;
     width: 60%;
     font-size: 10px;
-    font-style: italic;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -224,7 +273,6 @@ footer p a:visited {
 
 label {
     margin-right: .5ex;
-    font-style: italic;
     color: #777;
 }
 button {

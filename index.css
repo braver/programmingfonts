@@ -267,9 +267,6 @@ section.select-list .entry a.website:hover,
 section.select-list .entry.pinned a.favoritelink {
     color: var(--ink-black);
 }
-section.select-list a.website:active {
-    margin-top: 1px;
-}
 section.select-list .pinned {
     background: var(--paper-white);
 }

@@ -52,6 +52,7 @@
 * {
     box-sizing: border-box;
 }
+
 html {
     --bright-white: #FFF;
     --paper-white: #F5F5F5;
@@ -70,6 +71,19 @@ html {
     line-height: 20px;
     background: var(--paper-white);
 }
+@media (prefers-color-scheme: dark) {
+    html {
+        --bright-white: #111;
+        --paper-white: #1F1F1F;
+
+        --ink-black: #ECECEC;
+        --dark-grey: #E0E0E0;
+        --medium-grey: #808080;
+        --light-grey: #4A4A4A;
+        --bright-grey: #2A2A2A;
+    }
+}
+
 body {
     height: 100%;
     min-height: 100%;
@@ -116,6 +130,11 @@ a:active {
     z-index: 2;
     border-right: 1px solid var(--medium-grey);
     overflow: hidden;
+}
+@media (prefers-color-scheme: dark) {
+    .main-wrapper {
+        border-right-color: var(--paper-white);
+    }
 }
 main {
     display: flex;
@@ -304,6 +323,11 @@ button {
     background: linear-gradient(var(--bright-white), var(--light-grey));
     color: var(--medium-grey);
     cursor: pointer;
+}
+@media (prefers-color-scheme: dark) {
+    button {
+        background: linear-gradient(var(--light-grey), var(--bright-white));
+    }
 }
 button:hover {
     color: var(--ink-black);

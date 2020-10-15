@@ -48,23 +48,33 @@
     src: url('merriweather/Merriweather-BoldItalic.ttf');
 }
 
+
 * {
     box-sizing: border-box;
 }
 html {
+    --bright-white: #FFF;
+    --paper-white: #F5F5F5;
+
+    --ink-black: #2A2A2A;
+    --dark-grey: #4A4A4A;
+    --medium-grey: #777;
+    --light-grey: #E0E0E0;
+    --bright-grey: #ECECEC;
+
     height: 100%;
     min-height: 100%;
     font-family: 'ui-font', sans-serif;
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
-    background: #F5F0E6;
+    background: var(--paper-white);
 }
 body {
     height: 100%;
     min-height: 100%;
-    background: #F5F5F5;
-    color: #2A2A2A;
+    background: var(--paper-white);
+    color: var(--ink-black);
 }
 h1 {
     margin: 0;
@@ -104,7 +114,7 @@ a:active {
     float: left;
     position: relative;
     z-index: 2;
-    border-right: 1px solid #4A4A4A;
+    border-right: 1px solid var(--medium-grey);
     overflow: hidden;
 }
 main {
@@ -120,18 +130,19 @@ section {
 section#filters,
 section.config {
     display: grid;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-    grid-row-gap: 5px;
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+    grid-row-gap: 4px;
     grid-template-columns: auto auto auto auto;
-    padding: 10px;
+    padding: 8px;
     font-size: 10px;
-    background: #EEE;
+    background: var(--bright-grey);
 }
 
 section#filters {
     align-items: stretch;
     grid-template-columns: auto auto auto auto auto;
+    border-bottom: 1px solid var(--light-grey);
 }
 section#filters input,
 section#filters select {
@@ -142,6 +153,9 @@ section#filters > div {
     display: flex;
 }
 
+section.config {
+    border-top: 1px solid var(--light-grey);
+}
 section.config > * {
     text-align: center;
     padding: 0;
@@ -163,14 +177,16 @@ section.select-list [data-style='serif'] .name {
 }
 section.select-list .entry {
     position: relative;
-    padding: .5em 1em;
-    border-top: 1px solid #EEE;
+    padding: 8px 12px;
 }
-section.select-list .entry:last-child {
-    border-bottom: 1px solid #EEE;
+section.select-list .entry:not(:first-child) {
+    border-top: 1px solid var(--light-grey);
 }
 section.select-list .entry:hover {
-    background: #FFF;
+    background: var(--bright-white);
+}
+section.select-list .entry.active {
+    background: var(--bright-white);
 }
 section.select-list .entry > a {
     display: block;
@@ -189,16 +205,16 @@ section.select-list a:hover .name,
 section.select-list a:active .name {
     text-decoration: underline;
 }
-section.select-list .active .name {
+section.select-list .entry.active .name {
     font-weight: bold;
 }
 section.select-list a.website {
     position: absolute;
-    top: 4px;
-    right: 28px;
+    top: 6px;
+    right: 32px;
     padding: 0 4px;
     font-size: 10px;
-    color: #F5F5F5;
+    color: var(--paper-white);
     transition: all .2s ease-in-out;
 }
 section.select-list a.website svg {
@@ -211,35 +227,32 @@ section.select-list a.website span {
 }
 section.select-list a.favoritelink {
     position: absolute;
-    top: 6px;
-    right: 4px;
-    color: #F5F5F5;
+    top: 8px;
+    right: 8px;
+    color: var(--paper-white);
     cursor: pointer;
 }
 section.select-list .entry:hover a.website,
 section.select-list .entry:hover a.favoritelink {
-    color: #CCC;
+    color: var(--bright-grey);
 }
 section.select-list .entry:hover a.favoritelink:hover,
 section.select-list a.favoritelink:hover {
-    color: #777;
+    color: var(--ink-black);
 }
 section.select-list .entry.active a.website,
+section.select-list .entry.active a.favoritelink {
+    color: var(--dark-grey);
+}
 section.select-list .entry a.website:hover,
-section.select-list .entry a.website:active {
-    background: #E4E4E4;
-    color: #777;
+section.select-list .entry.pinned a.favoritelink {
+    color: var(--ink-black);
 }
 section.select-list a.website:active {
     margin-top: 1px;
 }
 section.select-list .pinned {
-    background: #FAFAFA;
-}
-section.select-list .entry.active a.favoritelink,
-section.select-list .pinned a.favoritelink,
-section.select-list .pinned.entry:hover a.favoritelink {
-    color: #777;
+    background: var(--paper-white);
 }
 section.select-list .details {
     display: block;
@@ -247,15 +260,15 @@ section.select-list .details {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    color: #777;
+    color: var(--ink-black);
 }
 footer {
-    padding: 5px 10px;
+    padding: 0 8px 4px 8px;
     font-size: 10px;
     text-align: center;
     line-height: 20px;
-    background: #E4E4E4;
-    color: #777;
+    background: var(--bright-grey);
+    color: var(--medium-grey);
 }
 footer h1 + p {
     font-style: italic;
@@ -263,7 +276,7 @@ footer h1 + p {
 footer a:hover,
 footer a:active {
     text-decoration: underline;
-    color: #2A2A2A;
+    color: var(--ink-black);
 }
 footer p a,
 footer p a:link,
@@ -273,7 +286,7 @@ footer p a:visited {
 
 label {
     margin-right: .5ex;
-    color: #777;
+    color: var(--medium-grey);
 }
 button {
     all: unset;
@@ -286,22 +299,19 @@ button {
     position: relative;
     margin: 0 .5ex 0 0;
 
-    border: 1px solid #E4E4E4;
-    border-bottom-color: #CCC;
-    border-right-color: #CCC;
+    border: 1px solid var(--light-grey);
     border-radius: 4px;
-
-    background: linear-gradient(#FFF, #E4E4E4);
-    color: #777;
+    background: linear-gradient(var(--bright-white), var(--light-grey));
+    color: var(--medium-grey);
     cursor: pointer;
 }
-button:active {
-    box-shadow: none;
+button:hover {
+    color: var(--ink-black);
 }
 button.selected {
-    background: #FFF;
-    border-color: #E4E4E4;
-    color: #2A2A2A;
+    background: var(--bright-white);
+    color: var(--ink-black);
+    box-shadow: none;
 }
 button path,
 button rect {
@@ -315,16 +325,17 @@ select {
     all: unset;
     width: 9em;
     padding: 0 .5ex;
-    border: 1px solid #E4E4E4;
+    border: 1px solid var(--light-grey);
     border-radius: 4px;
+    background: var(--paper-white);
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     cursor: pointer;
 }
 select option {
-    background: #FFF;
-    color: #000;
+    background: var(--light-white);
+    color: var(--ink-black);
 }
 input[type='text'] {
     line-height: 12px;
@@ -335,8 +346,9 @@ input[type='number'] {
     width: 4em;
     margin-left: .5ex;
     padding: 0 .5ex;
-    border: 1px solid #E4E4E4;
+    border: 1px solid var(--light-grey);
     border-radius: 4px;
+    background: var(--paper-white);
     text-align: left;
     transition: all .2s ease-in-out;
 }
@@ -346,8 +358,8 @@ input[type='number']:hover,
 input[type='number']:focus,
 select:hover,
 select:focus {
-    border-color: #CCC;
-    background: #F5F5F5;
+    border-color: var(--medium-grey);
+    background: var(--paper-white);
 }
 pre,
 textarea,

@@ -963,7 +963,7 @@
         "description": "Plex is IBM’s own in-house developed typeface that is currently in pre-1.0 development (check it out at Github). It’s a neat sans-serif font, very practical and readable, but also with a lot of character in their curly braces and italics. There are is also an additional light weight and broad language support.",
         "license": "SIL OFL",
         "ligatures": false,
-        "name": "Plex Mono",
+        "name": "IBM Plex Mono",
         "rendering": "vector",
         "style": "sans",
         "zerostyle": "dotted",

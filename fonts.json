@@ -49,11 +49,11 @@
     },
     "apl2741": {
         "author": "Adrian Smith",
-        "ligatures": false,
+        "ligatures": true,
         "name": "APL2741",
         "rendering": "vector",
-        "style": "serif",
-        "zerostyle": "empty",
+        "style": "sans",
+        "zerostyle": "dotted",
         "variants": [
             "regular"
         ],

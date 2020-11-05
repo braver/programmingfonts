@@ -122,6 +122,21 @@
         "website": "https://bjh21.me.uk/bedstead/",
         "year": 2018
     },
+    "binchotan-sharp": {
+        "author": "Rabbit Viceroy Klein",
+        "description": "A fixed-width typeface. Horizontal metrics compatible with CJK console fonts. Small size legibile.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Binchotan Sharp",
+        "rendering": "vector",
+        "style": "sans",
+        "zerostyle": "dotted",
+        "variants": [
+            "regular"
+        ],
+        "website": "https://rvklein.me/proj/binchotan/",
+        "year": 2017
+    },
     "bitstream-vera": {
         "author": "Jim Lyles",
         "ligatures": false,

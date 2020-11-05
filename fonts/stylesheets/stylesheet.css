@@ -131,6 +131,12 @@
   src: url('../resources/b612-mono/b612-mono.ttf');
 }
 @font-face {
+  font-family: 'binchotan-sharp';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/binchotan-sharp/binchotan-sharp.ttf');
+}
+@font-face {
   font-family: 'bitstream-vera';
   font-weight: bold;
   font-style: italic;

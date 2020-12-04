@@ -740,25 +740,25 @@
   font-family: 'jetbrainsmono';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/jetbrainsmono/jetbrainsmono-regular.ttf');
+  src: url('../resources/jetbrainsmono/jetbrainsmono.woff');
 }
 @font-face {
   font-family: 'jetbrainsmono';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/jetbrainsmono/jetbrainsmono-italic.ttf');
+  src: url('../resources/jetbrainsmono/jetbrainsmono-italic.woff');
 }
 @font-face {
   font-family: 'jetbrainsmono';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/jetbrainsmono/jetbrainsmono-bold.ttf');
+  src: url('../resources/jetbrainsmono/jetbrainsmono-bold.woff');
 }
 @font-face {
   font-family: 'jetbrainsmono';
   font-weight: bold;
   font-style: italic;
-  src: url('../resources/jetbrainsmono/jetbrainsmono-bold-italic.ttf');
+  src: url('../resources/jetbrainsmono/jetbrainsmono-bold-italic.woff');
 }
 @font-face {
   font-family: 'julia-mono';

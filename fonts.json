@@ -492,7 +492,7 @@
     },
     "fantasque-sans": {
         "author": "Jany Belluz",
-        "ligatures": false,
+        "ligatures": true,
         "name": "Fantasque Sans Mono",
         "rendering": "vector",
         "style": "sans",

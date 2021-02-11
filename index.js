@@ -367,7 +367,10 @@ window.addEventListener('DOMContentLoaded', function() {
 
     document.body.addEventListener('keydown', function(event) {
         if (
-            event.target === document.querySelector('.select-list')
+            (
+                document.querySelector('.select-list') === event.target
+                || document.querySelector('.select-list').contains(event.target)
+            )
             && ! event.ctrlKey
             && ! event.altKey
             && ! event.metaKey

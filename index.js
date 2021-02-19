@@ -349,6 +349,14 @@ window.addEventListener('DOMContentLoaded', function() {
         walkSelect('#select-theme', 'up');
     };
 
+    document.getElementById('language-next').onclick = function() {
+        walkSelect('#select-language', 'down');
+    };
+
+    document.getElementById('language-previous').onclick = function() {
+        walkSelect('#select-language', 'up');
+    };
+
     document.getElementById('filters').querySelectorAll('button').forEach(function(button){
         button.onclick = function(event) {
             event.preventDefault();
@@ -408,6 +416,29 @@ window.addEventListener('DOMContentLoaded', function() {
                 event.preventDefault();
                 event.stopPropagation();
                 walkSelect('#select-theme', 'down');
+                return;
+            }
+        }
+
+        if (
+            (
+                document.querySelector('#select-language').parentNode === event.target
+                || document.querySelector('#select-language').parentNode.contains(event.target)
+            )
+            && ! event.ctrlKey
+            && ! event.altKey
+            && ! event.metaKey
+            && ! event.shiftKey
+        ) {
+            if (event.key === 'ArrowUp') {
+                event.preventDefault();
+                event.stopPropagation();
+                walkSelect('#select-language', 'up');
+                return;
+            } else if (event.key === 'ArrowDown') {
+                event.preventDefault();
+                event.stopPropagation();
+                walkSelect('#select-language', 'down');
                 return;
             }
         }

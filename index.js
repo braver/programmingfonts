@@ -328,8 +328,8 @@ window.addEventListener('DOMContentLoaded', function() {
     setSpacing();
     selectLanguage();
 
-    function walkThemes(direction) {
-        var select = document.getElementById('select-theme');
+    function walkSelect(selector, direction) {
+        var select = document.querySelector(selector);
         var current = select.selectedOptions[0];
         var next;
         if (current) {
@@ -338,15 +338,15 @@ window.addEventListener('DOMContentLoaded', function() {
         if (next) {
             select.value = next.value;
         }
-        selectTheme();
+        select.onchange();
     }
 
     document.getElementById('theme-next').onclick = function() {
-        walkThemes('down');
+        walkSelect('#select-theme', 'down');
     };
 
     document.getElementById('theme-previous').onclick = function() {
-        walkThemes('up');
+        walkSelect('#select-theme', 'up');
     };
 
     document.getElementById('filters').querySelectorAll('button').forEach(function(button){
@@ -385,6 +385,29 @@ window.addEventListener('DOMContentLoaded', function() {
                 event.preventDefault();
                 event.stopPropagation();
                 walk('down');
+                return;
+            }
+        }
+
+        if (
+            (
+                document.querySelector('#select-theme').parentNode === event.target
+                || document.querySelector('#select-theme').parentNode.contains(event.target)
+            )
+            && ! event.ctrlKey
+            && ! event.altKey
+            && ! event.metaKey
+            && ! event.shiftKey
+        ) {
+            if (event.key === 'ArrowUp') {
+                event.preventDefault();
+                event.stopPropagation();
+                walkSelect('#select-theme', 'up');
+                return;
+            } else if (event.key === 'ArrowDown') {
+                event.preventDefault();
+                event.stopPropagation();
+                walkSelect('#select-theme', 'down');
                 return;
             }
         }

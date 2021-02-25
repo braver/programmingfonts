@@ -389,6 +389,18 @@
   src: url('../resources/dejavu/dejavu.woff');
 }
 @font-face {
+  font-family: 'dm-mono';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/dm-mono/dm-mono-italic.woff');
+}
+@font-face {
+  font-family: 'dm-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/dm-mono/dm-mono-regular.woff');
+}
+@font-face {
   font-family: 'droid-sans';
   font-weight: normal;
   font-style: normal;

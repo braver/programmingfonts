@@ -379,6 +379,16 @@
         "website": "https://dejavu-fonts.github.io",
         "year": 2004
     },
+    "dm-mono": {
+      "author": "Colophon Foundry",
+      "ligatures": false,
+      "name": "DM Mono",
+      "rendering": "vector",
+      "style": "sans",
+      "zerostyle": "slashed",
+      "website": "https://fonts.google.com/specimen/DM+Mono",
+      "year": 2020
+    },
     "droid-sans": {
         "author": "Steve Matteson",
         "ligatures": false,

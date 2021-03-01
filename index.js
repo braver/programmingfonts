@@ -263,9 +263,27 @@ function walk(direction) {
         }
     }
 
+    function isVisible(el) {
+        var offset = document.getElementById('filters').getBoundingClientRect().height;
+        var container = document.querySelector('section.select-list').getBoundingClientRect().height;
+        if (direction === 'up') {
+            if (el.getBoundingClientRect().top < offset) {
+                return false;
+            }
+        } else {
+            if (el.getBoundingClientRect().bottom > offset + container) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
     if (target) {
         target.querySelector('a').click();
-        target.scrollIntoView();
+        if (!isVisible(target)){
+            target.scrollIntoView();
+        }
     }
 }
 

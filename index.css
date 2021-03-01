@@ -251,6 +251,11 @@ section.select-list a.favoritelink {
     color: var(--paper-white);
     cursor: pointer;
 }
+section.select-list .entry:not(.pinned) a.favoritelink svg {
+    fill: transparent;
+    stroke: currentColor;
+    stroke-width: 1;
+}
 section.select-list .entry:hover a.website,
 section.select-list .entry:hover a.favoritelink {
     color: var(--bright-grey);

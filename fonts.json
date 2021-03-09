@@ -585,6 +585,31 @@
         "website": "http://luc.devroye.org/fonts-75172.html",
         "year": 1980
     },
+    "gintronic": {
+        "author": "Mark Frömberg",
+        "license": "commercial",
+        "ligatures": false,
+        "name": "Gintronic",
+        "rendering": "vector",
+        "style": "sans",
+        "zerostyle": "dotted",
+        "variants": [
+            "thin",
+            "light",
+            "regular",
+            "medium",
+            "bold",
+            "black",
+            "thin-italic",
+            "light-italic",
+            "italic",
+            "medium-italic",
+            "bold-italic",
+            "black-italic"
+        ],
+        "website": "https://bboxtype.com/typefaces/Gintronic",
+        "year": 2016
+    },
     "gnu-freefont": {
         "author": "Primož Peterlin, Steve White",
         "description": "This isn’t a designer’s font, but an open source community effort to create a single font that has it all. It comes in bold and italic and has the most complete coverage of any font featured on this blog. While an OS will mix and match fonts for missing glyphs FreeFont looks to be a consistent source for anything mankind has ever put into writing. Still, every now and then new releases improve the offering. If you need specific scripts or write a lot of math in LateX, this font will not let you down. It would have been better with a more distinct zero though, it lacks a slashed or dotted to set it apart from the capital o.",

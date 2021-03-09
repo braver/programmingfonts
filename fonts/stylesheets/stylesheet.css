@@ -581,6 +581,18 @@
   src: url('../resources/generic/generic.otf');
 }
 @font-face {
+  font-family: 'gintronic';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/gintronic/gintronic-italic.woff2');
+}
+@font-face {
+  font-family: 'gintronic';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/gintronic/gintronic.woff2');
+}
+@font-face {
   font-family: 'gnu-freefont';
   font-weight: bold;
   font-style: italic;

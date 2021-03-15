@@ -818,6 +818,17 @@
         "website": "https://fedorahosted.org/liberation-fonts/",
         "year": 2007
     },
+    "lilex": {
+        "author": "Mikhael Khrustik",
+        "ligatures": true,
+        "name": "Lilex",
+        "rendering": "vector",
+        "style": "sans",
+        "zerostyle": "dotted",
+        "website": "https://github.com/mishamyrt/Lilex",
+        "license": "SIL OFL",
+        "year": 2019
+    },
     "luculent": {
         "author": "Andrew Kensler",
         "description": "Luculent is a narrow typeface with full bold, italic versions, each covering 643 characters. All glyphs are distinct and full of character. Additionally, the italics bring a wonderful twist to what is already an outstanding and unique font.",

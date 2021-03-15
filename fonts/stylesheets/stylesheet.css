@@ -863,6 +863,18 @@
   src: url('../resources/liberation/liberation.woff');
 }
 @font-face {
+  font-family: 'lilex';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/lilex/lilex-regular.woff');
+}
+@font-face {
+  font-family: 'lilex';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/lilex/lilex-bold.woff');
+}
+@font-face {
   font-family: 'luculent';
   font-weight: bold;
   font-style: italic;

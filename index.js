@@ -385,7 +385,7 @@ window.addEventListener('DOMContentLoaded', function() {
         applyFilters();
     };
 
-    document.querySelector('.select-list').addEventListener('keydown', function() {
+    document.querySelector('.select-list').onkeyup = function(event) {
         if (event.ctrlKey || event.altKey || event.metaKey || event.shiftKey) {
             return;
         }

@@ -374,36 +374,33 @@ window.addEventListener('DOMContentLoaded', function() {
             toggleFilter(button.value);
         };
     });
+
     document.getElementById('authors-list').onchange = function(event) {
         filters.author = event.target.value;
         applyFilters();
     };
+
     document.getElementById('name-search').onkeyup = function(event) {
         filters.name = event.target.value.toLowerCase();
         applyFilters();
     };
 
-    document.body.addEventListener('keydown', function(event) {
-        if (
-            event.target === document.querySelector('.select-list')
-            && ! event.ctrlKey
-            && ! event.altKey
-            && ! event.metaKey
-            && ! event.shiftKey
-        ) {
-            if (event.key === 'ArrowUp') {
-                event.preventDefault();
-                event.stopPropagation();
-                walk('up');
-                return;
-            } else if (event.key === 'ArrowDown') {
-                event.preventDefault();
-                event.stopPropagation();
-                walk('down');
-                return;
-            }
+    document.querySelector('.select-list').addEventListener('keydown', function() {
+        if (event.ctrlKey || event.altKey || event.metaKey || event.shiftKey) {
+            return;
         }
+        if (event.key === 'ArrowUp') {
+            event.preventDefault();
+            event.stopPropagation();
+            walk('up');
+        } else if (event.key === 'ArrowDown') {
+            event.preventDefault();
+            event.stopPropagation();
+            walk('down');
+        }
+    };
 
+    document.body.addEventListener('keydown', function(event) {
         if (event.ctrlKey || event.metaKey) {
             if (event.key === '-') {
                 event.preventDefault();

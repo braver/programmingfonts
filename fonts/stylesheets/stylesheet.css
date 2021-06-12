@@ -691,14 +691,26 @@
 @font-face {
   font-family: 'hermit';
   font-weight: bold;
+  font-style: italic;
+  src: url('../resources/hermit/hermit-bold-italic.woff2');
+}
+@font-face {
+  font-family: 'hermit';
+  font-weight: bold;
   font-style: normal;
-  src: url('../resources/hermit/hermit-bold.otf');
+  src: url('../resources/hermit/hermit-bold.woff2');
+}
+@font-face {
+  font-family: 'hermit';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/hermit/hermit-italic.woff2');
 }
 @font-face {
   font-family: 'hermit';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/hermit/hermit.otf');
+  src: url('../resources/hermit/hermit.woff2');
 }
 @font-face {
   font-family: 'ia-writer-mono';

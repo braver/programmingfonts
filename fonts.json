@@ -880,6 +880,28 @@
         "website": "https://github.com/andreberg/Meslo-Font",
         "year": 2010
     },
+    "monoflow": {
+        "author": "Prof. Hans R. Heitmann, Johannes Ammon",
+        "description": "A monospace typeface with unique character and beautiful spacing.",
+        "license": "commercial",
+        "ligatures": false,
+        "name": "Monoflow",
+        "rendering": "vector",
+        "style": "sans",
+        "zerostyle": "dotted",
+        "variants": [
+            "light",
+            "light-italic",
+            "medium",
+            "medium-italic",
+            "regular",
+            "italic",
+            "bold",
+            "bold-italic"
+        ],
+        "website": "https://finaltype.de/en/projects/monoflow",
+        "year": 2020
+    },
     "monofur": {
         "author": "Tobias Benjamin Köhler",
         "ligatures": false,

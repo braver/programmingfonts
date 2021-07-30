@@ -965,6 +965,18 @@
   src: url('../resources/meslo/meslo.woff');
 }
 @font-face {
+  font-family: 'monoflow';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/monoflow/monoflow-italic.woff2');
+}
+@font-face {
+  font-family: 'monoflow';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/monoflow/monoflow.woff2');
+}
+@font-face {
   font-family: 'monofur';
   font-weight: normal;
   font-style: italic;

@@ -389,6 +389,35 @@
       "website": "https://fonts.google.com/specimen/DM+Mono",
       "year": 2020
     },
+    "drafting": {
+        "author": "Owen Earl",
+        "description": "An ode to our past.  A celebration of inconsistencies.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Drafting* Mono",
+        "rendering": "vector",
+        "style": "serif",
+        "zerostyle": "dotted",
+        "variants": [
+            "thin",
+            "thin-italic",
+            "extralight",
+            "extralight-italic",
+            "light",
+            "light-italic",
+            "medium",
+            "medium-italic",
+            "semibold",
+            "semibold-italic",
+            "bold",
+            "bold-italic",
+            "regular",
+            "italic",
+            "variable"
+        ],
+        "website": "https://indestructibletype.com/Drafting/",
+        "year": 2021
+    },
     "droid-sans": {
         "author": "Steve Matteson",
         "ligatures": false,
@@ -827,6 +856,21 @@
         "zerostyle": "dotted",
         "website": "https://github.com/mishamyrt/Lilex",
         "license": "SIL OFL",
+        "year": 2019
+    },
+    "lotion": {
+        "author": "Nina Belikova",
+        "description": "A free monospace font for programming! There are variants with and without ligatures.",
+        "license": "SIL OFL",
+        "ligatures": true,
+        "name": "Lotion",
+        "rendering": "vector",
+        "style": "sans",
+        "zerostyle": "slashed",
+        "variants": [
+            "regular"
+        ],
+        "website": "https://font.nina.coffee",
         "year": 2019
     },
     "luculent": {

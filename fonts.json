@@ -107,7 +107,7 @@
         "ligatures": false,
         "name": "Azeret Mono",
         "rendering": "vector",
-        "style": "serif",
+        "style": "sans",
         "zerostyle": "empty",
         "variants": [
             "thin",

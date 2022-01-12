@@ -101,6 +101,30 @@
   src: url('../resources/average/average.woff');
 }
 @font-face {
+  font-family: 'azeret';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/azeret/azeret-bold-italic.ttf');
+}
+@font-face {
+  font-family: 'azeret';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/azeret/azeret-bold.ttf');
+}
+@font-face {
+  font-family: 'azeret';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/azeret/azeret-italic.ttf');
+}
+@font-face {
+  font-family: 'azeret';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/azeret/azeret.ttf');
+}
+@font-face {
   font-family: 'bedstead';
   font-weight: normal;
   font-style: normal;
@@ -399,6 +423,30 @@
   font-weight: normal;
   font-style: normal;
   src: url('../resources/dm-mono/dm-mono-regular.woff');
+}
+@font-face {
+  font-family: 'drafting';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/drafting/drafting-bold-italic.woff2');
+}
+@font-face {
+  font-family: 'drafting';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/drafting/drafting-bold.woff2');
+}
+@font-face {
+  font-family: 'drafting';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/drafting/drafting-italic.woff2');
+}
+@font-face {
+  font-family: 'drafting';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/drafting/drafting.woff2');
 }
 @font-face {
   font-family: 'droid-sans';
@@ -885,6 +933,12 @@
   font-weight: bold;
   font-style: normal;
   src: url('../resources/lilex/lilex-bold.woff');
+}
+@font-face {
+  font-family: 'lotion';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/lotion/lotion.woff2');
 }
 @font-face {
   font-family: 'luculent';

@@ -100,6 +100,37 @@
         "website": "http://openfontlibrary.org/en/font/average-mono",
         "year": 2013
     },
+    "azeret": {
+        "author": "Displaay",
+        "description": "The story of the typeface began with a draft that was driven by an exploration of OCR fonts, past and futuristic operating systems, various interfaces and the nineties.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Azeret Mono",
+        "rendering": "vector",
+        "style": "serif",
+        "zerostyle": "open",
+        "variants": [
+            "thin",
+            "thin italic",
+            "light",
+            "light italic",
+            "extrabold",
+            "extrabold italic",
+            "black",
+            "black italic",
+            "extralight",
+            "extralight italic",
+            "medium",
+            "medium italic",
+            "semibold",
+            "semibold italic",
+            "regular",
+            "italic",
+            "variable"
+        ],
+        "website": "https://github.com/displaay/Azeret",
+        "year": 2020
+    },
     "b612-mono": {
         "author": "Nicolas Chauveau, Thomas Paillot and Jonathan Favre-Lamarine",
         "license": "SIL OFL",

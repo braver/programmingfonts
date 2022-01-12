@@ -1226,6 +1226,29 @@
         "website": "https://www.recursive.design",
         "year": 2018
     },
+    "redhat": {
+        "author": "Jeremy Mickel",
+        "description": "In our font family, each character is made up of perfect circles and straight, even lines.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Red Hat Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "zerostyle": "slashed",
+        "variants": [
+            "light",
+            "light-italic",
+            "medium",
+            "medium-italic",
+            "bold",
+            "bold-italic",
+            "regular",
+            "italic",
+            "variable"
+        ],
+        "website": "https://www.redhat.com/en/about/brand/standards/typography",
+        "year": 2019
+    },
     "roboto": {
         "author": "Christian Robertson",
         "ligatures": false,

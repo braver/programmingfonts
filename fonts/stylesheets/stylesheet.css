@@ -1277,6 +1277,30 @@
   src: url('../resources/recursive-mono-linear/recursive-mono-linear.ttf');
 }
 @font-face {
+  font-family: 'redhat';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/redhat/redhat-bold-italic.woff2');
+}
+@font-face {
+  font-family: 'redhat';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/redhat/redhat-bold.woff2');
+}
+@font-face {
+  font-family: 'redhat';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/redhat/redhat-italic.woff2');
+}
+@font-face {
+  font-family: 'redhat';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/redhat/redhat.woff2');
+}
+@font-face {
   font-family: 'roboto';
   font-weight: bold;
   font-style: italic;

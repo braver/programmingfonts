@@ -29,6 +29,7 @@
                     "enum": [
                         "commercial",
                         "Apache",
+                        "BSD-2-Clause",
                         "GNU GPL",
                         "MIT",
                         "public domain",

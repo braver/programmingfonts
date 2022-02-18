@@ -1355,6 +1355,21 @@
         "website": "https://fonts.google.com/specimen/Space+Mono",
         "year": 2016
     },
+    "spleen": {
+        "author": "Frederic Cambus",
+        "description": "Monospaced bitmap fonts. Spleen started as a personal challenge.",
+        "license": "BSD-2-Clause",
+        "ligatures": false,
+        "name": "Spleen",
+        "rendering": "bitmap",
+        "style": "sans",
+        "zerostyle": "slashed",
+        "variants": [
+            "regular"
+        ],
+        "website": "https://www.cambus.net/spleen-monospaced-bitmap-fonts/",
+        "year": 2018
+    },
     "sudo": {
         "author": "Jens Kutilek",
         "ligatures": false,

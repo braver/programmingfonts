@@ -1391,6 +1391,12 @@
   src: url('../resources/space/space-italic.ttf');
 }
 @font-face {
+  font-family: 'spleen';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/spleen/spleen.otf');
+}
+@font-face {
   font-family: 'sudo';
   font-weight: bold;
   font-style: italic;

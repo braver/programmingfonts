@@ -153,6 +153,21 @@
         "website": "https://bjh21.me.uk/bedstead/",
         "year": 2018
     },
+    "bigblue-terminal": {
+        "author": "VileR",
+        "description": "It follows the metrics and dimensions of Windows' old Terminal font (at the 9pt/12px size), but the appearance is closer to the classic IBM PC text mode character sets.",
+        "license": "CC BY-SA 4.0",
+        "ligatures": false,
+        "name": "BigBlue Terminal",
+        "rendering": "bitmap",
+        "style": "serif",
+        "zerostyle": "dotted",
+        "variants": [
+            "regular"
+        ],
+        "website": "https://int10h.org/blog/2015/12/bigblue-terminal-oldschool-fixed-width-font/",
+        "year": 2015
+    },
     "binchotan-sharp": {
         "author": "Rabbit Viceroy Klein",
         "description": "A fixed-width typeface. Horizontal metrics compatible with CJK console fonts. Small size legibile.",

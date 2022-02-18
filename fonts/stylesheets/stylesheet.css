@@ -155,6 +155,12 @@
   src: url('../resources/b612-mono/b612-mono.ttf');
 }
 @font-face {
+  font-family: 'bigblue-terminal';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/bigblue-terminal/bigblue-terminal.ttf');
+}
+@font-face {
   font-family: 'binchotan-sharp';
   font-weight: normal;
   font-style: normal;

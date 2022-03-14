@@ -1025,11 +1025,11 @@
     "mplus": {
         "author": "Coji Morishita",
         "ligatures": false,
-        "name": "M+",
+        "name": "M PLUS Code Latin",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
-        "website": "http://mplus-fonts.sourceforge.jp",
+        "zerostyle": "dotted",
+        "website": "https://mplusfonts.github.io",
         "year": 2003
     },
     "nanum-gothic-coding": {

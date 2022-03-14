@@ -1094,13 +1094,13 @@
   font-family: 'mplus';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/mplus/mplus-bold.woff');
+  src: url('../resources/mplus/MPLUSCodeLatin-Bold.ttf');
 }
 @font-face {
   font-family: 'mplus';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/mplus/mplus.woff');
+  src: url('../resources/mplus/MPLUSCodeLatin-Regular.ttf');
 }
 @font-face {
   font-family: 'nanum-gothic-coding';

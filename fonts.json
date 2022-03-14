@@ -1025,7 +1025,7 @@
     "mplus": {
         "author": "Coji Morishita",
         "ligatures": false,
-        "name": "M PLUS Code Latin",
+        "name": "M PLUS Code",
         "rendering": "vector",
         "style": "sans",
         "zerostyle": "dotted",

@@ -88,11 +88,51 @@ function setSpacing() {
     document.querySelector('.CodeMirror').style.lineHeight = spacing;
     document.cookie = 'spacing=' + spacing + ';max-age=172800';
 }
+
+const codeCacheData = new Map();
+
+/**
+ * 
+ * @param {string} code 
+ */
+function setCodeToView(code) {
+    if (!code.length) return;
+    editor.setValue(code);
+}
+
+/**
+ * 
+ * @param {string} lang 
+ * @returns {string}
+ */
+async function getCodeData(lang) {
+    var _value = lang.toLocaleLowerCase();
+
+    // use cached value
+    var cacheCode = codeCacheData.get(_value);
+    if (!!cacheCode) return cacheCode;
+
+    var data = await (await fetch(`https://microsoft.github.io/monaco-editor/index/samples/sample.${ _value }.txt`)).text();
+    if (data.length <= 0) return "";
+    codeCacheData.set(_value, data);
+    return data
+}
+
+/**
+ * @param {string} lang
+ */
+async function updateLanguageCodeView(lang) {
+    var code = await getCodeData(lang);
+    setCodeToView(code);
+}
+
 function selectLanguage() {
     var lang = document.getElementById('select-language').value;
 
     editor.setOption('mode', lang.toLowerCase());
     document.cookie = 'language=' + lang + ';max-age=172800';
+
+    updateLanguageCodeView(lang);
 }
 function setCounter(amount) {
     var counter_element = document.querySelector('h1 a:first-child');

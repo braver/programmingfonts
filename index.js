@@ -105,8 +105,9 @@ function setCodeToView(code) {
  * @param {string} lang 
  * @returns {string}
  */
-async function getCodeData(lang) {
+async function getCodeData(lang) {    
     var _value = lang.toLocaleLowerCase();
+    if (_value == "clike") _value = "cpp";
 
     // use cached value
     var cacheCode = codeCacheData.get(_value);

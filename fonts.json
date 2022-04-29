@@ -1466,5 +1466,15 @@
         "zerostyle": "empty",
         "website": "https://fedoraproject.org/wiki/VT323_Fonts",
         "year": 2014
+    },
+    "moncao": {
+        "author": "Apple Inc.",
+        "ligatures": false,
+        "name": "Moncao",
+        "rendering": "vector",
+        "style": "sans",
+        "zerostyle": "empty",
+        "website": "https://github.com/taodongl/monaco.ttf",
+        "year": 2010
     }
 }

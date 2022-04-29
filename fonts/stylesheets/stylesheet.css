@@ -1564,3 +1564,10 @@
   font-style: normal;
   src: url('../resources/vt323/vt323.ttf');
 }
+
+@font-face {
+  font-family: 'moncao';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/moncao/monaco.ttf');
+}

@@ -1049,6 +1049,30 @@
   src: url('../resources/monofur/monofur.woff');
 }
 @font-face {
+  font-family: 'monofoki';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/monofoki/monofoki-bold-italic.otf');
+}
+@font-face {
+  font-family: 'monofoki';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/monofoki/monofoki-bold.otf');
+}
+@font-face {
+  font-family: 'monofoki';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/monofoki/monofoki-italic.otf');
+}
+@font-face {
+  font-family: 'monofoki';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/monofoki/monofoki.otf');
+}
+@font-face {
   font-family: 'mononoki';
   font-weight: bold;
   font-style: italic;

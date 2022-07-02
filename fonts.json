@@ -992,6 +992,24 @@
         "website": "https://finaltype.de/en/projects/monoflow",
         "year": 2020
     },
+    "monofoki": {
+        "author": "Marvin Dostal",
+        "description": "Fork of Mononoki.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Monofoki",
+        "rendering": "vector",
+        "style": "sans",
+        "zerostyle": "slashed",
+        "website": "https://github.com/datMaffin/monofoki",
+        "year": 2021,
+        "variants": [
+            "regular",
+            "italic",
+            "bold",
+            "bold-italic"
+        ]
+    },
     "monofur": {
         "author": "Tobias Benjamin Köhler",
         "ligatures": false,
@@ -1011,24 +1029,6 @@
         "zerostyle": "slashed",
         "website": "http://larsenwork.com/monoid/",
         "year": 2015
-    },
-    "monofoki": {
-        "author": "Marvin Dostal",
-        "description": "Fork of Mononoki.",
-        "license": "SIL OFL",
-        "ligatures": false,
-        "name": "Monofoki",
-        "rendering": "vector",
-        "style": "sans",
-        "zerostyle": "slashed",
-        "website": "https://github.com/datMaffin/monofoki",
-        "year": 2021,
-        "variants": [
-            "regular",
-            "italic",
-            "bold",
-            "bold-italic"
-        ]
     },
     "mononoki": {
         "author": "Matthias Tellen",

@@ -767,6 +767,18 @@
   src: url('../resources/hermit/hermit.woff2');
 }
 @font-face {
+  font-family: 'heterodox-mono';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/heterodox-mono/heterodox-mono-bold.otf');
+}
+@font-face {
+  font-family: 'heterodox-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/heterodox-mono/heterodox-mono.otf');
+}
+@font-face {
   font-family: 'ia-writer-mono';
   font-weight: normal;
   font-style: normal;
@@ -1037,18 +1049,6 @@
   src: url('../resources/monoflow/monoflow.woff2');
 }
 @font-face {
-  font-family: 'monofur';
-  font-weight: normal;
-  font-style: italic;
-  src: url('../resources/monofur/monofur-italic.woff');
-}
-@font-face {
-  font-family: 'monofur';
-  font-weight: normal;
-  font-style: normal;
-  src: url('../resources/monofur/monofur.woff');
-}
-@font-face {
   font-family: 'monofoki';
   font-weight: bold;
   font-style: italic;
@@ -1073,6 +1073,36 @@
   src: url('../resources/monofoki/monofoki.otf');
 }
 @font-face {
+  font-family: 'monofur';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/monofur/monofur-italic.woff');
+}
+@font-face {
+  font-family: 'monofur';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/monofur/monofur.woff');
+}
+@font-face {
+  font-family: 'monoid';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/monoid/monoid-bold.ttf');
+}
+@font-face {
+  font-family: 'monoid';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/monoid/monoid-italic.ttf');
+}
+@font-face {
+  font-family: 'monoid';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/monoid/monoid.ttf');
+}
+@font-face {
   font-family: 'mononoki';
   font-weight: bold;
   font-style: italic;
@@ -1095,24 +1125,6 @@
   font-weight: normal;
   font-style: normal;
   src: url('../resources/mononoki/mononoki.woff');
-}
-@font-face {
-  font-family: 'monoid';
-  font-weight: bold;
-  font-style: normal;
-  src: url('../resources/monoid/monoid-bold.ttf');
-}
-@font-face {
-  font-family: 'monoid';
-  font-weight: normal;
-  font-style: italic;
-  src: url('../resources/monoid/monoid-italic.ttf');
-}
-@font-face {
-  font-family: 'monoid';
-  font-weight: normal;
-  font-style: normal;
-  src: url('../resources/monoid/monoid.ttf');
 }
 @font-face {
   font-family: 'mplus';

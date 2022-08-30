@@ -751,6 +751,22 @@
         "website": "https://pcaro.es/p/hermit/",
         "year": 2013
     },
+    "heterodox-mono": {
+        "author": "Hao Chi Kiang",
+        "description": "A Didone-esque Monospaced Typeface based on Alexey Kryukov's Old Standard TT.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Heterodox Mono",
+        "rendering": "vector",
+        "style": "serif",
+        "zerostyle": "dotted",
+        "variants": [
+            "bold",
+            "regular"
+        ],
+        "website": "https://github.com/hckiang/font-new-heterodox-mono",
+        "year": 2019
+    },
     "ia-writer-mono": {
         "author": "Oliver Reichenstein, Bold Monday, Mike Abbink, Paul van der Laan, Pieter van Rosmalen",
         "ligatures": false,

@@ -1037,6 +1037,12 @@
   src: url('../resources/meslo/meslo.woff');
 }
 @font-face {
+  font-family: 'monocraft';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/monocraft/monocraft.otf');
+}
+@font-face {
   font-family: 'monoflow';
   font-weight: normal;
   font-style: italic;

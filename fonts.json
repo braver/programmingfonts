@@ -986,6 +986,21 @@
         "website": "https://github.com/andreberg/Meslo-Font",
         "year": 2010
     },
+    "monocraft": {
+        "author": "Idrees Hassan",
+        "description": "The font for developers who like Minecraft a bit too much.",
+        "license": "SIL OFL",
+        "ligatures": true,
+        "name": "Monocraft",
+        "rendering": "bitmap",
+        "style": "sans",
+        "zerostyle": "slashed",
+        "variants": [
+            "regular"
+        ],
+        "website": "https://github.com/IdreesInc/Monocraft",
+        "year": 2022
+    },
     "monoflow": {
         "author": "Prof. Hans R. Heitmann, Johannes Ammon",
         "description": "A monospace typeface with unique character and beautiful spacing.",

@@ -1379,6 +1379,24 @@
   src: url('../resources/sax/sax.woff');
 }
 @font-face {
+  font-family: 'scientifica';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/scientifica/scientifica.ttf');
+}
+@font-face {
+  font-family: 'scientifica';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/scientifica/scientifica-bold.ttf');
+}
+@font-face {
+  font-family: 'scientifica';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/scientifica/scientifica-italic.ttf');
+}
+@font-face {
   font-family: 'share-tech';
   font-weight: normal;
   font-style: normal;

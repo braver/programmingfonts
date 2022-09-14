@@ -1334,6 +1334,23 @@
         "website": "http://www.fontsquirrel.com/fonts/saxMono",
         "year": 2009
     },
+    "scientifica": {
+        "author": "nerdypepper",
+        "description": "Tall and condensed bitmap font for geeks.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Scientifica",
+        "rendering": "bitmap",
+        "style": "sans",
+        "zerostyle": "slashed",
+        "variants": [
+            "regular",
+            "bold",
+            "italic"
+        ],
+        "website": "https://github.com/nerdypepper/scientifica",
+        "year": 2021
+    },
     "share-tech": {
         "author": "Ralph du Carrois",
         "ligatures": false,

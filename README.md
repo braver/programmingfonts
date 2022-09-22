@@ -29,6 +29,6 @@ There are some limitations to the current approach. For instance, we only load t
 
 - It' currently not possible to explore different weights (e.g. Source Code Pro Light). 
 - Open type alternatives for zero style, and other options (e.g. all the different variations possible with [Input Mono](https://input.fontbureau.com)) are not exposed.
-- I would be nice to include more commercial fonts. Creators need to eat to, and not all the best fonts are open source. However, it is not always possible to arrange a license for usage of the font in this website.
+- I would be nice to include more commercial fonts. Creators need to eat too, and not all the best fonts are open source. However, it is not always possible to arrange a license for usage of the font in this website.
 - Character set coverage and other valuable information, e.g. if a font has true italics, is not exposed.
 - Background info on each font can usually be found in the blog (ongoing project: adding this to the `description` property for each font).

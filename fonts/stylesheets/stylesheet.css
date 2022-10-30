@@ -806,25 +806,25 @@
   font-family: 'iosevka';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/iosevka/iosevka.woff');
+  src: url('../resources/iosevka/iosevka.woff2');
 }
 @font-face {
   font-family: 'iosevka';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/iosevka/iosevka-italic.woff');
+  src: url('../resources/iosevka/iosevka-italic.woff2');
 }
 @font-face {
   font-family: 'iosevka';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/iosevka/iosevka-bold.woff');
+  src: url('../resources/iosevka/iosevka-bold.woff2');
 }
 @font-face {
   font-family: 'iosevka';
   font-weight: bold;
   font-style: italic;
-  src: url('../resources/iosevka/iosevka-bold-italic.woff');
+  src: url('../resources/iosevka/iosevka-bold-italic.woff2');
 }
 @font-face {
   font-family: 'inconsolata';

@@ -31,7 +31,7 @@ const selectTheme = () => {
     }
     editor.setOption('theme', theme);
     document.cookie = `theme=${theme};max-age=172800`;
-}
+};
 
 // ProgrammingFonts font selector
 const selectFont = () => {
@@ -43,8 +43,7 @@ const selectFont = () => {
         font = 'cartograph';
         status_msg.innerHTML = 'Test drive all the programming fonts!';
     } else if (typeof font_data !== 'undefined') {
-        status_msg.innerHTML =
-            `Test drive <a rel="external" href="${font_data[font].website}">${font_data[font].name}!</a>`;
+        status_msg.innerHTML = `Test drive <a rel="external" href="${font_data[font].website}">${font_data[font].name}!</a>`;
     }
 
     if (typeof font_data !== 'undefined' && font_data[font].rendering === 'bitmap') {
@@ -55,25 +54,25 @@ const selectFont = () => {
 
     if (font === 'input') {
         code_mirror.style.fontFamily = 'Input Mono, monospace';
-        code_mirror.querySelectorAll('pre, textarea').forEach(element => {
+        code_mirror.querySelectorAll('pre, textarea').forEach((element) => {
             element.style.fontFamily = 'Input Mono, monospace';
         });
     } else {
         code_mirror.style.fontFamily = `${font}, monospace`;
-        code_mirror.querySelectorAll('pre, textarea').forEach(element => {
+        code_mirror.querySelectorAll('pre, textarea').forEach((element) => {
             element.style.fontFamily = `${font}, monospace`;
         });
     }
 
-    document.querySelectorAll('#select-font [data-alias]').forEach(element => {
+    document.querySelectorAll('#select-font [data-alias]').forEach((element) => {
         element.classList.remove('active');
     });
-    document.querySelectorAll(`#select-font [data-alias='${font}']`).forEach(element => {
+    document.querySelectorAll(`#select-font [data-alias='${font}']`).forEach((element) => {
         element.classList.add('active');
     });
 
     document.cookie = `font=${font};max-age=172800`;
-}
+};
 
 window.onhashchange = selectFont;
 
@@ -107,26 +106,26 @@ function setCounter(amount) {
 function applyFilters() {
     var count = 0;
 
-    Object.keys(filters).forEach(filter => {
+    Object.keys(filters).forEach((filter) => {
         var button = document.querySelector(`button[value="${filter}"]`);
         if (!button) {
             return;
         }
         if (filters[filter]) {
             button.classList.add('selected');
-            button.querySelectorAll('svg').forEach(image => {
+            button.querySelectorAll('svg').forEach((image) => {
                 image.classList.remove('selected');
             });
             button.querySelector(`svg[alt="${filters[filter]}"]`).classList.add('selected');
         } else {
             button.classList.remove('selected');
-            button.querySelectorAll('svg').forEach(image => {
+            button.querySelectorAll('svg').forEach((image) => {
                 image.classList.remove('selected');
             });
         }
     });
 
-    document.querySelectorAll('.entry[data-alias]').forEach(element => {
+    document.querySelectorAll('.entry[data-alias]').forEach((element) => {
         var data = font_data[element.dataset.alias];
         if (
             (!filters.style || data.style === filters.style) &&
@@ -176,7 +175,7 @@ function renderSelectList() {
         if (ajax.readyState === 4 && ajax.status === 200) {
             font_data = ajax.response;
 
-            Object.keys(font_data).forEach(key => {
+            Object.keys(font_data).forEach((key) => {
                 var v = font_data[key];
                 v.alias = key;
                 fonts.push(v);
@@ -203,13 +202,13 @@ function renderSelectList() {
             return 0;
         });
 
-        authors.forEach(author => {
+        authors.forEach((author) => {
             var option = document.createElement('option');
             option.innerHTML = author;
             document.getElementById('authors-list').querySelector('.other').appendChild(option);
         });
 
-        fonts.forEach(v => {
+        fonts.forEach((v) => {
             var option = document.createElement('div');
 
             option.classList.add('entry');
@@ -218,8 +217,7 @@ function renderSelectList() {
             }
 
             option.setAttribute('data-alias', v.alias);
-            option.innerHTML =
-                `<a href="#${v.alias}" data-style="${v.style}"><span class="name">${v.name}</span><span class="details">${v.year} — ${v.author}</span></a><a class="favoritelink" onclick="toggleFavorite(\'${v.alias}\')">${pinIcon}</a><a class="website" href="${v.website}" rel="external"> <span>Website</span>${icon}</a>`;
+            option.innerHTML = `<a href="#${v.alias}" data-style="${v.style}"><span class="name">${v.name}</span><span class="details">${v.year} — ${v.author}</span></a><a class="favoritelink" onclick="toggleFavorite(\'${v.alias}\')">${pinIcon}</a><a class="website" href="${v.website}" rel="external"> <span>Website</span>${icon}</a>`;
 
             document.getElementById('select-font').appendChild(option);
         });
@@ -238,7 +236,7 @@ function toggleFavorite(alias) {
     try {
         favorites = JSON.parse(localStorage.getItem('favorites')) || [];
         if (favorites.indexOf(alias) > -1) {
-            favorites = favorites.filter(v => {
+            favorites = favorites.filter((v) => {
                 return v !== alias;
             });
         } else {
@@ -377,7 +375,7 @@ window.addEventListener('DOMContentLoaded', () => {
     document
         .getElementById('filters')
         .querySelectorAll('button')
-        .forEach(button => {
+        .forEach((button) => {
             button.onclick = (event) => {
                 event.preventDefault();
                 event.stopPropagation();

@@ -4,7 +4,7 @@
   "description": "Test drive programming fonts online",
   "main": "index.js",
   "scripts": {
-    "test": "rome check index.js && ajv -c ajv-formats -s fonts-schema.json -d fonts.json && cd fonts/stylesheets/ && lessc fonts.less stylesheet.css"
+    "test": "rome ci index.js && ajv -c ajv-formats -s fonts-schema.json -d fonts.json && cd fonts/stylesheets/ && lessc fonts.less stylesheet.css"
   },
   "repository": {
     "type": "git",

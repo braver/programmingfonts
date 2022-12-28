@@ -388,7 +388,7 @@ window.addEventListener('DOMContentLoaded', () => {
         applyFilters();
     };
 
-    document.getElementById('name-search').onkeyup = event => {
+    document.getElementById('name-search').onkeyup = (event) => {
         filters.name = event.target.value.toLowerCase();
         applyFilters();
     };

@@ -1040,7 +1040,7 @@
   font-family: 'monocraft';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/monocraft/monocraft.otf');
+  src: url('../resources/monocraft/monocraft.ttf');
 }
 @font-face {
   font-family: 'monoflow';

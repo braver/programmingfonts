@@ -988,11 +988,11 @@
     },
     "monocraft": {
         "author": "Idrees Hassan",
-        "description": "The font for developers who like Minecraft a bit too much.",
+        "description": "The monospaced font for developers who like Minecraft a bit too much.",
         "license": "SIL OFL",
         "ligatures": true,
         "name": "Monocraft",
-        "rendering": "bitmap",
+        "rendering": "vector",
         "style": "sans",
         "zerostyle": "slashed",
         "variants": [

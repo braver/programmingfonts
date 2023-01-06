@@ -280,6 +280,20 @@
         "rendering": "vector",
         "style": "sans",
         "zerostyle": "dotted",
+        "variants": [
+            "regular",
+            "italic",
+            "bold",
+            "bold-italic",
+            "semi-bold",
+            "semi-bold-italic",
+            "light",
+            "light-italic",
+            "semi-light",
+            "semi-light-italic",
+            "extra-light",
+            "extra-light-italic"
+        ],
         "website": "https://github.com/microsoft/cascadia-code",
         "year": 2019
     },

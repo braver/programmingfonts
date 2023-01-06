@@ -276,9 +276,27 @@
 }
 @font-face {
   font-family: 'cascadia-code';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/cascadia-code/cascadia-code-bold-italic.woff2');
+}
+@font-face {
+  font-family: 'cascadia-code';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/cascadia-code/cascadia-code-bold.woff2');
+}
+@font-face {
+  font-family: 'cascadia-code';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/cascadia-code/cascadia-code-italic.woff2');
+}
+@font-face {
+  font-family: 'cascadia-code';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/cascadia-code/cascadia-code.ttf');
+  src: url('../resources/cascadia-code/cascadia-code.woff2');
 }
 @font-face {
   font-family: 'code-new-roman';

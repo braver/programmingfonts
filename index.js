@@ -81,12 +81,14 @@ function setSize() {
 
     document.querySelector('.CodeMirror').style.fontSize = `${size}px`;
     document.cookie = `size=${size};max-age=172800`;
+    editor.refresh();
 }
 function setSpacing() {
     var spacing = document.getElementById('spacing').value;
 
     document.querySelector('.CodeMirror').style.lineHeight = spacing;
     document.cookie = `spacing=${spacing};max-age=172800`;
+    editor.refresh();
 }
 function selectLanguage() {
     var lang = document.getElementById('select-language').value;

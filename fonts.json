@@ -977,6 +977,29 @@
         "website": "http://www.fontsquirrel.com/fonts/Luxi-Mono",
         "year": 2001
     },
+    "martian-mono": {
+        "author": "Roman Shamin, Evil Martians",
+        "description": "Martian Mono is a monospaced version of the Martian Grotesk font for code style design.",
+        "ligatures": false,
+        "name": "Martian Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "zerostyle": "slashed",
+        "variants": [
+            "semi-wide",
+            "narrow",
+            "condensed",
+            "thin",
+            "extra-light",
+            "light",
+            "regular",
+            "medium",
+            "bold",
+            "extra-bold"
+        ],
+        "website": "https://github.com/evilmartians/mono",
+        "year": 2023
+    },
     "mensch": {
         "author": "Robey Pointer",
         "ligatures": false,

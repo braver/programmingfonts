@@ -1025,6 +1025,18 @@
   src: url('../resources/luxi/luxi.woff');
 }
 @font-face {
+  font-family: 'martian-mono';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/martian-mono/martian-mono-bold.woff2');
+}
+@font-face {
+  font-family: 'martian-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/martian-mono/martian-mono.woff2');
+}
+@font-face {
   font-family: 'mensch';
   font-weight: normal;
   font-style: normal;

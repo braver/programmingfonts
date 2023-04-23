@@ -626,13 +626,13 @@
   font-family: 'firacode';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/firacode/firacode-bold.woff');
+  src: url('../resources/firacode/firacode-bold.woff2');
 }
 @font-face {
   font-family: 'firacode';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/firacode/firacode.woff');
+  src: url('../resources/firacode/firacode.woff2');
 }
 @font-face {
   font-family: 'fixedsys';

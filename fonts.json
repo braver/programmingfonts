@@ -625,7 +625,7 @@
         "name": "Fira Code",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
+        "zerostyle": "slashed",
         "website": "https://github.com/tonsky/FiraCode",
         "year": 2014
     },

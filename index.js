@@ -2,7 +2,7 @@
 /* eslint-disable no-implicit-globals */
 
 // CodeMirror
-var editor = CodeMirror.fromTextArea(document.getElementById('code'), {
+const editor = CodeMirror.fromTextArea(document.getElementById('code'), {
     lineNumbers: true,
     styleActiveLine: true,
     matchBrackets: true,
@@ -11,10 +11,10 @@ var editor = CodeMirror.fromTextArea(document.getElementById('code'), {
 });
 
 // CodeMirror theme selector
-var input = document.getElementById('select-theme');
+const input = document.getElementById('select-theme');
 
-var font_data;
-var filters = {
+let font_data;
+const filters = {
     style: false,
     rendering: false,
     liga: false,
@@ -24,7 +24,7 @@ var filters = {
 };
 
 const selectTheme = () => {
-    var theme = 'monokai';
+    let theme = 'monokai';
 
     if (input.selectedIndex > -1) {
         theme = input.options[input.selectedIndex].innerHTML;
@@ -35,9 +35,9 @@ const selectTheme = () => {
 
 // ProgrammingFonts font selector
 const selectFont = () => {
-    var font = window.location.hash.substring(1);
-    var status_msg = document.querySelector('footer .subtitle');
-    var code_mirror = document.querySelector('.CodeMirror');
+    let font = window.location.hash.substring(1);
+    const status_msg = document.querySelector('footer .subtitle');
+    const code_mirror = document.querySelector('.CodeMirror');
 
     if (!font) {
         font = 'cartograph';
@@ -77,27 +77,27 @@ const selectFont = () => {
 window.onhashchange = selectFont;
 
 function setSize() {
-    var size = document.getElementById('size').value;
+    const size = document.getElementById('size').value;
 
     document.querySelector('.CodeMirror').style.fontSize = `${size}px`;
     document.cookie = `size=${size};max-age=172800`;
     editor.refresh();
 }
 function setSpacing() {
-    var spacing = document.getElementById('spacing').value;
+    const spacing = document.getElementById('spacing').value;
 
     document.querySelector('.CodeMirror').style.lineHeight = spacing;
     document.cookie = `spacing=${spacing};max-age=172800`;
     editor.refresh();
 }
 function selectLanguage() {
-    var lang = document.getElementById('select-language').value;
+    const lang = document.getElementById('select-language').value;
 
     editor.setOption('mode', lang.toLowerCase());
     document.cookie = `language=${lang};max-age=172800`;
 }
 function setCounter(amount) {
-    var counter_element = document.querySelector('h1 a:first-child');
+    const counter_element = document.querySelector('h1 a:first-child');
     if (amount === 1) {
         counter_element.innerHTML = `${amount} Programming Font`;
     } else {
@@ -106,10 +106,10 @@ function setCounter(amount) {
 }
 
 function applyFilters() {
-    var count = 0;
+    let count = 0;
 
     Object.keys(filters).forEach((filter) => {
-        var button = document.querySelector(`button[value="${filter}"]`);
+        const button = document.querySelector(`button[value="${filter}"]`);
         if (!button) {
             return;
         }
@@ -128,7 +128,7 @@ function applyFilters() {
     });
 
     document.querySelectorAll('.entry[data-alias]').forEach((element) => {
-        var data = font_data[element.dataset.alias];
+        const data = font_data[element.dataset.alias];
         if (
             (!filters.style || data.style === filters.style) &&
             (!filters.rendering || data.rendering === filters.rendering) &&
@@ -150,13 +150,13 @@ function applyFilters() {
 }
 
 function renderSelectList() {
-    var icon =
+    const icon =
         '<svg class="octicon" viewBox="0 0 12 14" version="1.1" width="12" height="14" aria-hidden="true"><path fill-rule="evenodd" d="M11 10h1v3c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h3v1H1v10h10v-3zM6 2l2.25 2.25L5 7.5 6.5 9l3.25-3.25L12 8V2H6z"></path></svg>';
-    var pinIcon =
+    const pinIcon =
         '<svg class="octicon octicon-pin" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 1.2V2l.5 1L6 6H2.2c-.44 0-.67.53-.34.86L5 10l-4 5 5-4 3.14 3.14a.5.5 0 0 0 .86-.34V10l3-4.5 1 .5h.8c.44 0 .67-.53.34-.86L10.86.86a.5.5 0 0 0-.86.34z"></path></svg>';
-    var favoritesMap = {};
-    var favorites = [];
-    var ajax = new XMLHttpRequest();
+    let favoritesMap = {};
+    let favorites = [];
+    const ajax = new XMLHttpRequest();
 
     document.getElementById('select-font').innerHTML = '';
 
@@ -172,13 +172,13 @@ function renderSelectList() {
     }
 
     ajax.onreadystatechange = () => {
-        var fonts = [];
-        var authors = [];
+        const fonts = [];
+        const authors = [];
         if (ajax.readyState === 4 && ajax.status === 200) {
             font_data = ajax.response;
 
             Object.keys(font_data).forEach((key) => {
-                var v = font_data[key];
+                const v = font_data[key];
                 v.alias = key;
                 fonts.push(v);
                 if (authors.indexOf(v.author) < 0) {
@@ -205,13 +205,13 @@ function renderSelectList() {
         });
 
         authors.forEach((author) => {
-            var option = document.createElement('option');
+            const option = document.createElement('option');
             option.innerHTML = author;
             document.getElementById('authors-list').querySelector('.other').appendChild(option);
         });
 
         fonts.forEach((v) => {
-            var option = document.createElement('div');
+            const option = document.createElement('div');
 
             option.classList.add('entry');
             if (favoritesMap[v.alias]) {
@@ -234,9 +234,8 @@ function renderSelectList() {
 
 // eslint-disable-next-line no-unused-vars
 function toggleFavorite(alias) {
-    var favorites = [];
     try {
-        favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+        let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
         if (favorites.indexOf(alias) > -1) {
             favorites = favorites.filter((v) => {
                 return v !== alias;
@@ -254,9 +253,9 @@ function toggleFavorite(alias) {
 }
 
 function walk(direction) {
-    var activeEntry = document.querySelector('.entry.active');
-    var target = null;
-    var next = direction === 'up' ? activeEntry.previousElementSibling : activeEntry.nextElementSibling;
+    const activeEntry = document.querySelector('.entry.active');
+    let target = null;
+    let next = direction === 'up' ? activeEntry.previousElementSibling : activeEntry.nextElementSibling;
 
     while (target === null) {
         if (next) {
@@ -271,8 +270,8 @@ function walk(direction) {
     }
 
     function isVisible(el) {
-        var offset = document.getElementById('filters').getBoundingClientRect().height;
-        var container = document.querySelector('section.select-list').getBoundingClientRect().height;
+        const offset = document.getElementById('filters').getBoundingClientRect().height;
+        const container = document.querySelector('section.select-list').getBoundingClientRect().height;
         if (direction === 'up') {
             if (el.getBoundingClientRect().top < offset) {
                 return false;
@@ -295,13 +294,13 @@ function walk(direction) {
 }
 
 function increaseFontSize() {
-    var sizeEl = document.getElementById('size');
+    const sizeEl = document.getElementById('size');
     sizeEl.value = Number(sizeEl.value) + 1;
     sizeEl.onchange();
 }
 
 function decreaseFontSize() {
-    var sizeEl = document.getElementById('size');
+    const sizeEl = document.getElementById('size');
     sizeEl.value = Number(sizeEl.value) - 1;
     sizeEl.onchange();
 }
@@ -310,15 +309,15 @@ function toggleFilter(filter) {
     // cycle through the possible values for each filter
     // and set the filters[filter] value,
     // or at the end of the cycle set it to false
-    var options = {
+    const options = {
         style: [false, 'sans', 'serif'],
         rendering: [false, 'vector', 'bitmap'],
         liga: [false, 'yes', 'no'],
         zerostyle: [false, 'slashed', 'dotted', 'empty'],
     };
 
-    var current_index = options[filter].indexOf(filters[filter]);
-    var next = current_index + 1;
+    const current_index = options[filter].indexOf(filters[filter]);
+    const next = current_index + 1;
     if (next < options[filter].length) {
         filters[filter] = options[filter][next];
     } else {
@@ -329,10 +328,10 @@ function toggleFilter(filter) {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-    var cookieValueSpacing = document.cookie.replace(/(?:(?:^|.*;\s*)spacing\s*=\s*([^;]*).*$)|^.*$/, '$1');
-    var cookieValueSize = document.cookie.replace(/(?:(?:^|.*;\s*)size\s*=\s*([^;]*).*$)|^.*$/, '$1');
-    var cookieValueTheme = document.cookie.replace(/(?:(?:^|.*;\s*)theme\s*=\s*([^;]*).*$)|^.*$/, '$1');
-    var cookieValueLanguage = document.cookie.replace(/(?:(?:^|.*;\s*)language\s*=\s*([^;]*).*$)|^.*$/, '$1');
+    const cookieValueSpacing = document.cookie.replace(/(?:(?:^|.*;\s*)spacing\s*=\s*([^;]*).*$)|^.*$/, '$1');
+    const cookieValueSize = document.cookie.replace(/(?:(?:^|.*;\s*)size\s*=\s*([^;]*).*$)|^.*$/, '$1');
+    const cookieValueTheme = document.cookie.replace(/(?:(?:^|.*;\s*)theme\s*=\s*([^;]*).*$)|^.*$/, '$1');
+    const cookieValueLanguage = document.cookie.replace(/(?:(?:^|.*;\s*)language\s*=\s*([^;]*).*$)|^.*$/, '$1');
 
     if (cookieValueSpacing !== '') {
         document.getElementById('spacing').value = cookieValueSpacing;
@@ -354,9 +353,9 @@ window.addEventListener('DOMContentLoaded', () => {
     selectLanguage();
 
     function walkThemes(direction) {
-        var select = document.getElementById('select-theme');
-        var current = select.selectedOptions[0];
-        var next;
+        const select = document.getElementById('select-theme');
+        const current = select.selectedOptions[0];
+        let next;
         if (current) {
             next = direction === 'up' ? current.previousElementSibling : current.nextElementSibling;
         }

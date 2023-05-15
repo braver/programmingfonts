@@ -823,7 +823,7 @@
     },
     "intel-one-mono": {
         "name": "Intel One Mono",
-        "description": "Identifying the typographically underserved low-vision developer audience, The Intel Brand Team designed the Intel One Mono typeface together with VMLY&R and Frere-Jones Type, for maximum legibility to address developers' fatigue and eyestrain and reduce coding errors. A panel of low-vision and legally blind developers provided feedback at each stage of design.",
+        "description": "Identifying the typographically underserved low-vision developer audience, The Intel Brand Team designed the Intel One Mono typeface together with VMLY&R and Frere-Jones Type, for maximum legibility to address developers' fatigue and eyestrain and reduce coding errors.",
         "year": 2023,
         "author": "Intel Brand Team, VMLY&R, Frere-Jones Type",
         "website": "https://github.com/intel/intel-one-mono",

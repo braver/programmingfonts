@@ -821,6 +821,28 @@
         "website": "http://input.fontbureau.com",
         "year": 2014
     },
+    "intel-one-mono": {
+        "name": "Intel One Mono",
+        "description": "Identifying the typographically underserved low-vision developer audience, The Intel Brand Team designed the Intel One Mono typeface together with VMLY&R and Frere-Jones Type, for maximum legibility to address developers' fatigue and eyestrain and reduce coding errors. A panel of low-vision and legally blind developers provided feedback at each stage of design.",
+        "year": 2023,
+        "author": "Intel Brand Team",
+        "website": "https://github.com/intel/intel-one-mono",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "rendering": "vector",
+        "zerostyle": "slashed",
+        "style": "sans",
+        "variants": [
+            "light",
+            "light-italic",
+            "regular",
+            "italic",
+            "medium",
+            "medium-italic",
+            "bold",
+            "bold-italic"
+        ]
+    },
     "iosevka": {
         "author": "Belleve Invis",
         "ligatures": true,

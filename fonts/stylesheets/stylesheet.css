@@ -821,6 +821,30 @@
   src: url('../resources/ia-writer-mono/ia-writer-mono-bold-italic.woff');
 }
 @font-face {
+  font-family: 'intel-one-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/intel-one-mono/intel-one-mono.woff2');
+}
+@font-face {
+  font-family: 'intel-one-mono';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/intel-one-mono/intel-one-mono-italic.woff2');
+}
+@font-face {
+  font-family: 'intel-one-mono';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/intel-one-mono/intel-one-mono-bold.woff2');
+}
+@font-face {
+  font-family: 'intel-one-mono';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/intel-one-mono/intel-one-mono-bolditalic.woff2');
+}
+@font-face {
   font-family: 'iosevka';
   font-weight: normal;
   font-style: normal;

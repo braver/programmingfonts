@@ -17,7 +17,7 @@ Please feel free to make a little [donation via PayPal](https://paypal.me/koenla
 - All information about the fonts is stored in [fonts.json](https://github.com/braver/programmingfonts/blob/gh-pages/fonts.json).
   - Which adheres to [a schema](https://github.com/braver/programmingfonts/blob/gh-pages/fonts-schema.json).
 - Font files are stored in [fonts/resources](https://github.com/braver/programmingfonts/tree/gh-pages/fonts/resources).
-  - We store only 4 variants (if available), in `.woff` format (if available): regular, italic, bold, bold+italic
+  - We store only 4 variants (if available), in `.woff2` format (if available): regular, italic, bold, bold+italic
 - All font files (and directories) are normalized to lowercase, without `-mono` unless it's really part of the name.
 - The [fonts.less](https://github.com/braver/programmingfonts/blob/gh-pages/fonts/stylesheets/fonts.less) registers the variants for each font "alias" and is used to generate the stylesheets.
 - The license needs to allow serving in a website, or an agreement with the font creators needs to be made. If available we add the license along with the font files.

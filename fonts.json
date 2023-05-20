@@ -1541,6 +1541,36 @@
         "website": "http://www.gust.org.pl/projects/e-foundry/tex-gyre",
         "year": 2006
     },
+    "twilio-sans-mono": {
+        "author": "Sharp Type",
+        "description": "Twilio Sans Mono is the latest addition to our type superfamily that also includes Twilio Sans Text for body copy and Twilio Sans Display for headlines. It is welcoming and incredibly adaptable. It can be big and bold or quiet and utilitarian.",
+        "license": "SIL OFL",
+        "ligatures": true,
+        "name": "Twilio Sans Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "zerostyle": "dotted",
+        "variants": [
+            "bold",
+            "bold-italic",
+            "extra-bold",
+            "extra-bold-italic",
+            "heavy",
+            "heavy-italic",
+            "regular",
+            "italic",
+            "light",
+            "light-italic",
+            "medium",
+            "medium-italic",
+            "semibold",
+            "semibold-italic",
+            "retina",
+            "retina-italic"
+        ],
+        "website": "https://github.com/twilio/twilio-sans-mono",
+        "year": 2020
+    },
     "ubuntu": {
         "author": "Dalton Maag",
         "ligatures": false,

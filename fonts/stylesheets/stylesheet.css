@@ -1613,6 +1613,30 @@
   src: url('../resources/terminus/terminus.ttf');
 }
 @font-face {
+  font-family: 'twilio-sans-mono';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/twilio-sans-mono/twilio-sans-mono-bold-italic.woff2');
+}
+@font-face {
+  font-family: 'twilio-sans-mono';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/twilio-sans-mono/twilio-sans-mono-bold.woff2');
+}
+@font-face {
+  font-family: 'twilio-sans-mono';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/twilio-sans-mono/twilio-sans-mono-italic.woff2');
+}
+@font-face {
+  font-family: 'twilio-sans-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/twilio-sans-mono/twilio-sans-mono.woff2');
+}
+@font-face {
   font-family: 'ubuntu';
   font-weight: bold;
   font-style: italic;

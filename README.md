@@ -9,7 +9,7 @@ ProgrammingFonts.org makes it easier to find monospaced fonts. All fonts in one 
 
 ☕️👌🏻
 
-This website is powered by coffee. No ads, no tracking, no monetization. We do have a little costs for domain name. And coffee. Gallons of coffee.
+This website is powered by coffee. No ads, no tracking, no monetization. We do have some costs for domain name. And coffee. Gallons of coffee.
 Please feel free to make a little [donation via PayPal](https://paypal.me/koenlageveen) to keep this labour of love running. It's much appreciated!
 
 ## Project layout / contributing

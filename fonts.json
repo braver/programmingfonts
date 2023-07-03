@@ -1426,6 +1426,26 @@
         "website": "https://github.com/nerdypepper/scientifica",
         "year": 2019
     },
+    "serious-sans": {
+        "author": "Kyle Beechly",
+        "description": "A legible monospace font for playful professionals. Comic Sans for hackers.",
+        "license": "MIT",
+        "ligatures": false,
+        "name": "Serious Sans",
+        "rendering": "vector",
+        "style": "sans",
+        "zerostyle": "slashed",
+        "variants": [
+            "light",
+            "light-italic",
+            "bold",
+            "bold-italic",
+            "italic",
+            "regular"
+        ],
+        "website": "https://kabeech.github.io/serious-sans/",
+        "year": 2023
+    },
     "share-tech": {
         "author": "Ralph du Carrois",
         "ligatures": false,

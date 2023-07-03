@@ -21,7 +21,7 @@ Please feel free to make a little [donation via PayPal](https://paypal.me/koenla
 - All font files (and directories) are normalized to lowercase, without `-mono` unless it's really part of the name.
 - The [fonts.less](https://github.com/braver/programmingfonts/blob/gh-pages/fonts/stylesheets/fonts.less) registers the variants for each font "alias" and is used to generate the stylesheets.
 - The license needs to allow serving in a website, or an agreement with the font creators needs to be made. If available we add the license along with the font files.
-- Running `npm install && npm run test` checks the json and builds the stylesheet. 
+- Running `make` checks the json and builds the stylesheet. 
 
 ## Todo's
 

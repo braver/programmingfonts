@@ -680,6 +680,22 @@
         "website": "https://github.com/rbanffy/3270font",
         "year": 2015
     },
+    "fragment-mono": {
+        "author": "Wei H",
+        "description": "Fragment Mono is a monospaced coding version of Helvetica created by modifying and extending Nimbus Sans by URW Design Studio.",
+        "license": "SIL OFL",
+        "ligatures": true,
+        "name": "Fragment Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "zerostyle": "slashed",
+        "variants": [
+            "regular",
+            "italic"
+        ],
+        "website": "https://github.com/weiweihuanghuang/fragment-mono",
+        "year": 2022
+    },
     "generic": {
         "author": "Luc Devroye",
         "ligatures": false,

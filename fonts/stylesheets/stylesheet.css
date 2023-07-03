@@ -659,6 +659,18 @@
   src: url('../resources/fixedsys-ligatures/fixedsys-ligatures.ttf');
 }
 @font-face {
+  font-family: 'fragment-mono';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/fragment-mono/fragment-mono-italic.woff2');
+}
+@font-face {
+  font-family: 'fragment-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/fragment-mono/fragment-mono.woff2');
+}
+@font-face {
   font-family: 'generic';
   font-weight: normal;
   font-style: normal;

@@ -307,6 +307,22 @@
         "website": "http://sourceforge.net/projects/codenewroman/",
         "year": 2014
     },
+    "comic-mono": {
+        "author": "Thai Pangsakulyanont",
+        "description": "A legible monospace font… the very typeface you’ve been trained to recognize since childhood. This font is a fork of Shannon Miwa’s Comic Shanns.",
+        "license": "MIT",
+        "ligatures": false,
+        "name": "Comic Shanns",
+        "rendering": "vector",
+        "style": "sans",
+        "zerostyle": "slashed",
+        "variants": [
+            "bold",
+            "regular"
+        ],
+        "website": "https://dtinth.github.io/comic-mono-font/",
+        "year": 2018
+    },
     "comic-shanns": {
         "author": "Shannon Miwa",
         "description": "Like if someone made a dumbass version of Comic Sans that is monospaced.",

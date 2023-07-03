@@ -305,6 +305,18 @@
   src: url('../resources/code-new-roman/code-new-roman.otf');
 }
 @font-face {
+  font-family: 'comic-mono';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/comic-mono/comin-monc-bold.ttf');
+}
+@font-face {
+  font-family: 'comic-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/comic-mono/comic-mono.ttf');
+}
+@font-face {
   font-family: 'comic-shanns';
   font-weight: normal;
   font-style: normal;

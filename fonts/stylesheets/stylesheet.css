@@ -737,6 +737,12 @@
   src: url('../resources/go-mono/go-mono.ttf');
 }
 @font-face {
+  font-family: 'gohufont';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/gohufont/gohufont.ttf');
+}
+@font-face {
   font-family: 'hack';
   font-weight: bold;
   font-style: italic;

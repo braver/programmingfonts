@@ -34,7 +34,8 @@
                         "GNU GPL",
                         "MIT",
                         "public domain",
-                        "SIL OFL"
+                        "SIL OFL",
+                        "WTFPL"
                     ]
                 },
                 "ligatures": { "type":"boolean" },

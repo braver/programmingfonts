@@ -767,6 +767,21 @@
         "website": "https://blog.golang.org/go-fonts",
         "year": 2016
     },
+    "gohufont": {
+        "author": "Hugo Chargois",
+        "description": "Gohufont is a monospace bitmap font well suited for programming and terminal use. It is intended to be very legible and offers very discernable glyphs for all characters, including signs and symbols. In 11 or 14 pixels.",
+        "license": "WTFPL",
+        "ligatures": false,
+        "name": "Gohufont",
+        "rendering": "bitmap",
+        "style": "sans",
+        "zerostyle": "slashed",
+        "variants": [
+            "regular"
+        ],
+        "website": "https://font.gohu.org",
+        "year": 2010
+    },
     "hack": {
         "author": "Christopher Simpkins",
         "ligatures": false,

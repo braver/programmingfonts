@@ -24,10 +24,10 @@ const filters = {
 }
 
 const selectTheme = () => {
-  let theme = 'monokai'
+  let theme = 'oceanic-next'
 
   if (input.selectedIndex > -1) {
-    theme = input.options[input.selectedIndex].innerHTML
+    theme = input.options[input.selectedIndex].textContent
   }
   editor.setOption('theme', theme)
   document.cookie = `theme=${theme};max-age=172800`
@@ -40,7 +40,7 @@ const selectFont = () => {
   const codeMirror = document.querySelector('.CodeMirror')
 
   if (!font) {
-    font = 'cartograph'
+    font = 'source-code-pro'
     msg.innerHTML = 'Test drive all the programming fonts!'
   } else if (typeof fontData !== 'undefined') {
     msg.innerHTML = `Test drive <a rel="external" href="${fontData[font].website}">${fontData[font].name}!</a>`

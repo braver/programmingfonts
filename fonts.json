@@ -312,7 +312,7 @@
         "description": "A legible monospace font… the very typeface you’ve been trained to recognize since childhood. This font is a fork of Shannon Miwa’s Comic Shanns.",
         "license": "MIT",
         "ligatures": false,
-        "name": "Comic Shanns",
+        "name": "Comic Mono",
         "rendering": "vector",
         "style": "sans",
         "zerostyle": "slashed",
@@ -321,7 +321,7 @@
             "regular"
         ],
         "website": "https://dtinth.github.io/comic-mono-font/",
-        "year": 2018
+        "year": 2019
     },
     "comic-shanns": {
         "author": "Shannon Miwa",

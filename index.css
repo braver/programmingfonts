@@ -76,10 +76,10 @@ html {
         --bright-white: #111;
         --paper-white: #1F1F1F;
 
-        --ink-black: #ECECEC;
-        --dark-grey: #E0E0E0;
+        --ink-black: #DDD;
+        --dark-grey: #EEE;
         --medium-grey: #808080;
-        --light-grey: #4A4A4A;
+        --light-grey: #333;
         --bright-grey: #2A2A2A;
     }
 }

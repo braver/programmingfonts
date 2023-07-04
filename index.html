@@ -185,17 +185,17 @@
             <section class="config">
                 <p>
                     <label for="size">Size</label>
-                    <input onchange="setSize()" type="number" id="size" value="16" min="1" max="32" step="1">
+                    <input type="number" id="size" value="16" min="1" max="32" step="1">
                 </p>
                 <p>
                     <label for="spacing">/</label>
-                    <input onchange="setSpacing()" type="number" id="spacing" value="1.4" min="1" max="2" step="0.1">
+                    <input type="number" id="spacing" value="1.4" min="1" max="2" step="0.1">
                 </p>
                 <p class="select">
                     <button class="nav-button" id="theme-previous">↑</button>
                     <button class="nav-button" id="theme-next">↓</button>
                     <label for="select-theme" class="screenreader-only">Theme</label>
-                    <select onchange="selectTheme()" id="select-theme">
+                    <select id="select-theme">
                         <option>3024-day</option>
                         <option>3024-night</option>
                         <option>abcdef</option>
@@ -246,7 +246,7 @@
                 </p>
                 <p class="select">
                     <label for="select-language" class="screenreader-only">Language</label>
-                    <select onchange="selectLanguage()" id="select-language">
+                    <select id="select-language">
                         <option>None</option>
                         <option selected="">JavaScript</option>
                         <option value="clike">C (-like)</option>

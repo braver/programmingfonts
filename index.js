@@ -1,17 +1,18 @@
 /* global CodeMirror window document Set plausible */
 /* eslint-disable no-implicit-globals */
 
+import { Cookies } from './modules/cookies.js'
+import { Fontsize } from './modules/fontsize.js'
+import { Theme } from './modules/theme.js'
+
 // CodeMirror
-const editor = CodeMirror.fromTextArea(document.getElementById('code'), {
+window.CMeditor = CodeMirror.fromTextArea(document.getElementById('code'), {
   lineNumbers: true,
   styleActiveLine: true,
   matchBrackets: true,
   theme: 'pastel-on-dark',
   lineWrapping: true
 })
-
-// CodeMirror theme selector
-const input = document.getElementById('select-theme')
 
 let fontData
 const filters = {
@@ -21,16 +22,6 @@ const filters = {
   zerostyle: false,
   author: 'all',
   name: ''
-}
-
-const selectTheme = () => {
-  let theme = 'oceanic-next'
-
-  if (input.selectedIndex > -1) {
-    theme = input.options[input.selectedIndex].textContent
-  }
-  editor.setOption('theme', theme)
-  document.cookie = `theme=${theme};max-age=172800`
 }
 
 // ProgrammingFonts font selector
@@ -49,11 +40,11 @@ const selectFont = () => {
   if (typeof fontData !== 'undefined' && fontData[font].rendering === 'bitmap') {
     codeMirror.classList.add('no-smooth')
     if (fontData[font]['bitmap size']) {
-      forceSize(fontData[font]['bitmap size'])
+      Fontsize.forceSize(fontData[font]['bitmap size'])
     }
   } else {
     codeMirror.classList.remove('no-smooth')
-    resetSize()
+    Fontsize.reset()
   }
 
   if (font === 'input') {
@@ -75,40 +66,21 @@ const selectFont = () => {
     element.classList.add('active')
   })
 
-  document.cookie = `font=${font};max-age=172800`
+  Cookies.set('font', font)
 }
 
-function setSize () {
-  const size = document.getElementById('size').value
-  document.querySelector('.CodeMirror').style.fontSize = `${size}px`
-  document.cookie = `size=${size};max-age=172800`
-  editor.refresh()
-}
-function forceSize (px) {
-  document.getElementById('size').value = px
-  document.querySelector('.CodeMirror').style.fontSize = `${px}px`
-  editor.refresh()
-}
-function resetSize () {
-  const cookieValueSize = document.cookie.replace(/(?:(?:^|.*;\s*)size\s*=\s*([^;]*).*$)|^.*$/, '$1')
-  if (cookieValueSize) {
-    forceSize(cookieValueSize)
-  } else {
-    forceSize('16')
-  }
-}
 function setSpacing () {
   const spacing = document.getElementById('spacing').value
 
   document.querySelector('.CodeMirror').style.lineHeight = spacing
-  document.cookie = `spacing=${spacing};max-age=172800`
-  editor.refresh()
+  Cookies.set('spacing', spacing)
+  window.CMeditor.refresh()
 }
 function selectLanguage () {
   const lang = document.getElementById('select-language').value
 
-  editor.setOption('mode', lang.toLowerCase())
-  document.cookie = `language=${lang};max-age=172800`
+  window.CMeditor.setOption('mode', lang.toLowerCase())
+  Cookies.set('language', lang)
 }
 function setCounter (amount) {
   const element = document.querySelector('h1 a:first-child')
@@ -307,18 +279,6 @@ function walk (direction) {
   }
 }
 
-function increaseFontSize () {
-  const sizeEl = document.getElementById('size')
-  sizeEl.value = Number(sizeEl.value) + 1
-  sizeEl.onchange()
-}
-
-function decreaseFontSize () {
-  const sizeEl = document.getElementById('size')
-  sizeEl.value = Number(sizeEl.value) - 1
-  sizeEl.onchange()
-}
-
 function toggleFilter (filter) {
   // cycle through the possible values for each filter
   // and set the filters[filter] value,
@@ -351,7 +311,7 @@ function walkThemes (direction) {
   if (next) {
     select.value = next.value
   }
-  selectTheme()
+  Theme.set()
 }
 
 window.onhashchange = () => {
@@ -360,27 +320,22 @@ window.onhashchange = () => {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-  const cookieValueSpacing = document.cookie.replace(/(?:(?:^|.*;\s*)spacing\s*=\s*([^;]*).*$)|^.*$/, '$1')
-  const cookieValueSize = document.cookie.replace(/(?:(?:^|.*;\s*)size\s*=\s*([^;]*).*$)|^.*$/, '$1')
-  const cookieValueTheme = document.cookie.replace(/(?:(?:^|.*;\s*)theme\s*=\s*([^;]*).*$)|^.*$/, '$1')
-  const cookieValueLanguage = document.cookie.replace(/(?:(?:^|.*;\s*)language\s*=\s*([^;]*).*$)|^.*$/, '$1')
-
-  if (cookieValueSpacing !== '') {
-    document.getElementById('spacing').value = cookieValueSpacing
+  if (Cookies.get('spacing') !== '') {
+    document.getElementById('spacing').value = Cookies.get('spacing')
   }
-  if (cookieValueSize !== '') {
-    document.getElementById('size').value = cookieValueSize
+  if (Cookies.get('size') !== '') {
+    document.getElementById('size').value = Cookies.get('size')
   }
-  if (cookieValueTheme !== '') {
-    document.getElementById('select-theme').value = cookieValueTheme
+  if (Cookies.get('theme') !== '') {
+    document.getElementById('select-theme').value = Cookies.get('theme')
   }
-  if (cookieValueLanguage !== '') {
-    document.getElementById('select-language').value = cookieValueLanguage
+  if (Cookies.get('language') !== '') {
+    document.getElementById('select-language').value = Cookies.get('language')
   }
 
   renderSelectList()
-  selectTheme()
-  setSize()
+  Theme.init()
+  Fontsize.init()
   setSpacing()
   selectLanguage()
 
@@ -433,11 +388,11 @@ window.addEventListener('DOMContentLoaded', () => {
       if (event.key === '-') {
         event.preventDefault()
         event.stopPropagation()
-        decreaseFontSize()
+        Fontsize.down()
       } else if (event.key === '=') {
         event.preventDefault()
         event.stopPropagation()
-        increaseFontSize()
+        Fontsize.up()
       }
     }
   })

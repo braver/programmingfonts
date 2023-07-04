@@ -89,7 +89,7 @@ function forceSize (px) {
   document.querySelector('.CodeMirror').style.fontSize = `${px}px`
   editor.refresh()
 }
-function resetSize() {
+function resetSize () {
   const cookieValueSize = document.cookie.replace(/(?:(?:^|.*;\s*)size\s*=\s*([^;]*).*$)|^.*$/, '$1')
   if (cookieValueSize) {
     forceSize(cookieValueSize)

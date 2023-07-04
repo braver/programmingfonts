@@ -49,10 +49,11 @@ const selectFont = () => {
   if (typeof fontData !== 'undefined' && fontData[font].rendering === 'bitmap') {
     codeMirror.classList.add('no-smooth')
     if (fontData[font]['bitmap size']) {
-      setSize(fontData[font]['bitmap size'])
+      forceSize(fontData[font]['bitmap size'])
     }
   } else {
     codeMirror.classList.remove('no-smooth')
+    resetSize()
   }
 
   if (font === 'input') {
@@ -77,15 +78,24 @@ const selectFont = () => {
   document.cookie = `font=${font};max-age=172800`
 }
 
-function setSize (px) {
-  let size = document.getElementById('size').value
-  if (px) {
-    size = px
-  }
-
+function setSize () {
+  const size = document.getElementById('size').value
   document.querySelector('.CodeMirror').style.fontSize = `${size}px`
   document.cookie = `size=${size};max-age=172800`
   editor.refresh()
+}
+function forceSize (px) {
+  document.getElementById('size').value = px
+  document.querySelector('.CodeMirror').style.fontSize = `${px}px`
+  editor.refresh()
+}
+function resetSize() {
+  const cookieValueSize = document.cookie.replace(/(?:(?:^|.*;\s*)size\s*=\s*([^;]*).*$)|^.*$/, '$1')
+  if (cookieValueSize) {
+    forceSize(cookieValueSize)
+  } else {
+    forceSize('16')
+  }
 }
 function setSpacing () {
   const spacing = document.getElementById('spacing').value

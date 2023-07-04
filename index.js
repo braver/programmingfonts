@@ -341,6 +341,19 @@ function toggleFilter (filter) {
   applyFilters()
 }
 
+function walkThemes (direction) {
+  const select = document.getElementById('select-theme')
+  const current = select.selectedOptions[0]
+  let next
+  if (current) {
+    next = direction === 'up' ? current.previousElementSibling : current.nextElementSibling
+  }
+  if (next) {
+    select.value = next.value
+  }
+  selectTheme()
+}
+
 window.onhashchange = () => {
   plausible('Font Selected')
   selectFont()
@@ -370,19 +383,6 @@ window.addEventListener('DOMContentLoaded', () => {
   setSize()
   setSpacing()
   selectLanguage()
-
-  function walkThemes (direction) {
-    const select = document.getElementById('select-theme')
-    const current = select.selectedOptions[0]
-    let next
-    if (current) {
-      next = direction === 'up' ? current.previousElementSibling : current.nextElementSibling
-    }
-    if (next) {
-      select.value = next.value
-    }
-    selectTheme()
-  }
 
   document.getElementById('theme-next').onclick = () => {
     walkThemes('down')

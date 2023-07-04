@@ -1,4 +1,4 @@
-/* global CodeMirror window document Set */
+/* global CodeMirror window document Set plausible */
 /* eslint-disable no-implicit-globals */
 
 // CodeMirror
@@ -74,7 +74,10 @@ const selectFont = () => {
   document.cookie = `font=${font};max-age=172800`
 }
 
-window.onhashchange = selectFont
+window.onhashchange = () => {
+  plausible('Font Selected')
+  selectFont()
+}
 
 function setSize () {
   const size = document.getElementById('size').value

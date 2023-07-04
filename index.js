@@ -48,6 +48,9 @@ const selectFont = () => {
 
   if (typeof fontData !== 'undefined' && fontData[font].rendering === 'bitmap') {
     codeMirror.classList.add('no-smooth')
+    if (fontData[font]['bitmap size']) {
+      setSize(fontData[font]['bitmap size'])
+    }
   } else {
     codeMirror.classList.remove('no-smooth')
   }
@@ -74,13 +77,11 @@ const selectFont = () => {
   document.cookie = `font=${font};max-age=172800`
 }
 
-window.onhashchange = () => {
-  plausible('Font Selected')
-  selectFont()
-}
-
-function setSize () {
-  const size = document.getElementById('size').value
+function setSize (px) {
+  let size = document.getElementById('size').value
+  if (px) {
+    size = px
+  }
 
   document.querySelector('.CodeMirror').style.fontSize = `${size}px`
   document.cookie = `size=${size};max-age=172800`
@@ -328,6 +329,11 @@ function toggleFilter (filter) {
   }
 
   applyFilters()
+}
+
+window.onhashchange = () => {
+  plausible('Font Selected')
+  selectFont()
 }
 
 window.addEventListener('DOMContentLoaded', () => {

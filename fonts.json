@@ -160,6 +160,7 @@
         "ligatures": false,
         "name": "BigBlue Terminal",
         "rendering": "bitmap",
+        "bitmap size": 12,
         "style": "serif",
         "zerostyle": "dotted",
         "variants": [
@@ -398,6 +399,7 @@
         "ligatures": false,
         "name": "Cozette",
         "rendering": "bitmap",
+        "bitmap size": 12,
         "style": "sans",
         "zerostyle": "dotted",
         "variants": [
@@ -521,6 +523,7 @@
         "ligatures": false,
         "name": "Effects Eighty",
         "rendering": "bitmap",
+        "bitmap size": 16,
         "style": "sans",
         "zerostyle": "empty",
         "website": "http://openfontlibrary.org/en/font/effects-eighty",
@@ -572,6 +575,7 @@
         "ligatures": false,
         "name": "Fairfax",
         "rendering": "bitmap",
+        "bitmap size": 12,
         "style": "sans",
         "zerostyle": "slashed",
         "variants": [
@@ -600,6 +604,7 @@
         "ligatures": false,
         "name": "Fairfax Serif",
         "rendering": "bitmap",
+        "bitmap size": 12,
         "style": "serif",
         "zerostyle": "slashed",
         "website": "http://www.kreativekorp.com/software/fonts/fairfax.shtml",
@@ -620,6 +625,7 @@
         "ligatures": false,
         "name": "Fifteen",
         "rendering": "bitmap",
+        "bitmap size": 15,
         "style": "sans",
         "zerostyle": "slashed",
         "website": "http://openfontlibrary.org/en/font/fifteen",
@@ -650,9 +656,10 @@
         "ligatures": false,
         "name": "Fixedsys",
         "rendering": "bitmap",
+        "bitmap size": 16,
         "style": "sans",
         "zerostyle": "slashed",
-        "website": "http://www.moviecorner.de/en/font-fixedsys-ttf/description",
+        "website": "https://web.archive.org/web/20160316105117/http://www.moviecorner.de/en/font-fixedsys-ttf/description",
         "year": 1980
     },
     "fixedsys-ligatures": {
@@ -660,6 +667,7 @@
         "ligatures": true,
         "name": "Fixedsys with Ligatures",
         "rendering": "bitmap",
+        "bitmap size": 16,
         "style": "sans",
         "zerostyle": "slashed",
         "website": "https://github.com/kika/fixedsys",
@@ -767,13 +775,30 @@
         "website": "https://blog.golang.org/go-fonts",
         "year": 2016
     },
-    "gohufont": {
+    "gohufont-11": {
         "author": "Hugo Chargois",
         "description": "Gohufont is a monospace bitmap font well suited for programming and terminal use. It is intended to be very legible and offers very discernable glyphs for all characters, including signs and symbols. In 11 or 14 pixels.",
         "license": "WTFPL",
         "ligatures": false,
-        "name": "Gohufont",
+        "name": "Gohufont 11",
         "rendering": "bitmap",
+        "bitmap size": 11,
+        "style": "sans",
+        "zerostyle": "slashed",
+        "variants": [
+            "regular"
+        ],
+        "website": "https://font.gohu.org",
+        "year": 2010
+    },
+    "gohufont-14": {
+        "author": "Hugo Chargois",
+        "description": "Gohufont is a monospace bitmap font well suited for programming and terminal use. It is intended to be very legible and offers very discernable glyphs for all characters, including signs and symbols. In 11 or 14 pixels.",
+        "license": "WTFPL",
+        "ligatures": false,
+        "name": "Gohufont 14",
+        "rendering": "bitmap",
+        "bitmap size": 14,
         "style": "sans",
         "zerostyle": "slashed",
         "variants": [
@@ -1322,6 +1347,7 @@
         "ligatures": false,
         "name": "Press Start 2P",
         "rendering": "bitmap",
+        "bitmap size": 16,
         "style": "sans",
         "zerostyle": "empty",
         "website": "https://github.com/codeman38/PressStart2P",
@@ -1342,6 +1368,7 @@
         "ligatures": false,
         "name": "Proggy Clean",
         "rendering": "bitmap",
+        "bitmap size": 16,
         "style": "sans",
         "zerostyle": "dotted",
         "website": "https://github.com/bluescan/proggyfonts/",
@@ -1447,6 +1474,7 @@
         "ligatures": false,
         "name": "Scientifica",
         "rendering": "bitmap",
+        "bitmap size": 16,
         "style": "sans",
         "zerostyle": "slashed",
         "variants": [
@@ -1570,6 +1598,7 @@
         "ligatures": false,
         "name": "Spleen",
         "rendering": "bitmap",
+        "bitmap size": 16,
         "style": "sans",
         "zerostyle": "slashed",
         "variants": [
@@ -1653,6 +1682,7 @@
         "ligatures": false,
         "name": "GNU Unifont",
         "rendering": "bitmap",
+        "bitmap size": 16,
         "style": "sans",
         "zerostyle": "empty",
         "website": "http://www.unifoundry.com/unifont.html",
@@ -1685,6 +1715,7 @@
         "ligatures": false,
         "name": "VT323",
         "rendering": "bitmap",
+        "bitmap size": 16,
         "style": "sans",
         "zerostyle": "empty",
         "website": "https://fedoraproject.org/wiki/VT323_Fonts",

@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "type":"object",
+    "type": "object",
 
     "patternProperties": {
         "^[a-z-]*$": {
@@ -13,19 +13,19 @@
             "type": "object",
             "properties": {
                 "alias": {
-                    "type":"string",
+                    "type": "string",
                     "pattern": "^[a-z][a-z0-9-]+$"
                 },
-                "name": { "type":"string" },
-                "author": { "type":"string" },
-                "description": { "type":"string" },
-                "year": { "type":"integer" },
+                "name": { "type": "string" },
+                "author": { "type": "string" },
+                "description": { "type": "string" },
+                "year": { "type": "integer" },
                 "website": {
-                    "type":"string",
-                    "format":"uri"
+                    "type": "string",
+                    "format": "uri"
                 },
                 "license": {
-                    "type":"string",
+                    "type": "string",
                     "enum": [
                         "commercial",
                         "Apache",
@@ -38,21 +38,24 @@
                         "WTFPL"
                     ]
                 },
-                "ligatures": { "type":"boolean" },
+                "ligatures": { "type": "boolean" },
                 "style": {
-                    "type":"string",
+                    "type": "string",
                     "enum": ["serif", "sans"]
                 },
                 "rendering": {
-                    "type":"string",
+                    "type": "string",
                     "enum": ["bitmap", "vector"]
                 },
+                "bitmap size": {
+                    "type": "number"
+                },
                 "zerostyle": {
-                    "type":"string",
+                    "type": "string",
                     "enum": ["empty", "slashed", "dotted"]
                 },
                 "variants": {
-                    "type":"array",
+                    "type": "array",
                     "items": {
                         "type": "string",
                         "pattern": "^([a-z-]+|\\d00)$"

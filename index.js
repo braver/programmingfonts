@@ -19,6 +19,13 @@ window.CMeditor = CodeMirror.fromTextArea(document.getElementById('code'), {
   lineWrapping: true
 })
 
+function isVisible (el) {
+  const container = document.querySelector('section.select-list').getBoundingClientRect()
+  const target = el.getBoundingClientRect()
+
+  return target.bottom > container.top && target.top < container.bottom
+}
+
 /**
  * Get the font from the #, the cookie, or a default
  */
@@ -37,7 +44,7 @@ function getFont () {
 }
 
 // ProgrammingFonts font selector
-const selectFont = () => {
+function selectFont () {
   const msg = document.querySelector('footer .subtitle')
   const codeMirror = document.querySelector('.CodeMirror')
   const font = getFont()
@@ -71,9 +78,18 @@ const selectFont = () => {
   document.querySelectorAll('#select-font [data-alias]').forEach((element) => {
     element.classList.remove('active')
   })
-  document.querySelectorAll(`#select-font [data-alias='${font}']`).forEach((element) => {
-    element.classList.add('active')
-  })
+
+  const activeEntry = document.querySelector(`#select-font [data-alias='${font}']`)
+  if (activeEntry) {
+    activeEntry.classList.add('active')
+    if (!isVisible(activeEntry)) {
+      activeEntry.scrollIntoView({
+        block: 'center',
+        inline: 'nearest',
+        behavior: 'smooth'
+      })
+    }
+  }
 
   Cookies.set('font', font)
 }
@@ -197,27 +213,8 @@ function walk (direction) {
     }
   }
 
-  function isVisible (el) {
-    const offset = document.getElementById('filters').getBoundingClientRect().height
-    const container = document.querySelector('section.select-list').getBoundingClientRect().height
-    if (direction === 'up') {
-      if (el.getBoundingClientRect().top < offset) {
-        return false
-      }
-    } else {
-      if (el.getBoundingClientRect().bottom > offset + container) {
-        return false
-      }
-    }
-
-    return true
-  }
-
   if (target) {
     target.querySelector('a').click()
-    if (!isVisible(target)) {
-      target.scrollIntoView()
-    }
   }
 }
 
@@ -233,7 +230,7 @@ window.addEventListener('DOMContentLoaded', () => {
   new Spacing().init()
   new Language().init()
 
-  document.querySelector('.select-list').onkeyup = (event) => {
+  document.querySelector('.select-list').onkeydown = (event) => {
     if (event.ctrlKey || event.altKey || event.metaKey || event.shiftKey) {
       return
     }

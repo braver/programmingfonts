@@ -4,7 +4,7 @@ install:
 	npm install
 
 lint:
-	npx eslint *.js
+	npx eslint *.js modules/*.js
 
 test:
 	npx ajv -c ajv-formats -s fonts-schema.json -d fonts.json

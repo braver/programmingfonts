@@ -1,11 +1,16 @@
-/* global CodeMirror window document Set plausible */
-/* eslint-disable no-implicit-globals */
+/* global CodeMirror plausible */
 
 import { Cookies } from './modules/cookies.js'
 import { Fontsize } from './modules/fontsize.js'
+import { Filters } from './modules/filters.js'
+import { Language } from './modules/language.js'
+import { Spacing } from './modules/spacing.js'
 import { Theme } from './modules/theme.js'
 
-// CodeMirror
+let fontData
+
+const fontsize = new Fontsize()
+
 window.CMeditor = CodeMirror.fromTextArea(document.getElementById('code'), {
   lineNumbers: true,
   styleActiveLine: true,
@@ -14,37 +19,41 @@ window.CMeditor = CodeMirror.fromTextArea(document.getElementById('code'), {
   lineWrapping: true
 })
 
-let fontData
-const filters = {
-  style: false,
-  rendering: false,
-  liga: false,
-  zerostyle: false,
-  author: 'all',
-  name: ''
+/**
+ * Get the font from the #, the cookie, or a default
+ */
+function getFont () {
+  let font = window.location.hash.substring(1)
+
+  if (!font) {
+    font = Cookies.get('font')
+  }
+
+  if (!font) {
+    font = 'source-code-pro'
+  }
+
+  return font
 }
 
 // ProgrammingFonts font selector
 const selectFont = () => {
-  let font = window.location.hash.substring(1)
   const msg = document.querySelector('footer .subtitle')
   const codeMirror = document.querySelector('.CodeMirror')
+  const font = getFont()
 
-  if (!font) {
-    font = 'source-code-pro'
-    msg.innerHTML = 'Test drive all the programming fonts!'
-  } else if (typeof fontData !== 'undefined') {
+  if (typeof fontData !== 'undefined') {
     msg.innerHTML = `Test drive <a rel="external" href="${fontData[font].website}">${fontData[font].name}!</a>`
   }
 
   if (typeof fontData !== 'undefined' && fontData[font].rendering === 'bitmap') {
     codeMirror.classList.add('no-smooth')
     if (fontData[font]['bitmap size']) {
-      Fontsize.forceSize(fontData[font]['bitmap size'])
+      fontsize.forceSize(fontData[font]['bitmap size'])
     }
   } else {
     codeMirror.classList.remove('no-smooth')
-    Fontsize.reset()
+    fontsize.reset()
   }
 
   if (font === 'input') {
@@ -67,72 +76,6 @@ const selectFont = () => {
   })
 
   Cookies.set('font', font)
-}
-
-function setSpacing () {
-  const spacing = document.getElementById('spacing').value
-
-  document.querySelector('.CodeMirror').style.lineHeight = spacing
-  Cookies.set('spacing', spacing)
-  window.CMeditor.refresh()
-}
-function selectLanguage () {
-  const lang = document.getElementById('select-language').value
-
-  window.CMeditor.setOption('mode', lang.toLowerCase())
-  Cookies.set('language', lang)
-}
-function setCounter (amount) {
-  const element = document.querySelector('h1 a:first-child')
-  if (amount === 1) {
-    element.innerHTML = `${amount} Programming Font`
-  } else {
-    element.innerHTML = `${amount} Programming Fonts`
-  }
-}
-
-function applyFilters () {
-  let count = 0
-
-  Object.keys(filters).forEach((filter) => {
-    const button = document.querySelector(`button[value="${filter}"]`)
-    if (!button) {
-      return
-    }
-    if (filters[filter]) {
-      button.classList.add('selected')
-      button.querySelectorAll('svg').forEach((image) => {
-        image.classList.remove('selected')
-      })
-      button.querySelector(`svg[alt="${filters[filter]}"]`).classList.add('selected')
-    } else {
-      button.classList.remove('selected')
-      button.querySelectorAll('svg').forEach((image) => {
-        image.classList.remove('selected')
-      })
-    }
-  })
-
-  document.querySelectorAll('.entry[data-alias]').forEach((element) => {
-    const data = fontData[element.dataset.alias]
-    if (
-      (!filters.style || data.style === filters.style) &&
-            (!filters.rendering || data.rendering === filters.rendering) &&
-            (!filters.liga ||
-                (data.ligatures === false && filters.liga === 'no') ||
-                (data.ligatures === true && filters.liga === 'yes')) &&
-            (!filters.zerostyle || data.zerostyle === filters.zerostyle) &&
-            (filters.author === 'all' || data.author === filters.author) &&
-            (!filters.name || data.name.toLowerCase().indexOf(filters.name) > -1)
-    ) {
-      element.classList.remove('filtered-out')
-      count++
-    } else {
-      element.classList.add('filtered-out')
-    }
-  })
-
-  setCounter(count)
 }
 
 function renderSelectList () {
@@ -211,15 +154,14 @@ function renderSelectList () {
     })
 
     selectFont()
-    applyFilters()
+    new Filters(fontData).init()
   }
   ajax.responseType = 'json'
   ajax.open('GET', 'fonts.json', true)
   ajax.send()
 }
 
-// eslint-disable-next-line no-unused-vars
-function toggleFavorite (alias) {
+window.toggleFavorite = (alias) => {
   try {
     let favorites = JSON.parse(localStorage.getItem('favorites')) || []
     if (favorites.indexOf(alias) > -1) {
@@ -279,94 +221,17 @@ function walk (direction) {
   }
 }
 
-function toggleFilter (filter) {
-  // cycle through the possible values for each filter
-  // and set the filters[filter] value,
-  // or at the end of the cycle set it to false
-  const options = {
-    style: [false, 'sans', 'serif'],
-    rendering: [false, 'vector', 'bitmap'],
-    liga: [false, 'yes', 'no'],
-    zerostyle: [false, 'slashed', 'dotted', 'empty']
-  }
-
-  const index = options[filter].indexOf(filters[filter])
-  const next = index + 1
-  if (next < options[filter].length) {
-    filters[filter] = options[filter][next]
-  } else {
-    filters[filter] = options[filter][0]
-  }
-
-  applyFilters()
-}
-
-function walkThemes (direction) {
-  const select = document.getElementById('select-theme')
-  const current = select.selectedOptions[0]
-  let next
-  if (current) {
-    next = direction === 'up' ? current.previousElementSibling : current.nextElementSibling
-  }
-  if (next) {
-    select.value = next.value
-  }
-  Theme.set()
-}
-
 window.onhashchange = () => {
   plausible('Font Selected')
   selectFont()
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-  if (Cookies.get('spacing') !== '') {
-    document.getElementById('spacing').value = Cookies.get('spacing')
-  }
-  if (Cookies.get('size') !== '') {
-    document.getElementById('size').value = Cookies.get('size')
-  }
-  if (Cookies.get('theme') !== '') {
-    document.getElementById('select-theme').value = Cookies.get('theme')
-  }
-  if (Cookies.get('language') !== '') {
-    document.getElementById('select-language').value = Cookies.get('language')
-  }
-
   renderSelectList()
-  Theme.init()
-  Fontsize.init()
-  setSpacing()
-  selectLanguage()
-
-  document.getElementById('theme-next').onclick = () => {
-    walkThemes('down')
-  }
-
-  document.getElementById('theme-previous').onclick = () => {
-    walkThemes('up')
-  }
-
-  document
-    .getElementById('filters')
-    .querySelectorAll('button')
-    .forEach((button) => {
-      button.onclick = (event) => {
-        event.preventDefault()
-        event.stopPropagation()
-        toggleFilter(button.value)
-      }
-    })
-
-  document.getElementById('authors-list').onchange = (event) => {
-    filters.author = event.target.value
-    applyFilters()
-  }
-
-  document.getElementById('name-search').onkeyup = (event) => {
-    filters.name = event.target.value.toLowerCase()
-    applyFilters()
-  }
+  new Theme().init()
+  fontsize.init()
+  new Spacing().init()
+  new Language().init()
 
   document.querySelector('.select-list').onkeyup = (event) => {
     if (event.ctrlKey || event.altKey || event.metaKey || event.shiftKey) {
@@ -388,11 +253,11 @@ window.addEventListener('DOMContentLoaded', () => {
       if (event.key === '-') {
         event.preventDefault()
         event.stopPropagation()
-        Fontsize.down()
+        fontsize.down()
       } else if (event.key === '=') {
         event.preventDefault()
         event.stopPropagation()
-        Fontsize.up()
+        fontsize.up()
       }
     }
   })

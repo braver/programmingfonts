@@ -1,9 +1,12 @@
 import { Cookies } from './cookies.js'
 
-export default class Fontsize {
+export class Fontsize {
   el = document.getElementById('size')
 
   init () {
+    if (Cookies.get('size')) {
+      this.el.value = Cookies.get('size')
+    }
     this.el.onchange = () => {
       this.set()
     }

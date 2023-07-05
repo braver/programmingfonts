@@ -960,9 +960,9 @@
 }
 @font-face {
   font-family: 'julia-mono';
-  font-weight: normal;
-  font-style: italic;
-  src: url('../resources/julia-mono/julia-mono-italic.ttf');
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/julia-mono/julia-mono-bold.ttf');
 }
 @font-face {
   font-family: 'julia-mono';

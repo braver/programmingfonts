@@ -865,12 +865,39 @@
     },
     "inconsolata": {
         "author": "Raph Levien",
+        "description": "First and foremost, Inconsolata is a humanist sans design.",
         "ligatures": false,
         "name": "Inconsolata",
         "rendering": "vector",
         "style": "sans",
         "zerostyle": "slashed",
-        "website": "http://www.levien.com/type/myfonts/inconsolata.html",
+        "variants": [
+            "black",
+            "bold",
+            "extrabold",
+            "extralight",
+            "light",
+            "medium",
+            "regular",
+            "semibold",
+            "variable"
+        ],
+        "website": "https://levien.com/type/myfonts/inconsolata.html",
+        "year": 2001
+    },
+    "inconsolata-go": {
+        "author": "Raph Levien",
+        "description": "First and foremost, Inconsolata is a humanist sans design. InconsolataGo is Inconsolata with straight quotes.",
+        "ligatures": false,
+        "name": "InconsolataGo",
+        "rendering": "vector",
+        "style": "sans",
+        "zerostyle": "slashed",
+        "variants": [
+            "bold",
+            "regular"
+        ],
+        "website": "https://levien.com/type/myfonts/inconsolata.html",
         "year": 2001
     },
     "inconsolata-g": {
@@ -1016,6 +1043,21 @@
         "zerostyle": "empty",
         "website": "https://fedorahosted.org/liberation-fonts/",
         "year": 2007
+    },
+    "ligconsolata": {
+        "author": "Raph Levien",
+        "description": "First and foremost, Inconsolata is a humanist sans design. Ligconsolata is Inconsolata with ligatures.",
+        "ligatures": true,
+        "name": "Ligconsolata",
+        "rendering": "vector",
+        "style": "sans",
+        "zerostyle": "slashed",
+        "website": "https://levien.com/type/myfonts/inconsolata.html",
+        "variants": [
+            "bold",
+            "regular"
+        ],
+        "year": 2001
     },
     "lilex": {
         "author": "Mikhael Khrustik",

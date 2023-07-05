@@ -885,6 +885,20 @@
         "website": "https://levien.com/type/myfonts/inconsolata.html",
         "year": 2001
     },
+    "inconsolata-otf": {
+        "author": "Raph Levien",
+        "description": "First and foremost, Inconsolata is a humanist sans design. This is the classic OTF version.",
+        "ligatures": false,
+        "name": "Inconsolata OTF",
+        "rendering": "vector",
+        "style": "sans",
+        "zerostyle": "slashed",
+        "variants": [
+            "regular"
+        ],
+        "website": "https://levien.com/type/myfonts/inconsolata.html",
+        "year": 2001
+    },
     "inconsolata-go": {
         "author": "Raph Levien",
         "description": "First and foremost, Inconsolata is a humanist sans design. InconsolataGo is Inconsolata with straight quotes.",
@@ -1043,21 +1057,6 @@
         "zerostyle": "empty",
         "website": "https://fedorahosted.org/liberation-fonts/",
         "year": 2007
-    },
-    "ligconsolata": {
-        "author": "Raph Levien",
-        "description": "First and foremost, Inconsolata is a humanist sans design. Ligconsolata is Inconsolata with ligatures.",
-        "ligatures": true,
-        "name": "Ligconsolata",
-        "rendering": "vector",
-        "style": "sans",
-        "zerostyle": "slashed",
-        "website": "https://levien.com/type/myfonts/inconsolata.html",
-        "variants": [
-            "bold",
-            "regular"
-        ],
-        "year": 2001
     },
     "lilex": {
         "author": "Mikhael Khrustik",

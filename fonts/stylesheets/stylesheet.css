@@ -917,6 +917,12 @@
   src: url('../resources/inconsolata/inconsolata.ttf');
 }
 @font-face {
+  font-family: 'inconsolata-otf';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/inconsolata-otf/inconsolata-otf.otf');
+}
+@font-face {
   font-family: 'inconsolata-go';
   font-weight: bold;
   font-style: normal;
@@ -1035,18 +1041,6 @@
   font-weight: normal;
   font-style: normal;
   src: url('../resources/liberation/liberation.woff');
-}
-@font-face {
-  font-family: 'ligconsolata';
-  font-weight: bold;
-  font-style: normal;
-  src: url('../resources/ligconsolata/ligconsolata-bold.ttf');
-}
-@font-face {
-  font-family: 'ligconsolata';
-  font-weight: normal;
-  font-style: normal;
-  src: url('../resources/ligconsolata/ligconsolata.ttf');
 }
 @font-face {
   font-family: 'lilex';

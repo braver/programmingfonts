@@ -863,6 +863,22 @@
         "website": "https://ia.net/topics/a-typographic-christmas",
         "year": 2018
     },
+    "ibm-vga": {
+        "author": "IBM",
+        "description": "With VGA, 9-dot character cells were now the default, and the resulting 9x16 glyphs make up the famous font which remains most strongly associated with ASCII art on the PC, and probably with the entire DOS era in general.",
+        "license": "CC BY-SA 4.0",
+        "ligatures": false,
+        "name": "IBM VGA 9x16",
+        "rendering": "bitmap",
+        "bitmap size": 16,
+        "style": "sans",
+        "zerostyle": "dotted",
+        "variants": [
+            "regular"
+        ],
+        "website": "https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_vga_9x16",
+        "year": 1987
+    },
     "inconsolata": {
         "author": "Raph Levien",
         "description": "First and foremost, Inconsolata is a humanist sans design.",

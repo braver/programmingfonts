@@ -857,6 +857,12 @@
   src: url('../resources/ia-writer-mono/ia-writer-mono-bold-italic.woff');
 }
 @font-face {
+  font-family: 'ibm-vga';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/ibm-vga/ibm-vga.woff');
+}
+@font-face {
   font-family: 'intel-one-mono';
   font-weight: normal;
   font-style: normal;

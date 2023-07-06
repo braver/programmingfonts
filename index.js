@@ -44,7 +44,7 @@ function getFont () {
 }
 
 // ProgrammingFonts font selector
-function selectFont () {
+function selectFont (trigger) {
   const msg = document.querySelector('footer .subtitle')
   const codeMirror = document.querySelector('.CodeMirror')
   const font = getFont()
@@ -89,6 +89,15 @@ function selectFont () {
         behavior: 'smooth'
       })
     }
+  }
+
+  if (trigger === 'hash') {
+    plausible(font)
+    plausible('Font Selected', {
+      props: {
+        font
+      }
+    })
   }
 
   Cookies.set('font', font)
@@ -219,8 +228,7 @@ function walk (direction) {
 }
 
 window.onhashchange = () => {
-  plausible('Font Selected')
-  selectFont()
+  selectFont('hash')
 }
 
 window.addEventListener('DOMContentLoaded', () => {

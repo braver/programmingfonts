@@ -1,6 +1,6 @@
 ---
 name: Sponsoring or advertising
-about: Apply for sponsoring of this project in some way
+about: Support this project in some way
 title: Add sponsoring or advertising
 labels: question
 assignees: braver

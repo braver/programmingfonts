@@ -12,5 +12,5 @@ There are some small costs involved in maintaining and hosting this website. Mos
 
 If you want to help out in some way, you can donate at https://paypal.me/koenlageveen.
 
-We're also open to working together with interested, and interesting, parties who want to some kind of sponsoring or limited advertising on the website.
+We're also open to working together with interested, and interesting, parties who want to some kind of sponsoring or limited advertising on the website. For reference, we have around 600 unique visitors every day.
 -->

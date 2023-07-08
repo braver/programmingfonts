@@ -1,7 +1,7 @@
 ---
 name: Font addition
 about: Suggest a new font to be added to the website
-title: Add font X
+title: 'Add font:'
 labels: new font
 assignees: ''
 

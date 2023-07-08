@@ -110,7 +110,6 @@ function renderSelectList () {
         '<svg class="octicon octicon-pin" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 1.2V2l.5 1L6 6H2.2c-.44 0-.67.53-.34.86L5 10l-4 5 5-4 3.14 3.14a.5.5 0 0 0 .86-.34V10l3-4.5 1 .5h.8c.44 0 .67-.53.34-.86L10.86.86a.5.5 0 0 0-.86.34z"></path></svg>'
   let favoritesMap = {}
   let favorites = []
-  const ajax = new XMLHttpRequest()
 
   document.getElementById('select-font').innerHTML = ''
 
@@ -125,23 +124,16 @@ function renderSelectList () {
     console.error('could not render favorites', err)
   }
 
-  ajax.onreadystatechange = () => {
-    const fonts = []
-    const authors = []
-    if (ajax.readyState === 4 && ajax.status === 200) {
-      fontData = ajax.response
-
-      Object.keys(fontData).forEach((key) => {
-        const v = fontData[key]
-        v.alias = key
-        fonts.push(v)
-        if (authors.indexOf(v.author) < 0) {
-          authors.push(v.author)
-        }
-      })
-    }
-
+  const renderAuthors = (authors) => {
     authors.sort()
+    authors.forEach((author) => {
+      const option = document.createElement('option')
+      option.innerHTML = author
+      document.getElementById('authors-list').querySelector('.other').appendChild(option)
+    })
+  }
+
+  const renderFonts = (fonts) => {
     fonts.sort((a, b) => {
       if (favoritesMap[a.alias] && !favoritesMap[b.alias]) {
         return -1
@@ -158,12 +150,6 @@ function renderSelectList () {
       return 0
     })
 
-    authors.forEach((author) => {
-      const option = document.createElement('option')
-      option.innerHTML = author
-      document.getElementById('authors-list').querySelector('.other').appendChild(option)
-    })
-
     fonts.forEach((v) => {
       const option = document.createElement('div')
 
@@ -177,13 +163,33 @@ function renderSelectList () {
 
       document.getElementById('select-font').appendChild(option)
     })
-
-    selectFont()
-    new Filters(fontData).init()
   }
-  ajax.responseType = 'json'
-  ajax.open('GET', 'fonts.json', true)
-  ajax.send()
+
+  fetch('fonts.json')
+    .then((response) => {
+      if (response.ok) {
+        return response.json()
+      } else {
+        console.error(response.status + ': ' + response.statusText)
+      }
+    }).then((data) => {
+      const fonts = []
+      const authors = []
+
+      Object.keys(data).forEach((key) => {
+        const v = data[key]
+        v.alias = key
+        fonts.push(v)
+        if (authors.indexOf(v.author) < 0) {
+          authors.push(v.author)
+        }
+      })
+
+      renderAuthors(authors)
+      renderFonts(fonts)
+      selectFont()
+      new Filters(data).init()
+    })
 }
 
 window.toggleFavorite = (alias) => {
@@ -233,8 +239,8 @@ window.onhashchange = () => {
 
 window.addEventListener('DOMContentLoaded', () => {
   renderSelectList()
-  new Theme().init()
   fontsize.init()
+  new Theme().init()
   new Spacing().init()
   new Language().init()
 

@@ -1,4 +1,4 @@
-/* global CodeMirror plausible */
+/* global CodeMirror */
 
 import { Cookies } from './modules/cookies.js'
 import { Fontsize } from './modules/fontsize.js'
@@ -44,7 +44,7 @@ function getFont () {
 }
 
 // ProgrammingFonts font selector
-function selectFont (trigger) {
+function selectFont () {
   const msg = document.querySelector('footer .subtitle')
   const codeMirror = document.querySelector('.CodeMirror')
   const font = getFont()
@@ -89,15 +89,6 @@ function selectFont (trigger) {
         behavior: 'smooth'
       })
     }
-  }
-
-  if (trigger === 'hash') {
-    plausible(font)
-    plausible('Font Selected', {
-      props: {
-        font
-      }
-    })
   }
 
   Cookies.set('font', font)
@@ -234,7 +225,7 @@ function walk (direction) {
 }
 
 window.onhashchange = () => {
-  selectFont('hash')
+  selectFont()
 }
 
 window.addEventListener('DOMContentLoaded', () => {

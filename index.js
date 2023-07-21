@@ -167,6 +167,8 @@ function renderSelectList () {
       const fonts = []
       const authors = []
 
+      fontData = data
+
       Object.keys(data).forEach((key) => {
         const v = data[key]
         v.alias = key

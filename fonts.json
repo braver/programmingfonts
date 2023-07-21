@@ -366,18 +366,43 @@
     },
     "courier-prime": {
         "author": "Alan Dague-Greene",
+        "description": "We set out to make the best damn Courier ever.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Courier Prime",
         "rendering": "vector",
         "style": "serif",
         "zerostyle": "empty",
+        "variants": [
+            "regular",
+            "italic",
+            "bold",
+            "bold-italic"
+        ],
+        "website": "https://quoteunquoteapps.com/courierprime",
+        "year": 2013
+    },
+    "courier-prime-sans": {
+        "author": "Alan Dague-Greene",
+        "description": "The goodness of Courier Prime without the serifs.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Courier Prime Sans",
+        "rendering": "vector",
+        "style": "sans",
+        "zerostyle": "empty",
+        "variants": [
+            "regular",
+            "italic",
+            "bold",
+            "bold-italic"
+        ],
         "website": "https://quoteunquoteapps.com/courierprime",
         "year": 2013
     },
     "courier-prime-code": {
         "author": "Alan Dague-Greene",
-        "description": "Courier Prime by Quote-Unquote Apps is designed to make screenplays (which are traditionally set in Courier at 12 points) more readable. Originally a typewriter font has been transferred to digital several times but all of them have problems. This adaptation is a bit fatter to look as good on displays as on paper. For programming use the Courier Prime Code variant, based on the new sans. Several characters are now more easily distinguished and there is a slasheded zero.",
+        "description": "The goodness of Courier Prime without the serifs. Code-optimized for programmers",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Courier Prime Code",

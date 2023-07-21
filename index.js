@@ -43,14 +43,27 @@ function getFont () {
   return font
 }
 
+function setDetails (data) {
+  const box = document.querySelector('.info-wrapper')
+  box.querySelector('a').href = data.website
+  box.querySelector('h2 a').textContent = data.name
+  box.querySelector('p.info').textContent = data.description ?? ''
+  if (typeof data.variants === 'string') {
+    box.querySelector('p.variants').textContent = data.variants
+  } else if (data.variants && data.variants.length > 1) {
+    box.querySelector('p.variants').textContent = data.variants.join(', ')
+  } else {
+    box.querySelector('p.variants').textContent = ''
+  }
+}
+
 // ProgrammingFonts font selector
 function selectFont () {
-  const msg = document.querySelector('footer .subtitle')
   const codeMirror = document.querySelector('.CodeMirror')
   const font = getFont()
 
   if (typeof fontData !== 'undefined') {
-    msg.innerHTML = `Test drive <a rel="external" href="${fontData[font].website}">${fontData[font].name}!</a>`
+    setDetails(fontData[font])
   }
 
   if (typeof fontData !== 'undefined' && fontData[font].rendering === 'bitmap') {

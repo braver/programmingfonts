@@ -85,6 +85,7 @@ html {
 }
 
 body {
+    display: flex;
     height: 100%;
     min-height: 100%;
     background: var(--paper-white);
@@ -93,6 +94,12 @@ body {
 h1 {
     margin: 0;
     padding: .25em 0 0 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+h2 {
+    margin: 0;
+    padding: 0;
     font-weight: bold;
     font-size: 14px;
 }
@@ -135,6 +142,35 @@ a:active {
     .main-wrapper {
         border-right-color: var(--paper-white);
     }
+}
+.codemirror-wrapper {
+    flex: 1;
+    position: relative;
+}
+.info-wrapper {
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+    left: 2rem;
+    z-index: 1;
+    padding: 1em 1.4em;
+    font-size: 10px;
+    background: var(--light-grey);
+    color: var(--dark-grey);
+}
+.info-wrapper a:hover {
+    color: var(--ink-black);
+    text-decoration: underline;
+}
+.info-wrapper p {
+    line-height: 14px;
+}
+.info-wrapper p:empty {
+    display: none;
+}
+.info-wrapper p.variants::before {
+    content: 'Variants: ';
+    font-weight: bold;
 }
 main {
     display: flex;
@@ -445,6 +481,9 @@ footer .logo:last-child {
 }
 
 @media screen and (max-width: 56em) {
+    body {
+        display: block;
+    }
     .main-wrapper,
     form {
         width: 100%;

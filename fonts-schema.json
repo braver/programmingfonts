@@ -55,12 +55,19 @@
                     "enum": ["empty", "slashed", "dotted"]
                 },
                 "variants": {
-                    "type": "array",
-                    "items": {
-                        "type": "string",
-                        "pattern": "^([a-z-]+|\\d00)$"
-                    },
-                    "minItems": 1
+                    "oneOf": [
+                        {
+                            "type": "array",
+                            "items": {
+                                "type": "string",
+                                "pattern": "^([a-z-]+|\\d00)$"
+                            },
+                            "minItems": 1
+                        },
+                        {
+                            "type": "string"
+                        }
+                    ]
                 }
             },
             "additionalProperties": false,

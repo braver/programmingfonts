@@ -1,7 +1,7 @@
 {
     "agave": {
         "author": "agaric",
-        "description": "Although in intention simple and systematic, Agave has lots of quirky character. Distinct, readable and well aligned characters round out a font that should cover all characters in most code use cases if not all languages of the world. The capital Q is particularly cool. Sadly, like a lot of alternatives, it doesn’t offer true bold and italic.",
+        "description": "Although in intention simple and systematic, Agave has lots of quirky character.",
         "license": "MIT",
         "ligatures": false,
         "name": "Agave",
@@ -31,7 +31,7 @@
     },
     "anonymous-pro": {
         "author": "Mark Simonson",
-        "description": "Anonymous Pro is an evolution of the original Anonymous, adding lots of character sets and styles. It covers all the characters (624 glyphs), styles and weights anyone will ever need, and with all characters easily distinguishable. For fans of having lots of code on screen, it even features bitmap versions for really tiny characters (without anti-aliasing). It’s a truly professional option with a splash of character.",
+        "description": "Anonymous Pro is an evolution of the original Anonymous, adding lots of character sets and styles.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Anonymous Pro",
@@ -109,25 +109,7 @@
         "rendering": "vector",
         "style": "sans",
         "zerostyle": "empty",
-        "variants": [
-            "thin",
-            "thin-italic",
-            "light",
-            "light-italic",
-            "extrabold",
-            "extrabold-italic",
-            "black",
-            "black-italic",
-            "extralight",
-            "extralight-italic",
-            "medium",
-            "medium-italic",
-            "semibold",
-            "semibold-italic",
-            "regular",
-            "italic",
-            "variable"
-        ],
+        "variants": "A variable font, available in various weights.",
         "website": "https://github.com/displaay/Azeret",
         "year": 2020
     },
@@ -246,31 +228,14 @@
     },
     "cartograph": {
         "author": "Connary Fagen",
-        "description": "A monospaced typeface with character and warmth, Cartograph is a handsome font family featuring a lush, cursive italic, code-friendly ligatures, and a proportional set accessible via OpenType. A tribute to the utilitarian beauty of terminals and typewriters, Cartograph excels in code and prose.",
+        "description": "A monospaced typeface with character and warmth, Cartograph is a handsome font family featuring a lush, cursive italic, code-friendly ligatures, and a proportional set accessible via OpenType.",
         "license": "commercial",
         "ligatures": true,
         "name": "Cartograph",
         "rendering": "vector",
         "style": "sans",
         "zerostyle": "dotted",
-        "variants": [
-            "regular",
-            "italic",
-            "bold",
-            "bold-italic",
-            "demi-bold",
-            "demi-bold-italic",
-            "extra-bold",
-            "extra-bold-italic",
-            "heavy",
-            "heavy-italic",
-            "light",
-            "light-italic",
-            "extra-light",
-            "extra-light-italic",
-            "thin",
-            "thin-italic"
-        ],
+        "variants": "8 weights and various alternatives via OpenType sets, including ligatures.",
         "website": "https://connary.com/cartograph.html",
         "year": 2016
     },
@@ -278,23 +243,11 @@
         "author": "Aaron Bell",
         "ligatures": true,
         "name": "Cascadia Code",
+        "description": "This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal.",
         "rendering": "vector",
         "style": "sans",
         "zerostyle": "dotted",
-        "variants": [
-            "regular",
-            "italic",
-            "bold",
-            "bold-italic",
-            "semi-bold",
-            "semi-bold-italic",
-            "light",
-            "light-italic",
-            "semi-light",
-            "semi-light-italic",
-            "extra-light",
-            "extra-light-italic"
-        ],
+        "variants": "6 weights and various alternatives via OpenType sets, including slashed zeroes and cursive italics.",
         "website": "https://github.com/microsoft/cascadia-code",
         "year": 2019
     },
@@ -326,7 +279,7 @@
     },
     "comic-shanns": {
         "author": "Shannon Miwa",
-        "description": "Like if someone made a dumbass version of Comic Sans that is monospaced.",
+        "description": "Do you lie awake every night dreaming about a world where you could write your code in Comic Sans where it looks just as beautiful as on your dear presentations?",
         "license": "MIT",
         "ligatures": false,
         "name": "Comic Shanns",
@@ -348,9 +301,7 @@
         "rendering": "vector",
         "style": "sans",
         "zerostyle": "slashed",
-        "variants": [
-            "variable"
-        ],
+        "variants": "A download can be customized with various of weights, ligatures, dotted or slashed zeroes, and other styles.",
         "website": "https://commitmono.com",
         "year": 2023
     },
@@ -418,7 +369,7 @@
     },
     "cousine": {
         "author": "Steve Matteson",
-        "description": "This font was designed by Steve Matteson, more widely known for his work on the Droid fontfaces you’ll find on any Android device. It was created especially for on-screen use, and covers regular, bold and italic in an amazing 2391 Glyphs. Compatibility might be its strongest feat, but it’s a serious font for every day use.",
+        "description": "An innovative, refreshing sans serif design that is metrically compatible with Courier New.",
         "license": "Apache",
         "ligatures": false,
         "name": "Cousine",
@@ -984,10 +935,12 @@
         "author": "David Jonathan Ross",
         "ligatures": false,
         "name": "Input",
+        "description": "Input is a flexible system of fonts designed specifically for code",
         "rendering": "vector",
         "style": "sans",
         "zerostyle": "dotted",
         "website": "http://input.fontbureau.com",
+        "variants": "A download can be customized with dozens of weights, widths, dotted or slashed zeroes, and other styles.",
         "year": 2014
     },
     "intel-one-mono": {

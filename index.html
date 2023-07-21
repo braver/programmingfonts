@@ -289,9 +289,10 @@
         </main>
     </div>
 
-<form>
-<label for="code" class="screenreader-only">Code area</label>
-<textarea id="code" name="code">
+    <div class="codemirror-wrapper">
+        <form>
+            <label for="code" class="screenreader-only">Code area</label>
+                <textarea id="code" name="code">
 // Type some code ->
 
 console.log "oO08 iIlL1 g9qCGQ ~-+=>";
@@ -323,8 +324,17 @@ function updateGutters(cm) {
     return false;
 }
 
-</textarea>
-</form>
+
+
+            </textarea>
+        </form>
+        <aside class="info-wrapper">
+            <h2><a href=""></a></h2>
+            <p class="info"></p>
+            <p class="variants"></p>
+        </aside>
+    </div>
+
 
 <script src="index.js" type="module"></script>
 </body>

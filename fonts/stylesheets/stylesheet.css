@@ -323,6 +323,30 @@
   src: url('../resources/comic-shanns/comic-shanns.otf');
 }
 @font-face {
+  font-family: 'commit-mono';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/commit-mono/commit-mono-bold-italic.otf');
+}
+@font-face {
+  font-family: 'commit-mono';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/commit-mono/commit-mono-bold.otf');
+}
+@font-face {
+  font-family: 'commit-mono';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/commit-mono/commit-mono-italic.otf');
+}
+@font-face {
+  font-family: 'commit-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/commit-mono/commit-mono.otf');
+}
+@font-face {
   font-family: 'consolamono';
   font-weight: bold;
   font-style: normal;

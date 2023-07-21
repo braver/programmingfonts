@@ -339,6 +339,21 @@
         "website": "https://github.com/shannpersand/comic-shanns",
         "year": 2018
     },
+    "commit-mono": {
+        "author": "Eigil Nikolajsen",
+        "description": "Commit Mono is an anonymous and neutral coding font focused on creating a better reading experience.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Commit Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "zerostyle": "slashed",
+        "variants": [
+            "variable"
+        ],
+        "website": "https://commitmono.com",
+        "year": 2023
+    },
     "consolamono": {
         "author": "Wojciech Kalinowski",
         "ligatures": false,

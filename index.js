@@ -45,6 +45,7 @@ function getFont () {
 
 function setDetails (data) {
   const box = document.querySelector('.info-wrapper')
+  box.querySelector('h2').setAttribute('data-license', data.license ?? '')
   box.querySelector('a').href = data.website
   box.querySelector('h2 a').textContent = data.name
   box.querySelector('p.info').textContent = data.description ?? ''

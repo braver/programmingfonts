@@ -1,7 +1,7 @@
 {
     "agave": {
         "author": "agaric",
-        "description": "Although in intention simple and systematic, Agave has lots of quirky character.",
+        "description": "A succulent monospace programming font.",
         "license": "MIT",
         "ligatures": false,
         "name": "Agave",
@@ -16,16 +16,13 @@
     },
     "anka-coder": {
         "author": "Andrey Makarov",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Anka/Coder",
         "rendering": "vector",
         "style": "sans",
         "zerostyle": "slashed",
-        "variants": [
-            "regular",
-            "condensed",
-            "narrow"
-        ],
+        "variants": "regular, bold, italic, bold-italic; in regular, condensed and narrow widths.",
         "website": "https://github.com/loafer-mka/anka-coder-fonts",
         "year": 2010
     },
@@ -49,6 +46,8 @@
     },
     "apl2741": {
         "author": "Adrian Smith",
+        "description": "This was hand digitised as a PostScript Type-3 font from an original 2741 golf-ball salvaged from an IBM selectric typewriter.",
+        "license": "public domain",
         "ligatures": true,
         "name": "APL2741",
         "rendering": "vector",
@@ -62,6 +61,8 @@
     },
     "apl385": {
         "author": "Adrian Smith",
+        "description": "Developed with all APL software vendors in the late 1980s and enhanced as required with new characters to meet interpreter updates. Thanks to Dave Liebtag (IBM), Richard Nabavi (APL.68000) and all at Dyalog APL for their support.",
+        "license": "public domain",
         "ligatures": false,
         "name": "APL385",
         "rendering": "vector",
@@ -75,6 +76,8 @@
     },
     "aurulent": {
         "author": "Stephen G. Hartke",
+        "description": "Aurulent Sans is a humanist sans serif intended to be used as an interface font.",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Aurulent Sans Mono",
         "rendering": "vector",
@@ -88,6 +91,7 @@
     },
     "average": {
         "author": "Richard Alexander Hall",
+        "description": "AverageMono is an average of thirteen different fonts which are all derivatives of the public domain Courier typeface.",
         "license": "GNU GPL",
         "ligatures": false,
         "name": "Average Mono",
@@ -115,6 +119,7 @@
     },
     "b612-mono": {
         "author": "Nicolas Chauveau, Thomas Paillot and Jonathan Favre-Lamarine",
+        "description": "B612 is an highly legible open source font family designed and tested to be used on aircraft cockpit screens.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "B612 Mono",
@@ -126,6 +131,7 @@
     },
     "bedstead": {
         "author": "Ben Harris",
+        "description": "Bedstead is a family of outline fonts based on the characters produced by the Mullard SAA5050 series of Teletext Character Generators.",
         "license": "public domain",
         "ligatures": false,
         "name": "Bedstead",
@@ -168,16 +174,25 @@
     },
     "bitstream-vera": {
         "author": "Jim Lyles",
+        "description": "Vera is a digital typeface (computer font) superfamily with a liberal license. It was designed by Jim Lyles from the now-defunct Bitstream Inc. type foundry.",
         "ligatures": false,
         "name": "Bitstream Vera Sans Mono",
         "rendering": "vector",
         "style": "sans",
         "zerostyle": "dotted",
+        "variants": [
+            "regular",
+            "italic",
+            "bold",
+            "bold-italic"
+        ],
         "website": "http://www.fontsquirrel.com/fonts/Bitstream-Vera-Sans-Mono",
         "year": 2002
     },
     "borg-sans-mono": {
         "author": "Marnen E. Laibow-Koser",
+        "description": "Droid Sans Mono Slashed + Hasklig-style ligatures!",
+        "license": "Apache",
         "ligatures": true,
         "name": "Borg Sans Mono",
         "rendering": "vector",
@@ -188,16 +203,24 @@
     },
     "bpmono": {
         "author": "Backpacker",
+        "description": "A monospaced typeface suitable for technical texts and/or programming",
+        "license": "CC BY-ND 3.0",
         "ligatures": false,
         "name": "BPmono",
         "rendering": "vector",
         "style": "sans",
         "zerostyle": "slashed",
+        "variants": [
+            "regular",
+            "italic",
+            "bold"
+        ],
         "website": "http://www.fontsquirrel.com/fonts/BPmono",
         "year": 2007
     },
     "bront-dejavu": {
         "author": "Chris Wendt",
+        "description": "Bront is a collection of tweaked fonts geared towards programming.",
         "ligatures": false,
         "name": "Bront DejaVu Sans Mono",
         "rendering": "vector",
@@ -208,6 +231,7 @@
     },
     "bront-ubuntu": {
         "author": "Chris Wendt",
+        "description": "Bront is a collection of tweaked fonts geared towards programming.",
         "ligatures": false,
         "name": "Bront Ubuntu Mono",
         "rendering": "vector",
@@ -218,6 +242,8 @@
     },
     "camingocode": {
         "author": "Jan Fromm",
+        "description": "Based on CamingoMono, but has several specially drawn glyphs that work well at small sizes.",
+        "license": "CC BY-ND 3.0",
         "ligatures": false,
         "name": "CamingoCode",
         "rendering": "vector",
@@ -522,31 +548,14 @@
     },
     "ellograph": {
         "author": "Connary Fagen",
-        "description": "A friendly monospaced typeface with a soft, rounded construction and striking cursive italics. A generous x-height and short descenders allow for even, flowing lines of text. Beautiful as a coding font; charming in logos, headlines, and print.",
+        "description": "A friendly monospaced typeface with a soft, rounded construction and striking cursive italics. A generous x-height and short descenders allow for even, flowing lines of text.",
         "license": "commercial",
         "ligatures": true,
         "name": "Ellograph",
         "rendering": "vector",
         "style": "sans",
         "zerostyle": "slashed",
-        "variants": [
-            "bold",
-            "bold-italic",
-            "demibold",
-            "demibold-italic",
-            "extrabold",
-            "extrabold-italic",
-            "extralight",
-            "extralight-italic",
-            "heavy",
-            "heavy-italic",
-            "light",
-            "light-italic",
-            "regular",
-            "regular-italic",
-            "thin",
-            "thin-italic"
-        ],
+        "variants": "8 weights, italics, and additional OpenType variations.",
         "website": "https://connary.com/ellograph.html",
         "year": 2020
     },
@@ -678,6 +687,7 @@
     },
     "font3270": {
         "author": "Ricardo Bánffy",
+        "description": "This font is derived from the x3270 font, which, in turn, was translated from the one in Georgia Tech's 3270tool, which was itself hand-copied from a 3270 series terminal.",
         "ligatures": false,
         "name": "3270",
         "rendering": "vector",
@@ -744,7 +754,7 @@
     },
     "gnu-freefont": {
         "author": "Primož Peterlin, Steve White",
-        "description": "This isn’t a designer’s font, but an open source community effort to create a single font that has it all. It comes in bold and italic and has the most complete coverage of any font featured on this blog. While an OS will mix and match fonts for missing glyphs FreeFont looks to be a consistent source for anything mankind has ever put into writing. Still, every now and then new releases improve the offering. If you need specific scripts or write a lot of math in LateX, this font will not let you down. It would have been better with a more distinct zero though, it lacks a slashed or dotted to set it apart from the capital o.",
+        "description": "GNU FreeFont is a free family of scalable outline fonts, suitable for general use on computers and for desktop publishing. It is Unicode-encoded for compatibility with all modern operating systems.",
         "license": "GNU GPL",
         "ligatures": false,
         "name": "GNU Freefont",
@@ -762,7 +772,7 @@
     },
     "go-mono": {
         "author": "Bigelow & Holmes",
-        "description": "The new Go font was created especially for readability in the Go programming language. It’s a humanist, slab serif font created by the Bigelow & Holmes foundry (known for Lucida, Luxi Mono and several other fonts that are part of the Mac OS). Go is metrically compatible with Courier, but appears to be much larger for better legibility in smaller sizes. There’s obviously a lot of attention to detail here, and the true italics are especially well done. The font covers WGL4 and it’s a real solid choice all around if you like a serif on your mono font.",
+        "description": "The Go font was created especially for readability in the Go programming language. It’s a humanist, slab serif font created by the famous Bigelow & Holmes foundry.",
         "license": "MIT",
         "ligatures": false,
         "name": "Go Mono",
@@ -884,7 +894,7 @@
     },
     "inconsolata": {
         "author": "Raph Levien",
-        "description": "First and foremost, Inconsolata is a humanist sans design.",
+        "description": "Inconsolata is a monospace font, designed for code listings and the like, in print. First and foremost, it is a humanist sans design.",
         "ligatures": false,
         "name": "Inconsolata",
         "rendering": "vector",
@@ -906,7 +916,7 @@
     },
     "inconsolata-otf": {
         "author": "Raph Levien",
-        "description": "First and foremost, Inconsolata is a humanist sans design. This is the classic OTF version.",
+        "description": "Inconsolata is a monospace font, designed for code listings and the like, in print. This is the original OTF version.",
         "ligatures": false,
         "name": "Inconsolata OTF",
         "rendering": "vector",
@@ -920,7 +930,7 @@
     },
     "inconsolata-go": {
         "author": "Raph Levien",
-        "description": "First and foremost, Inconsolata is a humanist sans design. InconsolataGo is Inconsolata with straight quotes.",
+        "description": "Inconsolata is a monospace font, designed for code listings and the like, in print. InconsolataGo is Inconsolata with straight quotes.",
         "ligatures": false,
         "name": "InconsolataGo",
         "rendering": "vector",
@@ -935,6 +945,7 @@
     },
     "inconsolata-g": {
         "author": "Leonardo Maffi",
+        "description": "A customized version of Inconsolata, with straight quotes, a dotted zero, and various other tweaks.",
         "ligatures": false,
         "name": "Inconsolata-g",
         "rendering": "vector",
@@ -957,7 +968,7 @@
     },
     "intel-one-mono": {
         "name": "Intel One Mono",
-        "description": "Identifying the typographically underserved low-vision developer audience, The Intel Brand Team designed the Intel One Mono typeface together with VMLY&R and Frere-Jones Type, for maximum legibility to address developers' fatigue and eyestrain and reduce coding errors.",
+        "description": "Identifying the typographically underserved low-vision developer audience, the Intel One Mono typeface was designed for maximum legibility to address developers' fatigue and eyestrain and reduce coding errors.",
         "year": 2023,
         "author": "Intel Brand Team, VMLY&R, Frere-Jones Type",
         "website": "https://github.com/intel/intel-one-mono",
@@ -1039,23 +1050,14 @@
     },
     "league": {
         "author": "Tyler Fink",
-        "description": "League Mono is a new monospaced font that’s clean, practical and sans-serif. Glyphs are well aligned and distinct, featuring a dottedted zero. With about 374 characters it has plenty of language support. Although there are no true italics the 5 weights from ultra light to bold provide a lot of creative options. There is now even a new variable variant for endless possibilities.",
+        "description": "League Mono is a mashup of sorts, inspired by some beautiful forms found in both Fira Mono, Libertinus Mono, and Courier(?!).",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "League Mono",
         "rendering": "vector",
         "style": "sans",
         "zerostyle": "dotted",
-        "variants": [
-            "100",
-            "200",
-            "300",
-            "400",
-            "500",
-            "600",
-            "700",
-            "800"
-        ],
+        "variants": "League Mono is a variable font and can be downloaded in dozens of weights and widths, but no italics.",
         "website": "https://www.tylerfinck.com/leaguemono/",
         "year": 2017
     },
@@ -1284,7 +1286,7 @@
         "zerostyle": "dotted",
         "website": "https://github.com/naver/nanumfont",
         "year": 2009,
-        "description": "Many years ago, there was some sort of competition in South Korea for developing/publishing Korean fonts among Internet/big companies. Naver, which is the biggest Internet company in South Korea, published Nanum fonts along with a few variations, and Nanum Gothic Coding was one of them. Nanum means \"sharing\" in Korean."
+        "description": "나눔고딕코딩체는 지난 2008년 10월 9일 발표된 나눔고딕을 바탕으로 개발자들의 코딩 환경에 최적화시킨 글꼴입니다."
     },
     "notcouriersans": {
         "author": "Open Source Publishing",
@@ -1328,7 +1330,7 @@
     },
     "opendyslexic": {
         "author": "Abbie Gonzalez",
-        "description": "This is not just a cool looking font. The typical shapes of OpenDyslexic attempt to help with problems people with dyslexia face every day, like letter confusion or rotation, and crowding. There are a bunch of styles for the proportional version, and this monospace version. But sadly no real bold or italic for the monospace font. Of course, it’s super legible and the glyphs are easily distinguished.",
+        "description": "OpenDyslexic is a typeface designed against some common symptoms of dyslexia.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "OpenDyslexic Mono",
@@ -1343,7 +1345,7 @@
     },
     "overpass": {
         "author": "Delve Withrington",
-        "description": "Overpass Mono is part of the new Overpass font family to be used by Red Hat in their branding and user interfaces. It was inspired by road signage, which should be great for at-a-glance readability. There are over 430 glyhps here, in light, regular, semibold and bold, but sadly no italics for the monospace variant.",
+        "description": "An open source font family inspired by Highway Gothic.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Overpass Mono",
@@ -1361,7 +1363,7 @@
     },
     "oxygen": {
         "author": "Vernon Adams",
-        "description": "Most fonts work fine on a Mac, the best ones add hinting for The Windows ClearType system, but a scarce few pay special attention to the FreeType rendering used in Linux. Oxygen was created to work well in KDE, and this mono variation is a great choice for programmers on Linux. It features a slasheded zero and 397 glyphs are enough for pretty much anyone, although purists would prefer true bold and italic.",
+        "description": "Oxygen was created to work well in KDE, and this mono variation is a great choice for programmers on Linux.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Oxygen Mono",
@@ -1376,7 +1378,7 @@
     },
     "plex-mono": {
         "author": "Bold Monday, Mike Abbink",
-        "description": "Plex is IBM’s own in-house developed typeface that is currently in pre-1.0 development (check it out at Github). It’s a neat sans-serif font, very practical and readable, but also with a lot of character in their curly braces and italics. There are is also an additional light weight and broad language support.",
+        "description": "Meet the IBM Plex® typeface, our new corporate typeface family. It’s global, it’s versatile and it’s distinctly IBM.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "IBM Plex Mono",
@@ -1438,7 +1440,7 @@
     },
     "proggy-vector": {
         "author": "Tristan Grimmer",
-        "description": "A vector graphics variant of the venerable Proggy font. You can also op for dottedted zeros or crossed sevens and zeds, and a lot of attention is payed to the way operators and braces line up with text. No bold or italic variants, but otherwise it’s everything you’d want for in a programming font.",
+        "description": "A vector graphics variant of the venerable Proggy font. You can also opt for dotted zeroes or crossed sevens and zeds.",
         "license": "MIT",
         "ligatures": false,
         "name": "Proggy Vector",
@@ -1463,7 +1465,7 @@
     },
     "quinze": {
         "author": "James Kilfiger",
-        "description": "It’s designed like a bitmap font, but built as an outline font for maximum compatibility. That does however mean it only looks good at 15 pixels and doesn’t have any true bold or italic styles. Indeed, it seems it could not have been made any more narrow: it is supremely efficient at getting lots of code on the screen without sacrificing readability. Fifteen is nearly halve the width of Cousine or Droid Sans, ideal for digging though log files.",
+        "description": "A narrow monospaced font, for programming and terminal emulators. It is designed to be narrow, and allow 132 columns to be comfortably fitted on a screen.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Quinze",
@@ -1609,35 +1611,20 @@
     },
     "source-code-pro": {
         "author": "Paul D. Hunt",
-        "description": "Source Sans Pro has been one of the most succesful new, free and designed-for-screen fonts to surface the past few years. Developing an additional monospaced font for code only makes sense. It’s modern but still with a notion of playfulness, and special attention has been paid to make every character easily distinguishable. It features an impressive 963 glyphs in seven (yes, 7) weights ranging from ExtraLight to Black. And if all of that is not amazing enough, it has been open sourced on Github and has seen regular updates. An italic version is currently in beta. It’s great to see Adobe open sourcing this truly wonderful font.",
+        "description": "Source Code Pro is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Source Code Pro",
         "rendering": "vector",
         "style": "sans",
         "zerostyle": "dotted",
-        "variants": [
-            "black",
-            "black-italic",
-            "bold",
-            "bold-italic",
-            "extralight",
-            "extralight-italic",
-            "regular",
-            "italic",
-            "light",
-            "light-italic",
-            "medium",
-            "medium-italic",
-            "semibold",
-            "semibold-italic"
-        ],
+        "variants": "A variable font that can be downloaded in 7 weights plus italics.",
         "website": "https://github.com/adobe-fonts/source-code-pro",
         "year": 2012
     },
     "space": {
         "author": "Colophon Foundry",
-        "description": "Space Mono has bags of character: a bit too much for body copy, but perhaps just right for code. In any case the characters are super readable and distinct. The clipped v shapes and wonderful italics are really something special. Also, there should be enough coverage for most code.",
+        "description": "Commissioned for the 2016 update of Google Fonts. The evergreen touchstone for Space Mono is Aldo Novarese’s Microgramma, 1952 (and later Eurostile, 1962).",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Space Mono",
@@ -1701,7 +1688,7 @@
     },
     "twilio-sans-mono": {
         "author": "Sharp Type",
-        "description": "Twilio Sans Mono is the latest addition to our type superfamily that also includes Twilio Sans Text for body copy and Twilio Sans Display for headlines. It is welcoming and incredibly adaptable. It can be big and bold or quiet and utilitarian.",
+        "description": "Twilio worked very closely with the type foundry, Sharp Type over the course of two years to develop a welcoming and adaptable typeface.",
         "license": "SIL OFL",
         "ligatures": true,
         "name": "Twilio Sans Mono",

@@ -100,7 +100,7 @@ h1 {
 h2 {
     margin: 0;
     padding: 0;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 14px;
 }
 p {
@@ -155,7 +155,9 @@ a:active {
     z-index: 1;
     padding: 1em 1.4em;
     font-size: 10px;
-    background: var(--light-grey);
+    border: 1px solid var(--light-grey);
+    border-radius: 3px;
+    background: var(--bright-grey);
     color: var(--dark-grey);
 }
 .info-wrapper a:hover {
@@ -170,7 +172,14 @@ a:active {
 }
 .info-wrapper p.variants::before {
     content: 'Variants: ';
-    font-weight: bold;
+    font-style: italic;
+}
+.info-wrapper h2::after {
+    content: attr(data-license);
+    margin-left: 1ex;
+    font-size: 8px;
+    color: var(--medium-grey);
+    text-transform: uppercase;
 }
 main {
     display: flex;
@@ -234,14 +243,38 @@ section.select-list .entry {
     position: relative;
     padding: 8px 12px;
 }
-section.select-list .entry:not(:first-child) {
+section.select-list .entry:hover::before {
+    transition: background .2s ease-in-out, left .1s ease-in-out, right .1s ease-in-out;
+}
+section.select-list .entry:not(:first-child)::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 6px;
+    right: 6px;
     border-top: 1px solid var(--light-grey);
+    pointer-events: none;
+    z-index: -1;
 }
-section.select-list .entry:hover {
+section.select-list .entry:hover::before,
+section.select-list .entry.active::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 4px;
+    left: 4px;
+    border: 1px solid var(--light-grey);
+    border-radius: 3px;
+    pointer-events: none;
+    z-index: -1;
     background: var(--bright-white);
 }
-section.select-list .entry.active {
-    background: var(--bright-white);
+section.select-list .entry:hover + .entry:not(:first-child)::before,
+section.select-list .entry.active + .entry:not(:first-child)::before {
+    border-top: none;
 }
 section.select-list .entry > a {
     display: block;
@@ -357,7 +390,7 @@ button {
     margin: 0 .5ex 0 0;
 
     border: 1px solid var(--light-grey);
-    border-radius: 4px;
+    border-radius: 3px;
     background: linear-gradient(var(--bright-white), var(--light-grey));
     color: var(--medium-grey);
     cursor: pointer;
@@ -388,7 +421,7 @@ select {
     width: 9em;
     padding: 0 .5ex;
     border: 1px solid var(--light-grey);
-    border-radius: 4px;
+    border-radius: 3px;
     background: var(--paper-white);
     white-space: nowrap;
     overflow: hidden;
@@ -409,7 +442,7 @@ input[type='number'] {
     margin-left: .5ex;
     padding: 0 .5ex;
     border: 1px solid var(--light-grey);
-    border-radius: 4px;
+    border-radius: 3px;
     background: var(--paper-white);
     text-align: left;
     transition: all .2s ease-in-out;

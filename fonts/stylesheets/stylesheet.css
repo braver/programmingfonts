@@ -1151,6 +1151,30 @@
   src: url('../resources/luxi/luxi.woff');
 }
 @font-face {
+  font-family: 'maple';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/maple/maple-bold-italic.woff2');
+}
+@font-face {
+  font-family: 'maple';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/maple/maple-bold.woff2');
+}
+@font-face {
+  font-family: 'maple';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/maple/maple-italic.woff2');
+}
+@font-face {
+  font-family: 'maple';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/maple/maple.woff2');
+}
+@font-face {
   font-family: 'martian-mono';
   font-weight: bold;
   font-style: normal;

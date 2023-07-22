@@ -588,6 +588,7 @@
         "author": "Rebecca G. Bettencourt",
         "bitmap size": 12,
         "description": "Fairfax is a 6x12 bitmap font for terminals, text editors, IDEs, etc. It supports many scripts and a large number of Unicode blocks as well as constructed scripts as encoded in the Under-ConScript Unicode Registry, pseudographics and semigraphics, and tons of private use characters.",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Fairfax",
         "rendering": "bitmap",
@@ -629,6 +630,7 @@
         "author": "Rebecca G. Bettencourt",
         "bitmap size": 12,
         "description": "Fairfax is a 6x12 bitmap font for terminals, text editors, IDEs, etc. It supports many scripts and a large number of Unicode blocks as well as constructed scripts as encoded in the Under-ConScript Unicode Registry, pseudographics and semigraphics, and tons of private use characters.",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Fairfax Serif",
         "rendering": "bitmap",
@@ -1200,6 +1202,26 @@
         "website": "http://www.fontsquirrel.com/fonts/Luxi-Mono",
         "year": 2001,
         "zerostyle": "empty"
+    },
+    "maple": {
+        "author": "subframe7536",
+        "description": "Open source monospace font with round corner, ligatures and Nerd-Font for IDE and command line.",
+        "license": "SIL OFL",
+        "ligatures": true,
+        "name": "Maple",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "regular",
+            "italic",
+            "bold",
+            "bold-italic",
+            "light",
+            "light-italic"
+        ],
+        "website": "http://eastfarthing.com/luculent/",
+        "year": 2008,
+        "zerostyle": "slashed"
     },
     "martian-mono": {
         "author": "Roman Shamin, Evil Martians",

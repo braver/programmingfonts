@@ -557,17 +557,8 @@
         "zerostyle": "slashed",
         "variants": "8 weights, italics, and additional OpenType variations.",
         "website": "https://connary.com/ellograph.html",
-        "year": 2020
-    },
-    "envy-code-r": {
-        "author": "Damien Guard",
-        "ligatures": false,
-        "name": "Envy Code R",
-        "rendering": "vector",
-        "style": "sans",
-        "zerostyle": "slashed",
-        "website": "https://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released",
-        "year": 2008
+        "year": 2020,
+        "zerostyle": "slashed"
     },
     "fairfax": {
         "author": "Rebecca G. Bettencourt",

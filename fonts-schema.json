@@ -75,7 +75,6 @@
             "additionalProperties": false,
             "required": [
                 "author",
-                "description",
                 "ligatures",
                 "name",
                 "rendering",

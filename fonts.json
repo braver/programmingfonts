@@ -589,6 +589,18 @@
         "website": "http://www.kreativekorp.com/software/fonts/fairfaxhd.shtml",
         "year": 2019
     },
+    "fairfax-hd-hax": {
+        "author": "Rebecca G. Bettencourt",
+        "description": "Fairfax Hax HD adds ligatures for programming, which is apparently a thing, to Fairfax HD: a halfwidth scalable monospace font for terminals, text editors, IDEs, etc. ",
+        "license": "SIL OFL",
+        "ligatures": true,
+        "name": "Fairfax Hax HD",
+        "rendering": "vector",
+        "style": "sans",
+        "zerostyle": "slashed",
+        "website": "http://www.kreativekorp.com/software/fonts/fairfaxhd.shtml",
+        "year": 2019
+    },
     "fairfax-serif": {
         "author": "Rebecca G. Bettencourt",
         "description": "Fairfax is a 6x12 bitmap font for terminals, text editors, IDEs, etc. It supports many scripts and a large number of Unicode blocks as well as constructed scripts as encoded in the Under-ConScript Unicode Registry, pseudographics and semigraphics, and tons of private use characters.",

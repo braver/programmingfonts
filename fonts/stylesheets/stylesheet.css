@@ -635,6 +635,12 @@
   src: url('../resources/fairfax-hd/fairfax-hd.ttf');
 }
 @font-face {
+  font-family: 'fairfax-hd-hax';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/fairfax-hd-hax/fairfax-hd-hax.ttf');
+}
+@font-face {
   font-family: 'fairfax-serif';
   font-weight: normal;
   font-style: normal;

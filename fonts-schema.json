@@ -29,6 +29,7 @@
                     "enum": [
                         "commercial",
                         "Apache",
+                        "Bitstream Vera",
                         "BSD-2-Clause",
                         "CC BY-SA 4.0",
                         "CC BY-ND 3.0",
@@ -73,13 +74,14 @@
             },
             "additionalProperties": false,
             "required": [
-                "name",
                 "author",
-                "year",
-                "website",
+                "description",
                 "ligatures",
+                "name",
+                "rendering",
                 "style",
-                "rendering"
+                "website",
+                "year"
             ]
         }
     }

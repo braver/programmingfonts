@@ -7,24 +7,25 @@
         "name": "Agave",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "variants": [
             "regular"
         ],
         "website": "https://github.com/agarick/agave",
-        "year": 2013
+        "year": 2013,
+        "zerostyle": "dotted"
     },
     "anka-coder": {
         "author": "Andrey Makarov",
+        "description": "The Anka/Coder family is a monospaced, courier-width (60% of height; em size 2048x1229) font that can be used for source code, terminal windows etc.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Anka/Coder",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "variants": "regular, bold, italic, bold-italic; in regular, condensed and narrow widths.",
         "website": "https://github.com/loafer-mka/anka-coder-fonts",
-        "year": 2010
+        "year": 2010,
+        "zerostyle": "slashed"
     },
     "anonymous-pro": {
         "author": "Mark Simonson",
@@ -34,7 +35,6 @@
         "name": "Anonymous Pro",
         "rendering": "vector",
         "style": "serif",
-        "zerostyle": "slashed",
         "variants": [
             "regular",
             "italic",
@@ -42,7 +42,8 @@
             "bold-italic"
         ],
         "website": "http://www.marksimonson.com/fonts/view/anonymous-pro",
-        "year": 2009
+        "year": 2009,
+        "zerostyle": "slashed"
     },
     "apl2741": {
         "author": "Adrian Smith",
@@ -52,12 +53,12 @@
         "name": "APL2741",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "variants": [
             "regular"
         ],
         "website": "http://apl385.com/fonts/index.htm",
-        "year": 2003
+        "year": 2003,
+        "zerostyle": "dotted"
     },
     "apl385": {
         "author": "Adrian Smith",
@@ -67,12 +68,12 @@
         "name": "APL385",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "empty",
         "variants": [
             "regular"
         ],
         "website": "http://apl385.com/fonts/index.htm",
-        "year": 2003
+        "year": 2003,
+        "zerostyle": "empty"
     },
     "aurulent": {
         "author": "Stephen G. Hartke",
@@ -82,12 +83,12 @@
         "name": "Aurulent Sans Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "empty",
         "variants": [
             "regular"
         ],
         "website": "https://www.fontsquirrel.com/fonts/Aurulent-Sans-Mono",
-        "year": 2007
+        "year": 2007,
+        "zerostyle": "empty"
     },
     "average": {
         "author": "Richard Alexander Hall",
@@ -97,12 +98,12 @@
         "name": "Average Mono",
         "rendering": "vector",
         "style": "serif",
-        "zerostyle": "empty",
         "variants": [
             "regular"
         ],
         "website": "http://openfontlibrary.org/en/font/average-mono",
-        "year": 2013
+        "year": 2013,
+        "zerostyle": "empty"
     },
     "azeret": {
         "author": "Displaay",
@@ -112,10 +113,10 @@
         "name": "Azeret Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "empty",
         "variants": "A variable font, available in various weights.",
         "website": "https://github.com/displaay/Azeret",
-        "year": 2020
+        "year": 2020,
+        "zerostyle": "empty"
     },
     "b612-mono": {
         "author": "Nicolas Chauveau, Thomas Paillot and Jonathan Favre-Lamarine",
@@ -125,9 +126,9 @@
         "name": "B612 Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "empty",
         "website": "https://github.com/polarsys/b612",
-        "year": 2012
+        "year": 2012,
+        "zerostyle": "empty"
     },
     "bedstead": {
         "author": "Ben Harris",
@@ -137,25 +138,25 @@
         "name": "Bedstead",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "empty",
         "website": "https://bjh21.me.uk/bedstead/",
-        "year": 2018
+        "year": 2018,
+        "zerostyle": "empty"
     },
     "bigblue-terminal": {
         "author": "VileR",
+        "bitmap size": 12,
         "description": "It follows the metrics and dimensions of Windows' old Terminal font (at the 9pt/12px size), but the appearance is closer to the classic IBM PC text mode character sets.",
         "license": "CC BY-SA 4.0",
         "ligatures": false,
         "name": "BigBlue Terminal",
         "rendering": "bitmap",
-        "bitmap size": 12,
         "style": "serif",
-        "zerostyle": "dotted",
         "variants": [
             "regular"
         ],
         "website": "https://int10h.org/blog/2015/12/bigblue-terminal-oldschool-fixed-width-font/",
-        "year": 2015
+        "year": 2015,
+        "zerostyle": "dotted"
     },
     "binchotan-sharp": {
         "author": "Rabbit Viceroy Klein",
@@ -165,21 +166,21 @@
         "name": "Binchotan Sharp",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "variants": [
             "regular"
         ],
         "website": "https://rvklein.me/proj/binchotan/",
-        "year": 2017
+        "year": 2017,
+        "zerostyle": "dotted"
     },
     "bitstream-vera": {
         "author": "Jim Lyles",
         "description": "Vera is a digital typeface (computer font) superfamily with a liberal license. It was designed by Jim Lyles from the now-defunct Bitstream Inc. type foundry.",
+        "license": "Bitstream Vera",
         "ligatures": false,
         "name": "Bitstream Vera Sans Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "variants": [
             "regular",
             "italic",
@@ -187,7 +188,8 @@
             "bold-italic"
         ],
         "website": "http://www.fontsquirrel.com/fonts/Bitstream-Vera-Sans-Mono",
-        "year": 2002
+        "year": 2002,
+        "zerostyle": "dotted"
     },
     "borg-sans-mono": {
         "author": "Marnen E. Laibow-Koser",
@@ -197,9 +199,9 @@
         "name": "Borg Sans Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "https://github.com/marnen/borg-sans-mono",
-        "year": 2016
+        "year": 2016,
+        "zerostyle": "slashed"
     },
     "bpmono": {
         "author": "Backpacker",
@@ -209,25 +211,26 @@
         "name": "BPmono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "variants": [
             "regular",
             "italic",
             "bold"
         ],
         "website": "http://www.fontsquirrel.com/fonts/BPmono",
-        "year": 2007
+        "year": 2007,
+        "zerostyle": "slashed"
     },
     "bront-dejavu": {
         "author": "Chris Wendt",
         "description": "Bront is a collection of tweaked fonts geared towards programming.",
+        "license": "Bitstream Vera",
         "ligatures": false,
         "name": "Bront DejaVu Sans Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "https://github.com/chrismwendt/bront",
-        "year": 2015
+        "year": 2015,
+        "zerostyle": "slashed"
     },
     "bront-ubuntu": {
         "author": "Chris Wendt",
@@ -236,9 +239,9 @@
         "name": "Bront Ubuntu Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "https://github.com/chrismwendt/bront",
-        "year": 2015
+        "year": 2015,
+        "zerostyle": "slashed"
     },
     "camingocode": {
         "author": "Jan Fromm",
@@ -248,9 +251,9 @@
         "name": "CamingoCode",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "http://www.janfromm.de/typefaces/camingomono/camingocode",
-        "year": 2013
+        "year": 2013,
+        "zerostyle": "slashed"
     },
     "cartograph": {
         "author": "Connary Fagen",
@@ -260,32 +263,35 @@
         "name": "Cartograph",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "variants": "8 weights and various alternatives via OpenType sets, including ligatures.",
         "website": "https://connary.com/cartograph.html",
-        "year": 2016
+        "year": 2016,
+        "zerostyle": "dotted"
     },
     "cascadia-code": {
         "author": "Aaron Bell",
+        "description": "This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal.",
+        "license": "SIL OFL",
         "ligatures": true,
         "name": "Cascadia Code",
-        "description": "This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal.",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "variants": "6 weights and various alternatives via OpenType sets, including slashed zeroes and cursive italics.",
         "website": "https://github.com/microsoft/cascadia-code",
-        "year": 2019
+        "year": 2019,
+        "zerostyle": "dotted"
     },
     "code-new-roman": {
         "author": "Samiru R.",
+        "description": "Code New Roman is aimed for use in programming environments and other circumstances where a monospaced font is specified.",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Code New Roman",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
-        "website": "http://sourceforge.net/projects/codenewroman/",
-        "year": 2014
+        "website": "https://fontlibrary.org/en/font/code-new-roman",
+        "year": 2014,
+        "zerostyle": "slashed"
     },
     "comic-mono": {
         "author": "Thai Pangsakulyanont",
@@ -295,13 +301,13 @@
         "name": "Comic Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "variants": [
             "bold",
             "regular"
         ],
         "website": "https://dtinth.github.io/comic-mono-font/",
-        "year": 2019
+        "year": 2019,
+        "zerostyle": "slashed"
     },
     "comic-shanns": {
         "author": "Shannon Miwa",
@@ -311,12 +317,12 @@
         "name": "Comic Shanns",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "variants": [
             "regular"
         ],
         "website": "https://github.com/shannpersand/comic-shanns",
-        "year": 2018
+        "year": 2018,
+        "zerostyle": "slashed"
     },
     "commit-mono": {
         "author": "Eigil Nikolajsen",
@@ -326,20 +332,25 @@
         "name": "Commit Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "variants": "A download can be customized with various of weights, ligatures, dotted or slashed zeroes, and other styles.",
         "website": "https://commitmono.com",
-        "year": 2023
+        "year": 2023,
+        "zerostyle": "slashed"
     },
     "consolamono": {
         "author": "Wojciech Kalinowski",
+        "description": "“It's my old unfinished font. I made some sketches of several glyphs 5-6 years ago, and I never finished this. Now I made missing glyphs, did changes of some glyphs and turn into monospaced font.”",
         "ligatures": false,
         "name": "Consolamono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
+        "variants": [
+            "regular",
+            "bold"
+        ],
         "website": "http://openfontlibrary.org/en/font/consolamono",
-        "year": 2011
+        "year": 2011,
+        "zerostyle": "slashed"
     },
     "courier-prime": {
         "author": "Alan Dague-Greene",
@@ -349,7 +360,6 @@
         "name": "Courier Prime",
         "rendering": "vector",
         "style": "serif",
-        "zerostyle": "empty",
         "variants": [
             "regular",
             "italic",
@@ -357,25 +367,8 @@
             "bold-italic"
         ],
         "website": "https://quoteunquoteapps.com/courierprime",
-        "year": 2013
-    },
-    "courier-prime-sans": {
-        "author": "Alan Dague-Greene",
-        "description": "The goodness of Courier Prime without the serifs.",
-        "license": "SIL OFL",
-        "ligatures": false,
-        "name": "Courier Prime Sans",
-        "rendering": "vector",
-        "style": "sans",
-        "zerostyle": "empty",
-        "variants": [
-            "regular",
-            "italic",
-            "bold",
-            "bold-italic"
-        ],
-        "website": "https://quoteunquoteapps.com/courierprime",
-        "year": 2013
+        "year": 2013,
+        "zerostyle": "empty"
     },
     "courier-prime-code": {
         "author": "Alan Dague-Greene",
@@ -385,13 +378,31 @@
         "name": "Courier Prime Code",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "variants": [
             "regular",
             "italic"
         ],
         "website": "https://quoteunquoteapps.com/courierprime",
-        "year": 2013
+        "year": 2013,
+        "zerostyle": "slashed"
+    },
+    "courier-prime-sans": {
+        "author": "Alan Dague-Greene",
+        "description": "The goodness of Courier Prime without the serifs.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Courier Prime Sans",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "regular",
+            "italic",
+            "bold",
+            "bold-italic"
+        ],
+        "website": "https://quoteunquoteapps.com/courierprime",
+        "year": 2013,
+        "zerostyle": "empty"
     },
     "cousine": {
         "author": "Steve Matteson",
@@ -401,7 +412,6 @@
         "name": "Cousine",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "variants": [
             "regular",
             "italic",
@@ -409,80 +419,91 @@
             "bold-italic"
         ],
         "website": "http://www.fontsquirrel.com/fonts/cousine",
-        "year": 2010
+        "year": 2010,
+        "zerostyle": "dotted"
     },
     "cozette": {
         "author": "Slavfox",
+        "bitmap size": 12,
+        "description": "Cozette is a 6x13px bitmap font based on Dina, which itself is based on Proggy. It's also heavily inspired by Creep.",
+        "license": "MIT",
         "ligatures": false,
         "name": "Cozette",
         "rendering": "bitmap",
-        "bitmap size": 12,
         "style": "sans",
-        "zerostyle": "dotted",
         "variants": [
             "regular"
         ],
         "website": "https://github.com/slavfox/Cozette",
-        "year": 2020
+        "year": 2020,
+        "zerostyle": "dotted"
     },
     "cutive": {
         "author": "Vernon Adams",
+        "description": "The design of Cutive Mono is based on a number of classic typewriter typefaces, in particular the faces of IBM's Executive, and the older Smith-Premier.",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Cutive Mono",
         "rendering": "vector",
         "style": "serif",
-        "zerostyle": "empty",
         "website": "http://www.google.com/fonts/specimen/Cutive+Mono",
-        "year": 2012
+        "year": 2012,
+        "zerostyle": "empty"
     },
     "d2coding": {
         "author": "NAVER Corp.",
+        "description": " 나눔바른고딕을 바탕으로 개발자의 코딩을 위해 가독성 및 유사 문자간 변별력 뿐만 아니라 디자인적으로 한글과의 조화를 고려해 최적화시킨 글꼴입니다.",
         "license": "SIL OFL",
         "ligatures": true,
         "name": "D2Coding",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
-        "website": "https://github.com/naver/d2codingfont",
-        "year": 2016,
         "variants": [
             "regular",
             "bold"
-        ]
+        ],
+        "website": "https://github.com/naver/d2codingfont",
+        "year": 2016,
+        "zerostyle": "slashed"
     },
     "daddytimemono": {
         "author": "Jason Stewart",
+        "description": "A monospaced font for programmers and other terminal groupies.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "DaddyTimeMono",
         "rendering": "vector",
         "style": "serif",
-        "zerostyle": "slashed",
-        "website": "https://github.com/BourgeoisBear/DaddyTimeMono",
-        "year": 2017,
         "variants": [
             "regular"
-        ]
+        ],
+        "website": "https://github.com/BourgeoisBear/DaddyTimeMono",
+        "year": 2017,
+        "zerostyle": "slashed"
     },
     "dejavu": {
         "author": "Deja Vu Project",
+        "description": "The DejaVu fonts are a font family based on the Vera Fonts. Its purpose is to provide a wider range of characters while maintaining the original look and feel.",
+        "license": "Bitstream Vera",
         "ligatures": false,
         "name": "DejaVu Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "website": "https://dejavu-fonts.github.io",
-        "year": 2004
+        "year": 2004,
+        "zerostyle": "dotted"
     },
     "dm-mono": {
-      "author": "Colophon Foundry",
-      "ligatures": false,
-      "name": "DM Mono",
-      "rendering": "vector",
-      "style": "sans",
-      "zerostyle": "slashed",
-      "website": "https://fonts.google.com/specimen/DM+Mono",
-      "year": 2020
+        "author": "Colophon Foundry",
+        "description": "DM Mono is a three weight, three style family designed for DeepMind. DM Mono was loosely based off of DM Sans, with a reduction in contrast and less geometric proportions.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "DM Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "website": "https://fonts.google.com/specimen/DM+Mono",
+        "year": 2020,
+        "zerostyle": "slashed"
     },
     "drafting": {
         "author": "Owen Earl",
@@ -492,7 +513,6 @@
         "name": "Drafting* Mono",
         "rendering": "vector",
         "style": "serif",
-        "zerostyle": "dotted",
         "variants": [
             "thin",
             "thin-italic",
@@ -511,17 +531,20 @@
             "variable"
         ],
         "website": "https://indestructibletype.com/Drafting/",
-        "year": 2021
+        "year": 2021,
+        "zerostyle": "dotted"
     },
     "droid-sans": {
         "author": "Steve Matteson",
+        "description": "A font family first released in 2007 and created by Ascender Corporation for use by the Open Handset Alliance platform Android.",
+        "license": "Apache",
         "ligatures": false,
         "name": "Droid Sans",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "empty",
         "website": "https://fonts.google.com/specimen/Droid+Sans",
-        "year": 2006
+        "year": 2006,
+        "zerostyle": "empty"
     },
     "edlo": {
         "author": "Eric Hamiter",
@@ -531,20 +554,22 @@
         "name": "Edlo",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "website": "https://github.com/ehamiter/Edlo",
-        "year": 2011
+        "year": 2011,
+        "zerostyle": "dotted"
     },
     "effects-eighty": {
         "author": "Peter Hull",
+        "bitmap size": 16,
+        "description": "An homage to the dot-matrix printers of the 1980s.",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Effects Eighty",
         "rendering": "bitmap",
-        "bitmap size": 16,
         "style": "sans",
-        "zerostyle": "empty",
         "website": "http://openfontlibrary.org/en/font/effects-eighty",
-        "year": 2013
+        "year": 2013,
+        "zerostyle": "empty"
     },
     "ellograph": {
         "author": "Connary Fagen",
@@ -554,7 +579,6 @@
         "name": "Ellograph",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "variants": "8 weights, italics, and additional OpenType variations.",
         "website": "https://connary.com/ellograph.html",
         "year": 2020,
@@ -562,20 +586,20 @@
     },
     "fairfax": {
         "author": "Rebecca G. Bettencourt",
+        "bitmap size": 12,
         "description": "Fairfax is a 6x12 bitmap font for terminals, text editors, IDEs, etc. It supports many scripts and a large number of Unicode blocks as well as constructed scripts as encoded in the Under-ConScript Unicode Registry, pseudographics and semigraphics, and tons of private use characters.",
         "ligatures": false,
         "name": "Fairfax",
         "rendering": "bitmap",
-        "bitmap size": 12,
         "style": "sans",
-        "zerostyle": "slashed",
         "variants": [
             "regular",
             "italic",
             "bold"
         ],
         "website": "http://www.kreativekorp.com/software/fonts/fairfax.shtml",
-        "year": 2008
+        "year": 2008,
+        "zerostyle": "slashed"
     },
     "fairfax-hd": {
         "author": "Rebecca G. Bettencourt",
@@ -585,9 +609,9 @@
         "name": "Fairfax HD",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "http://www.kreativekorp.com/software/fonts/fairfaxhd.shtml",
-        "year": 2019
+        "year": 2019,
+        "zerostyle": "slashed"
     },
     "fairfax-hd-hax": {
         "author": "Rebecca G. Bettencourt",
@@ -597,84 +621,109 @@
         "name": "Fairfax Hax HD",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "http://www.kreativekorp.com/software/fonts/fairfaxhd.shtml",
-        "year": 2019
+        "year": 2019,
+        "zerostyle": "slashed"
     },
     "fairfax-serif": {
         "author": "Rebecca G. Bettencourt",
+        "bitmap size": 12,
         "description": "Fairfax is a 6x12 bitmap font for terminals, text editors, IDEs, etc. It supports many scripts and a large number of Unicode blocks as well as constructed scripts as encoded in the Under-ConScript Unicode Registry, pseudographics and semigraphics, and tons of private use characters.",
         "ligatures": false,
         "name": "Fairfax Serif",
         "rendering": "bitmap",
-        "bitmap size": 12,
         "style": "serif",
-        "zerostyle": "slashed",
         "website": "http://www.kreativekorp.com/software/fonts/fairfax.shtml",
-        "year": 2008
+        "year": 2008,
+        "zerostyle": "slashed"
     },
     "fantasque-sans": {
         "author": "Jany Belluz",
+        "description": "A programming font, designed with functionality in mind, and with some wibbly-wobbly handwriting-like fuzziness that makes it unassumingly cool.",
+        "license": "SIL OFL",
         "ligatures": true,
         "name": "Fantasque Sans Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "https://github.com/belluzj/fantasque-sans",
-        "year": 2013
+        "year": 2013,
+        "zerostyle": "slashed"
     },
     "fifteen": {
         "author": "James Kilfiger",
+        "bitmap size": 15,
+        "description": "It is designed to be narrow, and allow 132 columns to be comfortably fitted on a screen.",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Fifteen",
         "rendering": "bitmap",
-        "bitmap size": 15,
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "http://openfontlibrary.org/en/font/fifteen",
-        "year": 2013
+        "year": 2013,
+        "zerostyle": "slashed"
     },
     "fira": {
         "author": "Erik Spiekerman",
+        "description": "Mozilla's new typeface, used in Firefox OS",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Fira Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
+        "variants": [
+            "regular",
+            "medium",
+            "bold"
+        ],
         "website": "https://github.com/mozilla/Fira",
-        "year": 2013
+        "year": 2013,
+        "zerostyle": "dotted"
     },
     "firacode": {
         "author": "Nikita Prokopov",
+        "description": "Free monospaced font with programming ligatures.",
+        "license": "SIL OFL",
         "ligatures": true,
         "name": "Fira Code",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
+        "variants": [
+            "light",
+            "regular",
+            "medium",
+            "semibold",
+            "bold",
+            "retina"
+        ],
         "website": "https://github.com/tonsky/FiraCode",
-        "year": 2014
+        "year": 2014,
+        "zerostyle": "slashed"
     },
     "fixedsys": {
-        "author": "Microsoft",
+        "author": "Travis Owens",
+        "bitmap size": 16,
+        "description": "The oldest font in Microsoft Windows, and was the system font in Windows 1.0 and 2.0, where it was simply named System.",
+        "license": "GNU GPL",
         "ligatures": false,
         "name": "Fixedsys",
         "rendering": "bitmap",
-        "bitmap size": 16,
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "https://web.archive.org/web/20160316105117/http://www.moviecorner.de/en/font-fixedsys-ttf/description",
-        "year": 1984
+        "year": 1984,
+        "zerostyle": "slashed"
     },
     "fixedsys-ligatures": {
-        "author": "Kirill Pertsev",
+        "author": "Darien Valentine",
+        "bitmap size": 16,
+        "description": "Fixedsys Excelsior font with programming ligatures.",
+        "license": "public domain",
         "ligatures": true,
         "name": "Fixedsys with Ligatures",
         "rendering": "bitmap",
-        "bitmap size": 16,
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "https://github.com/kika/fixedsys",
-        "year": 2016
+        "year": 2016,
+        "zerostyle": "slashed"
     },
     "font3270": {
         "author": "Ricardo Bánffy",
@@ -683,14 +732,14 @@
         "name": "3270",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "variants": [
             "medium",
             "narrow",
             "semi-narrow"
         ],
         "website": "https://github.com/rbanffy/3270font",
-        "year": 2015
+        "year": 2015,
+        "zerostyle": "dotted"
     },
     "fragment-mono": {
         "author": "Wei H",
@@ -700,32 +749,34 @@
         "name": "Fragment Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "variants": [
             "regular",
             "italic"
         ],
         "website": "https://github.com/weiweihuanghuang/fragment-mono",
-        "year": 2022
+        "year": 2022,
+        "zerostyle": "slashed"
     },
     "generic": {
         "author": "Luc Devroye",
+        "description": "A user comments: “It's functional on non-offensive, but its limited coverage and lack of bold and italics hold it back. It's hard to fault its basic design though.”",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Generic Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "http://luc.devroye.org/fonts-75172.html",
-        "year": 1980
+        "year": 1980,
+        "zerostyle": "slashed"
     },
     "gintronic": {
         "author": "Mark Frömberg",
+        "description": "Gintronic’s gentle appearance makes it a delight to work constantly with code.",
         "license": "commercial",
         "ligatures": false,
         "name": "Gintronic",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "variants": [
             "thin",
             "light",
@@ -741,7 +792,8 @@
             "black-italic"
         ],
         "website": "https://markfromberg.com/projects/gintronic/",
-        "year": 2016
+        "year": 2016,
+        "zerostyle": "dotted"
     },
     "gnu-freefont": {
         "author": "Primož Peterlin, Steve White",
@@ -751,7 +803,6 @@
         "name": "GNU Freefont",
         "rendering": "vector",
         "style": "serif",
-        "zerostyle": "empty",
         "variants": [
             "regular",
             "italic",
@@ -759,7 +810,8 @@
             "bold-italic"
         ],
         "website": "https://www.gnu.org/software/freefont/",
-        "year": 2002
+        "year": 2002,
+        "zerostyle": "empty"
     },
     "go-mono": {
         "author": "Bigelow & Holmes",
@@ -769,7 +821,6 @@
         "name": "Go Mono",
         "rendering": "vector",
         "style": "serif",
-        "zerostyle": "slashed",
         "variants": [
             "regular",
             "bold",
@@ -777,69 +828,76 @@
             "bold-italic"
         ],
         "website": "https://blog.golang.org/go-fonts",
-        "year": 2016
+        "year": 2016,
+        "zerostyle": "slashed"
     },
     "gohufont-11": {
         "author": "Hugo Chargois",
+        "bitmap size": 11,
         "description": "Gohufont is a monospace bitmap font well suited for programming and terminal use. It is intended to be very legible and offers very discernable glyphs for all characters, including signs and symbols. In 11 or 14 pixels.",
         "license": "WTFPL",
         "ligatures": false,
         "name": "Gohufont 11",
         "rendering": "bitmap",
-        "bitmap size": 11,
         "style": "sans",
-        "zerostyle": "slashed",
         "variants": [
             "regular"
         ],
         "website": "https://font.gohu.org",
-        "year": 2010
+        "year": 2010,
+        "zerostyle": "slashed"
     },
     "gohufont-14": {
         "author": "Hugo Chargois",
+        "bitmap size": 14,
         "description": "Gohufont is a monospace bitmap font well suited for programming and terminal use. It is intended to be very legible and offers very discernable glyphs for all characters, including signs and symbols. In 11 or 14 pixels.",
         "license": "WTFPL",
         "ligatures": false,
         "name": "Gohufont 14",
         "rendering": "bitmap",
-        "bitmap size": 14,
         "style": "sans",
-        "zerostyle": "slashed",
         "variants": [
             "regular"
         ],
         "website": "https://font.gohu.org",
-        "year": 2010
+        "year": 2010,
+        "zerostyle": "slashed"
     },
     "hack": {
         "author": "Christopher Simpkins",
+        "description": "Hack is designed to be a workhorse typeface for source code.",
+        "license": "MIT",
         "ligatures": false,
         "name": "Hack",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "website": "https://github.com/chrissimpkins/Hack",
-        "year": 2015
+        "year": 2015,
+        "zerostyle": "dotted"
     },
     "hasklig": {
         "author": "Ian Tuomi",
+        "description": "A code font with monospaced ligatures, designed for Haskell.",
+        "license": "SIL OFL",
         "ligatures": true,
         "name": "Hasklig",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "website": "https://github.com/i-tu/Hasklig",
-        "year": 2014
+        "year": 2014,
+        "zerostyle": "dotted"
     },
     "hermit": {
         "author": "Pablo Caro",
+        "description": "A monospace font designed to be clear, pragmatic and very readable. Its creation has been focused on programming.",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Hermit",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "https://pcaro.es/p/hermit/",
-        "year": 2013
+        "year": 2013,
+        "zerostyle": "slashed"
     },
     "heterodox-mono": {
         "author": "Hao Chi Kiang",
@@ -849,48 +907,50 @@
         "name": "Heterodox Mono",
         "rendering": "vector",
         "style": "serif",
-        "zerostyle": "dotted",
         "variants": [
             "bold",
             "regular"
         ],
         "website": "https://github.com/hckiang/font-new-heterodox-mono",
-        "year": 2019
+        "year": 2019,
+        "zerostyle": "dotted"
     },
     "ia-writer-mono": {
         "author": "Oliver Reichenstein, Bold Monday, Mike Abbink, Paul van der Laan, Pieter van Rosmalen",
+        "description": "iA Writer Mono, Duo and Quattro were built upon IBM Plex.",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "iA Writer Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "website": "https://ia.net/topics/a-typographic-christmas",
-        "year": 2018
+        "year": 2018,
+        "zerostyle": "dotted"
     },
     "ibm-vga": {
         "author": "IBM",
+        "bitmap size": 16,
         "description": "With VGA, 9-dot character cells were now the default, and the resulting 9x16 glyphs make up the famous font which remains most strongly associated with ASCII art on the PC, and probably with the entire DOS era in general.",
         "license": "CC BY-SA 4.0",
         "ligatures": false,
         "name": "IBM VGA 9x16",
         "rendering": "bitmap",
-        "bitmap size": 16,
         "style": "sans",
-        "zerostyle": "dotted",
         "variants": [
             "regular"
         ],
         "website": "https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_vga_9x16",
-        "year": 1987
+        "year": 1987,
+        "zerostyle": "dotted"
     },
     "inconsolata": {
         "author": "Raph Levien",
         "description": "Inconsolata is a monospace font, designed for code listings and the like, in print. First and foremost, it is a humanist sans design.",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Inconsolata",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "variants": [
             "black",
             "bold",
@@ -903,36 +963,8 @@
             "variable"
         ],
         "website": "https://levien.com/type/myfonts/inconsolata.html",
-        "year": 2001
-    },
-    "inconsolata-otf": {
-        "author": "Raph Levien",
-        "description": "Inconsolata is a monospace font, designed for code listings and the like, in print. This is the original OTF version.",
-        "ligatures": false,
-        "name": "Inconsolata OTF",
-        "rendering": "vector",
-        "style": "sans",
-        "zerostyle": "slashed",
-        "variants": [
-            "regular"
-        ],
-        "website": "https://levien.com/type/myfonts/inconsolata.html",
-        "year": 2001
-    },
-    "inconsolata-go": {
-        "author": "Raph Levien",
-        "description": "Inconsolata is a monospace font, designed for code listings and the like, in print. InconsolataGo is Inconsolata with straight quotes.",
-        "ligatures": false,
-        "name": "InconsolataGo",
-        "rendering": "vector",
-        "style": "sans",
-        "zerostyle": "slashed",
-        "variants": [
-            "bold",
-            "regular"
-        ],
-        "website": "https://levien.com/type/myfonts/inconsolata.html",
-        "year": 2001
+        "year": 2001,
+        "zerostyle": "slashed"
     },
     "inconsolata-g": {
         "author": "Leonardo Maffi",
@@ -941,32 +973,60 @@
         "name": "Inconsolata-g",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "website": "http://leonardo-m.livejournal.com/77079.html",
-        "year": 2009
+        "year": 2009,
+        "zerostyle": "dotted"
+    },
+    "inconsolata-go": {
+        "author": "Raph Levien",
+        "description": "Inconsolata is a monospace font, designed for code listings and the like, in print. InconsolataGo is Inconsolata with straight quotes.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "InconsolataGo",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "bold",
+            "regular"
+        ],
+        "website": "https://levien.com/type/myfonts/inconsolata.html",
+        "year": 2001,
+        "zerostyle": "slashed"
+    },
+    "inconsolata-otf": {
+        "author": "Raph Levien",
+        "description": "Inconsolata is a monospace font, designed for code listings and the like, in print. This is the original OTF version.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Inconsolata OTF",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "regular"
+        ],
+        "website": "https://levien.com/type/myfonts/inconsolata.html",
+        "year": 2001,
+        "zerostyle": "slashed"
     },
     "input": {
         "author": "David Jonathan Ross",
+        "description": "Input is a flexible system of fonts designed specifically for code",
         "ligatures": false,
         "name": "Input",
-        "description": "Input is a flexible system of fonts designed specifically for code",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
-        "website": "http://input.fontbureau.com",
         "variants": "A download can be customized with dozens of weights, widths, dotted or slashed zeroes, and other styles.",
-        "year": 2014
+        "website": "http://input.fontbureau.com",
+        "year": 2014,
+        "zerostyle": "dotted"
     },
     "intel-one-mono": {
-        "name": "Intel One Mono",
-        "description": "Identifying the typographically underserved low-vision developer audience, the Intel One Mono typeface was designed for maximum legibility to address developers' fatigue and eyestrain and reduce coding errors.",
-        "year": 2023,
         "author": "Intel Brand Team, VMLY&R, Frere-Jones Type",
-        "website": "https://github.com/intel/intel-one-mono",
+        "description": "Identifying the typographically underserved low-vision developer audience, the Intel One Mono typeface was designed for maximum legibility to address developers' fatigue and eyestrain and reduce coding errors.",
         "license": "SIL OFL",
         "ligatures": false,
+        "name": "Intel One Mono",
         "rendering": "vector",
-        "zerostyle": "slashed",
         "style": "sans",
         "variants": [
             "light",
@@ -977,26 +1037,32 @@
             "medium-italic",
             "bold",
             "bold-italic"
-        ]
+        ],
+        "website": "https://github.com/intel/intel-one-mono",
+        "year": 2023,
+        "zerostyle": "slashed"
     },
     "iosevka": {
         "author": "Belleve Invis",
+        "description": "An open-source, sans-serif + slab-serif, monospace + quasi‑proportional typeface family, designed for writing code, using in terminals, and preparing technical documents.",
+        "license": "SIL OFL",
         "ligatures": true,
         "name": "Iosevka",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
+        "variants": "Iosevka is highly customizable with 7 weights, 3 slopes, 2 width and tons of variations and OpenType sets.",
         "website": "http://be5invis.github.io/Iosevka/",
-        "year": 2015
+        "year": 2015,
+        "zerostyle": "slashed"
     },
     "jetbrainsmono": {
         "author": "Philipp Nurullin",
-        "license": "Apache",
+        "description": "A typeface made for developers.",
+        "license": "SIL OFL",
         "ligatures": true,
         "name": "JetBrains Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "variants": [
             "bold-italic",
             "bold",
@@ -1008,16 +1074,17 @@
             "regular"
         ],
         "website": "https://www.jetbrains.com/lp/mono/",
-        "year": 2020
+        "year": 2020,
+        "zerostyle": "dotted"
     },
     "julia-mono": {
         "author": "cormullion",
+        "description": "A monospaced typeface designed for programming and in other text editing environments that require a wide range of specialist and technical Unicode characters. It was presented at the 2020 JuliaCon conference.",
         "license": "SIL OFL",
         "ligatures": true,
         "name": "JuliaMono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "variants": [
             "black",
             "bold",
@@ -1027,17 +1094,19 @@
             "regular"
         ],
         "website": "https://juliamono.netlify.app",
-        "year": 2020
+        "year": 2020,
+        "zerostyle": "dotted"
     },
     "latin-modern": {
         "author": "Donald E. Knuth",
+        "description": "The Latin Modern fonts are derived from the famous Computer Modern fonts designed by Donald E. Knuth and described in Volume E of his Computers & Typesetting series.",
         "ligatures": false,
         "name": "Latin Modern Mono",
         "rendering": "vector",
         "style": "serif",
-        "zerostyle": "empty",
         "website": "http://www.gust.org.pl/gust/projects/e-foundry/latin-modern",
-        "year": 2002
+        "year": 2002,
+        "zerostyle": "empty"
     },
     "league": {
         "author": "Tyler Fink",
@@ -1047,41 +1116,46 @@
         "name": "League Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "variants": "League Mono is a variable font and can be downloaded in dozens of weights and widths, but no italics.",
         "website": "https://www.tylerfinck.com/leaguemono/",
-        "year": 2017
+        "year": 2017,
+        "zerostyle": "dotted"
     },
     "lekton": {
         "author": "Accademia di Belle Arti di Urbino",
+        "description": "Lekton has been designed at ISIA Urbino, Italy, and is inspired by some of the typefaces used on the Olivetti typewriters.",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Lekton",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "empty",
         "website": "http://www.fontsquirrel.com/fonts/lekton",
-        "year": 2008
+        "year": 2008,
+        "zerostyle": "empty"
     },
     "liberation": {
         "author": "Steve Matteson",
+        "description": "The Liberation fonts are metrically compatible with the most popular fonts on the Microsoft Windows operating system and the Microsoft Office software package.",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Liberation Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "empty",
-        "website": "https://fedorahosted.org/liberation-fonts/",
-        "year": 2007
+        "website": "https://www.fontsquirrel.com/fonts/liberation-mono",
+        "year": 2007,
+        "zerostyle": "empty"
     },
     "lilex": {
         "author": "Mikhael Khrustik",
+        "description": "Lilex is the modern programming font containing a set of ligatures for common programming multi-character combinations.",
+        "license": "SIL OFL",
         "ligatures": true,
         "name": "Lilex",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "website": "https://github.com/mishamyrt/Lilex",
-        "license": "SIL OFL",
-        "year": 2019
+        "year": 2019,
+        "zerostyle": "dotted"
     },
     "lotion": {
         "author": "Nina Belikova",
@@ -1091,22 +1165,21 @@
         "name": "Lotion",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "variants": [
             "regular"
         ],
         "website": "https://font.nina.coffee",
-        "year": 2019
+        "year": 2019,
+        "zerostyle": "slashed"
     },
     "luculent": {
         "author": "Andrew Kensler",
-        "description": "Luculent is a narrow typeface with full bold, italic versions, each covering 643 characters. All glyphs are distinct and full of character. Additionally, the italics bring a wonderful twist to what is already an outstanding and unique font.",
+        "description": "Luculent is a family of scalable (vector), monospaced, geometric sans-serif screen fonts designed for programmers.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Luculent",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "variants": [
             "regular",
             "italic",
@@ -1114,26 +1187,28 @@
             "bold-italic"
         ],
         "website": "http://eastfarthing.com/luculent/",
-        "year": 2008
+        "year": 2008,
+        "zerostyle": "slashed"
     },
     "luxi": {
         "author": "Kris Holmes, Charles Bigelow",
+        "description": "Luxi is a family of typefaces originally designed for the X Window System by Bigelow & Holmes Inc. The Luxi typefaces are similar to Lucida – their previous font design.",
         "ligatures": false,
         "name": "Luxi Mono",
         "rendering": "vector",
         "style": "serif",
-        "zerostyle": "empty",
         "website": "http://www.fontsquirrel.com/fonts/Luxi-Mono",
-        "year": 2001
+        "year": 2001,
+        "zerostyle": "empty"
     },
     "martian-mono": {
         "author": "Roman Shamin, Evil Martians",
         "description": "Martian Mono is a monospaced version of the Martian Grotesk font for code style design.",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Martian Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "variants": [
             "semi-wide",
             "narrow",
@@ -1147,20 +1222,23 @@
             "extra-bold"
         ],
         "website": "https://github.com/evilmartians/mono",
-        "year": 2022
+        "year": 2022,
+        "zerostyle": "slashed"
     },
     "mensch": {
         "author": "Robey Pointer",
+        "description": "Designed in reaction to the release of Menlo, and intended as a tweaked variation on it.",
+        "license": "Bitstream Vera",
         "ligatures": false,
         "name": "Mensch",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "variants": [
             "regular"
         ],
         "website": "https://robey.lag.net/2010/06/21/mensch-font.html",
-        "year": 2010
+        "year": 2010,
+        "zerostyle": "dotted"
     },
     "meslo": {
         "author": "André Berg",
@@ -1168,9 +1246,9 @@
         "name": "Meslo",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "https://github.com/andreberg/Meslo-Font",
-        "year": 2010
+        "year": 2010,
+        "zerostyle": "slashed"
     },
     "monocraft": {
         "author": "Idrees Hassan",
@@ -1180,12 +1258,12 @@
         "name": "Monocraft",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "variants": [
             "regular"
         ],
         "website": "https://github.com/IdreesInc/Monocraft",
-        "year": 2022
+        "year": 2022,
+        "zerostyle": "slashed"
     },
     "monoflow": {
         "author": "Prof. Hans R. Heitmann, Johannes Ammon",
@@ -1195,7 +1273,6 @@
         "name": "Monoflow",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "variants": [
             "light",
             "light-italic",
@@ -1207,7 +1284,8 @@
             "bold-italic"
         ],
         "website": "https://finaltype.de/en/projects/monoflow",
-        "year": 2020
+        "year": 2020,
+        "zerostyle": "dotted"
     },
     "monofoki": {
         "author": "Marvin Dostal",
@@ -1217,15 +1295,15 @@
         "name": "Monofoki",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
-        "website": "https://github.com/datMaffin/monofoki",
-        "year": 2021,
         "variants": [
             "regular",
             "italic",
             "bold",
             "bold-italic"
-        ]
+        ],
+        "website": "https://github.com/datMaffin/monofoki",
+        "year": 2021,
+        "zerostyle": "slashed"
     },
     "monofur": {
         "author": "Tobias Benjamin Köhler",
@@ -1233,9 +1311,9 @@
         "name": "Monofur",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "website": "http://www.dafont.com/monofur.font",
-        "year": 2000
+        "year": 2000,
+        "zerostyle": "dotted"
     },
     "monoid": {
         "author": "Chase Colman, Andreas Larsen",
@@ -1243,9 +1321,9 @@
         "name": "Monoid",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "http://larsenwork.com/monoid/",
-        "year": 2015
+        "year": 2015,
+        "zerostyle": "slashed"
     },
     "mononoki": {
         "author": "Matthias Tellen",
@@ -1254,9 +1332,9 @@
         "name": "Mononoki",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "https://github.com/madmalik/mononoki",
-        "year": 2013
+        "year": 2013,
+        "zerostyle": "slashed"
     },
     "mplus": {
         "author": "Coji Morishita",
@@ -1264,20 +1342,20 @@
         "name": "M PLUS Code",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "website": "https://mplusfonts.github.io",
-        "year": 2003
+        "year": 2003,
+        "zerostyle": "dotted"
     },
     "nanum-gothic-coding": {
         "author": "NAVER Corp.",
+        "description": "나눔고딕코딩체는 지난 2008년 10월 9일 발표된 나눔고딕을 바탕으로 개발자들의 코딩 환경에 최적화시킨 글꼴입니다.",
         "ligatures": true,
         "name": "Nanum Gothic Coding",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "website": "https://github.com/naver/nanumfont",
         "year": 2009,
-        "description": "나눔고딕코딩체는 지난 2008년 10월 9일 발표된 나눔고딕을 바탕으로 개발자들의 코딩 환경에 최적화시킨 글꼴입니다."
+        "zerostyle": "dotted"
     },
     "notcouriersans": {
         "author": "Open Source Publishing",
@@ -1285,9 +1363,9 @@
         "name": "NotCourierSans",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "empty",
         "website": "http://www.fontsquirrel.com/fonts/NotCourierSans",
-        "year": 2008
+        "year": 2008,
+        "zerostyle": "empty"
     },
     "noto": {
         "author": "Steve Matteson",
@@ -1295,9 +1373,9 @@
         "name": "Noto Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "empty",
         "website": "https://www.google.com/get/noto/",
-        "year": 2012
+        "year": 2012,
+        "zerostyle": "empty"
     },
     "nova": {
         "author": "Wojciech Kalinowski",
@@ -1305,9 +1383,9 @@
         "name": "Nova Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "http://www.google.com/fonts/specimen/Nova+Mono",
-        "year": 2010
+        "year": 2010,
+        "zerostyle": "slashed"
     },
     "office-code-pro": {
         "author": "Nathan Rutzky",
@@ -1315,9 +1393,9 @@
         "name": "Office Code Pro",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "https://github.com/nathco/Office-Code-Pro",
-        "year": 2015
+        "year": 2015,
+        "zerostyle": "slashed"
     },
     "opendyslexic": {
         "author": "Abbie Gonzalez",
@@ -1327,12 +1405,12 @@
         "name": "OpenDyslexic Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "variants": [
             "regular"
         ],
         "website": "https://www.opendyslexic.org",
-        "year": 2011
+        "year": 2011,
+        "zerostyle": "dotted"
     },
     "overpass": {
         "author": "Delve Withrington",
@@ -1342,7 +1420,6 @@
         "name": "Overpass Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "variants": [
             "light",
             "regular",
@@ -1350,7 +1427,8 @@
             "bold"
         ],
         "website": "http://overpassfont.org",
-        "year": 2015
+        "year": 2015,
+        "zerostyle": "dotted"
     },
     "oxygen": {
         "author": "Vernon Adams",
@@ -1360,12 +1438,12 @@
         "name": "Oxygen Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "variants": [
             "regular"
         ],
         "website": "http://www.google.com/fonts/specimen/Oxygen+Mono",
-        "year": 2012
+        "year": 2012,
+        "zerostyle": "slashed"
     },
     "plex-mono": {
         "author": "Bold Monday, Mike Abbink",
@@ -1375,7 +1453,6 @@
         "name": "IBM Plex Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "variants": [
             "bold",
             "bold-italic",
@@ -1395,18 +1472,19 @@
             "thin-italic"
         ],
         "website": "https://github.com/IBM/plex",
-        "year": 2017
+        "year": 2017,
+        "zerostyle": "dotted"
     },
     "press-start-2p": {
         "author": "Cody Boisclair",
+        "bitmap size": 16,
         "ligatures": false,
         "name": "Press Start 2P",
         "rendering": "bitmap",
-        "bitmap size": 16,
         "style": "sans",
-        "zerostyle": "empty",
         "website": "https://github.com/codeman38/PressStart2P",
-        "year": 2012
+        "year": 2012,
+        "zerostyle": "empty"
     },
     "profont": {
         "author": "Andrew Welch",
@@ -1414,20 +1492,20 @@
         "name": "Profont",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "http://tobiasjung.name/profont/",
-        "year": 1987
+        "year": 1987,
+        "zerostyle": "slashed"
     },
     "proggy-clean": {
         "author": "Tristan Grimmer",
+        "bitmap size": 16,
         "ligatures": false,
         "name": "Proggy Clean",
         "rendering": "bitmap",
-        "bitmap size": 16,
         "style": "sans",
-        "zerostyle": "dotted",
         "website": "https://github.com/bluescan/proggyfonts/",
-        "year": 2004
+        "year": 2004,
+        "zerostyle": "dotted"
     },
     "proggy-vector": {
         "author": "Tristan Grimmer",
@@ -1437,12 +1515,12 @@
         "name": "Proggy Vector",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "variants": [
             "regular"
         ],
         "website": "https://github.com/bluescan/proggyfonts/",
-        "year": 2019
+        "year": 2019,
+        "zerostyle": "slashed"
     },
     "pt": {
         "author": "Alexandra Korolkova",
@@ -1450,9 +1528,9 @@
         "name": "PT Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "http://paratype.com/public/",
-        "year": 2011
+        "year": 2011,
+        "zerostyle": "slashed"
     },
     "quinze": {
         "author": "James Kilfiger",
@@ -1462,12 +1540,12 @@
         "name": "Quinze",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "variants": [
             "regular"
         ],
         "website": "http://openfontlibrary.org/en/font/fifteen",
-        "year": 2013
+        "year": 2013,
+        "zerostyle": "slashed"
     },
     "recursive-mono-linear": {
         "author": "Arrow Type",
@@ -1475,9 +1553,9 @@
         "name": "Recursive",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "https://www.recursive.design",
-        "year": 2018
+        "year": 2018,
+        "zerostyle": "slashed"
     },
     "redhat": {
         "author": "Jeremy Mickel",
@@ -1487,7 +1565,6 @@
         "name": "Red Hat Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "variants": [
             "light",
             "light-italic",
@@ -1500,7 +1577,8 @@
             "variable"
         ],
         "website": "https://www.redhat.com/en/about/brand/standards/typography",
-        "year": 2019
+        "year": 2019,
+        "zerostyle": "slashed"
     },
     "roboto": {
         "author": "Christian Robertson",
@@ -1508,9 +1586,9 @@
         "name": "Roboto Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "https://www.google.com/fonts/specimen/Roboto+Mono",
-        "year": 2015
+        "year": 2015,
+        "zerostyle": "slashed"
     },
     "sax": {
         "author": "s.a.x. Software",
@@ -1518,27 +1596,27 @@
         "name": "saxMono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "empty",
         "website": "http://www.fontsquirrel.com/fonts/saxMono",
-        "year": 2009
+        "year": 2009,
+        "zerostyle": "empty"
     },
     "scientifica": {
         "author": "Akshay Oppiliappan",
+        "bitmap size": 16,
         "description": "Tall and condensed bitmap font for geeks.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Scientifica",
         "rendering": "bitmap",
-        "bitmap size": 16,
         "style": "sans",
-        "zerostyle": "slashed",
         "variants": [
             "regular",
             "bold",
             "italic"
         ],
         "website": "https://github.com/nerdypepper/scientifica",
-        "year": 2019
+        "year": 2019,
+        "zerostyle": "slashed"
     },
     "serious-sans": {
         "author": "Kyle Beechly",
@@ -1548,7 +1626,6 @@
         "name": "Serious Sans",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "variants": [
             "light",
             "light-italic",
@@ -1558,7 +1635,8 @@
             "regular"
         ],
         "website": "https://kabeech.github.io/serious-sans/",
-        "year": 2023
+        "year": 2023,
+        "zerostyle": "slashed"
     },
     "share-tech": {
         "author": "Ralph du Carrois",
@@ -1566,9 +1644,9 @@
         "name": "Share Tech Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "http://www.google.com/fonts/specimen/Share+Tech+Mono",
-        "year": 2012
+        "year": 2012,
+        "zerostyle": "slashed"
     },
     "sk-modernist": {
         "author": "Sean Kane",
@@ -1576,9 +1654,9 @@
         "name": "SK Modernist Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "http://seankanedesign.com/work/sk-modernist",
-        "year": 2015
+        "year": 2015,
+        "zerostyle": "slashed"
     },
     "sometype-mono": {
         "author": "Ryoichi Tsunekawa",
@@ -1587,7 +1665,6 @@
         "ligatures": false,
         "name": "Sometype Mono",
         "rendering": "vector",
-        "zerostyle": "slashed",
         "style": "sans",
         "variants": [
             "regular",
@@ -1598,7 +1675,8 @@
             "medium-italic"
         ],
         "website": "http://monospacedfont.com/",
-        "year": 2018
+        "year": 2018,
+        "zerostyle": "slashed"
     },
     "source-code-pro": {
         "author": "Paul D. Hunt",
@@ -1608,10 +1686,10 @@
         "name": "Source Code Pro",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "variants": "A variable font that can be downloaded in 7 weights plus italics.",
         "website": "https://github.com/adobe-fonts/source-code-pro",
-        "year": 2012
+        "year": 2012,
+        "zerostyle": "dotted"
     },
     "space": {
         "author": "Colophon Foundry",
@@ -1621,7 +1699,6 @@
         "name": "Space Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "variants": [
             "regular",
             "italic",
@@ -1629,23 +1706,24 @@
             "bold-italic"
         ],
         "website": "https://fonts.google.com/specimen/Space+Mono",
-        "year": 2016
+        "year": 2016,
+        "zerostyle": "dotted"
     },
     "spleen": {
         "author": "Frederic Cambus",
+        "bitmap size": 16,
         "description": "Monospaced bitmap fonts. Spleen started as a personal challenge.",
         "license": "BSD-2-Clause",
         "ligatures": false,
         "name": "Spleen",
         "rendering": "bitmap",
-        "bitmap size": 16,
         "style": "sans",
-        "zerostyle": "slashed",
         "variants": [
             "regular"
         ],
         "website": "https://www.cambus.net/spleen-monospaced-bitmap-fonts/",
-        "year": 2018
+        "year": 2018,
+        "zerostyle": "slashed"
     },
     "sudo": {
         "author": "Jens Kutilek",
@@ -1653,9 +1731,9 @@
         "name": "Sudo",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "empty",
         "website": "https://www.kutilek.de/sudo-font/",
-        "year": 2009
+        "year": 2009,
+        "zerostyle": "empty"
     },
     "terminus": {
         "author": "Dimitar Toshkov Zhekov",
@@ -1663,9 +1741,9 @@
         "name": "Terminus (TTF)",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "slashed",
         "website": "https://files.ax86.net/terminus-ttf",
-        "year": 2010
+        "year": 2010,
+        "zerostyle": "slashed"
     },
     "tex-gyre-cursor": {
         "author": "GUST e-foundry",
@@ -1673,9 +1751,9 @@
         "name": "TeX Gyre Cursor",
         "rendering": "vector",
         "style": "serif",
-        "zerostyle": "empty",
         "website": "http://www.gust.org.pl/projects/e-foundry/tex-gyre",
-        "year": 2006
+        "year": 2006,
+        "zerostyle": "empty"
     },
     "twilio-sans-mono": {
         "author": "Sharp Type",
@@ -1685,7 +1763,6 @@
         "name": "Twilio Sans Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "variants": [
             "bold",
             "bold-italic",
@@ -1705,7 +1782,8 @@
             "retina-italic"
         ],
         "website": "https://github.com/twilio/twilio-sans-mono",
-        "year": 2020
+        "year": 2020,
+        "zerostyle": "dotted"
     },
     "ubuntu": {
         "author": "Dalton Maag",
@@ -1713,20 +1791,20 @@
         "name": "Ubuntu Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "website": "http://font.ubuntu.com",
-        "year": 2010
+        "year": 2010,
+        "zerostyle": "dotted"
     },
     "unifont": {
         "author": "Roman Czyborra",
+        "bitmap size": 16,
         "ligatures": false,
         "name": "GNU Unifont",
         "rendering": "bitmap",
-        "bitmap size": 16,
         "style": "sans",
-        "zerostyle": "empty",
         "website": "http://www.unifoundry.com/unifont.html",
-        "year": 1998
+        "year": 1998,
+        "zerostyle": "empty"
     },
     "verily": {
         "author": "Stephen G. Hartke",
@@ -1734,9 +1812,9 @@
         "name": "Verily Serif Mono",
         "rendering": "vector",
         "style": "serif",
-        "zerostyle": "dotted",
         "website": "https://www.fontsquirrel.com/fonts/Verily-Serif-Mono",
-        "year": 2006
+        "year": 2006,
+        "zerostyle": "dotted"
     },
     "victor-mono": {
         "author": "Rune B",
@@ -1746,19 +1824,19 @@
         "name": "Victor Mono",
         "rendering": "vector",
         "style": "sans",
-        "zerostyle": "dotted",
         "website": "https://rubjo.github.io/victor-mono/",
-        "year": 2019
+        "year": 2019,
+        "zerostyle": "dotted"
     },
     "vt323": {
         "author": "Peter Hull",
+        "bitmap size": 16,
         "ligatures": false,
         "name": "VT323",
         "rendering": "bitmap",
-        "bitmap size": 16,
         "style": "sans",
-        "zerostyle": "empty",
         "website": "https://fedoraproject.org/wiki/VT323_Fonts",
-        "year": 2014
+        "year": 2014,
+        "zerostyle": "empty"
     }
 }

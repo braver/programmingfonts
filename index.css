@@ -160,6 +160,16 @@ a:active {
     background: var(--bright-grey);
     color: var(--dark-grey);
 }
+@media screen and (max-width: 56em) {
+    .info-wrapper {
+        bottom: 2rem;
+    }
+}
+@media screen and (max-height: 36em)  {
+    .info-wrapper {
+        display: none;
+    }
+}
 .info-wrapper a:hover {
     color: var(--ink-black);
     text-decoration: underline;
@@ -523,17 +533,5 @@ footer .logo:last-child {
         height: 50vh;
         min-height: 50vh;
         float: none;
-    }
-}
-@media screen and (max-width: 56em) and (max-height: 36em) {
-    section.select-list a.website {
-        top: 0;
-    }
-    section.select-list .entry {
-        padding: 0 1em;
-    }
-    footer p:first-of-type,
-    footer p:first-of-type + p {
-        display: none;
     }
 }

@@ -1528,6 +1528,8 @@
     },
     "profont": {
         "author": "Andrew Welch",
+        "description": "It is designed to look good a really small sizes so you can cram lots of lines of code into the window of your editor.",
+        "license": "MIT",
         "ligatures": false,
         "name": "Profont",
         "rendering": "vector",
@@ -1538,7 +1540,9 @@
     },
     "proggy-clean": {
         "author": "Tristan Grimmer",
+        "description": "The fonts are all fixed-width and designed for programming. They were optimized while writing C or C++.",
         "bitmap size": 16,
+        "license": "MIT",
         "ligatures": false,
         "name": "Proggy Clean",
         "rendering": "bitmap",
@@ -1564,11 +1568,13 @@
     },
     "pt": {
         "author": "Alexandra Korolkova",
+        "description": "PT Mono was developed for the special needs -- for use in forms, tables, work sheets etc.",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "PT Mono",
         "rendering": "vector",
         "style": "sans",
-        "website": "http://paratype.com/public/",
+        "website": "https://www.paratype.com/fonts/pt/pt-mono",
         "year": 2011,
         "zerostyle": "slashed"
     },
@@ -1589,10 +1595,13 @@
     },
     "recursive-mono-linear": {
         "author": "Arrow Type",
+        "description": "Built to maximize versatility, control, and performance, Recursive is a five-axis variable font.",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Recursive",
         "rendering": "vector",
         "style": "sans",
+        "variants": "Dozens of pre-built styles, and variables for weight, slant, “casualness” and more.",
         "website": "https://www.recursive.design",
         "year": 2018,
         "zerostyle": "slashed"
@@ -1622,16 +1631,20 @@
     },
     "roboto": {
         "author": "Christian Robertson",
+        "description": "Roboto Mono is a monospaced member of the Roboto family. It was designed by Christian Robertson and released as open-source through Google Fonts",
+        "license": "Apache",
         "ligatures": false,
         "name": "Roboto Mono",
         "rendering": "vector",
         "style": "sans",
+        "variants": "Five weights with matching italics.",
         "website": "https://www.google.com/fonts/specimen/Roboto+Mono",
         "year": 2015,
         "zerostyle": "slashed"
     },
     "sax": {
         "author": "s.a.x. Software",
+        "description": "saxMono is a sample of a fine TrueType with high screen quality. Its spacing (11 cpi@12 pt) is between the Courier and Letter Gothic.",
         "ligatures": false,
         "name": "saxMono",
         "rendering": "vector",
@@ -1680,6 +1693,8 @@
     },
     "share-tech": {
         "author": "Ralph du Carrois",
+        "description": "Share Tech Mono is a monospaced sans serif, based on the Share family. There is also Share Tech , a proportionally spaced version.",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Share Tech Mono",
         "rendering": "vector",
@@ -1690,6 +1705,7 @@
     },
     "sk-modernist": {
         "author": "Sean Kane",
+        "description": "Sk-Modernist is a minimalist and clean typeface which eschews complicated forms.",
         "ligatures": false,
         "name": "SK Modernist Mono",
         "rendering": "vector",
@@ -1766,7 +1782,9 @@
         "zerostyle": "slashed"
     },
     "sudo": {
-        "author": "Jens Kutilek",
+        "author": "Jens Kutílek",
+        "description": "“In 2009 I wasn’t satisfied with the available text editor fonts and decided to draw my own: Sudo.”",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Sudo",
         "rendering": "vector",
@@ -1777,6 +1795,8 @@
     },
     "terminus": {
         "author": "Dimitar Toshkov Zhekov",
+        "description": "A TrueType version of Terminus Font, a fixed-width bitmap font optimized for long work with computers.",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Terminus (TTF)",
         "rendering": "vector",
@@ -1787,6 +1807,7 @@
     },
     "tex-gyre-cursor": {
         "author": "GUST e-foundry",
+        "description": "It is here where GUST's e-foundry guys, Bogusław Jackowski, Janusz M. Nowacki and Piotr Strzelczyk, supported in LaTeX matters by Marcin Woliński, are delivering fonts developed by them for the TeX Gyre Project.",
         "ligatures": false,
         "name": "TeX Gyre Cursor",
         "rendering": "vector",
@@ -1827,6 +1848,7 @@
     },
     "ubuntu": {
         "author": "Dalton Maag",
+        "description": "The way typography is used says as much about our brand as the words themselves. The Ubuntu typeface has been specially created to complement the Ubuntu tone of voice.",
         "ligatures": false,
         "name": "Ubuntu Mono",
         "rendering": "vector",
@@ -1837,7 +1859,9 @@
     },
     "unifont": {
         "author": "Roman Czyborra",
+        "description": "GNU Unifont is part of the GNU Project and has glyphs for every printable code point in the Unicode Basic Multilingual Plane.",
         "bitmap size": 16,
+        "license": "GNU GPL",
         "ligatures": false,
         "name": "GNU Unifont",
         "rendering": "bitmap",
@@ -1848,6 +1872,8 @@
     },
     "verily": {
         "author": "Stephen G. Hartke",
+        "description": "Verily Serif Mono is derived from Bitstream Vera Serif with the same proportions as Bitstream Vera Sans Mono. Only the primary ASCII characters have been modified.",
+        "license": "Bitstream Vera",
         "ligatures": false,
         "name": "Verily Serif Mono",
         "rendering": "vector",
@@ -1870,7 +1896,9 @@
     },
     "vt323": {
         "author": "Peter Hull",
+        "description": "This font was created from the glyphs of the DEC VT320 text terminal.",
         "bitmap size": 16,
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "VT323",
         "rendering": "bitmap",

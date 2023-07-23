@@ -508,7 +508,8 @@ label + .nav-button {
     -webkit-overflow-scrolling: touch;
 }
 
-footer .logo {
+footer .logo,
+footer .support {
     display: inline-block;
     position: absolute;
     bottom: 4px;
@@ -518,7 +519,10 @@ footer .logo {
 footer .logo svg path {
     fill: currentColor;
 }
-footer .logo:last-child {
+footer .logo * + * {
+    margin-left: 8px;
+}
+footer .support {
     right: 8px;
     left: auto;
 }

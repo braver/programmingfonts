@@ -1264,6 +1264,8 @@
     },
     "meslo": {
         "author": "André Berg",
+        "description": "Meslo LG is a customized version of Apple’s Menlo-Regular font (which is a customized Bitstream Vera Sans Mono).",
+        "license": "Bitstream Vera",
         "ligatures": false,
         "name": "Meslo",
         "rendering": "vector",
@@ -1329,6 +1331,7 @@
     },
     "monofur": {
         "author": "Tobias Benjamin Köhler",
+        "description": "This is a monospaced geometric rounded sans serif font based on the eurofurence typeface family.",
         "ligatures": false,
         "name": "Monofur",
         "rendering": "vector",
@@ -1339,27 +1342,34 @@
     },
     "monoid": {
         "author": "Chase Colman, Andreas Larsen",
+        "description": "Monoid is customizable and optimized for coding with bitmap-like sharpness at 12px/9pt even on low res displays.",
+        "license": "MIT",
         "ligatures": true,
         "name": "Monoid",
         "rendering": "vector",
         "style": "sans",
+        "variants": "Regular, bold, italic and retina, with optional ligatures and several stylistic alternatives.",
         "website": "http://larsenwork.com/monoid/",
         "year": 2015,
         "zerostyle": "slashed"
     },
     "mononoki": {
         "author": "Matthias Tellen",
+        "description": "A font for programming and code review",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Mononoki",
         "rendering": "vector",
         "style": "sans",
+        "variants": "Regular, bold, italic, bold-italic, and an OpenType set with dotted zeroes.",
         "website": "https://github.com/madmalik/mononoki",
         "year": 2013,
         "zerostyle": "slashed"
     },
     "mplus": {
         "author": "Coji Morishita",
+        "description": "M PLUS 1/2 are Sans Serif font with 9 weights from Thin to Black, supporting GF Latin Plus glyph set with 5,700+ Kanjis for Japanese.",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "M PLUS Code",
         "rendering": "vector",
@@ -1371,6 +1381,7 @@
     "nanum-gothic-coding": {
         "author": "NAVER Corp.",
         "description": "나눔고딕코딩체는 지난 2008년 10월 9일 발표된 나눔고딕을 바탕으로 개발자들의 코딩 환경에 최적화시킨 글꼴입니다.",
+        "license": "SIL OFL",
         "ligatures": true,
         "name": "Nanum Gothic Coding",
         "rendering": "vector",
@@ -1381,6 +1392,7 @@
     },
     "notcouriersans": {
         "author": "Open Source Publishing",
+        "description": "NotCourier is a re-interpretation of Nimbus Mono and was designed in Wroclaw at the occasion of Libre Graphics Meeting (LGM 2008).",
         "ligatures": false,
         "name": "NotCourierSans",
         "rendering": "vector",
@@ -1391,6 +1403,8 @@
     },
     "noto": {
         "author": "Steve Matteson",
+        "description": "Noto is a collection of high-quality fonts in more than 1,000 languages and over 150 writing systems.",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Noto Mono",
         "rendering": "vector",
@@ -1401,6 +1415,8 @@
     },
     "nova": {
         "author": "Wojciech Kalinowski",
+        "description": "Initially the font contained only capitals and digits and existed only on paper and stone inscriptions.",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Nova Mono",
         "rendering": "vector",
@@ -1411,6 +1427,8 @@
     },
     "office-code-pro": {
         "author": "Nathan Rutzky",
+        "description": "Office Code Pro is a customized version of Source Code Pro.",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Office Code Pro",
         "rendering": "vector",

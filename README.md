@@ -1,7 +1,7 @@
 Programming Fonts
 ================
 
-Test drive programming fonts [online in your browser](https://www.programmingfonts.org/).
+Test drive programming fonts [online in your browser](https://www.programmingfonts.org/). The interactive counter part of the [Tumblr Blog](https://programmingfonts.tumblr.com).
 
 ProgrammingFonts.org makes it easier to find monospaced fonts. All fonts in one place, with proper credits towards the creators. It's not a download portal, we don't track anything, it's strictly by nerds and designers for nerds and designers.
 

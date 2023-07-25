@@ -5,6 +5,8 @@ Test drive programming fonts [online in your browser](https://www.programmingfon
 
 ProgrammingFonts.org makes it easier to find monospaced fonts. All fonts in one place, with proper credits towards the creators. It's not a download portal, we don't track anything, it's strictly by nerds and designers for nerds and designers.
 
+💬 Join the conversation, or recommend new fonts, on our [Discord server](https://discord.gg/feUp7rVs4Q)!
+
 ## Buy me a coffee 
 
 ☕️👌🏻

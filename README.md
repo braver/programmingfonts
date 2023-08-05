@@ -29,7 +29,7 @@ Please feel free to make a little [donation via PayPal](https://paypal.me/koenla
 
 ### Commercially licensed fonts
 
-We've been able to license some commercial fonts for programmingfonts.org, but there are so many out there, including:
+We've been able to license some commercial fonts for programmingfonts.org, but there are simply too many out there... including:
  
 - Andale: https://learn.microsoft.com/en-us/typography/font-list/andale-mono
 - Aperçu: https://www.colophon-foundry.org/typefaces/apercu
@@ -69,7 +69,7 @@ Some bitmap fonts are only available in (Windows) FON files. Sometimes conversio
 
 ## Limitations
 
-There are sometimes near infinite variations of certain fonts. Take for isntance variable weights. And certain fonts come with dozens of (OpenType) variations to change shapes of characters, zero styles, ligatures, etc. We hint at these possibilities in programmingfonts.org, but for details you really need to explore the websites of these fonts.
+There are sometimes near infinite variations of certain fonts. Take for instance the variable weights and all the options of a configurable font like [Commit Mono](https://commitmono.com). Certain fonts also come with dozens of (OpenType) variations to change shapes of characters, zero styles, ligatures, etc. We hint at these possibilities in programmingfonts.org, but for details you really need to explore the websites of these fonts.
 
 Therefore:
 

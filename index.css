@@ -165,7 +165,7 @@ a:active {
         bottom: 2rem;
     }
 }
-@media screen and (max-height: 36em)  {
+@media screen and (max-height: 24em)  {
     .info-wrapper {
         display: none;
     }

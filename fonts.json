@@ -1470,6 +1470,21 @@
         "year": 2015,
         "zerostyle": "dotted"
     },
+    "oxproto": {
+        "author": "Masaaki Morishita",
+        "description": "An opinionated font for software engineers, with ligatures that don't deform shape.",
+        "license": "SIL OFL",
+        "ligatures": true,
+        "name": "0xProto",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "regular"
+        ],
+        "website": "https://github.com/0xType/0xProto",
+        "year": 2023,
+        "zerostyle": "slashed"
+    },
     "oxygen": {
         "author": "Vernon Adams",
         "description": "Oxygen was created to work well in KDE, and this mono variation is a great choice for programmers on Linux.",

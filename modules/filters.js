@@ -105,7 +105,6 @@ export class Filters {
               (this.filters.author === 'all' || data.author === this.filters.author) &&
               (!this.filters.name || data.name.toLowerCase().indexOf(this.filters.name) > -1 ||
                 data.author.toLowerCase().indexOf(this.filters.name) > -1 ||
-                data.description?.toLowerCase().indexOf(this.filters.name) > -1 ||
                 data.year.toString().indexOf(this.filters.name) > -1)
       ) {
         element.classList.remove('filtered-out')

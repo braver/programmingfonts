@@ -94,6 +94,7 @@ export class Filters {
 
     document.querySelectorAll('.entry[data-alias]').forEach((element) => {
       const data = this.fontData[element.dataset.alias]
+
       if (
         (!this.filters.style || data.style === this.filters.style) &&
               (!this.filters.rendering || data.rendering === this.filters.rendering) &&
@@ -102,7 +103,10 @@ export class Filters {
                   (data.ligatures === true && this.filters.liga === 'yes')) &&
               (!this.filters.zerostyle || data.zerostyle === this.filters.zerostyle) &&
               (this.filters.author === 'all' || data.author === this.filters.author) &&
-              (!this.filters.name || data.name.toLowerCase().indexOf(this.filters.name) > -1)
+              (!this.filters.name || data.name.toLowerCase().indexOf(this.filters.name) > -1 ||
+                data.author.toLowerCase().indexOf(this.filters.name) > -1 ||
+                data.description?.toLowerCase().indexOf(this.filters.name) > -1 ||
+                data.year.toString().indexOf(this.filters.name) > -1)
       ) {
         element.classList.remove('filtered-out')
         count++

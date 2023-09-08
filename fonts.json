@@ -281,6 +281,19 @@
         "year": 2019,
         "zerostyle": "dotted"
     },
+    "chivo": {
+        "author": "Héctor Gatti & Omnibus-Type Team",
+        "description": "Chivo (‘goat’ in Spanish) is the first Omnibus-Type neo-grotesque typeface family.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Chivo Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": "A variable font ranging from Thin to Black with matching Italics",
+        "website": "https://www.omnibus-type.com/variable-fonts/#chivo-mono",
+        "year": 2022,
+        "zerostyle": "empty"
+    },
     "code-new-roman": {
         "author": "Samiru R.",
         "description": "Code New Roman is aimed for use in programming environments and other circumstances where a monospaced font is specified.",

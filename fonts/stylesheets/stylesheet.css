@@ -305,6 +305,30 @@
   src: url('../resources/cascadia-code/cascadia-code.woff2');
 }
 @font-face {
+  font-family: 'chivo';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/chivo/chivo-bold-italic.ttf');
+}
+@font-face {
+  font-family: 'chivo';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/chivo/chivo-bold.ttf');
+}
+@font-face {
+  font-family: 'chivo';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/chivo/chivo-italic.ttf');
+}
+@font-face {
+  font-family: 'chivo';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/chivo/chivo.ttf');
+}
+@font-face {
   font-family: 'code-new-roman';
   font-weight: normal;
   font-style: normal;

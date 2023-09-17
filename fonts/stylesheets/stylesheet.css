@@ -1847,6 +1847,12 @@
   src: url('../resources/unifont/unifont.woff');
 }
 @font-face {
+  font-family: 'unifontex';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/unifontex/unifontex.ttf');
+}
+@font-face {
   font-family: 'verily';
   font-weight: normal;
   font-style: normal;

@@ -1898,6 +1898,19 @@
         "year": 1998,
         "zerostyle": "empty"
     },
+    "unifontex": {
+        "author": "stgiga",
+        "description": "An extended fork of GNU Unifont with a focus on high compatibility.",
+        "bitmap size": 16,
+        "license": "GNU GPL",
+        "ligatures": false,
+        "name": "UnifontEX",
+        "rendering": "bitmap",
+        "style": "sans",
+        "website": "https://github.com/stgiga/UnifontEX",
+        "year": 2023,
+        "zerostyle": "slashed"
+    },
     "verily": {
         "author": "Stephen G. Hartke",
         "description": "Verily Serif Mono is derived from Bitstream Vera Serif with the same proportions as Bitstream Vera Sans Mono. Only the primary ASCII characters have been modified.",

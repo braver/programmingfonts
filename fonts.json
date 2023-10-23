@@ -1634,6 +1634,22 @@
         "year": 2018,
         "zerostyle": "slashed"
     },
+    "reddit-sans": {
+        "author": "Stephen Hutchings",
+        "description": "Reddit Sans is built for the Internet, with clear, understandable letterforms that still maintain some of the warm eclectic nature of online discourse.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Reddit Sans Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "bold",
+            "regular"
+        ],
+        "website": "https://redditsans.s-ings.com",
+        "year": 2020,
+        "zerostyle": "slashed"
+    },
     "redhat": {
         "author": "Jeremy Mickel",
         "description": "In our font family, each character is made up of perfect circles and straight, even lines.",

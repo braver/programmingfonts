@@ -1535,6 +1535,18 @@
   src: url('../resources/recursive-mono-linear/recursive-mono-linear.ttf');
 }
 @font-face {
+  font-family: 'reddit-sans';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/reddit-sans/reddit-sans-bold.woff2');
+}
+@font-face {
+  font-family: 'reddit-sans';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/reddit-sans/reddit-sans.woff2');
+}
+@font-face {
   font-family: 'redhat';
   font-weight: bold;
   font-style: italic;

@@ -1778,6 +1778,19 @@
         "year": 2018,
         "zerostyle": "slashed"
     },
+    "sono": {
+        "author": "Ty Finck",
+        "description": "A soft monospace or proportional typeface.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Sono",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": "A variable font available as 7 separate weights. No italics.",
+        "website": "https://etceteratype.co/sono",
+        "year": 2020,
+        "zerostyle": "dotted"
+    },
     "source-code-pro": {
         "author": "Paul D. Hunt",
         "description": "Source Code Pro is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.",

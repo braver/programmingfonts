@@ -1247,6 +1247,126 @@
   src: url('../resources/meslo/meslo.woff');
 }
 @font-face {
+  font-family: 'monaspace-argon';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/monaspace-argon/monaspace-argon-bold-italic.woff');
+}
+@font-face {
+  font-family: 'monaspace-argon';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/monaspace-argon/monaspace-argon-bold.woff');
+}
+@font-face {
+  font-family: 'monaspace-argon';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/monaspace-argon/monaspace-argon-italic.woff');
+}
+@font-face {
+  font-family: 'monaspace-argon';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/monaspace-argon/monaspace-argon.woff');
+}
+@font-face {
+  font-family: 'monaspace-krypton';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/monaspace-krypton/monaspace-krypton-bold-italic.woff');
+}
+@font-face {
+  font-family: 'monaspace-krypton';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/monaspace-krypton/monaspace-krypton-bold.woff');
+}
+@font-face {
+  font-family: 'monaspace-krypton';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/monaspace-krypton/monaspace-krypton-italic.woff');
+}
+@font-face {
+  font-family: 'monaspace-krypton';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/monaspace-krypton/monaspace-krypton.woff');
+}
+@font-face {
+  font-family: 'monaspace-neon';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/monaspace-neon/monaspace-neon-bold-italic.woff');
+}
+@font-face {
+  font-family: 'monaspace-neon';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/monaspace-neon/monaspace-neon-bold.woff');
+}
+@font-face {
+  font-family: 'monaspace-neon';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/monaspace-neon/monaspace-neon-italic.woff');
+}
+@font-face {
+  font-family: 'monaspace-neon';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/monaspace-neon/monaspace-neon.woff');
+}
+@font-face {
+  font-family: 'monaspace-radon';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/monaspace-radon/monaspace-radon-bold-italic.woff');
+}
+@font-face {
+  font-family: 'monaspace-radon';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/monaspace-radon/monaspace-radon-bold.woff');
+}
+@font-face {
+  font-family: 'monaspace-radon';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/monaspace-radon/monaspace-radon-italic.woff');
+}
+@font-face {
+  font-family: 'monaspace-radon';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/monaspace-radon/monaspace-radon.woff');
+}
+@font-face {
+  font-family: 'monaspace-xenon';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/monaspace-xenon/monaspace-xenon-bold-italic.woff');
+}
+@font-face {
+  font-family: 'monaspace-xenon';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/monaspace-xenon/monaspace-xenon-bold.woff');
+}
+@font-face {
+  font-family: 'monaspace-xenon';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/monaspace-xenon/monaspace-xenon-italic.woff');
+}
+@font-face {
+  font-family: 'monaspace-xenon';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/monaspace-xenon/monaspace-xenon.woff');
+}
+@font-face {
   font-family: 'monocraft';
   font-weight: normal;
   font-style: normal;

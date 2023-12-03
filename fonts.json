@@ -784,6 +784,19 @@
         "year": 1980,
         "zerostyle": "slashed"
     },
+    "geist": {
+        "author": "Vercel",
+        "description": "Geist is designed for legibility and simplicity. It is a modern, geometric typeface that is based on the principles of classic Swiss typography.",
+        "license": "SIL OFL",
+        "ligatures": true,
+        "name": "Geist",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": "A variable font, delivered in 9 weights but no true italics.",
+        "website": "https://vercel.com/font/mono",
+        "year": 2023,
+        "zerostyle": "slashed"
+    },
     "gintronic": {
         "author": "Mark Frömberg",
         "description": "Gintronic’s gentle appearance makes it a delight to work constantly with code.",

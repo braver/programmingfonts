@@ -235,6 +235,7 @@
     "bront-ubuntu": {
         "author": "Chris Wendt",
         "description": "Bront is a collection of tweaked fonts geared towards programming.",
+        "license": "none",
         "ligatures": false,
         "name": "Bront Ubuntu Mono",
         "rendering": "vector",
@@ -353,6 +354,7 @@
     "consolamono": {
         "author": "Wojciech Kalinowski",
         "description": "“It's my old unfinished font. I made some sketches of several glyphs 5-6 years ago, and I never finished this. Now I made missing glyphs, did changes of some glyphs and turn into monospaced font.”",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Consolamono",
         "rendering": "vector",
@@ -1008,6 +1010,7 @@
     "inconsolata-g": {
         "author": "Leonardo Maffi",
         "description": "A customized version of Inconsolata, with straight quotes, a dotted zero, and various other tweaks.",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Inconsolata-g",
         "rendering": "vector",
@@ -1050,6 +1053,7 @@
     "input": {
         "author": "David Jonathan Ross",
         "description": "Input is a flexible system of fonts designed specifically for code",
+        "license": "commercial",
         "ligatures": false,
         "name": "Input",
         "rendering": "vector",
@@ -1139,6 +1143,7 @@
     "latin-modern": {
         "author": "Donald E. Knuth",
         "description": "The Latin Modern fonts are derived from the famous Computer Modern fonts designed by Donald E. Knuth and described in Volume E of his Computers & Typesetting series.",
+        "license": "GUST font license",
         "ligatures": false,
         "name": "Latin Modern Mono",
         "rendering": "vector",
@@ -1232,6 +1237,7 @@
     "luxi": {
         "author": "Kris Holmes, Charles Bigelow",
         "description": "Luxi is a family of typefaces originally designed for the X Window System by Bigelow & Holmes Inc. The Luxi typefaces are similar to Lucida – their previous font design.",
+        "license": "Luxi License",
         "ligatures": false,
         "name": "Luxi Mono",
         "rendering": "vector",
@@ -1434,6 +1440,7 @@
     "monofur": {
         "author": "Tobias Benjamin Köhler",
         "description": "This is a monospaced geometric rounded sans serif font based on the eurofurence typeface family.",
+        "license": "freeware",
         "ligatures": false,
         "name": "Monofur",
         "rendering": "vector",
@@ -1495,6 +1502,7 @@
     "notcouriersans": {
         "author": "Open Source Publishing",
         "description": "NotCourier is a re-interpretation of Nimbus Mono and was designed in Wroclaw at the occasion of Libre Graphics Meeting (LGM 2008).",
+        "license": "GNU GPL",
         "ligatures": false,
         "name": "NotCourierSans",
         "rendering": "vector",
@@ -1778,6 +1786,7 @@
     "sax": {
         "author": "s.a.x. Software",
         "description": "saxMono is a sample of a fine TrueType with high screen quality. Its spacing (11 cpi@12 pt) is between the Courier and Letter Gothic.",
+        "license": "freeware",
         "ligatures": false,
         "name": "saxMono",
         "rendering": "vector",
@@ -1839,11 +1848,12 @@
     "sk-modernist": {
         "author": "Sean Kane",
         "description": "Sk-Modernist is a minimalist and clean typeface which eschews complicated forms.",
+        "license": "commercial",
         "ligatures": false,
         "name": "SK Modernist Mono",
         "rendering": "vector",
         "style": "sans",
-        "website": "http://seankanedesign.com/work/sk-modernist",
+        "website": "https://seankanedesign.gumroad.com/l/sk-modernist",
         "year": 2015,
         "zerostyle": "slashed"
     },
@@ -1954,6 +1964,7 @@
     "tex-gyre-cursor": {
         "author": "GUST e-foundry",
         "description": "It is here where GUST's e-foundry guys, Bogusław Jackowski, Janusz M. Nowacki and Piotr Strzelczyk, supported in LaTeX matters by Marcin Woliński, are delivering fonts developed by them for the TeX Gyre Project.",
+        "license": "GUST font license",
         "ligatures": false,
         "name": "TeX Gyre Cursor",
         "rendering": "vector",
@@ -1995,6 +2006,7 @@
     "ubuntu": {
         "author": "Dalton Maag",
         "description": "The way typography is used says as much about our brand as the words themselves. The Ubuntu typeface has been specially created to complement the Ubuntu tone of voice.",
+        "license": "Ubuntu Font Licence",
         "ligatures": false,
         "name": "Ubuntu Mono",
         "rendering": "vector",

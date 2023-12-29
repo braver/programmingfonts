@@ -33,10 +33,15 @@
                         "BSD-2-Clause",
                         "CC BY-SA 4.0",
                         "CC BY-ND 3.0",
+                        "freeware",
                         "GNU GPL",
+                        "GUST font license",
+                        "Luxi License",
                         "MIT",
+                        "none",
                         "public domain",
                         "SIL OFL",
+                        "Ubuntu Font Licence",
                         "WTFPL"
                     ]
                 },
@@ -76,6 +81,7 @@
             "required": [
                 "author",
                 "description",
+                "license",
                 "ligatures",
                 "name",
                 "rendering",

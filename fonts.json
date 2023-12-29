@@ -598,6 +598,8 @@
     },
     "envy-code-r": {
         "author": "Damien Guard",
+        "description": "[The] new box-drawing, shading and symbols make Envy Code R a great font for the command-prompt.",
+        "license": "SIL OFL",
         "ligatures": false,
         "name": "Envy Code R",
         "rendering": "vector",

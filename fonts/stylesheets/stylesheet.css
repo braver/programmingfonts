@@ -623,6 +623,24 @@
   src: url('../resources/ellograph/ellograph.woff');
 }
 @font-face {
+  font-family: 'envy-code-r';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/envy-code-r/envy-code-r-bold.woff');
+}
+@font-face {
+  font-family: 'envy-code-r';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/envy-code-r/envy-code-r-italic.woff');
+}
+@font-face {
+  font-family: 'envy-code-r';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/envy-code-r/envy-code-r.woff');
+}
+@font-face {
   font-family: 'fairfax';
   font-weight: bold;
   font-style: normal;

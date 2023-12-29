@@ -623,6 +623,12 @@
   src: url('../resources/ellograph/ellograph.woff');
 }
 @font-face {
+  font-family: 'envy-code-b';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/envy-code-b/envy-code-b.ttf');
+}
+@font-face {
   font-family: 'envy-code-r';
   font-weight: bold;
   font-style: normal;

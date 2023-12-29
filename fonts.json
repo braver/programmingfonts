@@ -598,6 +598,19 @@
         "website": "https://connary.com/ellograph.html",
         "year": 2020
     },
+    "envy-code-b": {
+        "author": "Damien Guard",
+        "bitmap size": 10,
+        "description": "It’s been a long time coming but finally – a TrueType conversion of my programming font Envy Code B.",
+        "license": "none",
+        "ligatures": false,
+        "name": "Envy Code B",
+        "rendering": "bitmap",
+        "style": "sans",
+        "zerostyle": "slashed",
+        "website": "https://damieng.com/blog/2006/11/06/envy-code-b-font-available-in-ttf-format/",
+        "year": 2006
+    },
     "envy-code-r": {
         "author": "Damien Guard",
         "description": "[The] new box-drawing, shading and symbols make Envy Code R a great font for the command-prompt.",

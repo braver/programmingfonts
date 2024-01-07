@@ -295,6 +295,27 @@
         "year": 2022,
         "zerostyle": "empty"
     },
+    "cm-unicode": {
+        "author": "Donald Knuth",
+        "description": "Computer Modern is the original family of typefaces used by the typesetting program TeX.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Computer Modern Unicode Typewriter",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "regular",
+            "italic",
+            "oblique",
+            "bold",
+            "bold-italic",
+            "light",
+            "light-italic"
+        ],
+        "website": "https://cm-unicode.sourceforge.io",
+        "year": 1992,
+        "zerostyle": "empty"
+    },
     "code-new-roman": {
         "author": "Samiru R.",
         "description": "Code New Roman is aimed for use in programming environments and other circumstances where a monospaced font is specified.",

@@ -329,6 +329,30 @@
   src: url('../resources/chivo/chivo.ttf');
 }
 @font-face {
+  font-family: 'cm-unicode';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/cm-unicode/cm-unicode-bold-italic.ttf');
+}
+@font-face {
+  font-family: 'cm-unicode';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/cm-unicode/cm-unicode-bold.ttf');
+}
+@font-face {
+  font-family: 'cm-unicode';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/cm-unicode/cm-unicode-italic.ttf');
+}
+@font-face {
+  font-family: 'cm-unicode';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/cm-unicode/cm-unicode.ttf');
+}
+@font-face {
   font-family: 'code-new-roman';
   font-weight: normal;
   font-style: normal;

@@ -296,7 +296,7 @@
         "zerostyle": "empty"
     },
     "cm-unicode": {
-        "author": "Donald Knuth",
+        "author": "Donald E. Knuth",
         "description": "Computer Modern is the original family of typefaces used by the typesetting program TeX.",
         "license": "SIL OFL",
         "ligatures": false,

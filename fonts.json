@@ -1084,6 +1084,21 @@
         "year": 2001,
         "zerostyle": "slashed"
     },
+    "indicate": {
+        "author": "Jonas Pelzer",
+        "description": "While preserving the strict order of a monospace typeface, Indicate Mono partly moves away from the typical technical aesthetics of fixed-width typefaces. The font is available on a pay-what-you-want basis.",
+        "license": "commercial",
+        "ligatures": false,
+        "name": "Indicate Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "regular"
+        ],
+        "website": "https://jonastype.com/indicate-mono",
+        "year": 2023,
+        "zerostyle": "slashed"
+    },
     "input": {
         "author": "David Jonathan Ross",
         "description": "Input is a flexible system of fonts designed specifically for code",

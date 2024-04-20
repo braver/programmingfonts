@@ -1055,6 +1055,12 @@
   src: url('../resources/inconsolata-otf/inconsolata-otf.otf');
 }
 @font-face {
+  font-family: 'indicate';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/indicate/indicate.woff2');
+}
+@font-face {
   font-family: 'inconsolata-go';
   font-weight: bold;
   font-style: normal;

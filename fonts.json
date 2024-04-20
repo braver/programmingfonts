@@ -75,6 +75,21 @@
         "year": 2003,
         "zerostyle": "empty"
     },
+    "audio-link": {
+        "author": "llealloo",
+        "description": "AudioLink is a system that analyzes and processes in-world audio into many different highly reactive data streams and exposes the data to VRChat Udon, world shaders, and avatar shaders.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "AudioLink Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "regular"
+        ],
+        "website": "https://audiolink.dev",
+        "year": 2022,
+        "zerostyle": "slashed"
+    },
     "aurulent": {
         "author": "Stephen G. Hartke",
         "description": "Aurulent Sans is a humanist sans serif intended to be used as an interface font.",

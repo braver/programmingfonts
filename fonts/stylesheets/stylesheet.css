@@ -77,6 +77,18 @@
   src: url('../resources/apl385/apl385.ttf');
 }
 @font-face {
+  font-family: 'audio-link';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/audio-link/audio-link-bold.ttf');
+}
+@font-face {
+  font-family: 'audio-link';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/audio-link/audio-link.ttf');
+}
+@font-face {
   font-family: 'aurulent';
   font-weight: normal;
   font-style: normal;

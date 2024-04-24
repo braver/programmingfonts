@@ -308,33 +308,26 @@
                 <textarea id="code" name="code">
 // Type some code ->
 
-console.log "oO08 iIlL1 g9qCGQ ~-+=>";
-// â é ù ï ø ç Ã Ē Æ œ
+const similar = "oO08 iIlL1 g9qCGQ"
+const diacritics_etc = "â é ù ï ø ç Ã Ē Æ œ"
 
-function updateGutters(cm) {
-    var gutters = cm.display.gutters,
-        __specs = cm.options.gutters;
-
-    removeChildren(gutters);
-
-    for (var i = 0; i < specs.length; ++i) {
-        var gutterClass = __specs[i];
-        var gElt = gutters.appendChild(
-            elt(
-                "div",
-                null,
-                "CodeMirror-gutter " + gutterClass
-            )
-        );
-        if (gutterClass == "CodeMirror-linenumbers") {
-            cm.display.lineGutter = gElt;
-            gElt.style.width = (cm.display.lineNumWidth || 1) + "px";
+window.toggleFavorite = (alias) => {
+    try {
+        let favorites = JSON.parse(localStorage.getItem('favorites')) || []
+        if (favorites.indexOf(alias) > -1) {
+            favorites = favorites.filter((v) => {
+                return v !== alias
+            })
+        } else {
+            favorites.push(alias)
         }
+        localStorage.setItem('favorites', JSON.stringify(Array.from(new Set(favorites))))
+    } catch (err) {
+        // eslint-disable-next-line no-console
+        console.error('could not save favorite', err)
     }
-    gutters.style.display = i ? "" : "none";
-    updateGutterSpace(cm);
-
-    return false;
+    renderSelectList()
+    return false
 }
 
 

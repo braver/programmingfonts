@@ -37,7 +37,7 @@ function getFont () {
   }
 
   if (!font) {
-    font = 'source-code-pro'
+    font = 'monolisa'
   }
 
   return font

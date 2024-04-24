@@ -1526,6 +1526,19 @@
         "year": 2015,
         "zerostyle": "slashed"
     },
+    "monolisa": {
+        "author": "FaceType",
+        "description": "MonoLisa was designed by professionals to improve developers’ productivity and reduce fatigue.",
+        "license": "commercial",
+        "ligatures": true,
+        "name": "MonoLisa",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": "9 weights with italics, a variable version, and OpenType alternatives for slashed zeroes, ligatures, etc.",
+        "website": "https://www.monolisa.dev",
+        "year": 2022,
+        "zerostyle": "dotted"
+    },
     "mononoki": {
         "author": "Matthias Tellen",
         "description": "A font for programming and code review",

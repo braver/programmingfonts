@@ -1,0 +1,55 @@
+/*!
+* @preserve
+* MonoLisa 2.013
+* This font is subject to a EULA. A user-licence can be acquired at:
+*   https://www.monolisa.dev/license
+* © 2024 FaceType Foundry. All Rights Reserved.
+*/
+
+@font-face {
+  src: url(0-normal.woff2);
+  font-family: 'monolisa';
+  font-weight: 100 900;
+  font-style: normal;
+  unicode-range: U+0020-007F;
+}
+
+@font-face {
+  src: url(1-italic.woff2);
+  font-family: 'monolisa';
+  font-weight: 100 900;
+  font-style: italic;
+  unicode-range: U+0020-007F;
+}
+
+@font-face {
+  src: url(2-normal.woff2);
+  font-family: 'monolisa';
+  font-weight: 100 900;
+  font-style: normal;
+  unicode-range: U+2300-23FF;
+}
+
+@font-face {
+  src: url(3-italic.woff2);
+  font-family: 'monolisa';
+  font-weight: 100 900;
+  font-style: italic;
+  unicode-range: U+2300-23FF;
+}
+
+@font-face {
+  src: url(4-normal.woff2);
+  font-family: 'monolisa';
+  font-weight: 100 900;
+  font-style: normal;
+  unicode-range: U+2190-21FF;
+}
+
+@font-face {
+  src: url(5-italic.woff2);
+  font-family: 'monolisa';
+  font-weight: 100 900;
+  font-style: italic;
+  unicode-range: U+2190-21FF;
+}

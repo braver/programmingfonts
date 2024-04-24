@@ -41,7 +41,6 @@ We've been able to license some commercial fonts for programmingfonts.org, but t
 - Lucida Console: https://learn.microsoft.com/en-us/typography/font-list/lucida-console
 - Menlo: https://en.wikipedia.org/wiki/Menlo_(typeface)
 - Monaco: https://en.wikipedia.org/wiki/Monaco_(typeface)
-- MonoLisa: https://www.monolisa.dev
 - Native: https://fortfoundry.com/fonts/native
 - Operator: https://www.typography.com/fonts/operator/overview
 - PragmataPro: https://fsd.it/shop/fonts/pragmatapro/

@@ -73,8 +73,9 @@ There are sometimes near infinite variations of certain fonts. Take for instance
 
 Therefore:
 
-- We only include the basic 4 styles of any font to ensure correct rendering in the preview, but don't let you explore all the weights and variation. 
-- Open type alternatives for zero style, and other options (e.g. all the different variations possible with [Input Mono](https://input.fontbureau.com)) are not exposed.
+- We only include the basic 4 styles of any font to ensure correct rendering in the preview, but don't let you explore all the weights and variations. 
+- Open type alternatives for zero style, and others (for instance all the different variations possible with [Input Mono](https://input.fontbureau.com)) are not exposed.
+- Programming ligatures (e.g. `=>`) are switched on, but if you don't like them most editors will allow you to switch them off.
 - Character set coverage and other valuable information, e.g. if a font has true italics, is not exposed. If you have specific use cases, known candidates for wide character set coverage include Noto, DejaVu and GNU Unifont, whereas M+ covers most CJK sets.
 
 

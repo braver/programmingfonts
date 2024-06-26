@@ -1817,28 +1817,28 @@
   src: url('../resources/scientifica/scientifica-italic.ttf');
 }
 @font-face {
-  font-family: 'serious-sans';
+  font-family: 'serious-shanns';
   font-weight: bold;
   font-style: italic;
-  src: url('../resources/serious-sans/serious-sans-bold-italic.ttf');
+  src: url('../resources/serious-shanns/serious-shanns-bold-italic.otf');
 }
 @font-face {
-  font-family: 'serious-sans';
+  font-family: 'serious-shanns';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/serious-sans/serious-sans-bold.ttf');
+  src: url('../resources/serious-shanns/serious-shanns-bold.otf');
 }
 @font-face {
-  font-family: 'serious-sans';
+  font-family: 'serious-shanns';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/serious-sans/serious-sans-italic.ttf');
+  src: url('../resources/serious-shanns/serious-shanns-italic.otf');
 }
 @font-face {
-  font-family: 'serious-sans';
+  font-family: 'serious-shanns';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/serious-sans/serious-sans.ttf');
+  src: url('../resources/serious-shanns/serious-shanns.otf');
 }
 @font-face {
   font-family: 'share-tech';

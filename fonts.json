@@ -1890,12 +1890,12 @@
         "year": 2019,
         "zerostyle": "slashed"
     },
-    "serious-shaans": {
+    "serious-shanns": {
         "author": "Kyle Beechly",
         "description": "A legible monospace font for playful professionals. Comic Sans for hackers.",
         "license": "MIT",
         "ligatures": false,
-        "name": "Serious Shaans",
+        "name": "Serious Shanns",
         "rendering": "vector",
         "style": "sans",
         "variants": [

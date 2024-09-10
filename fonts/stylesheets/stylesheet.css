@@ -563,6 +563,12 @@
   src: url('../resources/dejavu/dejavu.woff');
 }
 @font-face {
+  font-family: 'departure-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/departure-mono/departure-mono.woff2');
+}
+@font-face {
   font-family: 'dm-mono';
   font-weight: normal;
   font-style: italic;

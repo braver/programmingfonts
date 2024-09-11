@@ -74,7 +74,7 @@ There are sometimes near infinite variations of certain fonts. Take for instance
 Therefore:
 
 - We only include the basic 4 styles of any font to ensure correct rendering in the preview, but don't let you explore all the weights and variations. 
-- Open type alternatives for zero style, and others (for instance all the different variations possible with [Input Mono](https://input.fontbureau.com)) are not exposed.
+- Open type alternatives for zero style, and others (for instance all the different variations possible with [Input Mono](https://input.djr.com)) are not exposed.
 - Programming ligatures (e.g. `=>`) are switched on, but if you don't like them most editors will allow you to switch them off.
 - Character set coverage and other valuable information, e.g. if a font has true italics, is not exposed. If you have specific use cases, known candidates for wide character set coverage include Noto, DejaVu and GNU Unifont, whereas M+ covers most CJK sets.
 
@@ -156,7 +156,7 @@ Therefore:
 - [InconsolataGo](https://levien.com/type/myfonts/inconsolata.html) _SIL OFL_ ([view](https://www.programmingfonts.org/#inconsolata-go))
 - [Inconsolata OTF](https://levien.com/type/myfonts/inconsolata.html) _SIL OFL_ ([view](https://www.programmingfonts.org/#inconsolata-otf))
 - [Indicate Mono](https://jonastype.com/indicate-mono) _commercial_ ([view](https://www.programmingfonts.org/#indicate))
-- [Input](http://input.fontbureau.com) _commercial_ ([view](https://www.programmingfonts.org/#input))
+- [Input](https://input.djr.com) _commercial_ ([view](https://www.programmingfonts.org/#input))
 - [Intel One Mono](https://github.com/intel/intel-one-mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#intel-one-mono))
 - [Iosevka](http://be5invis.github.io/Iosevka/) _SIL OFL_ ([view](https://www.programmingfonts.org/#iosevka))
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/) _SIL OFL_ ([view](https://www.programmingfonts.org/#jetbrainsmono))

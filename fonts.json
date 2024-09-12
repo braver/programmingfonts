@@ -544,6 +544,21 @@
         "year": 2004,
         "zerostyle": "dotted"
     },
+    "departure-mono": {
+        "author": "Helena Zhang",
+        "description": "Departure Mono is a monospaced pixel font inspired by the constraints of early command-line and graphical user interfaces, the tiny pixel fonts of the late 90s/early 00s, and sci-fi concepts from film and television.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Departure Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "regular"
+        ],
+        "website": "https://departuremono.com/",
+        "year": 2024,
+        "zerostyle": "slashed"
+    },
     "dm-mono": {
         "author": "Colophon Foundry",
         "description": "DM Mono is a three weight, three style family designed for DeepMind. DM Mono was loosely based off of DM Sans, with a reduction in contrast and less geometric proportions.",

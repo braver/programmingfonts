@@ -118,6 +118,7 @@ Therefore:
 - [D2Coding](https://github.com/naver/d2codingfont) _SIL OFL_ ([view](https://www.programmingfonts.org/#d2coding))
 - [DaddyTimeMono](https://github.com/BourgeoisBear/DaddyTimeMono) _SIL OFL_ ([view](https://www.programmingfonts.org/#daddytimemono))
 - [DejaVu Mono](https://dejavu-fonts.github.io) _Bitstream Vera_ ([view](https://www.programmingfonts.org/#dejavu))
+- [Departure Mono](https://departuremono.com/) _SIL OFL_ ([view](https://www.programmingfonts.org/#departure-mono))
 - [DM Mono](https://fonts.google.com/specimen/DM+Mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#dm-mono))
 - [Drafting* Mono](https://indestructibletype.com/Drafting/) _SIL OFL_ ([view](https://www.programmingfonts.org/#drafting))
 - [Droid Sans](https://fonts.google.com/specimen/Droid+Sans) _Apache_ ([view](https://www.programmingfonts.org/#droid-sans))

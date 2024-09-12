@@ -552,6 +552,9 @@
         "name": "Departure Mono",
         "rendering": "vector",
         "style": "sans",
+        "variants": [
+            "regular"
+        ],
         "website": "https://departuremono.com/",
         "year": 2024,
         "zerostyle": "slashed"

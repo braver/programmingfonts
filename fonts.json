@@ -1591,6 +1591,19 @@
         "year": 2009,
         "zerostyle": "dotted"
     },
+    "nk57": {
+        "author": "Raymond Larabie",
+        "description": "Unlike many monospaced screen fonts that prioritize low-resolution use, NK57 Monospace was created with varying proportions, ensuring that its symbols and characters are easily visible, even on the smallest of screens. This makes it an ideal choice for developers who need to view and edit code on the go.",
+        "license": "public domain",
+        "ligatures": false,
+        "name": "NK57 Monospace",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": "60 variants differing in weight and compactness.",
+        "website": "https://www.dafont.com/nk57-monospace.font",
+        "year": 2015,
+        "zerostyle": "empty"
+    },
     "notcouriersans": {
         "author": "Open Source Publishing",
         "description": "NotCourier is a re-interpretation of Nimbus Mono and was designed in Wroclaw at the occasion of Libre Graphics Meeting (LGM 2008).",

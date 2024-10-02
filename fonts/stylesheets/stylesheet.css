@@ -1571,6 +1571,30 @@
   src: url('../resources/nanum-gothic-coding/nanum-gothic-coding.ttf');
 }
 @font-face {
+  font-family: 'nk57';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/nk57/nk57-bold-italic.otf');
+}
+@font-face {
+  font-family: 'nk57';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/nk57/nk57-bold.otf');
+}
+@font-face {
+  font-family: 'nk57';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/nk57/nk57-italic.otf');
+}
+@font-face {
+  font-family: 'nk57';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/nk57/nk57.otf');
+}
+@font-face {
   font-family: 'notcouriersans';
   font-weight: bold;
   font-style: normal;

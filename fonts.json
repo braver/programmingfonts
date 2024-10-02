@@ -1949,6 +1949,21 @@
         "year": 2015,
         "zerostyle": "slashed"
     },
+    "sligoil": {
+        "author": "Ariel Martín Pérez",
+        "description": "The Sligoil typeface has been influenced by the culture of the British isles and also by the letters on vintage Space Cadet keyboards.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Sligoil",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "regular"
+        ],
+        "website": "https://velvetyne.fr/fonts/sligoil/",
+        "year": 2022,
+        "zerostyle": "slashed"
+    },
     "sometype-mono": {
         "author": "Ryoichi Tsunekawa",
         "description": "Sometype Mono is a monospaced font family for coding and tabular layout. Consists of 6 styles so far.",

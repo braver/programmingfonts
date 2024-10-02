@@ -1859,6 +1859,12 @@
   src: url('../resources/sk-modernist/sk-modernist.woff');
 }
 @font-face {
+  font-family: 'sligoil';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/sligoil/sligoil.woff2');
+}
+@font-face {
   font-family: 'sono';
   font-weight: bold;
   font-style: normal;

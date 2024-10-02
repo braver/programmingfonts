@@ -641,6 +641,18 @@
   src: url('../resources/effects-eighty/effects-eighty.otf');
 }
 @font-face {
+  font-family: 'eirian';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/eirian/eirian-italic.woff2');
+}
+@font-face {
+  font-family: 'eirian';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/eirian/eirian.woff2');
+}
+@font-face {
   font-family: 'ellograph';
   font-weight: bold;
   font-style: italic;

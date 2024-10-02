@@ -637,6 +637,22 @@
         "year": 2013,
         "zerostyle": "empty"
     },
+    "eirian": {
+        "author": "GGBotNet",
+        "description": "GGBotNet develops, designs and distributes free fonts.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Eirian",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "regular",
+            "italic"
+        ],
+        "website": "https://ggbot.itch.io/eirian-font",
+        "year": 2022,
+        "zerostyle": "dotted"
+    },
     "ellograph": {
         "author": "Connary Fagen",
         "description": "A friendly monospaced typeface with a soft, rounded construction and striking cursive italics. A generous x-height and short descenders allow for even, flowing lines of text.",

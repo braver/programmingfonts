@@ -571,6 +571,21 @@
         "year": 2020,
         "zerostyle": "slashed"
     },
+    "dpsdbeyond": {
+        "author": "University of the Aegean",
+        "description": "DPSDbeyond is the result of an attempt by the students of the University of the Aegean, to design a typeface in a collaborative way, during a one-day workshop.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "DPSDbeyond",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "regular"
+        ],
+        "website": "https://backpacker.gr/fonts/11",
+        "year": 2011,
+        "zerostyle": "dotted"
+    },
     "drafting": {
         "author": "Owen Earl",
         "description": "An ode to our past.  A celebration of inconsistencies.",

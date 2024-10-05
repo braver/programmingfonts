@@ -581,6 +581,12 @@
   src: url('../resources/dm-mono/dm-mono-regular.woff');
 }
 @font-face {
+  font-family: 'dpsdbeyond';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/dpsdbeyond/dpsdbeyond.otf');
+}
+@font-face {
   font-family: 'drafting';
   font-weight: bold;
   font-style: italic;

@@ -65,12 +65,13 @@ Some bitmap fonts are only available in (Windows) FON files. Sometimes conversio
 - UW ttyp0: https://people.mpi-inf.mpg.de/~uwe/misc/uw-ttyp0/
 - Zevv-peep: https://github.com/netyaroze/zevv-peep
 
-### Still to be added
+### Mixed fonts
 
+These fonts combine different fonts, that are mostly already featured on this website, to create a complete set of characters for both lating script, and CJK: 
 - Ricty Diminished: https://github.com/edihbrandon/RictyDiminished (combines Inconsolata for Latin script with M+ for others)
 - Sarasa-Gothic: https://github.com/be5invis/Sarasa-Gothic A CJK programming font based on Iosevka and Source Han Sans.
-- P8: https://github.com/juanitogan/p8-programming-fonts
 
+The PICO-8 project combines and tweaks several fonts for PICO-8 programming: https://github.com/juanitogan/p8-programming-fonts
 
 ## Limitations of this project
 

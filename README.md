@@ -58,7 +58,12 @@ To date we've been unable to find a reliable source of information or downloads 
 Some bitmap fonts are only available in (Windows) FON files. Sometimes conversions to TTF are available, but they don't always work. Sadly we can't include these on the website:
 
 - Dina: https://www.dcmembers.com/jibsen/download/61/
+- Glean: https://github.com/benwr/glean
+- Neep: https://github.com/nikolas/jmk-x11-fonts
+- Tamsyn: http://www.fial.com/~scott/tamsyn-font/
 - Triskweline: http://www.netalive.org/tinkering/triskweline/
+- UW ttyp0: https://people.mpi-inf.mpg.de/~uwe/misc/uw-ttyp0/
+- Zevv-peep: https://github.com/netyaroze/zevv-peep
 
 ### Still to be added
 

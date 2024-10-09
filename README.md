@@ -52,6 +52,11 @@ To date we've been unable to find a reliable source of information or downloads 
 
 - Cruft
 - Espresso Mono
+- Selectric
+- Topaz-8
+- TI92PLUS
+- DejaVu Markup
+- Natural Mono
 
 ### Bitmap FON files
 

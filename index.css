@@ -248,7 +248,7 @@ section.config {
     grid-column-gap: 4px;
     grid-row-gap: 4px;
     grid-row-gap: 4px;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
     padding: 8px;
     font-size: 10px;
     border: 1px solid var(--light-grey);
@@ -530,7 +530,7 @@ button {
 
 select {
     all: unset;
-    width: 9em;
+    width: 8.5em;
     padding: 0 .5ex;
     border: 1px solid var(--light-grey);
     border-radius: 3px;

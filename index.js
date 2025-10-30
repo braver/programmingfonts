@@ -6,6 +6,7 @@ import { Filters } from './modules/filters.js'
 import { Language } from './modules/language.js'
 import { Spacing } from './modules/spacing.js'
 import { Theme } from './modules/theme.js'
+import { Ligatures } from "./modules/ligatures.js";
 
 const defaultFont = 'md-io'
 const fontsize = new Fontsize()
@@ -265,6 +266,7 @@ window.addEventListener('DOMContentLoaded', () => {
   new Theme().init()
   new Spacing().init()
   new Language().init()
+  new Ligatures().init();
 
   document.querySelector('.select-list').onkeydown = (event) => {
     if (event.ctrlKey || event.altKey || event.metaKey || event.shiftKey) {

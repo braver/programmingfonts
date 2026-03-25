@@ -2397,13 +2397,13 @@
     },
     "terminus": {
         "author": "Dimitar Toshkov Zhekov",
-        "description": "A TrueType version of Terminus Font, a fixed-width bitmap font optimized for long work with computers.",
+        "description": "An OpenType version of Terminus, a fixed-width bitmap font optimized for long work with computers.",
         "license": "SIL OFL",
         "ligatures": false,
-        "name": "Terminus (TTF)",
+        "name": "Terminus (Consoleet OTF)",
         "rendering": "vector",
         "style": "sans",
-        "website": "https://files.ax86.net/terminus-ttf",
+        "website": "https://inai.de/projects/consoleet/terminus",
         "year": 2010,
         "zerostyle": "slashed"
     },

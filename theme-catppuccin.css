@@ -1,0 +1,309 @@
+.cm-s-catppuccin-latte {
+    --ctp-rosewater: #dc8a78;
+    --ctp-flamingo: #dd7878;
+    --ctp-pink: #ea76cb;
+    --ctp-mauve: #8839ef;
+    --ctp-red: #d20f39;
+    --ctp-maroon: #e64553;
+    --ctp-peach: #fe640b;
+    --ctp-yellow: #df8e1d;
+    --ctp-green: #40a02b;
+    --ctp-teal: #179299;
+    --ctp-sky: #04a5e5;
+    --ctp-sapphire: #209fb5;
+    --ctp-blue: #1e66f5;
+    --ctp-lavender: #7287fd;
+    --ctp-text: #4c4f69;
+    --ctp-subtext1: #5c5f77;
+    --ctp-subtext0: #6c6f85;
+    --ctp-overlay2: #7c7f93;
+    --ctp-overlay1: #8c8fa1;
+    --ctp-overlay0: #9ca0b0;
+    --ctp-surface2: #acb0be;
+    --ctp-surface1: #bcc0cc;
+    --ctp-surface0: #ccd0da;
+    --ctp-base: #eff1f5;
+    --ctp-mantle: #e6e9ef;
+    --ctp-crust: #dce0e8;
+}
+
+.cm-s-catppuccin-frappe {
+    --ctp-rosewater: #f2d5cf;
+    --ctp-flamingo: #eebebe;
+    --ctp-pink: #f4b8e4;
+    --ctp-mauve: #ca9ee6;
+    --ctp-red: #e78284;
+    --ctp-maroon: #ea999c;
+    --ctp-peach: #ef9f76;
+    --ctp-yellow: #e5c890;
+    --ctp-green: #a6d189;
+    --ctp-teal: #81c8be;
+    --ctp-sky: #99d1db;
+    --ctp-sapphire: #85c1dc;
+    --ctp-blue: #8caaee;
+    --ctp-lavender: #babbf1;
+    --ctp-text: #c6d0f5;
+    --ctp-subtext1: #b5bfe2;
+    --ctp-subtext0: #a5adce;
+    --ctp-overlay2: #949cbb;
+    --ctp-overlay1: #838ba7;
+    --ctp-overlay0: #737994;
+    --ctp-surface2: #626880;
+    --ctp-surface1: #51576d;
+    --ctp-surface0: #414559;
+    --ctp-base: #303446;
+    --ctp-mantle: #292c3c;
+    --ctp-crust: #232634;
+}
+
+.cm-s-catppuccin-macchiato {
+    --ctp-rosewater: #f4dbd6;
+    --ctp-flamingo: #f0c6c6;
+    --ctp-pink: #f5bde6;
+    --ctp-mauve: #c6a0f6;
+    --ctp-red: #ed8796;
+    --ctp-maroon: #ee99a0;
+    --ctp-peach: #f5a97f;
+    --ctp-yellow: #eed49f;
+    --ctp-green: #a6da95;
+    --ctp-teal: #8bd5ca;
+    --ctp-sky: #91d7e3;
+    --ctp-sapphire: #7dc4e4;
+    --ctp-blue: #8aadf4;
+    --ctp-lavender: #b7bdf8;
+    --ctp-text: #cad3f5;
+    --ctp-subtext1: #b8c0e0;
+    --ctp-subtext0: #a5adcb;
+    --ctp-overlay2: #939ab7;
+    --ctp-overlay1: #8087a2;
+    --ctp-overlay0: #6e738d;
+    --ctp-surface2: #5b6078;
+    --ctp-surface1: #494d64;
+    --ctp-surface0: #363a4f;
+    --ctp-base: #24273a;
+    --ctp-mantle: #1e2030;
+    --ctp-crust: #181926;
+}
+
+.cm-s-catppuccin-mocha {
+    --ctp-rosewater: #f5e0dc;
+    --ctp-flamingo: #f2cdcd;
+    --ctp-pink: #f5c2e7;
+    --ctp-mauve: #cba6f7;
+    --ctp-red: #f38ba8;
+    --ctp-maroon: #eba0ac;
+    --ctp-peach: #fab387;
+    --ctp-yellow: #f9e2af;
+    --ctp-green: #a6e3a1;
+    --ctp-teal: #94e2d5;
+    --ctp-sky: #89dceb;
+    --ctp-sapphire: #74c7ec;
+    --ctp-blue: #89b4fa;
+    --ctp-lavender: #b4befe;
+    --ctp-text: #cdd6f4;
+    --ctp-subtext1: #bac2de;
+    --ctp-subtext0: #a6adc8;
+    --ctp-overlay2: #9399b2;
+    --ctp-overlay1: #7f849c;
+    --ctp-overlay0: #6c7086;
+    --ctp-surface2: #585b70;
+    --ctp-surface1: #45475a;
+    --ctp-surface0: #313244;
+    --ctp-base: #1e1e2e;
+    --ctp-mantle: #181825;
+    --ctp-crust: #11111b;
+}
+
+.cm-s-catppuccin-latte.CodeMirror,
+.cm-s-catppuccin-frappe.CodeMirror,
+.cm-s-catppuccin-macchiato.CodeMirror,
+.cm-s-catppuccin-mocha.CodeMirror {
+    background: var(--ctp-base);
+    color: var(--ctp-text);
+}
+
+.cm-s-catppuccin-latte .CodeMirror-gutters,
+.cm-s-catppuccin-frappe .CodeMirror-gutters,
+.cm-s-catppuccin-macchiato .CodeMirror-gutters,
+.cm-s-catppuccin-mocha .CodeMirror-gutters {
+    background: var(--ctp-mantle);
+    border-right: 1px solid var(--ctp-surface0);
+    color: var(--ctp-overlay1);
+}
+
+.cm-s-catppuccin-latte .CodeMirror-linenumber,
+.cm-s-catppuccin-frappe .CodeMirror-linenumber,
+.cm-s-catppuccin-macchiato .CodeMirror-linenumber,
+.cm-s-catppuccin-mocha .CodeMirror-linenumber {
+    color: var(--ctp-overlay1);
+}
+
+.cm-s-catppuccin-latte .CodeMirror-cursor,
+.cm-s-catppuccin-frappe .CodeMirror-cursor,
+.cm-s-catppuccin-macchiato .CodeMirror-cursor,
+.cm-s-catppuccin-mocha .CodeMirror-cursor {
+    border-left: 1px solid var(--ctp-rosewater);
+}
+
+.cm-s-catppuccin-latte div.CodeMirror-selected,
+.cm-s-catppuccin-frappe div.CodeMirror-selected,
+.cm-s-catppuccin-macchiato div.CodeMirror-selected,
+.cm-s-catppuccin-mocha div.CodeMirror-selected {
+    background: var(--ctp-surface0);
+}
+
+.cm-s-catppuccin-latte .CodeMirror-line::selection,
+.cm-s-catppuccin-latte .CodeMirror-line > span::selection,
+.cm-s-catppuccin-latte .CodeMirror-line > span > span::selection,
+.cm-s-catppuccin-frappe .CodeMirror-line::selection,
+.cm-s-catppuccin-frappe .CodeMirror-line > span::selection,
+.cm-s-catppuccin-frappe .CodeMirror-line > span > span::selection,
+.cm-s-catppuccin-macchiato .CodeMirror-line::selection,
+.cm-s-catppuccin-macchiato .CodeMirror-line > span::selection,
+.cm-s-catppuccin-macchiato .CodeMirror-line > span > span::selection,
+.cm-s-catppuccin-mocha .CodeMirror-line::selection,
+.cm-s-catppuccin-mocha .CodeMirror-line > span::selection,
+.cm-s-catppuccin-mocha .CodeMirror-line > span > span::selection {
+    background: var(--ctp-surface1);
+}
+
+.cm-s-catppuccin-latte .CodeMirror-activeline-background,
+.cm-s-catppuccin-frappe .CodeMirror-activeline-background,
+.cm-s-catppuccin-macchiato .CodeMirror-activeline-background,
+.cm-s-catppuccin-mocha .CodeMirror-activeline-background {
+    background: var(--ctp-mantle);
+}
+
+.cm-s-catppuccin-latte .CodeMirror-activeline-gutter,
+.cm-s-catppuccin-frappe .CodeMirror-activeline-gutter,
+.cm-s-catppuccin-macchiato .CodeMirror-activeline-gutter,
+.cm-s-catppuccin-mocha .CodeMirror-activeline-gutter {
+    background: var(--ctp-mantle);
+}
+
+.cm-s-catppuccin-latte .CodeMirror-matchingbracket,
+.cm-s-catppuccin-frappe .CodeMirror-matchingbracket,
+.cm-s-catppuccin-macchiato .CodeMirror-matchingbracket,
+.cm-s-catppuccin-mocha .CodeMirror-matchingbracket {
+    background: var(--ctp-surface0);
+    border-bottom: 1px solid var(--ctp-green);
+    color: var(--ctp-green) !important;
+}
+
+.cm-s-catppuccin-latte .cm-comment,
+.cm-s-catppuccin-frappe .cm-comment,
+.cm-s-catppuccin-macchiato .cm-comment,
+.cm-s-catppuccin-mocha .cm-comment {
+    color: var(--ctp-overlay1);
+}
+
+.cm-s-catppuccin-latte .cm-keyword,
+.cm-s-catppuccin-frappe .cm-keyword,
+.cm-s-catppuccin-macchiato .cm-keyword,
+.cm-s-catppuccin-mocha .cm-keyword,
+.cm-s-catppuccin-latte .cm-operator,
+.cm-s-catppuccin-frappe .cm-operator,
+.cm-s-catppuccin-macchiato .cm-operator,
+.cm-s-catppuccin-mocha .cm-operator {
+    color: var(--ctp-mauve);
+}
+
+.cm-s-catppuccin-latte .cm-atom,
+.cm-s-catppuccin-frappe .cm-atom,
+.cm-s-catppuccin-macchiato .cm-atom,
+.cm-s-catppuccin-mocha .cm-atom,
+.cm-s-catppuccin-latte .cm-number,
+.cm-s-catppuccin-frappe .cm-number,
+.cm-s-catppuccin-macchiato .cm-number,
+.cm-s-catppuccin-mocha .cm-number {
+    color: var(--ctp-peach);
+}
+
+.cm-s-catppuccin-latte .cm-def,
+.cm-s-catppuccin-frappe .cm-def,
+.cm-s-catppuccin-macchiato .cm-def,
+.cm-s-catppuccin-mocha .cm-def,
+.cm-s-catppuccin-latte .cm-property,
+.cm-s-catppuccin-frappe .cm-property,
+.cm-s-catppuccin-macchiato .cm-property,
+.cm-s-catppuccin-mocha .cm-property {
+    color: var(--ctp-blue);
+}
+
+.cm-s-catppuccin-latte .cm-variable,
+.cm-s-catppuccin-frappe .cm-variable,
+.cm-s-catppuccin-macchiato .cm-variable,
+.cm-s-catppuccin-mocha .cm-variable {
+    color: var(--ctp-text);
+}
+
+.cm-s-catppuccin-latte .cm-variable-2,
+.cm-s-catppuccin-frappe .cm-variable-2,
+.cm-s-catppuccin-macchiato .cm-variable-2,
+.cm-s-catppuccin-mocha .cm-variable-2,
+.cm-s-catppuccin-latte .cm-tag,
+.cm-s-catppuccin-frappe .cm-tag,
+.cm-s-catppuccin-macchiato .cm-tag,
+.cm-s-catppuccin-mocha .cm-tag {
+    color: var(--ctp-red);
+}
+
+.cm-s-catppuccin-latte .cm-variable-3,
+.cm-s-catppuccin-frappe .cm-variable-3,
+.cm-s-catppuccin-macchiato .cm-variable-3,
+.cm-s-catppuccin-mocha .cm-variable-3,
+.cm-s-catppuccin-latte .cm-type,
+.cm-s-catppuccin-frappe .cm-type,
+.cm-s-catppuccin-macchiato .cm-type,
+.cm-s-catppuccin-mocha .cm-type {
+    color: var(--ctp-yellow);
+}
+
+.cm-s-catppuccin-latte .cm-string,
+.cm-s-catppuccin-frappe .cm-string,
+.cm-s-catppuccin-macchiato .cm-string,
+.cm-s-catppuccin-mocha .cm-string,
+.cm-s-catppuccin-latte .cm-string-2,
+.cm-s-catppuccin-frappe .cm-string-2,
+.cm-s-catppuccin-macchiato .cm-string-2,
+.cm-s-catppuccin-mocha .cm-string-2 {
+    color: var(--ctp-green);
+}
+
+.cm-s-catppuccin-latte .cm-meta,
+.cm-s-catppuccin-frappe .cm-meta,
+.cm-s-catppuccin-macchiato .cm-meta,
+.cm-s-catppuccin-mocha .cm-meta,
+.cm-s-catppuccin-latte .cm-qualifier,
+.cm-s-catppuccin-frappe .cm-qualifier,
+.cm-s-catppuccin-macchiato .cm-qualifier,
+.cm-s-catppuccin-mocha .cm-qualifier,
+.cm-s-catppuccin-latte .cm-builtin,
+.cm-s-catppuccin-frappe .cm-builtin,
+.cm-s-catppuccin-macchiato .cm-builtin,
+.cm-s-catppuccin-mocha .cm-builtin {
+    color: var(--ctp-teal);
+}
+
+.cm-s-catppuccin-latte .cm-attribute,
+.cm-s-catppuccin-frappe .cm-attribute,
+.cm-s-catppuccin-macchiato .cm-attribute,
+.cm-s-catppuccin-mocha .cm-attribute {
+    color: var(--ctp-sky);
+}
+
+.cm-s-catppuccin-latte .cm-link,
+.cm-s-catppuccin-frappe .cm-link,
+.cm-s-catppuccin-macchiato .cm-link,
+.cm-s-catppuccin-mocha .cm-link {
+    color: var(--ctp-lavender);
+    text-decoration: underline;
+}
+
+.cm-s-catppuccin-latte .cm-error,
+.cm-s-catppuccin-frappe .cm-error,
+.cm-s-catppuccin-macchiato .cm-error,
+.cm-s-catppuccin-mocha .cm-error {
+    background: none;
+    color: var(--ctp-red);
+}

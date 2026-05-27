@@ -260,6 +260,7 @@ Therefore:
 - [Sergamon](https://sgmonda.com/sergamon) _SIL OFL_ ([view](https://www.programmingfonts.org/#sergamon))
 - [Serious Shanns](https://kabeech.github.io/serious-shanns/) _MIT_ ([view](https://www.programmingfonts.org/#serious-shanns))
 - [Share Tech Mono](https://fonts.google.com/specimen/Share+Tech+Mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#share-tech))
+- [Sinclair QL Extended](https://fontstruct.com/fontstructions/show/1104062/sinclair_ql_extended_1) _CC BY-SA 3.0_ ([view](https://www.programmingfonts.org/#sinclair-ql-extended))
 - [SK Modernist Mono](https://seankanedesign.gumroad.com/l/sk-modernist) _commercial_ ([view](https://www.programmingfonts.org/#sk-modernist))
 - [Sligoil](https://velvetyne.fr/fonts/sligoil/) _SIL OFL_ ([view](https://www.programmingfonts.org/#sligoil))
 - [Sometype Mono](http://monospacedfont.com/) _SIL OFL_ ([view](https://www.programmingfonts.org/#sometype-mono))

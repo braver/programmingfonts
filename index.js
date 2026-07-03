@@ -1,13 +1,11 @@
 /* global CodeMirror */
 
-import { Cookies } from './modules/cookies.js'
 import { Fontsize } from './modules/fontsize.js'
 import { Filters } from './modules/filters.js'
 import { Language } from './modules/language.js'
 import { Spacing } from './modules/spacing.js'
 import { Theme } from './modules/theme.js'
 
-const defaultFont = 'md-io'
 const fontsize = new Fontsize()
 
 let fontData
@@ -28,17 +26,21 @@ function isVisible (el) {
 }
 
 /**
- * Get the font from the #, the cookie, or a default
+ * Get the first visible (non-filtered) entry's alias from the rendered list
+ */
+function getFirstEntryAlias () {
+  const first = document.querySelector('#select-font .entry:not(.filtered-out):not(.group-child)')
+  return first ? first.getAttribute('data-alias') : null
+}
+
+/**
+ * Get the font from the # or the top-most entry
  */
 function getFont () {
   let font = window.location.hash.substring(1)
 
   if (!font) {
-    font = Cookies.get('font')
-  }
-
-  if (!font) {
-    font = defaultFont
+    font = getFirstEntryAlias()
   }
 
   return font
@@ -116,8 +118,6 @@ function selectFont () {
       })
     }
   }
-
-  Cookies.set('font', font)
 }
 
 const chevronDownIcon = '<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"/></svg>'
@@ -130,7 +130,7 @@ window.toggleGroup = (alias) => {
   })
 }
 
-function renderSelectList () {
+function renderSelectList (selectFirst = false) {
   const icon =
         '<svg class="octicon" viewBox="0 0 12 14" version="1.1" width="12" height="14" aria-hidden="true"><path fill-rule="evenodd" d="M11 10h1v3c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h3v1H1v10h10v-3zM6 2l2.25 2.25L5 7.5 6.5 9l3.25-3.25L12 8V2H6z"></path></svg>'
   const pinIcon =
@@ -150,16 +150,28 @@ function renderSelectList () {
     console.error('could not render favorites', err)
   }
 
-  const renderAuthors = (authors) => {
-    authors.sort()
-    authors.forEach((author) => {
-      const option = document.createElement('option')
-      option.innerHTML = author
-      document.getElementById('authors-list').querySelector('.other').appendChild(option)
-    })
-  }
-
   const renderFonts = (fonts) => {
+    const sortMode = document.getElementById('sort-list').value
+    const dateAddedKey = (v) => v.added === 'bc' ? String(v.year) : v.added
+
+    function compare(a, b) {
+      switch (sortMode) {
+        case 'newest':
+          return b.year - a.year
+        case 'oldest':
+          return a.year - b.year
+        case 'author': {
+          const authorDiff = a.author.toLowerCase().localeCompare(b.author.toLowerCase())
+          return authorDiff !== 0 ? authorDiff : a.name.toLowerCase().localeCompare(b.name.toLowerCase())
+        }
+        case 'name':
+          return a.name.toLowerCase().localeCompare(b.name.toLowerCase())
+        case 'date-added':
+        default:
+          return dateAddedKey(b).localeCompare(dateAddedKey(a))
+      }
+    }
+
     fonts.sort((a, b) => {
       if (favoritesMap[a.alias] && !favoritesMap[b.alias]) {
         return -1
@@ -167,13 +179,7 @@ function renderSelectList () {
       if (!favoritesMap[a.alias] && favoritesMap[b.alias]) {
         return 1
       }
-      if (a.name.toLowerCase() < b.name.toLowerCase()) {
-        return -1
-      }
-      if (a.name.toLowerCase() > b.name.toLowerCase()) {
-        return 1
-      }
-      return 0
+      return compare(a, b)
     })
 
     const groups = {}
@@ -243,7 +249,6 @@ function renderSelectList () {
       }
     }).then((data) => {
       const fonts = []
-      const authors = []
 
       fontData = data
 
@@ -251,15 +256,18 @@ function renderSelectList () {
         const v = data[key]
         v.alias = key
         fonts.push(v)
-        if (authors.indexOf(v.author) < 0) {
-          authors.push(v.author)
-        }
       })
 
-      renderAuthors(authors)
       renderFonts(fonts)
+      new Filters(data, () => {renderSelectList(true)}).init()
+
+      if (selectFirst) {
+        const first = getFirstEntryAlias()
+        if (first) {
+          window.location.hash = first
+        }
+      }
       selectFont()
-      new Filters(data).init()
     })
 }
 

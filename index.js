@@ -53,17 +53,21 @@ function renderSelectList (selectFirst = false) {
 
     function compare(a, b) {
       switch (sortMode) {
-        case 'newest':
-          return b.year - a.year
-        case 'oldest':
-          return a.year - b.year
+        case 'newest': {
+          const yearDiff = b.year - a.year
+          return yearDiff !== 0 ? yearDiff : dateAddedKey(b).localeCompare(dateAddedKey(a))
+        }
+        case 'oldest': {
+          const yearDiff = a.year - b.year
+          return yearDiff !== 0 ? yearDiff : dateAddedKey(a).localeCompare(dateAddedKey(b))
+        }
         case 'author': {
           const authorDiff = a.author.toLowerCase().localeCompare(b.author.toLowerCase())
           return authorDiff !== 0 ? authorDiff : a.name.toLowerCase().localeCompare(b.name.toLowerCase())
         }
         case 'name':
           return a.name.toLowerCase().localeCompare(b.name.toLowerCase())
-        case 'date-added':
+        case 'added':
         default:
           return dateAddedKey(b).localeCompare(dateAddedKey(a))
       }

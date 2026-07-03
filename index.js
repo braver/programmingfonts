@@ -285,6 +285,7 @@ window.toggleFavorite = (alias) => {
   } catch (err) {
     console.error('could not save favorite', err)
   }
+  window.location.hash = alias
   renderSelectList()
   return false
 }

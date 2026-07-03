@@ -385,19 +385,6 @@ section.select-list {
     .entry.active .name {
         font-weight: bold;
     }
-    .entry.is-new .name::after {
-        content: "new";
-        display: inline-block;
-        font-weight: normal;
-        font-family: 'ui-font', sans-serif;
-        font-size: 10px;
-        line-height: 1;
-        color: var(--medium-grey);
-        border-radius: 3px;
-        border: 1px solid currentColor;
-        margin-left: 1em;
-        padding: 2px 4px;
-    }
     a.website {
         position: absolute;
         top: 6px;

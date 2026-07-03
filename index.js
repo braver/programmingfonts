@@ -197,10 +197,6 @@ function renderSelectList () {
         option.classList.add('pinned')
       }
 
-      if (v.new) {
-        option.classList.add('is-new')
-      }
-
       const childList = groups[v.alias] || []
       const chevron = childList.length > 0
         ? `<button title="Alternatives" class="group-toggle" onclick="toggleGroup('${v.alias}')">+${childList.length} ${chevronDownIcon}</button>`
@@ -224,10 +220,6 @@ function renderSelectList () {
         childOption.classList.add('entry', 'group-child')
         childOption.setAttribute('data-alias', child.alias)
         childOption.setAttribute('data-group', v.alias)
-
-        if (child.new) {
-          childOption.classList.add('is-new')
-        }
 
         childOption.innerHTML = `
           <a href="#${child.alias}" data-style="${child.style}">

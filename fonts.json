@@ -1,5 +1,6 @@
 {
     "adwaita-mono": {
+        "added": "2025-03-23",
         "author": "GNOME",
         "description": "A tweaked version of Iosevka, made to look similar to Adwaita's proportional font (based on Inter).",
         "license": "SIL OFL",
@@ -18,6 +19,7 @@
         "zerostyle": "dotted"
     },
     "agave": {
+        "added": "2018-10-23",
         "author": "agaric",
         "description": "A succulent monospace programming font.",
         "license": "MIT",
@@ -33,6 +35,7 @@
         "zerostyle": "dotted"
     },
     "anka-coder": {
+        "added": "bc",
         "author": "Andrey Makarov",
         "description": "The Anka/Coder family is a monospaced, courier-width (60% of height; em size 2048x1229) font that can be used for source code, terminal windows etc.",
         "license": "SIL OFL",
@@ -46,6 +49,7 @@
         "zerostyle": "slashed"
     },
     "annotation-mono": {
+        "added": "2025-07-07",
         "author": "Qwerasd",
         "description": "Annotation Mono is an idealized handwriting; using letter forms inspired by monospace bitmap fonts, legibility is maximized while retaining a hand-written character.",
         "license": "SIL OFL",
@@ -59,6 +63,7 @@
         "zerostyle": "slashed"
     },
     "anonymous-pro": {
+        "added": "bc",
         "author": "Mark Simonson",
         "description": "Anonymous Pro is an evolution of the original Anonymous, adding lots of character sets and styles.",
         "license": "SIL OFL",
@@ -77,6 +82,7 @@
         "zerostyle": "slashed"
     },
     "apl2741": {
+        "added": "2018-05-29",
         "author": "Adrian Smith",
         "description": "This was hand digitised as a PostScript Type-3 font from an original 2741 golf-ball salvaged from an IBM selectric typewriter.",
         "license": "public domain",
@@ -92,6 +98,7 @@
         "zerostyle": "dotted"
     },
     "apl385": {
+        "added": "2018-05-29",
         "author": "Adrian Smith",
         "description": "Developed with all APL software vendors in the late 1980s and enhanced as required with new characters to meet interpreter updates. Thanks to Dave Liebtag (IBM), Richard Nabavi (APL.68000) and all at Dyalog APL for their support.",
         "license": "public domain",
@@ -107,6 +114,7 @@
         "zerostyle": "empty"
     },
     "aporetic-sans": {
+        "added": "2026-01-21",
         "author": "Protesilaos Stavrou",
         "description": "A customised build of the Iosevka that optimises for inter-glyph and inter-style consistency within the overarching constraint of usability at small point sizes.",
         "license": "SIL OFL",
@@ -125,6 +133,7 @@
         "zerostyle": "slashed"
     },
     "aporetic-serif": {
+        "added": "2026-01-21",
         "author": "Protesilaos Stavrou",
         "description": "A customised build of the Iosevka that optimises for inter-glyph and inter-style consistency within the overarching constraint of usability at small point sizes.",
         "license": "SIL OFL",
@@ -143,6 +152,7 @@
         "zerostyle": "slashed"
     },
     "atkinson-hyperlegible": {
+        "added": "2025-02-18",
         "author": "Braille Institute",
         "description": "At Braille Institute, we’ve created a family of hyperlegible™ fonts designed to improve legibility and readability for individuals with low vision.",
         "license": "SIL OFL",
@@ -156,6 +166,7 @@
         "zerostyle": "slashed"
     },
     "audio-link": {
+        "added": "2024-04-20",
         "author": "llealloo",
         "description": "AudioLink is a system that analyzes and processes in-world audio into many different highly reactive data streams and exposes the data to VRChat Udon, world shaders, and avatar shaders.",
         "license": "SIL OFL",
@@ -171,6 +182,7 @@
         "zerostyle": "slashed"
     },
     "aurulent": {
+        "added": "2014-11-23",
         "author": "Stephen G. Hartke",
         "description": "Aurulent Sans is a humanist sans serif intended to be used as an interface font.",
         "license": "SIL OFL",
@@ -186,6 +198,7 @@
         "zerostyle": "empty"
     },
     "average": {
+        "added": "bc",
         "author": "Richard Alexander Hall",
         "description": "AverageMono is an average of thirteen different fonts which are all derivatives of the public domain Courier typeface.",
         "license": "GNU GPL",
@@ -201,6 +214,7 @@
         "zerostyle": "empty"
     },
     "azeret": {
+        "added": "2022-01-12",
         "author": "Displaay",
         "description": "The story of the typeface began with a draft that was driven by an exploration of OCR fonts, past and futuristic operating systems, various interfaces and the nineties.",
         "license": "SIL OFL",
@@ -214,6 +228,7 @@
         "zerostyle": "empty"
     },
     "b612-mono": {
+        "added": "2019-01-21",
         "author": "Nicolas Chauveau, Thomas Paillot and Jonathan Favre-Lamarine",
         "description": "B612 is an highly legible open source font family designed and tested to be used on aircraft cockpit screens.",
         "license": "SIL OFL",
@@ -226,6 +241,7 @@
         "zerostyle": "empty"
     },
     "bedstead": {
+        "added": "2019-01-21",
         "author": "Ben Harris",
         "description": "Bedstead is a family of outline fonts based on the characters produced by the Mullard SAA5050 series of Teletext Character Generators.",
         "license": "public domain",
@@ -238,6 +254,7 @@
         "zerostyle": "empty"
     },
     "bigblue-terminal": {
+        "added": "2022-02-18",
         "author": "VileR",
         "bitmap size": 12,
         "description": "It follows the metrics and dimensions of Windows' old Terminal font (at the 9pt/12px size), but the appearance is closer to the classic IBM PC text mode character sets.",
@@ -254,6 +271,7 @@
         "zerostyle": "dotted"
     },
     "binchotan-sharp": {
+        "added": "2020-11-05",
         "author": "Rabbit Viceroy Klein",
         "description": "A fixed-width typeface. Horizontal metrics compatible with CJK console fonts. Small size legibile.",
         "license": "SIL OFL",
@@ -269,6 +287,7 @@
         "zerostyle": "dotted"
     },
     "bitstream-vera": {
+        "added": "bc",
         "author": "Jim Lyles",
         "description": "Vera is a digital typeface (computer font) superfamily with a liberal license. It was designed by Jim Lyles from the now-defunct Bitstream Inc. type foundry.",
         "license": "Bitstream Vera",
@@ -287,6 +306,7 @@
         "zerostyle": "dotted"
     },
     "borg-sans-mono": {
+        "added": "2018-10-16",
         "author": "Marnen E. Laibow-Koser",
         "description": "Droid Sans Mono Slashed + Hasklig-style ligatures!",
         "license": "Apache",
@@ -299,6 +319,7 @@
         "zerostyle": "slashed"
     },
     "bpmono": {
+        "added": "bc",
         "author": "Backpacker",
         "description": "A monospaced typeface suitable for technical texts and/or programming",
         "license": "CC BY-ND 3.0",
@@ -316,6 +337,7 @@
         "zerostyle": "slashed"
     },
     "bront-dejavu": {
+        "added": "2019-01-26",
         "author": "Chris Wendt",
         "description": "Bront is a collection of tweaked fonts geared towards programming.",
         "license": "Bitstream Vera",
@@ -328,6 +350,7 @@
         "zerostyle": "slashed"
     },
     "bront-ubuntu": {
+        "added": "2019-01-26",
         "author": "Chris Wendt",
         "description": "Bront is a collection of tweaked fonts geared towards programming.",
         "license": "none",
@@ -340,6 +363,7 @@
         "zerostyle": "slashed"
     },
     "camingocode": {
+        "added": "2016-02-27",
         "author": "Jan Fromm",
         "description": "Based on CamingoMono, but has several specially drawn glyphs that work well at small sizes.",
         "license": "CC BY-ND 3.0",
@@ -352,6 +376,7 @@
         "zerostyle": "slashed"
     },
     "cartograph": {
+        "added": "2020-01-12",
         "author": "Connary Fagen",
         "description": "A monospaced typeface with character and warmth, Cartograph is a handsome font family featuring a lush, cursive italic, code-friendly ligatures, and a proportional set accessible via OpenType.",
         "license": "commercial",
@@ -365,6 +390,7 @@
         "zerostyle": "dotted"
     },
     "cascadia-code": {
+        "added": "2019-09-21",
         "author": "Aaron Bell",
         "description": "This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal.",
         "license": "SIL OFL",
@@ -380,6 +406,7 @@
     "chivo": {
         "author": "Héctor Gatti & Omnibus-Type Team",
         "description": "Chivo (‘goat’ in Spanish) is the first Omnibus-Type neo-grotesque typeface family.",
+        "added": "2023-09-08",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Chivo Mono",
@@ -391,6 +418,7 @@
         "zerostyle": "empty"
     },
     "cm-unicode": {
+        "added": "2024-01-07",
         "author": "Donald E. Knuth",
         "description": "Computer Modern is the original family of typefaces used by the typesetting program TeX.",
         "license": "SIL OFL",
@@ -412,6 +440,7 @@
         "zerostyle": "empty"
     },
     "code-new-roman": {
+        "added": "2015-06-27",
         "author": "Samiru R.",
         "description": "Code New Roman is aimed for use in programming environments and other circumstances where a monospaced font is specified.",
         "license": "SIL OFL",
@@ -424,6 +453,7 @@
         "zerostyle": "slashed"
     },
     "comic-mono": {
+        "added": "2023-07-03",
         "author": "Thai Pangsakulyanont",
         "description": "A legible monospace font… the very typeface you’ve been trained to recognize since childhood. This font is a fork of Shannon Miwa’s Comic Shanns.",
         "license": "MIT",
@@ -440,6 +470,7 @@
         "zerostyle": "slashed"
     },
     "comic-shanns": {
+        "added": "2020-01-12",
         "author": "Shannon Miwa",
         "description": "Do you lie awake every night dreaming about a world where you could write your code in Comic Sans where it looks just as beautiful as on your dear presentations?",
         "license": "MIT",
@@ -455,6 +486,7 @@
         "zerostyle": "slashed"
     },
     "commit-mono": {
+        "added": "2023-07-21",
         "author": "Eigil Nikolajsen",
         "description": "Commit Mono is an anonymous and neutral coding font focused on creating a better reading experience.",
         "license": "SIL OFL",
@@ -468,6 +500,7 @@
         "zerostyle": "slashed"
     },
     "consolamono": {
+        "added": "bc",
         "author": "Wojciech Kalinowski",
         "description": "“It's my old unfinished font. I made some sketches of several glyphs 5-6 years ago, and I never finished this. Now I made missing glyphs, did changes of some glyphs and turn into monospaced font.”",
         "license": "SIL OFL",
@@ -484,6 +517,7 @@
         "zerostyle": "slashed"
     },
     "courier-ibm": {
+        "added": "2026-03-20",
         "author": "Howard Kettler",
         "description": "IBM’s original Courier digitized and made available in modern file formats. Dotted and slashed zeroes are available that are more suited for programming. Here credited to the original designer, but maintained by Darren Embry.",
         "group": "courier-ibm",
@@ -503,6 +537,7 @@
         "zerostyle": "empty"
     },
     "courier-ibm-dotted": {
+        "added": "2026-03-20",
         "author": "Darren Embry",
         "description": "IBM’s original Courier digitized and made available in modern file formats. This is the dotted zero variant, improved for programming by Darren Embry.",
         "group": "courier-ibm",
@@ -521,6 +556,7 @@
         "zerostyle": "dotted"
     },
     "courier-ibm-slashed": {
+        "added": "2026-03-20",
         "author": "Darren Embry",
         "description": "IBM’s original Courier digitized and made available in modern file formats. This is the slashed zero variant, improved for programming by Darren Embry.",
         "group": "courier-ibm",
@@ -539,6 +575,7 @@
         "zerostyle": "slashed"
     },
     "courier-prime": {
+        "added": "2017-10-21",
         "author": "Alan Dague-Greene",
         "description": "We set out to make the best damn Courier ever.",
         "group": "courier-prime",
@@ -558,6 +595,7 @@
         "zerostyle": "empty"
     },
     "courier-prime-code": {
+        "added": "2017-10-21",
         "author": "Alan Dague-Greene",
         "description": "The goodness of Courier Prime without the serifs. Code-optimized for programmers",
         "group": "courier-prime",
@@ -574,6 +612,7 @@
         "zerostyle": "slashed"
     },
     "courier-prime-sans": {
+        "added": "2023-07-21",
         "author": "Alan Dague-Greene",
         "description": "The goodness of Courier Prime without the serifs.",
         "group": "courier-prime",
@@ -592,6 +631,7 @@
         "zerostyle": "empty"
     },
     "cousine": {
+        "added": "bc",
         "author": "Steve Matteson",
         "description": "An innovative, refreshing sans serif design that is metrically compatible with Courier New.",
         "license": "Apache",
@@ -610,6 +650,7 @@
         "zerostyle": "dotted"
     },
     "cozette": {
+        "added": "2020-03-10",
         "author": "Slavfox",
         "bitmap size": 12,
         "description": "Cozette is a 6x13px bitmap font based on Dina, which itself is based on Proggy. It's also heavily inspired by Creep.",
@@ -626,6 +667,7 @@
         "zerostyle": "dotted"
     },
     "cutive": {
+        "added": "bc",
         "author": "Vernon Adams",
         "description": "The design of Cutive Mono is based on a number of classic typewriter typefaces, in particular the faces of IBM's Executive, and the older Smith-Premier.",
         "license": "SIL OFL",
@@ -638,6 +680,7 @@
         "zerostyle": "empty"
     },
     "d2coding": {
+        "added": "2019-01-22",
         "author": "NAVER Corp.",
         "description": " 나눔바른고딕을 바탕으로 개발자의 코딩을 위해 가독성 및 유사 문자간 변별력 뿐만 아니라 디자인적으로 한글과의 조화를 고려해 최적화시킨 글꼴입니다.",
         "license": "SIL OFL",
@@ -654,6 +697,7 @@
         "zerostyle": "slashed"
     },
     "daddytimemono": {
+        "added": "2019-01-22",
         "author": "Jason Stewart",
         "description": "A monospaced font for programmers and other terminal groupies.",
         "license": "SIL OFL",
@@ -669,6 +713,7 @@
         "zerostyle": "slashed"
     },
     "dejavu": {
+        "added": "bc",
         "author": "Deja Vu Project",
         "description": "The DejaVu fonts are a font family based on the Vera Fonts. Its purpose is to provide a wider range of characters while maintaining the original look and feel.",
         "license": "Bitstream Vera",
@@ -681,6 +726,7 @@
         "zerostyle": "dotted"
     },
     "dejavu-markup": {
+        "added": "2025-09-24",
         "author": "Brian Dunn",
         "description": "Adopted from DejaVu to be more suited to text-document markup languages: shortened the en-dash and lowered the minus.",
         "license": "Bitstream Vera",
@@ -699,6 +745,7 @@
         "zerostyle": "dotted"
     },
     "departure-mono": {
+        "added": "2024-09-10",
         "author": "Helena Zhang",
         "description": "Departure Mono is a monospaced pixel font inspired by the constraints of early command-line and graphical user interfaces, the tiny pixel fonts of the late 90s/early 00s, and sci-fi concepts from film and television.",
         "license": "SIL OFL",
@@ -714,6 +761,7 @@
         "zerostyle": "slashed"
     },
     "dm-mono": {
+        "added": "2021-02-25",
         "author": "Colophon Foundry",
         "description": "DM Mono is a three weight, three style family designed for DeepMind. DM Mono was loosely based off of DM Sans, with a reduction in contrast and less geometric proportions.",
         "license": "SIL OFL",
@@ -726,6 +774,7 @@
         "zerostyle": "slashed"
     },
     "dpsdbeyond": {
+        "added": "2024-10-05",
         "author": "University of the Aegean",
         "description": "DPSDbeyond is the result of an attempt by the students of the University of the Aegean, to design a typeface in a collaborative way, during a one-day workshop.",
         "license": "SIL OFL",
@@ -741,6 +790,7 @@
         "zerostyle": "dotted"
     },
     "drafting": {
+        "added": "2022-01-12",
         "author": "Owen Earl",
         "description": "An ode to our past.  A celebration of inconsistencies.",
         "license": "SIL OFL",
@@ -754,6 +804,7 @@
         "zerostyle": "dotted"
     },
     "droid-sans": {
+        "added": "bc",
         "author": "Steve Matteson",
         "description": "A font family first released in 2007 and created by Ascender Corporation for use by the Open Handset Alliance platform Android.",
         "license": "Apache",
@@ -766,6 +817,7 @@
         "zerostyle": "empty"
     },
     "edlo": {
+        "added": "2020-01-14",
         "author": "Eric Hamiter",
         "description": "Edlo is a modified version of Stephen G. Hartke’s Aurulent Sans, which I thought was beautiful, but hazardous for programming because the similarities between zeroes and ohs and ones and els were too close for comfort.",
         "license": "SIL OFL",
@@ -778,6 +830,7 @@
         "zerostyle": "dotted"
     },
     "effects-eighty": {
+        "added": "bc",
         "author": "Peter Hull",
         "bitmap size": 16,
         "description": "An homage to the dot-matrix printers of the 1980s.",
@@ -791,6 +844,7 @@
         "zerostyle": "empty"
     },
     "eirian": {
+        "added": "2024-10-02",
         "author": "GGBotNet",
         "description": "GGBotNet develops, designs and distributes free fonts.",
         "license": "SIL OFL",
@@ -807,6 +861,7 @@
         "zerostyle": "dotted"
     },
     "ellograph": {
+        "added": "2020-03-04",
         "author": "Connary Fagen",
         "description": "A friendly monospaced typeface with a soft, rounded construction and striking cursive italics. A generous x-height and short descenders allow for even, flowing lines of text.",
         "license": "commercial",
@@ -819,6 +874,7 @@
         "year": 2020
     },
     "envy-code-b": {
+        "added": "2023-12-29",
         "author": "Damien Guard",
         "bitmap size": 10,
         "description": "It’s been a long time coming but finally – a TrueType conversion of my programming font Envy Code B.",
@@ -832,6 +888,7 @@
         "year": 2006
     },
     "envy-code-r": {
+        "added": "2019-04-12",
         "author": "Damien Guard",
         "description": "[The] new box-drawing, shading and symbols make Envy Code R a great font for the command-prompt.",
         "license": "SIL OFL",
@@ -844,6 +901,7 @@
         "year": 2008
     },
     "fairfax": {
+        "added": "2019-04-09",
         "author": "Rebecca G. Bettencourt",
         "bitmap size": 12,
         "description": "Fairfax is a 6x12 bitmap font for terminals, text editors, IDEs, etc. It supports many scripts and a large number of Unicode blocks as well as constructed scripts as encoded in the Under-ConScript Unicode Registry, pseudographics and semigraphics, and tons of private use characters.",
@@ -863,6 +921,7 @@
         "zerostyle": "slashed"
     },
     "fairfax-hd": {
+        "added": "2019-04-09",
         "author": "Rebecca G. Bettencourt",
         "description": "Fairfax HD is a halfwidth scalable monospace font for terminals, text editors, IDEs, etc. It supports many scripts and a large number of Unicode blocks as well as constructed scripts as encoded in the Under-ConScript Unicode Registry, pseudographics and semigraphics, and tons of private use characters.",
         "group": "fairfax-hd",
@@ -876,6 +935,7 @@
         "zerostyle": "slashed"
     },
     "fairfax-hd-hax": {
+        "added": "2023-07-22",
         "author": "Rebecca G. Bettencourt",
         "description": "Fairfax Hax HD adds ligatures for programming, which is apparently a thing, to Fairfax HD: a halfwidth scalable monospace font for terminals, text editors, IDEs, etc. ",
         "group": "fairfax-hd",
@@ -888,6 +948,7 @@
         "zerostyle": "slashed"
     },
     "fairfax-serif": {
+        "added": "2019-04-09",
         "author": "Rebecca G. Bettencourt",
         "bitmap size": 12,
         "description": "Fairfax is a 6x12 bitmap font for terminals, text editors, IDEs, etc. It supports many scripts and a large number of Unicode blocks as well as constructed scripts as encoded in the Under-ConScript Unicode Registry, pseudographics and semigraphics, and tons of private use characters.",
@@ -901,6 +962,7 @@
         "zerostyle": "slashed"
     },
     "fantasque-sans": {
+        "added": "bc",
         "author": "Jany Belluz",
         "description": "A programming font, designed with functionality in mind, and with some wibbly-wobbly handwriting-like fuzziness that makes it unassumingly cool.",
         "license": "SIL OFL",
@@ -913,6 +975,7 @@
         "zerostyle": "slashed"
     },
     "fifteen": {
+        "added": "bc",
         "author": "James Kilfiger",
         "bitmap size": 15,
         "description": "It is designed to be narrow, and allow 132 columns to be comfortably fitted on a screen.",
@@ -926,6 +989,7 @@
         "zerostyle": "slashed"
     },
     "fira": {
+        "added": "bc",
         "author": "Erik Spiekerman",
         "description": "Mozilla's new typeface, used in Firefox OS",
         "license": "SIL OFL",
@@ -943,6 +1007,7 @@
         "zerostyle": "dotted"
     },
     "firacode": {
+        "added": "2016-05-25",
         "author": "Nikita Prokopov",
         "description": "Free monospaced font with programming ligatures.",
         "license": "SIL OFL",
@@ -963,6 +1028,7 @@
         "zerostyle": "slashed"
     },
     "fixedsys": {
+        "added": "2014-11-19",
         "author": "Travis Owens",
         "bitmap size": 16,
         "description": "The oldest font in Microsoft Windows, and was the system font in Windows 1.0 and 2.0, where it was simply named System.",
@@ -977,6 +1043,7 @@
         "zerostyle": "slashed"
     },
     "fixedsys-ligatures": {
+        "added": "2016-05-25",
         "author": "Darien Valentine",
         "bitmap size": 16,
         "description": "Fixedsys Excelsior font with programming ligatures.",
@@ -991,6 +1058,7 @@
         "zerostyle": "slashed"
     },
     "font3270": {
+        "added": "2016-07-14",
         "author": "Ricardo Bánffy",
         "description": "This font is derived from the x3270 font, which, in turn, was translated from the one in Georgia Tech's 3270tool, which was itself hand-copied from a 3270 series terminal.",
         "ligatures": false,
@@ -1007,6 +1075,7 @@
         "zerostyle": "dotted"
     },
     "fragment-mono": {
+        "added": "2023-07-03",
         "author": "Wei H",
         "description": "Fragment Mono is a monospaced coding version of Helvetica created by modifying and extending Nimbus Sans by URW Design Studio.",
         "license": "SIL OFL",
@@ -1023,6 +1092,7 @@
         "zerostyle": "slashed"
     },
     "generic": {
+        "added": "bc",
         "author": "Luc Devroye",
         "description": "A user comments: “It's functional on non-offensive, but its limited coverage and lack of bold and italics hold it back. It's hard to fault its basic design though.”",
         "license": "SIL OFL",
@@ -1035,6 +1105,7 @@
         "zerostyle": "slashed"
     },
     "geist": {
+        "added": "2023-12-03",
         "author": "Vercel",
         "description": "Geist is designed for legibility and simplicity. It is a modern, geometric typeface that is based on the principles of classic Swiss typography.",
         "license": "SIL OFL",
@@ -1048,6 +1119,7 @@
         "zerostyle": "slashed"
     },
     "gintronic": {
+        "added": "2021-03-09",
         "author": "Mark Frömberg",
         "description": "Gintronic’s gentle appearance makes it a delight to work constantly with code.",
         "license": "commercial",
@@ -1074,6 +1146,7 @@
         "zerostyle": "dotted"
     },
     "gnu-freefont": {
+        "added": "bc",
         "author": "Primož Peterlin, Steve White",
         "description": "GNU FreeFont is a free family of scalable outline fonts, suitable for general use on computers and for desktop publishing. It is Unicode-encoded for compatibility with all modern operating systems.",
         "license": "GNU GPL",
@@ -1092,6 +1165,7 @@
         "zerostyle": "empty"
     },
     "go-mono": {
+        "added": "2016-11-25",
         "author": "Bigelow & Holmes",
         "description": "The Go font was created especially for readability in the Go programming language. It’s a humanist, slab serif font created by the famous Bigelow & Holmes foundry.",
         "license": "MIT",
@@ -1110,6 +1184,7 @@
         "zerostyle": "slashed"
     },
     "gohufont-11": {
+        "added": "2023-07-04",
         "author": "Hugo Chargois",
         "bitmap size": 11,
         "description": "Gohufont is a monospace bitmap font well suited for programming and terminal use. It is intended to be very legible and offers very discernable glyphs for all characters, including signs and symbols. In 11 or 14 pixels.",
@@ -1126,6 +1201,7 @@
         "zerostyle": "slashed"
     },
     "gohufont-14": {
+        "added": "2023-07-04",
         "author": "Hugo Chargois",
         "bitmap size": 14,
         "description": "Gohufont is a monospace bitmap font well suited for programming and terminal use. It is intended to be very legible and offers very discernable glyphs for all characters, including signs and symbols. In 11 or 14 pixels.",
@@ -1142,6 +1218,7 @@
         "zerostyle": "slashed"
     },
     "google-sans-code": {
+        "added": "2025-07-22",
         "author": "Chris Simpkins",
         "description": "Google Sans Code is a fixed-width font family, designed to bring clarity, readability, and a bit of Google's distinctive brand character to code.",
         "license": "SIL OFL",
@@ -1155,6 +1232,7 @@
         "zerostyle": "slashed"
     },
     "hack": {
+        "added": "2015-06-27",
         "author": "Chris Simpkins",
         "description": "Hack is designed to be a workhorse typeface for source code.",
         "group": "hack",
@@ -1168,6 +1246,7 @@
         "zerostyle": "dotted"
     },
     "hack-ligatured": {
+        "added": "2025-03-05",
         "author": "Gary Lo",
         "description": "The latest Hack Font version automatically patched with latest FiraCode ligatures (a version using JetBrains Mono is also available).",
         "group": "hack",
@@ -1181,6 +1260,7 @@
         "zerostyle": "dotted"
     },
     "hasklig": {
+        "added": "2016-05-25",
         "author": "Ian Tuomi",
         "description": "A code font with monospaced ligatures, designed for Haskell.",
         "license": "SIL OFL",
@@ -1193,6 +1273,7 @@
         "zerostyle": "dotted"
     },
     "hermit": {
+        "added": "bc",
         "author": "Pablo Caro",
         "description": "A monospace font designed to be clear, pragmatic and very readable. Its creation has been focused on programming.",
         "license": "SIL OFL",
@@ -1205,6 +1286,7 @@
         "zerostyle": "slashed"
     },
     "heterodox-mono": {
+        "added": "2022-08-30",
         "author": "Hao Chi Kiang",
         "description": "A Didone-esque Monospaced Typeface based on Alexey Kryukov's Old Standard TT.",
         "license": "SIL OFL",
@@ -1221,6 +1303,7 @@
         "zerostyle": "dotted"
     },
     "ia-writer-mono": {
+        "added": "2019-01-26",
         "author": "Oliver Reichenstein, Bold Monday, Mike Abbink, Paul van der Laan, Pieter van Rosmalen",
         "description": "iA Writer Mono, Duo and Quattro were built upon IBM Plex.",
         "license": "SIL OFL",
@@ -1233,6 +1316,7 @@
         "zerostyle": "dotted"
     },
     "ibm-vga": {
+        "added": "2023-07-05",
         "author": "IBM",
         "bitmap size": 16,
         "description": "With VGA, 9-dot character cells were now the default, and the resulting 9x16 glyphs make up the famous font which remains most strongly associated with ASCII art on the PC, and probably with the entire DOS era in general.",
@@ -1249,6 +1333,7 @@
         "zerostyle": "dotted"
     },
     "inconsolata": {
+        "added": "bc",
         "author": "Raph Levien",
         "description": "Inconsolata is a monospace font, designed for code listings and the like, in print. First and foremost, it is a humanist sans design.",
         "group": "inconsolata",
@@ -1263,6 +1348,7 @@
         "zerostyle": "slashed"
     },
     "inconsolata-g": {
+        "added": "bc",
         "author": "Leonardo Maffi",
         "description": "A customized version of Inconsolata, with straight quotes, a dotted zero, and various other tweaks.",
         "license": "SIL OFL",
@@ -1275,6 +1361,7 @@
         "zerostyle": "dotted"
     },
     "inconsolata-go": {
+        "added": "2023-07-05",
         "author": "Raph Levien",
         "description": "Inconsolata is a monospace font, designed for code listings and the like, in print. InconsolataGo is Inconsolata with straight quotes.",
         "group": "inconsolata",
@@ -1291,6 +1378,7 @@
         "zerostyle": "slashed"
     },
     "inconsolata-otf": {
+        "added": "2023-07-05",
         "author": "Raph Levien",
         "description": "Inconsolata is a monospace font, designed for code listings and the like, in print. This is the original OTF version.",
         "group": "inconsolata",
@@ -1306,6 +1394,7 @@
         "zerostyle": "slashed"
     },
     "indicate": {
+        "added": "2024-04-20",
         "author": "Jonas Pelzer",
         "description": "While preserving the strict order of a monospace typeface, Indicate Mono partly moves away from the typical technical aesthetics of fixed-width typefaces. The font is available on a pay-what-you-want basis.",
         "license": "commercial",
@@ -1321,6 +1410,7 @@
         "zerostyle": "slashed"
     },
     "input": {
+        "added": "2016-01-16",
         "author": "David Jonathan Ross",
         "description": "Input is a flexible system of fonts designed specifically for code",
         "license": "commercial",
@@ -1334,6 +1424,7 @@
         "zerostyle": "dotted"
     },
     "intel-one-mono": {
+        "added": "2023-05-15",
         "author": "Intel Brand Team, VMLY&R, Frere-Jones Type",
         "description": "Identifying the typographically underserved low-vision developer audience, the Intel One Mono typeface was designed for maximum legibility to address developers' fatigue and eyestrain and reduce coding errors.",
         "license": "SIL OFL",
@@ -1356,6 +1447,7 @@
         "zerostyle": "slashed"
     },
     "iosevka": {
+        "added": "2016-02-03",
         "author": "Belleve Invis",
         "description": "An open-source, sans-serif + slab-serif, monospace + quasi‑proportional typeface family, designed for writing code, using in terminals, and preparing technical documents.",
         "group": "iosevka",
@@ -1370,6 +1462,7 @@
         "zerostyle": "slashed"
     },
     "iosevka-extended": {
+        "added": "2026-06-12",
         "author": "Belleve Invis",
         "description": "The extended-width sans-serif variant of Iosevka, offering wider character spacing for improved readability.",
         "group": "iosevka",
@@ -1383,6 +1476,7 @@
         "zerostyle": "slashed"
     },
     "iosevka-slab": {
+        "added": "2026-06-12",
         "author": "Belleve Invis",
         "description": "The slab-serif variant of Iosevka, sharing the same proportions and customizability with added slab serifs.",
         "group": "iosevka",
@@ -1396,6 +1490,7 @@
         "zerostyle": "slashed"
     },
     "iosevka-slab-extended": {
+        "added": "2026-06-12",
         "author": "Belleve Invis",
         "description": "The extended-width slab-serif variant of Iosevka, offering wider character spacing for improved readability.",
         "group": "iosevka",
@@ -1409,6 +1504,7 @@
         "zerostyle": "slashed"
     },
     "ioskeley": {
+        "added": "2025-09-20",
         "author": "Ahmed Hatem",
         "description": "Iosevka configuration to mimic the look and feel of Berkeley Mono as closely as possible.",
         "license": "SIL OFL",
@@ -1435,6 +1531,7 @@
         "zerostyle": "dotted"
     },
     "jetbrainsmono": {
+        "added": "2020-01-15",
         "author": "Philipp Nurullin",
         "description": "A typeface made for developers.",
         "license": "SIL OFL",
@@ -1457,6 +1554,7 @@
         "zerostyle": "dotted"
     },
     "julia-mono": {
+        "added": "2020-10-11",
         "author": "cormullion",
         "description": "A monospaced typeface designed for programming and in other text editing environments that require a wide range of specialist and technical Unicode characters. It was presented at the 2020 JuliaCon conference.",
         "license": "SIL OFL",
@@ -1477,6 +1575,7 @@
         "zerostyle": "dotted"
     },
     "latin-modern": {
+        "added": "bc",
         "author": "Donald E. Knuth",
         "description": "The Latin Modern fonts are derived from the famous Computer Modern fonts designed by Donald E. Knuth and described in Volume E of his Computers & Typesetting series.",
         "license": "GUST font license",
@@ -1489,6 +1588,7 @@
         "zerostyle": "empty"
     },
     "league": {
+        "added": "2017-10-14",
         "author": "Tyler Fink",
         "description": "League Mono is a mashup of sorts, inspired by some beautiful forms found in both Fira Mono, Libertinus Mono, and Courier(?!).",
         "license": "SIL OFL",
@@ -1502,6 +1602,7 @@
         "zerostyle": "dotted"
     },
     "lekton": {
+        "added": "bc",
         "author": "Accademia di Belle Arti di Urbino",
         "description": "Lekton has been designed at ISIA Urbino, Italy, and is inspired by some of the typefaces used on the Olivetti typewriters.",
         "license": "SIL OFL",
@@ -1514,6 +1615,7 @@
         "zerostyle": "empty"
     },
     "liberation": {
+        "added": "bc",
         "author": "Steve Matteson",
         "description": "The Liberation fonts are metrically compatible with the most popular fonts on the Microsoft Windows operating system and the Microsoft Office software package.",
         "license": "SIL OFL",
@@ -1526,6 +1628,7 @@
         "zerostyle": "empty"
     },
     "lilex": {
+        "added": "2021-03-15",
         "author": "Mikhael Khrustik",
         "description": "Lilex is the modern programming font containing a set of ligatures for common programming multi-character combinations.",
         "license": "SIL OFL",
@@ -1538,6 +1641,7 @@
         "zerostyle": "dotted"
     },
     "lotion": {
+        "added": "2022-01-12",
         "author": "Nina Belikova",
         "description": "A free monospace font for programming! There are variants with and without ligatures.",
         "license": "SIL OFL",
@@ -1553,6 +1657,7 @@
         "zerostyle": "slashed"
     },
     "luculent": {
+        "added": "2016-06-07",
         "author": "Andrew Kensler",
         "description": "Luculent is a family of scalable (vector), monospaced, geometric sans-serif screen fonts designed for programmers.",
         "license": "SIL OFL",
@@ -1571,6 +1676,7 @@
         "zerostyle": "slashed"
     },
     "luxi": {
+        "added": "bc",
         "author": "Kris Holmes, Charles Bigelow",
         "description": "Luxi is a family of typefaces originally designed for the X Window System by Bigelow & Holmes Inc. The Luxi typefaces are similar to Lucida – their previous font design.",
         "license": "Luxi License",
@@ -1583,6 +1689,7 @@
         "zerostyle": "empty"
     },
     "lyth-mono": {
+        "added": "2026-01-31",
         "author": "Yuri Turov",
         "description": "A custom metrics Iosevka build aiming for a square-ish 'technical' look with good legibility at small sizes.",
         "license": "SIL OFL",
@@ -1596,6 +1703,7 @@
         "zerostyle": "dotted"
     },
     "maple": {
+        "added": "2023-07-22",
         "author": "subframe7536",
         "description": "Open source monospace font with round corner, ligatures and Nerd-Font for IDE and command line.",
         "license": "SIL OFL",
@@ -1616,6 +1724,7 @@
         "zerostyle": "slashed"
     },
     "martian-mono": {
+        "added": "2023-01-27",
         "author": "Roman Shamin, Evil Martians",
         "description": "Martian Mono is a monospaced version of the Martian Grotesk font for code style design.",
         "license": "SIL OFL",
@@ -1640,6 +1749,7 @@
         "zerostyle": "slashed"
     },
     "md-io": {
+        "added": "2025-02-25",
         "author": "Rutherford Craze",
         "description": "IO uses unconventional glyph constructions and large, functional ink traps to improve glyph recognition — utilitarian features which become eye-catching stylistic elements in their own right when used at larger sizes.",
         "license": "commercial",
@@ -1653,6 +1763,7 @@
         "zerostyle": "dotted"
     },
     "mensch": {
+        "added": "2019-01-22",
         "author": "Robey Pointer",
         "description": "Designed in reaction to the release of Menlo, and intended as a tweaked variation on it.",
         "license": "Bitstream Vera",
@@ -1668,6 +1779,7 @@
         "zerostyle": "dotted"
     },
     "meslo": {
+        "added": "bc",
         "author": "André Berg",
         "description": "Meslo LG is a customized version of Apple’s Menlo-Regular font (which is a customized Bitstream Vera Sans Mono).",
         "license": "Bitstream Vera",
@@ -1680,6 +1792,7 @@
         "zerostyle": "slashed"
     },
     "miracode": {
+        "added": "2025-10-16",
         "author": "Idrees Hassan",
         "description": "A sharp, readable, vector-y version of Monocraft, the programming font based on Minecraft",
         "license": "SIL OFL",
@@ -1695,6 +1808,7 @@
         "zerostyle": "slashed"
     },
     "monaspace-argon": {
+        "added": "2023-11-18",
         "author": "Lettermatic & GitHub Next",
         "description": "The Monaspace type system is a monospaced type superfamily with some modern tricks up its sleeve. Argon is the humanist sans version.",
         "license": "SIL OFL",
@@ -1708,6 +1822,7 @@
         "zerostyle": "dotted"
     },
     "monaspace-krypton": {
+        "added": "2023-11-18",
         "author": "Lettermatic & GitHub Next",
         "description": "The Monaspace type system is a monospaced type superfamily with some modern tricks up its sleeve. Krypton is the mechanical sans version.",
         "license": "SIL OFL",
@@ -1721,6 +1836,7 @@
         "zerostyle": "dotted"
     },
     "monaspace-neon": {
+        "added": "2023-11-18",
         "author": "Lettermatic & GitHub Next",
         "description": "The Monaspace type system is a monospaced type superfamily with some modern tricks up its sleeve. Neon is the neo-grotesque sans version.",
         "license": "SIL OFL",
@@ -1734,6 +1850,7 @@
         "zerostyle": "dotted"
     },
     "monaspace-radon": {
+        "added": "2023-11-18",
         "author": "Lettermatic & GitHub Next",
         "description": "The Monaspace type system is a monospaced type superfamily with some modern tricks up its sleeve. Radon is the handwriting version.",
         "license": "SIL OFL",
@@ -1747,6 +1864,7 @@
         "zerostyle": "dotted"
     },
     "monaspace-xenon": {
+        "added": "2023-11-18",
         "author": "Lettermatic & GitHub Next",
         "description": "The Monaspace type system is a monospaced type superfamily with some modern tricks up its sleeve. Xenon is the slab serif version",
         "license": "SIL OFL",
@@ -1760,6 +1878,7 @@
         "zerostyle": "dotted"
     },
     "mona-sans-mono": {
+        "added": "2026-04-30",
         "author": "GitHub, Degarism",
         "description": "A strong and versatile typeface, designed together with Degarism and inspired by industrial-era grotesques.",
         "license": "SIL OFL",
@@ -1773,6 +1892,7 @@
         "zerostyle": "slashed"
     },
     "monocraft": {
+        "added": "2022-09-13",
         "author": "Idrees Hassan",
         "description": "The monospaced font for developers who like Minecraft a bit too much.",
         "license": "SIL OFL",
@@ -1788,6 +1908,7 @@
         "zerostyle": "slashed"
     },
     "monoflow": {
+        "added": "2021-07-30",
         "author": "Prof. Hans R. Heitmann, Johannes Ammon",
         "description": "A monospace typeface with unique character and beautiful spacing.",
         "license": "commercial",
@@ -1810,6 +1931,7 @@
         "zerostyle": "dotted"
     },
     "monofoki": {
+        "added": "2022-07-02",
         "author": "Marvin Dostal",
         "description": "Fork of Mononoki.",
         "license": "SIL OFL",
@@ -1828,6 +1950,7 @@
         "zerostyle": "slashed"
     },
     "monofur": {
+        "added": "bc",
         "author": "Tobias Benjamin Köhler",
         "description": "This is a monospaced geometric rounded sans serif font based on the eurofurence typeface family.",
         "license": "freeware",
@@ -1840,6 +1963,7 @@
         "zerostyle": "dotted"
     },
     "monoid": {
+        "added": "2016-05-25",
         "author": "Chase Colman, Andreas Larsen",
         "description": "Monoid is customizable and optimized for coding with bitmap-like sharpness at 12px/9pt even on low res displays.",
         "license": "MIT",
@@ -1853,6 +1977,7 @@
         "zerostyle": "slashed"
     },
     "monolisa": {
+        "added": "2024-04-24",
         "author": "FaceType",
         "description": "MonoLisa was designed by professionals to improve developers’ productivity and reduce fatigue.",
         "license": "commercial",
@@ -1866,6 +1991,7 @@
         "zerostyle": "dotted"
     },
     "mononoki": {
+        "added": "2016-04-18",
         "author": "Matthias Tellen",
         "description": "A font for programming and code review",
         "license": "SIL OFL",
@@ -1879,6 +2005,7 @@
         "zerostyle": "slashed"
     },
     "myna": {
+        "added": "2025-11-07",
         "author": "Sayyad Irfan Ali",
         "description": "Monospace font which aims to bring harmony to your editor by treating symbols as first-class glyphs alongside alphanumeric characters.",
         "license": "SIL OFL",
@@ -1894,6 +2021,7 @@
         "zerostyle": "slashed"
     },
     "mplus": {
+        "added": "bc",
         "author": "Coji Morishita",
         "description": "M PLUS 1/2 are Sans Serif font with 9 weights from Thin to Black, supporting GF Latin Plus glyph set with 5,700+ Kanjis for Japanese.",
         "license": "SIL OFL",
@@ -1906,6 +2034,7 @@
         "zerostyle": "dotted"
     },
     "nanum-gothic-coding": {
+        "added": "2019-01-23",
         "author": "NAVER Corp.",
         "description": "나눔고딕코딩체는 지난 2008년 10월 9일 발표된 나눔고딕을 바탕으로 개발자들의 코딩 환경에 최적화시킨 글꼴입니다.",
         "license": "SIL OFL",
@@ -1918,6 +2047,7 @@
         "zerostyle": "dotted"
     },
     "nimbus-mono": {
+        "added": "2025-05-15",
         "author": "URW Type Foundry",
         "description": "Nimbus Mono PS is a monospaced typeface designed by URW Studio, released in 1984, and is part of the Ghostscript fonts.",
         "license": "GNU GPL",
@@ -1936,6 +2066,7 @@
         "zerostyle": "empty"
     },
     "nk57": {
+        "added": "2024-10-02",
         "author": "Raymond Larabie",
         "description": "Unlike many monospaced screen fonts that prioritize low-resolution use, NK57 Monospace was created with varying proportions, ensuring that its symbols and characters are easily visible, even on the smallest of screens. This makes it an ideal choice for developers who need to view and edit code on the go.",
         "license": "public domain",
@@ -1949,6 +2080,7 @@
         "zerostyle": "empty"
     },
     "notcouriersans": {
+        "added": "bc",
         "author": "Open Source Publishing",
         "description": "NotCourier is a re-interpretation of Nimbus Mono and was designed in Wroclaw at the occasion of Libre Graphics Meeting (LGM 2008).",
         "license": "GNU GPL",
@@ -1961,6 +2093,7 @@
         "zerostyle": "empty"
     },
     "noto": {
+        "added": "2017-06-27",
         "author": "Steve Matteson",
         "description": "Noto is a collection of high-quality fonts in more than 1,000 languages and over 150 writing systems.",
         "license": "SIL OFL",
@@ -1973,6 +2106,7 @@
         "zerostyle": "empty"
     },
     "nova": {
+        "added": "bc",
         "author": "Wojciech Kalinowski",
         "description": "Initially the font contained only capitals and digits and existed only on paper and stone inscriptions.",
         "license": "SIL OFL",
@@ -1985,6 +2119,7 @@
         "zerostyle": "slashed"
     },
     "office-code-pro": {
+        "added": "2015-06-27",
         "author": "Nathan Rutzky",
         "description": "Office Code Pro is a customized version of Source Code Pro.",
         "license": "SIL OFL",
@@ -1997,6 +2132,7 @@
         "zerostyle": "slashed"
     },
     "old-timey": {
+        "added": "2025-05-07",
         "author": "Darren Embry",
         "description": "Based on Reproducing Typewriter which was designed for simulating typewritten letters in smaller point sizes for advertisements, catalogs, etc..",
         "license": "SIL OFL",
@@ -2014,6 +2150,7 @@
         "zerostyle": "slashed"
     },
     "opendyslexic": {
+        "added": "2018-05-27",
         "author": "Abbie Gonzalez",
         "description": "OpenDyslexic is a typeface designed against some common symptoms of dyslexia.",
         "license": "SIL OFL",
@@ -2029,6 +2166,7 @@
         "zerostyle": "dotted"
     },
     "overpass": {
+        "added": "2017-01-06",
         "author": "Delve Withrington",
         "description": "An open source font family inspired by Highway Gothic.",
         "license": "SIL OFL",
@@ -2047,6 +2185,7 @@
         "zerostyle": "dotted"
     },
     "oxproto": {
+        "added": "2023-08-19",
         "author": "Masaaki Morishita",
         "description": "An opinionated font for software engineers, with ligatures that don't deform shape.",
         "license": "SIL OFL",
@@ -2062,6 +2201,7 @@
         "zerostyle": "slashed"
     },
     "oxygen": {
+        "added": "bc",
         "author": "Vernon Adams",
         "description": "Oxygen was created to work well in KDE, and this mono variation is a great choice for programmers on Linux.",
         "license": "SIL OFL",
@@ -2077,6 +2217,7 @@
         "zerostyle": "slashed"
     },
     "paper": {
+        "added": "2025-10-08",
         "author": "Paper",
         "description": "A beautiful monospace font for design and code. Based on Geist Mono.",
         "license": "SIL OFL",
@@ -2092,6 +2233,7 @@
         "zerostyle": "empty"
     },
     "plex-mono": {
+        "added": "2017-10-26",
         "author": "Bold Monday, Mike Abbink",
         "description": "Meet the IBM Plex® typeface, our new corporate typeface family. It’s global, it’s versatile and it’s distinctly IBM.",
         "license": "SIL OFL",
@@ -2122,6 +2264,7 @@
         "zerostyle": "dotted"
     },
     "press-start-2p": {
+        "added": "2017-07-28",
         "author": "Cody Boisclair",
         "bitmap size": 16,
         "ligatures": false,
@@ -2133,6 +2276,7 @@
         "zerostyle": "empty"
     },
     "profont": {
+        "added": "bc",
         "author": "Andrew Welch",
         "description": "It is designed to look good a really small sizes so you can cram lots of lines of code into the window of your editor.",
         "license": "MIT",
@@ -2145,6 +2289,7 @@
         "zerostyle": "slashed"
     },
     "proggy-clean": {
+        "added": "bc",
         "author": "Tristan Grimmer",
         "description": "The fonts are all fixed-width and designed for programming. They were optimized while writing C or C++.",
         "bitmap size": 16,
@@ -2158,6 +2303,7 @@
         "zerostyle": "dotted"
     },
     "proggy-vector": {
+        "added": "2019-01-20",
         "author": "Tristan Grimmer",
         "description": "A vector graphics variant of the venerable Proggy font. You can also opt for dotted zeroes or crossed sevens and zeds.",
         "license": "MIT",
@@ -2173,6 +2319,7 @@
         "zerostyle": "slashed"
     },
     "psudo": {
+        "added": "2025-10-08",
         "author": "Renato Setoue",
         "description": "Based on Meslo/Menlo and IBM Plex Mono/Lilex, designed for coding and terminal use.",
         "license": "SIL OFL",
@@ -2191,6 +2338,7 @@
         "zerostyle": "dotted"
     },
     "pt": {
+        "added": "bc",
         "author": "Alexandra Korolkova",
         "description": "PT Mono was developed for the special needs -- for use in forms, tables, work sheets etc.",
         "license": "SIL OFL",
@@ -2203,6 +2351,7 @@
         "zerostyle": "slashed"
     },
     "quinze": {
+        "added": "bc",
         "author": "James Kilfiger",
         "description": "A narrow monospaced font, for programming and terminal emulators. It is designed to be narrow, and allow 132 columns to be comfortably fitted on a screen.",
         "license": "SIL OFL",
@@ -2218,6 +2367,7 @@
         "zerostyle": "slashed"
     },
     "recursive-mono-linear": {
+        "added": "2020-04-12",
         "author": "Arrow Type",
         "description": "Built to maximize versatility, control, and performance, Recursive is a five-axis variable font.",
         "license": "SIL OFL",
@@ -2231,6 +2381,7 @@
         "zerostyle": "slashed"
     },
     "reddit-sans": {
+        "added": "2023-10-23",
         "author": "Stephen Hutchings",
         "description": "Reddit Sans is built for the Internet, with clear, understandable letterforms that still maintain some of the warm eclectic nature of online discourse.",
         "license": "SIL OFL",
@@ -2247,6 +2398,7 @@
         "zerostyle": "slashed"
     },
     "redhat": {
+        "added": "2022-01-12",
         "author": "Jeremy Mickel",
         "description": "In our font family, each character is made up of perfect circles and straight, even lines.",
         "license": "SIL OFL",
@@ -2260,6 +2412,7 @@
         "zerostyle": "slashed"
     },
     "roboto": {
+        "added": "2015-06-27",
         "author": "Christian Robertson",
         "description": "Roboto Mono is a monospaced member of the Roboto family. It was designed by Christian Robertson and released as open-source through Google Fonts",
         "license": "Apache",
@@ -2273,6 +2426,7 @@
         "zerostyle": "slashed"
     },
     "sax": {
+        "added": "bc",
         "author": "s.a.x. Software",
         "description": "saxMono is a sample of a fine TrueType with high screen quality. Its spacing (11 cpi@12 pt) is between the Courier and Letter Gothic.",
         "license": "freeware",
@@ -2285,6 +2439,7 @@
         "zerostyle": "empty"
     },
     "scientifica": {
+        "added": "2022-09-13",
         "author": "Akshay Oppiliappan",
         "bitmap size": 16,
         "description": "Tall and condensed bitmap font for geeks.",
@@ -2303,6 +2458,7 @@
         "zerostyle": "slashed"
     },
     "sergamon": {
+        "added": "2026-04-08",
         "author": "Sergio García Mondaray",
         "bitmap size": 16,
         "description": "A pixel-perfect monospaced font designed for code, crafted on an 8x16 pixel grid. Every character renders exactly as typed. 4,000+ glyphs covering Latin, Cyrillic, Greek, Hebrew, Arabic, Thai, Devanagari, and more.",
@@ -2319,6 +2475,7 @@
         "zerostyle": "dotted"
     },
     "serious-shanns": {
+        "added": "2024-06-26",
         "author": "Kyle Beechly",
         "description": "A legible monospace font for playful professionals. Comic Sans for hackers.",
         "license": "MIT",
@@ -2339,6 +2496,7 @@
         "zerostyle": "slashed"
     },
     "share-tech": {
+        "added": "bc",
         "author": "Ralph du Carrois",
         "description": "Share Tech Mono is a monospaced sans serif, based on the Share family. There is also Share Tech , a proportionally spaced version.",
         "license": "SIL OFL",
@@ -2351,6 +2509,7 @@
         "zerostyle": "slashed"
     },
     "sk-modernist": {
+        "added": "2016-02-29",
         "author": "Sean Kane",
         "description": "Sk-Modernist is a minimalist and clean typeface which eschews complicated forms.",
         "license": "commercial",
@@ -2363,6 +2522,7 @@
         "zerostyle": "slashed"
     },
     "sligoil": {
+        "added": "2024-10-02",
         "author": "Ariel Martín Pérez",
         "description": "The Sligoil typeface has been influenced by the culture of the British isles and also by the letters on vintage Space Cadet keyboards.",
         "license": "SIL OFL",
@@ -2378,6 +2538,7 @@
         "zerostyle": "slashed"
     },
     "sometype-mono": {
+        "added": "2019-05-25",
         "author": "Ryoichi Tsunekawa",
         "description": "Sometype Mono is a monospaced font family for coding and tabular layout. Consists of 6 styles so far.",
         "license": "SIL OFL",
@@ -2398,6 +2559,7 @@
         "zerostyle": "slashed"
     },
     "sono": {
+        "added": "2023-11-18",
         "author": "Ty Finck",
         "description": "A soft monospace or proportional typeface.",
         "license": "SIL OFL",
@@ -2411,6 +2573,7 @@
         "zerostyle": "dotted"
     },
     "source-code-pro": {
+        "added": "bc",
         "author": "Paul D. Hunt",
         "description": "Source Code Pro is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.",
         "license": "SIL OFL",
@@ -2424,6 +2587,7 @@
         "zerostyle": "dotted"
     },
     "space": {
+        "added": "2017-01-06",
         "author": "Colophon Foundry",
         "description": "Commissioned for the 2016 update of Google Fonts. The evergreen touchstone for Space Mono is Aldo Novarese’s Microgramma, 1952 (and later Eurostile, 1962).",
         "license": "SIL OFL",
@@ -2442,6 +2606,7 @@
         "zerostyle": "dotted"
     },
     "spleen": {
+        "added": "2022-02-18",
         "author": "Frederic Cambus",
         "bitmap size": 16,
         "description": "Monospaced bitmap fonts. Spleen started as a personal challenge.",
@@ -2458,6 +2623,7 @@
         "zerostyle": "slashed"
     },
     "sudo": {
+        "added": "bc",
         "author": "Jens Kutílek",
         "description": "“In 2009 I wasn’t satisfied with the available text editor fonts and decided to draw my own: Sudo.” Sudo UI is a matching proportionally spaced font family.",
         "license": "SIL OFL",
@@ -2471,6 +2637,7 @@
         "zerostyle": "slashed"
     },
     "terminus-consoleet": {
+        "added": "2026-03-26",
         "author": "Jan Engelhardt",
         "description": "A vectorized version of the Terminus Font originally by Dimitar Toshkov Zhekov: a fixed-width bitmap font optimized for long work with computers. This conversion is from the Consoleet project.",
         "license": "SIL OFL",
@@ -2483,6 +2650,7 @@
         "zerostyle": "slashed"
     },
     "terminus-consoleet-smooth": {
+        "added": "2026-03-26",
         "author": "Jan Engelhardt",
         "description": "A vectorized version of the Terminus Font originally by Dimitar Toshkov Zhekov: a fixed-width bitmap font optimized for long work with computers. This conversion is from the Consoleet project and uses smooth straight vectors to avoid stairstepping.",
         "license": "SIL OFL",
@@ -2495,6 +2663,7 @@
         "zerostyle": "slashed"
     },
     "terminus-ttf": {
+        "added": "2026-03-26",
         "author": "Tilman Blumenbach",
         "description": "A TrueType version of the Terminus Font originally by Dimitar Toshkov Zhekov: a fixed-width bitmap font optimized for long work with computers.",
         "license": "SIL OFL",
@@ -2507,6 +2676,7 @@
         "zerostyle": "slashed"
     },
     "tex-gyre-cursor": {
+        "added": "bc",
         "author": "GUST e-foundry",
         "description": "It is here where GUST's e-foundry guys, Bogusław Jackowski, Janusz M. Nowacki and Piotr Strzelczyk, supported in LaTeX matters by Marcin Woliński, are delivering fonts developed by them for the TeX Gyre Project.",
         "license": "GUST font license",
@@ -2519,13 +2689,13 @@
         "zerostyle": "empty"
     },
     "topaz-a1200": {
+        "added": "2026-05-27",
         "author": "TrueSchool Ascii",
         "bitmap size": 16,
         "description": "Faithfully remade multi platform Amiga fonts in Amiga aspect. This is the original Topaz Kickstart 2.x version.",
         "license": "GNU GPL",
         "ligatures": false,
         "name": "Topaz (A1200)",
-        "new": true,
         "rendering": "bitmap",
         "style": "sans",
         "website": "https://github.com/rewtnull/amigafonts",
@@ -2533,13 +2703,13 @@
         "zerostyle": "slashed"
     },
     "topaz-a500": {
+        "added": "2026-05-27",
         "author": "TrueSchool Ascii",
         "bitmap size": 16,
         "description": "Faithfully remade multi platform Amiga fonts in Amiga aspect. This is the original Topaz Kickstart 1.x version.",
         "license": "GNU GPL",
         "ligatures": false,
         "name": "Topaz (A500)",
-        "new": true,
         "rendering": "bitmap",
         "style": "sans",
         "website": "https://github.com/rewtnull/amigafonts",
@@ -2547,6 +2717,7 @@
         "zerostyle": "slashed"
     },
     "twilio-sans-mono": {
+        "added": "2023-05-20",
         "author": "Sharp Type",
         "description": "Twilio worked very closely with the type foundry, Sharp Type over the course of two years to develop a welcoming and adaptable typeface.",
         "license": "SIL OFL",
@@ -2577,6 +2748,7 @@
         "zerostyle": "dotted"
     },
     "ubuntu": {
+        "added": "bc",
         "author": "Dalton Maag",
         "description": "The way typography is used says as much about our brand as the words themselves. The Ubuntu typeface has been specially created to complement the Ubuntu tone of voice.",
         "license": "Ubuntu Font Licence",
@@ -2589,6 +2761,7 @@
         "zerostyle": "dotted"
     },
     "unifont": {
+        "added": "bc",
         "author": "Roman Czyborra",
         "description": "GNU Unifont is part of the GNU Project and has glyphs for every printable code point in the Unicode Basic Multilingual Plane.",
         "bitmap size": 16,
@@ -2602,6 +2775,7 @@
         "zerostyle": "empty"
     },
     "unifontex": {
+        "added": "2023-09-17",
         "author": "stgiga",
         "description": "An extended fork of GNU Unifont with a focus on high compatibility.",
         "bitmap size": 16,
@@ -2615,6 +2789,7 @@
         "zerostyle": "slashed"
     },
     "verily": {
+        "added": "2014-11-23",
         "author": "Stephen G. Hartke",
         "description": "Verily Serif Mono is derived from Bitstream Vera Serif with the same proportions as Bitstream Vera Sans Mono. Only the primary ASCII characters have been modified.",
         "license": "Bitstream Vera",
@@ -2627,6 +2802,7 @@
         "zerostyle": "dotted"
     },
     "victor-mono": {
+        "added": "2019-06-06",
         "author": "Rune B",
         "description": "Victor Mono is a programming font with semi-connected cursive italics and some symbol ligatures",
         "license": "MIT",
@@ -2639,6 +2815,7 @@
         "zerostyle": "dotted"
     },
     "vt323": {
+        "added": "bc",
         "author": "Peter Hull",
         "description": "This font was created from the glyphs of the DEC VT320 text terminal.",
         "bitmap size": 16,
@@ -2652,6 +2829,7 @@
         "zerostyle": "empty"
     },
     "zhima-mono": {
+        "added": "2025-05-21",
         "author": "Guoyu Ou",
         "description": "A version of Iosevka, tweaked for compact file size and with wider characters.",
         "license": "SIL OFL",

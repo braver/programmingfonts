@@ -1412,7 +1412,7 @@
     "input": {
         "added": "2016-01-16",
         "author": "David Jonathan Ross",
-        "description": "Input is a flexible system of fonts designed specifically for code",
+        "description": "Input is a flexible system of fonts designed specifically for code, and is free for personal use.",
         "license": "commercial",
         "ligatures": false,
         "name": "Input",

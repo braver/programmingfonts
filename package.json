@@ -17,7 +17,7 @@
     "@eslint/js": "^9.39.4",
     "@sourcemeta/jsonschema": "^9.6.1",
     "eslint": "^9.39.4",
-    "globals": "^16.3.0",
-    "less": "^4.6.4"
+    "globals": "^16.5.0",
+    "less": "^4.6.7"
   }
 }

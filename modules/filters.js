@@ -4,14 +4,14 @@ export class Filters {
     rendering: false,
     liga: false,
     zerostyle: false,
-    author: 'all',
     name: ''
   }
 
   fontData = {}
 
-  constructor (data) {
+  constructor (data, renderCallback) {
     this.fontData = data
+    this.renderCallback = renderCallback
 
     const stored_filters = JSON.parse(localStorage.getItem('filters') ?? '{}')
     if (Object.keys(stored_filters).length) {
@@ -20,13 +20,9 @@ export class Filters {
   }
 
   init () {
-    document.getElementById('authors-list').onchange = (event) => {
-      this.filters.author = event.target.value
+    document.getElementById('sort-list').onchange = () => {
       this.apply()
-    }
-
-    if (this.filters.author) {
-      document.getElementById('authors-list').value = this.filters.author
+      this.renderCallback()
     }
 
     document.getElementById('name-search').onkeyup = (event) => {
@@ -125,7 +121,6 @@ export class Filters {
                   (data.ligatures === false && this.filters.liga === 'no') ||
                   (data.ligatures === true && this.filters.liga === 'yes')) &&
               (!this.filters.zerostyle || data.zerostyle === this.filters.zerostyle) &&
-              (this.filters.author === 'all' || data.author === this.filters.author) &&
               (isChild || nameMatches(data))
       ) {
         element.classList.remove('filtered-out')

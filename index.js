@@ -1,16 +1,13 @@
 /* global CodeMirror */
 
-import { Cookies } from './modules/cookies.js'
 import { Fontsize } from './modules/fontsize.js'
 import { Filters } from './modules/filters.js'
 import { Language } from './modules/language.js'
 import { Spacing } from './modules/spacing.js'
 import { Theme } from './modules/theme.js'
+import * as util from './modules/util.js'
 
-const defaultFont = 'md-io'
 const fontsize = new Fontsize()
-
-let fontData
 
 window.CMeditor = CodeMirror.fromTextArea(document.getElementById('code'), {
   lineNumbers: true,
@@ -19,106 +16,6 @@ window.CMeditor = CodeMirror.fromTextArea(document.getElementById('code'), {
   theme: 'pastel-on-dark',
   lineWrapping: true
 })
-
-function isVisible (el) {
-  const container = document.querySelector('section.select-list').getBoundingClientRect()
-  const target = el.getBoundingClientRect()
-
-  return target.bottom > container.top && target.top < container.bottom
-}
-
-/**
- * Get the font from the #, the cookie, or a default
- */
-function getFont () {
-  let font = window.location.hash.substring(1)
-
-  if (!font) {
-    font = Cookies.get('font')
-  }
-
-  if (!font) {
-    font = defaultFont
-  }
-
-  return font
-}
-
-function setDetails (data) {
-  const box = document.querySelector('.info-wrapper')
-  box.querySelector('h2').setAttribute('data-license', data.license ?? '')
-  box.querySelector('a').href = data.website
-  box.querySelector('h2 a').textContent = data.name
-  box.querySelector('p.info').textContent = data.description ?? ''
-  if (typeof data.variants === 'string') {
-    box.querySelector('p.variants').textContent = data.variants
-  } else if (data.variants && data.variants.length > 1) {
-    box.querySelector('p.variants').textContent = data.variants.join(', ')
-  } else {
-    box.querySelector('p.variants').textContent = ''
-  }
-}
-
-// ProgrammingFonts font selector
-function selectFont () {
-  const codeMirror = document.querySelector('.CodeMirror')
-  const font = getFont()
-
-  if (typeof fontData === 'undefined' || typeof fontData[font] === 'undefined') {
-    return
-  }
-
-  setDetails(fontData[font])
-  codeMirror.setAttribute('data-font', font)
-
-  if (fontData[font].rendering === 'bitmap') {
-    codeMirror.classList.add('no-smooth')
-    if (fontData[font]['bitmap size']) {
-      fontsize.forceSize(fontData[font]['bitmap size'])
-    }
-  } else {
-    codeMirror.classList.remove('no-smooth')
-    fontsize.reset()
-  }
-
-  if (font === 'input') {
-    // because Input Mono is loaded via external @font-face file
-    codeMirror.style.fontFamily = 'Input Mono, monospace'
-    codeMirror.querySelectorAll('pre, textarea').forEach((element) => {
-      element.style.fontFamily = 'Input Mono, monospace'
-    })
-  } else {
-    codeMirror.style.fontFamily = `${font}, monospace`
-    codeMirror.querySelectorAll('pre, textarea').forEach((element) => {
-      element.style.fontFamily = `${font}, monospace`
-    })
-  }
-
-  document.querySelectorAll('#select-font [data-alias]').forEach((element) => {
-    element.classList.remove('active')
-  })
-
-  const activeEntry = document.querySelector(`#select-font [data-alias='${font}']`)
-  if (activeEntry) {
-    if (activeEntry.classList.contains('group-child')) {
-      const groupAlias = activeEntry.getAttribute('data-group')
-      const primary = document.querySelector(`#select-font [data-alias='${groupAlias}']`)
-      if (primary && !primary.classList.contains('group-open')) {
-        window.toggleGroup(groupAlias)
-      }
-    }
-    activeEntry.classList.add('active')
-    if (!isVisible(activeEntry)) {
-      activeEntry.scrollIntoView({
-        block: 'center',
-        inline: 'nearest',
-        behavior: 'smooth'
-      })
-    }
-  }
-
-  Cookies.set('font', font)
-}
 
 const chevronDownIcon = '<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"/></svg>'
 
@@ -130,7 +27,7 @@ window.toggleGroup = (alias) => {
   })
 }
 
-function renderSelectList () {
+function renderSelectList (selectFirst = false) {
   const icon =
         '<svg class="octicon" viewBox="0 0 12 14" version="1.1" width="12" height="14" aria-hidden="true"><path fill-rule="evenodd" d="M11 10h1v3c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h3v1H1v10h10v-3zM6 2l2.25 2.25L5 7.5 6.5 9l3.25-3.25L12 8V2H6z"></path></svg>'
   const pinIcon =
@@ -150,16 +47,9 @@ function renderSelectList () {
     console.error('could not render favorites', err)
   }
 
-  const renderAuthors = (authors) => {
-    authors.sort()
-    authors.forEach((author) => {
-      const option = document.createElement('option')
-      option.innerHTML = author
-      document.getElementById('authors-list').querySelector('.other').appendChild(option)
-    })
-  }
-
   const renderFonts = (fonts) => {
+    const sortMode = document.getElementById('sort-list').value
+
     fonts.sort((a, b) => {
       if (favoritesMap[a.alias] && !favoritesMap[b.alias]) {
         return -1
@@ -167,13 +57,7 @@ function renderSelectList () {
       if (!favoritesMap[a.alias] && favoritesMap[b.alias]) {
         return 1
       }
-      if (a.name.toLowerCase() < b.name.toLowerCase()) {
-        return -1
-      }
-      if (a.name.toLowerCase() > b.name.toLowerCase()) {
-        return 1
-      }
-      return 0
+      return util.compare(a, b, sortMode)
     })
 
     const groups = {}
@@ -195,10 +79,6 @@ function renderSelectList () {
 
       if (favoritesMap[v.alias]) {
         option.classList.add('pinned')
-      }
-
-      if (v.new) {
-        option.classList.add('is-new')
       }
 
       const childList = groups[v.alias] || []
@@ -225,10 +105,6 @@ function renderSelectList () {
         childOption.setAttribute('data-alias', child.alias)
         childOption.setAttribute('data-group', v.alias)
 
-        if (child.new) {
-          childOption.classList.add('is-new')
-        }
-
         childOption.innerHTML = `
           <a href="#${child.alias}" data-style="${child.style}">
             <span class="name">${child.name}</span>
@@ -251,23 +127,25 @@ function renderSelectList () {
       }
     }).then((data) => {
       const fonts = []
-      const authors = []
 
-      fontData = data
+      window.fontData = data
 
       Object.keys(data).forEach((key) => {
         const v = data[key]
         v.alias = key
         fonts.push(v)
-        if (authors.indexOf(v.author) < 0) {
-          authors.push(v.author)
-        }
       })
 
-      renderAuthors(authors)
       renderFonts(fonts)
-      selectFont()
-      new Filters(data).init()
+      new Filters(data, () => {renderSelectList(true)}).init()
+
+      if (selectFirst) {
+        const first = util.getFirstEntryAlias()
+        if (first) {
+          window.location.hash = first
+        }
+      }
+      util.selectFont()
     })
 }
 
@@ -285,6 +163,7 @@ window.toggleFavorite = (alias) => {
   } catch (err) {
     console.error('could not save favorite', err)
   }
+  window.location.hash = alias
   renderSelectList()
   return false
 }
@@ -311,33 +190,8 @@ function walk (direction) {
   }
 }
 
-function expandGroup () {
-  const activeEntry = document.querySelector('.entry.active')
-  if (!activeEntry || activeEntry.classList.contains('group-child')) {
-    return
-  }
-  if (activeEntry.querySelector('.group-toggle') && !activeEntry.classList.contains('group-open')) {
-    window.toggleGroup(activeEntry.getAttribute('data-alias'))
-  }
-}
-
-function collapseGroup () {
-  const activeEntry = document.querySelector('.entry.active')
-  if (!activeEntry) {
-    return
-  }
-  if (activeEntry.classList.contains('group-child')) {
-    const primary = document.querySelector(`#select-font [data-alias='${activeEntry.getAttribute('data-group')}']`)
-    if (primary) {
-      primary.querySelector('a').click()
-    }
-  } else if (activeEntry.classList.contains('group-open')) {
-    window.toggleGroup(activeEntry.getAttribute('data-alias'))
-  }
-}
-
 window.onhashchange = () => {
-  selectFont()
+  util.selectFont()
 }
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -362,11 +216,11 @@ window.addEventListener('DOMContentLoaded', () => {
     } else if (event.key === 'ArrowRight') {
       event.preventDefault()
       event.stopPropagation()
-      expandGroup()
+      util.expandGroup()
     } else if (event.key === 'ArrowLeft') {
       event.preventDefault()
       event.stopPropagation()
-      collapseGroup()
+      util.collapseGroup()
     }
   }
 

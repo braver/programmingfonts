@@ -128,3 +128,27 @@ export function collapseGroup () {
     window.toggleGroup(activeEntry.getAttribute('data-alias'))
   }
 }
+
+const dateAddedKey = (v) => v.added === 'bc' ? String(v.year) : v.added
+
+export function compare(a, b, mode) {
+  switch (mode) {
+    case 'newest': {
+      const yearDiff = b.year - a.year
+      return yearDiff !== 0 ? yearDiff : dateAddedKey(b).localeCompare(dateAddedKey(a))
+    }
+    case 'oldest': {
+      const yearDiff = a.year - b.year
+      return yearDiff !== 0 ? yearDiff : dateAddedKey(a).localeCompare(dateAddedKey(b))
+    }
+    case 'author': {
+      const authorDiff = a.author.toLowerCase().localeCompare(b.author.toLowerCase())
+      return authorDiff !== 0 ? authorDiff : a.name.toLowerCase().localeCompare(b.name.toLowerCase())
+    }
+    case 'name':
+      return a.name.toLowerCase().localeCompare(b.name.toLowerCase())
+    case 'added':
+    default:
+      return dateAddedKey(b).localeCompare(dateAddedKey(a))
+  }
+}

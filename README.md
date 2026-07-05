@@ -65,6 +65,7 @@ We've been able to license some commercial fonts for programmingfonts.org, but t
 - PragmataPro: https://fsd.it/shop/fonts/pragmatapro/
 - Presite Elite: https://www.myfonts.com/collections/prestige-elite-font-urw
 - San Francisco Mono: https://developer.apple.com/fonts/
+- Triplicate: https://practicaltypography.com/triplicate.html
 - Wumpus Mono: https://vaughantype.com/wumpus-mono-pro/
 
 ### Curious "Free" Fonts

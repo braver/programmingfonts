@@ -2763,7 +2763,7 @@
     "unifont": {
         "added": "bc",
         "author": "Roman Czyborra",
-        "description": "GNU Unifont is part of the GNU Project and has glyphs for every printable code point in the Unicode Basic Multilingual Plane.",
+        "description": "GNU Unifont is part of the GNU Project and has glyphs for every printable code point in the Unicode Basic Multilingual Plane. Note that the font on this website has been reduced because it's huge.",
         "bitmap size": 16,
         "license": "GNU GPL",
         "ligatures": false,

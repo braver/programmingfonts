@@ -18,10 +18,6 @@
                         { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" }
                     ]
                 },
-                "alias": {
-                    "type": "string",
-                    "pattern": "^[a-z][a-z0-9-]+$"
-                },
                 "name": { "type": "string" },
                 "author": { "type": "string" },
                 "description": { "type": "string" },
@@ -86,7 +82,9 @@
                             "type": "string"
                         }
                     ]
-                }
+                },
+                "glyphs": { "type": "integer" },
+                "characters": { "type": "integer" }
             },
             "additionalProperties": false,
             "required": [
@@ -97,7 +95,9 @@
                 "name",
                 "rendering",
                 "style",
-                "year"
+                "year",
+                "glyphs",
+                "characters"
             ]
         }
     }

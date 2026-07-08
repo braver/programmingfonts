@@ -66,7 +66,7 @@ lang_count = {
 }
 
 
-with open('fonts.json') as user_file:
+with open('fonts.json', 'r+') as user_file:
     file_contents = user_file.read()
 
     data = json.loads(file_contents)
@@ -90,11 +90,21 @@ with open('fonts.json') as user_file:
 
         font = TTFont(font_file)
         print(font["name"].getBestFullName())
+        # this isn't always the name we take, but useful to check the diff:
+        # data[key]['name'] = font["name"].getBestFullName()
+
         print(font["name"].getName(1, 3, 1))  # 1 family name
-        print(font["name"].getName(0, 3, 1))  # 0 copyright
         print(font["name"].getName(8, 3, 1))  # 8 manufacturer name
-        print(font["name"].getName(9, 3, 1))  # 9 designer
+        print(font["name"].getName(0, 3, 1))  # 0 copyright
+
+        designer = font["name"].getName(9, 3, 1)  # 9 designer
+        print(designer)
+        # this isn't always the author we take, but useful to check the diff:
+        # if designer:
+        #     data[key]['author'] = str(designer)
+
         print(font['maxp'].numGlyphs)
+        data[key]['glyphs'] = int(font['maxp'].numGlyphs)
 
         '''
         name table:
@@ -105,10 +115,15 @@ with open('fonts.json') as user_file:
 
         try:
             checker = FontChecker(font_file)
-            print(len(checker.characters))
+            print(len(checker.characters))  # encoded characters
+            data[key]['characters'] = len(checker.characters)
             print('langs:')
             langs = checker.get_supported_languages()
             for lang in langs:
                 print(lang, len(langs[lang]), lang_count[lang])
         except Exception:
             print('language support could not be detected')
+
+    user_file.seek(0)  # roll back to start of file
+    json.dump(data, user_file, indent=4, ensure_ascii=False)  # insert the new data
+    user_file.truncate()  # remove everything else

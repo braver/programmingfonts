@@ -16,7 +16,9 @@
         ],
         "website": "https://gitlab.gnome.org/GNOME/adwaita-fonts",
         "year": 2025,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 8569,
+        "characters": 7439
     },
     "agave": {
         "added": "2018-10-23",
@@ -32,7 +34,9 @@
         ],
         "website": "https://github.com/agarick/agave",
         "year": 2013,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1958,
+        "characters": 1949
     },
     "anka-coder": {
         "added": "bc",
@@ -46,7 +50,9 @@
         "variants": "regular, bold, italic, bold-italic; in regular, condensed and narrow widths.",
         "website": "https://github.com/loafer-mka/anka-coder-fonts",
         "year": 2010,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 620,
+        "characters": 617
     },
     "annotation-mono": {
         "added": "2025-07-07",
@@ -60,7 +66,9 @@
         "variants": "A variable font in 10 weights, each with italics (oblique).",
         "website": "https://qwerasd205.github.io/AnnotationMono/",
         "year": 2025,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 766,
+        "characters": 728
     },
     "anonymous-pro": {
         "added": "bc",
@@ -79,7 +87,9 @@
         ],
         "website": "http://www.marksimonson.com/fonts/view/anonymous-pro",
         "year": 2009,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 624,
+        "characters": 623
     },
     "apl2741": {
         "added": "2018-05-29",
@@ -95,7 +105,8 @@
         ],
         "website": "http://apl385.com/fonts/index.htm",
         "year": 2003,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 227
     },
     "apl385": {
         "added": "2018-05-29",
@@ -111,7 +122,9 @@
         ],
         "website": "http://apl385.com/fonts/index.htm",
         "year": 2003,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 772,
+        "characters": 769
     },
     "aporetic-sans": {
         "added": "2026-01-21",
@@ -130,7 +143,9 @@
         ],
         "website": "https://github.com/protesilaos/aporetic",
         "year": 2025,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 33898,
+        "characters": 7466
     },
     "aporetic-serif": {
         "added": "2026-01-21",
@@ -149,7 +164,9 @@
         ],
         "website": "https://github.com/protesilaos/aporetic",
         "year": 2025,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 33901,
+        "characters": 7466
     },
     "atkinson-hyperlegible": {
         "added": "2025-02-18",
@@ -163,7 +180,9 @@
         "variants": "A variable font in 7 weights, each with italics.",
         "website": "https://www.brailleinstitute.org/freefont/",
         "year": 2025,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 365,
+        "characters": 346
     },
     "audio-link": {
         "added": "2024-04-20",
@@ -179,7 +198,9 @@
         ],
         "website": "https://audiolink.dev",
         "year": 2022,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 118,
+        "characters": 166
     },
     "aurulent": {
         "added": "2014-11-23",
@@ -195,7 +216,9 @@
         ],
         "website": "https://www.fontsquirrel.com/fonts/Aurulent-Sans-Mono",
         "year": 2007,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 267,
+        "characters": 254
     },
     "average": {
         "added": "bc",
@@ -211,7 +234,9 @@
         ],
         "website": "http://openfontlibrary.org/en/font/average-mono",
         "year": 2013,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 4177,
+        "characters": 4160
     },
     "azeret": {
         "added": "2022-01-12",
@@ -225,7 +250,9 @@
         "variants": "A variable font in 8 weights, each with italics.",
         "website": "https://github.com/displaay/Azeret",
         "year": 2020,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 645,
+        "characters": 433
     },
     "b612-mono": {
         "added": "2019-01-21",
@@ -238,7 +265,9 @@
         "style": "sans",
         "website": "https://github.com/polarsys/b612",
         "year": 2012,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 590,
+        "characters": 589
     },
     "bedstead": {
         "added": "2019-01-21",
@@ -251,7 +280,9 @@
         "style": "sans",
         "website": "https://bjh21.me.uk/bedstead/",
         "year": 2018,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 1241,
+        "characters": 1203
     },
     "bigblue-terminal": {
         "added": "2022-02-18",
@@ -268,7 +299,9 @@
         ],
         "website": "https://int10h.org/blog/2015/12/bigblue-terminal-oldschool-fixed-width-font/",
         "year": 2015,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 782,
+        "characters": 781
     },
     "binchotan-sharp": {
         "added": "2020-11-05",
@@ -284,7 +317,9 @@
         ],
         "website": "https://rvklein.me/proj/binchotan/",
         "year": 2017,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 650,
+        "characters": 647
     },
     "bitstream-vera": {
         "added": "bc",
@@ -303,7 +338,9 @@
         ],
         "website": "http://www.fontsquirrel.com/fonts/Bitstream-Vera-Sans-Mono",
         "year": 2002,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 269,
+        "characters": 256
     },
     "borg-sans-mono": {
         "added": "2018-10-16",
@@ -316,7 +353,9 @@
         "style": "sans",
         "website": "https://github.com/marnen/borg-sans-mono",
         "year": 2016,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 907,
+        "characters": 871
     },
     "bpmono": {
         "added": "bc",
@@ -334,7 +373,9 @@
         ],
         "website": "http://www.fontsquirrel.com/fonts/BPmono",
         "year": 2007,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 232,
+        "characters": 228
     },
     "bront-dejavu": {
         "added": "2019-01-26",
@@ -347,7 +388,9 @@
         "style": "sans",
         "website": "https://github.com/chrismwendt/bront",
         "year": 2015,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 3296,
+        "characters": 3244
     },
     "bront-ubuntu": {
         "added": "2019-01-26",
@@ -360,7 +403,9 @@
         "style": "sans",
         "website": "https://github.com/chrismwendt/bront",
         "year": 2015,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1304,
+        "characters": 1231
     },
     "camingocode": {
         "added": "2016-02-27",
@@ -373,7 +418,9 @@
         "style": "sans",
         "website": "http://www.janfromm.de/typefaces/camingomono/camingocode",
         "year": 2013,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 473,
+        "characters": 450
     },
     "cartograph": {
         "added": "2020-01-12",
@@ -387,7 +434,9 @@
         "variants": "8 weights and various alternatives via OpenType sets, including ligatures.",
         "website": "https://connary.com/cartograph.html",
         "year": 2016,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 849,
+        "characters": 741
     },
     "cascadia-code": {
         "added": "2019-09-21",
@@ -401,7 +450,9 @@
         "variants": "6 weights and various alternatives via OpenType sets, including slashed zeroes and cursive italics.",
         "website": "https://github.com/microsoft/cascadia-code",
         "year": 2019,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 3199,
+        "characters": 1860
     },
     "chivo": {
         "author": "Héctor Gatti & Omnibus-Type Team",
@@ -415,7 +466,9 @@
         "variants": "A variable font in 9 weights, each with italics.",
         "website": "https://www.omnibus-type.com/variable-fonts/#chivo-mono",
         "year": 2022,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 873,
+        "characters": 642
     },
     "cm-unicode": {
         "added": "2024-01-07",
@@ -437,7 +490,9 @@
         ],
         "website": "https://cm-unicode.sourceforge.io",
         "year": 1992,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 1868,
+        "characters": 1832
     },
     "code-new-roman": {
         "added": "2015-06-27",
@@ -450,7 +505,9 @@
         "style": "sans",
         "website": "https://fontlibrary.org/en/font/code-new-roman",
         "year": 2014,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 2740,
+        "characters": 2220
     },
     "comic-mono": {
         "added": "2023-07-03",
@@ -467,7 +524,9 @@
         ],
         "website": "https://dtinth.github.io/comic-mono-font/",
         "year": 2019,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 106,
+        "characters": 103
     },
     "comic-shanns": {
         "added": "2020-01-12",
@@ -483,7 +542,9 @@
         ],
         "website": "https://github.com/shannpersand/comic-shanns",
         "year": 2018,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 104,
+        "characters": 103
     },
     "commit-mono": {
         "added": "2023-07-21",
@@ -497,7 +558,9 @@
         "variants": "A download can be customized with various of weights, ligatures, dotted or slashed zeroes, and other styles.",
         "website": "https://commitmono.com",
         "year": 2023,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1550,
+        "characters": 838
     },
     "consolamono": {
         "added": "bc",
@@ -514,7 +577,9 @@
         ],
         "website": "http://openfontlibrary.org/en/font/consolamono",
         "year": 2011,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1465,
+        "characters": 1462
     },
     "courier-ibm": {
         "added": "2026-03-20",
@@ -534,7 +599,9 @@
         ],
         "website": "https://github.com/dse/font-og-courier",
         "year": 1955,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 479,
+        "characters": 452
     },
     "courier-ibm-dotted": {
         "added": "2026-03-20",
@@ -553,7 +620,9 @@
             "bold-italic"
         ],
         "year": 2021,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 476,
+        "characters": 452
     },
     "courier-ibm-slashed": {
         "added": "2026-03-20",
@@ -572,7 +641,9 @@
             "bold-italic"
         ],
         "year": 2021,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 476,
+        "characters": 452
     },
     "courier-prime": {
         "added": "2017-10-21",
@@ -592,7 +663,9 @@
         ],
         "website": "https://quoteunquoteapps.com/courierprime",
         "year": 2013,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 379,
+        "characters": 364
     },
     "courier-prime-code": {
         "added": "2017-10-21",
@@ -609,7 +682,9 @@
             "italic"
         ],
         "year": 2013,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 411,
+        "characters": 380
     },
     "courier-prime-sans": {
         "added": "2023-07-21",
@@ -628,7 +703,9 @@
             "bold-italic"
         ],
         "year": 2013,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 411,
+        "characters": 380
     },
     "cousine": {
         "added": "bc",
@@ -647,7 +724,9 @@
         ],
         "website": "http://www.fontsquirrel.com/fonts/cousine",
         "year": 2010,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 2385,
+        "characters": 2274
     },
     "cozette": {
         "added": "2020-03-10",
@@ -664,7 +743,9 @@
         ],
         "website": "https://github.com/slavfox/Cozette",
         "year": 2020,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1606,
+        "characters": 1604
     },
     "cutive": {
         "added": "bc",
@@ -677,7 +758,9 @@
         "style": "serif",
         "website": "https://fonts.google.com/specimen/Cutive+Mono",
         "year": 2012,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 441,
+        "characters": 438
     },
     "d2coding": {
         "added": "2019-01-22",
@@ -694,7 +777,9 @@
         ],
         "website": "https://github.com/naver/d2codingfont",
         "year": 2016,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 26188,
+        "characters": 19966
     },
     "daddytimemono": {
         "added": "2019-01-22",
@@ -710,7 +795,9 @@
         ],
         "website": "https://github.com/BourgeoisBear/DaddyTimeMono",
         "year": 2017,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 438,
+        "characters": 434
     },
     "dejavu": {
         "added": "bc",
@@ -723,7 +810,9 @@
         "style": "sans",
         "website": "https://dejavu-fonts.github.io",
         "year": 2004,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 3377,
+        "characters": 3322
     },
     "dejavu-markup": {
         "added": "2025-09-24",
@@ -742,7 +831,9 @@
         ],
         "website": "https://bdtechconcepts.com/DejaVu-Markup-Font.html",
         "year": 2016,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 3369,
+        "characters": 3314
     },
     "departure-mono": {
         "added": "2024-09-10",
@@ -758,7 +849,9 @@
         ],
         "website": "https://departuremono.com/",
         "year": 2024,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 775,
+        "characters": 682
     },
     "dm-mono": {
         "added": "2021-02-25",
@@ -771,7 +864,9 @@
         "style": "sans",
         "website": "https://fonts.google.com/specimen/DM+Mono",
         "year": 2020,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 411,
+        "characters": 381
     },
     "dpsdbeyond": {
         "added": "2024-10-05",
@@ -787,7 +882,9 @@
         ],
         "website": "https://backpacker.gr/fonts/11",
         "year": 2011,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 217,
+        "characters": 202
     },
     "drafting": {
         "added": "2022-01-12",
@@ -801,7 +898,9 @@
         "variants": "A variable font in 7 weights, each with italics.",
         "website": "https://indestructibletype.com/Drafting/",
         "year": 2021,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 597,
+        "characters": 470
     },
     "droid-sans": {
         "added": "bc",
@@ -814,7 +913,9 @@
         "style": "sans",
         "website": "https://www.fontsquirrel.com/fonts/droid-sans-mono",
         "year": 2006,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 900,
+        "characters": 873
     },
     "edlo": {
         "added": "2020-01-14",
@@ -827,7 +928,9 @@
         "style": "sans",
         "website": "https://github.com/ehamiter/Edlo",
         "year": 2011,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 269,
+        "characters": 254
     },
     "effects-eighty": {
         "added": "bc",
@@ -841,7 +944,9 @@
         "style": "sans",
         "website": "http://openfontlibrary.org/en/font/effects-eighty",
         "year": 2013,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 101,
+        "characters": 100
     },
     "eirian": {
         "added": "2024-10-02",
@@ -858,7 +963,9 @@
         ],
         "website": "https://ggbot.itch.io/eirian-font",
         "year": 2022,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 613,
+        "characters": 613
     },
     "ellograph": {
         "added": "2020-03-04",
@@ -871,7 +978,9 @@
         "style": "sans",
         "variants": "8 weights, italics, and additional OpenType variations.",
         "website": "https://connary.com/ellograph.html",
-        "year": 2020
+        "year": 2020,
+        "glyphs": 642,
+        "characters": 569
     },
     "envy-code-b": {
         "added": "2023-12-29",
@@ -885,7 +994,9 @@
         "style": "sans",
         "zerostyle": "slashed",
         "website": "https://damieng.com/blog/2006/11/06/envy-code-b-font-available-in-ttf-format/",
-        "year": 2006
+        "year": 2006,
+        "glyphs": 227,
+        "characters": 225
     },
     "envy-code-r": {
         "added": "2019-04-12",
@@ -898,7 +1009,9 @@
         "style": "sans",
         "zerostyle": "slashed",
         "website": "https://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released",
-        "year": 2008
+        "year": 2008,
+        "glyphs": 666,
+        "characters": 663
     },
     "fairfax": {
         "added": "2019-04-09",
@@ -918,7 +1031,9 @@
         ],
         "website": "http://www.kreativekorp.com/software/fonts/fairfax.shtml",
         "year": 2008,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 16156,
+        "characters": 16153
     },
     "fairfax-hd": {
         "added": "2019-04-09",
@@ -932,7 +1047,9 @@
         "style": "sans",
         "website": "http://www.kreativekorp.com/software/fonts/fairfaxhd.shtml",
         "year": 2019,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 12964,
+        "characters": 12961
     },
     "fairfax-hd-hax": {
         "added": "2023-07-22",
@@ -945,7 +1062,9 @@
         "rendering": "vector",
         "style": "sans",
         "year": 2019,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 23350,
+        "characters": 21524
     },
     "fairfax-serif": {
         "added": "2019-04-09",
@@ -959,7 +1078,9 @@
         "rendering": "bitmap",
         "style": "serif",
         "year": 2008,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 16156,
+        "characters": 16153
     },
     "fantasque-sans": {
         "added": "bc",
@@ -972,7 +1093,9 @@
         "style": "sans",
         "website": "https://github.com/belluzj/fantasque-sans",
         "year": 2013,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1046,
+        "characters": 1042
     },
     "fifteen": {
         "added": "bc",
@@ -986,7 +1109,9 @@
         "style": "sans",
         "website": "http://openfontlibrary.org/en/font/fifteen",
         "year": 2013,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 102,
+        "characters": 99
     },
     "fira": {
         "added": "bc",
@@ -1004,7 +1129,9 @@
         ],
         "website": "https://github.com/mozilla/Fira",
         "year": 2013,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1485,
+        "characters": 1350
     },
     "firacode": {
         "added": "2016-05-25",
@@ -1025,7 +1152,9 @@
         ],
         "website": "https://github.com/tonsky/FiraCode",
         "year": 2014,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 2030,
+        "characters": 1586
     },
     "fixedsys": {
         "added": "2014-11-19",
@@ -1040,7 +1169,9 @@
         "style": "sans",
         "website": "https://web.archive.org/web/20160316105117/http://www.moviecorner.de/en/font-fixedsys-ttf/description",
         "year": 1984,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 213,
+        "characters": 254
     },
     "fixedsys-ligatures": {
         "added": "2016-05-25",
@@ -1055,7 +1186,9 @@
         "style": "sans",
         "website": "https://github.com/kika/fixedsys",
         "year": 2016,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 6012,
+        "characters": 5997
     },
     "font3270": {
         "added": "2016-07-14",
@@ -1072,7 +1205,9 @@
         ],
         "website": "https://github.com/rbanffy/3270font",
         "year": 2015,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 2226,
+        "characters": 1997
     },
     "fragment-mono": {
         "added": "2023-07-03",
@@ -1089,7 +1224,9 @@
         ],
         "website": "https://github.com/weiweihuanghuang/fragment-mono",
         "year": 2022,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 707,
+        "characters": 487
     },
     "generic": {
         "added": "bc",
@@ -1102,7 +1239,9 @@
         "style": "sans",
         "website": "http://luc.devroye.org/fonts-75172.html",
         "year": 1980,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 221,
+        "characters": 220
     },
     "geist": {
         "added": "2023-12-03",
@@ -1116,7 +1255,9 @@
         "variants": "A variable font in 9 weights, without italics.",
         "website": "https://vercel.com/font/mono",
         "year": 2023,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 833,
+        "characters": 652
     },
     "gintronic": {
         "added": "2021-03-09",
@@ -1143,7 +1284,9 @@
         ],
         "website": "https://markfromberg.com/projects/gintronic/",
         "year": 2016,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1001,
+        "characters": 917
     },
     "gnu-freefont": {
         "added": "bc",
@@ -1162,7 +1305,9 @@
         ],
         "website": "https://www.gnu.org/software/freefont/",
         "year": 2002,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 4177,
+        "characters": 4160
     },
     "go-mono": {
         "added": "2016-11-25",
@@ -1181,7 +1326,9 @@
         ],
         "website": "https://blog.golang.org/go-fonts",
         "year": 2016,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 666,
+        "characters": 663
     },
     "gohufont-11": {
         "added": "2023-07-04",
@@ -1198,7 +1345,9 @@
         ],
         "website": "https://font.gohu.org",
         "year": 2010,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 194,
+        "characters": 191
     },
     "gohufont-14": {
         "added": "2023-07-04",
@@ -1215,7 +1364,9 @@
         ],
         "website": "https://font.gohu.org",
         "year": 2010,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 257,
+        "characters": 255
     },
     "google-sans-code": {
         "added": "2025-07-22",
@@ -1229,7 +1380,9 @@
         "variants": "A variable font ranging in weights 300-800, including italics.",
         "website": "https://github.com/googlefonts/googlesans-code",
         "year": 2025,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 687,
+        "characters": 670
     },
     "hack": {
         "added": "2015-06-27",
@@ -1243,7 +1396,9 @@
         "style": "sans",
         "website": "https://github.com/chrissimpkins/Hack",
         "year": 2015,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1573,
+        "characters": 1548
     },
     "hack-ligatured": {
         "added": "2025-03-05",
@@ -1257,7 +1412,9 @@
         "style": "sans",
         "website": "https://github.com/gaplo917/Ligatured-Hack",
         "year": 2020,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1917,
+        "characters": 1548
     },
     "hasklig": {
         "added": "2016-05-25",
@@ -1270,7 +1427,9 @@
         "style": "sans",
         "website": "https://github.com/i-tu/Hasklig",
         "year": 2014,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1629,
+        "characters": 1373
     },
     "hermit": {
         "added": "bc",
@@ -1283,7 +1442,9 @@
         "style": "sans",
         "website": "https://pcaro.es/p/hermit/",
         "year": 2013,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 393,
+        "characters": 390
     },
     "heterodox-mono": {
         "added": "2022-08-30",
@@ -1300,7 +1461,9 @@
         ],
         "website": "https://github.com/hckiang/font-new-heterodox-mono",
         "year": 2019,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 336,
+        "characters": 334
     },
     "ia-writer-mono": {
         "added": "2019-01-26",
@@ -1313,7 +1476,9 @@
         "style": "sans",
         "website": "https://ia.net/topics/a-typographic-christmas",
         "year": 2018,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 850,
+        "characters": 746
     },
     "ibm-vga": {
         "added": "2023-07-05",
@@ -1330,7 +1495,9 @@
         ],
         "website": "https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_vga_9x16",
         "year": 1987,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 782,
+        "characters": 781
     },
     "inconsolata": {
         "added": "bc",
@@ -1345,7 +1512,9 @@
         "variants": "A variable font in 9 weights, without italics.",
         "website": "https://levien.com/type/myfonts/inconsolata.html",
         "year": 2001,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 964,
+        "characters": 882
     },
     "inconsolata-g": {
         "added": "bc",
@@ -1358,7 +1527,9 @@
         "style": "sans",
         "website": "http://leonardo-m.livejournal.com/77079.html",
         "year": 2009,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 294,
+        "characters": 286
     },
     "inconsolata-go": {
         "added": "2023-07-05",
@@ -1375,7 +1546,9 @@
             "regular"
         ],
         "year": 2001,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 304,
+        "characters": 290
     },
     "inconsolata-otf": {
         "added": "2023-07-05",
@@ -1391,7 +1564,9 @@
             "regular"
         ],
         "year": 2001,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 359,
+        "characters": 286
     },
     "indicate": {
         "added": "2024-04-20",
@@ -1407,7 +1582,9 @@
         ],
         "website": "https://jonastype.com/indicate-mono",
         "year": 2023,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 304,
+        "characters": 300
     },
     "input": {
         "added": "2016-01-16",
@@ -1421,7 +1598,9 @@
         "variants": "A download can be customized with dozens of weights, widths, dotted or slashed zeroes, and other styles.",
         "website": "https://input.djr.com",
         "year": 2014,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 922,
+        "characters": 923
     },
     "intel-one-mono": {
         "added": "2023-05-15",
@@ -1444,7 +1623,9 @@
         ],
         "website": "https://github.com/intel/intel-one-mono",
         "year": 2023,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 684,
+        "characters": 622
     },
     "iosevka": {
         "added": "2016-02-03",
@@ -1459,7 +1640,9 @@
         "variants": "Iosevka is highly customizable with 7 weights, 3 slopes, 2 width and tons of variations and OpenType sets.",
         "website": "http://be5invis.github.io/Iosevka/",
         "year": 2015,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 46818,
+        "characters": 7571
     },
     "iosevka-extended": {
         "added": "2026-06-12",
@@ -1473,7 +1656,9 @@
         "style": "sans",
         "variants": "Iosevka Extended shares Iosevka's 7 weights, 3 slopes, and OpenType customizability with extended width.",
         "year": 2015,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 46821,
+        "characters": 7571
     },
     "iosevka-slab": {
         "added": "2026-06-12",
@@ -1487,7 +1672,9 @@
         "style": "serif",
         "variants": "Iosevka Slab shares Iosevka's 7 weights, 3 slopes, and OpenType customizability with slab-serif styling.",
         "year": 2015,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 46821,
+        "characters": 7571
     },
     "iosevka-slab-extended": {
         "added": "2026-06-12",
@@ -1501,7 +1688,9 @@
         "style": "serif",
         "variants": "Iosevka Slab Extended shares Iosevka's 7 weights, 3 slopes, and OpenType customizability with slab-serif styling and extended width.",
         "year": 2015,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 46822,
+        "characters": 7571
     },
     "ioskeley": {
         "added": "2025-09-20",
@@ -1528,7 +1717,9 @@
         ],
         "website": "https://github.com/ahatem/IoskeleyMono",
         "year": 2025,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 11552,
+        "characters": 7515
     },
     "jetbrainsmono": {
         "added": "2020-01-15",
@@ -1551,7 +1742,9 @@
         ],
         "website": "https://www.jetbrains.com/lp/mono/",
         "year": 2020,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1743,
+        "characters": 1363
     },
     "julia-mono": {
         "added": "2020-10-11",
@@ -1572,7 +1765,9 @@
         ],
         "website": "https://juliamono.netlify.app",
         "year": 2020,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 9216,
+        "characters": 8585
     },
     "latin-modern": {
         "added": "bc",
@@ -1585,7 +1780,9 @@
         "style": "serif",
         "website": "http://www.gust.org.pl/gust/projects/e-foundry/latin-modern",
         "year": 2002,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 786,
+        "characters": 622
     },
     "league": {
         "added": "2017-10-14",
@@ -1599,7 +1796,9 @@
         "variants": "A variable font in 40 weights, without italics.",
         "website": "https://www.tylerfinck.com/leaguemono/",
         "year": 2017,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 374,
+        "characters": 363
     },
     "lekton": {
         "added": "bc",
@@ -1612,7 +1811,9 @@
         "style": "sans",
         "website": "http://www.fontsquirrel.com/fonts/lekton",
         "year": 2008,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 950,
+        "characters": 352
     },
     "liberation": {
         "added": "bc",
@@ -1625,7 +1826,9 @@
         "style": "sans",
         "website": "https://www.fontsquirrel.com/fonts/liberation-mono",
         "year": 2007,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 2392,
+        "characters": 2274
     },
     "lilex": {
         "added": "2021-03-15",
@@ -1638,7 +1841,9 @@
         "style": "sans",
         "website": "https://github.com/mishamyrt/Lilex",
         "year": 2019,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 905,
+        "characters": 746
     },
     "lotion": {
         "added": "2022-01-12",
@@ -1654,7 +1859,9 @@
         ],
         "website": "https://font.nina.coffee",
         "year": 2019,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 158,
+        "characters": 147
     },
     "luculent": {
         "added": "2016-06-07",
@@ -1673,7 +1880,9 @@
         ],
         "website": "http://eastfarthing.com/luculent/",
         "year": 2008,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 649,
+        "characters": 648
     },
     "luxi": {
         "added": "bc",
@@ -1686,7 +1895,9 @@
         "style": "serif",
         "website": "http://www.fontsquirrel.com/fonts/Luxi-Mono",
         "year": 2001,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 395,
+        "characters": 378
     },
     "lyth-mono": {
         "added": "2026-01-31",
@@ -1700,7 +1911,9 @@
         "variants": "4 weights (regular, light, medium, bold), italics, 3 arc curvature options (normal, square, round).",
         "website": "https://github.com/why-trv/LythMono",
         "year": 2026,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 12156,
+        "characters": 7561
     },
     "maple": {
         "added": "2023-07-22",
@@ -1721,7 +1934,9 @@
         ],
         "website": "https://github.com/subframe7536/maple-font",
         "year": 2022,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 469,
+        "characters": 366
     },
     "martian-mono": {
         "added": "2023-01-27",
@@ -1746,7 +1961,9 @@
         ],
         "website": "https://github.com/evilmartians/mono",
         "year": 2022,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 557,
+        "characters": 503
     },
     "md-io": {
         "added": "2025-02-25",
@@ -1760,7 +1977,9 @@
         "variants": "A variable font in 8 weights, each with italics. Additionally a slashed zero is also available.",
         "website": "https://io.mass-driver.com",
         "year": 2023,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 742,
+        "characters": 703
     },
     "mensch": {
         "added": "2019-01-22",
@@ -1776,7 +1995,9 @@
         ],
         "website": "https://robey.lag.net/2010/06/21/mensch-font.html",
         "year": 2010,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 2708,
+        "characters": 2684
     },
     "meslo": {
         "added": "bc",
@@ -1789,7 +2010,9 @@
         "style": "sans",
         "website": "https://github.com/andreberg/Meslo-Font",
         "year": 2010,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 2708,
+        "characters": 2684
     },
     "miracode": {
         "added": "2025-10-16",
@@ -1805,7 +2028,9 @@
         ],
         "website": "https://github.com/IdreesInc/Miracode",
         "year": 2024,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1456,
+        "characters": 1435
     },
     "monaspace-argon": {
         "added": "2023-11-18",
@@ -1819,7 +2044,9 @@
         "variants": "A variable font with weight, slant and width options, various stylistic sets, and true italics. ",
         "website": "https://monaspace.githubnext.com/",
         "year": 2023,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 3570,
+        "characters": 2460
     },
     "monaspace-krypton": {
         "added": "2023-11-18",
@@ -1833,7 +2060,9 @@
         "variants": "A variable font with weight, slant and width options, various stylistic sets, and true italics.",
         "website": "https://monaspace.githubnext.com/",
         "year": 2023,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 3490,
+        "characters": 2459
     },
     "monaspace-neon": {
         "added": "2023-11-18",
@@ -1847,7 +2076,9 @@
         "variants": "A variable font with weight, slant and width options, various stylistic sets, and true italics.",
         "website": "https://monaspace.githubnext.com/",
         "year": 2023,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 3606,
+        "characters": 2460
     },
     "monaspace-radon": {
         "added": "2023-11-18",
@@ -1861,7 +2092,9 @@
         "variants": "A variable font with weight, slant and width options, various stylistic sets, and true italics.",
         "website": "https://monaspace.githubnext.com/",
         "year": 2023,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 3552,
+        "characters": 2460
     },
     "monaspace-xenon": {
         "added": "2023-11-18",
@@ -1875,7 +2108,9 @@
         "variants": "A variable font with weight, slant and width options, various stylistic sets, and true italics.",
         "website": "https://monaspace.githubnext.com/",
         "year": 2023,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 3818,
+        "characters": 2460
     },
     "mona-sans-mono": {
         "added": "2026-04-30",
@@ -1889,7 +2124,9 @@
         "variants": "A variable font ranging in weight and width, but without italics.",
         "website": "https://github.com/github/mona-sans",
         "year": 2025,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 768,
+        "characters": 547
     },
     "monocraft": {
         "added": "2022-09-13",
@@ -1905,7 +2142,9 @@
         ],
         "website": "https://github.com/IdreesInc/Monocraft",
         "year": 2022,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 538,
+        "characters": 525
     },
     "monoflow": {
         "added": "2021-07-30",
@@ -1928,7 +2167,9 @@
         ],
         "website": "https://finaltype.de/en/projects/monoflow",
         "year": 2020,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 507,
+        "characters": 444
     },
     "monofoki": {
         "added": "2022-07-02",
@@ -1947,7 +2188,9 @@
         ],
         "website": "https://github.com/datMaffin/monofoki",
         "year": 2021,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1122,
+        "characters": 1077
     },
     "monofur": {
         "added": "bc",
@@ -1960,7 +2203,9 @@
         "style": "sans",
         "website": "http://www.dafont.com/monofur.font",
         "year": 2000,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 675,
+        "characters": 660
     },
     "monoid": {
         "added": "2016-05-25",
@@ -1974,7 +2219,9 @@
         "variants": "Regular, bold, italic and retina, with optional ligatures and several stylistic alternatives.",
         "website": "http://larsenwork.com/monoid/",
         "year": 2015,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 780,
+        "characters": 616
     },
     "monolisa": {
         "added": "2024-04-24",
@@ -1988,7 +2235,9 @@
         "variants": "A variable font in 9 weights, each with italics. Various OpenType alternatives for slashed zeroes, ligatures, etc.",
         "website": "https://www.monolisa.dev",
         "year": 2022,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1651,
+        "characters": 1330
     },
     "mononoki": {
         "added": "2016-04-18",
@@ -2002,7 +2251,9 @@
         "variants": "Regular, bold, italic, bold-italic, and an OpenType set with dotted zeroes.",
         "website": "https://github.com/madmalik/mononoki",
         "year": 2013,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 696,
+        "characters": 671
     },
     "myna": {
         "added": "2025-11-07",
@@ -2018,7 +2269,9 @@
         ],
         "website": "https://github.com/sayyadirfanali/Myna",
         "year": 2025,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1156,
+        "characters": 1153
     },
     "mplus": {
         "added": "bc",
@@ -2031,7 +2284,9 @@
         "style": "sans",
         "website": "https://mplusfonts.github.io",
         "year": 2003,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 6747,
+        "characters": 6463
     },
     "nanum-gothic-coding": {
         "added": "2019-01-23",
@@ -2044,7 +2299,9 @@
         "style": "sans",
         "website": "https://github.com/naver/nanumfont",
         "year": 2009,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 20056,
+        "characters": 12478
     },
     "nimbus-mono": {
         "added": "2025-05-15",
@@ -2063,7 +2320,9 @@
         ],
         "website": "https://www.fontsquirrel.com/fonts/nimbus-mono",
         "year": 1984,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 855,
+        "characters": 854
     },
     "nk57": {
         "added": "2024-10-02",
@@ -2077,7 +2336,9 @@
         "variants": "60 variants differing in weight and compactness.",
         "website": "https://www.dafont.com/nk57-monospace.font",
         "year": 2015,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 749,
+        "characters": 747
     },
     "notcouriersans": {
         "added": "bc",
@@ -2090,7 +2351,9 @@
         "style": "sans",
         "website": "http://www.fontsquirrel.com/fonts/NotCourierSans",
         "year": 2008,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 659,
+        "characters": 652
     },
     "noto": {
         "added": "2017-06-27",
@@ -2103,7 +2366,9 @@
         "style": "sans",
         "website": "https://www.google.com/get/noto/",
         "year": 2012,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 3787,
+        "characters": 3367
     },
     "nova": {
         "added": "bc",
@@ -2116,7 +2381,9 @@
         "style": "sans",
         "website": "https://fonts.google.com/specimen/Nova+Mono",
         "year": 2010,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1331,
+        "characters": 1328
     },
     "office-code-pro": {
         "added": "2015-06-27",
@@ -2129,7 +2396,9 @@
         "style": "sans",
         "website": "https://fontlibrary.org/en/font/office-code-pro",
         "year": 2015,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 496,
+        "characters": 433
     },
     "old-timey": {
         "added": "2025-05-07",
@@ -2147,7 +2416,9 @@
         ],
         "website": "https://github.com/dse/old-timey-mono-font",
         "year": 2025,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 2233,
+        "characters": 2031
     },
     "opendyslexic": {
         "added": "2018-05-27",
@@ -2163,7 +2434,9 @@
         ],
         "website": "https://www.opendyslexic.org",
         "year": 2011,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 531,
+        "characters": 520
     },
     "overpass": {
         "added": "2017-01-06",
@@ -2182,7 +2455,9 @@
         ],
         "website": "http://overpassfont.org",
         "year": 2015,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 988,
+        "characters": 934
     },
     "oxproto": {
         "added": "2023-08-19",
@@ -2198,7 +2473,9 @@
         ],
         "website": "https://github.com/0xType/0xProto",
         "year": 2023,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 157,
+        "characters": 100
     },
     "oxygen": {
         "added": "bc",
@@ -2214,7 +2491,9 @@
         ],
         "website": "https://fonts.google.com/specimen/Oxygen+Mono",
         "year": 2012,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 397,
+        "characters": 392
     },
     "paper": {
         "added": "2025-10-08",
@@ -2230,7 +2509,9 @@
         ],
         "website": "https://github.com/paper-design/paper-mono",
         "year": 2025,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 562,
+        "characters": 484
     },
     "plex-mono": {
         "added": "2017-10-26",
@@ -2261,7 +2542,9 @@
         ],
         "website": "https://github.com/IBM/plex",
         "year": 2017,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 229,
+        "characters": 222
     },
     "press-start-2p": {
         "added": "2017-07-28",
@@ -2273,7 +2556,9 @@
         "style": "sans",
         "website": "https://github.com/codeman38/PressStart2P",
         "year": 2012,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 658,
+        "characters": 656
     },
     "profont": {
         "added": "bc",
@@ -2286,7 +2571,9 @@
         "style": "sans",
         "website": "http://tobiasjung.name/profont/",
         "year": 1987,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 263,
+        "characters": 261
     },
     "proggy-clean": {
         "added": "bc",
@@ -2300,7 +2587,9 @@
         "style": "sans",
         "website": "https://github.com/bluescan/proggyfonts/",
         "year": 2004,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 257,
+        "characters": 256
     },
     "proggy-vector": {
         "added": "2019-01-20",
@@ -2316,7 +2605,9 @@
         ],
         "website": "https://github.com/bluescan/proggyfonts/",
         "year": 2019,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1549,
+        "characters": 1548
     },
     "psudo": {
         "added": "2025-10-08",
@@ -2335,7 +2626,9 @@
         ],
         "website": "https://github.com/psudo-dev/psudofont-liga-mono",
         "year": 2025,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1418,
+        "characters": 1075
     },
     "pt": {
         "added": "bc",
@@ -2348,7 +2641,9 @@
         "style": "sans",
         "website": "https://www.paratype.com/fonts/pt/pt-mono",
         "year": 2011,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 787,
+        "characters": 788
     },
     "quinze": {
         "added": "bc",
@@ -2364,7 +2659,9 @@
         ],
         "website": "http://openfontlibrary.org/en/font/fifteen",
         "year": 2013,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 266,
+        "characters": 265
     },
     "recursive-mono-linear": {
         "added": "2020-04-12",
@@ -2378,7 +2675,9 @@
         "variants": "Dozens of pre-built styles, and variables for weight, slant, “casualness” and more.",
         "website": "https://www.recursive.design",
         "year": 2018,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1256,
+        "characters": 723
     },
     "reddit-sans": {
         "added": "2023-10-23",
@@ -2395,7 +2694,9 @@
         ],
         "website": "https://redditsans.s-ings.com",
         "year": 2020,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1080,
+        "characters": 724
     },
     "redhat": {
         "added": "2022-01-12",
@@ -2409,7 +2710,9 @@
         "variants": "A variable font in 4 weights, each with italics.",
         "website": "https://www.redhat.com/en/about/brand/standards/typography",
         "year": 2019,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 424,
+        "characters": 392
     },
     "roboto": {
         "added": "2015-06-27",
@@ -2423,7 +2726,9 @@
         "variants": "5 weights, each with italics.",
         "website": "https://fonts.google.com/specimen/Roboto+Mono",
         "year": 2015,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 999,
+        "characters": 876
     },
     "sax": {
         "added": "bc",
@@ -2436,7 +2741,9 @@
         "style": "sans",
         "website": "http://www.fontsquirrel.com/fonts/saxMono",
         "year": 2009,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 492,
+        "characters": 489
     },
     "scientifica": {
         "added": "2022-09-13",
@@ -2455,7 +2762,9 @@
         ],
         "website": "https://github.com/nerdypepper/scientifica",
         "year": 2019,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1088,
+        "characters": 1086
     },
     "sergamon": {
         "added": "2026-04-08",
@@ -2472,7 +2781,9 @@
         ],
         "website": "https://sgmonda.com/sergamon",
         "year": 2026,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 4227,
+        "characters": 4226
     },
     "serious-shanns": {
         "added": "2024-06-26",
@@ -2493,7 +2804,9 @@
         ],
         "website": "https://kabeech.github.io/serious-shanns/",
         "year": 2023,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 96,
+        "characters": 95
     },
     "share-tech": {
         "added": "bc",
@@ -2506,7 +2819,9 @@
         "style": "sans",
         "website": "https://fonts.google.com/specimen/Share+Tech+Mono",
         "year": 2012,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 268,
+        "characters": 267
     },
     "sk-modernist": {
         "added": "2016-02-29",
@@ -2519,7 +2834,9 @@
         "style": "sans",
         "website": "https://seankanedesign.gumroad.com/l/sk-modernist",
         "year": 2015,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 529,
+        "characters": 491
     },
     "sligoil": {
         "added": "2024-10-02",
@@ -2535,7 +2852,9 @@
         ],
         "website": "https://velvetyne.fr/fonts/sligoil/",
         "year": 2022,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 457,
+        "characters": 400
     },
     "sometype-mono": {
         "added": "2019-05-25",
@@ -2570,7 +2889,9 @@
         "variants": "A variable font in 7 weights, without italics.",
         "website": "https://etceteratype.co/sono",
         "year": 2020,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 750,
+        "characters": 576
     },
     "source-code-pro": {
         "added": "bc",
@@ -2584,7 +2905,9 @@
         "variants": "A variable font in 7 weights, each with italics.",
         "website": "https://github.com/adobe-fonts/source-code-pro",
         "year": 2012,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1568,
+        "characters": 1335
     },
     "space": {
         "added": "2017-01-06",
@@ -2603,7 +2926,9 @@
         ],
         "website": "https://fonts.google.com/specimen/Space+Mono",
         "year": 2016,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 733,
+        "characters": 613
     },
     "spleen": {
         "added": "2022-02-18",
@@ -2620,7 +2945,9 @@
         ],
         "website": "https://www.cambus.net/spleen-monospaced-bitmap-fonts/",
         "year": 2018,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 838,
+        "characters": 837
     },
     "sudo": {
         "added": "bc",
@@ -2634,7 +2961,9 @@
         "variants": "A variable font with weights from ExtraLight to Bold, each with italics, and a descender depth axis, and alternate glyphs.",
         "website": "https://www.kutilek.de/sudo-font/",
         "year": 2009,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1680,
+        "characters": 1454
     },
     "terminus-consoleet": {
         "added": "2026-03-26",
@@ -2647,7 +2976,9 @@
         "style": "sans",
         "website": "https://inai.de/projects/consoleet/terminus",
         "year": 2021,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1357,
+        "characters": 1356
     },
     "terminus-consoleet-smooth": {
         "added": "2026-03-26",
@@ -2660,7 +2991,9 @@
         "style": "sans",
         "website": "https://inai.de/projects/consoleet/terminus",
         "year": 2021,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1357,
+        "characters": 1356
     },
     "terminus-ttf": {
         "added": "2026-03-26",
@@ -2673,7 +3006,9 @@
         "style": "sans",
         "website": "https://files.ax86.net/terminus-ttf",
         "year": 2010,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1359,
+        "characters": 1356
     },
     "tex-gyre-cursor": {
         "added": "bc",
@@ -2686,7 +3021,9 @@
         "style": "serif",
         "website": "http://www.gust.org.pl/projects/e-foundry/tex-gyre",
         "year": 2006,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 1087,
+        "characters": 673
     },
     "topaz-a1200": {
         "added": "2026-05-27",
@@ -2700,7 +3037,9 @@
         "style": "sans",
         "website": "https://github.com/rewtnull/amigafonts",
         "year": 2013,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 257,
+        "characters": 221
     },
     "topaz-a500": {
         "added": "2026-05-27",
@@ -2714,7 +3053,9 @@
         "style": "sans",
         "website": "https://github.com/rewtnull/amigafonts",
         "year": 2013,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 257,
+        "characters": 221
     },
     "twilio-sans-mono": {
         "added": "2023-05-20",
@@ -2745,7 +3086,9 @@
         ],
         "website": "https://github.com/twilio/twilio-sans-mono",
         "year": 2020,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 747,
+        "characters": 405
     },
     "ubuntu": {
         "added": "bc",
@@ -2758,7 +3101,9 @@
         "style": "sans",
         "website": "http://font.ubuntu.com",
         "year": 2010,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1296,
+        "characters": 1224
     },
     "unifont": {
         "added": "bc",
@@ -2772,7 +3117,9 @@
         "style": "sans",
         "website": "http://www.unifoundry.com/unifont.html",
         "year": 1998,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 58911,
+        "characters": 58910
     },
     "unifontex": {
         "added": "2023-09-17",
@@ -2786,7 +3133,9 @@
         "style": "sans",
         "website": "https://github.com/stgiga/UnifontEX",
         "year": 2023,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 65422,
+        "characters": 65419
     },
     "verily": {
         "added": "2014-11-23",
@@ -2799,7 +3148,9 @@
         "style": "serif",
         "website": "https://www.fontsquirrel.com/fonts/Verily-Serif-Mono",
         "year": 2006,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 244,
+        "characters": 233
     },
     "victor-mono": {
         "added": "2019-06-06",
@@ -2812,7 +3163,9 @@
         "style": "sans",
         "website": "https://rubjo.github.io/victor-mono/",
         "year": 2019,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1435,
+        "characters": 1267
     },
     "vt323": {
         "added": "bc",
@@ -2826,7 +3179,9 @@
         "style": "sans",
         "website": "https://fedoraproject.org/wiki/VT323_Fonts",
         "year": 2014,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 213,
+        "characters": 210
     },
     "zhima-mono": {
         "added": "2025-05-21",
@@ -2842,6 +3197,8 @@
         ],
         "website": "https://github.com/ouonline/ZhiMaMono",
         "year": 2025,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 234,
+        "characters": 116
     }
 }

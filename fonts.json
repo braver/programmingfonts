@@ -215,7 +215,7 @@
     },
     "azeret": {
         "added": "2022-01-12",
-        "author": "Displaay",
+        "author": "Martin Vácha",
         "description": "The story of the typeface began with a draft that was driven by an exploration of OCR fonts, past and futuristic operating systems, various interfaces and the nineties.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -229,7 +229,7 @@
     },
     "b612-mono": {
         "added": "2019-01-21",
-        "author": "Nicolas Chauveau, Thomas Paillot and Jonathan Favre-Lamarine",
+        "author": "Nicolas Chauveau, Thomas Paillot, Jonathan Favre-Lamarine, Jean-Luc Vinot",
         "description": "B612 is an highly legible open source font family designed and tested to be used on aircraft cockpit screens.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -320,7 +320,7 @@
     },
     "bpmono": {
         "added": "bc",
-        "author": "Backpacker",
+        "author": "George Triantafyllakos",
         "description": "A monospaced typeface suitable for technical texts and/or programming",
         "license": "CC BY-ND 3.0",
         "ligatures": false,
@@ -681,7 +681,7 @@
     },
     "d2coding": {
         "added": "2019-01-22",
-        "author": "NAVER Corp.",
+        "author": "Yong-Rak Park; Jeong-Hwan Yoon; Sang-Min Lee;",
         "description": " 나눔바른고딕을 바탕으로 개발자의 코딩을 위해 가독성 및 유사 문자간 변별력 뿐만 아니라 디자인적으로 한글과의 조화를 고려해 최적화시킨 글꼴입니다.",
         "license": "SIL OFL",
         "ligatures": true,
@@ -1166,7 +1166,7 @@
     },
     "go-mono": {
         "added": "2016-11-25",
-        "author": "Bigelow & Holmes",
+        "author": "Kris Holmes and Charles Bigelow",
         "description": "The Go font was created especially for readability in the Go programming language. It’s a humanist, slab serif font created by the famous Bigelow & Holmes foundry.",
         "license": "MIT",
         "ligatures": false,
@@ -1261,7 +1261,7 @@
     },
     "hasklig": {
         "added": "2016-05-25",
-        "author": "Ian Tuomi",
+        "author": "Paul D. Hunt, Teo Tuominen",
         "description": "A code font with monospaced ligatures, designed for Haskell.",
         "license": "SIL OFL",
         "ligatures": true,
@@ -1287,7 +1287,7 @@
     },
     "heterodox-mono": {
         "added": "2022-08-30",
-        "author": "Hao Chi Kiang",
+        "author": "Hao Chi Kiang, Alexey Kryukov",
         "description": "A Didone-esque Monospaced Typeface based on Alexey Kryukov's Old Standard TT.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -1304,7 +1304,7 @@
     },
     "ia-writer-mono": {
         "added": "2019-01-26",
-        "author": "Oliver Reichenstein, Bold Monday, Mike Abbink, Paul van der Laan, Pieter van Rosmalen",
+        "author": "Mike Abbink, Paul van der Laan, Pieter van Rosmalen, Oliver Reichenstein",
         "description": "iA Writer Mono, Duo and Quattro were built upon IBM Plex.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -1532,7 +1532,7 @@
     },
     "jetbrainsmono": {
         "added": "2020-01-15",
-        "author": "Philipp Nurullin",
+        "author": "Philipp Nurullin, Konstantin Bulenkov",
         "description": "A typeface made for developers.",
         "license": "SIL OFL",
         "ligatures": true,
@@ -1589,7 +1589,7 @@
     },
     "league": {
         "added": "2017-10-14",
-        "author": "Tyler Fink",
+        "author": "Tyler Finck",
         "description": "League Mono is a mashup of sorts, inspired by some beautiful forms found in both Fira Mono, Libertinus Mono, and Courier(?!).",
         "license": "SIL OFL",
         "ligatures": false,
@@ -1677,7 +1677,7 @@
     },
     "luxi": {
         "added": "bc",
-        "author": "Kris Holmes, Charles Bigelow",
+        "author": "Kris Holmes and Charles Bigelow",
         "description": "Luxi is a family of typefaces originally designed for the X Window System by Bigelow & Holmes Inc. The Luxi typefaces are similar to Lucida – their previous font design.",
         "license": "Luxi License",
         "ligatures": false,
@@ -1725,7 +1725,7 @@
     },
     "martian-mono": {
         "added": "2023-01-27",
-        "author": "Roman Shamin, Evil Martians",
+        "author": "Roman Shamin",
         "description": "Martian Mono is a monospaced version of the Martian Grotesk font for code style design.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -1809,7 +1809,7 @@
     },
     "monaspace-argon": {
         "added": "2023-11-18",
-        "author": "Lettermatic & GitHub Next",
+        "author": "Riley Cran & the Lettermatic Team",
         "description": "The Monaspace type system is a monospaced type superfamily with some modern tricks up its sleeve. Argon is the humanist sans version.",
         "license": "SIL OFL",
         "ligatures": true,
@@ -1823,7 +1823,7 @@
     },
     "monaspace-krypton": {
         "added": "2023-11-18",
-        "author": "Lettermatic & GitHub Next",
+        "author": "Riley Cran & the Lettermatic Team",
         "description": "The Monaspace type system is a monospaced type superfamily with some modern tricks up its sleeve. Krypton is the mechanical sans version.",
         "license": "SIL OFL",
         "ligatures": true,
@@ -1837,7 +1837,7 @@
     },
     "monaspace-neon": {
         "added": "2023-11-18",
-        "author": "Lettermatic & GitHub Next",
+        "author": "Riley Cran & the Lettermatic Team",
         "description": "The Monaspace type system is a monospaced type superfamily with some modern tricks up its sleeve. Neon is the neo-grotesque sans version.",
         "license": "SIL OFL",
         "ligatures": true,
@@ -1851,7 +1851,7 @@
     },
     "monaspace-radon": {
         "added": "2023-11-18",
-        "author": "Lettermatic & GitHub Next",
+        "author": "Riley Cran & the Lettermatic Team",
         "description": "The Monaspace type system is a monospaced type superfamily with some modern tricks up its sleeve. Radon is the handwriting version.",
         "license": "SIL OFL",
         "ligatures": true,
@@ -1865,7 +1865,7 @@
     },
     "monaspace-xenon": {
         "added": "2023-11-18",
-        "author": "Lettermatic & GitHub Next",
+        "author": "Riley Cran & the Lettermatic Team",
         "description": "The Monaspace type system is a monospaced type superfamily with some modern tricks up its sleeve. Xenon is the slab serif version",
         "license": "SIL OFL",
         "ligatures": true,
@@ -1879,7 +1879,7 @@
     },
     "mona-sans-mono": {
         "added": "2026-04-30",
-        "author": "GitHub, Degarism",
+        "author": "Kyle Wayne Benson",
         "description": "A strong and versatile typeface, designed together with Degarism and inspired by industrial-era grotesques.",
         "license": "SIL OFL",
         "ligatures": true,
@@ -2035,7 +2035,7 @@
     },
     "nanum-gothic-coding": {
         "added": "2019-01-23",
-        "author": "NAVER Corp.",
+        "author": "Dokyung Lee, Minjae Kang, Sang-a Kim",
         "description": "나눔고딕코딩체는 지난 2008년 10월 9일 발표된 나눔고딕을 바탕으로 개발자들의 코딩 환경에 최적화시킨 글꼴입니다.",
         "license": "SIL OFL",
         "ligatures": true,
@@ -2081,7 +2081,7 @@
     },
     "notcouriersans": {
         "added": "bc",
-        "author": "Open Source Publishing",
+        "author": "Harrisson, Pierre Huyghebaert, Femke Snelting, Ivan Monroy-Lopez, Yi Jiang, Nicolas Malevé, Ludivine Loiseau",
         "description": "NotCourier is a re-interpretation of Nimbus Mono and was designed in Wroclaw at the occasion of Libre Graphics Meeting (LGM 2008).",
         "license": "GNU GPL",
         "ligatures": false,
@@ -2120,7 +2120,7 @@
     },
     "office-code-pro": {
         "added": "2015-06-27",
-        "author": "Nathan Rutzky",
+        "author": "Nathan Rutzky & Paul D. Hunt",
         "description": "Office Code Pro is a customized version of Source Code Pro.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -2167,7 +2167,7 @@
     },
     "overpass": {
         "added": "2017-01-06",
-        "author": "Delve Withrington",
+        "author": "Delve Withrington, Dave Bailey",
         "description": "An open source font family inspired by Highway Gothic.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -2218,7 +2218,7 @@
     },
     "paper": {
         "added": "2025-10-08",
-        "author": "Paper",
+        "author": "Guido Ferreyra, Javier Quintana Godoy",
         "description": "A beautiful monospace font for design and code. Based on Geist Mono.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -2234,7 +2234,7 @@
     },
     "plex-mono": {
         "added": "2017-10-26",
-        "author": "Bold Monday, Mike Abbink",
+        "author": "Mike Abbink, Paul van der Laan, Pieter van Rosmalen",
         "description": "Meet the IBM Plex® typeface, our new corporate typeface family. It’s global, it’s versatile and it’s distinctly IBM.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -2339,7 +2339,7 @@
     },
     "pt": {
         "added": "bc",
-        "author": "Alexandra Korolkova",
+        "author": "A.Korolkova, I.Chaeva",
         "description": "PT Mono was developed for the special needs -- for use in forms, tables, work sheets etc.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -2427,7 +2427,7 @@
     },
     "sax": {
         "added": "bc",
-        "author": "s.a.x. Software",
+        "author": "Robert Norton",
         "description": "saxMono is a sample of a fine TrueType with high screen quality. Its spacing (11 cpi@12 pt) is between the Courier and Letter Gothic.",
         "license": "freeware",
         "ligatures": false,
@@ -2497,7 +2497,7 @@
     },
     "share-tech": {
         "added": "bc",
-        "author": "Ralph du Carrois",
+        "author": "Ralph Oliver du Carrois",
         "description": "Share Tech Mono is a monospaced sans serif, based on the Share family. There is also Share Tech , a proportionally spaced version.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -2560,7 +2560,7 @@
     },
     "sono": {
         "added": "2023-11-18",
-        "author": "Ty Finck",
+        "author": "Tyler Finck",
         "description": "A soft monospace or proportional typeface.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -2574,7 +2574,7 @@
     },
     "source-code-pro": {
         "added": "bc",
-        "author": "Paul D. Hunt",
+        "author": "Paul D. Hunt, Teo Tuominen",
         "description": "Source Code Pro is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -2588,7 +2588,7 @@
     },
     "space": {
         "added": "2017-01-06",
-        "author": "Colophon Foundry",
+        "author": "Colophon Foundry / Benjamin Critton",
         "description": "Commissioned for the 2016 update of Google Fonts. The evergreen touchstone for Space Mono is Aldo Novarese’s Microgramma, 1952 (and later Eurostile, 1962).",
         "license": "SIL OFL",
         "ligatures": false,
@@ -2718,7 +2718,7 @@
     },
     "twilio-sans-mono": {
         "added": "2023-05-20",
-        "author": "Sharp Type",
+        "author": "Lucas Sharp and Huw Williams",
         "description": "Twilio worked very closely with the type foundry, Sharp Type over the course of two years to develop a welcoming and adaptable typeface.",
         "license": "SIL OFL",
         "ligatures": true,
@@ -2749,7 +2749,7 @@
     },
     "ubuntu": {
         "added": "bc",
-        "author": "Dalton Maag",
+        "author": "Dalton Maag Ltd",
         "description": "The way typography is used says as much about our brand as the words themselves. The Ubuntu typeface has been specially created to complement the Ubuntu tone of voice.",
         "license": "Ubuntu Font Licence",
         "ligatures": false,
@@ -2803,7 +2803,7 @@
     },
     "victor-mono": {
         "added": "2019-06-06",
-        "author": "Rune B",
+        "author": "Rune Bjørnerås",
         "description": "Victor Mono is a programming font with semi-connected cursive italics and some symbol ligatures",
         "license": "MIT",
         "ligatures": true,

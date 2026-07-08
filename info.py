@@ -119,8 +119,10 @@ with open('fonts.json', 'r+') as user_file:
             data[key]['characters'] = len(checker.characters)
             print('langs:')
             langs = checker.get_supported_languages()
+            data[key]['languages'] = {}
             for lang in langs:
                 print(lang, len(langs[lang]), lang_count[lang])
+                data[key]['languages'][str(lang)] = len(langs[lang])
         except Exception:
             print('language support could not be detected')
 

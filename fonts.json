@@ -18,7 +18,13 @@
         "year": 2025,
         "zerostyle": "dotted",
         "glyphs": 8569,
-        "characters": 7439
+        "characters": 7439,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 83,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "agave": {
         "added": "2018-10-23",
@@ -36,7 +42,12 @@
         "year": 2013,
         "zerostyle": "dotted",
         "glyphs": 1958,
-        "characters": 1949
+        "characters": 1949,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 91,
+            "Greek": 2
+        }
     },
     "anka-coder": {
         "added": "bc",
@@ -52,7 +63,11 @@
         "year": 2010,
         "zerostyle": "slashed",
         "glyphs": 620,
-        "characters": 617
+        "characters": 617,
+        "languages": {
+            "Latin": 288,
+            "Cyrillic": 13
+        }
     },
     "annotation-mono": {
         "added": "2025-07-07",
@@ -68,7 +83,10 @@
         "year": 2025,
         "zerostyle": "slashed",
         "glyphs": 766,
-        "characters": 728
+        "characters": 728,
+        "languages": {
+            "Latin": 364
+        }
     },
     "anonymous-pro": {
         "added": "bc",
@@ -89,7 +107,12 @@
         "year": 2009,
         "zerostyle": "slashed",
         "glyphs": 624,
-        "characters": 623
+        "characters": 623,
+        "languages": {
+            "Latin": 290,
+            "Cyrillic": 12,
+            "Greek": 1
+        }
     },
     "apl2741": {
         "added": "2018-05-29",
@@ -124,7 +147,12 @@
         "year": 2003,
         "zerostyle": "empty",
         "glyphs": 772,
-        "characters": 769
+        "characters": 769,
+        "languages": {
+            "Latin": 289,
+            "Cyrillic": 9,
+            "Greek": 1
+        }
     },
     "aporetic-sans": {
         "added": "2026-01-21",
@@ -145,7 +173,13 @@
         "year": 2025,
         "zerostyle": "slashed",
         "glyphs": 33898,
-        "characters": 7466
+        "characters": 7466,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 83,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "aporetic-serif": {
         "added": "2026-01-21",
@@ -166,7 +200,13 @@
         "year": 2025,
         "zerostyle": "slashed",
         "glyphs": 33901,
-        "characters": 7466
+        "characters": 7466,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 83,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "atkinson-hyperlegible": {
         "added": "2025-02-18",
@@ -182,7 +222,10 @@
         "year": 2025,
         "zerostyle": "slashed",
         "glyphs": 365,
-        "characters": 346
+        "characters": 346,
+        "languages": {
+            "Latin": 261
+        }
     },
     "audio-link": {
         "added": "2024-04-20",
@@ -200,7 +243,10 @@
         "year": 2022,
         "zerostyle": "slashed",
         "glyphs": 118,
-        "characters": 166
+        "characters": 166,
+        "languages": {
+            "Latin": 202
+        }
     },
     "aurulent": {
         "added": "2014-11-23",
@@ -218,7 +264,10 @@
         "year": 2007,
         "zerostyle": "empty",
         "glyphs": 267,
-        "characters": 254
+        "characters": 254,
+        "languages": {
+            "Latin": 174
+        }
     },
     "average": {
         "added": "bc",
@@ -236,7 +285,16 @@
         "year": 2013,
         "zerostyle": "empty",
         "glyphs": 4177,
-        "characters": 4160
+        "characters": 4160,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 92,
+            "Arabic": 34,
+            "Hebrew": 5,
+            "Greek": 2,
+            "Armenian": 2,
+            "Kayah Li": 2
+        }
     },
     "azeret": {
         "added": "2022-01-12",
@@ -252,7 +310,10 @@
         "year": 2020,
         "zerostyle": "empty",
         "glyphs": 645,
-        "characters": 433
+        "characters": 433,
+        "languages": {
+            "Latin": 295
+        }
     },
     "b612-mono": {
         "added": "2019-01-21",
@@ -267,7 +328,10 @@
         "year": 2012,
         "zerostyle": "empty",
         "glyphs": 590,
-        "characters": 589
+        "characters": 589,
+        "languages": {
+            "Latin": 215
+        }
     },
     "bedstead": {
         "added": "2019-01-21",
@@ -282,7 +346,12 @@
         "year": 2018,
         "zerostyle": "empty",
         "glyphs": 1241,
-        "characters": 1203
+        "characters": 1203,
+        "languages": {
+            "Latin": 251,
+            "Cyrillic": 11,
+            "Greek": 1
+        }
     },
     "bigblue-terminal": {
         "added": "2022-02-18",
@@ -301,7 +370,12 @@
         "year": 2015,
         "zerostyle": "dotted",
         "glyphs": 782,
-        "characters": 781
+        "characters": 781,
+        "languages": {
+            "Latin": 288,
+            "Cyrillic": 14,
+            "Greek": 1
+        }
     },
     "binchotan-sharp": {
         "added": "2020-11-05",
@@ -319,7 +393,10 @@
         "year": 2017,
         "zerostyle": "dotted",
         "glyphs": 650,
-        "characters": 647
+        "characters": 647,
+        "languages": {
+            "Latin": 211
+        }
     },
     "bitstream-vera": {
         "added": "bc",
@@ -340,7 +417,10 @@
         "year": 2002,
         "zerostyle": "dotted",
         "glyphs": 269,
-        "characters": 256
+        "characters": 256,
+        "languages": {
+            "Latin": 223
+        }
     },
     "borg-sans-mono": {
         "added": "2018-10-16",
@@ -355,7 +435,12 @@
         "year": 2016,
         "zerostyle": "slashed",
         "glyphs": 907,
-        "characters": 871
+        "characters": 871,
+        "languages": {
+            "Latin": 310,
+            "Cyrillic": 75,
+            "Greek": 1
+        }
     },
     "bpmono": {
         "added": "bc",
@@ -375,7 +460,11 @@
         "year": 2007,
         "zerostyle": "slashed",
         "glyphs": 232,
-        "characters": 228
+        "characters": 228,
+        "languages": {
+            "Latin": 108,
+            "Greek": 1
+        }
     },
     "bront-dejavu": {
         "added": "2019-01-26",
@@ -390,7 +479,14 @@
         "year": 2015,
         "zerostyle": "slashed",
         "glyphs": 3296,
-        "characters": 3244
+        "characters": 3244,
+        "languages": {
+            "Latin": 511,
+            "Cyrillic": 72,
+            "Armenian": 2,
+            "Arabic": 1,
+            "Greek": 1
+        }
     },
     "bront-ubuntu": {
         "added": "2019-01-26",
@@ -405,7 +501,12 @@
         "year": 2015,
         "zerostyle": "slashed",
         "glyphs": 1304,
-        "characters": 1231
+        "characters": 1231,
+        "languages": {
+            "Latin": 304,
+            "Cyrillic": 71,
+            "Greek": 1
+        }
     },
     "camingocode": {
         "added": "2016-02-27",
@@ -420,7 +521,10 @@
         "year": 2013,
         "zerostyle": "slashed",
         "glyphs": 473,
-        "characters": 450
+        "characters": 450,
+        "languages": {
+            "Latin": 299
+        }
     },
     "cartograph": {
         "added": "2020-01-12",
@@ -436,7 +540,12 @@
         "year": 2016,
         "zerostyle": "dotted",
         "glyphs": 849,
-        "characters": 741
+        "characters": 741,
+        "languages": {
+            "Latin": 283,
+            "Cyrillic": 7,
+            "Greek": 1
+        }
     },
     "cascadia-code": {
         "added": "2019-09-21",
@@ -452,7 +561,12 @@
         "year": 2019,
         "zerostyle": "dotted",
         "glyphs": 3199,
-        "characters": 1860
+        "characters": 1860,
+        "languages": {
+            "Latin": 412,
+            "Cyrillic": 43,
+            "Greek": 1
+        }
     },
     "chivo": {
         "author": "Héctor Gatti & Omnibus-Type Team",
@@ -468,7 +582,10 @@
         "year": 2022,
         "zerostyle": "empty",
         "glyphs": 873,
-        "characters": 642
+        "characters": 642,
+        "languages": {
+            "Latin": 352
+        }
     },
     "cm-unicode": {
         "added": "2024-01-07",
@@ -492,7 +609,12 @@
         "year": 1992,
         "zerostyle": "empty",
         "glyphs": 1868,
-        "characters": 1832
+        "characters": 1832,
+        "languages": {
+            "Latin": 388,
+            "Cyrillic": 63,
+            "Greek": 1
+        }
     },
     "code-new-roman": {
         "added": "2015-06-27",
@@ -507,7 +629,12 @@
         "year": 2014,
         "zerostyle": "slashed",
         "glyphs": 2740,
-        "characters": 2220
+        "characters": 2220,
+        "languages": {
+            "Latin": 511,
+            "Cyrillic": 78,
+            "Greek": 1
+        }
     },
     "comic-mono": {
         "added": "2023-07-03",
@@ -526,7 +653,10 @@
         "year": 2019,
         "zerostyle": "slashed",
         "glyphs": 106,
-        "characters": 103
+        "characters": 103,
+        "languages": {
+            "Latin": 108
+        }
     },
     "comic-shanns": {
         "added": "2020-01-12",
@@ -544,7 +674,10 @@
         "year": 2018,
         "zerostyle": "slashed",
         "glyphs": 104,
-        "characters": 103
+        "characters": 103,
+        "languages": {
+            "Latin": 108
+        }
     },
     "commit-mono": {
         "added": "2023-07-21",
@@ -560,7 +693,10 @@
         "year": 2023,
         "zerostyle": "slashed",
         "glyphs": 1550,
-        "characters": 838
+        "characters": 838,
+        "languages": {
+            "Latin": 292
+        }
     },
     "consolamono": {
         "added": "bc",
@@ -579,7 +715,12 @@
         "year": 2011,
         "zerostyle": "slashed",
         "glyphs": 1465,
-        "characters": 1462
+        "characters": 1462,
+        "languages": {
+            "Latin": 471,
+            "Cyrillic": 90,
+            "Greek": 2
+        }
     },
     "courier-ibm": {
         "added": "2026-03-20",
@@ -601,7 +742,10 @@
         "year": 1955,
         "zerostyle": "empty",
         "glyphs": 479,
-        "characters": 452
+        "characters": 452,
+        "languages": {
+            "Latin": 268
+        }
     },
     "courier-ibm-dotted": {
         "added": "2026-03-20",
@@ -622,7 +766,10 @@
         "year": 2021,
         "zerostyle": "dotted",
         "glyphs": 476,
-        "characters": 452
+        "characters": 452,
+        "languages": {
+            "Latin": 268
+        }
     },
     "courier-ibm-slashed": {
         "added": "2026-03-20",
@@ -643,7 +790,10 @@
         "year": 2021,
         "zerostyle": "slashed",
         "glyphs": 476,
-        "characters": 452
+        "characters": 452,
+        "languages": {
+            "Latin": 268
+        }
     },
     "courier-prime": {
         "added": "2017-10-21",
@@ -665,7 +815,10 @@
         "year": 2013,
         "zerostyle": "empty",
         "glyphs": 379,
-        "characters": 364
+        "characters": 364,
+        "languages": {
+            "Latin": 267
+        }
     },
     "courier-prime-code": {
         "added": "2017-10-21",
@@ -684,7 +837,10 @@
         "year": 2013,
         "zerostyle": "slashed",
         "glyphs": 411,
-        "characters": 380
+        "characters": 380,
+        "languages": {
+            "Latin": 287
+        }
     },
     "courier-prime-sans": {
         "added": "2023-07-21",
@@ -705,7 +861,10 @@
         "year": 2013,
         "zerostyle": "empty",
         "glyphs": 411,
-        "characters": 380
+        "characters": 380,
+        "languages": {
+            "Latin": 287
+        }
     },
     "cousine": {
         "added": "bc",
@@ -726,7 +885,13 @@
         "year": 2010,
         "zerostyle": "dotted",
         "glyphs": 2385,
-        "characters": 2274
+        "characters": 2274,
+        "languages": {
+            "Latin": 499,
+            "Cyrillic": 81,
+            "Hebrew": 5,
+            "Greek": 1
+        }
     },
     "cozette": {
         "added": "2020-03-10",
@@ -745,7 +910,11 @@
         "year": 2020,
         "zerostyle": "dotted",
         "glyphs": 1606,
-        "characters": 1604
+        "characters": 1604,
+        "languages": {
+            "Latin": 274,
+            "Cyrillic": 77
+        }
     },
     "cutive": {
         "added": "bc",
@@ -760,7 +929,10 @@
         "year": 2012,
         "zerostyle": "empty",
         "glyphs": 441,
-        "characters": 438
+        "characters": 438,
+        "languages": {
+            "Latin": 287
+        }
     },
     "d2coding": {
         "added": "2019-01-22",
@@ -779,7 +951,13 @@
         "year": 2016,
         "zerostyle": "slashed",
         "glyphs": 26188,
-        "characters": 19966
+        "characters": 19966,
+        "languages": {
+            "Latin": 305,
+            "Cyrillic": 70,
+            "Hangul": 1,
+            "Greek": 1
+        }
     },
     "daddytimemono": {
         "added": "2019-01-22",
@@ -797,7 +975,10 @@
         "year": 2017,
         "zerostyle": "slashed",
         "glyphs": 438,
-        "characters": 434
+        "characters": 434,
+        "languages": {
+            "Latin": 105
+        }
     },
     "dejavu": {
         "added": "bc",
@@ -812,7 +993,14 @@
         "year": 2004,
         "zerostyle": "dotted",
         "glyphs": 3377,
-        "characters": 3322
+        "characters": 3322,
+        "languages": {
+            "Latin": 514,
+            "Cyrillic": 72,
+            "Armenian": 2,
+            "Arabic": 1,
+            "Greek": 1
+        }
     },
     "dejavu-markup": {
         "added": "2025-09-24",
@@ -833,7 +1021,14 @@
         "year": 2016,
         "zerostyle": "dotted",
         "glyphs": 3369,
-        "characters": 3314
+        "characters": 3314,
+        "languages": {
+            "Latin": 514,
+            "Cyrillic": 72,
+            "Armenian": 2,
+            "Arabic": 1,
+            "Greek": 1
+        }
     },
     "departure-mono": {
         "added": "2024-09-10",
@@ -851,7 +1046,10 @@
         "year": 2024,
         "zerostyle": "slashed",
         "glyphs": 775,
-        "characters": 682
+        "characters": 682,
+        "languages": {
+            "Latin": 444
+        }
     },
     "dm-mono": {
         "added": "2021-02-25",
@@ -866,7 +1064,10 @@
         "year": 2020,
         "zerostyle": "slashed",
         "glyphs": 411,
-        "characters": 381
+        "characters": 381,
+        "languages": {
+            "Latin": 287
+        }
     },
     "dpsdbeyond": {
         "added": "2024-10-05",
@@ -884,7 +1085,11 @@
         "year": 2011,
         "zerostyle": "dotted",
         "glyphs": 217,
-        "characters": 202
+        "characters": 202,
+        "languages": {
+            "Latin": 108,
+            "Greek": 1
+        }
     },
     "drafting": {
         "added": "2022-01-12",
@@ -900,7 +1105,10 @@
         "year": 2021,
         "zerostyle": "dotted",
         "glyphs": 597,
-        "characters": 470
+        "characters": 470,
+        "languages": {
+            "Latin": 301
+        }
     },
     "droid-sans": {
         "added": "bc",
@@ -915,7 +1123,12 @@
         "year": 2006,
         "zerostyle": "empty",
         "glyphs": 900,
-        "characters": 873
+        "characters": 873,
+        "languages": {
+            "Latin": 315,
+            "Cyrillic": 78,
+            "Greek": 1
+        }
     },
     "edlo": {
         "added": "2020-01-14",
@@ -930,7 +1143,10 @@
         "year": 2011,
         "zerostyle": "dotted",
         "glyphs": 269,
-        "characters": 254
+        "characters": 254,
+        "languages": {
+            "Latin": 174
+        }
     },
     "effects-eighty": {
         "added": "bc",
@@ -946,7 +1162,10 @@
         "year": 2013,
         "zerostyle": "empty",
         "glyphs": 101,
-        "characters": 100
+        "characters": 100,
+        "languages": {
+            "Latin": 105
+        }
     },
     "eirian": {
         "added": "2024-10-02",
@@ -965,7 +1184,10 @@
         "year": 2022,
         "zerostyle": "dotted",
         "glyphs": 613,
-        "characters": 613
+        "characters": 613,
+        "languages": {
+            "Latin": 446
+        }
     },
     "ellograph": {
         "added": "2020-03-04",
@@ -980,7 +1202,11 @@
         "website": "https://connary.com/ellograph.html",
         "year": 2020,
         "glyphs": 642,
-        "characters": 569
+        "characters": 569,
+        "languages": {
+            "Latin": 283,
+            "Cyrillic": 7
+        }
     },
     "envy-code-b": {
         "added": "2023-12-29",
@@ -996,7 +1222,10 @@
         "website": "https://damieng.com/blog/2006/11/06/envy-code-b-font-available-in-ttf-format/",
         "year": 2006,
         "glyphs": 227,
-        "characters": 225
+        "characters": 225,
+        "languages": {
+            "Latin": 217
+        }
     },
     "envy-code-r": {
         "added": "2019-04-12",
@@ -1011,7 +1240,10 @@
         "website": "https://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released",
         "year": 2008,
         "glyphs": 666,
-        "characters": 663
+        "characters": 663,
+        "languages": {
+            "Latin": 304
+        }
     },
     "fairfax": {
         "added": "2019-04-09",
@@ -1033,7 +1265,17 @@
         "year": 2008,
         "zerostyle": "slashed",
         "glyphs": 16156,
-        "characters": 16153
+        "characters": 16153,
+        "languages": {
+            "Latin": 528,
+            "Cyrillic": 93,
+            "Hebrew": 5,
+            "Greek": 3,
+            "Armenian": 2,
+            "Thai": 1,
+            "Hiragana": 1,
+            "Katakana": 1
+        }
     },
     "fairfax-hd": {
         "added": "2019-04-09",
@@ -1049,7 +1291,14 @@
         "year": 2019,
         "zerostyle": "slashed",
         "glyphs": 12964,
-        "characters": 12961
+        "characters": 12961,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 83,
+            "Armenian": 2,
+            "Hebrew": 2,
+            "Greek": 1
+        }
     },
     "fairfax-hd-hax": {
         "added": "2023-07-22",
@@ -1064,7 +1313,14 @@
         "year": 2019,
         "zerostyle": "slashed",
         "glyphs": 23350,
-        "characters": 21524
+        "characters": 21524,
+        "languages": {
+            "Latin": 528,
+            "Cyrillic": 93,
+            "Hebrew": 5,
+            "Greek": 3,
+            "Armenian": 2
+        }
     },
     "fairfax-serif": {
         "added": "2019-04-09",
@@ -1080,7 +1336,17 @@
         "year": 2008,
         "zerostyle": "slashed",
         "glyphs": 16156,
-        "characters": 16153
+        "characters": 16153,
+        "languages": {
+            "Latin": 528,
+            "Cyrillic": 93,
+            "Hebrew": 5,
+            "Greek": 3,
+            "Armenian": 2,
+            "Thai": 1,
+            "Hiragana": 1,
+            "Katakana": 1
+        }
     },
     "fantasque-sans": {
         "added": "bc",
@@ -1095,7 +1361,12 @@
         "year": 2013,
         "zerostyle": "slashed",
         "glyphs": 1046,
-        "characters": 1042
+        "characters": 1042,
+        "languages": {
+            "Latin": 302,
+            "Cyrillic": 77,
+            "Greek": 1
+        }
     },
     "fifteen": {
         "added": "bc",
@@ -1111,7 +1382,10 @@
         "year": 2013,
         "zerostyle": "slashed",
         "glyphs": 102,
-        "characters": 99
+        "characters": 99,
+        "languages": {
+            "Latin": 108
+        }
     },
     "fira": {
         "added": "bc",
@@ -1131,7 +1405,12 @@
         "year": 2013,
         "zerostyle": "dotted",
         "glyphs": 1485,
-        "characters": 1350
+        "characters": 1350,
+        "languages": {
+            "Latin": 302,
+            "Cyrillic": 80,
+            "Greek": 1
+        }
     },
     "firacode": {
         "added": "2016-05-25",
@@ -1154,7 +1433,12 @@
         "year": 2014,
         "zerostyle": "slashed",
         "glyphs": 2030,
-        "characters": 1586
+        "characters": 1586,
+        "languages": {
+            "Latin": 302,
+            "Cyrillic": 80,
+            "Greek": 1
+        }
     },
     "fixedsys": {
         "added": "2014-11-19",
@@ -1171,7 +1455,10 @@
         "year": 1984,
         "zerostyle": "slashed",
         "glyphs": 213,
-        "characters": 254
+        "characters": 254,
+        "languages": {
+            "Latin": 203
+        }
     },
     "fixedsys-ligatures": {
         "added": "2016-05-25",
@@ -1188,7 +1475,18 @@
         "year": 2016,
         "zerostyle": "slashed",
         "glyphs": 6012,
-        "characters": 5997
+        "characters": 5997,
+        "languages": {
+            "Latin": 485,
+            "Cyrillic": 52,
+            "Armenian": 2,
+            "Geʽez": 4,
+            "Arabic": 5,
+            "Thai": 1,
+            "Thaana": 1,
+            "Greek": 1,
+            "Tamil": 1
+        }
     },
     "font3270": {
         "added": "2016-07-14",
@@ -1207,7 +1505,12 @@
         "year": 2015,
         "zerostyle": "dotted",
         "glyphs": 2226,
-        "characters": 1997
+        "characters": 1997,
+        "languages": {
+            "Latin": 318,
+            "Cyrillic": 83,
+            "Greek": 2
+        }
     },
     "fragment-mono": {
         "added": "2023-07-03",
@@ -1226,7 +1529,10 @@
         "year": 2022,
         "zerostyle": "slashed",
         "glyphs": 707,
-        "characters": 487
+        "characters": 487,
+        "languages": {
+            "Latin": 284
+        }
     },
     "generic": {
         "added": "bc",
@@ -1241,7 +1547,10 @@
         "year": 1980,
         "zerostyle": "slashed",
         "glyphs": 221,
-        "characters": 220
+        "characters": 220,
+        "languages": {
+            "Latin": 208
+        }
     },
     "geist": {
         "added": "2023-12-03",
@@ -1257,7 +1566,11 @@
         "year": 2023,
         "zerostyle": "slashed",
         "glyphs": 833,
-        "characters": 652
+        "characters": 652,
+        "languages": {
+            "Latin": 323,
+            "Cyrillic": 42
+        }
     },
     "gintronic": {
         "added": "2021-03-09",
@@ -1286,7 +1599,10 @@
         "year": 2016,
         "zerostyle": "dotted",
         "glyphs": 1001,
-        "characters": 917
+        "characters": 917,
+        "languages": {
+            "Latin": 309
+        }
     },
     "gnu-freefont": {
         "added": "bc",
@@ -1307,7 +1623,16 @@
         "year": 2002,
         "zerostyle": "empty",
         "glyphs": 4177,
-        "characters": 4160
+        "characters": 4160,
+        "languages": {
+            "Latin": 486,
+            "Cyrillic": 82,
+            "Arabic": 31,
+            "Armenian": 2,
+            "Hebrew": 2,
+            "Kayah Li": 2,
+            "Greek": 1
+        }
     },
     "go-mono": {
         "added": "2016-11-25",
@@ -1328,7 +1653,12 @@
         "year": 2016,
         "zerostyle": "slashed",
         "glyphs": 666,
-        "characters": 663
+        "characters": 663,
+        "languages": {
+            "Latin": 288,
+            "Cyrillic": 14,
+            "Greek": 1
+        }
     },
     "gohufont-11": {
         "added": "2023-07-04",
@@ -1347,7 +1677,10 @@
         "year": 2010,
         "zerostyle": "slashed",
         "glyphs": 194,
-        "characters": 191
+        "characters": 191,
+        "languages": {
+            "Latin": 203
+        }
     },
     "gohufont-14": {
         "added": "2023-07-04",
@@ -1366,7 +1699,10 @@
         "year": 2010,
         "zerostyle": "slashed",
         "glyphs": 257,
-        "characters": 255
+        "characters": 255,
+        "languages": {
+            "Latin": 202
+        }
     },
     "google-sans-code": {
         "added": "2025-07-22",
@@ -1382,7 +1718,10 @@
         "year": 2025,
         "zerostyle": "slashed",
         "glyphs": 687,
-        "characters": 670
+        "characters": 670,
+        "languages": {
+            "Latin": 330
+        }
     },
     "hack": {
         "added": "2015-06-27",
@@ -1398,7 +1737,13 @@
         "year": 2015,
         "zerostyle": "dotted",
         "glyphs": 1573,
-        "characters": 1548
+        "characters": 1548,
+        "languages": {
+            "Latin": 307,
+            "Cyrillic": 69,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "hack-ligatured": {
         "added": "2025-03-05",
@@ -1414,7 +1759,13 @@
         "year": 2020,
         "zerostyle": "dotted",
         "glyphs": 1917,
-        "characters": 1548
+        "characters": 1548,
+        "languages": {
+            "Latin": 307,
+            "Cyrillic": 70,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "hasklig": {
         "added": "2016-05-25",
@@ -1429,7 +1780,12 @@
         "year": 2014,
         "zerostyle": "dotted",
         "glyphs": 1629,
-        "characters": 1373
+        "characters": 1373,
+        "languages": {
+            "Latin": 354,
+            "Cyrillic": 52,
+            "Greek": 1
+        }
     },
     "hermit": {
         "added": "bc",
@@ -1444,7 +1800,10 @@
         "year": 2013,
         "zerostyle": "slashed",
         "glyphs": 393,
-        "characters": 390
+        "characters": 390,
+        "languages": {
+            "Latin": 278
+        }
     },
     "heterodox-mono": {
         "added": "2022-08-30",
@@ -1463,7 +1822,10 @@
         "year": 2019,
         "zerostyle": "dotted",
         "glyphs": 336,
-        "characters": 334
+        "characters": 334,
+        "languages": {
+            "Latin": 245
+        }
     },
     "ia-writer-mono": {
         "added": "2019-01-26",
@@ -1478,7 +1840,11 @@
         "year": 2018,
         "zerostyle": "dotted",
         "glyphs": 850,
-        "characters": 746
+        "characters": 746,
+        "languages": {
+            "Latin": 326,
+            "Cyrillic": 62
+        }
     },
     "ibm-vga": {
         "added": "2023-07-05",
@@ -1497,7 +1863,12 @@
         "year": 1987,
         "zerostyle": "dotted",
         "glyphs": 782,
-        "characters": 781
+        "characters": 781,
+        "languages": {
+            "Latin": 288,
+            "Cyrillic": 13,
+            "Greek": 1
+        }
     },
     "inconsolata": {
         "added": "bc",
@@ -1514,7 +1885,10 @@
         "year": 2001,
         "zerostyle": "slashed",
         "glyphs": 964,
-        "characters": 882
+        "characters": 882,
+        "languages": {
+            "Latin": 340
+        }
     },
     "inconsolata-g": {
         "added": "bc",
@@ -1529,7 +1903,10 @@
         "year": 2009,
         "zerostyle": "dotted",
         "glyphs": 294,
-        "characters": 286
+        "characters": 286,
+        "languages": {
+            "Latin": 249
+        }
     },
     "inconsolata-go": {
         "added": "2023-07-05",
@@ -1548,7 +1925,10 @@
         "year": 2001,
         "zerostyle": "slashed",
         "glyphs": 304,
-        "characters": 290
+        "characters": 290,
+        "languages": {
+            "Latin": 254
+        }
     },
     "inconsolata-otf": {
         "added": "2023-07-05",
@@ -1566,7 +1946,10 @@
         "year": 2001,
         "zerostyle": "slashed",
         "glyphs": 359,
-        "characters": 286
+        "characters": 286,
+        "languages": {
+            "Latin": 249
+        }
     },
     "indicate": {
         "added": "2024-04-20",
@@ -1584,7 +1967,10 @@
         "year": 2023,
         "zerostyle": "slashed",
         "glyphs": 304,
-        "characters": 300
+        "characters": 300,
+        "languages": {
+            "Latin": 276
+        }
     },
     "input": {
         "added": "2016-01-16",
@@ -1600,7 +1986,12 @@
         "year": 2014,
         "zerostyle": "dotted",
         "glyphs": 922,
-        "characters": 923
+        "characters": 923,
+        "languages": {
+            "Latin": 303,
+            "Cyrillic": 16,
+            "Greek": 2
+        }
     },
     "intel-one-mono": {
         "added": "2023-05-15",
@@ -1625,7 +2016,10 @@
         "year": 2023,
         "zerostyle": "slashed",
         "glyphs": 684,
-        "characters": 622
+        "characters": 622,
+        "languages": {
+            "Latin": 342
+        }
     },
     "iosevka": {
         "added": "2016-02-03",
@@ -1642,7 +2036,13 @@
         "year": 2015,
         "zerostyle": "slashed",
         "glyphs": 46818,
-        "characters": 7571
+        "characters": 7571,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 82,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "iosevka-extended": {
         "added": "2026-06-12",
@@ -1658,7 +2058,13 @@
         "year": 2015,
         "zerostyle": "slashed",
         "glyphs": 46821,
-        "characters": 7571
+        "characters": 7571,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 82,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "iosevka-slab": {
         "added": "2026-06-12",
@@ -1674,7 +2080,13 @@
         "year": 2015,
         "zerostyle": "slashed",
         "glyphs": 46821,
-        "characters": 7571
+        "characters": 7571,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 82,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "iosevka-slab-extended": {
         "added": "2026-06-12",
@@ -1690,7 +2102,13 @@
         "year": 2015,
         "zerostyle": "slashed",
         "glyphs": 46822,
-        "characters": 7571
+        "characters": 7571,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 82,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "ioskeley": {
         "added": "2025-09-20",
@@ -1719,7 +2137,13 @@
         "year": 2025,
         "zerostyle": "dotted",
         "glyphs": 11552,
-        "characters": 7515
+        "characters": 7515,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 82,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "jetbrainsmono": {
         "added": "2020-01-15",
@@ -1744,7 +2168,12 @@
         "year": 2020,
         "zerostyle": "dotted",
         "glyphs": 1743,
-        "characters": 1363
+        "characters": 1363,
+        "languages": {
+            "Latin": 327,
+            "Cyrillic": 22,
+            "Greek": 1
+        }
     },
     "julia-mono": {
         "added": "2020-10-11",
@@ -1767,7 +2196,15 @@
         "year": 2020,
         "zerostyle": "dotted",
         "glyphs": 9216,
-        "characters": 8585
+        "characters": 8585,
+        "languages": {
+            "Latin": 505,
+            "Cyrillic": 86,
+            "Cree": 1,
+            "Ojibwe Syllabics": 1,
+            "Inuktitut Syllabics": 1,
+            "Greek": 1
+        }
     },
     "latin-modern": {
         "added": "bc",
@@ -1782,7 +2219,10 @@
         "year": 2002,
         "zerostyle": "empty",
         "glyphs": 786,
-        "characters": 622
+        "characters": 622,
+        "languages": {
+            "Latin": 323
+        }
     },
     "league": {
         "added": "2017-10-14",
@@ -1798,7 +2238,10 @@
         "year": 2017,
         "zerostyle": "dotted",
         "glyphs": 374,
-        "characters": 363
+        "characters": 363,
+        "languages": {
+            "Latin": 287
+        }
     },
     "lekton": {
         "added": "bc",
@@ -1813,7 +2256,10 @@
         "year": 2008,
         "zerostyle": "empty",
         "glyphs": 950,
-        "characters": 352
+        "characters": 352,
+        "languages": {
+            "Latin": 271
+        }
     },
     "liberation": {
         "added": "bc",
@@ -1828,7 +2274,13 @@
         "year": 2007,
         "zerostyle": "empty",
         "glyphs": 2392,
-        "characters": 2274
+        "characters": 2274,
+        "languages": {
+            "Latin": 499,
+            "Cyrillic": 81,
+            "Hebrew": 5,
+            "Greek": 1
+        }
     },
     "lilex": {
         "added": "2021-03-15",
@@ -1843,7 +2295,11 @@
         "year": 2019,
         "zerostyle": "dotted",
         "glyphs": 905,
-        "characters": 746
+        "characters": 746,
+        "languages": {
+            "Latin": 326,
+            "Cyrillic": 62
+        }
     },
     "lotion": {
         "added": "2022-01-12",
@@ -1861,7 +2317,10 @@
         "year": 2019,
         "zerostyle": "slashed",
         "glyphs": 158,
-        "characters": 147
+        "characters": 147,
+        "languages": {
+            "Latin": 147
+        }
     },
     "luculent": {
         "added": "2016-06-07",
@@ -1882,7 +2341,11 @@
         "year": 2008,
         "zerostyle": "slashed",
         "glyphs": 649,
-        "characters": 648
+        "characters": 648,
+        "languages": {
+            "Latin": 287,
+            "Cyrillic": 7
+        }
     },
     "luxi": {
         "added": "bc",
@@ -1897,7 +2360,10 @@
         "year": 2001,
         "zerostyle": "empty",
         "glyphs": 395,
-        "characters": 378
+        "characters": 378,
+        "languages": {
+            "Latin": 286
+        }
     },
     "lyth-mono": {
         "added": "2026-01-31",
@@ -1913,7 +2379,13 @@
         "year": 2026,
         "zerostyle": "dotted",
         "glyphs": 12156,
-        "characters": 7561
+        "characters": 7561,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 82,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "maple": {
         "added": "2023-07-22",
@@ -1936,7 +2408,10 @@
         "year": 2022,
         "zerostyle": "slashed",
         "glyphs": 469,
-        "characters": 366
+        "characters": 366,
+        "languages": {
+            "Latin": 210
+        }
     },
     "martian-mono": {
         "added": "2023-01-27",
@@ -1963,7 +2438,11 @@
         "year": 2022,
         "zerostyle": "slashed",
         "glyphs": 557,
-        "characters": 503
+        "characters": 503,
+        "languages": {
+            "Latin": 329,
+            "Cyrillic": 11
+        }
     },
     "md-io": {
         "added": "2025-02-25",
@@ -1979,7 +2458,10 @@
         "year": 2023,
         "zerostyle": "dotted",
         "glyphs": 742,
-        "characters": 703
+        "characters": 703,
+        "languages": {
+            "Latin": 411
+        }
     },
     "mensch": {
         "added": "2019-01-22",
@@ -1997,7 +2479,12 @@
         "year": 2010,
         "zerostyle": "dotted",
         "glyphs": 2708,
-        "characters": 2684
+        "characters": 2684,
+        "languages": {
+            "Latin": 514,
+            "Cyrillic": 76,
+            "Greek": 2
+        }
     },
     "meslo": {
         "added": "bc",
@@ -2012,7 +2499,12 @@
         "year": 2010,
         "zerostyle": "slashed",
         "glyphs": 2708,
-        "characters": 2684
+        "characters": 2684,
+        "languages": {
+            "Latin": 514,
+            "Cyrillic": 76,
+            "Greek": 2
+        }
     },
     "miracode": {
         "added": "2025-10-16",
@@ -2030,7 +2522,12 @@
         "year": 2024,
         "zerostyle": "slashed",
         "glyphs": 1456,
-        "characters": 1435
+        "characters": 1435,
+        "languages": {
+            "Latin": 303,
+            "Cyrillic": 21,
+            "Armenian": 2
+        }
     },
     "monaspace-argon": {
         "added": "2023-11-18",
@@ -2046,7 +2543,12 @@
         "year": 2023,
         "zerostyle": "dotted",
         "glyphs": 3570,
-        "characters": 2460
+        "characters": 2460,
+        "languages": {
+            "Latin": 334,
+            "Cyrillic": 25,
+            "Greek": 1
+        }
     },
     "monaspace-krypton": {
         "added": "2023-11-18",
@@ -2062,7 +2564,12 @@
         "year": 2023,
         "zerostyle": "dotted",
         "glyphs": 3490,
-        "characters": 2459
+        "characters": 2459,
+        "languages": {
+            "Latin": 334,
+            "Cyrillic": 25,
+            "Greek": 1
+        }
     },
     "monaspace-neon": {
         "added": "2023-11-18",
@@ -2078,7 +2585,12 @@
         "year": 2023,
         "zerostyle": "dotted",
         "glyphs": 3606,
-        "characters": 2460
+        "characters": 2460,
+        "languages": {
+            "Latin": 334,
+            "Cyrillic": 25,
+            "Greek": 1
+        }
     },
     "monaspace-radon": {
         "added": "2023-11-18",
@@ -2094,7 +2606,12 @@
         "year": 2023,
         "zerostyle": "dotted",
         "glyphs": 3552,
-        "characters": 2460
+        "characters": 2460,
+        "languages": {
+            "Latin": 334,
+            "Cyrillic": 25,
+            "Greek": 1
+        }
     },
     "monaspace-xenon": {
         "added": "2023-11-18",
@@ -2110,7 +2627,12 @@
         "year": 2023,
         "zerostyle": "dotted",
         "glyphs": 3818,
-        "characters": 2460
+        "characters": 2460,
+        "languages": {
+            "Latin": 334,
+            "Cyrillic": 25,
+            "Greek": 1
+        }
     },
     "mona-sans-mono": {
         "added": "2026-04-30",
@@ -2126,7 +2648,10 @@
         "year": 2025,
         "zerostyle": "slashed",
         "glyphs": 768,
-        "characters": 547
+        "characters": 547,
+        "languages": {
+            "Latin": 310
+        }
     },
     "monocraft": {
         "added": "2022-09-13",
@@ -2144,7 +2669,11 @@
         "year": 2022,
         "zerostyle": "slashed",
         "glyphs": 538,
-        "characters": 525
+        "characters": 525,
+        "languages": {
+            "Latin": 267,
+            "Cyrillic": 16
+        }
     },
     "monoflow": {
         "added": "2021-07-30",
@@ -2169,7 +2698,10 @@
         "year": 2020,
         "zerostyle": "dotted",
         "glyphs": 507,
-        "characters": 444
+        "characters": 444,
+        "languages": {
+            "Latin": 277
+        }
     },
     "monofoki": {
         "added": "2022-07-02",
@@ -2190,7 +2722,12 @@
         "year": 2021,
         "zerostyle": "slashed",
         "glyphs": 1122,
-        "characters": 1077
+        "characters": 1077,
+        "languages": {
+            "Latin": 298,
+            "Cyrillic": 16,
+            "Greek": 1
+        }
     },
     "monofur": {
         "added": "bc",
@@ -2205,7 +2742,12 @@
         "year": 2000,
         "zerostyle": "dotted",
         "glyphs": 675,
-        "characters": 660
+        "characters": 660,
+        "languages": {
+            "Latin": 283,
+            "Cyrillic": 12,
+            "Greek": 1
+        }
     },
     "monoid": {
         "added": "2016-05-25",
@@ -2221,7 +2763,12 @@
         "year": 2015,
         "zerostyle": "slashed",
         "glyphs": 780,
-        "characters": 616
+        "characters": 616,
+        "languages": {
+            "Latin": 312,
+            "Cyrillic": 15,
+            "Greek": 1
+        }
     },
     "monolisa": {
         "added": "2024-04-24",
@@ -2237,7 +2784,12 @@
         "year": 2022,
         "zerostyle": "dotted",
         "glyphs": 1651,
-        "characters": 1330
+        "characters": 1330,
+        "languages": {
+            "Latin": 471,
+            "Cyrillic": 86,
+            "Greek": 1
+        }
     },
     "mononoki": {
         "added": "2016-04-18",
@@ -2253,7 +2805,11 @@
         "year": 2013,
         "zerostyle": "slashed",
         "glyphs": 696,
-        "characters": 671
+        "characters": 671,
+        "languages": {
+            "Latin": 255,
+            "Cyrillic": 7
+        }
     },
     "myna": {
         "added": "2025-11-07",
@@ -2271,7 +2827,12 @@
         "year": 2025,
         "zerostyle": "slashed",
         "glyphs": 1156,
-        "characters": 1153
+        "characters": 1153,
+        "languages": {
+            "Latin": 223,
+            "Cyrillic": 70,
+            "Greek": 1
+        }
     },
     "mplus": {
         "added": "bc",
@@ -2286,7 +2847,10 @@
         "year": 2003,
         "zerostyle": "dotted",
         "glyphs": 6747,
-        "characters": 6463
+        "characters": 6463,
+        "languages": {
+            "Latin": 327
+        }
     },
     "nanum-gothic-coding": {
         "added": "2019-01-23",
@@ -2301,7 +2865,12 @@
         "year": 2009,
         "zerostyle": "dotted",
         "glyphs": 20056,
-        "characters": 12478
+        "characters": 12478,
+        "languages": {
+            "Latin": 115,
+            "Cyrillic": 7,
+            "Hangul": 1
+        }
     },
     "nimbus-mono": {
         "added": "2025-05-15",
@@ -2322,7 +2891,12 @@
         "year": 1984,
         "zerostyle": "empty",
         "glyphs": 855,
-        "characters": 854
+        "characters": 854,
+        "languages": {
+            "Latin": 288,
+            "Cyrillic": 44,
+            "Greek": 1
+        }
     },
     "nk57": {
         "added": "2024-10-02",
@@ -2338,7 +2912,12 @@
         "year": 2015,
         "zerostyle": "empty",
         "glyphs": 749,
-        "characters": 747
+        "characters": 747,
+        "languages": {
+            "Latin": 283,
+            "Cyrillic": 12,
+            "Greek": 1
+        }
     },
     "notcouriersans": {
         "added": "bc",
@@ -2353,7 +2932,11 @@
         "year": 2008,
         "zerostyle": "empty",
         "glyphs": 659,
-        "characters": 652
+        "characters": 652,
+        "languages": {
+            "Latin": 297,
+            "Cyrillic": 49
+        }
     },
     "noto": {
         "added": "2017-06-27",
@@ -2368,7 +2951,12 @@
         "year": 2012,
         "zerostyle": "empty",
         "glyphs": 3787,
-        "characters": 3367
+        "characters": 3367,
+        "languages": {
+            "Latin": 525,
+            "Cyrillic": 92,
+            "Greek": 2
+        }
     },
     "nova": {
         "added": "bc",
@@ -2383,7 +2971,11 @@
         "year": 2010,
         "zerostyle": "slashed",
         "glyphs": 1331,
-        "characters": 1328
+        "characters": 1328,
+        "languages": {
+            "Latin": 290,
+            "Greek": 1
+        }
     },
     "office-code-pro": {
         "added": "2015-06-27",
@@ -2398,7 +2990,10 @@
         "year": 2015,
         "zerostyle": "slashed",
         "glyphs": 496,
-        "characters": 433
+        "characters": 433,
+        "languages": {
+            "Latin": 287
+        }
     },
     "old-timey": {
         "added": "2025-05-07",
@@ -2418,7 +3013,12 @@
         "year": 2025,
         "zerostyle": "slashed",
         "glyphs": 2233,
-        "characters": 2031
+        "characters": 2031,
+        "languages": {
+            "Latin": 344,
+            "Cyrillic": 22,
+            "Greek": 1
+        }
     },
     "opendyslexic": {
         "added": "2018-05-27",
@@ -2436,7 +3036,10 @@
         "year": 2011,
         "zerostyle": "dotted",
         "glyphs": 531,
-        "characters": 520
+        "characters": 520,
+        "languages": {
+            "Latin": 313
+        }
     },
     "overpass": {
         "added": "2017-01-06",
@@ -2457,7 +3060,10 @@
         "year": 2015,
         "zerostyle": "dotted",
         "glyphs": 988,
-        "characters": 934
+        "characters": 934,
+        "languages": {
+            "Latin": 299
+        }
     },
     "oxproto": {
         "added": "2023-08-19",
@@ -2475,7 +3081,10 @@
         "year": 2023,
         "zerostyle": "slashed",
         "glyphs": 157,
-        "characters": 100
+        "characters": 100,
+        "languages": {
+            "Latin": 108
+        }
     },
     "oxygen": {
         "added": "bc",
@@ -2493,7 +3102,10 @@
         "year": 2012,
         "zerostyle": "slashed",
         "glyphs": 397,
-        "characters": 392
+        "characters": 392,
+        "languages": {
+            "Latin": 229
+        }
     },
     "paper": {
         "added": "2025-10-08",
@@ -2511,7 +3123,10 @@
         "year": 2025,
         "zerostyle": "empty",
         "glyphs": 562,
-        "characters": 484
+        "characters": 484,
+        "languages": {
+            "Latin": 310
+        }
     },
     "plex-mono": {
         "added": "2017-10-26",
@@ -2544,7 +3159,10 @@
         "year": 2017,
         "zerostyle": "dotted",
         "glyphs": 229,
-        "characters": 222
+        "characters": 222,
+        "languages": {
+            "Latin": 211
+        }
     },
     "press-start-2p": {
         "added": "2017-07-28",
@@ -2558,7 +3176,12 @@
         "year": 2012,
         "zerostyle": "empty",
         "glyphs": 658,
-        "characters": 656
+        "characters": 656,
+        "languages": {
+            "Latin": 291,
+            "Cyrillic": 64,
+            "Greek": 1
+        }
     },
     "profont": {
         "added": "bc",
@@ -2573,7 +3196,10 @@
         "year": 1987,
         "zerostyle": "slashed",
         "glyphs": 263,
-        "characters": 261
+        "characters": 261,
+        "languages": {
+            "Latin": 214
+        }
     },
     "proggy-clean": {
         "added": "bc",
@@ -2589,7 +3215,10 @@
         "year": 2004,
         "zerostyle": "dotted",
         "glyphs": 257,
-        "characters": 256
+        "characters": 256,
+        "languages": {
+            "Latin": 203
+        }
     },
     "proggy-vector": {
         "added": "2019-01-20",
@@ -2607,7 +3236,13 @@
         "year": 2019,
         "zerostyle": "slashed",
         "glyphs": 1549,
-        "characters": 1548
+        "characters": 1548,
+        "languages": {
+            "Latin": 307,
+            "Cyrillic": 69,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "psudo": {
         "added": "2025-10-08",
@@ -2628,7 +3263,12 @@
         "year": 2025,
         "zerostyle": "dotted",
         "glyphs": 1418,
-        "characters": 1075
+        "characters": 1075,
+        "languages": {
+            "Latin": 331,
+            "Cyrillic": 65,
+            "Greek": 1
+        }
     },
     "pt": {
         "added": "bc",
@@ -2643,7 +3283,11 @@
         "year": 2011,
         "zerostyle": "slashed",
         "glyphs": 787,
-        "characters": 788
+        "characters": 788,
+        "languages": {
+            "Latin": 272,
+            "Cyrillic": 75
+        }
     },
     "quinze": {
         "added": "bc",
@@ -2661,7 +3305,10 @@
         "year": 2013,
         "zerostyle": "slashed",
         "glyphs": 266,
-        "characters": 265
+        "characters": 265,
+        "languages": {
+            "Latin": 210
+        }
     },
     "recursive-mono-linear": {
         "added": "2020-04-12",
@@ -2677,7 +3324,10 @@
         "year": 2018,
         "zerostyle": "slashed",
         "glyphs": 1256,
-        "characters": 723
+        "characters": 723,
+        "languages": {
+            "Latin": 343
+        }
     },
     "reddit-sans": {
         "added": "2023-10-23",
@@ -2696,7 +3346,10 @@
         "year": 2020,
         "zerostyle": "slashed",
         "glyphs": 1080,
-        "characters": 724
+        "characters": 724,
+        "languages": {
+            "Latin": 339
+        }
     },
     "redhat": {
         "added": "2022-01-12",
@@ -2712,7 +3365,10 @@
         "year": 2019,
         "zerostyle": "slashed",
         "glyphs": 424,
-        "characters": 392
+        "characters": 392,
+        "languages": {
+            "Latin": 297
+        }
     },
     "roboto": {
         "added": "2015-06-27",
@@ -2728,7 +3384,12 @@
         "year": 2015,
         "zerostyle": "slashed",
         "glyphs": 999,
-        "characters": 876
+        "characters": 876,
+        "languages": {
+            "Latin": 315,
+            "Cyrillic": 78,
+            "Greek": 1
+        }
     },
     "sax": {
         "added": "bc",
@@ -2743,7 +3404,10 @@
         "year": 2009,
         "zerostyle": "empty",
         "glyphs": 492,
-        "characters": 489
+        "characters": 489,
+        "languages": {
+            "Latin": 275
+        }
     },
     "scientifica": {
         "added": "2022-09-13",
@@ -2764,7 +3428,10 @@
         "year": 2019,
         "zerostyle": "slashed",
         "glyphs": 1088,
-        "characters": 1086
+        "characters": 1086,
+        "languages": {
+            "Latin": 288
+        }
     },
     "sergamon": {
         "added": "2026-04-08",
@@ -2783,7 +3450,16 @@
         "year": 2026,
         "zerostyle": "dotted",
         "glyphs": 4227,
-        "characters": 4226
+        "characters": 4226,
+        "languages": {
+            "Latin": 449,
+            "Cyrillic": 73,
+            "Devanagari": 13,
+            "Armenian": 2,
+            "Hebrew": 2,
+            "Thai": 1,
+            "Greek": 1
+        }
     },
     "serious-shanns": {
         "added": "2024-06-26",
@@ -2806,7 +3482,10 @@
         "year": 2023,
         "zerostyle": "slashed",
         "glyphs": 96,
-        "characters": 95
+        "characters": 95,
+        "languages": {
+            "Latin": 105
+        }
     },
     "share-tech": {
         "added": "bc",
@@ -2821,7 +3500,10 @@
         "year": 2012,
         "zerostyle": "slashed",
         "glyphs": 268,
-        "characters": 267
+        "characters": 267,
+        "languages": {
+            "Latin": 218
+        }
     },
     "sk-modernist": {
         "added": "2016-02-29",
@@ -2836,7 +3518,10 @@
         "year": 2015,
         "zerostyle": "slashed",
         "glyphs": 529,
-        "characters": 491
+        "characters": 491,
+        "languages": {
+            "Latin": 307
+        }
     },
     "sligoil": {
         "added": "2024-10-02",
@@ -2854,7 +3539,10 @@
         "year": 2022,
         "zerostyle": "slashed",
         "glyphs": 457,
-        "characters": 400
+        "characters": 400,
+        "languages": {
+            "Latin": 286
+        }
     },
     "sometype-mono": {
         "added": "2019-05-25",
@@ -2875,7 +3563,12 @@
         ],
         "website": "http://monospacedfont.com/",
         "year": 2018,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 567,
+        "characters": 458,
+        "languages": {
+            "Latin": 300
+        }
     },
     "sono": {
         "added": "2023-11-18",
@@ -2891,7 +3584,10 @@
         "year": 2020,
         "zerostyle": "dotted",
         "glyphs": 750,
-        "characters": 576
+        "characters": 576,
+        "languages": {
+            "Latin": 318
+        }
     },
     "source-code-pro": {
         "added": "bc",
@@ -2907,7 +3603,12 @@
         "year": 2012,
         "zerostyle": "dotted",
         "glyphs": 1568,
-        "characters": 1335
+        "characters": 1335,
+        "languages": {
+            "Latin": 348,
+            "Cyrillic": 48,
+            "Greek": 1
+        }
     },
     "space": {
         "added": "2017-01-06",
@@ -2928,7 +3629,10 @@
         "year": 2016,
         "zerostyle": "dotted",
         "glyphs": 733,
-        "characters": 613
+        "characters": 613,
+        "languages": {
+            "Latin": 322
+        }
     },
     "spleen": {
         "added": "2022-02-18",
@@ -2947,7 +3651,10 @@
         "year": 2018,
         "zerostyle": "slashed",
         "glyphs": 838,
-        "characters": 837
+        "characters": 837,
+        "languages": {
+            "Latin": 287
+        }
     },
     "sudo": {
         "added": "bc",
@@ -2963,7 +3670,12 @@
         "year": 2009,
         "zerostyle": "slashed",
         "glyphs": 1680,
-        "characters": 1454
+        "characters": 1454,
+        "languages": {
+            "Latin": 443,
+            "Cyrillic": 35,
+            "Greek": 1
+        }
     },
     "terminus-consoleet": {
         "added": "2026-03-26",
@@ -2978,7 +3690,12 @@
         "year": 2021,
         "zerostyle": "slashed",
         "glyphs": 1357,
-        "characters": 1356
+        "characters": 1356,
+        "languages": {
+            "Latin": 379,
+            "Cyrillic": 69,
+            "Greek": 2
+        }
     },
     "terminus-consoleet-smooth": {
         "added": "2026-03-26",
@@ -2993,7 +3710,12 @@
         "year": 2021,
         "zerostyle": "slashed",
         "glyphs": 1357,
-        "characters": 1356
+        "characters": 1356,
+        "languages": {
+            "Latin": 379,
+            "Cyrillic": 69,
+            "Greek": 2
+        }
     },
     "terminus-ttf": {
         "added": "2026-03-26",
@@ -3008,7 +3730,12 @@
         "year": 2010,
         "zerostyle": "slashed",
         "glyphs": 1359,
-        "characters": 1356
+        "characters": 1356,
+        "languages": {
+            "Latin": 379,
+            "Cyrillic": 69,
+            "Greek": 2
+        }
     },
     "tex-gyre-cursor": {
         "added": "bc",
@@ -3023,7 +3750,10 @@
         "year": 2006,
         "zerostyle": "empty",
         "glyphs": 1087,
-        "characters": 673
+        "characters": 673,
+        "languages": {
+            "Latin": 324
+        }
     },
     "topaz-a1200": {
         "added": "2026-05-27",
@@ -3039,7 +3769,10 @@
         "year": 2013,
         "zerostyle": "slashed",
         "glyphs": 257,
-        "characters": 221
+        "characters": 221,
+        "languages": {
+            "Latin": 203
+        }
     },
     "topaz-a500": {
         "added": "2026-05-27",
@@ -3055,7 +3788,10 @@
         "year": 2013,
         "zerostyle": "slashed",
         "glyphs": 257,
-        "characters": 221
+        "characters": 221,
+        "languages": {
+            "Latin": 203
+        }
     },
     "twilio-sans-mono": {
         "added": "2023-05-20",
@@ -3088,7 +3824,10 @@
         "year": 2020,
         "zerostyle": "dotted",
         "glyphs": 747,
-        "characters": 405
+        "characters": 405,
+        "languages": {
+            "Latin": 287
+        }
     },
     "ubuntu": {
         "added": "bc",
@@ -3103,7 +3842,12 @@
         "year": 2010,
         "zerostyle": "dotted",
         "glyphs": 1296,
-        "characters": 1224
+        "characters": 1224,
+        "languages": {
+            "Latin": 304,
+            "Cyrillic": 71,
+            "Greek": 1
+        }
     },
     "unifont": {
         "added": "bc",
@@ -3119,7 +3863,52 @@
         "year": 1998,
         "zerostyle": "empty",
         "glyphs": 58911,
-        "characters": 58910
+        "characters": 58910,
+        "languages": {
+            "Latin": 503,
+            "Georgian": 2,
+            "Cyrillic": 83,
+            "Devanagari": 16,
+            "Bengali": 6,
+            "Arabic": 34,
+            "Cree": 1,
+            "Hebrew": 5,
+            "Lao": 1,
+            "Armenian": 2,
+            "Chinese": 7,
+            "Geʽez": 7,
+            "Buginese": 1,
+            "Burmese": 4,
+            "Gujarati": 2,
+            "Sinhala": 1,
+            "Oriya": 1,
+            "Gurmukhi": 2,
+            "Thai": 1,
+            "Tai Viet": 1,
+            "Ojibwe Syllabics": 1,
+            "Tham": 1,
+            "Tifinagh": 1,
+            "Modern Yi": 1,
+            "Kayah Li": 2,
+            "Tibetan": 3,
+            "Malayalam": 1,
+            "Vai": 1,
+            "Inuktitut Syllabics": 1,
+            "Khmer": 1,
+            "Thaana": 1,
+            "Cherokee": 1,
+            "Kanji": 1,
+            "Hiragana": 2,
+            "Katakana": 2,
+            "Hangul": 1,
+            "Hanja": 1,
+            "Greek": 1,
+            "Tamil": 1,
+            "Telugu": 1,
+            "Bamum": 1,
+            "Kannada": 1,
+            "Hanunoo": 1
+        }
     },
     "unifontex": {
         "added": "2023-09-17",
@@ -3135,7 +3924,52 @@
         "year": 2023,
         "zerostyle": "slashed",
         "glyphs": 65422,
-        "characters": 65419
+        "characters": 65419,
+        "languages": {
+            "Latin": 503,
+            "Georgian": 2,
+            "Cyrillic": 82,
+            "Devanagari": 16,
+            "Bengali": 6,
+            "Cree": 1,
+            "Lao": 1,
+            "Armenian": 2,
+            "Chinese": 7,
+            "Geʽez": 7,
+            "Buginese": 1,
+            "Burmese": 4,
+            "Gujarati": 2,
+            "Sinhala": 1,
+            "Oriya": 1,
+            "Hebrew": 2,
+            "Gurmukhi": 2,
+            "Thai": 1,
+            "Tai Viet": 1,
+            "Ojibwe Syllabics": 1,
+            "Tham": 1,
+            "Tifinagh": 1,
+            "Modern Yi": 1,
+            "Kayah Li": 2,
+            "Tibetan": 3,
+            "Malayalam": 1,
+            "Vai": 1,
+            "Inuktitut Syllabics": 1,
+            "Khmer": 1,
+            "Thaana": 1,
+            "Cherokee": 1,
+            "Kanji": 1,
+            "Hiragana": 2,
+            "Katakana": 2,
+            "Hangul": 1,
+            "Hanja": 1,
+            "Greek": 1,
+            "Tamil": 1,
+            "Telugu": 1,
+            "Bamum": 1,
+            "Chakma": 1,
+            "Kannada": 1,
+            "Hanunoo": 1
+        }
     },
     "verily": {
         "added": "2014-11-23",
@@ -3150,7 +3984,10 @@
         "year": 2006,
         "zerostyle": "dotted",
         "glyphs": 244,
-        "characters": 233
+        "characters": 233,
+        "languages": {
+            "Latin": 223
+        }
     },
     "victor-mono": {
         "added": "2019-06-06",
@@ -3165,7 +4002,12 @@
         "year": 2019,
         "zerostyle": "dotted",
         "glyphs": 1435,
-        "characters": 1267
+        "characters": 1267,
+        "languages": {
+            "Latin": 316,
+            "Cyrillic": 78,
+            "Greek": 1
+        }
     },
     "vt323": {
         "added": "bc",
@@ -3181,7 +4023,10 @@
         "year": 2014,
         "zerostyle": "empty",
         "glyphs": 213,
-        "characters": 210
+        "characters": 210,
+        "languages": {
+            "Latin": 203
+        }
     },
     "zhima-mono": {
         "added": "2025-05-21",
@@ -3199,6 +4044,9 @@
         "year": 2025,
         "zerostyle": "slashed",
         "glyphs": 234,
-        "characters": 116
+        "characters": 116,
+        "languages": {
+            "Latin": 105
+        }
     }
 }

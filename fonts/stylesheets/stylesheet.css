@@ -2510,7 +2510,7 @@
   font-family: 'sometype-mono';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/sometype-mono/sometype-mono-regular.woff');
+  src: url('../resources/sometype-mono/sometype-mono.woff');
 }
 @font-face {
   font-family: 'tex-gyre-cursor';

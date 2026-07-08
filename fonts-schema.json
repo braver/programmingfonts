@@ -84,7 +84,13 @@
                     ]
                 },
                 "glyphs": { "type": "integer" },
-                "characters": { "type": "integer" }
+                "characters": { "type": "integer" },
+                "languages": {
+                    "type": "object",
+                    "patternProperties": {
+                        "^[a-zA-Z]+$": { "type": "integer" }
+                    }
+                }
             },
             "additionalProperties": false,
             "required": [
@@ -97,7 +103,8 @@
                 "style",
                 "year",
                 "glyphs",
-                "characters"
+                "characters",
+                "languages"
             ]
         }
     }

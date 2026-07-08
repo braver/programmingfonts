@@ -794,7 +794,7 @@
   font-family: 'dm-mono';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/dm-mono/dm-mono-regular.woff');
+  src: url('../resources/dm-mono/dm-mono.woff');
 }
 @font-face {
   font-family: 'dpsdbeyond';

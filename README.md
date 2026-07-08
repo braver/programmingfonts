@@ -28,6 +28,12 @@ Please feel free to make a little donation via to keep this labour of love runni
 - The [fonts.less](https://github.com/braver/programmingfonts/blob/gh-pages/fonts/stylesheets/fonts.less) registers the variants for each font "alias" and is used to generate the stylesheets.
 - The license needs to allow serving in a website, or an agreement with the font creators needs to be made. If available we add a license file along with the font files.
 
+The glyphs, characters and languages data can be added to the JSON by running the `info.py` script. To run it for one font:
+
+```sh
+python3 info.py --name yourfont
+```
+
 ### Development
 
 - Running `make` installs dependencies, lints, validates `fonts.json` (against [fonts-schema.json](https://github.com/braver/programmingfonts/blob/gh-pages/fonts-schema.json) and `validate.js`), and builds the stylesheet.

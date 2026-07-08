@@ -43,3 +43,9 @@ Thumbs.db
 # NPM #
 ######################
 node_modules
+
+# Full font files for analysis only #
+#####################################
+fonts/resources/unifont/unifont.otf
+fonts/resources/monolisa/monolisa.ttf
+fonts/resources/input/input.ttf

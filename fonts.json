@@ -3437,7 +3437,7 @@
         "added": "2026-04-08",
         "author": "Sergio García Mondaray",
         "bitmap size": 16,
-        "description": "A pixel-perfect monospaced font designed for code, crafted on an 8x16 pixel grid. Every character renders exactly as typed. 4,000+ glyphs covering Latin, Cyrillic, Greek, Hebrew, Arabic, Thai, Devanagari, and more.",
+        "description": "A pixel-perfect monospaced font designed for code, crafted on an 8x16 pixel grid.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Sergamon",
@@ -3859,6 +3859,9 @@
         "name": "GNU Unifont",
         "rendering": "bitmap",
         "style": "sans",
+        "variants": [
+            "regular"
+        ],
         "website": "http://www.unifoundry.com/unifont.html",
         "year": 1998,
         "zerostyle": "empty",
@@ -3920,11 +3923,14 @@
         "name": "UnifontEX",
         "rendering": "bitmap",
         "style": "sans",
+        "variants": [
+            "regular"
+        ],
         "website": "https://github.com/stgiga/UnifontEX",
         "year": 2023,
         "zerostyle": "slashed",
-        "glyphs": 65422,
-        "characters": 65419,
+        "glyphs": 65439,
+        "characters": 65436,
         "languages": {
             "Latin": 503,
             "Georgian": 2,

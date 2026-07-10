@@ -80,29 +80,29 @@ html {
     min-height: 100%;
     font-family: 'ui-font', sans-serif;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
-    background: var(--paper-white);
+    background: var(--bright-white);
 }
 
 body {
     display: flex;
     height: 100%;
     min-height: 100%;
-    background: var(--paper-white);
+    background: var(--bright-white);
     color: var(--ink-black);
 }
 h1 {
     margin: 0;
     padding: .25em 0 0 0;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
 }
 h2 {
     margin: 0;
     padding: 0;
-    font-weight: normal;
-    font-size: 14px;
+    font-weight: bold;
+    font-size: 16px;
 }
 p {
     padding: 0;
@@ -116,7 +116,7 @@ a:active {
     color: inherit;
 }
 small {
-    font-size: 10px;
+    font-size: 11px;
 }
 [type='checkbox'] {
     margin-right: 1ex;
@@ -140,7 +140,7 @@ small {
 }
 
 .main-wrapper {
-    width: 28em;
+    width: 30em;
     height: 100%;
     max-height: 100%;
     float: left;
@@ -152,60 +152,49 @@ small {
 .codemirror-wrapper {
     flex: 1;
     position: relative;
-    margin: 6px;
+    margin: 6px 8px;
     border-radius: 6px;
     overflow: hidden;
-    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
 
     ~ .codemirror-wrapper {
         margin-left: 0;
     }
 
-    &.clone .CodeMirror {
-        /* freeze the cloned codemirror instance because it's dead and scrolls weird */
-        pointer-events: none;
-        &::after {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            z-index: 1;
+    &.clone {
+        .CodeMirror {
+            /* freeze the cloned codemirror instance because it's dead and scrolls weird */
+            pointer-events: none;
+            &::after {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: 1;
+            }
+            * {
+                overflow: hidden !important;
+            }
         }
-        * {
-            overflow: hidden !important;
+        #close-button {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            z-index: 2;
         }
     }
 }
 
 .info-wrapper {
-    position: absolute;
-    bottom: 1rem;
-    right: 2rem;
-    left: 2rem;
-    z-index: 1;
-    padding: 1em 1.4em;
-    font-size: 12px;
-    border: 1px solid var(--light-grey);
-    border-radius: 6px;
-    background: var(--bright-grey);
-    color: var(--dark-grey);
-
-    @media screen and (max-width: 56em) {
-        bottom: 2rem;
-    }
-    @media screen and (max-height: 24em)  {
-        display: none;
-    }
-
     a:hover {
         color: var(--ink-black);
         text-decoration: underline;
     }
     p {
-        line-height: 14px;
+        line-height: 17px;
     }
     p:empty {
         display: none;
@@ -217,7 +206,7 @@ small {
         margin-top: 6px;
     }
     p:not(.info) {
-        font-size: 9px;
+        font-size: 11px;
     }
     p.variants::before {
         content: 'Variants: ';
@@ -229,17 +218,17 @@ small {
     }
     h2::after {
         content: attr(data-license);
-        margin-left: 1ex;
+        margin-left: 1em;
         font-size: 10px;
+        font-weight: normal;
         color: var(--medium-grey);
         text-transform: uppercase;
     }
 
     .text-button {
-        position: absolute;
-        top: 12px;
-        right: 16px;
-        font-size: 10px;
+        font-size: 11px;
+        float: right;
+        margin-top: -4px;
 
         @media screen and (max-width: 56em) {
             display: none;
@@ -264,7 +253,7 @@ section.config {
     grid-row-gap: 4px;
     grid-template-columns: auto auto auto auto;
     padding: 8px;
-    font-size: 10px;
+    font-size: 11px;
     border: 1px solid var(--light-grey);
     border-radius: 6px;
     background: var(--bright-grey);
@@ -272,12 +261,11 @@ section.config {
 
 section#filters {
     align-items: stretch;
-    grid-template-columns: auto auto auto auto auto;
-    margin: 6px 0 2px 4px;
-
-    @media screen and (max-width: 56em) {
-        margin-right: 4px;
-    }
+    grid-template-columns: auto auto auto;
+    margin: 6px 6px 0 6px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 2;
 }
 section#filters input,
 section#filters select {
@@ -289,7 +277,11 @@ section#filters > div {
 }
 
 section.config {
-    margin: 2px 0 6px 4px;
+    z-index: 1;
+    position: absolute;
+    bottom: 12px;
+    right: 16px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
 
     @media screen and (max-width: 56em) {
         margin-right: 4px;
@@ -304,7 +296,7 @@ section.select-list {
     flex: 1;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
-    background: var(--paper-white);
+    background: var(--bright-white);
 
     &:focus {
         outline: none;
@@ -348,7 +340,7 @@ section.select-list {
         border-radius: 3px;
         pointer-events: none;
         z-index: -1;
-        background: var(--bright-white);
+        background: var(--paper-white);
     }
     .entry > a {
         display: block;
@@ -375,7 +367,7 @@ section.select-list {
         display: flex;
         align-items: center;
         color: var(--medium-grey);
-        font-size: 10px;
+        font-size: 11px;
         svg {
             transition: transform .2s ease-in-out;
         }
@@ -404,7 +396,7 @@ section.select-list {
         top: 6px;
         right: 32px;
         padding: 0 4px;
-        font-size: 10px;
+        font-size: 11px;
         color: var(--medium-grey);
         transition: all .2s ease-in-out;
 
@@ -450,7 +442,7 @@ section.select-list {
     }
     .details {
         display: block;
-        font-size: 10px;
+        font-size: 11px;
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
@@ -459,12 +451,24 @@ section.select-list {
 }
 
 footer {
-    padding: 0 8px 4px 8px;
-    font-size: 10px;
+    position: relative;
+    margin: 0 6px 6px 6px;
+    padding: 12px 12px 6px 12px;
+    border: 1px solid var(--light-grey);
+    border-radius: 6px;
+    font-size: 14px;
     text-align: center;
     line-height: 20px;
-    background: var(--paper-white);
     color: var(--medium-grey);
+    background: var(--bright-grey);
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+
+    aside {
+        text-align: left;
+        margin-bottom: 16px;
+        color: var(--ink-black);
+    }
+
     h1 + p {
         font-style: italic;
     }
@@ -484,8 +488,7 @@ footer {
         display: inline-block;
         position: absolute;
         bottom: 4px;
-        left: 8px;
-        opacity: .5;
+        left: 12px;
     }
     .logo svg path {
         fill: currentColor;
@@ -494,8 +497,9 @@ footer {
         margin-left: 8px;
     }
     .support {
-        right: 8px;
+        right: 12px;
         left: auto;
+        font-size: 11px;
     }
 }
 
@@ -517,7 +521,7 @@ button {
     border: 1px solid var(--light-grey);
     border-radius: 3px;
     background: linear-gradient(var(--bright-white), var(--light-grey));
-    color: var(--medium-grey);
+    color: var(--dark-grey);
     cursor: pointer;
 
     @media (prefers-color-scheme: dark) {
@@ -624,7 +628,6 @@ label + .nav-button {
     border: none;
     font-size: 100%;
     background: transparent;
-    box-shadow: none !important;
     text-rendering: optimizeLegibility;
 
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors#attrvalue_3 */

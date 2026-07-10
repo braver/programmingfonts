@@ -246,7 +246,7 @@ window.addEventListener('DOMContentLoaded', () => {
     event.preventDefault()
     event.stopPropagation()
 
-    const original = event.target.closest('.codemirror-wrapper')
+    const original = document.querySelector('.codemirror-wrapper')
     const parent = original.parentNode
 
     parent.querySelector('.clone')?.remove()
@@ -254,14 +254,16 @@ window.addEventListener('DOMContentLoaded', () => {
     const clone = original.cloneNode(true)
     clone.classList.add('clone')
 
-    const button = clone.querySelector('#compare-button')
+    clone.querySelector('section.config').remove()
+
+    const button = document.querySelector('#about-dialog button').cloneNode(true)
     button.setAttribute('id', 'close-button')
-    button.innerText = 'Close'
     button.onclick = (event) => {
       event.preventDefault()
       event.stopPropagation()
       clone.remove()
     }
+    clone.appendChild(button)
 
     clone.querySelector('#code').setAttribute('id', 'clone-code')
     clone.querySelector('[for=code]').setAttribute('for', 'clone-code')

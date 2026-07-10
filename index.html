@@ -187,102 +187,17 @@
                     <!-- filled from json -->
                 </div>
             </section>
-            <section class="config">
-                <p>
-                    <label for="size">Size</label>
-                    <input type="number" id="size" value="16" min="1" max="32" step="1">
-                </p>
-                <p>
-                    <label for="spacing">/</label>
-                    <input type="number" id="spacing" value="1.4" min="1" max="2" step="0.1">
-                </p>
-                <p class="select">
-                    <button class="nav-button" id="theme-previous">↑</button>
-                    <button class="nav-button" id="theme-next">↓</button>
-                    <label for="select-theme" class="screenreader-only">Theme</label>
-                    <select id="select-theme">
-                        <option>3024-day</option>
-                        <option>3024-night</option>
-                        <option>abcdef</option>
-                        <option>ambiance</option>
-                        <option>base16-dark</option>
-                        <option>base16-light</option>
-                        <option>bespin</option>
-                        <option>blackboard</option>
-                        <option>catppuccin-frappe</option>
-                        <option>catppuccin-latte</option>
-                        <option>catppuccin-macchiato</option>
-                        <option>catppuccin-mocha</option>
-                        <option>cobalt</option>
-                        <option>colorforth</option>
-                        <option>darcula</option>
-                        <option selected>dracula</option>
-                        <option>duotone-dark</option>
-                        <option>duotone-light</option>
-                        <option>erlang-dark</option>
-                        <option>gruvbox-dark</option>
-                        <option>hopscotch</option>
-                        <option>isotope</option>
-                        <option>lesser-dark</option>
-                        <option>liquibyte</option>
-                        <option>lucario</option>
-                        <option>material</option>
-                        <option>mbo</option>
-                        <option>mdn-like</option>
-                        <option>midnight</option>
-                        <option>monokai</option>
-                        <option>neo</option>
-                        <option>night</option>
-                        <option>nord</option>
-                        <option>oceanic-next</option>
-                        <option>paraiso-dark</option>
-                        <option>paraiso-light</option>
-                        <option>pastel-on-dark</option>
-                        <option>railscasts</option>
-                        <option>rubyblue</option>
-                        <option>seti</option>
-                        <option>shadowfox</option>
-                        <option>solarized light</option>
-                        <option>solarized dark</option>
-                        <option>the-matrix</option>
-                        <option>tomorrow-night-bright</option>
-                        <option>tomorrow-night-eighties</option>
-                        <option>twilight</option>
-                        <option>vibrant-ink</option>
-                        <option>xq-dark</option>
-                        <option>yeti</option>
-                    </select>
-                </p>
-                <p class="select">
-                    <label for="select-language" class="screenreader-only">Language</label>
-                    <select id="select-language">
-                        <option>None</option>
-                        <option>CSS</option>
-                        <option>Go</option>
-                        <option>JavaScript</option>
-                        <option>PHP</option>
-                        <option selected="selected">Python</option>
-                        <option>Ruby</option>
-                        <option>Shell</option>
-                        <option>ASCII Art</option>
-
-                        <optgroup label="Without sample">
-                            <option value="clike">C (-like)</option>
-                            <option>Haskell</option>
-                            <option value="commonlisp">Common Lisp</option>
-                            <option>Clojure</option>
-                            <option>Pascal</option>
-                            <option>Perl</option>
-                            <option>R</option>
-                            <option>Rust</option>
-                            <option>Swift</option>
-                            <option>XML</option>
-                        </optgroup>
-                    </select>
-                </p>
-            </section>
 
             <footer>
+                <aside class="info-wrapper">
+                    <h2><a href="" rel="external"></a></h2>
+                    <p class="info"></p>
+                    <p class="coverage"></p>
+                    <p class="variants"></p>
+                    <button class="text-button" id="compare-button">Compare</button>
+                    <p class="link"><a href="" rel="external"></a></p>
+                </aside>
+
                 <h1>
                     <a href="https://programmingfonts.tumblr.com">Programming Fonts</a>
                 </h1>
@@ -318,14 +233,101 @@
             <label for="code" class="screenreader-only">Code area</label>
             <textarea id="code" name="code"></textarea>
         </form>
-        <aside class="info-wrapper">
-            <h2><a href="" rel="external"></a></h2>
-            <p class="info"></p>
-            <p class="coverage"></p>
-            <p class="variants"></p>
-            <p class="link"><a href="" rel="external"></a></p>
-            <button class="text-button" id="compare-button">Compare</button>
-        </aside>
+
+        <section class="config">
+            <p>
+                <label for="size">Size</label>
+                <input type="number" id="size" value="16" min="1" max="32" step="1">
+            </p>
+            <p>
+                <label for="spacing">/</label>
+                <input type="number" id="spacing" value="1.4" min="1" max="2" step="0.1">
+            </p>
+            <p class="select">
+                <button class="nav-button" id="theme-previous">↑</button>
+                <button class="nav-button" id="theme-next">↓</button>
+                <label for="select-theme" class="screenreader-only">Theme</label>
+                <select id="select-theme">
+                    <option>3024-day</option>
+                    <option>3024-night</option>
+                    <option>abcdef</option>
+                    <option>ambiance</option>
+                    <option>base16-dark</option>
+                    <option>base16-light</option>
+                    <option>bespin</option>
+                    <option>blackboard</option>
+                    <option>catppuccin-frappe</option>
+                    <option>catppuccin-latte</option>
+                    <option selected>catppuccin-macchiato</option>
+                    <option>catppuccin-mocha</option>
+                    <option>cobalt</option>
+                    <option>colorforth</option>
+                    <option>darcula</option>
+                    <option>dracula</option>
+                    <option>duotone-dark</option>
+                    <option>duotone-light</option>
+                    <option>erlang-dark</option>
+                    <option>gruvbox-dark</option>
+                    <option>hopscotch</option>
+                    <option>isotope</option>
+                    <option>lesser-dark</option>
+                    <option>liquibyte</option>
+                    <option>lucario</option>
+                    <option>material</option>
+                    <option>mbo</option>
+                    <option>mdn-like</option>
+                    <option>midnight</option>
+                    <option>monokai</option>
+                    <option>neo</option>
+                    <option>night</option>
+                    <option>nord</option>
+                    <option>oceanic-next</option>
+                    <option>paraiso-dark</option>
+                    <option>paraiso-light</option>
+                    <option>pastel-on-dark</option>
+                    <option>railscasts</option>
+                    <option>rubyblue</option>
+                    <option>seti</option>
+                    <option>shadowfox</option>
+                    <option>solarized light</option>
+                    <option>solarized dark</option>
+                    <option>the-matrix</option>
+                    <option>tomorrow-night-bright</option>
+                    <option>tomorrow-night-eighties</option>
+                    <option>twilight</option>
+                    <option>vibrant-ink</option>
+                    <option>xq-dark</option>
+                    <option>yeti</option>
+                </select>
+            </p>
+            <p class="select">
+                <label for="select-language" class="screenreader-only">Language</label>
+                <select id="select-language">
+                    <option>None</option>
+                    <option>CSS</option>
+                    <option>Go</option>
+                    <option>JavaScript</option>
+                    <option>PHP</option>
+                    <option selected="selected">Python</option>
+                    <option>Ruby</option>
+                    <option>Shell</option>
+                    <option>ASCII Art</option>
+
+                    <optgroup label="Without sample">
+                        <option value="clike">C (-like)</option>
+                        <option>Haskell</option>
+                        <option value="commonlisp">Common Lisp</option>
+                        <option>Clojure</option>
+                        <option>Pascal</option>
+                        <option>Perl</option>
+                        <option>R</option>
+                        <option>Rust</option>
+                        <option>Swift</option>
+                        <option>XML</option>
+                    </optgroup>
+                </select>
+            </p>
+        </section>
     </div>
 
     <dialog id="about-dialog" autofocus>

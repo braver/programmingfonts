@@ -187,7 +187,7 @@ small {
     left: 2rem;
     z-index: 1;
     padding: 1em 1.4em;
-    font-size: 10px;
+    font-size: 12px;
     border: 1px solid var(--light-grey);
     border-radius: 6px;
     background: var(--bright-grey);
@@ -210,22 +210,36 @@ small {
     p:empty {
         display: none;
     }
+    h2 {
+        margin-bottom: 4px;
+    }
+    p.info + p {
+        margin-top: 6px;
+    }
+    p:not(.info) {
+        font-size: 9px;
+    }
     p.variants::before {
         content: 'Variants: ';
+        font-style: italic;
+    }
+    p.coverage::before {
+        content: 'Coverage: ';
         font-style: italic;
     }
     h2::after {
         content: attr(data-license);
         margin-left: 1ex;
-        font-size: 8px;
+        font-size: 10px;
         color: var(--medium-grey);
         text-transform: uppercase;
     }
 
     .text-button {
         position: absolute;
-        top: 1em;
-        right: 1.4em;
+        top: 12px;
+        right: 16px;
+        font-size: 10px;
 
         @media screen and (max-width: 56em) {
             display: none;
@@ -410,16 +424,16 @@ section.select-list {
     }
     a.favoritelink {
         position: absolute;
-        top: 8px;
-        right: 8px;
+        top: 6px;
+        right: 12px;
         color: var(--medium-grey);
         cursor: pointer;
     }
-    .entry:not(.pinned) a.favoritelink svg {
+    /*.entry:not(.pinned) a.favoritelink svg {
         fill: transparent;
         stroke: currentColor;
         stroke-width: 1;
-    }
+    }*/
     .entry:hover a.website,
     .entry:hover a.favoritelink {
         color: var(--dark-grey);

@@ -1,5 +1,54 @@
 import { Fontsize } from './fontsize.js'
 
+const lang_count = {
+    'Arabic': 48,
+    'Armenian': 2,
+    'Bamum': 1,
+    'Bengali': 8,
+    'Buginese': 1,
+    'Burmese': 4,
+    'Chakma': 1,
+    'Cherokee': 1,
+    'Chinese': 7,
+    'Cree': 1,
+    'Cyrillic': 93,
+    'Devanagari': 15,
+    'Georgian': 4,
+    'Geʽez': 8,
+    'Greek': 3,
+    'Gujarati': 2,
+    'Gurmukhi': 2,
+    'Hangul': 1,
+    'Hanja': 1,
+    'Hanunoo': 1,
+    'Hebrew': 5,
+    'Hiragana': 2,
+    'Inuktitut Syllabics': 1,
+    'Kanji': 1,
+    'Kannada': 1,
+    'Katakana': 3,
+    'Kayah Li': 2,
+    'Khmer': 1,
+    'Lao': 1,
+    'Latin': 547,
+    'Malayalam': 1,
+    'Modern Yi': 1,
+    'Ojibwe Syllabics': 1,
+    'Oriya': 1,
+    'Sinhala': 1,
+    'Syriac': 1,
+    'Tai Viet': 1,
+    'Tamil': 1,
+    'Telugu': 1,
+    'Thaana': 1,
+    'Thai': 1,
+    'Tham': 1,
+    'Tibetan': 3,
+    'Tifinagh': 1,
+    'Vai': 1,
+}
+
+
 const fontsize = new Fontsize()
 
 function isVisible (el) {
@@ -30,19 +79,44 @@ export function getFirstEntryAlias () {
   return first ? first.getAttribute('data-alias') : null
 }
 
+function writeVariants(variants) {
+  if (typeof variants === 'string') {
+    return variants
+  }
+  if (variants && variants.length > 0) {
+    return variants.join(', ')
+  }
+  return ''
+}
+
+function writeCoverage(data) {
+  let chars = `${data.glyphs} glyphs, ${data.characters} characters. `
+  let langs = []
+
+  Object.keys(data.languages).forEach((lang) => {
+    const count = data.languages[lang]
+    const total = lang_count[lang]
+    if (count < total) {
+      lang += ` (${count} of ${total} languages)`
+    }
+    langs.push(lang)
+  })
+  chars += langs.join(', ')
+  chars += '.'
+  return chars
+}
+
 export function setDetails (data) {
   const box = document.querySelector('.info-wrapper')
   box.querySelector('h2').setAttribute('data-license', data.license ?? '')
-  box.querySelector('a').href = data.website
+  box.querySelectorAll('a').forEach((link) => {
+    link.href = data.website
+  });
   box.querySelector('h2 a').textContent = data.name
+  box.querySelector('p a').textContent = data.website
   box.querySelector('p.info').textContent = data.description ?? ''
-  if (typeof data.variants === 'string') {
-    box.querySelector('p.variants').textContent = data.variants
-  } else if (data.variants && data.variants.length > 1) {
-    box.querySelector('p.variants').textContent = data.variants.join(', ')
-  } else {
-    box.querySelector('p.variants').textContent = ''
-  }
+  box.querySelector('p.variants').textContent = writeVariants(data.variants)
+  box.querySelector('p.coverage').textContent = writeCoverage(data)
 }
 
 // ProgrammingFonts font selector

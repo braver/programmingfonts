@@ -1249,7 +1249,7 @@
         "added": "2019-04-09",
         "author": "Rebecca G. Bettencourt",
         "bitmap size": 12,
-        "description": "Fairfax is a 6x12 bitmap font for terminals, text editors, IDEs, etc. It supports many scripts and a large number of Unicode blocks as well as constructed scripts as encoded in the Under-ConScript Unicode Registry, pseudographics and semigraphics, and tons of private use characters.",
+        "description": "Fairfax is a 6x12 bitmap font for terminals, text editors, IDEs, etc.",
         "group": "fairfax",
         "license": "SIL OFL",
         "ligatures": false,
@@ -1280,7 +1280,7 @@
     "fairfax-hd": {
         "added": "2019-04-09",
         "author": "Rebecca G. Bettencourt",
-        "description": "Fairfax HD is a halfwidth scalable monospace font for terminals, text editors, IDEs, etc. It supports many scripts and a large number of Unicode blocks as well as constructed scripts as encoded in the Under-ConScript Unicode Registry, pseudographics and semigraphics, and tons of private use characters.",
+        "description": "Fairfax HD is a halfwidth scalable monospace font for terminals, text editors, IDEs, etc.",
         "group": "fairfax-hd",
         "license": "SIL OFL",
         "ligatures": false,
@@ -2901,7 +2901,7 @@
     "nk57": {
         "added": "2024-10-02",
         "author": "Raymond Larabie",
-        "description": "Unlike many monospaced screen fonts that prioritize low-resolution use, NK57 Monospace was created with varying proportions, ensuring that its symbols and characters are easily visible, even on the smallest of screens. This makes it an ideal choice for developers who need to view and edit code on the go.",
+        "description": "NK57 Monospace was created with varying proportions, ensuring that its symbols and characters are easily visible, even on the smallest of screens.",
         "license": "public domain",
         "ligatures": false,
         "name": "NK57 Monospace",
@@ -3680,7 +3680,7 @@
     "terminus-consoleet": {
         "added": "2026-03-26",
         "author": "Jan Engelhardt",
-        "description": "A vectorized version of the Terminus Font originally by Dimitar Toshkov Zhekov: a fixed-width bitmap font optimized for long work with computers. This conversion is from the Consoleet project.",
+        "description": "A vectorized version of the Terminus Font originally by Dimitar Toshkov Zhekov. This conversion is from the Consoleet project.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Terminus (Consoleet)",
@@ -3700,7 +3700,7 @@
     "terminus-consoleet-smooth": {
         "added": "2026-03-26",
         "author": "Jan Engelhardt",
-        "description": "A vectorized version of the Terminus Font originally by Dimitar Toshkov Zhekov: a fixed-width bitmap font optimized for long work with computers. This conversion is from the Consoleet project and uses smooth straight vectors to avoid stairstepping.",
+        "description": "A vectorized version of the Terminus Font originally by Dimitar Toshkov Zhekov. This conversion is from the Consoleet project and uses smooth straight vectors to avoid stairstepping.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Terminus (Consoleet, smooth)",

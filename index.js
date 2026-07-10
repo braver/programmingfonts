@@ -29,9 +29,11 @@ window.toggleGroup = (alias) => {
 
 function renderSelectList (selectFirst = false) {
   const icon =
-        '<svg class="octicon" viewBox="0 0 12 14" version="1.1" width="12" height="14" aria-hidden="true"><path fill-rule="evenodd" d="M11 10h1v3c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h3v1H1v10h10v-3zM6 2l2.25 2.25L5 7.5 6.5 9l3.25-3.25L12 8V2H6z"></path></svg>'
+        '<svg class="octicon" viewBox="0 0 16 16" width="14" height="14"><path d="M4.53 4.75A.75.75 0 0 1 5.28 4h6.01a.75.75 0 0 1 .75.75v6.01a.75.75 0 0 1-1.5 0v-4.2l-5.26 5.261a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L9.48 5.5h-4.2a.75.75 0 0 1-.75-.75Z"></path></svg>'
   const pinIcon =
-        '<svg class="octicon octicon-pin" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 1.2V2l.5 1L6 6H2.2c-.44 0-.67.53-.34.86L5 10l-4 5 5-4 3.14 3.14a.5.5 0 0 0 .86-.34V10l3-4.5 1 .5h.8c.44 0 .67-.53.34-.86L10.86.86a.5.5 0 0 0-.86.34z"></path></svg>'
+        '<svg class="octicon" viewBox="0 0 16 16" width="12" height="12"><path d="m8 14.25.345.666a.75.75 0 0 1-.69 0l-.008-.004-.018-.01a7.152 7.152 0 0 1-.31-.17 22.055 22.055 0 0 1-3.434-2.414C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.045 5.231-3.885 6.818a22.066 22.066 0 0 1-3.744 2.584l-.018.01-.006.003h-.002ZM4.25 2.5c-1.336 0-2.75 1.164-2.75 3 0 2.15 1.58 4.144 3.365 5.682A20.58 20.58 0 0 0 8 13.393a20.58 20.58 0 0 0 3.135-2.211C12.92 9.644 14.5 7.65 14.5 5.5c0-1.836-1.414-3-2.75-3-1.373 0-2.609.986-3.029 2.456a.749.749 0 0 1-1.442 0C6.859 3.486 5.623 2.5 4.25 2.5Z"></path></svg>'
+  const pinnedIcon =
+        '<svg class="octicon" viewBox="0 0 16 16" width="12" height="12"><path d="M7.655 14.916v-.001h-.002l-.006-.003-.018-.01a22.066 22.066 0 0 1-3.744-2.584C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.044 5.231-3.886 6.818a22.094 22.094 0 0 1-3.433 2.414 7.152 7.152 0 0 1-.31.17l-.018.01-.008.004a.75.75 0 0 1-.69 0Z"></path></svg>'
   let favoritesMap = {}
   let favorites = []
 
@@ -77,8 +79,10 @@ function renderSelectList (selectFirst = false) {
       option.classList.add('entry')
       option.setAttribute('data-alias', v.alias)
 
+      let heart = pinIcon
       if (favoritesMap[v.alias]) {
         option.classList.add('pinned')
+        heart = pinnedIcon
       }
 
       const childList = groups[v.alias] || []
@@ -92,7 +96,7 @@ function renderSelectList (selectFirst = false) {
           <span class="details">${v.year} — ${v.author}</span>
         </a>
         ${chevron}
-        <a class="favoritelink" title="Favourite" onclick="toggleFavorite('${v.alias}')">${pinIcon}</a>
+        <a class="favoritelink" title="Favourite" onclick="toggleFavorite('${v.alias}')">${heart}</a>
         ${v.website ? `<a class="website" href="${v.website}" rel="external"> <span>Website</span>${icon}</a>` : ''}
       `
 

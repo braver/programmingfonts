@@ -150,6 +150,8 @@ small {
 }
 
 .codemirror-wrapper {
+    container-name: second-pane;
+    container-type: size;
     flex: 1;
     position: relative;
     margin: 6px 8px 6px 12px;
@@ -208,15 +210,29 @@ small {
     p:not(.info) {
         font-size: 11px;
     }
-    p.variants::before {
-        content: 'Variants: ';
-        font-style: italic;
+
+    dl {
+        font-size: 11px;
+        font-weight: normal;
+        color: var(--dark-grey);
+        margin-top: 8px;
     }
-    p.coverage::before {
-        content: 'Coverage: ';
-        font-style: italic;
+    dt, dd {
+        display: inline;
     }
-    p.coverage button {
+    dt {
+        font-style: italic;
+        text-transform: uppercase;
+        &::after {
+            content: ': ';
+        }
+        &:not(:first-child)::before {
+            content: '\A';
+            white-space: pre;
+        }
+    }
+
+    dl button {
         all: initial;
         font: inherit;
         color: inherit;
@@ -226,14 +242,6 @@ small {
             color: var(--ink-black);
             text-decoration: underline;
         }
-    }
-    h2::after {
-        content: attr(data-license);
-        margin-left: 1em;
-        font-size: 10px;
-        font-weight: normal;
-        color: var(--medium-grey);
-        text-transform: uppercase;
     }
 
     #compare-button {
@@ -298,18 +306,36 @@ section.config {
     @media screen and (max-width: 56em) {
         margin-right: 4px;
     }
+
+    > * {
+        padding: 0;
+        white-space: nowrap;
+    }
+
+    @container second-pane (width >= 500px) {
+        p:has(#spacing),
+        p:has(#select-theme) {
+            padding-right: 8px;
+            margin-right: 4px;
+            border-right: 1px solid var(--light-grey);
+        }
+    }
+
+    @container second-pane (width < 500px) {
+        grid-template-columns: auto auto;
+        input[type='number'] {
+            width: 6em;
+        }
+    }
 }
-section.config > * {
-    text-align: center;
-    padding: 0;
-    white-space: nowrap;
-}
+
+
 section.select-list {
     flex: 1;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
     background: var(--bright-white);
-    padding: 8px 2px;
+    padding: 8px 2px 8px 8px;
 
     &:focus {
         outline: none;
@@ -465,7 +491,7 @@ section.select-list {
 footer {
     position: relative;
     margin: 0 0 6px 6px;
-    padding: 12px 12px 6px 12px;
+    padding: 12px 12px 4px 12px;
     border: 1px solid var(--light-grey);
     border-radius: 6px;
     font-size: 14px;
@@ -481,8 +507,13 @@ footer {
         color: var(--ink-black);
     }
 
+    h1 {
+        color: var(--medium-grey);
+        font-size: 14px;
+    }
     h1 + p {
-        font-style: italic;
+        font-weight: normal;
+        font-size: 11px;
     }
     a:hover,
     a:active {

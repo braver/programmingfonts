@@ -133,15 +133,15 @@ function writeCoverage(data) {
 
 export function setDetails (data) {
   const box = document.querySelector('.info-wrapper')
-  box.querySelector('h2').setAttribute('data-license', data.license ?? '')
   box.querySelectorAll('a').forEach((link) => {
     link.href = data.website
   });
   box.querySelector('h2 a').textContent = data.name
-  box.querySelector('p a').textContent = data.website
-  box.querySelector('p.info').textContent = data.description ?? ''
-  box.querySelector('p.variants').textContent = writeVariants(data.variants)
-  box.querySelector('p.coverage').innerHTML = writeCoverage(data)
+  box.querySelector('dl a').textContent = data.website
+  box.querySelector('.info').textContent = data.description ?? ''
+  box.querySelector('.license + dd').textContent = writeVariants(data.license ?? '')
+  box.querySelector('.variants + dd').textContent = writeVariants(data.variants)
+  box.querySelector('.coverage + dd').innerHTML = writeCoverage(data)
 }
 
 // ProgrammingFonts font selector

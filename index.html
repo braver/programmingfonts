@@ -189,13 +189,20 @@
             </section>
 
             <footer>
-                <aside class="info-wrapper">
+                <aside class="info-wrapper" aria-live="polite">
                     <h2><a href="" rel="external"></a></h2>
                     <p class="info"></p>
-                    <p class="coverage"></p>
-                    <p class="variants"></p>
+                    <dl>
+                        <dt class="coverage">Coverage</dt>
+                        <dd></dd>
+                        <dt class="variants">Variants</dt>
+                        <dd></dd>
+                        <dt class="license">License</dt>
+                        <dd></dd>
+                        <dt class="website">Website</dt>
+                        <dd><a href="" rel="external"></a></dd>
+                    </dl>
                     <button class="text-button" id="compare-button">Compare</button>
-                    <p class="link"><a href="" rel="external"></a></p>
                 </aside>
 
                 <h1>
@@ -244,8 +251,6 @@
                 <input type="number" id="spacing" value="1.4" min="1" max="2" step="0.1">
             </p>
             <p class="select">
-                <button class="nav-button" id="theme-previous">↑</button>
-                <button class="nav-button" id="theme-next">↓</button>
                 <label for="select-theme" class="screenreader-only">Theme</label>
                 <select id="select-theme">
                     <option>3024-day</option>
@@ -299,6 +304,8 @@
                     <option>xq-dark</option>
                     <option>yeti</option>
                 </select>
+                <button class="nav-button" id="theme-previous">↑</button>
+                <button class="nav-button" id="theme-next">↓</button>
             </p>
             <p class="select">
                 <label for="select-language" class="screenreader-only">Language</label>

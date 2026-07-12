@@ -90,10 +90,14 @@ function writeVariants(variants) {
 }
 
 function writeCoverage(data) {
-  let chars = `${data.glyphs} glyphs, ${data.characters} characters. `
+  let chars = `${data.glyphs} glyphs`
+  if (data.characters) {
+    chars += `, ${data.characters} characters. `
+  }
+
   let langs = []
 
-  Object.keys(data.languages).forEach((lang) => {
+  Object.keys(data.languages ?? {}).forEach((lang) => {
     const count = data.languages[lang]
     const total = lang_count[lang]
     if (count < total) {

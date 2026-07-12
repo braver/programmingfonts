@@ -102,9 +102,7 @@
                 "rendering",
                 "style",
                 "year",
-                "glyphs",
-                "characters",
-                "languages"
+                "glyphs"
             ]
         }
     }

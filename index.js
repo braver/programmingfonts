@@ -190,6 +190,7 @@ function walk (direction) {
   }
 
   if (target) {
+    target.querySelector('a').focus()
     target.querySelector('a').click()
   }
 }

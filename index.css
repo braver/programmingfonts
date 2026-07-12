@@ -152,7 +152,7 @@ small {
 .codemirror-wrapper {
     flex: 1;
     position: relative;
-    margin: 6px 8px;
+    margin: 6px 8px 6px 12px;
     border-radius: 6px;
     overflow: hidden;
     box-shadow: 0 0 6px rgba(0,0,0,0.3);
@@ -262,7 +262,7 @@ section.config {
 section#filters {
     align-items: stretch;
     grid-template-columns: auto auto auto;
-    margin: 6px 6px 0 6px;
+    margin: 6px 0 0 6px;
     box-shadow: 0 0 6px rgba(0,0,0,0.1);
     position: relative;
     z-index: 2;
@@ -297,12 +297,10 @@ section.select-list {
     overflow: auto;
     -webkit-overflow-scrolling: touch;
     background: var(--bright-white);
+    padding: 8px 0;
 
     &:focus {
         outline: none;
-    }
-    > * {
-        overflow: hidden;
     }
     [data-style='serif'] .name {
         font-family: 'ui-font-serif', serif;
@@ -311,12 +309,14 @@ section.select-list {
         position: relative;
         padding: 8px 12px;
         z-index: 0;
-        margin-bottom: -1px;
+    }
+    .entry:has(a:hover) {
+        z-index: 1;
     }
     .entry:has(a:hover)::before {
         transition: background .2s ease-in-out, left .1s ease-in-out, right .1s ease-in-out;
     }
-    .entry:not(:first-child)::before {
+    .entry::before {
         content: '';
         display: block;
         position: absolute;
@@ -332,8 +332,8 @@ section.select-list {
         content: '';
         display: block;
         position: absolute;
-        top: 0;
-        bottom: 0;
+        top: -1px;
+        bottom: -1px;
         right: 4px;
         left: 4px;
         border: 1px solid var(--light-grey);
@@ -452,7 +452,7 @@ section.select-list {
 
 footer {
     position: relative;
-    margin: 0 6px 6px 6px;
+    margin: 0 0 6px 6px;
     padding: 12px 12px 6px 12px;
     border: 1px solid var(--light-grey);
     border-radius: 6px;

@@ -73,7 +73,6 @@ We've been able to license some commercial fonts for programmingfonts.org, but t
 To date we've been unable to find a reliable source of information or downloads for these fonts, although we know they're out there:
 
 - Cruft
-- Espresso Mono
 - Selectric
 - Topaz-8
 - TI92PLUS
@@ -170,6 +169,7 @@ Therefore:
 - [Ellograph](https://connary.com/ellograph.html) _commercial_ ([view](https://www.programmingfonts.org/#ellograph))
 - [Envy Code B](https://damieng.com/blog/2006/11/06/envy-code-b-font-available-in-ttf-format/) _none_ ([view](https://www.programmingfonts.org/#envy-code-b))
 - [Envy Code R](https://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released) _SIL OFL_ ([view](https://www.programmingfonts.org/#envy-code-r))
+- [Espresso Mono](https://espressoapp.com/) _Bitstream Vera_ ([view](https://www.programmingfonts.org/#espresso-mono))
 - [Fairfax](http://www.kreativekorp.com/software/fonts/fairfax.shtml) _SIL OFL_ ([view](https://www.programmingfonts.org/#fairfax))
 - [Fairfax HD](http://www.kreativekorp.com/software/fonts/fairfaxhd.shtml) _SIL OFL_ ([view](https://www.programmingfonts.org/#fairfax-hd))
 - [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans) _SIL OFL_ ([view](https://www.programmingfonts.org/#fantasque-sans))

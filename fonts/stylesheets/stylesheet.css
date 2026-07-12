@@ -923,6 +923,18 @@
   src: url('../resources/envy-code-r/envy-code-r.woff');
 }
 @font-face {
+  font-family: 'espresso-mono';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/espresso-mono/espresso-mono-bold.woff2');
+}
+@font-face {
+  font-family: 'espresso-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/espresso-mono/espresso-mono.woff2');
+}
+@font-face {
   font-family: 'fairfax';
   font-weight: bold;
   font-style: normal;

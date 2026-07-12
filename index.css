@@ -216,6 +216,17 @@ small {
         content: 'Coverage: ';
         font-style: italic;
     }
+    p.coverage button {
+        all: initial;
+        font: inherit;
+        color: inherit;
+        cursor: pointer;
+        &:hover,
+        &:focus {
+            color: var(--ink-black);
+            text-decoration: underline;
+        }
+    }
     h2::after {
         content: attr(data-license);
         margin-left: 1em;

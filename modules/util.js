@@ -89,6 +89,18 @@ function writeVariants(variants) {
   return ''
 }
 
+window.revealLangs = (event) => {
+  console.log(event)
+  event.preventDefault()
+  event.stopPropagation()
+  const parent = event.target.parentNode
+  const btn = event.target
+  const more = btn.dataset.more
+  console.log(parent, btn, more)
+  btn.remove()
+  parent.textContent = parent.textContent + more
+}
+
 function writeCoverage(data) {
   let chars = `${data.glyphs} glyphs`
   if (data.characters) {
@@ -97,16 +109,25 @@ function writeCoverage(data) {
 
   let langs = []
 
-  Object.keys(data.languages ?? {}).forEach((lang) => {
+  Object.keys(data.languages ?? {}).forEach((lang, index) => {
     const count = data.languages[lang]
     const total = lang_count[lang]
+    const suffix = index === 0 ? ' languages' : ''
     if (count < total) {
-      lang += ` (${count} of ${total} languages)`
+      lang += ` (${count} of ${total}${suffix})`
     }
     langs.push(lang)
   })
-  chars += langs.join(', ')
-  chars += '.'
+
+  if (langs.length > 6) { // if there are 6 or more, show only the first 4 (avoiding hiding only one)
+    chars += langs.slice(0,4).join(', ')
+    const remaining = langs.slice(4,langs.length).join(', ')
+    chars += `, <button onclick="revealLangs(event)" title="Reveal all ${langs.length}" data-more="${remaining}">+${langs.length - 4}&hellip;</button>`
+  } else {
+    chars += langs.join(', ')
+    chars += '.'
+  }
+
   return chars
 }
 
@@ -120,7 +141,7 @@ export function setDetails (data) {
   box.querySelector('p a').textContent = data.website
   box.querySelector('p.info').textContent = data.description ?? ''
   box.querySelector('p.variants').textContent = writeVariants(data.variants)
-  box.querySelector('p.coverage').textContent = writeCoverage(data)
+  box.querySelector('p.coverage').innerHTML = writeCoverage(data)
 }
 
 // ProgrammingFonts font selector

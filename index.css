@@ -236,10 +236,11 @@ small {
         text-transform: uppercase;
     }
 
-    .text-button {
+    #compare-button {
         font-size: 11px;
-        float: right;
-        margin-top: -4px;
+        position: absolute;
+        top: 6px;
+        right: 6px;
 
         @media screen and (max-width: 56em) {
             display: none;
@@ -308,7 +309,7 @@ section.select-list {
     overflow: auto;
     -webkit-overflow-scrolling: touch;
     background: var(--bright-white);
-    padding: 8px 0;
+    padding: 8px 2px;
 
     &:focus {
         outline: none;

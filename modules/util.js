@@ -133,13 +133,10 @@ function writeCoverage(data) {
 
 export function setDetails (data) {
   const box = document.querySelector('.info-wrapper')
-  box.querySelectorAll('a').forEach((link) => {
-    link.href = data.website
-  });
   box.querySelector('h2 a').textContent = data.name
-  box.querySelector('dl a').textContent = data.website
+  box.querySelector('h2 a').href = data.website
+  box.querySelector('h2 span').textContent = data.license
   box.querySelector('.info').textContent = data.description ?? ''
-  box.querySelector('.license + dd').textContent = writeVariants(data.license ?? '')
   box.querySelector('.variants + dd').textContent = writeVariants(data.variants)
   box.querySelector('.coverage + dd').innerHTML = writeCoverage(data)
 }

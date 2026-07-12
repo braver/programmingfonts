@@ -134,7 +134,7 @@
     "apl385": {
         "added": "2018-05-29",
         "author": "Adrian Smith",
-        "description": "Developed with all APL software vendors in the late 1980s and enhanced as required with new characters to meet interpreter updates. Thanks to Dave Liebtag (IBM), Richard Nabavi (APL.68000) and all at Dyalog APL for their support.",
+        "description": "Developed with all APL software vendors in the late 1980s and enhanced as required with new characters with support from Dave Liebtag (IBM), Richard Nabavi (APL.68000) and Dyalog APL.",
         "license": "public domain",
         "ligatures": false,
         "name": "APL385",
@@ -725,7 +725,7 @@
     "courier-ibm": {
         "added": "2026-03-20",
         "author": "Howard Kettler",
-        "description": "IBM’s original Courier digitized and made available in modern file formats. Dotted and slashed zeroes are available that are more suited for programming. Here credited to the original designer, but maintained by Darren Embry.",
+        "description": "IBM’s original Courier digitized and made available in modern file formats.Here credited to the original designer, but maintained by Darren Embry.",
         "group": "courier-ibm",
         "license": "permissive",
         "ligatures": false,
@@ -1033,7 +1033,7 @@
     "departure-mono": {
         "added": "2024-09-10",
         "author": "Helena Zhang",
-        "description": "Departure Mono is a monospaced pixel font inspired by the constraints of early command-line and graphical user interfaces, the tiny pixel fonts of the late 90s/early 00s, and sci-fi concepts from film and television.",
+        "description": "A monospaced pixel font inspired by the constraints of early command-line and graphical user interfaces, pixel fonts of the late 90s/early 00s, and sci-fi concepts from film and television.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Departure Mono",
@@ -1133,7 +1133,7 @@
     "edlo": {
         "added": "2020-01-14",
         "author": "Eric Hamiter",
-        "description": "Edlo is a modified version of Stephen G. Hartke’s Aurulent Sans, which I thought was beautiful, but hazardous for programming because the similarities between zeroes and ohs and ones and els were too close for comfort.",
+        "description": "A modified version of Stephen G. Hartke’s Aurulent Sans, which while beautiful, is also hazardous for programming due to the similarities between zeroes and ohs and ones and els.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Edlo",
@@ -1664,7 +1664,7 @@
         "added": "2023-07-04",
         "author": "Hugo Chargois",
         "bitmap size": 11,
-        "description": "Gohufont is a monospace bitmap font well suited for programming and terminal use. It is intended to be very legible and offers very discernable glyphs for all characters, including signs and symbols. In 11 or 14 pixels.",
+        "description": "Gohufont is a monospace bitmap font well suited for programming and terminal use. It is intended to be very legible with discernable glyphs for all characters, signs and symbols. In 11 or 14 pixels.",
         "license": "WTFPL",
         "ligatures": false,
         "name": "Gohufont 11",
@@ -1686,7 +1686,7 @@
         "added": "2023-07-04",
         "author": "Hugo Chargois",
         "bitmap size": 14,
-        "description": "Gohufont is a monospace bitmap font well suited for programming and terminal use. It is intended to be very legible and offers very discernable glyphs for all characters, including signs and symbols. In 11 or 14 pixels.",
+        "description": "Gohufont is a monospace bitmap font well suited for programming and terminal use. It is intended to be very legible with discernable glyphs for all characters, signs and symbols. In 11 or 14 pixels.",
         "license": "WTFPL",
         "ligatures": false,
         "name": "Gohufont 14",
@@ -1850,7 +1850,7 @@
         "added": "2023-07-05",
         "author": "IBM",
         "bitmap size": 16,
-        "description": "With VGA, 9-dot character cells were now the default, and the resulting 9x16 glyphs make up the famous font which remains most strongly associated with ASCII art on the PC, and probably with the entire DOS era in general.",
+        "description": "The 9x16 glyphs make up the famous font which remains most strongly associated with ASCII art on the PC, and probably with the entire DOS era in general.",
         "license": "CC BY-SA 4.0",
         "ligatures": false,
         "name": "IBM VGA 9x16",
@@ -1954,7 +1954,7 @@
     "indicate": {
         "added": "2024-04-20",
         "author": "Jonas Pelzer",
-        "description": "While preserving the strict order of a monospace typeface, Indicate Mono partly moves away from the typical technical aesthetics of fixed-width typefaces. The font is available on a pay-what-you-want basis.",
+        "description": "moves away from the typical technical aesthetics of fixed-width typefaces while preserving the strict order of a monospace typeface. The font is available on a pay-what-you-want basis.",
         "license": "commercial",
         "ligatures": false,
         "name": "Indicate Mono",
@@ -1996,7 +1996,7 @@
     "intel-one-mono": {
         "added": "2023-05-15",
         "author": "Intel Brand Team, VMLY&R, Frere-Jones Type",
-        "description": "Identifying the typographically underserved low-vision developer audience, the Intel One Mono typeface was designed for maximum legibility to address developers' fatigue and eyestrain and reduce coding errors.",
+        "description": "Identifying the typographically underserved low-vision developer audience, this typeface was designed for maximum legibility to address fatigue and eyestrain and reduce coding errors.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Intel One Mono",
@@ -2178,7 +2178,7 @@
     "julia-mono": {
         "added": "2020-10-11",
         "author": "cormullion",
-        "description": "A monospaced typeface designed for programming and in other text editing environments that require a wide range of specialist and technical Unicode characters. It was presented at the 2020 JuliaCon conference.",
+        "description": "A monospaced typeface designed for programming and in other text editing environments that require a wide range of specialist and technical Unicode characters.",
         "license": "SIL OFL",
         "ligatures": true,
         "name": "JuliaMono",
@@ -2447,7 +2447,7 @@
     "md-io": {
         "added": "2025-02-25",
         "author": "Rutherford Craze",
-        "description": "IO uses unconventional glyph constructions and large, functional ink traps to improve glyph recognition — utilitarian features which become eye-catching stylistic elements in their own right when used at larger sizes.",
+        "description": "Uses unconventional glyph constructions and large, functional ink traps to improve glyph recognition.",
         "license": "commercial",
         "ligatures": false,
         "name": "MD IO",

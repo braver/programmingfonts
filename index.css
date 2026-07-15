@@ -143,7 +143,6 @@ small {
     width: 30em;
     height: 100%;
     max-height: 100%;
-    float: left;
     position: relative;
     z-index: 2;
     overflow: hidden;
@@ -309,10 +308,6 @@ section.config {
     bottom: 12px;
     right: 16px;
     box-shadow: 0 0 6px rgba(0,0,0,0.1);
-
-    @media screen and (max-width: 56em) {
-        margin-right: 4px;
-    }
 
     > * {
         padding: 0;
@@ -749,15 +744,43 @@ body:has(dialog[open]) {
     }
 }
 
-@media screen and (max-width: 56em) {
+@media screen and (max-width: 900px) {
     body {
         display: block;
     }
-    .main-wrapper,
-    form {
+    section#filters,
+    footer,
+    .codemirror-wrapper {
+        margin: 2px;
+    }
+    section.select-list {
+        padding: 8px;
+    }
+    footer {
+        padding: 4px 12px;
+        .info-wrapper {
+            display: none;
+        }
+    }
+    .main-wrapper {
         width: 100%;
+        max-width: none;
         height: 50vh;
-        min-height: 50vh;
-        float: none;
+    }
+    .codemirror-wrapper {
+        container-type: revert;
+    }
+    section.config {
+        position: fixed;
+        inset: auto 12px 12px 12px;
+        label {
+            font-size: 9px;
+        }
+        input[type='text'], input[type='number'] {
+            width: 3em;
+        }
+        select {
+            width: 6em;
+        }
     }
 }

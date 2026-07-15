@@ -1,3 +1,5 @@
+/* global CodeMirror */
+
 import { Fontsize } from './fontsize.js'
 
 const lang_count = {
@@ -146,18 +148,19 @@ export function setDetails (data) {
 export function selectFont () {
   const codeMirror = document.querySelector('.CodeMirror')
   const font = getFont()
+  const data = window.fontData
 
-  if (typeof fontData === 'undefined' || typeof window.fontData[font] === 'undefined') {
+  if (typeof data === 'undefined' || typeof data[font] === 'undefined') {
     return
   }
 
-  setDetails(window.fontData[font])
+  setDetails(data[font])
   codeMirror.setAttribute('data-font', font)
 
-  if (window.fontData[font].rendering === 'bitmap') {
+  if (data[font].rendering === 'bitmap') {
     codeMirror.classList.add('no-smooth')
-    if (window.fontData[font]['bitmap size']) {
-      fontsize.forceSize(window.fontData[font]['bitmap size'])
+    if (data[font]['bitmap size']) {
+      fontsize.forceSize(data[font]['bitmap size'])
     }
   } else {
     codeMirror.classList.remove('no-smooth')
@@ -248,4 +251,14 @@ export function compare(a, b, mode) {
     default:
       return dateAddedKey(b).localeCompare(dateAddedKey(a))
   }
+}
+
+export function initEditor() {
+  window.CMeditor = CodeMirror.fromTextArea(document.getElementById('code'), {
+    lineNumbers: true,
+    styleActiveLine: true,
+    matchBrackets: true,
+    theme: 'pastel-on-dark',
+    lineWrapping: true
+  })
 }

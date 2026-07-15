@@ -1,39 +1,21 @@
-/* global CodeMirror */
-
-import { Fontsize } from './modules/fontsize.js'
 import { Filters } from './modules/filters.js'
 import { Language } from './modules/language.js'
+import { Listeners } from './modules/listeners.js'
 import { Spacing } from './modules/spacing.js'
 import { Theme } from './modules/theme.js'
 import * as util from './modules/util.js'
 
-const fontsize = new Fontsize()
-
-window.CMeditor = CodeMirror.fromTextArea(document.getElementById('code'), {
-  lineNumbers: true,
-  styleActiveLine: true,
-  matchBrackets: true,
-  theme: 'pastel-on-dark',
-  lineWrapping: true
-})
 
 const chevronDownIcon = '<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"/></svg>'
+const arrowIcon =
+      '<svg class="octicon" viewBox="0 0 16 16" width="14" height="14"><path d="M4.53 4.75A.75.75 0 0 1 5.28 4h6.01a.75.75 0 0 1 .75.75v6.01a.75.75 0 0 1-1.5 0v-4.2l-5.26 5.261a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L9.48 5.5h-4.2a.75.75 0 0 1-.75-.75Z"></path></svg>'
+const pinIcon =
+      '<svg class="octicon" viewBox="0 0 16 16" width="12" height="12"><path d="m8 14.25.345.666a.75.75 0 0 1-.69 0l-.008-.004-.018-.01a7.152 7.152 0 0 1-.31-.17 22.055 22.055 0 0 1-3.434-2.414C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.045 5.231-3.885 6.818a22.066 22.066 0 0 1-3.744 2.584l-.018.01-.006.003h-.002ZM4.25 2.5c-1.336 0-2.75 1.164-2.75 3 0 2.15 1.58 4.144 3.365 5.682A20.58 20.58 0 0 0 8 13.393a20.58 20.58 0 0 0 3.135-2.211C12.92 9.644 14.5 7.65 14.5 5.5c0-1.836-1.414-3-2.75-3-1.373 0-2.609.986-3.029 2.456a.749.749 0 0 1-1.442 0C6.859 3.486 5.623 2.5 4.25 2.5Z"></path></svg>'
+const pinnedIcon =
+      '<svg class="octicon" viewBox="0 0 16 16" width="12" height="12"><path d="M7.655 14.916v-.001h-.002l-.006-.003-.018-.01a22.066 22.066 0 0 1-3.744-2.584C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.044 5.231-3.886 6.818a22.094 22.094 0 0 1-3.433 2.414 7.152 7.152 0 0 1-.31.17l-.018.01-.008.004a.75.75 0 0 1-.69 0Z"></path></svg>'
 
-window.toggleGroup = (alias) => {
-  const primary = document.querySelector(`#select-font [data-alias='${alias}']`)
-  const isExpanded = primary.classList.toggle('group-open')
-  document.querySelectorAll(`#select-font [data-group='${alias}']`).forEach((child) => {
-    child.classList.toggle('group-child-visible', isExpanded)
-  })
-}
 
 function renderSelectList (selectFirst = false) {
-  const icon =
-        '<svg class="octicon" viewBox="0 0 16 16" width="14" height="14"><path d="M4.53 4.75A.75.75 0 0 1 5.28 4h6.01a.75.75 0 0 1 .75.75v6.01a.75.75 0 0 1-1.5 0v-4.2l-5.26 5.261a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L9.48 5.5h-4.2a.75.75 0 0 1-.75-.75Z"></path></svg>'
-  const pinIcon =
-        '<svg class="octicon" viewBox="0 0 16 16" width="12" height="12"><path d="m8 14.25.345.666a.75.75 0 0 1-.69 0l-.008-.004-.018-.01a7.152 7.152 0 0 1-.31-.17 22.055 22.055 0 0 1-3.434-2.414C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.045 5.231-3.885 6.818a22.066 22.066 0 0 1-3.744 2.584l-.018.01-.006.003h-.002ZM4.25 2.5c-1.336 0-2.75 1.164-2.75 3 0 2.15 1.58 4.144 3.365 5.682A20.58 20.58 0 0 0 8 13.393a20.58 20.58 0 0 0 3.135-2.211C12.92 9.644 14.5 7.65 14.5 5.5c0-1.836-1.414-3-2.75-3-1.373 0-2.609.986-3.029 2.456a.749.749 0 0 1-1.442 0C6.859 3.486 5.623 2.5 4.25 2.5Z"></path></svg>'
-  const pinnedIcon =
-        '<svg class="octicon" viewBox="0 0 16 16" width="12" height="12"><path d="M7.655 14.916v-.001h-.002l-.006-.003-.018-.01a22.066 22.066 0 0 1-3.744-2.584C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.044 5.231-3.886 6.818a22.094 22.094 0 0 1-3.433 2.414 7.152 7.152 0 0 1-.31.17l-.018.01-.008.004a.75.75 0 0 1-.69 0Z"></path></svg>'
   let favoritesMap = {}
   let favorites = []
 
@@ -49,108 +31,93 @@ function renderSelectList (selectFirst = false) {
     console.error('could not render favorites', err)
   }
 
-  const renderFonts = (fonts) => {
-    const sortMode = document.getElementById('sort-list').value
+  const sortMode = document.getElementById('sort-list').value
+  const fonts = window.fontsList
 
-    fonts.sort((a, b) => {
-      if (favoritesMap[a.alias] && !favoritesMap[b.alias]) {
-        return -1
-      }
-      if (!favoritesMap[a.alias] && favoritesMap[b.alias]) {
-        return 1
-      }
-      return util.compare(a, b, sortMode)
-    })
+  fonts.sort((a, b) => {
+    if (favoritesMap[a.alias] && !favoritesMap[b.alias]) {
+      return -1
+    }
+    if (!favoritesMap[a.alias] && favoritesMap[b.alias]) {
+      return 1
+    }
+    return util.compare(a, b, sortMode)
+  })
 
-    const groups = {}
-    fonts.forEach((v) => {
-      if (v.group && v.group !== v.alias) {
-        if (!groups[v.group]) groups[v.group] = []
-        groups[v.group].push(v)
-      }
-    })
-    const groupChildAliases = new Set(
-      fonts.filter((v) => v.group && v.group !== v.alias).map((v) => v.alias)
-    )
+  const groups = {}
+  fonts.forEach((v) => {
+    if (v.group && v.group !== v.alias) {
+      if (!groups[v.group]) groups[v.group] = []
+      groups[v.group].push(v)
+    }
+  })
+  const groupChildAliases = new Set(
+    fonts.filter((v) => v.group && v.group !== v.alias).map((v) => v.alias)
+  )
 
-    fonts.filter((v) => !groupChildAliases.has(v.alias)).forEach((v) => {
-      const option = document.createElement('div')
+  fonts.filter((v) => !groupChildAliases.has(v.alias)).forEach((v) => {
+    const option = document.createElement('div')
 
-      option.classList.add('entry')
-      option.setAttribute('data-alias', v.alias)
+    option.classList.add('entry')
+    option.setAttribute('data-alias', v.alias)
 
-      let heart = pinIcon
-      if (favoritesMap[v.alias]) {
-        option.classList.add('pinned')
-        heart = pinnedIcon
-      }
+    let heart = pinIcon
+    if (favoritesMap[v.alias]) {
+      option.classList.add('pinned')
+      heart = pinnedIcon
+    }
 
-      const childList = groups[v.alias] || []
-      const chevron = childList.length > 0
-        ? `<button title="Alternatives" class="group-toggle" onclick="toggleGroup('${v.alias}')">+${childList.length} ${chevronDownIcon}</button>`
-        : ''
+    const childList = groups[v.alias] || []
+    const chevron = childList.length > 0
+      ? `<button title="Alternatives" class="group-toggle" onclick="toggleGroup('${v.alias}')">+${childList.length} ${chevronDownIcon}</button>`
+      : ''
 
-      option.innerHTML = `
-        <a href="#${v.alias}" data-style="${v.style}">
-          <span class="name">${v.name}</span>
-          <span class="details">${v.year} — ${v.author}</span>
+    option.innerHTML = `
+      <a href="#${v.alias}" data-style="${v.style}">
+        <span class="name">${v.name}</span>
+        <span class="details">${v.year} — ${v.author}</span>
+      </a>
+      ${chevron}
+      <a class="favoritelink" title="Favourite" onclick="toggleFavorite('${v.alias}')">${heart}</a>
+      ${v.website ? `<a class="website" href="${v.website}" rel="external"> <span>Website</span>${arrowIcon}</a>` : ''}
+    `
+
+    document.getElementById('select-font').appendChild(option)
+
+    childList.forEach((child) => {
+      const childOption = document.createElement('div')
+
+      childOption.classList.add('entry', 'group-child')
+      childOption.setAttribute('data-alias', child.alias)
+      childOption.setAttribute('data-group', v.alias)
+
+      childOption.innerHTML = `
+        <a href="#${child.alias}" data-style="${child.style}">
+          <span class="name">${child.name}</span>
+          <span class="details">${child.year} — ${child.author}</span>
         </a>
-        ${chevron}
-        <a class="favoritelink" title="Favourite" onclick="toggleFavorite('${v.alias}')">${heart}</a>
-        ${v.website ? `<a class="website" href="${v.website}" rel="external"> <span>Website</span>${icon}</a>` : ''}
+        ${child.website ? `<a class="website" href="${child.website}" rel="external"> <span>Website</span>${arrowIcon}</a>` : ''}
       `
 
-      document.getElementById('select-font').appendChild(option)
-
-      childList.forEach((child) => {
-        const childOption = document.createElement('div')
-
-        childOption.classList.add('entry', 'group-child')
-        childOption.setAttribute('data-alias', child.alias)
-        childOption.setAttribute('data-group', v.alias)
-
-        childOption.innerHTML = `
-          <a href="#${child.alias}" data-style="${child.style}">
-            <span class="name">${child.name}</span>
-            <span class="details">${child.year} — ${child.author}</span>
-          </a>
-          ${child.website ? `<a class="website" href="${child.website}" rel="external"> <span>Website</span>${icon}</a>` : ''}
-        `
-
-        document.getElementById('select-font').appendChild(childOption)
-      })
+      document.getElementById('select-font').appendChild(childOption)
     })
+  })
+
+  if (selectFirst) {
+    const first = util.getFirstEntryAlias()
+    if (first) {
+      window.location.hash = first
+    }
   }
+  util.selectFont()
+}
 
-  fetch('fonts.json')
-    .then((response) => {
-      if (response.ok) {
-        return response.json()
-      } else {
-        console.error(response.status + ': ' + response.statusText)
-      }
-    }).then((data) => {
-      const fonts = []
-
-      window.fontData = data
-
-      Object.keys(data).forEach((key) => {
-        const v = data[key]
-        v.alias = key
-        fonts.push(v)
-      })
-
-      renderFonts(fonts)
-      new Filters(data, () => {renderSelectList(true)}).init()
-
-      if (selectFirst) {
-        const first = util.getFirstEntryAlias()
-        if (first) {
-          window.location.hash = first
-        }
-      }
-      util.selectFont()
-    })
+window.toggleGroup = (alias) => {
+  const primary = document.querySelector(`#select-font [data-alias='${alias}']`)
+  const isExpanded = primary.classList.toggle('group-open')
+  document.querySelectorAll(`#select-font [data-group='${alias}']`).forEach((child) => {
+    child.classList.toggle('group-child-visible', isExpanded)
+  })
 }
 
 window.toggleFavorite = (alias) => {
@@ -172,118 +139,36 @@ window.toggleFavorite = (alias) => {
   return false
 }
 
-function walk (direction) {
-  const activeEntry = document.querySelector('.entry.active')
-  let target = null
-  let next = direction === 'up' ? activeEntry.previousElementSibling : activeEntry.nextElementSibling
-
-  while (target === null) {
-    if (next) {
-      if (next.matches('.entry:not(.filtered-out):not(.group-child), .entry.group-child.group-child-visible:not(.filtered-out)')) {
-        target = next
-      } else {
-        next = direction === 'up' ? next.previousElementSibling : next.nextElementSibling
-      }
-    } else {
-      target = false
-    }
-  }
-
-  if (target) {
-    target.querySelector('a').focus()
-    target.querySelector('a').click()
-  }
-}
-
 window.onhashchange = () => {
   util.selectFont()
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-  renderSelectList()
-  fontsize.init()
+  util.initEditor()
   new Theme().init()
   new Spacing().init()
   new Language().init()
+  new Listeners().init()
 
-  document.querySelector('.select-list').onkeydown = (event) => {
-    if (event.ctrlKey || event.altKey || event.metaKey || event.shiftKey) {
-      return
-    }
-    if (event.key === 'ArrowUp') {
-      event.preventDefault()
-      event.stopPropagation()
-      walk('up')
-    } else if (event.key === 'ArrowDown') {
-      event.preventDefault()
-      event.stopPropagation()
-      walk('down')
-    } else if (event.key === 'ArrowRight') {
-      event.preventDefault()
-      event.stopPropagation()
-      util.expandGroup()
-    } else if (event.key === 'ArrowLeft') {
-      event.preventDefault()
-      event.stopPropagation()
-      util.collapseGroup()
-    }
-  }
-
-  document.body.addEventListener('keydown', (event) => {
-    if (event.ctrlKey || event.metaKey) {
-      if (event.key === '-') {
-        event.preventDefault()
-        event.stopPropagation()
-        fontsize.down()
-      } else if (event.key === '=') {
-        event.preventDefault()
-        event.stopPropagation()
-        fontsize.up()
+  fetch('fonts.json')
+    .then((response) => {
+      if (response.ok) {
+        return response.json()
+      } else {
+        console.error(response.status + ': ' + response.statusText)
       }
-    }
-  })
+    }).then((data) => {
 
-  document.getElementById('compare-button').onclick = (event) => {
-    event.preventDefault()
-    event.stopPropagation()
+      window.fontData = data
+      window.fontsList = []
 
-    const original = document.querySelector('.codemirror-wrapper')
-    const parent = original.parentNode
+      Object.keys(data).forEach((key) => {
+        const v = data[key]
+        v.alias = key
+        window.fontsList.push(v)
+      })
 
-    parent.querySelector('.clone')?.remove()
-
-    const clone = original.cloneNode(true)
-    clone.classList.add('clone')
-
-    clone.querySelector('section.config').remove()
-    clone.querySelector('#compare-button').remove()
-
-    const button = document.querySelector('#about-dialog button').cloneNode(true)
-    button.setAttribute('id', 'close-button')
-    button.onclick = (event) => {
-      event.preventDefault()
-      event.stopPropagation()
-      clone.remove()
-    }
-    clone.appendChild(button)
-
-    clone.querySelector('#code').setAttribute('id', 'clone-code')
-    clone.querySelector('[for=code]').setAttribute('for', 'clone-code')
-
-    parent.appendChild(clone)
-  }
-
-  document.querySelectorAll('dialog').forEach((dialog) => {
-    dialog.querySelector('button').onclick = (event) => {
-      event.preventDefault()
-      event.stopPropagation()
-      dialog.close()
-    }
-
-    document.querySelector('[aria-controls="' + dialog.id + '"]').onclick = (event) => {
-      event.preventDefault()
-      event.stopPropagation()
-      dialog.showModal()
-    }
-  })
+      renderSelectList()
+      new Filters(data, () => {renderSelectList(true)}).init()
+    })
 })

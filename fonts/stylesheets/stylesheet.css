@@ -1986,6 +1986,24 @@
 }
 @font-face {
   font-family: 'myna';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/myna/myna-bold-italic.otf');
+}
+@font-face {
+  font-family: 'myna';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/myna/myna-bold.otf');
+}
+@font-face {
+  font-family: 'myna';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/myna/myna-italic.otf');
+}
+@font-face {
+  font-family: 'myna';
   font-weight: normal;
   font-style: normal;
   src: url('../resources/myna/myna.otf');

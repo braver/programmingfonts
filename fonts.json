@@ -2821,17 +2821,19 @@
         "rendering": "vector",
         "style": "sans",
         "variants": [
-            "regular"
+            "regular",
+            "bold",
+            "italic",
+            "bold-italic"
         ],
         "website": "https://github.com/sayyadirfanali/Myna",
         "year": 2025,
         "zerostyle": "slashed",
-        "glyphs": 1156,
-        "characters": 1153,
+        "glyphs": 1115,
+        "characters": 1106,
         "languages": {
-            "Latin": 223,
-            "Cyrillic": 70,
-            "Greek": 1
+            "Latin": 270,
+            "Cyrillic": 47
         }
     },
     "mplus": {

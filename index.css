@@ -180,12 +180,6 @@ small {
                 overflow: hidden !important;
             }
         }
-        #close-button {
-            position: absolute;
-            top: 12px;
-            right: 12px;
-            z-index: 2;
-        }
     }
 }
 
@@ -200,8 +194,15 @@ small {
     p:empty {
         display: none;
     }
+    p.info + p {
+        margin-top: 6px;
+    }
+    p:not(.info) {
+        font-size: 11px;
+    }
+
     h2 {
-        margin-bottom: 4px;
+        display: inline-block;
         .license {
             display: inline-block;
             font-weight: normal;
@@ -210,35 +211,14 @@ small {
             color: var(--medium-grey);
         }
     }
-    p.info + p {
-        margin-top: 6px;
-    }
-    p:not(.info) {
-        font-size: 11px;
-    }
+}
 
-    dl {
-        font-size: 11px;
-        font-weight: normal;
-        color: var(--dark-grey);
-        margin-top: 8px;
-    }
-    dt, dd {
-        display: inline;
-    }
-    dt {
-        font-style: italic;
-        text-transform: uppercase;
-        &::after {
-            content: ': ';
-        }
-        &:not(:first-child)::before {
-            content: '\A';
-            white-space: pre;
-        }
-    }
-
-    dl button {
+dl {
+    font-size: 11px;
+    font-weight: normal;
+    color: var(--dark-grey);
+    margin-top: 8px;
+    button {
         all: initial;
         font: inherit;
         color: inherit;
@@ -249,18 +229,57 @@ small {
             text-decoration: underline;
         }
     }
-
-    #compare-button {
-        font-size: 11px;
-        position: absolute;
-        top: 6px;
-        right: 6px;
-
-        @media screen and (max-width: 56em) {
-            display: none;
-        }
+}
+dt, dd {
+    display: inline;
+}
+dt {
+    font-style: italic;
+    text-transform: uppercase;
+    &::after {
+        content: ': ';
+    }
+    &:not(:first-child)::before {
+        content: '\A';
+        white-space: pre;
     }
 }
+
+summary {
+    cursor: pointer;
+    list-style: none;
+    + * {
+        margin-top: 4px;
+    }
+    svg {
+        position: relative;
+        top: 2px;
+        transition: transform .3s ease-in-out;
+        transform: rotate(-90deg);
+    }
+    [open] & svg {
+        transform: rotate(0);
+    }
+    .toggle {
+        font-size: 11px;
+        display: inline-flex;
+        float: right;
+    }
+}
+
+#compare-button,
+#close-button {
+    font-size: 11px;
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    z-index: 2;
+
+    @media screen and (max-width: 56em) {
+        display: none;
+    }
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -409,11 +428,12 @@ section.select-list {
         color: var(--medium-grey);
         font-size: 11px;
         svg {
-            transition: transform .2s ease-in-out;
+            transition: transform .3s ease-in-out;
+            transform: rotate(-90deg);
         }
     }
     .group-open button.group-toggle svg {
-        transform: rotate(180deg);
+        transform: rotate(0deg);
     }
     .entry:hover button.group-toggle,
     .entry.active button.group-toggle {
@@ -503,15 +523,15 @@ footer {
     background: var(--bright-grey);
     box-shadow: 0 0 6px rgba(0,0,0,0.1);
 
-    aside {
+    details {
         text-align: left;
-        margin-bottom: 16px;
         color: var(--ink-black);
     }
 
     h1 {
         color: var(--medium-grey);
         font-size: 14px;
+        margin-top: 8px;
     }
     h1 + p {
         font-weight: normal;
@@ -757,10 +777,7 @@ body:has(dialog[open]) {
         padding: 8px;
     }
     footer {
-        padding: 4px 12px;
-        .info-wrapper {
-            display: none;
-        }
+        padding: 8px 12px 4px 12px;
     }
     .main-wrapper {
         width: 100%;

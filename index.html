@@ -189,20 +189,27 @@
             </section>
 
             <footer>
-                <aside class="info-wrapper" aria-live="polite">
-                    <h2>
-                        <a href="" rel="external"></a>
-                        <span class="license" title="License"></span>
-                    </h2>
+                <details class="info-wrapper" aria-live="polite">
+                    <summary>
+                        <h2>
+                            <span class="name"></span>
+                            <span class="license" title="License"></span>
+                        </h2>
+                        <span class="toggle">
+                            Details
+                            <svg class="octicon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"/></svg>
+                        </span>
+                    </summary>
                     <p class="info"></p>
                     <dl>
                         <dt class="coverage">Coverage</dt>
                         <dd></dd>
                         <dt class="variants">Variants</dt>
                         <dd></dd>
+                        <dt class="website">Website</dt>
+                        <dd><a href="" rel="external"></a></dd>
                     </dl>
-                    <button class="text-button" id="compare-button">Compare</button>
-                </aside>
+                </details>
 
                 <h1>
                     <a href="https://programmingfonts.tumblr.com">Programming Fonts</a>
@@ -239,6 +246,8 @@
             <label for="code" class="screenreader-only">Code area</label>
             <textarea id="code" name="code"></textarea>
         </form>
+
+        <button class="text-button" id="compare-button">Compare</button>
 
         <section class="config">
             <p>

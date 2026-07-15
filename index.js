@@ -256,6 +256,7 @@ window.addEventListener('DOMContentLoaded', () => {
     clone.classList.add('clone')
 
     clone.querySelector('section.config').remove()
+    clone.querySelector('#compare-button').remove()
 
     const button = document.querySelector('#about-dialog button').cloneNode(true)
     button.setAttribute('id', 'close-button')

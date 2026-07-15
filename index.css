@@ -329,10 +329,10 @@ section.config {
     }
 
     @container second-pane (width < 500px) {
-        grid-template-columns: auto auto;
-        input[type='number'] {
-            width: 6em;
+        p {
+            text-align: right;
         }
+        grid-template-columns: auto auto;
     }
 }
 

@@ -782,7 +782,7 @@ body:has(dialog[open]) {
     .main-wrapper {
         width: 100%;
         max-width: none;
-        height: 50vh;
+        height: 60vh;
     }
     .codemirror-wrapper {
         container-type: revert;

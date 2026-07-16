@@ -2023,7 +2023,7 @@
     },
     "iosevka": {
         "added": "2016-02-03",
-        "author": "Belleve Invis",
+        "author": "Renzhi Li",
         "description": "An open-source, sans-serif + slab-serif, monospace + quasi‑proportional typeface family, designed for writing code, using in terminals, and preparing technical documents.",
         "group": "iosevka",
         "license": "SIL OFL",
@@ -2046,7 +2046,7 @@
     },
     "iosevka-extended": {
         "added": "2026-06-12",
-        "author": "Belleve Invis",
+        "author": "Renzhi Li",
         "description": "The extended-width sans-serif variant of Iosevka, offering wider character spacing for improved readability.",
         "group": "iosevka",
         "license": "SIL OFL",
@@ -2068,7 +2068,7 @@
     },
     "iosevka-slab": {
         "added": "2026-06-12",
-        "author": "Belleve Invis",
+        "author": "Renzhi Li",
         "description": "The slab-serif variant of Iosevka, sharing the same proportions and customizability with added slab serifs.",
         "group": "iosevka",
         "license": "SIL OFL",
@@ -2090,7 +2090,7 @@
     },
     "iosevka-slab-extended": {
         "added": "2026-06-12",
-        "author": "Belleve Invis",
+        "author": "Renzhi Li",
         "description": "The extended-width slab-serif variant of Iosevka, offering wider character spacing for improved readability.",
         "group": "iosevka",
         "license": "SIL OFL",

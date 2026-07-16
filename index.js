@@ -150,6 +150,12 @@ window.addEventListener('DOMContentLoaded', () => {
   new Language().init()
   new Listeners().init()
 
+  // if a sort mode was stored, restore to that value before continue with rendering
+  let sortMode = localStorage.getItem('sort-mode')
+  if (sortMode) {
+    document.getElementById('sort-list').value = sortMode
+  }
+
   fetch('fonts.json')
     .then((response) => {
       if (response.ok) {

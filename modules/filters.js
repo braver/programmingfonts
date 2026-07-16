@@ -20,7 +20,9 @@ export class Filters {
   }
 
   init () {
-    document.getElementById('sort-list').onchange = () => {
+    const sortSelect = document.getElementById('sort-list')
+    sortSelect.onchange = () => {
+      localStorage.setItem('sort-mode', sortSelect.value)
       this.apply()
       this.renderCallback()
     }

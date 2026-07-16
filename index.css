@@ -497,9 +497,6 @@ section.select-list {
     .entry.pinned a.favoritelink {
         color: var(--ink-black);
     }
-    .pinned {
-        background: var(--paper-white);
-    }
     .details {
         display: block;
         font-size: 11px;

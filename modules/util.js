@@ -53,7 +53,7 @@ const lang_count = {
 
 const fontsize = new Fontsize()
 
-function isVisible (el) {
+function isVisible(el) {
   const container = document.querySelector('section.select-list').getBoundingClientRect()
   const target = el.getBoundingClientRect()
 
@@ -63,22 +63,16 @@ function isVisible (el) {
 /**
  * Get the font from the # or the top-most entry
  */
-function getFont () {
+function getFont() {
   let font = window.location.hash.substring(1)
 
   if (!font) {
-    font = getFirstEntryAlias()
+    // Get the first visible (non-filtered) entry's alias from the rendered list
+    const first = document.querySelector('#select-font .entry:not(.filtered-out):not(.group-child)')
+    font = first ? first.getAttribute('data-alias') : null
   }
 
   return font
-}
-
-/**
- * Get the first visible (non-filtered) entry's alias from the rendered list
- */
-export function getFirstEntryAlias () {
-  const first = document.querySelector('#select-font .entry:not(.filtered-out):not(.group-child)')
-  return first ? first.getAttribute('data-alias') : null
 }
 
 function writeVariants(variants) {

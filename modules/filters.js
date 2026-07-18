@@ -1,3 +1,5 @@
+import * as util from './util.js'
+
 export class Filters {
   filters = {
     style: false,
@@ -20,9 +22,12 @@ export class Filters {
   }
 
   init () {
-    document.getElementById('sort-list').onchange = () => {
-      this.apply()
-      this.renderCallback()
+    const sortSelect = document.getElementById('sort-list')
+    sortSelect.onchange = () => {
+      localStorage.setItem('sort-mode', sortSelect.value)
+      this.renderCallback()  // rerender in the new sort order
+      this.apply()           // re-apply filtering
+      util.selectFont()      // re-select current font
     }
 
     document.getElementById('name-search').onkeyup = (event) => {

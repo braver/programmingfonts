@@ -487,15 +487,21 @@ section.select-list {
     }
     .entry:hover a.favoritelink:hover,
     a.favoritelink:hover {
-        color: var(--ink-black);
+        color: var(--accent);
     }
     .entry.active a.website,
     .entry.active a.favoritelink {
         color: var(--dark-grey);
     }
-    .entry a.website:hover,
-    .entry.pinned a.favoritelink {
+    .entry a.website:hover {
         color: var(--ink-black);
+    }
+    .entry.pinned a.favoritelink {
+        color: var(--accent);
+    }
+    .entry.pinned:not(.active) .name {
+        color: var(--dark-grey);
+        font-weight: bold;
     }
     .details {
         display: block;
@@ -552,8 +558,13 @@ footer {
         bottom: 4px;
         left: 12px;
     }
-    .logo svg path {
-        fill: currentColor;
+    .logo {
+        a:hover {
+            text-decoration: none;
+        }
+        svg path {
+            fill: currentColor;
+        }
     }
     .logo * + * {
         margin-left: 8px;

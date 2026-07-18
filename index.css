@@ -275,7 +275,7 @@ summary {
     right: 16px;
     z-index: 2;
 
-    @media screen and (max-width: 56em) {
+    @media screen and (max-width: 1024px) {
         display: none;
     }
 }

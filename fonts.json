@@ -967,7 +967,7 @@
         "ligatures": false,
         "name": "DaddyTimeMono",
         "rendering": "vector",
-        "style": "serif",
+        "style": "sans",
         "variants": [
             "regular"
         ],

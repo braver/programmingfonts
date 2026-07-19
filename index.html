@@ -172,7 +172,7 @@
                     <select id="sort-list">
                         <option selected value="newest">Newest</option>
                         <option value="oldest">Oldest</option>
-                        <option value="added">Date added</option>
+                        <option value="added">Newest addition</option>
                         <option value="name">Name</option>
                         <option value="author">Author</option>
                     </select>
@@ -187,102 +187,30 @@
                     <!-- filled from json -->
                 </div>
             </section>
-            <section class="config">
-                <p>
-                    <label for="size">Size</label>
-                    <input type="number" id="size" value="16" min="1" max="32" step="1">
-                </p>
-                <p>
-                    <label for="spacing">/</label>
-                    <input type="number" id="spacing" value="1.4" min="1" max="2" step="0.1">
-                </p>
-                <p class="select">
-                    <button class="nav-button" id="theme-previous">↑</button>
-                    <button class="nav-button" id="theme-next">↓</button>
-                    <label for="select-theme" class="screenreader-only">Theme</label>
-                    <select id="select-theme">
-                        <option>3024-day</option>
-                        <option>3024-night</option>
-                        <option>abcdef</option>
-                        <option>ambiance</option>
-                        <option>base16-dark</option>
-                        <option>base16-light</option>
-                        <option>bespin</option>
-                        <option>blackboard</option>
-                        <option>catppuccin-frappe</option>
-                        <option>catppuccin-latte</option>
-                        <option>catppuccin-macchiato</option>
-                        <option>catppuccin-mocha</option>
-                        <option>cobalt</option>
-                        <option>colorforth</option>
-                        <option>darcula</option>
-                        <option selected>dracula</option>
-                        <option>duotone-dark</option>
-                        <option>duotone-light</option>
-                        <option>erlang-dark</option>
-                        <option>gruvbox-dark</option>
-                        <option>hopscotch</option>
-                        <option>isotope</option>
-                        <option>lesser-dark</option>
-                        <option>liquibyte</option>
-                        <option>lucario</option>
-                        <option>material</option>
-                        <option>mbo</option>
-                        <option>mdn-like</option>
-                        <option>midnight</option>
-                        <option>monokai</option>
-                        <option>neo</option>
-                        <option>night</option>
-                        <option>nord</option>
-                        <option>oceanic-next</option>
-                        <option>paraiso-dark</option>
-                        <option>paraiso-light</option>
-                        <option>pastel-on-dark</option>
-                        <option>railscasts</option>
-                        <option>rubyblue</option>
-                        <option>seti</option>
-                        <option>shadowfox</option>
-                        <option>solarized light</option>
-                        <option>solarized dark</option>
-                        <option>the-matrix</option>
-                        <option>tomorrow-night-bright</option>
-                        <option>tomorrow-night-eighties</option>
-                        <option>twilight</option>
-                        <option>vibrant-ink</option>
-                        <option>xq-dark</option>
-                        <option>yeti</option>
-                    </select>
-                </p>
-                <p class="select">
-                    <label for="select-language" class="screenreader-only">Language</label>
-                    <select id="select-language">
-                        <option>None</option>
-                        <option>CSS</option>
-                        <option>Go</option>
-                        <option>JavaScript</option>
-                        <option>PHP</option>
-                        <option selected="selected">Python</option>
-                        <option>Ruby</option>
-                        <option>Shell</option>
-                        <option>ASCII Art</option>
-
-                        <optgroup label="Without sample">
-                            <option value="clike">C (-like)</option>
-                            <option>Haskell</option>
-                            <option value="commonlisp">Common Lisp</option>
-                            <option>Clojure</option>
-                            <option>Pascal</option>
-                            <option>Perl</option>
-                            <option>R</option>
-                            <option>Rust</option>
-                            <option>Swift</option>
-                            <option>XML</option>
-                        </optgroup>
-                    </select>
-                </p>
-            </section>
 
             <footer>
+                <details class="info-wrapper" aria-live="polite" open>
+                    <summary>
+                        <h2>
+                            <span class="name"></span>
+                            <span class="license" title="License"></span>
+                        </h2>
+                        <span class="toggle">
+                            Details
+                            <svg class="octicon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"/></svg>
+                        </span>
+                    </summary>
+                    <p class="info"></p>
+                    <dl>
+                        <dt class="coverage">Coverage</dt>
+                        <dd></dd>
+                        <dt class="variants">Variants</dt>
+                        <dd></dd>
+                        <dt class="website">Website</dt>
+                        <dd><a href="" rel="external"></a></dd>
+                    </dl>
+                </details>
+
                 <h1>
                     <a href="https://programmingfonts.tumblr.com">Programming Fonts</a>
                 </h1>
@@ -318,12 +246,103 @@
             <label for="code" class="screenreader-only">Code area</label>
             <textarea id="code" name="code"></textarea>
         </form>
-        <aside class="info-wrapper">
-            <h2><a href=""></a></h2>
-            <p class="info"></p>
-            <p class="variants"></p>
-            <button class="text-button" id="compare-button">Compare</button>
-        </aside>
+
+        <button class="text-button" id="compare-button">Compare</button>
+
+        <section class="config">
+            <p>
+                <label for="size">Size</label>
+                <input type="number" id="size" value="16" min="1" max="32" step="1">
+            </p>
+            <p>
+                <label for="spacing">Line</label>
+                <input type="number" id="spacing" value="1.4" min="1" max="2" step="0.1">
+            </p>
+            <p class="select">
+                <label for="select-theme" class="screenreader-only">Theme</label>
+                <select id="select-theme">
+                    <option>3024-day</option>
+                    <option>3024-night</option>
+                    <option>abcdef</option>
+                    <option>ambiance</option>
+                    <option>base16-dark</option>
+                    <option>base16-light</option>
+                    <option>bespin</option>
+                    <option>blackboard</option>
+                    <option>catppuccin-frappe</option>
+                    <option>catppuccin-latte</option>
+                    <option selected>catppuccin-macchiato</option>
+                    <option>catppuccin-mocha</option>
+                    <option>cobalt</option>
+                    <option>colorforth</option>
+                    <option>darcula</option>
+                    <option>dracula</option>
+                    <option>duotone-dark</option>
+                    <option>duotone-light</option>
+                    <option>erlang-dark</option>
+                    <option>gruvbox-dark</option>
+                    <option>hopscotch</option>
+                    <option>isotope</option>
+                    <option>lesser-dark</option>
+                    <option>liquibyte</option>
+                    <option>lucario</option>
+                    <option>material</option>
+                    <option>mbo</option>
+                    <option>mdn-like</option>
+                    <option>midnight</option>
+                    <option>monokai</option>
+                    <option>neo</option>
+                    <option>night</option>
+                    <option>nord</option>
+                    <option>oceanic-next</option>
+                    <option>paraiso-dark</option>
+                    <option>paraiso-light</option>
+                    <option>pastel-on-dark</option>
+                    <option>railscasts</option>
+                    <option>rubyblue</option>
+                    <option>seti</option>
+                    <option>shadowfox</option>
+                    <option>solarized light</option>
+                    <option>solarized dark</option>
+                    <option>the-matrix</option>
+                    <option>tomorrow-night-bright</option>
+                    <option>tomorrow-night-eighties</option>
+                    <option>twilight</option>
+                    <option>vibrant-ink</option>
+                    <option>xq-dark</option>
+                    <option>yeti</option>
+                </select>
+                <button class="nav-button" id="theme-previous">↑</button>
+                <button class="nav-button" id="theme-next">↓</button>
+            </p>
+            <p class="select">
+                <label for="select-language" class="screenreader-only">Language</label>
+                <select id="select-language">
+                    <option>None</option>
+                    <option>CSS</option>
+                    <option>Go</option>
+                    <option>JavaScript</option>
+                    <option>PHP</option>
+                    <option selected="selected">Python</option>
+                    <option>Ruby</option>
+                    <option>Shell</option>
+                    <option>ASCII Art</option>
+
+                    <optgroup label="Without sample">
+                        <option value="clike">C (-like)</option>
+                        <option>Haskell</option>
+                        <option value="commonlisp">Common Lisp</option>
+                        <option>Clojure</option>
+                        <option>Pascal</option>
+                        <option>Perl</option>
+                        <option>R</option>
+                        <option>Rust</option>
+                        <option>Swift</option>
+                        <option>XML</option>
+                    </optgroup>
+                </select>
+            </p>
+        </section>
     </div>
 
     <dialog id="about-dialog" autofocus>
@@ -338,7 +357,9 @@
         </p>
         <p>
             There are some small costs involved in maintaining and hosting this website.
-            If you want to help out in some way, a small donation is greatly appreciated.<br>
+            If you want to help out in some way, a small donation is greatly appreciated.
+        </p>
+        <p>
             <a href='https://ko-fi.com/G2G21VT3Z6' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
         </p>
         <p>
@@ -354,6 +375,14 @@
             <path d="M92.932042,229.116604 C92.932042,229.116604 87.3326109,229.554235 124.677114,217.872856 C162.021616,206.191478 339.820312,169.085938 395.425781,159.929688 C451.03125,150.773438 532.585937,139.550781 532.585937,139.550781" id="Path-4" stroke="currentColor" stroke-width="1" fill="none"></path>
           </svg><br>
           Koen Lageveen
+        </p>
+
+        <p>
+            <small>
+            Font metadata is collected using <a href="https://github.com/fonttools/fonttools">fontTools</a>
+            and <a href="https://hyperglot.rosettatype.com/">Hyperglot</a>.<br>
+            For even more detail about a font also have a look at <a href="https://fontdrop.info">FontDrop</a>.
+            </small>
         </p>
 
         <button>

@@ -16,7 +16,15 @@
         ],
         "website": "https://gitlab.gnome.org/GNOME/adwaita-fonts",
         "year": 2025,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 8569,
+        "characters": 7439,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 83,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "agave": {
         "added": "2018-10-23",
@@ -32,7 +40,14 @@
         ],
         "website": "https://github.com/agarick/agave",
         "year": 2013,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1958,
+        "characters": 1949,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 91,
+            "Greek": 2
+        }
     },
     "anka-coder": {
         "added": "bc",
@@ -46,7 +61,13 @@
         "variants": "regular, bold, italic, bold-italic; in regular, condensed and narrow widths.",
         "website": "https://github.com/loafer-mka/anka-coder-fonts",
         "year": 2010,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 620,
+        "characters": 617,
+        "languages": {
+            "Latin": 288,
+            "Cyrillic": 13
+        }
     },
     "annotation-mono": {
         "added": "2025-07-07",
@@ -60,7 +81,12 @@
         "variants": "A variable font in 10 weights, each with italics (oblique).",
         "website": "https://qwerasd205.github.io/AnnotationMono/",
         "year": 2025,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 766,
+        "characters": 728,
+        "languages": {
+            "Latin": 364
+        }
     },
     "anonymous-pro": {
         "added": "bc",
@@ -79,7 +105,14 @@
         ],
         "website": "http://www.marksimonson.com/fonts/view/anonymous-pro",
         "year": 2009,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 624,
+        "characters": 623,
+        "languages": {
+            "Latin": 290,
+            "Cyrillic": 12,
+            "Greek": 1
+        }
     },
     "apl2741": {
         "added": "2018-05-29",
@@ -95,12 +128,13 @@
         ],
         "website": "http://apl385.com/fonts/index.htm",
         "year": 2003,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 227
     },
     "apl385": {
         "added": "2018-05-29",
         "author": "Adrian Smith",
-        "description": "Developed with all APL software vendors in the late 1980s and enhanced as required with new characters to meet interpreter updates. Thanks to Dave Liebtag (IBM), Richard Nabavi (APL.68000) and all at Dyalog APL for their support.",
+        "description": "Developed with all APL software vendors in the late 1980s and enhanced as required with new characters with support from Dave Liebtag (IBM), Richard Nabavi (APL.68000) and Dyalog APL.",
         "license": "public domain",
         "ligatures": false,
         "name": "APL385",
@@ -111,7 +145,14 @@
         ],
         "website": "http://apl385.com/fonts/index.htm",
         "year": 2003,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 772,
+        "characters": 769,
+        "languages": {
+            "Latin": 289,
+            "Cyrillic": 9,
+            "Greek": 1
+        }
     },
     "aporetic-sans": {
         "added": "2026-01-21",
@@ -130,7 +171,15 @@
         ],
         "website": "https://github.com/protesilaos/aporetic",
         "year": 2025,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 33898,
+        "characters": 7466,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 83,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "aporetic-serif": {
         "added": "2026-01-21",
@@ -149,7 +198,15 @@
         ],
         "website": "https://github.com/protesilaos/aporetic",
         "year": 2025,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 33901,
+        "characters": 7466,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 83,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "atkinson-hyperlegible": {
         "added": "2025-02-18",
@@ -163,7 +220,12 @@
         "variants": "A variable font in 7 weights, each with italics.",
         "website": "https://www.brailleinstitute.org/freefont/",
         "year": 2025,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 365,
+        "characters": 346,
+        "languages": {
+            "Latin": 261
+        }
     },
     "audio-link": {
         "added": "2024-04-20",
@@ -179,7 +241,12 @@
         ],
         "website": "https://audiolink.dev",
         "year": 2022,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 118,
+        "characters": 166,
+        "languages": {
+            "Latin": 202
+        }
     },
     "aurulent": {
         "added": "2014-11-23",
@@ -195,7 +262,12 @@
         ],
         "website": "https://www.fontsquirrel.com/fonts/Aurulent-Sans-Mono",
         "year": 2007,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 267,
+        "characters": 254,
+        "languages": {
+            "Latin": 174
+        }
     },
     "average": {
         "added": "bc",
@@ -211,11 +283,22 @@
         ],
         "website": "http://openfontlibrary.org/en/font/average-mono",
         "year": 2013,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 4177,
+        "characters": 4160,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 92,
+            "Arabic": 34,
+            "Hebrew": 5,
+            "Greek": 2,
+            "Armenian": 2,
+            "Kayah Li": 2
+        }
     },
     "azeret": {
         "added": "2022-01-12",
-        "author": "Displaay",
+        "author": "Martin Vácha",
         "description": "The story of the typeface began with a draft that was driven by an exploration of OCR fonts, past and futuristic operating systems, various interfaces and the nineties.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -225,11 +308,16 @@
         "variants": "A variable font in 8 weights, each with italics.",
         "website": "https://github.com/displaay/Azeret",
         "year": 2020,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 645,
+        "characters": 433,
+        "languages": {
+            "Latin": 295
+        }
     },
     "b612-mono": {
         "added": "2019-01-21",
-        "author": "Nicolas Chauveau, Thomas Paillot and Jonathan Favre-Lamarine",
+        "author": "Nicolas Chauveau, Thomas Paillot, Jonathan Favre-Lamarine, Jean-Luc Vinot",
         "description": "B612 is an highly legible open source font family designed and tested to be used on aircraft cockpit screens.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -238,7 +326,12 @@
         "style": "sans",
         "website": "https://github.com/polarsys/b612",
         "year": 2012,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 590,
+        "characters": 589,
+        "languages": {
+            "Latin": 215
+        }
     },
     "bedstead": {
         "added": "2019-01-21",
@@ -251,7 +344,14 @@
         "style": "sans",
         "website": "https://bjh21.me.uk/bedstead/",
         "year": 2018,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 1241,
+        "characters": 1203,
+        "languages": {
+            "Latin": 251,
+            "Cyrillic": 11,
+            "Greek": 1
+        }
     },
     "bigblue-terminal": {
         "added": "2022-02-18",
@@ -268,7 +368,14 @@
         ],
         "website": "https://int10h.org/blog/2015/12/bigblue-terminal-oldschool-fixed-width-font/",
         "year": 2015,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 782,
+        "characters": 781,
+        "languages": {
+            "Latin": 288,
+            "Cyrillic": 14,
+            "Greek": 1
+        }
     },
     "binchotan-sharp": {
         "added": "2020-11-05",
@@ -284,7 +391,12 @@
         ],
         "website": "https://rvklein.me/proj/binchotan/",
         "year": 2017,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 650,
+        "characters": 647,
+        "languages": {
+            "Latin": 211
+        }
     },
     "bitstream-vera": {
         "added": "bc",
@@ -303,7 +415,12 @@
         ],
         "website": "http://www.fontsquirrel.com/fonts/Bitstream-Vera-Sans-Mono",
         "year": 2002,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 269,
+        "characters": 256,
+        "languages": {
+            "Latin": 223
+        }
     },
     "borg-sans-mono": {
         "added": "2018-10-16",
@@ -316,11 +433,18 @@
         "style": "sans",
         "website": "https://github.com/marnen/borg-sans-mono",
         "year": 2016,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 907,
+        "characters": 871,
+        "languages": {
+            "Latin": 310,
+            "Cyrillic": 75,
+            "Greek": 1
+        }
     },
     "bpmono": {
         "added": "bc",
-        "author": "Backpacker",
+        "author": "George Triantafyllakos",
         "description": "A monospaced typeface suitable for technical texts and/or programming",
         "license": "CC BY-ND 3.0",
         "ligatures": false,
@@ -334,7 +458,13 @@
         ],
         "website": "http://www.fontsquirrel.com/fonts/BPmono",
         "year": 2007,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 232,
+        "characters": 228,
+        "languages": {
+            "Latin": 108,
+            "Greek": 1
+        }
     },
     "bront-dejavu": {
         "added": "2019-01-26",
@@ -347,7 +477,16 @@
         "style": "sans",
         "website": "https://github.com/chrismwendt/bront",
         "year": 2015,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 3296,
+        "characters": 3244,
+        "languages": {
+            "Latin": 511,
+            "Cyrillic": 72,
+            "Armenian": 2,
+            "Arabic": 1,
+            "Greek": 1
+        }
     },
     "bront-ubuntu": {
         "added": "2019-01-26",
@@ -360,7 +499,14 @@
         "style": "sans",
         "website": "https://github.com/chrismwendt/bront",
         "year": 2015,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1304,
+        "characters": 1231,
+        "languages": {
+            "Latin": 304,
+            "Cyrillic": 71,
+            "Greek": 1
+        }
     },
     "camingocode": {
         "added": "2016-02-27",
@@ -373,7 +519,12 @@
         "style": "sans",
         "website": "http://www.janfromm.de/typefaces/camingomono/camingocode",
         "year": 2013,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 473,
+        "characters": 450,
+        "languages": {
+            "Latin": 299
+        }
     },
     "cartograph": {
         "added": "2020-01-12",
@@ -387,7 +538,14 @@
         "variants": "8 weights and various alternatives via OpenType sets, including ligatures.",
         "website": "https://connary.com/cartograph.html",
         "year": 2016,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 849,
+        "characters": 741,
+        "languages": {
+            "Latin": 283,
+            "Cyrillic": 7,
+            "Greek": 1
+        }
     },
     "cascadia-code": {
         "added": "2019-09-21",
@@ -401,7 +559,14 @@
         "variants": "6 weights and various alternatives via OpenType sets, including slashed zeroes and cursive italics.",
         "website": "https://github.com/microsoft/cascadia-code",
         "year": 2019,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 3199,
+        "characters": 1860,
+        "languages": {
+            "Latin": 412,
+            "Cyrillic": 43,
+            "Greek": 1
+        }
     },
     "chivo": {
         "author": "Héctor Gatti & Omnibus-Type Team",
@@ -415,7 +580,12 @@
         "variants": "A variable font in 9 weights, each with italics.",
         "website": "https://www.omnibus-type.com/variable-fonts/#chivo-mono",
         "year": 2022,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 873,
+        "characters": 642,
+        "languages": {
+            "Latin": 352
+        }
     },
     "cm-unicode": {
         "added": "2024-01-07",
@@ -437,7 +607,14 @@
         ],
         "website": "https://cm-unicode.sourceforge.io",
         "year": 1992,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 1868,
+        "characters": 1832,
+        "languages": {
+            "Latin": 388,
+            "Cyrillic": 63,
+            "Greek": 1
+        }
     },
     "code-new-roman": {
         "added": "2015-06-27",
@@ -450,7 +627,14 @@
         "style": "sans",
         "website": "https://fontlibrary.org/en/font/code-new-roman",
         "year": 2014,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 2740,
+        "characters": 2220,
+        "languages": {
+            "Latin": 511,
+            "Cyrillic": 78,
+            "Greek": 1
+        }
     },
     "comic-mono": {
         "added": "2023-07-03",
@@ -467,7 +651,12 @@
         ],
         "website": "https://dtinth.github.io/comic-mono-font/",
         "year": 2019,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 106,
+        "characters": 103,
+        "languages": {
+            "Latin": 108
+        }
     },
     "comic-shanns": {
         "added": "2020-01-12",
@@ -483,7 +672,12 @@
         ],
         "website": "https://github.com/shannpersand/comic-shanns",
         "year": 2018,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 104,
+        "characters": 103,
+        "languages": {
+            "Latin": 108
+        }
     },
     "commit-mono": {
         "added": "2023-07-21",
@@ -497,7 +691,12 @@
         "variants": "A download can be customized with various of weights, ligatures, dotted or slashed zeroes, and other styles.",
         "website": "https://commitmono.com",
         "year": 2023,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1550,
+        "characters": 838,
+        "languages": {
+            "Latin": 292
+        }
     },
     "consolamono": {
         "added": "bc",
@@ -505,7 +704,7 @@
         "description": "“It's my old unfinished font. I made some sketches of several glyphs 5-6 years ago, and I never finished this. Now I made missing glyphs, did changes of some glyphs and turn into monospaced font.”",
         "license": "SIL OFL",
         "ligatures": false,
-        "name": "Consolamono",
+        "name": "Consola Mono",
         "rendering": "vector",
         "style": "sans",
         "variants": [
@@ -514,12 +713,19 @@
         ],
         "website": "http://openfontlibrary.org/en/font/consolamono",
         "year": 2011,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1465,
+        "characters": 1462,
+        "languages": {
+            "Latin": 471,
+            "Cyrillic": 90,
+            "Greek": 2
+        }
     },
     "courier-ibm": {
         "added": "2026-03-20",
         "author": "Howard Kettler",
-        "description": "IBM’s original Courier digitized and made available in modern file formats. Dotted and slashed zeroes are available that are more suited for programming. Here credited to the original designer, but maintained by Darren Embry.",
+        "description": "IBM’s original Courier digitized and made available in modern file formats.Here credited to the original designer, but maintained by Darren Embry.",
         "group": "courier-ibm",
         "license": "permissive",
         "ligatures": false,
@@ -534,7 +740,12 @@
         ],
         "website": "https://github.com/dse/font-og-courier",
         "year": 1955,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 479,
+        "characters": 452,
+        "languages": {
+            "Latin": 268
+        }
     },
     "courier-ibm-dotted": {
         "added": "2026-03-20",
@@ -553,7 +764,12 @@
             "bold-italic"
         ],
         "year": 2021,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 476,
+        "characters": 452,
+        "languages": {
+            "Latin": 268
+        }
     },
     "courier-ibm-slashed": {
         "added": "2026-03-20",
@@ -572,7 +788,12 @@
             "bold-italic"
         ],
         "year": 2021,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 476,
+        "characters": 452,
+        "languages": {
+            "Latin": 268
+        }
     },
     "courier-prime": {
         "added": "2017-10-21",
@@ -592,7 +813,12 @@
         ],
         "website": "https://quoteunquoteapps.com/courierprime",
         "year": 2013,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 379,
+        "characters": 364,
+        "languages": {
+            "Latin": 267
+        }
     },
     "courier-prime-code": {
         "added": "2017-10-21",
@@ -609,7 +835,12 @@
             "italic"
         ],
         "year": 2013,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 411,
+        "characters": 380,
+        "languages": {
+            "Latin": 287
+        }
     },
     "courier-prime-sans": {
         "added": "2023-07-21",
@@ -628,7 +859,12 @@
             "bold-italic"
         ],
         "year": 2013,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 411,
+        "characters": 380,
+        "languages": {
+            "Latin": 287
+        }
     },
     "cousine": {
         "added": "bc",
@@ -647,7 +883,15 @@
         ],
         "website": "http://www.fontsquirrel.com/fonts/cousine",
         "year": 2010,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 2385,
+        "characters": 2274,
+        "languages": {
+            "Latin": 499,
+            "Cyrillic": 81,
+            "Hebrew": 5,
+            "Greek": 1
+        }
     },
     "cozette": {
         "added": "2020-03-10",
@@ -664,7 +908,13 @@
         ],
         "website": "https://github.com/slavfox/Cozette",
         "year": 2020,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1606,
+        "characters": 1604,
+        "languages": {
+            "Latin": 274,
+            "Cyrillic": 77
+        }
     },
     "cutive": {
         "added": "bc",
@@ -677,11 +927,16 @@
         "style": "serif",
         "website": "https://fonts.google.com/specimen/Cutive+Mono",
         "year": 2012,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 441,
+        "characters": 438,
+        "languages": {
+            "Latin": 287
+        }
     },
     "d2coding": {
         "added": "2019-01-22",
-        "author": "NAVER Corp.",
+        "author": "Yong-Rak Park; Jeong-Hwan Yoon; Sang-Min Lee;",
         "description": " 나눔바른고딕을 바탕으로 개발자의 코딩을 위해 가독성 및 유사 문자간 변별력 뿐만 아니라 디자인적으로 한글과의 조화를 고려해 최적화시킨 글꼴입니다.",
         "license": "SIL OFL",
         "ligatures": true,
@@ -694,7 +949,15 @@
         ],
         "website": "https://github.com/naver/d2codingfont",
         "year": 2016,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 26188,
+        "characters": 19966,
+        "languages": {
+            "Latin": 305,
+            "Cyrillic": 70,
+            "Hangul": 1,
+            "Greek": 1
+        }
     },
     "daddytimemono": {
         "added": "2019-01-22",
@@ -704,13 +967,18 @@
         "ligatures": false,
         "name": "DaddyTimeMono",
         "rendering": "vector",
-        "style": "serif",
+        "style": "sans",
         "variants": [
             "regular"
         ],
         "website": "https://github.com/BourgeoisBear/DaddyTimeMono",
         "year": 2017,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 438,
+        "characters": 434,
+        "languages": {
+            "Latin": 105
+        }
     },
     "dejavu": {
         "added": "bc",
@@ -723,7 +991,16 @@
         "style": "sans",
         "website": "https://dejavu-fonts.github.io",
         "year": 2004,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 3377,
+        "characters": 3322,
+        "languages": {
+            "Latin": 514,
+            "Cyrillic": 72,
+            "Armenian": 2,
+            "Arabic": 1,
+            "Greek": 1
+        }
     },
     "dejavu-markup": {
         "added": "2025-09-24",
@@ -742,12 +1019,21 @@
         ],
         "website": "https://bdtechconcepts.com/DejaVu-Markup-Font.html",
         "year": 2016,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 3369,
+        "characters": 3314,
+        "languages": {
+            "Latin": 514,
+            "Cyrillic": 72,
+            "Armenian": 2,
+            "Arabic": 1,
+            "Greek": 1
+        }
     },
     "departure-mono": {
         "added": "2024-09-10",
         "author": "Helena Zhang",
-        "description": "Departure Mono is a monospaced pixel font inspired by the constraints of early command-line and graphical user interfaces, the tiny pixel fonts of the late 90s/early 00s, and sci-fi concepts from film and television.",
+        "description": "A monospaced pixel font inspired by the constraints of early command-line and graphical user interfaces, pixel fonts of the late 90s/early 00s, and sci-fi concepts from film and television.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Departure Mono",
@@ -758,7 +1044,12 @@
         ],
         "website": "https://departuremono.com/",
         "year": 2024,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 775,
+        "characters": 682,
+        "languages": {
+            "Latin": 444
+        }
     },
     "dm-mono": {
         "added": "2021-02-25",
@@ -771,7 +1062,12 @@
         "style": "sans",
         "website": "https://fonts.google.com/specimen/DM+Mono",
         "year": 2020,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 411,
+        "characters": 381,
+        "languages": {
+            "Latin": 287
+        }
     },
     "dpsdbeyond": {
         "added": "2024-10-05",
@@ -787,7 +1083,13 @@
         ],
         "website": "https://backpacker.gr/fonts/11",
         "year": 2011,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 217,
+        "characters": 202,
+        "languages": {
+            "Latin": 108,
+            "Greek": 1
+        }
     },
     "drafting": {
         "added": "2022-01-12",
@@ -801,7 +1103,12 @@
         "variants": "A variable font in 7 weights, each with italics.",
         "website": "https://indestructibletype.com/Drafting/",
         "year": 2021,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 597,
+        "characters": 470,
+        "languages": {
+            "Latin": 301
+        }
     },
     "droid-sans": {
         "added": "bc",
@@ -814,12 +1121,19 @@
         "style": "sans",
         "website": "https://www.fontsquirrel.com/fonts/droid-sans-mono",
         "year": 2006,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 900,
+        "characters": 873,
+        "languages": {
+            "Latin": 315,
+            "Cyrillic": 78,
+            "Greek": 1
+        }
     },
     "edlo": {
         "added": "2020-01-14",
         "author": "Eric Hamiter",
-        "description": "Edlo is a modified version of Stephen G. Hartke’s Aurulent Sans, which I thought was beautiful, but hazardous for programming because the similarities between zeroes and ohs and ones and els were too close for comfort.",
+        "description": "A modified version of Stephen G. Hartke’s Aurulent Sans, which while beautiful, is also hazardous for programming due to the similarities between zeroes and ohs and ones and els.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Edlo",
@@ -827,7 +1141,12 @@
         "style": "sans",
         "website": "https://github.com/ehamiter/Edlo",
         "year": 2011,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 269,
+        "characters": 254,
+        "languages": {
+            "Latin": 174
+        }
     },
     "effects-eighty": {
         "added": "bc",
@@ -841,7 +1160,12 @@
         "style": "sans",
         "website": "http://openfontlibrary.org/en/font/effects-eighty",
         "year": 2013,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 101,
+        "characters": 100,
+        "languages": {
+            "Latin": 105
+        }
     },
     "eirian": {
         "added": "2024-10-02",
@@ -858,7 +1182,12 @@
         ],
         "website": "https://ggbot.itch.io/eirian-font",
         "year": 2022,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 613,
+        "characters": 613,
+        "languages": {
+            "Latin": 446
+        }
     },
     "ellograph": {
         "added": "2020-03-04",
@@ -866,12 +1195,18 @@
         "description": "A friendly monospaced typeface with a soft, rounded construction and striking cursive italics. A generous x-height and short descenders allow for even, flowing lines of text.",
         "license": "commercial",
         "ligatures": true,
-        "name": "Ellograph",
+        "name": "Ellograph CF",
         "rendering": "vector",
         "style": "sans",
         "variants": "8 weights, italics, and additional OpenType variations.",
         "website": "https://connary.com/ellograph.html",
-        "year": 2020
+        "year": 2020,
+        "glyphs": 642,
+        "characters": 569,
+        "languages": {
+            "Latin": 283,
+            "Cyrillic": 7
+        }
     },
     "envy-code-b": {
         "added": "2023-12-29",
@@ -885,7 +1220,12 @@
         "style": "sans",
         "zerostyle": "slashed",
         "website": "https://damieng.com/blog/2006/11/06/envy-code-b-font-available-in-ttf-format/",
-        "year": 2006
+        "year": 2006,
+        "glyphs": 227,
+        "characters": 225,
+        "languages": {
+            "Latin": 217
+        }
     },
     "envy-code-r": {
         "added": "2019-04-12",
@@ -898,7 +1238,12 @@
         "style": "sans",
         "zerostyle": "slashed",
         "website": "https://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released",
-        "year": 2008
+        "year": 2008,
+        "glyphs": 666,
+        "characters": 663,
+        "languages": {
+            "Latin": 304
+        }
     },
     "espresso-mono": {
         "added": "2026-07-11",
@@ -917,7 +1262,7 @@
         "added": "2019-04-09",
         "author": "Rebecca G. Bettencourt",
         "bitmap size": 12,
-        "description": "Fairfax is a 6x12 bitmap font for terminals, text editors, IDEs, etc. It supports many scripts and a large number of Unicode blocks as well as constructed scripts as encoded in the Under-ConScript Unicode Registry, pseudographics and semigraphics, and tons of private use characters.",
+        "description": "Fairfax is a 6x12 bitmap font for terminals, text editors, IDEs, etc.",
         "group": "fairfax",
         "license": "SIL OFL",
         "ligatures": false,
@@ -931,12 +1276,24 @@
         ],
         "website": "http://www.kreativekorp.com/software/fonts/fairfax.shtml",
         "year": 2008,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 16156,
+        "characters": 16153,
+        "languages": {
+            "Latin": 528,
+            "Cyrillic": 93,
+            "Hebrew": 5,
+            "Greek": 3,
+            "Armenian": 2,
+            "Thai": 1,
+            "Hiragana": 1,
+            "Katakana": 1
+        }
     },
     "fairfax-hd": {
         "added": "2019-04-09",
         "author": "Rebecca G. Bettencourt",
-        "description": "Fairfax HD is a halfwidth scalable monospace font for terminals, text editors, IDEs, etc. It supports many scripts and a large number of Unicode blocks as well as constructed scripts as encoded in the Under-ConScript Unicode Registry, pseudographics and semigraphics, and tons of private use characters.",
+        "description": "Fairfax HD is a halfwidth scalable monospace font for terminals, text editors, IDEs, etc.",
         "group": "fairfax-hd",
         "license": "SIL OFL",
         "ligatures": false,
@@ -945,7 +1302,16 @@
         "style": "sans",
         "website": "http://www.kreativekorp.com/software/fonts/fairfaxhd.shtml",
         "year": 2019,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 12964,
+        "characters": 12961,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 83,
+            "Armenian": 2,
+            "Hebrew": 2,
+            "Greek": 1
+        }
     },
     "fairfax-hd-hax": {
         "added": "2023-07-22",
@@ -958,7 +1324,16 @@
         "rendering": "vector",
         "style": "sans",
         "year": 2019,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 23350,
+        "characters": 21524,
+        "languages": {
+            "Latin": 528,
+            "Cyrillic": 93,
+            "Hebrew": 5,
+            "Greek": 3,
+            "Armenian": 2
+        }
     },
     "fairfax-serif": {
         "added": "2019-04-09",
@@ -972,7 +1347,19 @@
         "rendering": "bitmap",
         "style": "serif",
         "year": 2008,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 16156,
+        "characters": 16153,
+        "languages": {
+            "Latin": 528,
+            "Cyrillic": 93,
+            "Hebrew": 5,
+            "Greek": 3,
+            "Armenian": 2,
+            "Thai": 1,
+            "Hiragana": 1,
+            "Katakana": 1
+        }
     },
     "fantasque-sans": {
         "added": "bc",
@@ -985,7 +1372,14 @@
         "style": "sans",
         "website": "https://github.com/belluzj/fantasque-sans",
         "year": 2013,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1046,
+        "characters": 1042,
+        "languages": {
+            "Latin": 302,
+            "Cyrillic": 77,
+            "Greek": 1
+        }
     },
     "fifteen": {
         "added": "bc",
@@ -999,7 +1393,12 @@
         "style": "sans",
         "website": "http://openfontlibrary.org/en/font/fifteen",
         "year": 2013,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 102,
+        "characters": 99,
+        "languages": {
+            "Latin": 108
+        }
     },
     "fira": {
         "added": "bc",
@@ -1017,7 +1416,14 @@
         ],
         "website": "https://github.com/mozilla/Fira",
         "year": 2013,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1485,
+        "characters": 1350,
+        "languages": {
+            "Latin": 302,
+            "Cyrillic": 80,
+            "Greek": 1
+        }
     },
     "firacode": {
         "added": "2016-05-25",
@@ -1038,7 +1444,14 @@
         ],
         "website": "https://github.com/tonsky/FiraCode",
         "year": 2014,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 2030,
+        "characters": 1586,
+        "languages": {
+            "Latin": 302,
+            "Cyrillic": 80,
+            "Greek": 1
+        }
     },
     "fixedsys": {
         "added": "2014-11-19",
@@ -1053,7 +1466,12 @@
         "style": "sans",
         "website": "https://web.archive.org/web/20160316105117/http://www.moviecorner.de/en/font-fixedsys-ttf/description",
         "year": 1984,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 213,
+        "characters": 254,
+        "languages": {
+            "Latin": 203
+        }
     },
     "fixedsys-ligatures": {
         "added": "2016-05-25",
@@ -1063,19 +1481,32 @@
         "group": "fixedsys",
         "license": "public domain",
         "ligatures": true,
-        "name": "Fixedsys with Ligatures",
+        "name": "Fixedsys Excelsior",
         "rendering": "bitmap",
         "style": "sans",
         "website": "https://github.com/kika/fixedsys",
         "year": 2016,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 6012,
+        "characters": 5997,
+        "languages": {
+            "Latin": 485,
+            "Cyrillic": 52,
+            "Armenian": 2,
+            "Geʽez": 4,
+            "Arabic": 5,
+            "Thai": 1,
+            "Thaana": 1,
+            "Greek": 1,
+            "Tamil": 1
+        }
     },
     "font3270": {
         "added": "2016-07-14",
         "author": "Ricardo Bánffy",
         "description": "This font is derived from the x3270 font, which, in turn, was translated from the one in Georgia Tech's 3270tool, which was itself hand-copied from a 3270 series terminal.",
         "ligatures": false,
-        "name": "3270",
+        "name": "IBM 3270",
         "rendering": "vector",
         "style": "sans",
         "variants": [
@@ -1085,7 +1516,14 @@
         ],
         "website": "https://github.com/rbanffy/3270font",
         "year": 2015,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 2226,
+        "characters": 1997,
+        "languages": {
+            "Latin": 318,
+            "Cyrillic": 83,
+            "Greek": 2
+        }
     },
     "fragment-mono": {
         "added": "2023-07-03",
@@ -1102,7 +1540,12 @@
         ],
         "website": "https://github.com/weiweihuanghuang/fragment-mono",
         "year": 2022,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 707,
+        "characters": 487,
+        "languages": {
+            "Latin": 284
+        }
     },
     "generic": {
         "added": "bc",
@@ -1110,12 +1553,17 @@
         "description": "A user comments: “It's functional on non-offensive, but its limited coverage and lack of bold and italics hold it back. It's hard to fault its basic design though.”",
         "license": "SIL OFL",
         "ligatures": false,
-        "name": "Generic Mono",
+        "name": "Generic Mono II",
         "rendering": "vector",
         "style": "sans",
         "website": "http://luc.devroye.org/fonts-75172.html",
         "year": 1980,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 221,
+        "characters": 220,
+        "languages": {
+            "Latin": 208
+        }
     },
     "geist": {
         "added": "2023-12-03",
@@ -1123,13 +1571,19 @@
         "description": "Geist is designed for legibility and simplicity. It is a modern, geometric typeface that is based on the principles of classic Swiss typography.",
         "license": "SIL OFL",
         "ligatures": true,
-        "name": "Geist",
+        "name": "Geist Mono",
         "rendering": "vector",
         "style": "sans",
         "variants": "A variable font in 9 weights, without italics.",
         "website": "https://vercel.com/font/mono",
         "year": 2023,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 833,
+        "characters": 652,
+        "languages": {
+            "Latin": 323,
+            "Cyrillic": 42
+        }
     },
     "gintronic": {
         "added": "2021-03-09",
@@ -1156,7 +1610,12 @@
         ],
         "website": "https://markfromberg.com/projects/gintronic/",
         "year": 2016,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1001,
+        "characters": 917,
+        "languages": {
+            "Latin": 309
+        }
     },
     "gnu-freefont": {
         "added": "bc",
@@ -1175,11 +1634,22 @@
         ],
         "website": "https://www.gnu.org/software/freefont/",
         "year": 2002,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 4177,
+        "characters": 4160,
+        "languages": {
+            "Latin": 486,
+            "Cyrillic": 82,
+            "Arabic": 31,
+            "Armenian": 2,
+            "Hebrew": 2,
+            "Kayah Li": 2,
+            "Greek": 1
+        }
     },
     "go-mono": {
         "added": "2016-11-25",
-        "author": "Bigelow & Holmes",
+        "author": "Kris Holmes and Charles Bigelow",
         "description": "The Go font was created especially for readability in the Go programming language. It’s a humanist, slab serif font created by the famous Bigelow & Holmes foundry.",
         "license": "MIT",
         "ligatures": false,
@@ -1194,13 +1664,20 @@
         ],
         "website": "https://blog.golang.org/go-fonts",
         "year": 2016,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 666,
+        "characters": 663,
+        "languages": {
+            "Latin": 288,
+            "Cyrillic": 14,
+            "Greek": 1
+        }
     },
     "gohufont-11": {
         "added": "2023-07-04",
         "author": "Hugo Chargois",
         "bitmap size": 11,
-        "description": "Gohufont is a monospace bitmap font well suited for programming and terminal use. It is intended to be very legible and offers very discernable glyphs for all characters, including signs and symbols. In 11 or 14 pixels.",
+        "description": "Gohufont is a monospace bitmap font well suited for programming and terminal use. It is intended to be very legible with discernable glyphs for all characters, signs and symbols. In 11 or 14 pixels.",
         "license": "WTFPL",
         "ligatures": false,
         "name": "Gohufont 11",
@@ -1211,13 +1688,18 @@
         ],
         "website": "https://font.gohu.org",
         "year": 2010,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 194,
+        "characters": 191,
+        "languages": {
+            "Latin": 203
+        }
     },
     "gohufont-14": {
         "added": "2023-07-04",
         "author": "Hugo Chargois",
         "bitmap size": 14,
-        "description": "Gohufont is a monospace bitmap font well suited for programming and terminal use. It is intended to be very legible and offers very discernable glyphs for all characters, including signs and symbols. In 11 or 14 pixels.",
+        "description": "Gohufont is a monospace bitmap font well suited for programming and terminal use. It is intended to be very legible with discernable glyphs for all characters, signs and symbols. In 11 or 14 pixels.",
         "license": "WTFPL",
         "ligatures": false,
         "name": "Gohufont 14",
@@ -1228,7 +1710,12 @@
         ],
         "website": "https://font.gohu.org",
         "year": 2010,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 257,
+        "characters": 255,
+        "languages": {
+            "Latin": 202
+        }
     },
     "google-sans-code": {
         "added": "2025-07-22",
@@ -1242,7 +1729,12 @@
         "variants": "A variable font ranging in weights 300-800, including italics.",
         "website": "https://github.com/googlefonts/googlesans-code",
         "year": 2025,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 687,
+        "characters": 670,
+        "languages": {
+            "Latin": 330
+        }
     },
     "hack": {
         "added": "2015-06-27",
@@ -1256,7 +1748,15 @@
         "style": "sans",
         "website": "https://github.com/chrissimpkins/Hack",
         "year": 2015,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1573,
+        "characters": 1548,
+        "languages": {
+            "Latin": 307,
+            "Cyrillic": 69,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "hack-ligatured": {
         "added": "2025-03-05",
@@ -1270,11 +1770,19 @@
         "style": "sans",
         "website": "https://github.com/gaplo917/Ligatured-Hack",
         "year": 2020,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1917,
+        "characters": 1548,
+        "languages": {
+            "Latin": 307,
+            "Cyrillic": 70,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "hasklig": {
         "added": "2016-05-25",
-        "author": "Ian Tuomi",
+        "author": "Paul D. Hunt, Teo Tuominen",
         "description": "A code font with monospaced ligatures, designed for Haskell.",
         "license": "SIL OFL",
         "ligatures": true,
@@ -1283,7 +1791,14 @@
         "style": "sans",
         "website": "https://github.com/i-tu/Hasklig",
         "year": 2014,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1629,
+        "characters": 1373,
+        "languages": {
+            "Latin": 354,
+            "Cyrillic": 52,
+            "Greek": 1
+        }
     },
     "hermit": {
         "added": "bc",
@@ -1296,11 +1811,16 @@
         "style": "sans",
         "website": "https://pcaro.es/p/hermit/",
         "year": 2013,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 393,
+        "characters": 390,
+        "languages": {
+            "Latin": 278
+        }
     },
     "heterodox-mono": {
         "added": "2022-08-30",
-        "author": "Hao Chi Kiang",
+        "author": "Hao Chi Kiang, Alexey Kryukov",
         "description": "A Didone-esque Monospaced Typeface based on Alexey Kryukov's Old Standard TT.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -1313,11 +1833,16 @@
         ],
         "website": "https://github.com/hckiang/font-new-heterodox-mono",
         "year": 2019,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 336,
+        "characters": 334,
+        "languages": {
+            "Latin": 245
+        }
     },
     "ia-writer-mono": {
         "added": "2019-01-26",
-        "author": "Oliver Reichenstein, Bold Monday, Mike Abbink, Paul van der Laan, Pieter van Rosmalen",
+        "author": "Mike Abbink, Paul van der Laan, Pieter van Rosmalen, Oliver Reichenstein",
         "description": "iA Writer Mono, Duo and Quattro were built upon IBM Plex.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -1326,13 +1851,19 @@
         "style": "sans",
         "website": "https://ia.net/topics/a-typographic-christmas",
         "year": 2018,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 850,
+        "characters": 746,
+        "languages": {
+            "Latin": 326,
+            "Cyrillic": 62
+        }
     },
     "ibm-vga": {
         "added": "2023-07-05",
         "author": "IBM",
         "bitmap size": 16,
-        "description": "With VGA, 9-dot character cells were now the default, and the resulting 9x16 glyphs make up the famous font which remains most strongly associated with ASCII art on the PC, and probably with the entire DOS era in general.",
+        "description": "The 9x16 glyphs make up the famous font which remains most strongly associated with ASCII art on the PC, and probably with the entire DOS era in general.",
         "license": "CC BY-SA 4.0",
         "ligatures": false,
         "name": "IBM VGA 9x16",
@@ -1343,7 +1874,14 @@
         ],
         "website": "https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_vga_9x16",
         "year": 1987,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 782,
+        "characters": 781,
+        "languages": {
+            "Latin": 288,
+            "Cyrillic": 13,
+            "Greek": 1
+        }
     },
     "inconsolata": {
         "added": "bc",
@@ -1358,7 +1896,12 @@
         "variants": "A variable font in 9 weights, without italics.",
         "website": "https://levien.com/type/myfonts/inconsolata.html",
         "year": 2001,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 964,
+        "characters": 882,
+        "languages": {
+            "Latin": 340
+        }
     },
     "inconsolata-g": {
         "added": "bc",
@@ -1371,7 +1914,12 @@
         "style": "sans",
         "website": "http://leonardo-m.livejournal.com/77079.html",
         "year": 2009,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 294,
+        "characters": 286,
+        "languages": {
+            "Latin": 249
+        }
     },
     "inconsolata-go": {
         "added": "2023-07-05",
@@ -1388,7 +1936,12 @@
             "regular"
         ],
         "year": 2001,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 304,
+        "characters": 290,
+        "languages": {
+            "Latin": 254
+        }
     },
     "inconsolata-otf": {
         "added": "2023-07-05",
@@ -1404,12 +1957,17 @@
             "regular"
         ],
         "year": 2001,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 359,
+        "characters": 286,
+        "languages": {
+            "Latin": 249
+        }
     },
     "indicate": {
         "added": "2024-04-20",
         "author": "Jonas Pelzer",
-        "description": "While preserving the strict order of a monospace typeface, Indicate Mono partly moves away from the typical technical aesthetics of fixed-width typefaces. The font is available on a pay-what-you-want basis.",
+        "description": "moves away from the typical technical aesthetics of fixed-width typefaces while preserving the strict order of a monospace typeface. The font is available on a pay-what-you-want basis.",
         "license": "commercial",
         "ligatures": false,
         "name": "Indicate Mono",
@@ -1420,7 +1978,12 @@
         ],
         "website": "https://jonastype.com/indicate-mono",
         "year": 2023,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 304,
+        "characters": 300,
+        "languages": {
+            "Latin": 276
+        }
     },
     "input": {
         "added": "2016-01-16",
@@ -1428,18 +1991,25 @@
         "description": "Input is a flexible system of fonts designed specifically for code, and is free for personal use.",
         "license": "commercial",
         "ligatures": false,
-        "name": "Input",
+        "name": "Input Mono",
         "rendering": "vector",
         "style": "sans",
         "variants": "A download can be customized with dozens of weights, widths, dotted or slashed zeroes, and other styles.",
         "website": "https://input.djr.com",
         "year": 2014,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 922,
+        "characters": 923,
+        "languages": {
+            "Latin": 303,
+            "Cyrillic": 16,
+            "Greek": 2
+        }
     },
     "intel-one-mono": {
         "added": "2023-05-15",
         "author": "Intel Brand Team, VMLY&R, Frere-Jones Type",
-        "description": "Identifying the typographically underserved low-vision developer audience, the Intel One Mono typeface was designed for maximum legibility to address developers' fatigue and eyestrain and reduce coding errors.",
+        "description": "Identifying the typographically underserved low-vision developer audience, this typeface was designed for maximum legibility to address fatigue and eyestrain and reduce coding errors.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Intel One Mono",
@@ -1457,11 +2027,16 @@
         ],
         "website": "https://github.com/intel/intel-one-mono",
         "year": 2023,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 684,
+        "characters": 622,
+        "languages": {
+            "Latin": 342
+        }
     },
     "iosevka": {
         "added": "2016-02-03",
-        "author": "Belleve Invis",
+        "author": "Renzhi Li",
         "description": "An open-source, sans-serif + slab-serif, monospace + quasi‑proportional typeface family, designed for writing code, using in terminals, and preparing technical documents.",
         "group": "iosevka",
         "license": "SIL OFL",
@@ -1472,11 +2047,19 @@
         "variants": "Iosevka is highly customizable with 7 weights, 3 slopes, 2 width and tons of variations and OpenType sets.",
         "website": "http://be5invis.github.io/Iosevka/",
         "year": 2015,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 46818,
+        "characters": 7571,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 82,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "iosevka-extended": {
         "added": "2026-06-12",
-        "author": "Belleve Invis",
+        "author": "Renzhi Li",
         "description": "The extended-width sans-serif variant of Iosevka, offering wider character spacing for improved readability.",
         "group": "iosevka",
         "license": "SIL OFL",
@@ -1486,11 +2069,19 @@
         "style": "sans",
         "variants": "Iosevka Extended shares Iosevka's 7 weights, 3 slopes, and OpenType customizability with extended width.",
         "year": 2015,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 46821,
+        "characters": 7571,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 82,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "iosevka-slab": {
         "added": "2026-06-12",
-        "author": "Belleve Invis",
+        "author": "Renzhi Li",
         "description": "The slab-serif variant of Iosevka, sharing the same proportions and customizability with added slab serifs.",
         "group": "iosevka",
         "license": "SIL OFL",
@@ -1500,11 +2091,19 @@
         "style": "serif",
         "variants": "Iosevka Slab shares Iosevka's 7 weights, 3 slopes, and OpenType customizability with slab-serif styling.",
         "year": 2015,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 46821,
+        "characters": 7571,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 82,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "iosevka-slab-extended": {
         "added": "2026-06-12",
-        "author": "Belleve Invis",
+        "author": "Renzhi Li",
         "description": "The extended-width slab-serif variant of Iosevka, offering wider character spacing for improved readability.",
         "group": "iosevka",
         "license": "SIL OFL",
@@ -1514,7 +2113,15 @@
         "style": "serif",
         "variants": "Iosevka Slab Extended shares Iosevka's 7 weights, 3 slopes, and OpenType customizability with slab-serif styling and extended width.",
         "year": 2015,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 46822,
+        "characters": 7571,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 82,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "ioskeley": {
         "added": "2025-09-20",
@@ -1541,11 +2148,19 @@
         ],
         "website": "https://github.com/ahatem/IoskeleyMono",
         "year": 2025,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 11552,
+        "characters": 7515,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 82,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "jetbrainsmono": {
         "added": "2020-01-15",
-        "author": "Philipp Nurullin",
+        "author": "Philipp Nurullin, Konstantin Bulenkov",
         "description": "A typeface made for developers.",
         "license": "SIL OFL",
         "ligatures": true,
@@ -1564,12 +2179,19 @@
         ],
         "website": "https://www.jetbrains.com/lp/mono/",
         "year": 2020,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1743,
+        "characters": 1363,
+        "languages": {
+            "Latin": 327,
+            "Cyrillic": 22,
+            "Greek": 1
+        }
     },
     "julia-mono": {
         "added": "2020-10-11",
         "author": "cormullion",
-        "description": "A monospaced typeface designed for programming and in other text editing environments that require a wide range of specialist and technical Unicode characters. It was presented at the 2020 JuliaCon conference.",
+        "description": "A monospaced typeface designed for programming and in other text editing environments that require a wide range of specialist and technical Unicode characters.",
         "license": "SIL OFL",
         "ligatures": true,
         "name": "JuliaMono",
@@ -1585,7 +2207,17 @@
         ],
         "website": "https://juliamono.netlify.app",
         "year": 2020,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 9216,
+        "characters": 8585,
+        "languages": {
+            "Latin": 505,
+            "Cyrillic": 86,
+            "Cree": 1,
+            "Ojibwe Syllabics": 1,
+            "Inuktitut Syllabics": 1,
+            "Greek": 1
+        }
     },
     "latin-modern": {
         "added": "bc",
@@ -1598,11 +2230,16 @@
         "style": "serif",
         "website": "http://www.gust.org.pl/gust/projects/e-foundry/latin-modern",
         "year": 2002,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 786,
+        "characters": 622,
+        "languages": {
+            "Latin": 323
+        }
     },
     "league": {
         "added": "2017-10-14",
-        "author": "Tyler Fink",
+        "author": "Tyler Finck",
         "description": "League Mono is a mashup of sorts, inspired by some beautiful forms found in both Fira Mono, Libertinus Mono, and Courier(?!).",
         "license": "SIL OFL",
         "ligatures": false,
@@ -1612,7 +2249,12 @@
         "variants": "A variable font in 40 weights, without italics.",
         "website": "https://www.tylerfinck.com/leaguemono/",
         "year": 2017,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 374,
+        "characters": 363,
+        "languages": {
+            "Latin": 287
+        }
     },
     "lekton": {
         "added": "bc",
@@ -1625,7 +2267,12 @@
         "style": "sans",
         "website": "http://www.fontsquirrel.com/fonts/lekton",
         "year": 2008,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 950,
+        "characters": 352,
+        "languages": {
+            "Latin": 271
+        }
     },
     "liberation": {
         "added": "bc",
@@ -1638,7 +2285,15 @@
         "style": "sans",
         "website": "https://www.fontsquirrel.com/fonts/liberation-mono",
         "year": 2007,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 2392,
+        "characters": 2274,
+        "languages": {
+            "Latin": 499,
+            "Cyrillic": 81,
+            "Hebrew": 5,
+            "Greek": 1
+        }
     },
     "lilex": {
         "added": "2021-03-15",
@@ -1651,7 +2306,13 @@
         "style": "sans",
         "website": "https://github.com/mishamyrt/Lilex",
         "year": 2019,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 905,
+        "characters": 746,
+        "languages": {
+            "Latin": 326,
+            "Cyrillic": 62
+        }
     },
     "lotion": {
         "added": "2022-01-12",
@@ -1667,7 +2328,12 @@
         ],
         "website": "https://font.nina.coffee",
         "year": 2019,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 158,
+        "characters": 147,
+        "languages": {
+            "Latin": 147
+        }
     },
     "luculent": {
         "added": "2016-06-07",
@@ -1686,11 +2352,17 @@
         ],
         "website": "http://eastfarthing.com/luculent/",
         "year": 2008,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 649,
+        "characters": 648,
+        "languages": {
+            "Latin": 287,
+            "Cyrillic": 7
+        }
     },
     "luxi": {
         "added": "bc",
-        "author": "Kris Holmes, Charles Bigelow",
+        "author": "Kris Holmes and Charles Bigelow",
         "description": "Luxi is a family of typefaces originally designed for the X Window System by Bigelow & Holmes Inc. The Luxi typefaces are similar to Lucida – their previous font design.",
         "license": "Luxi License",
         "ligatures": false,
@@ -1699,7 +2371,12 @@
         "style": "serif",
         "website": "http://www.fontsquirrel.com/fonts/Luxi-Mono",
         "year": 2001,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 395,
+        "characters": 378,
+        "languages": {
+            "Latin": 286
+        }
     },
     "lyth-mono": {
         "added": "2026-01-31",
@@ -1713,7 +2390,15 @@
         "variants": "4 weights (regular, light, medium, bold), italics, 3 arc curvature options (normal, square, round).",
         "website": "https://github.com/why-trv/LythMono",
         "year": 2026,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 12156,
+        "characters": 7561,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 82,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "maple": {
         "added": "2023-07-22",
@@ -1721,7 +2406,7 @@
         "description": "Open source monospace font with round corner, ligatures and Nerd-Font for IDE and command line.",
         "license": "SIL OFL",
         "ligatures": true,
-        "name": "Maple",
+        "name": "Maple Mono",
         "rendering": "vector",
         "style": "sans",
         "variants": [
@@ -1734,11 +2419,16 @@
         ],
         "website": "https://github.com/subframe7536/maple-font",
         "year": 2022,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 469,
+        "characters": 366,
+        "languages": {
+            "Latin": 210
+        }
     },
     "martian-mono": {
         "added": "2023-01-27",
-        "author": "Roman Shamin, Evil Martians",
+        "author": "Roman Shamin",
         "description": "Martian Mono is a monospaced version of the Martian Grotesk font for code style design.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -1759,12 +2449,18 @@
         ],
         "website": "https://github.com/evilmartians/mono",
         "year": 2022,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 557,
+        "characters": 503,
+        "languages": {
+            "Latin": 329,
+            "Cyrillic": 11
+        }
     },
     "md-io": {
         "added": "2025-02-25",
         "author": "Rutherford Craze",
-        "description": "IO uses unconventional glyph constructions and large, functional ink traps to improve glyph recognition — utilitarian features which become eye-catching stylistic elements in their own right when used at larger sizes.",
+        "description": "Uses unconventional glyph constructions and large, functional ink traps to improve glyph recognition.",
         "license": "commercial",
         "ligatures": false,
         "name": "MD IO",
@@ -1773,7 +2469,12 @@
         "variants": "A variable font in 8 weights, each with italics. Additionally a slashed zero is also available.",
         "website": "https://io.mass-driver.com",
         "year": 2023,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 742,
+        "characters": 703,
+        "languages": {
+            "Latin": 411
+        }
     },
     "mensch": {
         "added": "2019-01-22",
@@ -1789,7 +2490,14 @@
         ],
         "website": "https://robey.lag.net/2010/06/21/mensch-font.html",
         "year": 2010,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 2708,
+        "characters": 2684,
+        "languages": {
+            "Latin": 514,
+            "Cyrillic": 76,
+            "Greek": 2
+        }
     },
     "meslo": {
         "added": "bc",
@@ -1797,12 +2505,19 @@
         "description": "Meslo LG is a customized version of Apple’s Menlo-Regular font (which is a customized Bitstream Vera Sans Mono).",
         "license": "Bitstream Vera",
         "ligatures": false,
-        "name": "Meslo",
+        "name": "Meslo LG",
         "rendering": "vector",
         "style": "sans",
         "website": "https://github.com/andreberg/Meslo-Font",
         "year": 2010,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 2708,
+        "characters": 2684,
+        "languages": {
+            "Latin": 514,
+            "Cyrillic": 76,
+            "Greek": 2
+        }
     },
     "miracode": {
         "added": "2025-10-16",
@@ -1818,11 +2533,18 @@
         ],
         "website": "https://github.com/IdreesInc/Miracode",
         "year": 2024,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1456,
+        "characters": 1435,
+        "languages": {
+            "Latin": 303,
+            "Cyrillic": 21,
+            "Armenian": 2
+        }
     },
     "monaspace-argon": {
         "added": "2023-11-18",
-        "author": "Lettermatic & GitHub Next",
+        "author": "Riley Cran & the Lettermatic Team",
         "description": "The Monaspace type system is a monospaced type superfamily with some modern tricks up its sleeve. Argon is the humanist sans version.",
         "license": "SIL OFL",
         "ligatures": true,
@@ -1832,11 +2554,18 @@
         "variants": "A variable font with weight, slant and width options, various stylistic sets, and true italics. ",
         "website": "https://monaspace.githubnext.com/",
         "year": 2023,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 3570,
+        "characters": 2460,
+        "languages": {
+            "Latin": 334,
+            "Cyrillic": 25,
+            "Greek": 1
+        }
     },
     "monaspace-krypton": {
         "added": "2023-11-18",
-        "author": "Lettermatic & GitHub Next",
+        "author": "Riley Cran & the Lettermatic Team",
         "description": "The Monaspace type system is a monospaced type superfamily with some modern tricks up its sleeve. Krypton is the mechanical sans version.",
         "license": "SIL OFL",
         "ligatures": true,
@@ -1846,11 +2575,18 @@
         "variants": "A variable font with weight, slant and width options, various stylistic sets, and true italics.",
         "website": "https://monaspace.githubnext.com/",
         "year": 2023,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 3490,
+        "characters": 2459,
+        "languages": {
+            "Latin": 334,
+            "Cyrillic": 25,
+            "Greek": 1
+        }
     },
     "monaspace-neon": {
         "added": "2023-11-18",
-        "author": "Lettermatic & GitHub Next",
+        "author": "Riley Cran & the Lettermatic Team",
         "description": "The Monaspace type system is a monospaced type superfamily with some modern tricks up its sleeve. Neon is the neo-grotesque sans version.",
         "license": "SIL OFL",
         "ligatures": true,
@@ -1860,11 +2596,18 @@
         "variants": "A variable font with weight, slant and width options, various stylistic sets, and true italics.",
         "website": "https://monaspace.githubnext.com/",
         "year": 2023,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 3606,
+        "characters": 2460,
+        "languages": {
+            "Latin": 334,
+            "Cyrillic": 25,
+            "Greek": 1
+        }
     },
     "monaspace-radon": {
         "added": "2023-11-18",
-        "author": "Lettermatic & GitHub Next",
+        "author": "Riley Cran & the Lettermatic Team",
         "description": "The Monaspace type system is a monospaced type superfamily with some modern tricks up its sleeve. Radon is the handwriting version.",
         "license": "SIL OFL",
         "ligatures": true,
@@ -1874,11 +2617,18 @@
         "variants": "A variable font with weight, slant and width options, various stylistic sets, and true italics.",
         "website": "https://monaspace.githubnext.com/",
         "year": 2023,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 3552,
+        "characters": 2460,
+        "languages": {
+            "Latin": 334,
+            "Cyrillic": 25,
+            "Greek": 1
+        }
     },
     "monaspace-xenon": {
         "added": "2023-11-18",
-        "author": "Lettermatic & GitHub Next",
+        "author": "Riley Cran & the Lettermatic Team",
         "description": "The Monaspace type system is a monospaced type superfamily with some modern tricks up its sleeve. Xenon is the slab serif version",
         "license": "SIL OFL",
         "ligatures": true,
@@ -1888,11 +2638,18 @@
         "variants": "A variable font with weight, slant and width options, various stylistic sets, and true italics.",
         "website": "https://monaspace.githubnext.com/",
         "year": 2023,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 3818,
+        "characters": 2460,
+        "languages": {
+            "Latin": 334,
+            "Cyrillic": 25,
+            "Greek": 1
+        }
     },
     "mona-sans-mono": {
         "added": "2026-04-30",
-        "author": "GitHub, Degarism",
+        "author": "Kyle Wayne Benson",
         "description": "A strong and versatile typeface, designed together with Degarism and inspired by industrial-era grotesques.",
         "license": "SIL OFL",
         "ligatures": true,
@@ -1902,7 +2659,12 @@
         "variants": "A variable font ranging in weight and width, but without italics.",
         "website": "https://github.com/github/mona-sans",
         "year": 2025,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 768,
+        "characters": 547,
+        "languages": {
+            "Latin": 310
+        }
     },
     "monocraft": {
         "added": "2022-09-13",
@@ -1918,7 +2680,13 @@
         ],
         "website": "https://github.com/IdreesInc/Monocraft",
         "year": 2022,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 538,
+        "characters": 525,
+        "languages": {
+            "Latin": 267,
+            "Cyrillic": 16
+        }
     },
     "monoflow": {
         "added": "2021-07-30",
@@ -1941,7 +2709,12 @@
         ],
         "website": "https://finaltype.de/en/projects/monoflow",
         "year": 2020,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 507,
+        "characters": 444,
+        "languages": {
+            "Latin": 277
+        }
     },
     "monofoki": {
         "added": "2022-07-02",
@@ -1960,7 +2733,14 @@
         ],
         "website": "https://github.com/datMaffin/monofoki",
         "year": 2021,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1122,
+        "characters": 1077,
+        "languages": {
+            "Latin": 298,
+            "Cyrillic": 16,
+            "Greek": 1
+        }
     },
     "monofur": {
         "added": "bc",
@@ -1968,12 +2748,19 @@
         "description": "This is a monospaced geometric rounded sans serif font based on the eurofurence typeface family.",
         "license": "freeware",
         "ligatures": false,
-        "name": "Monofur",
+        "name": "monofur",
         "rendering": "vector",
         "style": "sans",
         "website": "http://www.dafont.com/monofur.font",
         "year": 2000,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 675,
+        "characters": 660,
+        "languages": {
+            "Latin": 283,
+            "Cyrillic": 12,
+            "Greek": 1
+        }
     },
     "monoid": {
         "added": "2016-05-25",
@@ -1987,7 +2774,14 @@
         "variants": "Regular, bold, italic and retina, with optional ligatures and several stylistic alternatives.",
         "website": "http://larsenwork.com/monoid/",
         "year": 2015,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 780,
+        "characters": 616,
+        "languages": {
+            "Latin": 312,
+            "Cyrillic": 15,
+            "Greek": 1
+        }
     },
     "monolisa": {
         "added": "2024-04-24",
@@ -2001,7 +2795,14 @@
         "variants": "A variable font in 9 weights, each with italics. Various OpenType alternatives for slashed zeroes, ligatures, etc.",
         "website": "https://www.monolisa.dev",
         "year": 2022,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1651,
+        "characters": 1330,
+        "languages": {
+            "Latin": 471,
+            "Cyrillic": 86,
+            "Greek": 1
+        }
     },
     "mononoki": {
         "added": "2016-04-18",
@@ -2009,13 +2810,19 @@
         "description": "A font for programming and code review",
         "license": "SIL OFL",
         "ligatures": false,
-        "name": "Mononoki",
+        "name": "mononoki",
         "rendering": "vector",
         "style": "sans",
         "variants": "Regular, bold, italic, bold-italic, and an OpenType set with dotted zeroes.",
         "website": "https://github.com/madmalik/mononoki",
         "year": 2013,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 696,
+        "characters": 671,
+        "languages": {
+            "Latin": 255,
+            "Cyrillic": 7
+        }
     },
     "myna": {
         "added": "2025-11-07",
@@ -2027,11 +2834,20 @@
         "rendering": "vector",
         "style": "sans",
         "variants": [
-            "regular"
+            "regular",
+            "bold",
+            "italic",
+            "bold-italic"
         ],
         "website": "https://github.com/sayyadirfanali/Myna",
         "year": 2025,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1115,
+        "characters": 1106,
+        "languages": {
+            "Latin": 270,
+            "Cyrillic": 47
+        }
     },
     "mplus": {
         "added": "bc",
@@ -2039,16 +2855,21 @@
         "description": "M PLUS 1/2 are Sans Serif font with 9 weights from Thin to Black, supporting GF Latin Plus glyph set with 5,700+ Kanjis for Japanese.",
         "license": "SIL OFL",
         "ligatures": false,
-        "name": "M PLUS Code",
+        "name": "M PLUS 1 Code",
         "rendering": "vector",
         "style": "sans",
         "website": "https://mplusfonts.github.io",
         "year": 2003,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 6747,
+        "characters": 6463,
+        "languages": {
+            "Latin": 327
+        }
     },
     "nanum-gothic-coding": {
         "added": "2019-01-23",
-        "author": "NAVER Corp.",
+        "author": "Dokyung Lee, Minjae Kang, Sang-a Kim",
         "description": "나눔고딕코딩체는 지난 2008년 10월 9일 발표된 나눔고딕을 바탕으로 개발자들의 코딩 환경에 최적화시킨 글꼴입니다.",
         "license": "SIL OFL",
         "ligatures": true,
@@ -2057,7 +2878,14 @@
         "style": "sans",
         "website": "https://github.com/naver/nanumfont",
         "year": 2009,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 20056,
+        "characters": 12478,
+        "languages": {
+            "Latin": 115,
+            "Cyrillic": 7,
+            "Hangul": 1
+        }
     },
     "nimbus-mono": {
         "added": "2025-05-15",
@@ -2065,7 +2893,7 @@
         "description": "Nimbus Mono PS is a monospaced typeface designed by URW Studio, released in 1984, and is part of the Ghostscript fonts.",
         "license": "GNU GPL",
         "ligatures": false,
-        "name": "Nimbus Mono",
+        "name": "Nimbus Mono PS",
         "rendering": "vector",
         "style": "serif",
         "variants": [
@@ -2076,12 +2904,19 @@
         ],
         "website": "https://www.fontsquirrel.com/fonts/nimbus-mono",
         "year": 1984,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 855,
+        "characters": 854,
+        "languages": {
+            "Latin": 288,
+            "Cyrillic": 44,
+            "Greek": 1
+        }
     },
     "nk57": {
         "added": "2024-10-02",
         "author": "Raymond Larabie",
-        "description": "Unlike many monospaced screen fonts that prioritize low-resolution use, NK57 Monospace was created with varying proportions, ensuring that its symbols and characters are easily visible, even on the smallest of screens. This makes it an ideal choice for developers who need to view and edit code on the go.",
+        "description": "NK57 Monospace was created with varying proportions, ensuring that its symbols and characters are easily visible, even on the smallest of screens.",
         "license": "public domain",
         "ligatures": false,
         "name": "NK57 Monospace",
@@ -2090,11 +2925,18 @@
         "variants": "60 variants differing in weight and compactness.",
         "website": "https://www.dafont.com/nk57-monospace.font",
         "year": 2015,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 749,
+        "characters": 747,
+        "languages": {
+            "Latin": 283,
+            "Cyrillic": 12,
+            "Greek": 1
+        }
     },
     "notcouriersans": {
         "added": "bc",
-        "author": "Open Source Publishing",
+        "author": "Harrisson, Pierre Huyghebaert, Femke Snelting, Ivan Monroy-Lopez, Yi Jiang, Nicolas Malevé, Ludivine Loiseau",
         "description": "NotCourier is a re-interpretation of Nimbus Mono and was designed in Wroclaw at the occasion of Libre Graphics Meeting (LGM 2008).",
         "license": "GNU GPL",
         "ligatures": false,
@@ -2103,7 +2945,13 @@
         "style": "sans",
         "website": "http://www.fontsquirrel.com/fonts/NotCourierSans",
         "year": 2008,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 659,
+        "characters": 652,
+        "languages": {
+            "Latin": 297,
+            "Cyrillic": 49
+        }
     },
     "noto": {
         "added": "2017-06-27",
@@ -2111,12 +2959,19 @@
         "description": "Noto is a collection of high-quality fonts in more than 1,000 languages and over 150 writing systems.",
         "license": "SIL OFL",
         "ligatures": false,
-        "name": "Noto Mono",
+        "name": "Noto Sans Mono",
         "rendering": "vector",
         "style": "sans",
         "website": "https://www.google.com/get/noto/",
         "year": 2012,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 3787,
+        "characters": 3367,
+        "languages": {
+            "Latin": 525,
+            "Cyrillic": 92,
+            "Greek": 2
+        }
     },
     "nova": {
         "added": "bc",
@@ -2129,11 +2984,17 @@
         "style": "sans",
         "website": "https://fonts.google.com/specimen/Nova+Mono",
         "year": 2010,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1331,
+        "characters": 1328,
+        "languages": {
+            "Latin": 290,
+            "Greek": 1
+        }
     },
     "office-code-pro": {
         "added": "2015-06-27",
-        "author": "Nathan Rutzky",
+        "author": "Nathan Rutzky & Paul D. Hunt",
         "description": "Office Code Pro is a customized version of Source Code Pro.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -2142,7 +3003,12 @@
         "style": "sans",
         "website": "https://fontlibrary.org/en/font/office-code-pro",
         "year": 2015,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 496,
+        "characters": 433,
+        "languages": {
+            "Latin": 287
+        }
     },
     "old-timey": {
         "added": "2025-05-07",
@@ -2160,7 +3026,14 @@
         ],
         "website": "https://github.com/dse/old-timey-mono-font",
         "year": 2025,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 2233,
+        "characters": 2031,
+        "languages": {
+            "Latin": 344,
+            "Cyrillic": 22,
+            "Greek": 1
+        }
     },
     "opendyslexic": {
         "added": "2018-05-27",
@@ -2176,11 +3049,16 @@
         ],
         "website": "https://www.opendyslexic.org",
         "year": 2011,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 531,
+        "characters": 520,
+        "languages": {
+            "Latin": 313
+        }
     },
     "overpass": {
         "added": "2017-01-06",
-        "author": "Delve Withrington",
+        "author": "Delve Withrington, Dave Bailey",
         "description": "An open source font family inspired by Highway Gothic.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -2195,7 +3073,12 @@
         ],
         "website": "http://overpassfont.org",
         "year": 2015,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 988,
+        "characters": 934,
+        "languages": {
+            "Latin": 299
+        }
     },
     "oxproto": {
         "added": "2023-08-19",
@@ -2211,7 +3094,12 @@
         ],
         "website": "https://github.com/0xType/0xProto",
         "year": 2023,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 157,
+        "characters": 100,
+        "languages": {
+            "Latin": 108
+        }
     },
     "oxygen": {
         "added": "bc",
@@ -2227,11 +3115,16 @@
         ],
         "website": "https://fonts.google.com/specimen/Oxygen+Mono",
         "year": 2012,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 397,
+        "characters": 392,
+        "languages": {
+            "Latin": 229
+        }
     },
     "paper": {
         "added": "2025-10-08",
-        "author": "Paper",
+        "author": "Guido Ferreyra, Javier Quintana Godoy",
         "description": "A beautiful monospace font for design and code. Based on Geist Mono.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -2243,11 +3136,16 @@
         ],
         "website": "https://github.com/paper-design/paper-mono",
         "year": 2025,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 562,
+        "characters": 484,
+        "languages": {
+            "Latin": 310
+        }
     },
     "plex-mono": {
         "added": "2017-10-26",
-        "author": "Bold Monday, Mike Abbink",
+        "author": "Mike Abbink, Paul van der Laan, Pieter van Rosmalen",
         "description": "Meet the IBM Plex® typeface, our new corporate typeface family. It’s global, it’s versatile and it’s distinctly IBM.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -2274,7 +3172,12 @@
         ],
         "website": "https://github.com/IBM/plex",
         "year": 2017,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 229,
+        "characters": 222,
+        "languages": {
+            "Latin": 211
+        }
     },
     "press-start-2p": {
         "added": "2017-07-28",
@@ -2286,7 +3189,14 @@
         "style": "sans",
         "website": "https://github.com/codeman38/PressStart2P",
         "year": 2012,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 658,
+        "characters": 656,
+        "languages": {
+            "Latin": 291,
+            "Cyrillic": 64,
+            "Greek": 1
+        }
     },
     "profont": {
         "added": "bc",
@@ -2294,12 +3204,17 @@
         "description": "It is designed to look good a really small sizes so you can cram lots of lines of code into the window of your editor.",
         "license": "MIT",
         "ligatures": false,
-        "name": "Profont",
+        "name": "ProFont",
         "rendering": "vector",
         "style": "sans",
         "website": "http://tobiasjung.name/profont/",
         "year": 1987,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 263,
+        "characters": 261,
+        "languages": {
+            "Latin": 214
+        }
     },
     "proggy-clean": {
         "added": "bc",
@@ -2313,7 +3228,12 @@
         "style": "sans",
         "website": "https://github.com/bluescan/proggyfonts/",
         "year": 2004,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 257,
+        "characters": 256,
+        "languages": {
+            "Latin": 203
+        }
     },
     "proggy-vector": {
         "added": "2019-01-20",
@@ -2329,7 +3249,15 @@
         ],
         "website": "https://github.com/bluescan/proggyfonts/",
         "year": 2019,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1549,
+        "characters": 1548,
+        "languages": {
+            "Latin": 307,
+            "Cyrillic": 69,
+            "Armenian": 2,
+            "Greek": 1
+        }
     },
     "psudo": {
         "added": "2025-10-08",
@@ -2348,11 +3276,18 @@
         ],
         "website": "https://github.com/psudo-dev/psudofont-liga-mono",
         "year": 2025,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1418,
+        "characters": 1075,
+        "languages": {
+            "Latin": 331,
+            "Cyrillic": 65,
+            "Greek": 1
+        }
     },
     "pt": {
         "added": "bc",
-        "author": "Alexandra Korolkova",
+        "author": "A.Korolkova, I.Chaeva",
         "description": "PT Mono was developed for the special needs -- for use in forms, tables, work sheets etc.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -2361,7 +3296,13 @@
         "style": "sans",
         "website": "https://www.paratype.com/fonts/pt/pt-mono",
         "year": 2011,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 787,
+        "characters": 788,
+        "languages": {
+            "Latin": 272,
+            "Cyrillic": 75
+        }
     },
     "quinze": {
         "added": "bc",
@@ -2377,7 +3318,12 @@
         ],
         "website": "http://openfontlibrary.org/en/font/fifteen",
         "year": 2013,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 266,
+        "characters": 265,
+        "languages": {
+            "Latin": 210
+        }
     },
     "recursive-mono-linear": {
         "added": "2020-04-12",
@@ -2391,7 +3337,12 @@
         "variants": "Dozens of pre-built styles, and variables for weight, slant, “casualness” and more.",
         "website": "https://www.recursive.design",
         "year": 2018,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1256,
+        "characters": 723,
+        "languages": {
+            "Latin": 343
+        }
     },
     "reddit-sans": {
         "added": "2023-10-23",
@@ -2399,7 +3350,7 @@
         "description": "Reddit Sans is built for the Internet, with clear, understandable letterforms that still maintain some of the warm eclectic nature of online discourse.",
         "license": "SIL OFL",
         "ligatures": false,
-        "name": "Reddit Sans Mono",
+        "name": "Reddit Mono",
         "rendering": "vector",
         "style": "sans",
         "variants": [
@@ -2408,7 +3359,12 @@
         ],
         "website": "https://redditsans.s-ings.com",
         "year": 2020,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1080,
+        "characters": 724,
+        "languages": {
+            "Latin": 339
+        }
     },
     "redhat": {
         "added": "2022-01-12",
@@ -2422,7 +3378,12 @@
         "variants": "A variable font in 4 weights, each with italics.",
         "website": "https://www.redhat.com/en/about/brand/standards/typography",
         "year": 2019,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 424,
+        "characters": 392,
+        "languages": {
+            "Latin": 297
+        }
     },
     "roboto": {
         "added": "2015-06-27",
@@ -2436,11 +3397,18 @@
         "variants": "5 weights, each with italics.",
         "website": "https://fonts.google.com/specimen/Roboto+Mono",
         "year": 2015,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 999,
+        "characters": 876,
+        "languages": {
+            "Latin": 315,
+            "Cyrillic": 78,
+            "Greek": 1
+        }
     },
     "sax": {
         "added": "bc",
-        "author": "s.a.x. Software",
+        "author": "Robert Norton",
         "description": "saxMono is a sample of a fine TrueType with high screen quality. Its spacing (11 cpi@12 pt) is between the Courier and Letter Gothic.",
         "license": "freeware",
         "ligatures": false,
@@ -2449,7 +3417,12 @@
         "style": "sans",
         "website": "http://www.fontsquirrel.com/fonts/saxMono",
         "year": 2009,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 492,
+        "characters": 489,
+        "languages": {
+            "Latin": 275
+        }
     },
     "scientifica": {
         "added": "2022-09-13",
@@ -2468,13 +3441,18 @@
         ],
         "website": "https://github.com/nerdypepper/scientifica",
         "year": 2019,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1088,
+        "characters": 1086,
+        "languages": {
+            "Latin": 288
+        }
     },
     "sergamon": {
         "added": "2026-04-08",
         "author": "Sergio García Mondaray",
         "bitmap size": 16,
-        "description": "A pixel-perfect monospaced font designed for code, crafted on an 8x16 pixel grid. Every character renders exactly as typed. 4,000+ glyphs covering Latin, Cyrillic, Greek, Hebrew, Arabic, Thai, Devanagari, and more.",
+        "description": "A pixel-perfect monospaced font designed for code, crafted on an 8x16 pixel grid.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Sergamon",
@@ -2485,7 +3463,18 @@
         ],
         "website": "https://sgmonda.com/sergamon",
         "year": 2026,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 4227,
+        "characters": 4226,
+        "languages": {
+            "Latin": 449,
+            "Cyrillic": 73,
+            "Devanagari": 13,
+            "Armenian": 2,
+            "Hebrew": 2,
+            "Thai": 1,
+            "Greek": 1
+        }
     },
     "serious-shanns": {
         "added": "2024-06-26",
@@ -2506,11 +3495,16 @@
         ],
         "website": "https://kabeech.github.io/serious-shanns/",
         "year": 2023,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 96,
+        "characters": 95,
+        "languages": {
+            "Latin": 105
+        }
     },
     "share-tech": {
         "added": "bc",
-        "author": "Ralph du Carrois",
+        "author": "Ralph Oliver du Carrois",
         "description": "Share Tech Mono is a monospaced sans serif, based on the Share family. There is also Share Tech , a proportionally spaced version.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -2519,7 +3513,12 @@
         "style": "sans",
         "website": "https://fonts.google.com/specimen/Share+Tech+Mono",
         "year": 2012,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 268,
+        "characters": 267,
+        "languages": {
+            "Latin": 218
+        }
     },
     "sk-modernist": {
         "added": "2016-02-29",
@@ -2527,12 +3526,17 @@
         "description": "Sk-Modernist is a minimalist and clean typeface which eschews complicated forms.",
         "license": "commercial",
         "ligatures": false,
-        "name": "SK Modernist Mono",
+        "name": "Sk-Modernist",
         "rendering": "vector",
         "style": "sans",
         "website": "https://seankanedesign.gumroad.com/l/sk-modernist",
         "year": 2015,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 529,
+        "characters": 491,
+        "languages": {
+            "Latin": 307
+        }
     },
     "sligoil": {
         "added": "2024-10-02",
@@ -2540,7 +3544,7 @@
         "description": "The Sligoil typeface has been influenced by the culture of the British isles and also by the letters on vintage Space Cadet keyboards.",
         "license": "SIL OFL",
         "ligatures": false,
-        "name": "Sligoil",
+        "name": "Sligoil Micro",
         "rendering": "vector",
         "style": "sans",
         "variants": [
@@ -2548,7 +3552,12 @@
         ],
         "website": "https://velvetyne.fr/fonts/sligoil/",
         "year": 2022,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 457,
+        "characters": 400,
+        "languages": {
+            "Latin": 286
+        }
     },
     "sometype-mono": {
         "added": "2019-05-25",
@@ -2569,11 +3578,16 @@
         ],
         "website": "http://monospacedfont.com/",
         "year": 2018,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 567,
+        "characters": 458,
+        "languages": {
+            "Latin": 300
+        }
     },
     "sono": {
         "added": "2023-11-18",
-        "author": "Ty Finck",
+        "author": "Tyler Finck",
         "description": "A soft monospace or proportional typeface.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -2583,11 +3597,16 @@
         "variants": "A variable font in 7 weights, without italics.",
         "website": "https://etceteratype.co/sono",
         "year": 2020,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 750,
+        "characters": 576,
+        "languages": {
+            "Latin": 318
+        }
     },
     "source-code-pro": {
         "added": "bc",
-        "author": "Paul D. Hunt",
+        "author": "Paul D. Hunt, Teo Tuominen",
         "description": "Source Code Pro is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.",
         "license": "SIL OFL",
         "ligatures": false,
@@ -2597,11 +3616,18 @@
         "variants": "A variable font in 7 weights, each with italics.",
         "website": "https://github.com/adobe-fonts/source-code-pro",
         "year": 2012,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1568,
+        "characters": 1335,
+        "languages": {
+            "Latin": 348,
+            "Cyrillic": 48,
+            "Greek": 1
+        }
     },
     "space": {
         "added": "2017-01-06",
-        "author": "Colophon Foundry",
+        "author": "Colophon Foundry / Benjamin Critton",
         "description": "Commissioned for the 2016 update of Google Fonts. The evergreen touchstone for Space Mono is Aldo Novarese’s Microgramma, 1952 (and later Eurostile, 1962).",
         "license": "SIL OFL",
         "ligatures": false,
@@ -2616,7 +3642,12 @@
         ],
         "website": "https://fonts.google.com/specimen/Space+Mono",
         "year": 2016,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 733,
+        "characters": 613,
+        "languages": {
+            "Latin": 322
+        }
     },
     "spleen": {
         "added": "2022-02-18",
@@ -2633,7 +3664,12 @@
         ],
         "website": "https://www.cambus.net/spleen-monospaced-bitmap-fonts/",
         "year": 2018,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 838,
+        "characters": 837,
+        "languages": {
+            "Latin": 287
+        }
     },
     "sudo": {
         "added": "bc",
@@ -2647,12 +3683,19 @@
         "variants": "A variable font with weights from ExtraLight to Bold, each with italics, and a descender depth axis, and alternate glyphs.",
         "website": "https://www.kutilek.de/sudo-font/",
         "year": 2009,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1680,
+        "characters": 1454,
+        "languages": {
+            "Latin": 443,
+            "Cyrillic": 35,
+            "Greek": 1
+        }
     },
     "terminus-consoleet": {
         "added": "2026-03-26",
         "author": "Jan Engelhardt",
-        "description": "A vectorized version of the Terminus Font originally by Dimitar Toshkov Zhekov: a fixed-width bitmap font optimized for long work with computers. This conversion is from the Consoleet project.",
+        "description": "A vectorized version of the Terminus Font originally by Dimitar Toshkov Zhekov. This conversion is from the Consoleet project.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Terminus (Consoleet)",
@@ -2660,12 +3703,19 @@
         "style": "sans",
         "website": "https://inai.de/projects/consoleet/terminus",
         "year": 2021,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1357,
+        "characters": 1356,
+        "languages": {
+            "Latin": 379,
+            "Cyrillic": 69,
+            "Greek": 2
+        }
     },
     "terminus-consoleet-smooth": {
         "added": "2026-03-26",
         "author": "Jan Engelhardt",
-        "description": "A vectorized version of the Terminus Font originally by Dimitar Toshkov Zhekov: a fixed-width bitmap font optimized for long work with computers. This conversion is from the Consoleet project and uses smooth straight vectors to avoid stairstepping.",
+        "description": "A vectorized version of the Terminus Font originally by Dimitar Toshkov Zhekov. This conversion is from the Consoleet project and uses smooth straight vectors to avoid stairstepping.",
         "license": "SIL OFL",
         "ligatures": false,
         "name": "Terminus (Consoleet, smooth)",
@@ -2673,7 +3723,14 @@
         "style": "sans",
         "website": "https://inai.de/projects/consoleet/terminus",
         "year": 2021,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1357,
+        "characters": 1356,
+        "languages": {
+            "Latin": 379,
+            "Cyrillic": 69,
+            "Greek": 2
+        }
     },
     "terminus-ttf": {
         "added": "2026-03-26",
@@ -2686,7 +3743,14 @@
         "style": "sans",
         "website": "https://files.ax86.net/terminus-ttf",
         "year": 2010,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 1359,
+        "characters": 1356,
+        "languages": {
+            "Latin": 379,
+            "Cyrillic": 69,
+            "Greek": 2
+        }
     },
     "tex-gyre-cursor": {
         "added": "bc",
@@ -2699,7 +3763,12 @@
         "style": "serif",
         "website": "http://www.gust.org.pl/projects/e-foundry/tex-gyre",
         "year": 2006,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 1087,
+        "characters": 673,
+        "languages": {
+            "Latin": 324
+        }
     },
     "topaz-a1200": {
         "added": "2026-05-27",
@@ -2713,7 +3782,12 @@
         "style": "sans",
         "website": "https://github.com/rewtnull/amigafonts",
         "year": 2013,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 257,
+        "characters": 221,
+        "languages": {
+            "Latin": 203
+        }
     },
     "topaz-a500": {
         "added": "2026-05-27",
@@ -2727,11 +3801,16 @@
         "style": "sans",
         "website": "https://github.com/rewtnull/amigafonts",
         "year": 2013,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 257,
+        "characters": 221,
+        "languages": {
+            "Latin": 203
+        }
     },
     "twilio-sans-mono": {
         "added": "2023-05-20",
-        "author": "Sharp Type",
+        "author": "Lucas Sharp and Huw Williams",
         "description": "Twilio worked very closely with the type foundry, Sharp Type over the course of two years to develop a welcoming and adaptable typeface.",
         "license": "SIL OFL",
         "ligatures": true,
@@ -2758,11 +3837,16 @@
         ],
         "website": "https://github.com/twilio/twilio-sans-mono",
         "year": 2020,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 747,
+        "characters": 405,
+        "languages": {
+            "Latin": 287
+        }
     },
     "ubuntu": {
         "added": "bc",
-        "author": "Dalton Maag",
+        "author": "Dalton Maag Ltd",
         "description": "The way typography is used says as much about our brand as the words themselves. The Ubuntu typeface has been specially created to complement the Ubuntu tone of voice.",
         "license": "Ubuntu Font Licence",
         "ligatures": false,
@@ -2771,21 +3855,78 @@
         "style": "sans",
         "website": "http://font.ubuntu.com",
         "year": 2010,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1296,
+        "characters": 1224,
+        "languages": {
+            "Latin": 304,
+            "Cyrillic": 71,
+            "Greek": 1
+        }
     },
     "unifont": {
         "added": "bc",
         "author": "Roman Czyborra",
-        "description": "GNU Unifont is part of the GNU Project and has glyphs for every printable code point in the Unicode Basic Multilingual Plane.",
+        "description": "GNU Unifont is part of the GNU Project and has glyphs for every printable code point in the Unicode Basic Multilingual Plane. Note that the font on this website has been reduced because it's huge.",
         "bitmap size": 16,
         "license": "GNU GPL",
         "ligatures": false,
         "name": "GNU Unifont",
         "rendering": "bitmap",
         "style": "sans",
+        "variants": [
+            "regular"
+        ],
         "website": "http://www.unifoundry.com/unifont.html",
         "year": 1998,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 58911,
+        "characters": 58910,
+        "languages": {
+            "Latin": 503,
+            "Georgian": 2,
+            "Cyrillic": 83,
+            "Devanagari": 16,
+            "Bengali": 6,
+            "Arabic": 34,
+            "Cree": 1,
+            "Hebrew": 5,
+            "Lao": 1,
+            "Armenian": 2,
+            "Chinese": 7,
+            "Geʽez": 7,
+            "Buginese": 1,
+            "Burmese": 4,
+            "Gujarati": 2,
+            "Sinhala": 1,
+            "Oriya": 1,
+            "Gurmukhi": 2,
+            "Thai": 1,
+            "Tai Viet": 1,
+            "Ojibwe Syllabics": 1,
+            "Tham": 1,
+            "Tifinagh": 1,
+            "Modern Yi": 1,
+            "Kayah Li": 2,
+            "Tibetan": 3,
+            "Malayalam": 1,
+            "Vai": 1,
+            "Inuktitut Syllabics": 1,
+            "Khmer": 1,
+            "Thaana": 1,
+            "Cherokee": 1,
+            "Kanji": 1,
+            "Hiragana": 2,
+            "Katakana": 2,
+            "Hangul": 1,
+            "Hanja": 1,
+            "Greek": 1,
+            "Tamil": 1,
+            "Telugu": 1,
+            "Bamum": 1,
+            "Kannada": 1,
+            "Hanunoo": 1
+        }
     },
     "unifontex": {
         "added": "2023-09-17",
@@ -2797,9 +3938,59 @@
         "name": "UnifontEX",
         "rendering": "bitmap",
         "style": "sans",
+        "variants": [
+            "regular"
+        ],
         "website": "https://github.com/stgiga/UnifontEX",
         "year": 2023,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 65439,
+        "characters": 65436,
+        "languages": {
+            "Latin": 503,
+            "Georgian": 2,
+            "Cyrillic": 82,
+            "Devanagari": 16,
+            "Bengali": 6,
+            "Cree": 1,
+            "Lao": 1,
+            "Armenian": 2,
+            "Chinese": 7,
+            "Geʽez": 7,
+            "Buginese": 1,
+            "Burmese": 4,
+            "Gujarati": 2,
+            "Sinhala": 1,
+            "Oriya": 1,
+            "Hebrew": 2,
+            "Gurmukhi": 2,
+            "Thai": 1,
+            "Tai Viet": 1,
+            "Ojibwe Syllabics": 1,
+            "Tham": 1,
+            "Tifinagh": 1,
+            "Modern Yi": 1,
+            "Kayah Li": 2,
+            "Tibetan": 3,
+            "Malayalam": 1,
+            "Vai": 1,
+            "Inuktitut Syllabics": 1,
+            "Khmer": 1,
+            "Thaana": 1,
+            "Cherokee": 1,
+            "Kanji": 1,
+            "Hiragana": 2,
+            "Katakana": 2,
+            "Hangul": 1,
+            "Hanja": 1,
+            "Greek": 1,
+            "Tamil": 1,
+            "Telugu": 1,
+            "Bamum": 1,
+            "Chakma": 1,
+            "Kannada": 1,
+            "Hanunoo": 1
+        }
     },
     "verily": {
         "added": "2014-11-23",
@@ -2812,11 +4003,16 @@
         "style": "serif",
         "website": "https://www.fontsquirrel.com/fonts/Verily-Serif-Mono",
         "year": 2006,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 244,
+        "characters": 233,
+        "languages": {
+            "Latin": 223
+        }
     },
     "victor-mono": {
         "added": "2019-06-06",
-        "author": "Rune B",
+        "author": "Rune Bjørnerås",
         "description": "Victor Mono is a programming font with semi-connected cursive italics and some symbol ligatures",
         "license": "MIT",
         "ligatures": true,
@@ -2825,7 +4021,14 @@
         "style": "sans",
         "website": "https://rubjo.github.io/victor-mono/",
         "year": 2019,
-        "zerostyle": "dotted"
+        "zerostyle": "dotted",
+        "glyphs": 1435,
+        "characters": 1267,
+        "languages": {
+            "Latin": 316,
+            "Cyrillic": 78,
+            "Greek": 1
+        }
     },
     "vt323": {
         "added": "bc",
@@ -2839,7 +4042,12 @@
         "style": "sans",
         "website": "https://fedoraproject.org/wiki/VT323_Fonts",
         "year": 2014,
-        "zerostyle": "empty"
+        "zerostyle": "empty",
+        "glyphs": 213,
+        "characters": 210,
+        "languages": {
+            "Latin": 203
+        }
     },
     "zhima-mono": {
         "added": "2025-05-21",
@@ -2855,6 +4063,11 @@
         ],
         "website": "https://github.com/ouonline/ZhiMaMono",
         "year": 2025,
-        "zerostyle": "slashed"
+        "zerostyle": "slashed",
+        "glyphs": 234,
+        "characters": 116,
+        "languages": {
+            "Latin": 105
+        }
     }
 }

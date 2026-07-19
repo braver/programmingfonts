@@ -308,25 +308,25 @@
   font-family: 'bitstream-vera';
   font-weight: bold;
   font-style: italic;
-  src: url('../resources/bitstream-vera/bitstream-vera-bold-italic.woff');
+  src: url('../resources/bitstream-vera/bitstream-vera-bold-italic.ttf');
 }
 @font-face {
   font-family: 'bitstream-vera';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/bitstream-vera/bitstream-vera-bold.woff');
+  src: url('../resources/bitstream-vera/bitstream-vera-bold.ttf');
 }
 @font-face {
   font-family: 'bitstream-vera';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/bitstream-vera/bitstream-vera-italic.woff');
+  src: url('../resources/bitstream-vera/bitstream-vera-italic.ttf');
 }
 @font-face {
   font-family: 'bitstream-vera';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/bitstream-vera/bitstream-vera.woff');
+  src: url('../resources/bitstream-vera/bitstream-vera.ttf');
 }
 @font-face {
   font-family: 'borg-sans-mono';
@@ -680,25 +680,25 @@
   font-family: 'cousine';
   font-weight: bold;
   font-style: italic;
-  src: url('../resources/cousine/cousine-bold-italic.woff');
+  src: url('../resources/cousine/cousine-bold-italic.ttf');
 }
 @font-face {
   font-family: 'cousine';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/cousine/cousine-bold.woff');
+  src: url('../resources/cousine/cousine-bold.ttf');
 }
 @font-face {
   font-family: 'cousine';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/cousine/cousine-italic.woff');
+  src: url('../resources/cousine/cousine-italic.ttf');
 }
 @font-face {
   font-family: 'cousine';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/cousine/cousine.woff');
+  src: url('../resources/cousine/cousine.ttf');
 }
 @font-face {
   font-family: 'cozette';
@@ -734,25 +734,25 @@
   font-family: 'dejavu';
   font-weight: bold;
   font-style: italic;
-  src: url('../resources/dejavu/dejavu-bold-italic.woff');
+  src: url('../resources/dejavu/dejavu-bold-italic.ttf');
 }
 @font-face {
   font-family: 'dejavu';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/dejavu/dejavu-bold.woff');
+  src: url('../resources/dejavu/dejavu-bold.ttf');
 }
 @font-face {
   font-family: 'dejavu';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/dejavu/dejavu-italic.woff');
+  src: url('../resources/dejavu/dejavu-italic.ttf');
 }
 @font-face {
   font-family: 'dejavu';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/dejavu/dejavu.woff');
+  src: url('../resources/dejavu/dejavu.ttf');
 }
 @font-face {
   font-family: 'dejavu-markup';
@@ -794,7 +794,7 @@
   font-family: 'dm-mono';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/dm-mono/dm-mono-regular.woff');
+  src: url('../resources/dm-mono/dm-mono.woff');
 }
 @font-face {
   font-family: 'dpsdbeyond';
@@ -830,7 +830,7 @@
   font-family: 'droid-sans';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/droid-sans/droid-sans.woff');
+  src: url('../resources/droid-sans/droid-sans.ttf');
 }
 @font-face {
   font-family: 'edlo';
@@ -1004,13 +1004,13 @@
   font-family: 'fira';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/fira/fira-bold.woff');
+  src: url('../resources/fira/fira-bold.woff2');
 }
 @font-face {
   font-family: 'fira';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/fira/fira.woff');
+  src: url('../resources/fira/fira.woff2');
 }
 @font-face {
   font-family: 'firacode';
@@ -1028,7 +1028,7 @@
   font-family: 'fixedsys';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/fixedsys/fixedsys.woff');
+  src: url('../resources/fixedsys/fixedsys.ttf');
 }
 @font-face {
   font-family: 'fixedsys-ligatures';
@@ -1082,25 +1082,25 @@
   font-family: 'gnu-freefont';
   font-weight: bold;
   font-style: italic;
-  src: url('../resources/gnu-freefont/gnu-freefont-bold-italic.woff');
+  src: url('../resources/gnu-freefont/gnu-freefont-bold-italic.ttf');
 }
 @font-face {
   font-family: 'gnu-freefont';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/gnu-freefont/gnu-freefont-bold.woff');
+  src: url('../resources/gnu-freefont/gnu-freefont-bold.ttf');
 }
 @font-face {
   font-family: 'gnu-freefont';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/gnu-freefont/gnu-freefont-italic.woff');
+  src: url('../resources/gnu-freefont/gnu-freefont-italic.ttf');
 }
 @font-face {
   font-family: 'gnu-freefont';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/gnu-freefont/gnu-freefont.woff');
+  src: url('../resources/gnu-freefont/gnu-freefont.ttf');
 }
 @font-face {
   font-family: 'go-mono';
@@ -1526,13 +1526,13 @@
   font-family: 'latin-modern';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/latin-modern/latin-modern-italic.woff');
+  src: url('../resources/latin-modern/latin-modern-italic.otf');
 }
 @font-face {
   font-family: 'latin-modern';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/latin-modern/latin-modern.woff');
+  src: url('../resources/latin-modern/latin-modern.otf');
 }
 @font-face {
   font-family: 'league';
@@ -1568,37 +1568,37 @@
   font-family: 'liberation';
   font-weight: bold;
   font-style: italic;
-  src: url('../resources/liberation/liberation-bold-italic.woff');
+  src: url('../resources/liberation/liberation-bold-italic.ttf');
 }
 @font-face {
   font-family: 'liberation';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/liberation/liberation-bold.woff');
+  src: url('../resources/liberation/liberation-bold.ttf');
 }
 @font-face {
   font-family: 'liberation';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/liberation/liberation-italic.woff');
+  src: url('../resources/liberation/liberation-italic.ttf');
 }
 @font-face {
   font-family: 'liberation';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/liberation/liberation.woff');
-}
-@font-face {
-  font-family: 'lilex';
-  font-weight: normal;
-  font-style: normal;
-  src: url('../resources/lilex/lilex-regular.woff');
+  src: url('../resources/liberation/liberation.ttf');
 }
 @font-face {
   font-family: 'lilex';
   font-weight: bold;
   font-style: normal;
   src: url('../resources/lilex/lilex-bold.woff');
+}
+@font-face {
+  font-family: 'lilex';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/lilex/lilex.woff');
 }
 @font-face {
   font-family: 'lotion';
@@ -1634,25 +1634,25 @@
   font-family: 'luxi';
   font-weight: bold;
   font-style: italic;
-  src: url('../resources/luxi/luxi-bold-italic.woff');
+  src: url('../resources/luxi/luxi-bold-italic.ttf');
 }
 @font-face {
   font-family: 'luxi';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/luxi/luxi-bold.woff');
+  src: url('../resources/luxi/luxi-bold.ttf');
 }
 @font-face {
   font-family: 'luxi';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/luxi/luxi-italic.woff');
+  src: url('../resources/luxi/luxi-italic.ttf');
 }
 @font-face {
   font-family: 'luxi';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/luxi/luxi.woff');
+  src: url('../resources/luxi/luxi.ttf');
 }
 @font-face {
   font-family: 'lyth-mono';
@@ -1998,6 +1998,24 @@
 }
 @font-face {
   font-family: 'myna';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/myna/myna-bold-italic.otf');
+}
+@font-face {
+  font-family: 'myna';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/myna/myna-bold.otf');
+}
+@font-face {
+  font-family: 'myna';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/myna/myna-italic.otf');
+}
+@font-face {
+  font-family: 'myna';
   font-weight: normal;
   font-style: normal;
   src: url('../resources/myna/myna.otf');
@@ -2006,13 +2024,13 @@
   font-family: 'mplus';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/mplus/mplus-bold.ttf');
+  src: url('../resources/mplus/mplus-bold.woff2');
 }
 @font-face {
   font-family: 'mplus';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/mplus/mplus.ttf');
+  src: url('../resources/mplus/mplus.woff2');
 }
 @font-face {
   font-family: 'nanum-gothic-coding';
@@ -2078,13 +2096,13 @@
   font-family: 'notcouriersans';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/notcouriersans/notcouriersans-bold.woff');
+  src: url('../resources/notcouriersans/notcouriersans-bold.otf');
 }
 @font-face {
   font-family: 'notcouriersans';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/notcouriersans/notcouriersans.woff');
+  src: url('../resources/notcouriersans/notcouriersans.otf');
 }
 @font-face {
   font-family: 'noto';
@@ -2425,26 +2443,26 @@
 @font-face {
   font-family: 'source-code-pro';
   font-weight: bold;
-  font-style: normal;
-  src: url('../resources/source-code-pro/source-code-pro-bold.woff');
-}
-@font-face {
-  font-family: 'source-code-pro';
-  font-weight: normal;
-  font-style: normal;
-  src: url('../resources/source-code-pro/source-code-pro.woff');
+  font-style: italic;
+  src: url('../resources/source-code-pro/source-code-pro-bold-italic.woff2');
 }
 @font-face {
   font-family: 'source-code-pro';
   font-weight: bold;
-  font-style: italic;
-  src: url('../resources/source-code-pro/source-code-pro-bold-italic.woff');
+  font-style: normal;
+  src: url('../resources/source-code-pro/source-code-pro-bold.woff2');
 }
 @font-face {
   font-family: 'source-code-pro';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/source-code-pro/source-code-pro-italic.woff');
+  src: url('../resources/source-code-pro/source-code-pro-italic.woff2');
+}
+@font-face {
+  font-family: 'source-code-pro';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/source-code-pro/source-code-pro.woff2');
 }
 @font-face {
   font-family: 'space';
@@ -2522,7 +2540,7 @@
   font-family: 'sometype-mono';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/sometype-mono/sometype-mono-regular.woff');
+  src: url('../resources/sometype-mono/sometype-mono.woff');
 }
 @font-face {
   font-family: 'tex-gyre-cursor';

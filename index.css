@@ -243,6 +243,10 @@ dt {
         content: '\A';
         white-space: pre;
     }
+
+    &.website + dd a {
+        word-break: break-all;
+    }
 }
 
 summary {

@@ -3508,6 +3508,25 @@
             "Latin": 218
         }
     },
+    "sinclair-ql": {
+        "author": "Damien Guard",
+        "description": "Font of the Sinclair QL computer.",
+        "bitmap size": 16,
+        "bitmap height": 1,
+        "license": "CC BY-SA 3.0",
+        "ligatures": false,
+        "name": "Sinclair QL",
+        "rendering": "bitmap",
+        "style": "sans",
+        "website": "https://fontstruct.com/fontstructions/show/917532",
+        "year": 2013,
+        "zerostyle": "slashed",
+        "glyphs": 97,
+        "characters": 96,
+        "languages": {
+            "Latin": 105
+        }
+    },
     "sinclair-ql-extended": {
         "author": "Andreas 'count' Kotes",
         "description": "Font of the Sinclair QL computer, with added (international) characters based in QDOS Minerva Sourcecode.",

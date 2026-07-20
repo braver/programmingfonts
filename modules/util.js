@@ -1,6 +1,7 @@
 /* global CodeMirror */
 
 import { Fontsize } from './fontsize.js'
+import { Spacing } from './spacing.js'
 
 const lang_count = {
     'Arabic': 48,
@@ -52,6 +53,7 @@ const lang_count = {
 
 
 const fontsize = new Fontsize()
+const spacing = new Spacing()
 
 function isVisible(el) {
   const container = document.querySelector('section.select-list').getBoundingClientRect()
@@ -151,15 +153,10 @@ export function selectFont () {
   setDetails(data[font])
   codeMirror.setAttribute('data-font', font)
 
-  if (data[font].rendering === 'bitmap') {
-    codeMirror.classList.add('no-smooth')
-    if (data[font]['bitmap size']) {
-      fontsize.forceSize(data[font]['bitmap size'])
-    }
-  } else {
-    codeMirror.classList.remove('no-smooth')
-    fontsize.reset()
-  }
+  // forced rendering parameters for bitmap fonts
+  data[font].rendering === 'bitmap' ? codeMirror.classList.add('no-smooth') : codeMirror.classList.remove('no-smooth')
+  data[font]['bitmap size'] ? fontsize.force(data[font]['bitmap size']) : fontsize.reset()
+  data[font]['bitmap height'] ? spacing.force(data[font]['bitmap height']) : spacing.reset()
 
   if (font === 'input') {
     // because Input Mono is loaded via external @font-face file

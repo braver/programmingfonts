@@ -32,7 +32,7 @@ export class Fontsize {
     window.CMeditor.refresh()
   }
 
-  forceSize (px) {
+  force (px) {
     this.el.value = px
     document.querySelector('.CodeMirror').style.fontSize = `${px}px`
     window.CMeditor.refresh()
@@ -40,9 +40,10 @@ export class Fontsize {
 
   reset () {
     if (Cookies.get('size')) {
-      this.forceSize(Cookies.get('size'))
+      this.el.value = Cookies.get('size')
     } else {
-      this.forceSize('16')
+      this.el.value = 16
     }
+    this.el.dispatchEvent(new Event('change'));
   }
 }

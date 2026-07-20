@@ -20,4 +20,19 @@ export class Spacing {
     Cookies.set('spacing', spacing)
     window.CMeditor.refresh()
   }
+
+  force (float) {
+    this.el.value = float
+    document.querySelector('.CodeMirror').style.lineHeight = float
+    window.CMeditor.refresh()
+  }
+
+  reset () {
+    if (Cookies.get('spacing')) {
+      this.el.value = Cookies.get('spacing')
+    } else {
+      this.el.value = 1.4
+    }
+    this.el.dispatchEvent(new Event('change'));
+  }
 }

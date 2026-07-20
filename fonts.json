@@ -3210,6 +3210,7 @@
         "bitmap size": 16,
         "license": "MIT",
         "ligatures": false,
+        "bitmap height": 1,
         "name": "Proggy Clean",
         "rendering": "bitmap",
         "style": "sans",

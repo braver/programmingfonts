@@ -1,0 +1,8 @@
+﻿The FontStruction “Sinclair QL Extended”
+(https://fontstruct.com/fontstructions/show/1104062) by “count” is licensed
+under a Creative Commons Attribution Share Alike license
+(http://creativecommons.org/licenses/by-sa/3.0/).
+“Sinclair QL Extended” was originally cloned (copied) from the FontStruction
+“Sinclair QL” (https://fontstruct.com/fontstructions/show/917532) by Damien
+Guard, which is licensed under a Creative Commons Attribution Share Alike
+license (http://creativecommons.org/licenses/by-sa/3.0/).

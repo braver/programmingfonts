@@ -2405,6 +2405,12 @@
   src: url('../resources/share-tech/share-tech.ttf');
 }
 @font-face {
+  font-family: 'sinclair-ql-extended';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/sinclair-ql-extended/sinclair-ql-extended.ttf');
+}
+@font-face {
   font-family: 'sk-modernist';
   font-weight: normal;
   font-style: normal;

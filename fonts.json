@@ -3507,6 +3507,18 @@
             "Latin": 218
         }
     },
+    "sinclair-ql-extended": {
+        "author": "count / Damien Guard",
+        "description": "Font of the Sinclair QL computer, with added (international) characters Clone of Sinclair QL + extensions based in QDOS Minerva Sourcecode released under GPL at http://www.bergbland.info/",
+        "license": "CC BY-SA 3.0",
+        "ligatures": false,
+        "name": "Sinclair QL Extended",
+        "rendering": "bitmap",
+        "style": "sans",
+        "website": "https://fontstruct.com/fontstructions/show/1104062/sinclair_ql_extended_1",
+        "year": 2015,
+        "zerostyle": "slashed"
+    },
     "sk-modernist": {
         "added": "2016-02-29",
         "author": "Sean Kane",

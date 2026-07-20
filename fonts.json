@@ -3509,6 +3509,7 @@
         }
     },
     "sinclair-ql": {
+        "added": "2026-07-20",
         "author": "Damien Guard",
         "description": "Font of the Sinclair QL computer.",
         "bitmap size": 16,
@@ -3528,6 +3529,7 @@
         }
     },
     "sinclair-ql-extended": {
+        "added": "2026-05-27",
         "author": "Andreas 'count' Kotes",
         "description": "Font of the Sinclair QL computer, with added (international) characters based in QDOS Minerva Sourcecode.",
         "bitmap size": 16,

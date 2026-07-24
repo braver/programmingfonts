@@ -1283,10 +1283,10 @@
             "italic"
         ],
         "zerostyle": "slashed",
-        "website": "https://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released",
+        "website": "https://damieng.com/blog/2008/envy-code-r-preview-7-coding-font-released/",
         "year": 2008,
-        "glyphs": 666,
-        "characters": 663,
+        "glyphs": 647,
+        "characters": 645,
         "languages": {
             "Latin": 304
         }
@@ -1339,14 +1339,16 @@
         "website": "http://www.kreativekorp.com/software/fonts/fairfaxhd.shtml",
         "year": 2019,
         "zerostyle": "slashed",
-        "glyphs": 12964,
-        "characters": 12961,
+        "glyphs": 26633,
+        "characters": 25516,
         "languages": {
             "Latin": 503,
-            "Cyrillic": 83,
+            "Cyrillic": 82,
             "Armenian": 2,
             "Hebrew": 2,
-            "Greek": 1
+            "Greek": 1,
+            "Hiragana": 1,
+            "Katakana": 1
         }
     },
     "fairfax-hd-hax": {
@@ -1362,16 +1364,19 @@
         "variants": [
             "regular"
         ],
+        "website": "http://www.kreativekorp.com/software/fonts/fairfaxhd.shtml",
         "year": 2019,
         "zerostyle": "slashed",
-        "glyphs": 23350,
-        "characters": 21524,
+        "glyphs": 26633,
+        "characters": 25516,
         "languages": {
-            "Latin": 528,
-            "Cyrillic": 93,
-            "Hebrew": 5,
-            "Greek": 3,
-            "Armenian": 2
+            "Latin": 503,
+            "Cyrillic": 82,
+            "Armenian": 2,
+            "Hebrew": 2,
+            "Greek": 1,
+            "Hiragana": 1,
+            "Katakana": 1
         }
     },
     "fairfax-serif": {
@@ -1388,6 +1393,7 @@
         "variants": [
             "regular"
         ],
+        "website": "https://www.kreativekorp.com/software/fonts/fairfax/",
         "year": 2008,
         "zerostyle": "slashed",
         "glyphs": 16156,
@@ -1820,7 +1826,7 @@
         "characters": 1548,
         "languages": {
             "Latin": 307,
-            "Cyrillic": 69,
+            "Cyrillic": 73,
             "Armenian": 2,
             "Greek": 1
         }
@@ -1890,7 +1896,7 @@
         "glyphs": 393,
         "characters": 390,
         "languages": {
-            "Latin": 278
+            "Latin": 279
         }
     },
     "heterodox-mono": {
@@ -2404,11 +2410,12 @@
         "website": "https://github.com/mishamyrt/Lilex",
         "year": 2019,
         "zerostyle": "dotted",
-        "glyphs": 905,
-        "characters": 746,
+        "glyphs": 1434,
+        "characters": 1073,
         "languages": {
-            "Latin": 326,
-            "Cyrillic": 62
+            "Latin": 329,
+            "Cyrillic": 63,
+            "Greek": 1
         }
     },
     "lotion": {

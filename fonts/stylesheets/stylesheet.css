@@ -908,19 +908,19 @@
   font-family: 'envy-code-r';
   font-weight: bold;
   font-style: normal;
-  src: url('../resources/envy-code-r/envy-code-r-bold.woff');
+  src: url('../resources/envy-code-r/envy-code-r-bold.ttf');
 }
 @font-face {
   font-family: 'envy-code-r';
   font-weight: normal;
   font-style: italic;
-  src: url('../resources/envy-code-r/envy-code-r-italic.woff');
+  src: url('../resources/envy-code-r/envy-code-r-italic.ttf');
 }
 @font-face {
   font-family: 'envy-code-r';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/envy-code-r/envy-code-r.woff');
+  src: url('../resources/envy-code-r/envy-code-r.ttf');
 }
 @font-face {
   font-family: 'fairfax';
@@ -944,13 +944,13 @@
   font-family: 'fairfax-hd';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/fairfax-hd/fairfax-hd.ttf');
+  src: url('../resources/fairfax-hd/fairfax-hd.woff2');
 }
 @font-face {
   font-family: 'fairfax-hd-hax';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/fairfax-hd-hax/fairfax-hd-hax.ttf');
+  src: url('../resources/fairfax-hd-hax/fairfax-hd-hax.woff2');
 }
 @font-face {
   font-family: 'fairfax-serif';
@@ -1579,14 +1579,26 @@
 @font-face {
   font-family: 'lilex';
   font-weight: bold;
+  font-style: italic;
+  src: url('../resources/lilex/lilex-bold-italic.woff2');
+}
+@font-face {
+  font-family: 'lilex';
+  font-weight: bold;
   font-style: normal;
-  src: url('../resources/lilex/lilex-bold.woff');
+  src: url('../resources/lilex/lilex-bold.woff2');
+}
+@font-face {
+  font-family: 'lilex';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/lilex/lilex-italic.woff2');
 }
 @font-face {
   font-family: 'lilex';
   font-weight: normal;
   font-style: normal;
-  src: url('../resources/lilex/lilex.woff');
+  src: url('../resources/lilex/lilex.woff2');
 }
 @font-face {
   font-family: 'lotion';

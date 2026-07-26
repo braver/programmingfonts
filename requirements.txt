@@ -1,0 +1,3 @@
+fonttools
+hyperglot
+brotli

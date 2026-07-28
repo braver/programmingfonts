@@ -1291,6 +1291,19 @@
             "Latin": 304
         }
     },
+    "espresso-mono": {
+        "added": "2026-07-11",
+        "author": "Espresso",
+        "description": "DejaVu Sans fork used in Espresso - a web editor for Mac.",
+        "license": "Bitstream Vera",
+        "ligatures": false,
+        "name": "Espresso Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "zerostyle": "slashed",
+        "website": "https://espressoapp.com/",
+        "year": 2025
+    },
     "fairfax": {
         "added": "2019-04-09",
         "author": "Rebecca G. Bettencourt",

@@ -2996,7 +2996,10 @@
         "name": "Nanum Gothic Coding",
         "rendering": "vector",
         "style": "sans",
-        "variants": ["regular", "bold"],
+        "variants": [
+            "regular",
+            "bold"
+        ],
         "website": "https://github.com/naver/nanumfont",
         "year": 2009,
         "zerostyle": "dotted",
@@ -3064,7 +3067,10 @@
         "name": "NotCourierSans",
         "rendering": "vector",
         "style": "sans",
-        "variants": ["regular", "bold"],
+        "variants": [
+            "regular",
+            "bold"
+        ],
         "website": "http://www.fontsquirrel.com/fonts/NotCourierSans",
         "year": 2008,
         "zerostyle": "empty",
@@ -3105,7 +3111,9 @@
         "name": "Nova Mono",
         "rendering": "vector",
         "style": "sans",
-        "variants": ["regular"],
+        "variants": [
+            "regular"
+        ],
         "website": "https://fonts.google.com/specimen/Nova+Mono",
         "year": 2010,
         "zerostyle": "slashed",
@@ -3332,7 +3340,9 @@
         "name": "ProFont",
         "rendering": "vector",
         "style": "sans",
-        "variants": ["regular"],
+        "variants": [
+            "regular"
+        ],
         "website": "http://tobiasjung.name/profont/",
         "year": 1987,
         "zerostyle": "slashed",
@@ -3353,7 +3363,9 @@
         "name": "Proggy Clean",
         "rendering": "bitmap",
         "style": "sans",
-        "variants": ["regular"],
+        "variants": [
+            "regular"
+        ],
         "website": "https://github.com/bluescan/proggyfonts/",
         "year": 2004,
         "zerostyle": "dotted",
@@ -3422,7 +3434,10 @@
         "name": "PT Mono",
         "rendering": "vector",
         "style": "sans",
-        "variants": ["regular", "bold"],
+        "variants": [
+            "regular",
+            "bold"
+        ],
         "website": "https://www.paratype.com/fonts/pt/pt-mono",
         "year": 2011,
         "zerostyle": "slashed",
@@ -3544,7 +3559,9 @@
         "name": "saxMono",
         "rendering": "vector",
         "style": "sans",
-        "variants": ["regular"],
+        "variants": [
+            "regular"
+        ],
         "website": "http://www.fontsquirrel.com/fonts/saxMono",
         "year": 2009,
         "zerostyle": "empty",
@@ -3708,7 +3725,9 @@
         "name": "Sk-Modernist",
         "rendering": "vector",
         "style": "sans",
-        "variants": ["regular"],
+        "variants": [
+            "regular"
+        ],
         "website": "https://seankanedesign.gumroad.com/l/sk-modernist",
         "year": 2015,
         "zerostyle": "slashed",
@@ -4202,7 +4221,9 @@
         "name": "Verily Serif Mono",
         "rendering": "vector",
         "style": "serif",
-        "variants": ["regular"],
+        "variants": [
+            "regular"
+        ],
         "website": "https://www.fontsquirrel.com/fonts/Verily-Serif-Mono",
         "year": 2006,
         "zerostyle": "dotted",
@@ -4243,7 +4264,9 @@
         "name": "VT323",
         "rendering": "bitmap",
         "style": "sans",
-        "variants": ["regular"],
+        "variants": [
+            "regular"
+        ],
         "website": "https://fedoraproject.org/wiki/VT323_Fonts",
         "year": 2014,
         "zerostyle": "empty",

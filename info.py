@@ -9,6 +9,8 @@ List various metadata about each font. Requires:
 fonttools - https://github.com/fonttools/fonttools
 hyperglot - https://github.com/rosettatype/hyperglot
 brotli (for woff files) - https://github.com/google/brotli
+
+Note that the report will be slightly different after woff2 conversion!
 '''
 
 # optional --name foo arguments
@@ -16,6 +18,10 @@ parser = argparse.ArgumentParser(prog='FontInfo')
 parser.add_argument('--name')
 args = parser.parse_args()
 
+# monolisa and input don't have files in this repo
+# to run the script on these ensure the real font file is at the correct path
+# then run with the --name argument
+skip = ['monolisa', 'input']
 
 lang_count = {
     'Arabic': 48,
@@ -72,6 +78,9 @@ with open('fonts.json', 'r+') as user_file:
     data = json.loads(file_contents)
     for key in data:
         if args.name and key != args.name:
+            continue
+
+        if not args.name and key in skip:
             continue
 
         print('')

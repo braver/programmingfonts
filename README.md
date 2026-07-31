@@ -17,7 +17,8 @@ Please feel free to make a little donation via to keep this labour of love runni
 - All information about the fonts is stored in [fonts.json](https://github.com/braver/programmingfonts/blob/gh-pages/fonts.json).
   - Which adheres to [a schema](https://github.com/braver/programmingfonts/blob/gh-pages/fonts-schema.json).
 - Font files are stored in [fonts/resources](https://github.com/braver/programmingfonts/tree/gh-pages/fonts/resources).
-  - We store only 4 variants (if available), in `.woff2` format (if available): regular, italic, bold, bold+italic
+  - We store only 4 variants (if available), in `.woff2` format: regular, italic, bold, bold+italic.
+  - If you don't have a `.woff2` you can use `convert.py` to create them off the ttf/otf file.
 - All font files (and directories) are normalized to lowercase, without `-mono` unless it's really part of the name.
 - Each font lives in a directory named after its alias, and the variant files within follow a consistent naming scheme based on that alias:
   - regular: no suffix, e.g. `iosevka/iosevka.woff2`

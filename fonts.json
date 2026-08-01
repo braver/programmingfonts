@@ -3058,6 +3058,25 @@
             "Greek": 1
         }
     },
+    "nordwand-mono": {
+        "added": "2026-08-01",
+        "author": "Tanguy VIVIER",
+        "description": "A programming typeface that draws inspiration from Swiss typography, blending geometric precision with visual calm. Designed by a programmer for programmers, it takes an opinionated approach to code readability.",
+        "license": "public domain",
+        "ligatures": true,
+        "name": "Nordwand Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": "8 weights from thin to bold.",
+        "website": "https://github.com/tywr/Nordwand-Mono",
+        "year": 2026,
+        "zerostyle": "dotted",
+        "glyphs": 193,
+        "characters": 177,
+        "languages": {
+            "Latin": 105
+        }
+    },
     "notcouriersans": {
         "added": "bc",
         "author": "Harrisson, Pierre Huyghebaert, Femke Snelting, Ivan Monroy-Lopez, Yi Jiang, Nicolas Malevé, Ludivine Loiseau",

@@ -2093,6 +2093,30 @@
   src: url('../resources/nk57/nk57.woff2');
 }
 @font-face {
+  font-family: 'nordwand-mono';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/nordwand-mono/nordwand-mono-bold-italic.woff2');
+}
+@font-face {
+  font-family: 'nordwand-mono';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/nordwand-mono/nordwand-mono-bold.woff2');
+}
+@font-face {
+  font-family: 'nordwand-mono';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/nordwand-mono/nordwand-mono-italic.woff2');
+}
+@font-face {
+  font-family: 'nordwand-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/nordwand-mono/nordwand-mono-regular.woff2');
+}
+@font-face {
   font-family: 'notcouriersans';
   font-weight: bold;
   font-style: normal;

@@ -244,6 +244,7 @@ Therefore:
 - [Nanum Gothic Coding](https://github.com/naver/nanumfont) _SIL OFL_ ([view](https://www.programmingfonts.org/#nanum-gothic-coding))
 - [Nimbus Mono PS](https://www.fontsquirrel.com/fonts/nimbus-mono) _GNU GPL_ ([view](https://www.programmingfonts.org/#nimbus-mono))
 - [NK57 Monospace](https://www.dafont.com/nk57-monospace.font) _public domain_ ([view](https://www.programmingfonts.org/#nk57))
+- [Nordwand Mono](https://github.com/tywr/Nordwand-Mono) _public domain_ ([view](https://www.programmingfonts.org/#nordwand-mono))
 - [NotCourierSans](http://www.fontsquirrel.com/fonts/NotCourierSans) _GNU GPL_ ([view](https://www.programmingfonts.org/#notcouriersans))
 - [Noto Sans Mono](https://www.google.com/get/noto/) _SIL OFL_ ([view](https://www.programmingfonts.org/#noto))
 - [Nova Mono](https://fonts.google.com/specimen/Nova+Mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#nova))

@@ -461,6 +461,18 @@
   src: url('../resources/chivo/chivo.woff2');
 }
 @font-face {
+  font-family: 'cilantro-code-mono';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/cilantro-code-mono/cilantro-code-mono-bold.woff2');
+}
+@font-face {
+  font-family: 'cilantro-code-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/cilantro-code-mono/cilantro-code-mono.woff2');
+}
+@font-face {
   font-family: 'cm-unicode';
   font-weight: bold;
   font-style: italic;

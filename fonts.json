@@ -603,6 +603,29 @@
             "Latin": 352
         }
     },
+    "cilantro-code-mono": {
+        "added": "2026-08-09",
+        "author": "DraftingDreamer",
+        "description": "A Traditional Chinese (Taiwan) monospace coding font with exact 2:1 duospace metrics: 2 Latin characters occupy 1 Han character cell. Han glyphs from Iansui, Latin from Red Hat Mono.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Cilantro Code Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "regular",
+            "bold"
+        ],
+        "website": "https://github.com/DraftingDreamer/FontCilantroCode",
+        "year": 2026,
+        "zerostyle": "slashed",
+        "glyphs": 15618,
+        "characters": 12762,
+        "languages": {
+            "Latin": 326,
+            "Cyrillic": 7
+        }
+    },
     "cm-unicode": {
         "added": "2024-01-07",
         "author": "Donald E. Knuth",

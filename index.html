@@ -96,6 +96,23 @@
 
     <link rel="stylesheet" href="fonts/stylesheets/stylesheet.css"><!-- Compiled (using less on node) with "lessc fonts.less > stylesheet.css" -->
     <link rel="stylesheet" href="index.css">
+
+    <script>
+        let polling
+        document.fonts.onloading = () => {
+            document.body.classList.add('fonts-loading')
+            polling = window.setInterval(() => {
+                if (document.fonts.status === 'loaded') {
+                    window.clearInterval(polling)
+                    document.body.classList.remove('fonts-loading')
+                }
+            }, 100)
+        }
+        document.fonts.onloadingdone = () => {
+          window.clearInterval(polling)
+          document.body.classList.remove('fonts-loading')
+        }
+    </script>
 </head>
 
 <body>
@@ -230,6 +247,15 @@
                         </svg>
                         <span class="screenreader-only">Tumblr blog</span>
                     </a>
+
+                    <span class="spinner" role="status" title="Font is loading...">
+                        <svg width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                            <g transform="matrix(-0.75,0,0,0.75,14,2.000873)">
+                                <path d="M5.029,2.217C5.948,1.744 6.967,1.498 8.001,1.498C11.314,1.498 14.124,4.031 14.466,7.327C14.502,7.711 14.828,8.007 15.213,8.007C15.624,8.007 15.963,7.669 15.963,7.257C15.963,7.229 15.961,7.201 15.958,7.173C15.537,3.117 12.079,-0.001 8.001,-0.001C5.509,-0.001 3.155,1.163 1.643,3.143L0.427,1.927C0.38,1.88 0.316,1.854 0.25,1.854C0.113,1.854 -0,1.966 -0,2.104C-0,2.104 0,5.75 0,5.75C0,5.887 0.113,6 0.25,6C0.25,6 3.896,6 3.896,6C4.034,6 4.146,5.887 4.146,5.75C4.146,5.684 4.12,5.62 4.073,5.573L2.715,4.215C3.316,3.374 4.11,2.689 5.029,2.217ZM1.262,8.169C1.128,8.06 0.961,8 0.788,8C0.377,8 0.038,8.339 0.038,8.75C0.038,8.776 0.039,8.802 0.042,8.827C0.464,12.883 3.923,16 8,16C10.491,16 12.844,14.836 14.357,12.857L15.573,14.073C15.62,14.12 15.684,14.146 15.75,14.146C15.887,14.146 16,14.034 16,13.896C16,13.896 16,10.25 16,10.25C16,10.113 15.887,10 15.75,10C15.75,10 12.104,10 12.104,10C11.966,10 11.854,10.113 11.854,10.25C11.854,10.316 11.88,10.38 11.927,10.427L13.285,11.785C12.065,13.488 10.095,14.501 8,14.501C4.688,14.501 1.878,11.969 1.534,8.675C1.514,8.477 1.416,8.295 1.262,8.169Z" style="fill-rule:nonzero;"/>
+                            </g>
+                        </svg>
+                        <span class="screenreader-only">Font is loading...</span>
+                    </span>
                 </span>
 
 

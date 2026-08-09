@@ -139,6 +139,27 @@ small {
     fill: currentColor;
 }
 
+@keyframes spinning {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.spinner {
+    visibility: hidden;
+    opacity: 0;
+    svg {
+        animation: spinning 2s linear infinite;
+    }
+    .fonts-loading &{
+        opacity: 1;
+        visibility: revert;
+        transition: opacity .3s ease-in-out;
+    }
+}
+
 .main-wrapper {
     width: 30em;
     height: 100%;
@@ -180,6 +201,10 @@ small {
                 overflow: hidden !important;
             }
         }
+    }
+
+    .fonts-loading &:not(.clone) .CodeMirror {
+        filter: blur(2px);
     }
 }
 

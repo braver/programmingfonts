@@ -97,21 +97,28 @@
     <link rel="stylesheet" href="fonts/stylesheets/stylesheet.css"><!-- Compiled (using less on node) with "lessc fonts.less > stylesheet.css" -->
     <link rel="stylesheet" href="index.css">
 
-    <script>
+    <script type="module">
         let polling
+        let delay
+        const doneLoading = () => {
+            window.clearInterval(polling)
+            window.clearTimeout(delay)
+            document.body.classList.remove('fonts-loading')
+        }
+
         document.fonts.onloading = () => {
-            document.body.classList.add('fonts-loading')
+            // only report loading if it takes a bit long
+            delay = window.setTimeout(() => {
+                document.body.classList.add('fonts-loading')
+            }, 200)
+            // onloadingdone doesn't fire on safari so we poll
             polling = window.setInterval(() => {
                 if (document.fonts.status === 'loaded') {
-                    window.clearInterval(polling)
-                    document.body.classList.remove('fonts-loading')
+                    doneLoading()
                 }
             }, 100)
         }
-        document.fonts.onloadingdone = () => {
-          window.clearInterval(polling)
-          document.body.classList.remove('fonts-loading')
-        }
+        document.fonts.onloadingdone = doneLoading
     </script>
 </head>
 

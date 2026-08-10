@@ -17,14 +17,14 @@ https://openfontlicense.org/webfonts-and-reserved-font-names/
 '''
 
 # optional --name foo arguments
-parser = argparse.ArgumentParser(prog='FontInfo')
+parser = argparse.ArgumentParser(prog='WoffConvert')
 parser.add_argument('--name')
 args = parser.parse_args()
 
-# unifont is subsetted, monolisa and input don't have files in this repo
+# monolisa don't have files in this repo
 # to run the script on these ensure the real font file is at the correct path
 # then run with the --name argument
-skip = ['unifont', 'monolisa', 'input']
+skip = ['monolisa']
 
 
 def convert_extension(file):

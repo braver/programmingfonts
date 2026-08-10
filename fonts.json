@@ -2106,10 +2106,77 @@
         "website": "https://input.djr.com",
         "year": 2014,
         "zerostyle": "dotted",
+        "group": "input",
         "glyphs": 922,
         "characters": 923,
         "languages": {
-            "Latin": 303,
+            "Latin": 302,
+            "Cyrillic": 16,
+            "Greek": 2
+        }
+    },
+    "input-compressed": {
+        "added": "2016-01-16",
+        "author": "David Jonathan Ross",
+        "description": "Input is a flexible system of fonts designed specifically for code, and is free for personal use. This is the compressed version.",
+        "license": "commercial",
+        "ligatures": false,
+        "name": "Input Mono Compressed",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": "A download can be customized with dozens of weights, widths, dotted or slashed zeroes, and other styles.",
+        "website": "https://input.djr.com",
+        "year": 2014,
+        "zerostyle": "dotted",
+        "group": "input",
+        "glyphs": 922,
+        "characters": 923,
+        "languages": {
+            "Latin": 302,
+            "Cyrillic": 16,
+            "Greek": 2
+        }
+    },
+    "input-condensed": {
+        "added": "2016-01-16",
+        "author": "David Jonathan Ross",
+        "description": "Input is a flexible system of fonts designed specifically for code, and is free for personal use. This is the condensed version.",
+        "license": "commercial",
+        "ligatures": false,
+        "name": "Input Mono Condensed",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": "A download can be customized with dozens of weights, widths, dotted or slashed zeroes, and other styles.",
+        "website": "https://input.djr.com",
+        "year": 2014,
+        "zerostyle": "dotted",
+        "group": "input",
+        "glyphs": 922,
+        "characters": 923,
+        "languages": {
+            "Latin": 302,
+            "Cyrillic": 16,
+            "Greek": 2
+        }
+    },
+    "input-narrow": {
+        "added": "2016-01-16",
+        "author": "David Jonathan Ross",
+        "description": "Input is a flexible system of fonts designed specifically for code, and is free for personal use. This is the narrow version.",
+        "license": "commercial",
+        "ligatures": false,
+        "name": "Input Mono Narrow",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": "A download can be customized with dozens of weights, widths, dotted or slashed zeroes, and other styles.",
+        "website": "https://input.djr.com",
+        "year": 2014,
+        "zerostyle": "dotted",
+        "group": "input",
+        "glyphs": 922,
+        "characters": 923,
+        "languages": {
+            "Latin": 302,
             "Cyrillic": 16,
             "Greek": 2
         }

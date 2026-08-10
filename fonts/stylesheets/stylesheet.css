@@ -1301,6 +1301,102 @@
   src: url('../resources/ibm-vga/ibm-vga.woff2');
 }
 @font-face {
+  font-family: 'input';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/input/input-bold-italic.woff2');
+}
+@font-face {
+  font-family: 'input';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/input/input-bold.woff2');
+}
+@font-face {
+  font-family: 'input';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/input/input-italic.woff2');
+}
+@font-face {
+  font-family: 'input';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/input/input.woff2');
+}
+@font-face {
+  font-family: 'input-compressed';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/input-compressed/input-compressed-bold-italic.woff2');
+}
+@font-face {
+  font-family: 'input-compressed';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/input-compressed/input-compressed-bold.woff2');
+}
+@font-face {
+  font-family: 'input-compressed';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/input-compressed/input-compressed-italic.woff2');
+}
+@font-face {
+  font-family: 'input-compressed';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/input-compressed/input-compressed.woff2');
+}
+@font-face {
+  font-family: 'input-condensed';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/input-condensed/input-condensed-bold-italic.woff2');
+}
+@font-face {
+  font-family: 'input-condensed';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/input-condensed/input-condensed-bold.woff2');
+}
+@font-face {
+  font-family: 'input-condensed';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/input-condensed/input-condensed-italic.woff2');
+}
+@font-face {
+  font-family: 'input-condensed';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/input-condensed/input-condensed.woff2');
+}
+@font-face {
+  font-family: 'input-narrow';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/input-narrow/input-narrow-bold-italic.woff2');
+}
+@font-face {
+  font-family: 'input-narrow';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/input-narrow/input-narrow-bold.woff2');
+}
+@font-face {
+  font-family: 'input-narrow';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/input-narrow/input-narrow-italic.woff2');
+}
+@font-face {
+  font-family: 'input-narrow';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/input-narrow/input-narrow.woff2');
+}
+@font-face {
   font-family: 'intel-one-mono';
   font-weight: normal;
   font-style: normal;

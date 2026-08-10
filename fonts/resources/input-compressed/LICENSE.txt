@@ -1,0 +1,102 @@
+# License Summary
+
+## Mini Combined License
+
+* 3 workstations for print/desktop use
+* 15,000 monthly unique web visitors
+* 1 app or e-book
+
+            
+# DJR End User License Agreement
+
+This End User License Agreement is a legal agreement between you, the licensee, and me (DJR Type LLC).
+
+When you purchase a font from me, you are granted a perpetual, non-exclusive license to use the font.
+
+This agreement takes effect when you download or use the font, and is governed by the laws of the State of Massachusetts. I expressly reserve all rights not granted to you in this agreement. If you do not agree to or understand these terms, do not download or use the font.
+
+Fonts: For the purposes of this license, a “font” is defined as the font software, the designs embodied therein, and all supplemental materials provided along with the font software, as well as any future versions or upgrades.
+
+Limitations: This license is governed by “limitations” that define the maximum number of allowed desktop computer installations of the font, unique website visitors for websites using the font, and number of mobile apps and e-books using the font. The limitations of your license can be found in your Order Summary.
+
+If you do not have an order summary, if the limitation for a use is not listed in it, or if it includes the phrase For testing purposes only, you must use the font only for internal testing purposes. You must upgrade to a full and appropriate license before delivering or publishing any such use of the font.
+
+## General Terms
+
+You are permitted to use the font for personal and internal business use.
+
+Protection: This font is protected under United States copyright and trademark law.
+
+Distribution: Except in very specific instances described and permitted in this license, you may not distribute (share, rent, lend, give away, or sell) the font. You agree to take all reasonable steps to prevent unlicensed users from accessing, distributing, or re-serving the font file.
+
+Modifications: You are allowed to convert text set in the font into outlined vectors, and to modify those vectors. You may also subset and modify the font software itself for your own purposes; any derived versions of the font remain my property and are subject to the same license and limitations.
+
+License transfer: You are allowed to transfer this license to another individual, company, or organization so long as the following conditions are met:
+
+* The transferee must agree to the terms of this license and abide by its limitations.
+* You must delete all copies of the font in your possession.
+* You must notify me of the transfer and provide the name and contact information for the transferee.
+
+Upgrades: If any of your uses exceed the limitations of this license, you must contact me to purchase an upgrade for your license.
+
+Credit: You are not obligated to include a colophon or credit the font or its designer, but are more than welcome to do so.
+
+## Terms of Desktop/Print Use
+
+This license allows you to simultaneously install and use the font on a limited number of workstations belonging to you or a third party doing work on your behalf.
+
+Permitted desktop uses of the font include, but are not limited to, the design of printed materials, PDFs, static images, motion graphics, logos, and out-of-home advertising.
+
+Document embedding: You are allowed to embed the font in document formats that allow font embedding, such as PDF. The font must be embedded in such a way that the reader is restricted from changing its embedding permissions, extracting the complete font from the document, and creating or editing content using the font.
+
+Service bureaus and subcontractors: You are allowed to send the font to a third party subcontractor, printer, or service bureau that will use the font on your behalf, as long as the total number of simultaneous installations does not exceed your license limitations. They must agree to the terms of this license, use the font on your behalf and for no other purpose, and delete all copies of the font in their possession when the work is done.
+
+Internal servers: You may install the font on an internal server as long as you do not exceed the total number of workstations defined in your order summary.
+
+Backups: You may create a copy of the desktop font for backup purposes, as long as the backup copy cannot be accessed by anyone other than licensed users.
+
+Broadcast use: You are permitted to use the font to create titles and graphics for broadcast media such as film and television. If “Worldwide broadcasting rights” appears in your order summary or your license limitations include at least 25 desktop workstations, you are granted worldwide broadcasting rights to graphics made with the font on all broadcast media, including film and television.
+
+Special uses: You must contact me to obtain permission and a license extension before using the font in “alphabet product” where individual letterforms are for sale, or in products where an unlicensed user has access to the alphabet in full or the ability to create customized designs using the font.
+
+##Terms of Web Use
+
+This license allows you to use the font on websites using CSS @font-face, so long as the estimated traffic on that website meets the limitation defined in your order summary.
+
+Web traffic: Web traffic is measured by monthly unique visitors, or if your website does not record those, by monthly pageviews. If your website exceeds the web traffic limitation for six consecutive months, you must contact me to upgrade your license. I reserve the right to inspect or monitor your use.
+
+Domains: You are not limited to a specific number of domains or subdomains, so long as all websites using the font are operated by you, and the cumulative estimated traffic does not exceed the limitation.
+
+Formats: You may only serve web fonts in WOFF, WOFF2, EOT, and SVG formats.
+
+Server: You must host the font on your website’s server or on a CDN (content delivery network) where you host other website assets. You must make a reasonable effort to prevent unauthorized use or distribution of the font. If the server’s directory structure is publicly accessible, you must include the text of this license alongside the hosted files and clearly mark them as licensed assets.
+
+## Terms of App/E-book Use
+
+This license allows you to distribute the font by embedding it in a limited number of apps, mobile apps, or e-book/epub formats specified in your order summary. You must make a reasonable effort to secure the font and prevent it from unauthorized use.
+
+Platforms: Platform-specific versions of your app/e-book with the same title and functionality may be counted together as a single use.
+
+## Finally
+
+Rights: I reserve all rights not otherwise specified, make no guarantees, and disclaim all warranties except those proscribed by law.
+
+Termination: Your license does not expire and this agreement remains in effect until the license is terminated. If the license is terminated, you must discontinue use of the font and delete all copies that you control or possess.
+
+If you wish to terminate this agreement, delete the font and notify me. If you terminate within 30 days of your original purchase, I will refund your payment.
+
+I reserve the right to terminate the license if you breach any term of this agreement, without the obligation of notice or opportunity to cure. That said, I will make a good faith effort to allow you to upgrade your license so that you can operate within its terms. Grounds for termination include:
+
+* Using the font outside of the terms set in this license
+* Exceeding the agreed-upon limitations without purchasing an upgrade
+* Unauthorized distribution of the font, or other breaches of the terms stated above
+
+Liability: Under no circumstances am I responsible or liable for any issues or harm or physical damages that may result from the use of the font, even if notified in advance.
+
+If you encounter a problem with the font, I will make a good faith effort to provide you with documentation and support. If no solution can be found, I can offer you the option to terminate the license in exchange for a refund. A refund is not guaranteed in every instance and is up to my discretion.
+
+Legal Use: I reserve all rights to modify, enforce, and terminate this license to the extent that it is permitted by law. You are responsible for making sure that you are in compliance with all laws, foreign and domestic, that might apply to its purchase and use. Please do not use the font to typeset hate speech against any person or group based on something such as race, ethnicity, religion, gender, or sexual orientation.
+
+Questions: If you have any questions or concerns about this license, contact me at any time. https://djr.com/contact
+
+Thank you for abiding by the terms of this agreement and I hope you enjoy using the font!

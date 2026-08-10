@@ -158,18 +158,10 @@ export function selectFont () {
   data[font]['bitmap size'] ? fontsize.force(data[font]['bitmap size']) : fontsize.reset()
   data[font]['bitmap height'] ? spacing.force(data[font]['bitmap height']) : spacing.reset()
 
-  if (font === 'input') {
-    // because Input Mono is loaded via external @font-face file
-    codeMirror.style.fontFamily = 'Input Mono, monospace'
-    codeMirror.querySelectorAll('pre, textarea').forEach((element) => {
-      element.style.fontFamily = 'Input Mono, monospace'
-    })
-  } else {
-    codeMirror.style.fontFamily = `${font}, monospace`
-    codeMirror.querySelectorAll('pre, textarea').forEach((element) => {
-      element.style.fontFamily = `${font}, monospace`
-    })
-  }
+  codeMirror.style.fontFamily = `${font}, monospace`
+  codeMirror.querySelectorAll('pre, textarea').forEach((element) => {
+    element.style.fontFamily = `${font}, monospace`
+  })
 
   document.querySelectorAll('#select-font [data-alias]').forEach((element) => {
     element.classList.remove('active')

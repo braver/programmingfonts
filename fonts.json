@@ -2242,11 +2242,11 @@
         "website": "http://be5invis.github.io/Iosevka/",
         "year": 2015,
         "zerostyle": "slashed",
-        "glyphs": 46818,
-        "characters": 7571,
+        "glyphs": 46739,
+        "characters": 7582,
         "languages": {
-            "Latin": 503,
-            "Cyrillic": 82,
+            "Latin": 505,
+            "Cyrillic": 83,
             "Armenian": 2,
             "Greek": 1
         },
@@ -2265,11 +2265,11 @@
         "variants": "Iosevka Extended shares Iosevka's 7 weights, 3 slopes, and OpenType customizability with extended width.",
         "year": 2015,
         "zerostyle": "slashed",
-        "glyphs": 46821,
-        "characters": 7571,
+        "glyphs": 46739,
+        "characters": 7582,
         "languages": {
-            "Latin": 503,
-            "Cyrillic": 82,
+            "Latin": 505,
+            "Cyrillic": 83,
             "Armenian": 2,
             "Greek": 1
         },
@@ -2288,11 +2288,11 @@
         "variants": "Iosevka Slab shares Iosevka's 7 weights, 3 slopes, and OpenType customizability with slab-serif styling.",
         "year": 2015,
         "zerostyle": "slashed",
-        "glyphs": 46821,
-        "characters": 7571,
+        "glyphs": 46739,
+        "characters": 7582,
         "languages": {
-            "Latin": 503,
-            "Cyrillic": 82,
+            "Latin": 505,
+            "Cyrillic": 83,
             "Armenian": 2,
             "Greek": 1
         },
@@ -2311,11 +2311,11 @@
         "variants": "Iosevka Slab Extended shares Iosevka's 7 weights, 3 slopes, and OpenType customizability with slab-serif styling and extended width.",
         "year": 2015,
         "zerostyle": "slashed",
-        "glyphs": 46822,
-        "characters": 7571,
+        "glyphs": 46739,
+        "characters": 7582,
         "languages": {
-            "Latin": 503,
-            "Cyrillic": 82,
+            "Latin": 505,
+            "Cyrillic": 83,
             "Armenian": 2,
             "Greek": 1
         },

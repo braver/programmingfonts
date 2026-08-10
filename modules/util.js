@@ -100,10 +100,13 @@ window.revealLangs = (event) => {
 }
 
 function writeCoverage(data) {
-  let chars = `${data.glyphs} glyphs`
-  if (data.characters) {
-    chars += `, ${data.characters} characters. `
+  let chars = `${data.glyphs} glyphs, ${data.characters} characters`
+
+  if (data.cjk) {
+    chars += ` (${data.cjk} in CJK)`
   }
+
+  chars += '. '
 
   let langs = []
 

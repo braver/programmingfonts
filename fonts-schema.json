@@ -89,6 +89,7 @@
                 },
                 "glyphs": { "type": "integer" },
                 "characters": { "type": "integer" },
+                "cjk": { "type": "integer" },
                 "languages": {
                     "type": "object",
                     "patternProperties": {

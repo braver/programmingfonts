@@ -24,7 +24,8 @@
             "Cyrillic": 83,
             "Armenian": 2,
             "Greek": 1
-        }
+        },
+        "cjk": 30
     },
     "agave": {
         "added": "2018-10-23",
@@ -179,7 +180,8 @@
             "Cyrillic": 83,
             "Armenian": 2,
             "Greek": 1
-        }
+        },
+        "cjk": 30
     },
     "aporetic-serif": {
         "added": "2026-01-21",
@@ -206,7 +208,8 @@
             "Cyrillic": 83,
             "Armenian": 2,
             "Greek": 1
-        }
+        },
+        "cjk": 30
     },
     "atkinson-hyperlegible": {
         "added": "2025-02-18",
@@ -397,7 +400,8 @@
         "characters": 647,
         "languages": {
             "Latin": 211
-        }
+        },
+        "cjk": 112
     },
     "bitstream-vera": {
         "added": "bc",
@@ -561,7 +565,8 @@
             "Latin": 283,
             "Cyrillic": 7,
             "Greek": 1
-        }
+        },
+        "cjk": 103
     },
     "cascadia-code": {
         "added": "2019-09-21",
@@ -624,7 +629,8 @@
         "languages": {
             "Latin": 326,
             "Cyrillic": 7
-        }
+        },
+        "cjk": 11457
     },
     "cm-unicode": {
         "added": "2024-01-07",
@@ -956,7 +962,8 @@
         "languages": {
             "Latin": 274,
             "Cyrillic": 77
-        }
+        },
+        "cjk": 7
     },
     "cutive": {
         "added": "bc",
@@ -1002,7 +1009,8 @@
             "Cyrillic": 70,
             "Hangul": 1,
             "Greek": 1
-        }
+        },
+        "cjk": 16798
     },
     "daddytimemono": {
         "added": "2019-01-22",
@@ -1023,7 +1031,8 @@
         "characters": 434,
         "languages": {
             "Latin": 105
-        }
+        },
+        "cjk": 95
     },
     "dejavu": {
         "added": "bc",
@@ -1267,7 +1276,8 @@
         "languages": {
             "Latin": 283,
             "Cyrillic": 7
-        }
+        },
+        "cjk": 5
     },
     "envy-code-b": {
         "added": "2023-12-29",
@@ -1344,7 +1354,8 @@
             "Thai": 1,
             "Hiragana": 1,
             "Katakana": 1
-        }
+        },
+        "cjk": 440
     },
     "fairfax-hd": {
         "added": "2019-04-09",
@@ -1372,7 +1383,8 @@
             "Greek": 1,
             "Hiragana": 1,
             "Katakana": 1
-        }
+        },
+        "cjk": 568
     },
     "fairfax-hd-hax": {
         "added": "2023-07-22",
@@ -1400,7 +1412,8 @@
             "Greek": 1,
             "Hiragana": 1,
             "Katakana": 1
-        }
+        },
+        "cjk": 568
     },
     "fairfax-serif": {
         "added": "2019-04-09",
@@ -1430,7 +1443,8 @@
             "Thai": 1,
             "Hiragana": 1,
             "Katakana": 1
-        }
+        },
+        "cjk": 440
     },
     "fantasque-sans": {
         "added": "bc",
@@ -1532,7 +1546,8 @@
             "Latin": 302,
             "Cyrillic": 80,
             "Greek": 1
-        }
+        },
+        "cjk": 4
     },
     "fixedsys": {
         "added": "2014-11-19",
@@ -1586,7 +1601,8 @@
             "Thaana": 1,
             "Greek": 1,
             "Tamil": 1
-        }
+        },
+        "cjk": 43
     },
     "font3270": {
         "added": "2016-07-14",
@@ -1610,7 +1626,8 @@
             "Latin": 318,
             "Cyrillic": 83,
             "Greek": 2
-        }
+        },
+        "cjk": 117
     },
     "fragment-mono": {
         "added": "2023-07-03",
@@ -1673,7 +1690,8 @@
         "languages": {
             "Latin": 323,
             "Cyrillic": 42
-        }
+        },
+        "cjk": 40
     },
     "gintronic": {
         "added": "2021-03-09",
@@ -1705,7 +1723,8 @@
         "characters": 917,
         "languages": {
             "Latin": 309
-        }
+        },
+        "cjk": 14
     },
     "gnu-freefont": {
         "added": "bc",
@@ -2230,7 +2249,8 @@
             "Cyrillic": 82,
             "Armenian": 2,
             "Greek": 1
-        }
+        },
+        "cjk": 38
     },
     "iosevka-extended": {
         "added": "2026-06-12",
@@ -2252,7 +2272,8 @@
             "Cyrillic": 82,
             "Armenian": 2,
             "Greek": 1
-        }
+        },
+        "cjk": 38
     },
     "iosevka-slab": {
         "added": "2026-06-12",
@@ -2274,7 +2295,8 @@
             "Cyrillic": 82,
             "Armenian": 2,
             "Greek": 1
-        }
+        },
+        "cjk": 38
     },
     "iosevka-slab-extended": {
         "added": "2026-06-12",
@@ -2296,7 +2318,8 @@
             "Cyrillic": 82,
             "Armenian": 2,
             "Greek": 1
-        }
+        },
+        "cjk": 38
     },
     "ioskeley": {
         "added": "2025-09-20",
@@ -2331,7 +2354,8 @@
             "Cyrillic": 82,
             "Armenian": 2,
             "Greek": 1
-        }
+        },
+        "cjk": 30
     },
     "jetbrainsmono": {
         "added": "2020-01-15",
@@ -2392,7 +2416,8 @@
             "Ojibwe Syllabics": 1,
             "Inuktitut Syllabics": 1,
             "Greek": 1
-        }
+        },
+        "cjk": 322
     },
     "latin-modern": {
         "added": "bc",
@@ -2598,7 +2623,8 @@
             "Cyrillic": 82,
             "Armenian": 2,
             "Greek": 1
-        }
+        },
+        "cjk": 38
     },
     "maple": {
         "added": "2023-07-22",
@@ -3075,7 +3101,8 @@
         "characters": 6463,
         "languages": {
             "Latin": 327
-        }
+        },
+        "cjk": 5748
     },
     "nanum-gothic-coding": {
         "added": "2019-01-23",
@@ -3099,7 +3126,8 @@
             "Latin": 115,
             "Cyrillic": 7,
             "Hangul": 1
-        }
+        },
+        "cjk": 11714
     },
     "nimbus-mono": {
         "added": "2025-05-15",
@@ -3702,7 +3730,8 @@
         "characters": 1086,
         "languages": {
             "Latin": 288
-        }
+        },
+        "cjk": 3
     },
     "sergamon": {
         "added": "2026-04-08",
@@ -4255,7 +4284,8 @@
             "Bamum": 1,
             "Kannada": 1,
             "Hanunoo": 1
-        }
+        },
+        "cjk": 43055
     },
     "unifontex": {
         "added": "2023-09-17",
@@ -4319,7 +4349,8 @@
             "Chakma": 1,
             "Kannada": 1,
             "Hanunoo": 1
-        }
+        },
+        "cjk": 41472
     },
     "verily": {
         "added": "2014-11-23",

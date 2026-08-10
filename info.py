@@ -3,12 +3,14 @@ import argparse
 from os import path
 from hyperglot.checker import FontChecker
 from fontTools.ttLib import TTFont
+from unicode_blocks import cjk
 
 '''
 List various metadata about each font. Requires:
 fonttools - https://github.com/fonttools/fonttools
 hyperglot - https://github.com/rosettatype/hyperglot
 brotli (for woff files) - https://github.com/google/brotli
+unicode-blocks-py - https://github.com/NightFurySL2001/unicode-blocks-py
 
 Note that the report will be slightly different after woff2 conversion!
 '''
@@ -72,6 +74,34 @@ lang_count = {
 }
 
 
+def load_cjk_ranges():
+    ranges = []
+    for block in cjk.get_cjk_blocks():
+        # https://github.com/NightFurySL2001/unicode-blocks-py/blob/main/src/unicode_blocks/unicodeBlock.py
+        # a block has a name, a start and an end
+        ranges.append((block.start, block.end))
+
+    # ensure uniqueness and sort
+    ranges = sorted(set(ranges))
+    return ranges
+
+
+def cjk_covered(tables):
+    codepoints = set()
+    for table in tables:
+        if getattr(table, 'cmap', None):
+            codepoints.update(int(cp) for cp in table.cmap.keys())
+
+    covered = 0
+    ranges = load_cjk_ranges()
+    for cp in codepoints:
+        for start, end in ranges:
+            if start <= cp <= end:
+                covered += 1
+                break
+    return covered
+
+
 with open('fonts.json', 'r+') as user_file:
     file_contents = user_file.read()
 
@@ -122,6 +152,13 @@ with open('fonts.json', 'r+') as user_file:
         encoding 0 = roman, 1 = unicode
         '''
 
+        # find number of CJK characters in the font
+        cjk_count = cjk_covered(font['cmap'].tables)
+        if cjk_count > 2:  # some low numbers, perhaps false positive?
+            print('CJK covered codepoints:', cjk_count)
+            data[key]['cjk'] = cjk_count
+
+        # run hyperglot's language coverage checker
         try:
             checker = FontChecker(font_file)
             print(len(checker.characters))  # encoded characters

@@ -335,7 +335,6 @@ section.config {
 
 section#filters {
     align-items: stretch;
-    grid-template-columns: auto auto auto;
     margin: 6px 0 0 6px;
     box-shadow: 0 0 6px rgba(0,0,0,0.1);
     position: relative;

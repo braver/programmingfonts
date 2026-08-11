@@ -6,7 +6,8 @@ export class Filters {
     rendering: false,
     liga: false,
     zerostyle: false,
-    name: ''
+    name: '',
+    script: ''
   }
 
   fontData = {}
@@ -21,20 +22,50 @@ export class Filters {
     }
   }
 
+  nameMatches (data) {
+    return (
+      !this.filters.name ||
+      data.name.toLowerCase().indexOf(this.filters.name) > -1 ||
+      data.author.toLowerCase().indexOf(this.filters.name) > -1 ||
+      data.year.toString().indexOf(this.filters.name) > -1
+    )
+  }
+
+  scriptMatches (data) {
+    if (this.filters.script === '') {
+      return true
+    }
+    if (this.filters.script === 'CJK') {
+      return data.cjk !== undefined
+    }
+
+    if (data.languages === undefined) {
+      return false
+    }
+
+    return data.languages[this.filters.script] !== undefined
+  }
+
   init () {
-    const sortSelect = document.getElementById('sort-list')
-    sortSelect.onchange = () => {
-      localStorage.setItem('sort-mode', sortSelect.value)
+    document.getElementById('sort-list').onchange = (event) => {
+      localStorage.setItem('sort-mode', event.target.value)
       this.renderCallback()  // rerender in the new sort order
       this.apply()           // re-apply filtering
       util.selectFont()      // re-select current font
+    }
+
+    document.getElementById('script-list').onchange = (event) => {
+      this.filters.script = event.target.value
+      this.apply()
+    }
+    if (this.filters.script) {
+      document.getElementById('script-list').value = this.filters.script
     }
 
     document.getElementById('name-search').onkeyup = (event) => {
       this.filters.name = event.target.value.toLowerCase()
       this.apply()
     }
-
     if (this.filters.name) {
       document.getElementById('name-search').value = this.filters.name
     }
@@ -108,25 +139,21 @@ export class Filters {
       }
     })
 
-    const nameMatches = (data) => (
-      !this.filters.name ||
-      data.name.toLowerCase().indexOf(this.filters.name) > -1 ||
-      data.author.toLowerCase().indexOf(this.filters.name) > -1 ||
-      data.year.toString().indexOf(this.filters.name) > -1
-    )
-
     document.querySelectorAll('.entry[data-alias]').forEach((element) => {
       const data = this.fontData[element.dataset.alias]
       const isChild = !!element.dataset.group
 
       if (
         (!this.filters.style || data.style === this.filters.style) &&
-              (!this.filters.rendering || data.rendering === this.filters.rendering) &&
-              (!this.filters.liga ||
-                  (data.ligatures === false && this.filters.liga === 'no') ||
-                  (data.ligatures === true && this.filters.liga === 'yes')) &&
-              (!this.filters.zerostyle || data.zerostyle === this.filters.zerostyle) &&
-              (isChild || nameMatches(data))
+        (!this.filters.rendering || data.rendering === this.filters.rendering) &&
+        (
+            !this.filters.liga ||
+            (data.ligatures === false && this.filters.liga === 'no') ||
+            (data.ligatures === true && this.filters.liga === 'yes')
+        ) &&
+        (!this.filters.zerostyle || data.zerostyle === this.filters.zerostyle) &&
+        this.scriptMatches(data) &&
+        (isChild || this.nameMatches(data))
       ) {
         element.classList.remove('filtered-out')
         if (!isChild) count++
@@ -137,7 +164,7 @@ export class Filters {
 
     document.querySelectorAll('.entry[data-alias]:not([data-group]).filtered-out').forEach((parent) => {
       const parentData = this.fontData[parent.dataset.alias]
-      if (!nameMatches(parentData)) return
+      if (!this.nameMatches(parentData)) return
       const hasVisibleChild = !!document.querySelector(`.entry.group-child[data-group='${parent.dataset.alias}']:not(.filtered-out)`)
       if (hasVisibleChild) {
         parent.classList.remove('filtered-out')
@@ -147,7 +174,7 @@ export class Filters {
 
     document.querySelectorAll('.entry.group-child:not(.filtered-out)').forEach((child) => {
       const parentData = this.fontData[child.dataset.group]
-      if (parentData && !nameMatches(parentData)) {
+      if (parentData && !this.nameMatches(parentData)) {
         child.classList.add('filtered-out')
       }
     })

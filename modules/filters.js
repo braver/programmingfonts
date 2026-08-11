@@ -17,7 +17,7 @@ export class Filters {
 
     const stored_filters = JSON.parse(localStorage.getItem('filters') ?? '{}')
     if (Object.keys(stored_filters).length) {
-      this.filters = stored_filters
+      this.filters = {...this.filters, ...stored_filters}
     }
   }
 

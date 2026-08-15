@@ -1,16 +1,14 @@
 import json
 import argparse
-from os import path
+from os import path, unlink
 from hyperglot.checker import FontChecker
-from fontTools.ttLib import TTFont
+from fontTools.ttLib import TTFont, woff2
 
 '''
 List various metadata about each font. Requires:
 fonttools - https://github.com/fonttools/fonttools
 hyperglot - https://github.com/rosettatype/hyperglot
 brotli (for woff files) - https://github.com/google/brotli
-
-Note that the report will be slightly different after woff2 conversion!
 '''
 
 # optional --name foo arguments
@@ -123,7 +121,8 @@ with open('fonts.json', 'r+') as user_file:
         '''
 
         try:
-            checker = FontChecker(font_file)
+            woff2.decompress(font_file, 'tmp.otf')
+            checker = FontChecker('tmp.otf')
             print(len(checker.characters))  # encoded characters
             data[key]['characters'] = len(checker.characters)
             print('langs:')
@@ -132,6 +131,7 @@ with open('fonts.json', 'r+') as user_file:
             for lang in langs:
                 print(lang, len(langs[lang]), lang_count[lang])
                 data[key]['languages'][str(lang)] = len(langs[lang])
+            unlink('tmp.otf')
         except Exception:
             print('language support could not be detected')
 

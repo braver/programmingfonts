@@ -3652,14 +3652,15 @@
         "name": "Roboto Mono",
         "rendering": "vector",
         "style": "sans",
-        "variants": "5 weights, each with italics.",
+        "variants": "A variable font across weight and width, with italics.",
         "website": "https://fonts.google.com/specimen/Roboto+Mono",
         "year": 2015,
         "zerostyle": "slashed",
-        "glyphs": 241,
-        "characters": 235,
+        "glyphs": 999,
+        "characters": 876,
         "languages": {
-            "Latin": 211
+            "Latin": 313,
+            "Cyrillic": 78
         }
     },
     "sax": {

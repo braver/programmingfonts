@@ -3462,10 +3462,10 @@
         "website": "http://tobiasjung.name/profont/",
         "year": 1987,
         "zerostyle": "slashed",
-        "glyphs": 235,
-        "characters": 233,
+        "glyphs": 263,
+        "characters": 261,
         "languages": {
-            "Latin": 207
+            "Latin": 213
         }
     },
     "proggy-clean": {
@@ -3485,8 +3485,8 @@
         "website": "https://github.com/bluescan/proggyfonts/",
         "year": 2004,
         "zerostyle": "dotted",
-        "glyphs": 277,
-        "characters": 275,
+        "glyphs": 257,
+        "characters": 256,
         "languages": {
             "Latin": 202
         }
@@ -3678,10 +3678,10 @@
         "website": "http://www.fontsquirrel.com/fonts/saxMono",
         "year": 2009,
         "zerostyle": "empty",
-        "glyphs": 235,
-        "characters": 233,
+        "glyphs": 492,
+        "characters": 489,
         "languages": {
-            "Latin": 207
+            "Latin": 274
         }
     },
     "scientifica": {
@@ -3844,10 +3844,10 @@
         "website": "https://seankanedesign.gumroad.com/l/sk-modernist",
         "year": 2015,
         "zerostyle": "slashed",
-        "glyphs": 231,
-        "characters": 228,
+        "glyphs": 529,
+        "characters": 491,
         "languages": {
-            "Latin": 211
+            "Latin": 306
         }
     },
     "sligoil": {
@@ -4089,10 +4089,10 @@
         "website": "http://www.gust.org.pl/projects/e-foundry/tex-gyre",
         "year": 2006,
         "zerostyle": "empty",
-        "glyphs": 232,
-        "characters": 231,
+        "glyphs": 1087,
+        "characters": 673,
         "languages": {
-            "Latin": 211
+            "Latin": 322
         }
     },
     "topaz-a1200": {
@@ -4332,10 +4332,10 @@
         "website": "https://www.fontsquirrel.com/fonts/Verily-Serif-Mono",
         "year": 2006,
         "zerostyle": "dotted",
-        "glyphs": 226,
-        "characters": 225,
+        "glyphs": 244,
+        "characters": 233,
         "languages": {
-            "Latin": 211
+            "Latin": 222
         }
     },
     "victor-mono": {

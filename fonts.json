@@ -2673,10 +2673,12 @@
         "website": "https://github.com/andreberg/Meslo-Font",
         "year": 2010,
         "zerostyle": "slashed",
-        "glyphs": 232,
-        "characters": 230,
+        "glyphs": 2708,
+        "characters": 2684,
         "languages": {
-            "Latin": 211
+            "Latin": 513,
+            "Cyrillic": 76,
+            "Greek": 2
         }
     },
     "miracode": {

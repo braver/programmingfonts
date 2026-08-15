@@ -2976,10 +2976,11 @@
         "website": "http://www.dafont.com/monofur.font",
         "year": 2000,
         "zerostyle": "dotted",
-        "glyphs": 232,
-        "characters": 230,
+        "glyphs": 675,
+        "characters": 660,
         "languages": {
-            "Latin": 211
+            "Latin": 282,
+            "Cyrillic": 12
         }
     },
     "monoid": {

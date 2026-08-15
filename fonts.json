@@ -1311,8 +1311,38 @@
         "website": "http://www.kreativekorp.com/software/fonts/fairfax.shtml",
         "year": 2008,
         "zerostyle": "slashed",
-        "glyphs": 16156,
-        "characters": 16153,
+        "glyphs": 26946,
+        "characters": 25827,
+        "languages": {
+            "Latin": 527,
+            "Cyrillic": 93,
+            "Hebrew": 5,
+            "Greek": 3,
+            "Armenian": 2,
+            "Thai": 1
+        }
+    },
+    "fairfax-hax": {
+        "added": "2019-04-09",
+        "author": "Rebecca G. Bettencourt",
+        "bitmap size": 12,
+        "description": "Fairfax is a 6x12 bitmap font for terminals, text editors, IDEs, etc. The hax variant adds programming ligatures.",
+        "group": "fairfax",
+        "license": "SIL OFL",
+        "ligatures": true,
+        "name": "Fairfax Hax",
+        "rendering": "bitmap",
+        "style": "sans",
+        "variants": [
+            "regular",
+            "italic",
+            "bold"
+        ],
+        "website": "http://www.kreativekorp.com/software/fonts/fairfax.shtml",
+        "year": 2008,
+        "zerostyle": "slashed",
+        "glyphs": 26946,
+        "characters": 25827,
         "languages": {
             "Latin": 527,
             "Cyrillic": 93,
@@ -1378,7 +1408,7 @@
         "added": "2019-04-09",
         "author": "Rebecca G. Bettencourt",
         "bitmap size": 12,
-        "description": "Fairfax is a 6x12 bitmap font for terminals, text editors, IDEs, etc. It supports many scripts and a large number of Unicode blocks as well as constructed scripts as encoded in the Under-ConScript Unicode Registry, pseudographics and semigraphics, and tons of private use characters.",
+        "description": "Fairfax is a 6x12 bitmap font for terminals, text editors, IDEs, etc. This is the variant with serifs.",
         "group": "fairfax",
         "license": "SIL OFL",
         "ligatures": false,
@@ -1391,8 +1421,36 @@
         "website": "https://www.kreativekorp.com/software/fonts/fairfax/",
         "year": 2008,
         "zerostyle": "slashed",
-        "glyphs": 16156,
-        "characters": 16153,
+        "glyphs": 26946,
+        "characters": 25827,
+        "languages": {
+            "Latin": 527,
+            "Cyrillic": 93,
+            "Hebrew": 5,
+            "Greek": 3,
+            "Armenian": 2,
+            "Thai": 1
+        }
+    },
+    "fairfax-serif-hax": {
+        "added": "2019-04-09",
+        "author": "Rebecca G. Bettencourt",
+        "bitmap size": 12,
+        "description": "Fairfax is a 6x12 bitmap font for terminals, text editors, IDEs, etc. This is the variant with serifs, and added programming ligatures.",
+        "group": "fairfax",
+        "license": "SIL OFL",
+        "ligatures": true,
+        "name": "Fairfax Serif Hax",
+        "rendering": "bitmap",
+        "style": "serif",
+        "variants": [
+            "regular"
+        ],
+        "website": "https://www.kreativekorp.com/software/fonts/fairfax/",
+        "year": 2008,
+        "zerostyle": "slashed",
+        "glyphs": 26946,
+        "characters": 25827,
         "languages": {
             "Latin": 527,
             "Cyrillic": 93,

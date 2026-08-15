@@ -953,6 +953,24 @@
   src: url('../resources/fairfax/fairfax.woff2');
 }
 @font-face {
+  font-family: 'fairfax-hax';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/fairfax-hax/fairfax-hax-bold.woff2');
+}
+@font-face {
+  font-family: 'fairfax-hax';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/fairfax-hax/fairfax-hax-italic.woff2');
+}
+@font-face {
+  font-family: 'fairfax-hax';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/fairfax-hax/fairfax-hax.woff2');
+}
+@font-face {
   font-family: 'fairfax-hd';
   font-weight: normal;
   font-style: normal;
@@ -969,6 +987,12 @@
   font-weight: normal;
   font-style: normal;
   src: url('../resources/fairfax-serif/fairfax-serif.woff2');
+}
+@font-face {
+  font-family: 'fairfax-serif-hax';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/fairfax-serif-hax/fairfax-serif-hax.woff2');
 }
 @font-face {
   font-family: 'fantasque-sans';

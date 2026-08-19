@@ -582,7 +582,7 @@
         "rendering": "vector",
         "style": "sans",
         "variants": "A variable font in 9 weights, each with italics.",
-        "website": "https://www.omnibus-type.com/variable-fonts/#chivo-mono",
+        "website": "https://www.omnibus-type.com/fonts/chivo/",
         "year": 2022,
         "zerostyle": "empty",
         "glyphs": 873,
@@ -791,6 +791,7 @@
             "bold",
             "bold-italic"
         ],
+        "website": "https://github.com/dse/font-og-courier",
         "year": 2021,
         "zerostyle": "dotted",
         "glyphs": 476,
@@ -815,6 +816,7 @@
             "bold",
             "bold-italic"
         ],
+        "website": "https://github.com/dse/font-og-courier",
         "year": 2021,
         "zerostyle": "slashed",
         "glyphs": 476,
@@ -862,6 +864,7 @@
             "regular",
             "italic"
         ],
+        "website": "https://quoteunquoteapps.com/courierprime",
         "year": 2013,
         "zerostyle": "slashed",
         "glyphs": 411,
@@ -886,6 +889,7 @@
             "bold",
             "bold-italic"
         ],
+        "website": "https://quoteunquoteapps.com/courierprime",
         "year": 2013,
         "zerostyle": "empty",
         "glyphs": 411,
@@ -2062,6 +2066,7 @@
             "regular",
             "bold"
         ],
+        "website": "https://levien.com/type/myfonts/inconsolata.html",
         "year": 2001,
         "zerostyle": "slashed",
         "glyphs": 304,
@@ -2083,6 +2088,7 @@
         "variants": [
             "regular"
         ],
+        "website": "https://levien.com/type/myfonts/inconsolata.html",
         "year": 2001,
         "zerostyle": "slashed",
         "glyphs": 359,
@@ -2262,6 +2268,7 @@
         "rendering": "vector",
         "style": "sans",
         "variants": "Iosevka Extended shares Iosevka's 7 weights, 3 slopes, and OpenType customizability with extended width.",
+        "website": "http://be5invis.github.io/Iosevka/",
         "year": 2015,
         "zerostyle": "slashed",
         "glyphs": 46821,
@@ -2284,6 +2291,7 @@
         "rendering": "vector",
         "style": "serif",
         "variants": "Iosevka Slab shares Iosevka's 7 weights, 3 slopes, and OpenType customizability with slab-serif styling.",
+        "website": "http://be5invis.github.io/Iosevka/",
         "year": 2015,
         "zerostyle": "slashed",
         "glyphs": 46821,
@@ -2306,6 +2314,7 @@
         "rendering": "vector",
         "style": "serif",
         "variants": "Iosevka Slab Extended shares Iosevka's 7 weights, 3 slopes, and OpenType customizability with slab-serif styling and extended width.",
+        "website": "http://be5invis.github.io/Iosevka/",
         "year": 2015,
         "zerostyle": "slashed",
         "glyphs": 46822,

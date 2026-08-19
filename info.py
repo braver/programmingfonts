@@ -4,11 +4,17 @@ from os import path, unlink
 from hyperglot.checker import FontChecker
 from fontTools.ttLib import TTFont, woff2
 
+import cjk
+
 '''
 List various metadata about each font. Requires:
 fonttools - https://github.com/fonttools/fonttools
 hyperglot - https://github.com/rosettatype/hyperglot
 brotli (for woff files) - https://github.com/google/brotli
+
+CJK coverage comes from cjk.py in this repo, which needs nothing beyond
+fonttools. Run `python3 cjk.py` on its own to see the numbers per writing
+system rather than just the counts written here.
 '''
 
 # optional --name foo arguments
@@ -112,6 +118,21 @@ with open('fonts.json', 'r+') as user_file:
 
         print(font['maxp'].numGlyphs)
         data[key]['glyphs'] = int(font['maxp'].numGlyphs)
+
+        '''
+        How much of each East Asian writing system this font covers, as a count
+        per tier. Hyperglot is all-or-nothing per language, which for CJK means
+        a font missing a couple of rare marks reports no coverage at all, so
+        these are measured separately. fontTools reads woff2 directly, so unlike
+        the language check below this needs no decompressed copy.
+        '''
+        covered = cjk.coverage(font_file)
+        if covered:
+            print('cjk:', covered)
+            data[key]['cjk'] = covered
+        elif 'cjk' in data[key]:
+            # the font was replaced by one without CJK; don't leave stale data
+            del data[key]['cjk']
 
         '''
         name table:

@@ -94,6 +94,24 @@
                     "patternProperties": {
                         "^[a-zA-Z]+$": { "type": "integer" }
                     }
+                },
+                "cjk": {
+                    "$comment": "coverage per writing system, written by cjk.py; the maximums are that script's tier totals -- keep the two in step",
+                    "type": "object",
+                    "properties": {
+                        "gb2312-1": { "type": "integer", "minimum": 1, "maximum": 3755 },
+                        "gb2312-2": { "type": "integer", "minimum": 1, "maximum": 3008 },
+                        "big5-1": { "type": "integer", "minimum": 1, "maximum": 5401 },
+                        "big5-2": { "type": "integer", "minimum": 1, "maximum": 7652 },
+                        "jis0208-1": { "type": "integer", "minimum": 1, "maximum": 2965 },
+                        "jis0208-2": { "type": "integer", "minimum": 1, "maximum": 3390 },
+                        "hanja": { "type": "integer", "minimum": 1, "maximum": 4888 },
+                        "hangul": { "type": "integer", "minimum": 1, "maximum": 11172 },
+                        "hiragana": { "type": "integer", "minimum": 1, "maximum": 86 },
+                        "katakana": { "type": "integer", "minimum": 1, "maximum": 90 }
+                    },
+                    "additionalProperties": false,
+                    "minProperties": 1
                 }
             },
             "additionalProperties": false,

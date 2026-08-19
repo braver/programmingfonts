@@ -35,6 +35,70 @@ The glyphs, characters and languages data can be added to the JSON by running th
 python3 info.py --name yourfont
 ```
 
+### CJK coverage
+
+`info.py` also records how much of each East Asian writing system a font covers,
+in a `cjk` object. This is measured separately from the `languages` data because
+Hyperglot treats a language as covered only at 100%, which for CJK is
+misleading: M PLUS 1 Code has every kanji and every hiragana on Hyperglot's
+Japanese list and all but two of its katakana — the two being rare marks almost
+nobody types — so it reports no Japanese support at all.
+
+Each tier is stored as a **count**, not a percentage, matching how `languages`
+works — the totals live in the front end, so a filter threshold can be changed
+without re-running the script over every font.
+
+| key | what it counts | total | standard |
+|---|---|---|---|
+| `gb2312-1` | everyday Simplified Chinese hanzi | 3,755 | GB/T 2312-1980 level 1 |
+| `gb2312-2` | rarer hanzi: names, places, classical | 3,008 | GB/T 2312-1980 level 2 |
+| `big5-1` | everyday Traditional Chinese hanzi | 5,401 | Big5 common |
+| `big5-2` | rarer hanzi | 7,652 | Big5 less common |
+| `jis0208-1` | everyday Japanese kanji | 2,965 | JIS X 0208 level 1 |
+| `jis0208-2` | rarer kanji | 3,390 | JIS X 0208 level 2 |
+| `hanja` | Korean hanja | 4,888 | KS X 1001:2004 |
+| `hangul` | modern Hangul syllables | 11,172 | U+AC00..U+D7A3 |
+| `hiragana` | hiragana | 86 | U+3041..U+3096 |
+| `katakana` | katakana | 90 | U+30A1..U+30FA |
+
+Hiragana and katakana are counted separately because fonts ship one without the
+other: Cartograph has all 90 katakana and no hiragana, which a combined number
+would report as a meaningless 51%.
+
+#### Where these numbers come from
+
+The four Han tiers are not Unicode blocks — "CJK Unified Ideographs" and its
+extensions run to about 100,000 code points, most of which nobody types, so
+measuring against them makes even Unifont look like it covers 20% of CJK.
+Instead each tier is the set of characters a national standard defines, which
+`cjk.py` enumerates by decoding that standard's byte ranges with the matching
+codec from Python's standard library. No extra dependency and no data file to
+keep up to date.
+
+The byte ranges are hardcoded, so `cjk_verify.py` proves they are right rather
+than asking anyone to take them on trust. Unihan records, for every ideograph,
+which national standards it came from
+([UAX #38](https://www.unicode.org/reports/tr38/) `kIRG_*Source`), so the sets
+can be rebuilt from Unicode's own data and compared:
+
+```sh
+python3 cjk_verify.py          # downloads ~8MB from unicode.org
+```
+
+Last run against UCD 17.0 (Unihan of 2025-08-18):
+
+| tier | vs Unihan | result |
+|---|---|---|
+| GB/T 2312 | `G0`, 6,763 | identical |
+| JIS X 0208 | `J0`, 6,356 | Unihan has one extra, 仝 (U+4EDD), which sits in JIS X 0208's symbol rows rather than the two kanji levels |
+| KS X 1001 | `K0`, 4,888 | same count; the two pick different compatibility code points for 郎/郞 and 隸/隷 |
+| Big5 | `T1`+`T2`, 13,064 | 13,049 in common. Unihan has no Big5 tag — `T1`/`T2` are CNS 11643 planes 1 and 2, a different standard covering nearly the same characters |
+
+A count says whether a font *can* set text in a language, not whether it does so
+well. Han characters are shared between these standards but drawn to different
+regional conventions, and only the `cmap` is inspected here, so a font can cover
+Big5 with glyphs drawn to Japanese conventions.
+
 ### Development
 
 - Running `make` installs dependencies, lints, validates `fonts.json` (against [fonts-schema.json](https://github.com/braver/programmingfonts/blob/gh-pages/fonts-schema.json) and `validate.js`), and builds the stylesheet.

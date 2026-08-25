@@ -42,6 +42,17 @@ python3 info.py --name yourfont
 - Run `make serve` to preview the site locally (`python3 -m http.server`).
 - Run `make list` (or `python3 listing.py`) to print an updated list of all the fonts, be sure to update this README with your addition.
 
+## Limitations of this project
+
+There are sometimes near infinite variations of certain fonts. Take for instance the variable weights and all the options of a configurable font like [Commit Mono](https://commitmono.com). Certain fonts also come with dozens of (OpenType) variations to change shapes of characters, zero styles, ligatures, etc. We hint at these possibilities in programmingfonts.org, but for details you really need to explore the websites of these fonts, and tools like [FontDrop](https://fontdrop.info).
+
+Therefore:
+
+- We only include the basic 4 styles of any font to ensure correct rendering in the preview, but don't let you explore all the weights and variations.
+- Open type alternatives for zero style, and others (for instance all the different variations possible with [Input Mono](https://input.djr.com)) are not exposed.
+- Programming ligatures (e.g. `=>`) are switched on, but if you don't like them most editors will allow you to switch them off.
+- We display number of languages supported per script, as reported by [Hyperglot](https://hyperglot.rosettatype.com/). Not all the hundreds of languages individually. This also means that if a font supports Katakana, but not also Hiragana and Kanji, its support for Katakana is not mentioned since there are not enough characters in the font to cover a complete language. 
+
 ## Notable omissions
 
 A complete list of fonts in this project is all the way at the bottom of this README. However, some fonts are not included in the project:
@@ -110,17 +121,6 @@ These fonts combine different fonts, that are mostly already featured on this we
 - Sarasa-Gothic: https://github.com/be5invis/Sarasa-Gothic A CJK programming font based on Iosevka and Source Han Sans.
 
 The PICO-8 project combines and tweaks several fonts for PICO-8 programming: https://github.com/juanitogan/p8-programming-fonts
-
-## Limitations of this project
-
-There are sometimes near infinite variations of certain fonts. Take for instance the variable weights and all the options of a configurable font like [Commit Mono](https://commitmono.com). Certain fonts also come with dozens of (OpenType) variations to change shapes of characters, zero styles, ligatures, etc. We hint at these possibilities in programmingfonts.org, but for details you really need to explore the websites of these fonts.
-
-Therefore:
-
-- We only include the basic 4 styles of any font to ensure correct rendering in the preview, but don't let you explore all the weights and variations.
-- Open type alternatives for zero style, and others (for instance all the different variations possible with [Input Mono](https://input.djr.com)) are not exposed.
-- Programming ligatures (e.g. `=>`) are switched on, but if you don't like them most editors will allow you to switch them off.
-- Character set coverage and other valuable information, e.g. if a font has true italics, is not exposed. If you have specific use cases, known candidates for wide character set coverage include Noto, DejaVu and GNU Unifont, whereas M+ covers most CJK sets.
 
 ## All the fonts
 

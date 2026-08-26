@@ -18,7 +18,7 @@ Please feel free to make a little donation via to keep this labour of love runni
   - Which adheres to [a schema](https://github.com/braver/programmingfonts/blob/gh-pages/fonts-schema.json).
 - Font files are stored in [fonts/resources](https://github.com/braver/programmingfonts/tree/gh-pages/fonts/resources).
   - We store only 4 variants (if available), in `.woff2` format: regular, italic, bold, bold+italic.
-  - If you don't have a `.woff2` you can use `convert.py` to create them off the ttf/otf file.
+  - If you don't have a `.woff2` you can use `tools/convert.py` to create them off the ttf/otf file.
 - All font files (and directories) are normalized to lowercase, without `-mono` unless it's really part of the name.
 - Each font lives in a directory named after its alias, and the variant files within follow a consistent naming scheme based on that alias:
   - regular: no suffix, e.g. `iosevka/iosevka.woff2`
@@ -34,8 +34,8 @@ Please feel free to make a little donation via to keep this labour of love runni
 - Running `make` installs dependencies, lints, validates `fonts.json` (against [fonts-schema.json](https://github.com/braver/programmingfonts/blob/gh-pages/fonts-schema.json) and `validate.js`), and builds the stylesheet.
   - The stylesheet [stylesheet.css](https://github.com/braver/programmingfonts/blob/gh-pages/fonts/stylesheets/stylesheet.css) is generated from `fonts.less` via `npx lessc` — don't edit it by hand; edit `fonts.less` and rebuild.
 - Run `make serve` to preview the site locally (`python3 -m http.server`).
-- Run `make list` (or `python3 listing.py`) to print an updated list of all the fonts, be sure to update this README with your addition.
-- Run `python3 info.py --name yourfont` to add glyph, character and language counts.
+- Run `make list` to print an updated list of all the fonts, be sure to update this README with your addition.
+- Run `python3 tools/info.py --name yourfont` to add glyph, character and language counts.
 
 ## Limitations of this project
 
@@ -109,12 +109,6 @@ Some bitmap fonts are only available in (Windows) FON files. Sometimes conversio
 
 For "the world's biggest collection of classic text mode fonts, system fonts and BIOS fonts from DOS-era IBM PCs and compatibles", please have a look here: https://int10h.org/oldschool-pc-fonts/.
 
-### Mixed fonts
-
-These fonts combine different fonts, that are mostly already featured on this website, to create a complete set of characters for both latin script, and CJK:
-- Ricty Diminished: https://github.com/edihbrandon/RictyDiminished (combines Inconsolata for Latin script with M+ for others)
-- Sarasa-Gothic: https://github.com/be5invis/Sarasa-Gothic A CJK programming font based on Iosevka and Source Han Sans.
-
 The PICO-8 project combines and tweaks several fonts for PICO-8 programming: https://github.com/juanitogan/p8-programming-fonts
 
 ## All the fonts
@@ -145,7 +139,8 @@ The PICO-8 project combines and tweaks several fonts for PICO-8 programming: htt
 - [CamingoCode](http://www.janfromm.de/typefaces/camingomono/camingocode) _CC BY-ND 3.0_ ([view](https://www.programmingfonts.org/#camingocode))
 - [Cartograph](https://connary.com/cartograph.html) _commercial_ ([view](https://www.programmingfonts.org/#cartograph))
 - [Cascadia Code](https://github.com/microsoft/cascadia-code) _SIL OFL_ ([view](https://www.programmingfonts.org/#cascadia-code))
-- [Chivo Mono](https://www.omnibus-type.com/variable-fonts/#chivo-mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#chivo))
+- [Chivo Mono](https://www.omnibus-type.com/fonts/chivo/) _SIL OFL_ ([view](https://www.programmingfonts.org/#chivo))
+- [Cilantro Code Mono](https://github.com/DraftingDreamer/FontCilantroCode) _SIL OFL_ ([view](https://www.programmingfonts.org/#cilantro-code-mono))
 - [Computer Modern Unicode Typewriter](https://cm-unicode.sourceforge.io) _SIL OFL_ ([view](https://www.programmingfonts.org/#cm-unicode))
 - [Code New Roman](https://fontlibrary.org/en/font/code-new-roman) _SIL OFL_ ([view](https://www.programmingfonts.org/#code-new-roman))
 - [Comic Mono](https://dtinth.github.io/comic-mono-font/) _MIT_ ([view](https://www.programmingfonts.org/#comic-mono))
@@ -153,7 +148,11 @@ The PICO-8 project combines and tweaks several fonts for PICO-8 programming: htt
 - [Commit Mono](https://commitmono.com) _SIL OFL_ ([view](https://www.programmingfonts.org/#commit-mono))
 - [Consola Mono](http://openfontlibrary.org/en/font/consolamono) _SIL OFL_ ([view](https://www.programmingfonts.org/#consolamono))
 - [IBM Courier](https://github.com/dse/font-og-courier) _permissive_ ([view](https://www.programmingfonts.org/#courier-ibm))
+- [IBM Courier (dot)](https://github.com/dse/font-og-courier) _permissive_ ([view](https://www.programmingfonts.org/#courier-ibm-dotted))
+- [IBM Courier (slash)](https://github.com/dse/font-og-courier) _permissive_ ([view](https://www.programmingfonts.org/#courier-ibm-slashed))
 - [Courier Prime](https://quoteunquoteapps.com/courierprime) _SIL OFL_ ([view](https://www.programmingfonts.org/#courier-prime))
+- [Courier Prime Code](https://quoteunquoteapps.com/courierprime) _SIL OFL_ ([view](https://www.programmingfonts.org/#courier-prime-code))
+- [Courier Prime Sans](https://quoteunquoteapps.com/courierprime) _SIL OFL_ ([view](https://www.programmingfonts.org/#courier-prime-sans))
 - [Cousine](http://www.fontsquirrel.com/fonts/cousine) _Apache_ ([view](https://www.programmingfonts.org/#cousine))
 - [Cozette](https://github.com/slavfox/Cozette) _MIT_ ([view](https://www.programmingfonts.org/#cozette))
 - [Cutive Mono](https://fonts.google.com/specimen/Cutive+Mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#cutive))
@@ -171,9 +170,13 @@ The PICO-8 project combines and tweaks several fonts for PICO-8 programming: htt
 - [Eirian](https://ggbot.itch.io/eirian-font) _SIL OFL_ ([view](https://www.programmingfonts.org/#eirian))
 - [Ellograph CF](https://connary.com/ellograph.html) _commercial_ ([view](https://www.programmingfonts.org/#ellograph))
 - [Envy Code B](https://damieng.com/blog/2006/11/06/envy-code-b-font-available-in-ttf-format/) _none_ ([view](https://www.programmingfonts.org/#envy-code-b))
-- [Envy Code R](https://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released) _SIL OFL_ ([view](https://www.programmingfonts.org/#envy-code-r))
+- [Envy Code R](https://damieng.com/blog/2008/envy-code-r-preview-7-coding-font-released/) _SIL OFL_ ([view](https://www.programmingfonts.org/#envy-code-r))
 - [Fairfax](http://www.kreativekorp.com/software/fonts/fairfax.shtml) _SIL OFL_ ([view](https://www.programmingfonts.org/#fairfax))
+- [Fairfax Hax](http://www.kreativekorp.com/software/fonts/fairfax.shtml) _SIL OFL_ ([view](https://www.programmingfonts.org/#fairfax-hax))
 - [Fairfax HD](http://www.kreativekorp.com/software/fonts/fairfaxhd.shtml) _SIL OFL_ ([view](https://www.programmingfonts.org/#fairfax-hd))
+- [Fairfax Hax HD](http://www.kreativekorp.com/software/fonts/fairfaxhd.shtml) _SIL OFL_ ([view](https://www.programmingfonts.org/#fairfax-hd-hax))
+- [Fairfax Serif](https://www.kreativekorp.com/software/fonts/fairfax/) _SIL OFL_ ([view](https://www.programmingfonts.org/#fairfax-serif))
+- [Fairfax Serif Hax](https://www.kreativekorp.com/software/fonts/fairfax/) _SIL OFL_ ([view](https://www.programmingfonts.org/#fairfax-serif-hax))
 - [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans) _SIL OFL_ ([view](https://www.programmingfonts.org/#fantasque-sans))
 - [Fifteen](http://openfontlibrary.org/en/font/fifteen) _SIL OFL_ ([view](https://www.programmingfonts.org/#fifteen))
 - [Fira Mono](https://github.com/mozilla/Fira) _SIL OFL_ ([view](https://www.programmingfonts.org/#fira))
@@ -199,10 +202,18 @@ The PICO-8 project combines and tweaks several fonts for PICO-8 programming: htt
 - [IBM VGA 9x16](https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_vga_9x16) _CC BY-SA 4.0_ ([view](https://www.programmingfonts.org/#ibm-vga))
 - [Inconsolata](https://levien.com/type/myfonts/inconsolata.html) _SIL OFL_ ([view](https://www.programmingfonts.org/#inconsolata))
 - [Inconsolata-g](http://leonardo-m.livejournal.com/77079.html) _SIL OFL_ ([view](https://www.programmingfonts.org/#inconsolata-g))
+- [InconsolataGo](https://levien.com/type/myfonts/inconsolata.html) _SIL OFL_ ([view](https://www.programmingfonts.org/#inconsolata-go))
+- [Inconsolata OTF](https://levien.com/type/myfonts/inconsolata.html) _SIL OFL_ ([view](https://www.programmingfonts.org/#inconsolata-otf))
 - [Indicate Mono](https://jonastype.com/indicate-mono) _commercial_ ([view](https://www.programmingfonts.org/#indicate))
 - [Input Mono](https://input.djr.com) _commercial_ ([view](https://www.programmingfonts.org/#input))
+- [Input Mono Compressed](https://input.djr.com) _commercial_ ([view](https://www.programmingfonts.org/#input-compressed))
+- [Input Mono Condensed](https://input.djr.com) _commercial_ ([view](https://www.programmingfonts.org/#input-condensed))
+- [Input Mono Narrow](https://input.djr.com) _commercial_ ([view](https://www.programmingfonts.org/#input-narrow))
 - [Intel One Mono](https://github.com/intel/intel-one-mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#intel-one-mono))
 - [Iosevka](http://be5invis.github.io/Iosevka/) _SIL OFL_ ([view](https://www.programmingfonts.org/#iosevka))
+- [Iosevka Extended](http://be5invis.github.io/Iosevka/) _SIL OFL_ ([view](https://www.programmingfonts.org/#iosevka-extended))
+- [Iosevka Slab](http://be5invis.github.io/Iosevka/) _SIL OFL_ ([view](https://www.programmingfonts.org/#iosevka-slab))
+- [Iosevka Slab Extended](http://be5invis.github.io/Iosevka/) _SIL OFL_ ([view](https://www.programmingfonts.org/#iosevka-slab-extended))
 - [Ioskeley Mono](https://github.com/ahatem/IoskeleyMono) _SIL OFL_ ([view](https://www.programmingfonts.org/#ioskeley))
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/) _SIL OFL_ ([view](https://www.programmingfonts.org/#jetbrainsmono))
 - [JuliaMono](https://juliamono.netlify.app) _SIL OFL_ ([view](https://www.programmingfonts.org/#julia-mono))
@@ -239,7 +250,7 @@ The PICO-8 project combines and tweaks several fonts for PICO-8 programming: htt
 - [Nanum Gothic Coding](https://github.com/naver/nanumfont) _SIL OFL_ ([view](https://www.programmingfonts.org/#nanum-gothic-coding))
 - [Nimbus Mono PS](https://www.fontsquirrel.com/fonts/nimbus-mono) _GNU GPL_ ([view](https://www.programmingfonts.org/#nimbus-mono))
 - [NK57 Monospace](https://www.dafont.com/nk57-monospace.font) _public domain_ ([view](https://www.programmingfonts.org/#nk57))
-- [Nordwand Mono](https://github.com/tywr/Nordwand-Mono) _public domain_ ([view](https://www.programmingfonts.org/#nordwand-mono))
+- [Nordwand Mono](https://github.com/tywr/Nordwand-Mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#nordwand-mono))
 - [NotCourierSans](http://www.fontsquirrel.com/fonts/NotCourierSans) _GNU GPL_ ([view](https://www.programmingfonts.org/#notcouriersans))
 - [Noto Sans Mono](https://www.google.com/get/noto/) _SIL OFL_ ([view](https://www.programmingfonts.org/#noto))
 - [Nova Mono](https://fonts.google.com/specimen/Nova+Mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#nova))
@@ -261,7 +272,10 @@ The PICO-8 project combines and tweaks several fonts for PICO-8 programming: htt
 - [Recursive](https://www.recursive.design) _SIL OFL_ ([view](https://www.programmingfonts.org/#recursive-mono-linear))
 - [Reddit Mono](https://redditsans.s-ings.com) _SIL OFL_ ([view](https://www.programmingfonts.org/#reddit-sans))
 - [Red Hat Mono](https://www.redhat.com/en/about/brand/standards/typography) _SIL OFL_ ([view](https://www.programmingfonts.org/#redhat))
+- [Ricty Diminished](https://rictyfonts.github.io/diminished) _SIL OFL_ ([view](https://www.programmingfonts.org/#ricty-diminished))
 - [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) _Apache_ ([view](https://www.programmingfonts.org/#roboto))
+- [Sarasa Mono](https://github.com/be5invis/Sarasa-Gothic) _SIL OFL_ ([view](https://www.programmingfonts.org/#sarasa-mono))
+- [Sarasa Mono Slab](https://github.com/be5invis/Sarasa-Gothic) _SIL OFL_ ([view](https://www.programmingfonts.org/#sarasa-mono-slab))
 - [saxMono](http://www.fontsquirrel.com/fonts/saxMono) _freeware_ ([view](https://www.programmingfonts.org/#sax))
 - [Scientifica](https://github.com/nerdypepper/scientifica) _SIL OFL_ ([view](https://www.programmingfonts.org/#scientifica))
 - [Sergamon](https://sgmonda.com/sergamon) _SIL OFL_ ([view](https://www.programmingfonts.org/#sergamon))
@@ -272,7 +286,7 @@ The PICO-8 project combines and tweaks several fonts for PICO-8 programming: htt
 - [Sk-Modernist](https://seankanedesign.gumroad.com/l/sk-modernist) _commercial_ ([view](https://www.programmingfonts.org/#sk-modernist))
 - [Sligoil Micro](https://velvetyne.fr/fonts/sligoil/) _SIL OFL_ ([view](https://www.programmingfonts.org/#sligoil))
 - [Sometype Mono](http://monospacedfont.com/) _SIL OFL_ ([view](https://www.programmingfonts.org/#sometype-mono))
-- [Sono](https://etceteratype.co/sono) _SIL OFL_ ([view](https://www.programmingfonts.org/#sono))
+- [Sono](https://etceteratype.co/pages/sono) _SIL OFL_ ([view](https://www.programmingfonts.org/#sono))
 - [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) _SIL OFL_ ([view](https://www.programmingfonts.org/#source-code-pro))
 - [Space Mono](https://fonts.google.com/specimen/Space+Mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#space))
 - [Spleen](https://www.cambus.net/spleen-monospaced-bitmap-fonts/) _BSD-2-Clause_ ([view](https://www.programmingfonts.org/#spleen))

@@ -130,7 +130,6 @@ window.toggleFavorite = (alias) => {
   }
   window.location.hash = alias
   renderSelectList()
-  return false
 }
 
 window.onhashchange = () => {
@@ -169,6 +168,6 @@ window.addEventListener('DOMContentLoaded', () => {
       })
 
       renderSelectList()
-      new Filters(data, () => {renderSelectList(true)}).init()
+      new Filters(data, () => {renderSelectList()}).init()
     })
 })

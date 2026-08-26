@@ -2,19 +2,21 @@ default: install lint test fonts/stylesheets/stylesheet.css
 
 install:
 	npm install
+	cd tools && python3 -m venv .venv
+	cd tools && .venv/bin/python -m pip --require-virtualenv install -r requirements.txt
 
 lint:
 	npx eslint *.js modules/*.js
 
 test:
 	npx jsonschema validate fonts-schema.json fonts.json
-	node validate.js
+	cd tools && .venv/bin/python validate.py
 
 fonts/stylesheets/stylesheet.css: fonts/stylesheets/fonts.less
 	npx lessc $^ $@
 
 list:
-	python3 listing.py
+	cd tools && .venv/bin/python listing.py
 
 serve:
 	open "http://localhost:8000"

@@ -31,7 +31,7 @@ def convert_extension(file):
     return re.sub(r'\.(ttf|otf|woff)$', '.woff2', file)
 
 
-with open('fonts.json', 'r+') as user_file:
+with open('../fonts.json', 'r+') as user_file:
     file_contents = user_file.read()
 
     data = json.loads(file_contents)
@@ -42,7 +42,7 @@ with open('fonts.json', 'r+') as user_file:
         if not args.name and key in skip:
             continue
 
-        dir = path.join('.', 'fonts', 'resources', key)
+        dir = path.join('..', 'fonts', 'resources', key)
         font_files = []
         for variant in ['', '-bold', '-italic', '-bold-italic']:
             for ext in ['.ttf', '.otf', '.woff']:

@@ -133,11 +133,16 @@ export function setDetails (data) {
   const box = document.querySelector('.info-wrapper')
   box.querySelector('h2 .name').textContent = data.name
   box.querySelector('h2 .license').textContent = data.license
-  box.querySelector('.info').textContent = data.description ?? ''
   box.querySelector('.variants + dd').textContent = writeVariants(data.variants)
   box.querySelector('.coverage + dd').innerHTML = writeCoverage(data)
   box.querySelector('.website + dd a').href = data.website
   box.querySelector('.website + dd a').textContent = data.website
+
+  let desc = data.description ?? ''
+  if (data.huge ?? false) {
+    desc += '<br><small>Note: this font is very large and might take a while to load.</small>'
+  }
+  box.querySelector('.info').innerHTML = desc
 }
 
 // ProgrammingFonts font selector

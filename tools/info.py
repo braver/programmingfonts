@@ -1,6 +1,7 @@
 import json
 import argparse
 from os import path, unlink
+import hyperglot as hyp
 from hyperglot.checker import FontChecker
 from fontTools.ttLib import TTFont, woff2
 
@@ -70,7 +71,7 @@ lang_count = {
 }
 
 
-with open('fonts.json', 'r+') as user_file:
+with open('../fonts.json', 'r+') as user_file:
     file_contents = user_file.read()
 
     data = json.loads(file_contents)
@@ -82,9 +83,9 @@ with open('fonts.json', 'r+') as user_file:
             continue
 
         print('')
-        print('---------- ' + key + '----------')
+        print(f'---------- {key} ----------')
 
-        dir = path.join('.', 'fonts', 'resources', key)
+        dir = path.join('..', 'fonts', 'resources', key)
         font_file = None
         for ext in ['.ttf', '.otf', '.woff', '.woff2']:
             if path.isfile(path.join(dir, key + ext)):
@@ -95,23 +96,10 @@ with open('fonts.json', 'r+') as user_file:
             print('No font file found')
             continue
 
-        font = TTFont(font_file)
-        print(font["name"].getBestFullName())
-        # this isn't always the name we take, but useful to check the diff:
-        # data[key]['name'] = font["name"].getBestFullName()
-
-        print(font["name"].getName(1, 3, 1))  # 1 family name
-        print(font["name"].getName(8, 3, 1))  # 8 manufacturer name
-        print(font["name"].getName(0, 3, 1))  # 0 copyright
-
-        designer = font["name"].getName(9, 3, 1)  # 9 designer
-        print(designer)
-        # this isn't always the author we take, but useful to check the diff:
-        # if designer:
-        #     data[key]['author'] = str(designer)
-
-        print(font['maxp'].numGlyphs)
-        data[key]['glyphs'] = int(font['maxp'].numGlyphs)
+        size = path.getsize(font_file)
+        print(f'filesize:     {size}')
+        if size > 1000000:
+            data[key]['huge'] = True
 
         '''
         name table:
@@ -119,21 +107,37 @@ with open('fonts.json', 'r+') as user_file:
         platform 1 = macos, 3 = windows
         encoding 0 = roman, 1 = unicode
         '''
+        font = TTFont(font_file)
+        print(f'name:         {font["name"].getBestFullName()}')
+        # this isn't always the name we take, but useful to check
 
+        print(f'family:       {font["name"].getName(1, 3, 1)}')  # 1 family name
+        print(f'manufacturer: {font["name"].getName(8, 3, 1)}')  # 8 manufacturer name
+        print(f'copyright:    {font["name"].getName(0, 3, 1)}')  # 0 copyright
+        print(f'designer:     {font["name"].getName(9, 3, 1)}')  # 9 designer
+        # this isn't always the author we take, but useful to check
+
+        glyph_count = font['maxp'].numGlyphs
+        print(f'glyphs:       {glyph_count}')
+        data[key]['glyphs'] = int(glyph_count)
+
+        print(f'hyperglot:    {hyp.__version__}')
         try:
             woff2.decompress(font_file, 'tmp.otf')
             checker = FontChecker('tmp.otf')
-            print(len(checker.characters))  # encoded characters
-            data[key]['characters'] = len(checker.characters)
-            print('langs:')
-            langs = checker.get_supported_languages()
+            encoded_chars = len(checker.characters)
+            print(f'characters:   {encoded_chars}')
+            data[key]['characters'] = encoded_chars
+
+            print('languages:')
+            langs = checker.get_supported_languages(shaping=False)
             data[key]['languages'] = {}
             for lang in langs:
-                print(lang, len(langs[lang]), lang_count[lang])
+                print(f'  {lang}: {len(langs[lang])} of {lang_count[lang]}')
                 data[key]['languages'][str(lang)] = len(langs[lang])
             unlink('tmp.otf')
         except Exception:
-            print('language support could not be detected')
+            print('Language support could not be detected')
 
     user_file.seek(0)  # roll back to start of file
     json.dump(data, user_file, indent=4, ensure_ascii=False)  # insert the new data

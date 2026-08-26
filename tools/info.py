@@ -130,7 +130,7 @@ with open('../fonts.json', 'r+') as user_file:
             data[key]['characters'] = encoded_chars
 
             print('languages:')
-            langs = checker.get_supported_languages()
+            langs = checker.get_supported_languages(shaping=False)
             data[key]['languages'] = {}
             for lang in langs:
                 print(f'  {lang}: {len(langs[lang])} of {lang_count[lang]}')

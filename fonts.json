@@ -20,10 +20,10 @@
         "glyphs": 8818,
         "characters": 7559,
         "languages": {
-            "Latin": 502,
-            "Cyrillic": 83,
-            "Armenian": 2,
-            "Greek": 1
+            "Latin": 536,
+            "Cyrillic": 93,
+            "Greek": 3,
+            "Armenian": 2
         }
     },
     "agave": {
@@ -44,7 +44,7 @@
         "glyphs": 1958,
         "characters": 1949,
         "languages": {
-            "Latin": 502,
+            "Latin": 509,
             "Cyrillic": 91,
             "Greek": 2
         }
@@ -85,7 +85,7 @@
         "glyphs": 766,
         "characters": 728,
         "languages": {
-            "Latin": 365
+            "Latin": 370
         }
     },
     "anonymous-pro": {
@@ -110,7 +110,7 @@
         "characters": 623,
         "languages": {
             "Latin": 289,
-            "Cyrillic": 12,
+            "Cyrillic": 13,
             "Greek": 1
         }
     },
@@ -176,10 +176,10 @@
         "glyphs": 33898,
         "characters": 7466,
         "languages": {
-            "Latin": 502,
-            "Cyrillic": 83,
-            "Armenian": 2,
-            "Greek": 1
+            "Latin": 536,
+            "Cyrillic": 93,
+            "Greek": 3,
+            "Armenian": 2
         },
         "huge": true
     },
@@ -205,10 +205,10 @@
         "glyphs": 33901,
         "characters": 7466,
         "languages": {
-            "Latin": 502,
-            "Cyrillic": 83,
-            "Armenian": 2,
-            "Greek": 1
+            "Latin": 536,
+            "Cyrillic": 93,
+            "Greek": 3,
+            "Armenian": 2
         },
         "huge": true
     },
@@ -228,7 +228,7 @@
         "glyphs": 365,
         "characters": 346,
         "languages": {
-            "Latin": 260
+            "Latin": 261
         }
     },
     "audio-link": {
@@ -291,9 +291,9 @@
         "glyphs": 4177,
         "characters": 4160,
         "languages": {
-            "Latin": 502,
+            "Latin": 510,
             "Cyrillic": 92,
-            "Arabic": 33,
+            "Arabic": 38,
             "Hebrew": 5,
             "Greek": 2,
             "Armenian": 2,
@@ -316,7 +316,7 @@
         "glyphs": 645,
         "characters": 433,
         "languages": {
-            "Latin": 294
+            "Latin": 296
         }
     },
     "b612-mono": {
@@ -445,8 +445,8 @@
         "glyphs": 907,
         "characters": 871,
         "languages": {
-            "Latin": 309,
-            "Cyrillic": 75,
+            "Latin": 310,
+            "Cyrillic": 78,
             "Greek": 1
         }
     },
@@ -492,10 +492,10 @@
         "glyphs": 3296,
         "characters": 3244,
         "languages": {
-            "Latin": 510,
-            "Cyrillic": 72,
-            "Armenian": 2,
-            "Greek": 1
+            "Latin": 524,
+            "Cyrillic": 80,
+            "Greek": 2,
+            "Armenian": 2
         }
     },
     "bront-ubuntu": {
@@ -582,10 +582,10 @@
         "glyphs": 3199,
         "characters": 1860,
         "languages": {
-            "Latin": 418,
-            "Cyrillic": 49,
+            "Latin": 421,
+            "Cyrillic": 50,
             "Arabic": 40,
-            "Greek": 1
+            "Greek": 2
         }
     },
     "chivo": {
@@ -604,7 +604,7 @@
         "glyphs": 873,
         "characters": 642,
         "languages": {
-            "Latin": 351
+            "Latin": 354
         }
     },
     "cilantro-code-mono": {
@@ -626,8 +626,9 @@
         "glyphs": 15618,
         "characters": 12762,
         "languages": {
-            "Latin": 325,
-            "Cyrillic": 7
+            "Latin": 329,
+            "Cyrillic": 8,
+            "Greek": 1
         },
         "huge": true
     },
@@ -655,9 +656,9 @@
         "glyphs": 1868,
         "characters": 1832,
         "languages": {
-            "Latin": 387,
-            "Cyrillic": 63,
-            "Greek": 1
+            "Latin": 390,
+            "Cyrillic": 64,
+            "Greek": 2
         }
     },
     "code-new-roman": {
@@ -678,9 +679,9 @@
         "glyphs": 2740,
         "characters": 2220,
         "languages": {
-            "Latin": 510,
-            "Cyrillic": 78,
-            "Greek": 1
+            "Latin": 521,
+            "Cyrillic": 88,
+            "Greek": 2
         }
     },
     "comic-mono": {
@@ -764,7 +765,7 @@
         "glyphs": 1465,
         "characters": 1462,
         "languages": {
-            "Latin": 470,
+            "Latin": 476,
             "Cyrillic": 90,
             "Greek": 2
         }
@@ -938,10 +939,10 @@
         "glyphs": 2385,
         "characters": 2274,
         "languages": {
-            "Latin": 498,
-            "Cyrillic": 81,
+            "Latin": 530,
+            "Cyrillic": 91,
             "Hebrew": 5,
-            "Greek": 1
+            "Greek": 2
         }
     },
     "cozette": {
@@ -1007,10 +1008,10 @@
         "glyphs": 26188,
         "characters": 19966,
         "languages": {
-            "Latin": 304,
-            "Cyrillic": 70,
-            "Hangul": 1,
-            "Greek": 1
+            "Latin": 308,
+            "Cyrillic": 78,
+            "Greek": 2,
+            "Hangul": 1
         },
         "huge": true
     },
@@ -1053,10 +1054,10 @@
         "glyphs": 3377,
         "characters": 3322,
         "languages": {
-            "Latin": 513,
-            "Cyrillic": 72,
-            "Armenian": 2,
-            "Greek": 1
+            "Latin": 527,
+            "Cyrillic": 80,
+            "Greek": 3,
+            "Armenian": 2
         }
     },
     "dejavu-markup": {
@@ -1080,10 +1081,10 @@
         "glyphs": 3369,
         "characters": 3314,
         "languages": {
-            "Latin": 513,
-            "Cyrillic": 72,
-            "Armenian": 2,
-            "Greek": 1
+            "Latin": 527,
+            "Cyrillic": 80,
+            "Greek": 2,
+            "Armenian": 2
         }
     },
     "departure-mono": {
@@ -1104,7 +1105,7 @@
         "glyphs": 775,
         "characters": 682,
         "languages": {
-            "Latin": 443
+            "Latin": 455
         }
     },
     "dm-mono": {
@@ -1123,7 +1124,7 @@
         "glyphs": 411,
         "characters": 381,
         "languages": {
-            "Latin": 287
+            "Latin": 288
         }
     },
     "dpsdbeyond": {
@@ -1164,7 +1165,7 @@
         "glyphs": 597,
         "characters": 470,
         "languages": {
-            "Latin": 300
+            "Latin": 302
         }
     },
     "droid-sans": {
@@ -1255,7 +1256,7 @@
         "glyphs": 613,
         "characters": 613,
         "languages": {
-            "Latin": 445
+            "Latin": 459
         }
     },
     "ellograph": {
@@ -1344,7 +1345,7 @@
         "glyphs": 26946,
         "characters": 25827,
         "languages": {
-            "Latin": 527,
+            "Latin": 536,
             "Cyrillic": 93,
             "Hebrew": 5,
             "Greek": 3,
@@ -1376,7 +1377,7 @@
         "glyphs": 26946,
         "characters": 25827,
         "languages": {
-            "Latin": 527,
+            "Latin": 536,
             "Cyrillic": 93,
             "Hebrew": 5,
             "Greek": 3,
@@ -1405,7 +1406,7 @@
         "glyphs": 26633,
         "characters": 25516,
         "languages": {
-            "Latin": 527,
+            "Latin": 536,
             "Cyrillic": 93,
             "Hebrew": 5,
             "Greek": 3,
@@ -1433,7 +1434,7 @@
         "glyphs": 26633,
         "characters": 25516,
         "languages": {
-            "Latin": 527,
+            "Latin": 536,
             "Cyrillic": 93,
             "Hebrew": 5,
             "Greek": 3,
@@ -1462,7 +1463,7 @@
         "glyphs": 26946,
         "characters": 25827,
         "languages": {
-            "Latin": 527,
+            "Latin": 536,
             "Cyrillic": 93,
             "Hebrew": 5,
             "Greek": 3,
@@ -1492,7 +1493,7 @@
         "glyphs": 26946,
         "characters": 25827,
         "languages": {
-            "Latin": 527,
+            "Latin": 536,
             "Cyrillic": 93,
             "Hebrew": 5,
             "Greek": 3,
@@ -1523,9 +1524,9 @@
         "glyphs": 1046,
         "characters": 1042,
         "languages": {
-            "Latin": 301,
-            "Cyrillic": 77,
-            "Greek": 1
+            "Latin": 304,
+            "Cyrillic": 87,
+            "Greek": 2
         }
     },
     "fifteen": {
@@ -1571,9 +1572,9 @@
         "glyphs": 1485,
         "characters": 1350,
         "languages": {
-            "Latin": 301,
-            "Cyrillic": 83,
-            "Greek": 1
+            "Latin": 302,
+            "Cyrillic": 91,
+            "Greek": 2
         }
     },
     "firacode": {
@@ -1599,9 +1600,9 @@
         "glyphs": 2030,
         "characters": 1586,
         "languages": {
-            "Latin": 301,
-            "Cyrillic": 90,
-            "Greek": 1
+            "Latin": 302,
+            "Cyrillic": 91,
+            "Greek": 2
         }
     },
     "fixedsys": {
@@ -1647,8 +1648,8 @@
         "glyphs": 6012,
         "characters": 5997,
         "languages": {
-            "Latin": 484,
-            "Cyrillic": 52,
+            "Latin": 498,
+            "Cyrillic": 54,
             "Armenian": 2,
             "Geʽez": 4,
             "Arabic": 4,
@@ -1701,7 +1702,7 @@
         "glyphs": 707,
         "characters": 487,
         "languages": {
-            "Latin": 283
+            "Latin": 285
         }
     },
     "generic": {
@@ -1741,8 +1742,8 @@
         "glyphs": 833,
         "characters": 652,
         "languages": {
-            "Latin": 323,
-            "Cyrillic": 45
+            "Latin": 325,
+            "Cyrillic": 48
         }
     },
     "gintronic": {
@@ -1774,7 +1775,7 @@
         "glyphs": 1001,
         "characters": 917,
         "languages": {
-            "Latin": 308
+            "Latin": 310
         }
     },
     "gnu-freefont": {
@@ -1798,13 +1799,13 @@
         "glyphs": 4177,
         "characters": 4160,
         "languages": {
-            "Latin": 485,
-            "Cyrillic": 82,
-            "Arabic": 30,
+            "Latin": 510,
+            "Cyrillic": 92,
+            "Arabic": 38,
+            "Hebrew": 5,
+            "Greek": 2,
             "Armenian": 2,
-            "Hebrew": 2,
-            "Kayah Li": 2,
-            "Greek": 1
+            "Kayah Li": 2
         }
     },
     "go-mono": {
@@ -1893,7 +1894,7 @@
         "glyphs": 687,
         "characters": 670,
         "languages": {
-            "Latin": 329
+            "Latin": 332
         }
     },
     "hack": {
@@ -1947,7 +1948,7 @@
         "characters": 1548,
         "languages": {
             "Latin": 306,
-            "Cyrillic": 70,
+            "Cyrillic": 73,
             "Armenian": 2,
             "Greek": 1
         }
@@ -1968,9 +1969,9 @@
         "glyphs": 1629,
         "characters": 1373,
         "languages": {
-            "Latin": 353,
-            "Cyrillic": 52,
-            "Greek": 1
+            "Latin": 356,
+            "Cyrillic": 55,
+            "Greek": 2
         }
     },
     "hermit": {
@@ -1989,7 +1990,7 @@
         "glyphs": 393,
         "characters": 390,
         "languages": {
-            "Latin": 278
+            "Latin": 279
         }
     },
     "heterodox-mono": {
@@ -2030,8 +2031,8 @@
         "glyphs": 850,
         "characters": 746,
         "languages": {
-            "Latin": 327,
-            "Cyrillic": 63
+            "Latin": 328,
+            "Cyrillic": 68
         }
     },
     "ibm-vga": {
@@ -2075,7 +2076,7 @@
         "glyphs": 964,
         "characters": 882,
         "languages": {
-            "Latin": 339
+            "Latin": 341
         }
     },
     "inconsolata-g": {
@@ -2162,7 +2163,7 @@
         "glyphs": 304,
         "characters": 300,
         "languages": {
-            "Latin": 275
+            "Latin": 277
         }
     },
     "input": {
@@ -2278,7 +2279,7 @@
         "glyphs": 684,
         "characters": 622,
         "languages": {
-            "Latin": 342
+            "Latin": 346
         }
     },
     "iosevka": {
@@ -2298,10 +2299,10 @@
         "glyphs": 46818,
         "characters": 7571,
         "languages": {
-            "Latin": 505,
-            "Cyrillic": 83,
-            "Armenian": 2,
-            "Greek": 1
+            "Latin": 536,
+            "Cyrillic": 93,
+            "Greek": 3,
+            "Armenian": 2
         },
         "huge": true
     },
@@ -2322,10 +2323,10 @@
         "glyphs": 46821,
         "characters": 7571,
         "languages": {
-            "Latin": 505,
-            "Cyrillic": 83,
-            "Armenian": 2,
-            "Greek": 1
+            "Latin": 536,
+            "Cyrillic": 93,
+            "Greek": 3,
+            "Armenian": 2
         },
         "huge": true
     },
@@ -2346,10 +2347,10 @@
         "glyphs": 46821,
         "characters": 7571,
         "languages": {
-            "Latin": 505,
-            "Cyrillic": 83,
-            "Armenian": 2,
-            "Greek": 1
+            "Latin": 536,
+            "Cyrillic": 93,
+            "Greek": 3,
+            "Armenian": 2
         },
         "huge": true
     },
@@ -2370,11 +2371,12 @@
         "glyphs": 46822,
         "characters": 7571,
         "languages": {
-            "Latin": 505,
-            "Cyrillic": 83,
-            "Armenian": 2,
-            "Greek": 1
-        }
+            "Latin": 536,
+            "Cyrillic": 93,
+            "Greek": 3,
+            "Armenian": 2
+        },
+        "huge": true
     },
     "ioskeley": {
         "added": "2025-09-20",
@@ -2405,10 +2407,10 @@
         "glyphs": 11552,
         "characters": 7515,
         "languages": {
-            "Latin": 502,
-            "Cyrillic": 83,
-            "Armenian": 2,
-            "Greek": 1
+            "Latin": 536,
+            "Cyrillic": 93,
+            "Greek": 3,
+            "Armenian": 2
         }
     },
     "jetbrainsmono": {
@@ -2436,9 +2438,9 @@
         "glyphs": 1743,
         "characters": 1363,
         "languages": {
-            "Latin": 326,
-            "Cyrillic": 23,
-            "Greek": 1
+            "Latin": 331,
+            "Cyrillic": 25,
+            "Greek": 2
         }
     },
     "julia-mono": {
@@ -2457,14 +2459,14 @@
         "glyphs": 12337,
         "characters": 11191,
         "languages": {
-            "Latin": 513,
-            "Georgian": 2,
-            "Cyrillic": 90,
-            "Arabic": 28,
+            "Latin": 536,
+            "Georgian": 4,
+            "Cyrillic": 93,
+            "Arabic": 32,
             "Cree": 1,
             "Hebrew": 5,
+            "Greek": 3,
             "Armenian": 2,
-            "Greek": 2,
             "Ojibwe Syllabics": 1,
             "Inuktitut Syllabics": 1
         },
@@ -2557,10 +2559,10 @@
         "glyphs": 2392,
         "characters": 2274,
         "languages": {
-            "Latin": 498,
-            "Cyrillic": 81,
+            "Latin": 530,
+            "Cyrillic": 91,
             "Hebrew": 5,
-            "Greek": 1
+            "Greek": 2
         }
     },
     "lilex": {
@@ -2579,9 +2581,9 @@
         "glyphs": 1434,
         "characters": 1073,
         "languages": {
-            "Latin": 330,
-            "Cyrillic": 64,
-            "Greek": 1
+            "Latin": 333,
+            "Cyrillic": 70,
+            "Greek": 2
         }
     },
     "lotion": {
@@ -2670,10 +2672,10 @@
         "glyphs": 12156,
         "characters": 7561,
         "languages": {
-            "Latin": 502,
-            "Cyrillic": 83,
-            "Armenian": 2,
-            "Greek": 1
+            "Latin": 536,
+            "Cyrillic": 93,
+            "Greek": 3,
+            "Armenian": 2
         }
     },
     "maple": {
@@ -2729,7 +2731,7 @@
         "glyphs": 557,
         "characters": 503,
         "languages": {
-            "Latin": 329,
+            "Latin": 331,
             "Cyrillic": 11
         }
     },
@@ -2749,7 +2751,7 @@
         "glyphs": 742,
         "characters": 703,
         "languages": {
-            "Latin": 413
+            "Latin": 418
         }
     },
     "mensch": {
@@ -2770,7 +2772,7 @@
         "glyphs": 2708,
         "characters": 2684,
         "languages": {
-            "Latin": 513,
+            "Latin": 515,
             "Cyrillic": 76,
             "Greek": 2
         }
@@ -2796,7 +2798,7 @@
         "glyphs": 2708,
         "characters": 2684,
         "languages": {
-            "Latin": 513,
+            "Latin": 515,
             "Cyrillic": 76,
             "Greek": 2
         }
@@ -2840,9 +2842,9 @@
         "glyphs": 3570,
         "characters": 2460,
         "languages": {
-            "Latin": 336,
-            "Cyrillic": 27,
-            "Greek": 1
+            "Latin": 338,
+            "Cyrillic": 28,
+            "Greek": 2
         }
     },
     "monaspace-krypton": {
@@ -2861,9 +2863,9 @@
         "glyphs": 3490,
         "characters": 2459,
         "languages": {
-            "Latin": 336,
-            "Cyrillic": 27,
-            "Greek": 1
+            "Latin": 338,
+            "Cyrillic": 28,
+            "Greek": 2
         }
     },
     "monaspace-neon": {
@@ -2882,9 +2884,9 @@
         "glyphs": 3606,
         "characters": 2460,
         "languages": {
-            "Latin": 336,
-            "Cyrillic": 27,
-            "Greek": 1
+            "Latin": 338,
+            "Cyrillic": 28,
+            "Greek": 2
         }
     },
     "monaspace-radon": {
@@ -2903,9 +2905,9 @@
         "glyphs": 3552,
         "characters": 2460,
         "languages": {
-            "Latin": 336,
-            "Cyrillic": 27,
-            "Greek": 1
+            "Latin": 338,
+            "Cyrillic": 28,
+            "Greek": 2
         }
     },
     "monaspace-xenon": {
@@ -2924,9 +2926,9 @@
         "glyphs": 3818,
         "characters": 2460,
         "languages": {
-            "Latin": 336,
-            "Cyrillic": 27,
-            "Greek": 1
+            "Latin": 338,
+            "Cyrillic": 28,
+            "Greek": 2
         }
     },
     "mona-sans-mono": {
@@ -2945,7 +2947,7 @@
         "glyphs": 768,
         "characters": 547,
         "languages": {
-            "Latin": 310
+            "Latin": 311
         }
     },
     "monocraft": {
@@ -3019,9 +3021,9 @@
         "glyphs": 1122,
         "characters": 1077,
         "languages": {
-            "Latin": 297,
-            "Cyrillic": 16,
-            "Greek": 1
+            "Latin": 300,
+            "Cyrillic": 17,
+            "Greek": 2
         }
     },
     "monofur": {
@@ -3043,7 +3045,7 @@
         "characters": 660,
         "languages": {
             "Latin": 282,
-            "Cyrillic": 12,
+            "Cyrillic": 13,
             "Greek": 1
         }
     },
@@ -3063,9 +3065,9 @@
         "glyphs": 780,
         "characters": 616,
         "languages": {
-            "Latin": 311,
-            "Cyrillic": 15,
-            "Greek": 1
+            "Latin": 315,
+            "Cyrillic": 17,
+            "Greek": 2
         }
     },
     "monolisa": {
@@ -3084,9 +3086,9 @@
         "glyphs": 1651,
         "characters": 1330,
         "languages": {
-            "Latin": 470,
-            "Cyrillic": 86,
-            "Greek": 1
+            "Latin": 488,
+            "Cyrillic": 88,
+            "Greek": 2
         }
     },
     "mononoki": {
@@ -3150,7 +3152,7 @@
         "glyphs": 6747,
         "characters": 6463,
         "languages": {
-            "Latin": 327
+            "Latin": 330
         }
     },
     "nanum-gothic-coding": {
@@ -3282,9 +3284,9 @@
         "glyphs": 3787,
         "characters": 3367,
         "languages": {
-            "Latin": 524,
-            "Cyrillic": 92,
-            "Greek": 2
+            "Latin": 536,
+            "Cyrillic": 93,
+            "Greek": 3
         }
     },
     "nova": {
@@ -3325,7 +3327,7 @@
         "glyphs": 496,
         "characters": 433,
         "languages": {
-            "Latin": 286
+            "Latin": 287
         }
     },
     "old-timey": {
@@ -3348,9 +3350,9 @@
         "glyphs": 2233,
         "characters": 2031,
         "languages": {
-            "Latin": 343,
-            "Cyrillic": 22,
-            "Greek": 1
+            "Latin": 351,
+            "Cyrillic": 24,
+            "Greek": 3
         }
     },
     "opendyslexic": {
@@ -3458,7 +3460,7 @@
         "glyphs": 562,
         "characters": 484,
         "languages": {
-            "Latin": 310
+            "Latin": 311
         }
     },
     "plex-mono": {
@@ -3605,9 +3607,9 @@
         "glyphs": 1418,
         "characters": 1075,
         "languages": {
-            "Latin": 330,
-            "Cyrillic": 65,
-            "Greek": 1
+            "Latin": 333,
+            "Cyrillic": 70,
+            "Greek": 2
         }
     },
     "pt": {
@@ -3630,7 +3632,7 @@
         "characters": 788,
         "languages": {
             "Latin": 271,
-            "Cyrillic": 75
+            "Cyrillic": 78
         }
     },
     "quinze": {
@@ -3670,7 +3672,7 @@
         "glyphs": 1256,
         "characters": 723,
         "languages": {
-            "Latin": 342
+            "Latin": 345
         }
     },
     "reddit-sans": {
@@ -3692,7 +3694,7 @@
         "glyphs": 1080,
         "characters": 724,
         "languages": {
-            "Latin": 339
+            "Latin": 342
         }
     },
     "redhat": {
@@ -3735,12 +3737,12 @@
         "glyphs": 7466,
         "characters": 7158,
         "languages": {
-            "Latin": 445,
-            "Cyrillic": 22,
+            "Latin": 467,
+            "Cyrillic": 24,
+            "Greek": 2,
+            "Katakana": 3,
             "Kanji": 1,
-            "Hiragana": 2,
-            "Katakana": 2,
-            "Greek": 1
+            "Hiragana": 2
         }
     },
     "roboto": {
@@ -3792,16 +3794,16 @@
         "glyphs": 56699,
         "characters": 51074,
         "languages": {
-            "Latin": 503,
-            "Cyrillic": 83,
+            "Latin": 537,
+            "Cyrillic": 93,
+            "Greek": 3,
             "Armenian": 2,
             "Chinese": 7,
             "Katakana": 3,
             "Kanji": 1,
             "Hiragana": 2,
             "Hangul": 1,
-            "Hanja": 1,
-            "Greek": 1
+            "Hanja": 1
         },
         "huge": true
     },
@@ -3833,16 +3835,16 @@
         "glyphs": 56699,
         "characters": 51074,
         "languages": {
-            "Latin": 503,
-            "Cyrillic": 83,
+            "Latin": 537,
+            "Cyrillic": 93,
+            "Greek": 3,
             "Armenian": 2,
             "Chinese": 7,
             "Katakana": 3,
             "Kanji": 1,
             "Hiragana": 2,
             "Hangul": 1,
-            "Hanja": 1,
-            "Greek": 1
+            "Hanja": 1
         },
         "huge": true
     },
@@ -3910,12 +3912,13 @@
         "glyphs": 4227,
         "characters": 4226,
         "languages": {
-            "Latin": 465,
+            "Latin": 467,
             "Cyrillic": 84,
+            "Arabic": 37,
             "Devanagari": 12,
+            "Hebrew": 5,
             "Greek": 2,
             "Armenian": 2,
-            "Hebrew": 2,
             "Thai": 1
         }
     },
@@ -4030,7 +4033,7 @@
         "glyphs": 529,
         "characters": 491,
         "languages": {
-            "Latin": 306
+            "Latin": 307
         }
     },
     "sligoil": {
@@ -4051,7 +4054,7 @@
         "glyphs": 457,
         "characters": 400,
         "languages": {
-            "Latin": 285
+            "Latin": 287
         }
     },
     "sometype-mono": {
@@ -4077,7 +4080,7 @@
         "glyphs": 567,
         "characters": 458,
         "languages": {
-            "Latin": 300
+            "Latin": 301
         }
     },
     "sono": {
@@ -4096,7 +4099,7 @@
         "glyphs": 750,
         "characters": 576,
         "languages": {
-            "Latin": 318
+            "Latin": 319
         }
     },
     "source-code-pro": {
@@ -4115,9 +4118,9 @@
         "glyphs": 1568,
         "characters": 1335,
         "languages": {
-            "Latin": 353,
-            "Cyrillic": 52,
-            "Greek": 1
+            "Latin": 356,
+            "Cyrillic": 55,
+            "Greek": 2
         }
     },
     "space": {
@@ -4182,9 +4185,9 @@
         "glyphs": 1680,
         "characters": 1454,
         "languages": {
-            "Latin": 442,
-            "Cyrillic": 35,
-            "Greek": 1
+            "Latin": 446,
+            "Cyrillic": 36,
+            "Greek": 2
         }
     },
     "terminus-consoleet": {
@@ -4399,19 +4402,21 @@
         "glyphs": 58911,
         "characters": 58910,
         "languages": {
-            "Latin": 502,
-            "Georgian": 2,
-            "Cyrillic": 83,
+            "Latin": 537,
+            "Georgian": 4,
+            "Cyrillic": 93,
             "Devanagari": 15,
-            "Bengali": 6,
-            "Arabic": 33,
+            "Bengali": 8,
+            "Arabic": 48,
             "Cree": 1,
             "Hebrew": 5,
             "Lao": 1,
+            "Greek": 3,
             "Armenian": 2,
             "Chinese": 7,
             "Geʽez": 7,
             "Buginese": 1,
+            "Syriac": 1,
             "Burmese": 4,
             "Gujarati": 2,
             "Sinhala": 1,
@@ -4423,6 +4428,7 @@
             "Tham": 1,
             "Modern Yi": 1,
             "Kayah Li": 2,
+            "Katakana": 3,
             "Tibetan": 3,
             "Malayalam": 1,
             "Vai": 1,
@@ -4432,16 +4438,15 @@
             "Cherokee": 1,
             "Kanji": 1,
             "Hiragana": 2,
-            "Katakana": 2,
             "Hangul": 1,
             "Hanja": 1,
-            "Greek": 1,
             "Tamil": 1,
             "Telugu": 1,
             "Bamum": 1,
             "Kannada": 1,
             "Hanunoo": 1
-        }
+        },
+        "huge": true
     },
     "unifontex": {
         "added": "2023-09-17",
@@ -4462,20 +4467,21 @@
         "glyphs": 65439,
         "characters": 65436,
         "languages": {
-            "Latin": 512,
-            "Georgian": 3,
-            "Cyrillic": 88,
+            "Latin": 537,
+            "Georgian": 4,
+            "Cyrillic": 93,
             "Devanagari": 15,
-            "Bengali": 6,
-            "Arabic": 33,
+            "Bengali": 8,
+            "Arabic": 48,
             "Cree": 1,
             "Hebrew": 5,
             "Lao": 1,
-            "Greek": 2,
+            "Greek": 3,
             "Armenian": 2,
             "Chinese": 7,
             "Geʽez": 7,
             "Buginese": 1,
+            "Syriac": 1,
             "Burmese": 4,
             "Gujarati": 2,
             "Sinhala": 1,
@@ -4545,9 +4551,9 @@
         "glyphs": 1435,
         "characters": 1267,
         "languages": {
-            "Latin": 315,
-            "Cyrillic": 80,
-            "Greek": 1
+            "Latin": 319,
+            "Cyrillic": 88,
+            "Greek": 2
         }
     },
     "vt323": {

@@ -2,7 +2,7 @@ default: install lint test fonts/stylesheets/stylesheet.css
 
 install:
 	npm install
-	cd tools && python -m venv .venv
+	cd tools && python3 -m venv .venv
 	cd tools && .venv/bin/python -m pip --require-virtualenv install -r requirements.txt
 
 lint:
@@ -10,7 +10,7 @@ lint:
 
 test:
 	npx jsonschema validate fonts-schema.json fonts.json
-	cd tools && .venv/bin/python tools/validate.py
+	cd tools && .venv/bin/python validate.py
 
 fonts/stylesheets/stylesheet.css: fonts/stylesheets/fonts.less
 	npx lessc $^ $@

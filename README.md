@@ -18,7 +18,7 @@ Please feel free to make a little donation via to keep this labour of love runni
   - Which adheres to [a schema](https://github.com/braver/programmingfonts/blob/gh-pages/fonts-schema.json).
 - Font files are stored in [fonts/resources](https://github.com/braver/programmingfonts/tree/gh-pages/fonts/resources).
   - We store only 4 variants (if available), in `.woff2` format: regular, italic, bold, bold+italic.
-  - If you don't have a `.woff2` you can use `convert.py` to create them off the ttf/otf file.
+  - If you don't have a `.woff2` you can use `tools/convert.py` to create them off the ttf/otf file.
 - All font files (and directories) are normalized to lowercase, without `-mono` unless it's really part of the name.
 - Each font lives in a directory named after its alias, and the variant files within follow a consistent naming scheme based on that alias:
   - regular: no suffix, e.g. `iosevka/iosevka.woff2`
@@ -34,8 +34,8 @@ Please feel free to make a little donation via to keep this labour of love runni
 - Running `make` installs dependencies, lints, validates `fonts.json` (against [fonts-schema.json](https://github.com/braver/programmingfonts/blob/gh-pages/fonts-schema.json) and `validate.js`), and builds the stylesheet.
   - The stylesheet [stylesheet.css](https://github.com/braver/programmingfonts/blob/gh-pages/fonts/stylesheets/stylesheet.css) is generated from `fonts.less` via `npx lessc` — don't edit it by hand; edit `fonts.less` and rebuild.
 - Run `make serve` to preview the site locally (`python3 -m http.server`).
-- Run `make list` (or `python3 listing.py`) to print an updated list of all the fonts, be sure to update this README with your addition.
-- Run `python3 info.py --name yourfont` to add glyph, character and language counts.
+- Run `make list` to print an updated list of all the fonts, be sure to update this README with your addition.
+- Run `python3 tools/info.py --name yourfont` to add glyph, character and language counts.
 
 ## Limitations of this project
 

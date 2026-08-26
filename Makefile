@@ -8,13 +8,13 @@ lint:
 
 test:
 	npx jsonschema validate fonts-schema.json fonts.json
-	node validate.js
+	python3 tools/validate.py
 
 fonts/stylesheets/stylesheet.css: fonts/stylesheets/fonts.less
 	npx lessc $^ $@
 
 list:
-	python3 listing.py
+	python3 tools/listing.py
 
 serve:
 	open "http://localhost:8000"

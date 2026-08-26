@@ -179,7 +179,8 @@
             "Cyrillic": 83,
             "Armenian": 2,
             "Greek": 1
-        }
+        },
+        "huge": true
     },
     "aporetic-serif": {
         "added": "2026-01-21",
@@ -206,7 +207,8 @@
             "Cyrillic": 83,
             "Armenian": 2,
             "Greek": 1
-        }
+        },
+        "huge": true
     },
     "atkinson-hyperlegible": {
         "added": "2025-02-18",
@@ -624,7 +626,8 @@
         "languages": {
             "Latin": 325,
             "Cyrillic": 7
-        }
+        },
+        "huge": true
     },
     "cm-unicode": {
         "added": "2024-01-07",
@@ -1006,7 +1009,8 @@
             "Cyrillic": 70,
             "Hangul": 1,
             "Greek": 1
-        }
+        },
+        "huge": true
     },
     "daddytimemono": {
         "added": "2019-01-22",
@@ -2296,7 +2300,8 @@
             "Cyrillic": 83,
             "Armenian": 2,
             "Greek": 1
-        }
+        },
+        "huge": true
     },
     "iosevka-extended": {
         "added": "2026-06-12",
@@ -2319,7 +2324,8 @@
             "Cyrillic": 83,
             "Armenian": 2,
             "Greek": 1
-        }
+        },
+        "huge": true
     },
     "iosevka-slab": {
         "added": "2026-06-12",
@@ -2342,7 +2348,8 @@
             "Cyrillic": 83,
             "Armenian": 2,
             "Greek": 1
-        }
+        },
+        "huge": true
     },
     "iosevka-slab-extended": {
         "added": "2026-06-12",
@@ -2457,8 +2464,9 @@
             "Armenian": 2,
             "Greek": 2,
             "Ojibwe Syllabics": 1,
-        }
             "Inuktitut Syllabics": 1
+        },
+        "huge": true
     },
     "latin-modern": {
         "added": "bc",
@@ -3792,7 +3800,8 @@
             "Hangul": 1,
             "Hanja": 1,
             "Greek": 1
-        }
+        },
+        "huge": true
     },
     "sarasa-mono-slab": {
         "added": "2026-08-25",
@@ -3832,7 +3841,8 @@
             "Hangul": 1,
             "Hanja": 1,
             "Greek": 1
-        }
+        },
+        "huge": true
     },
     "sax": {
         "added": "bc",
@@ -4493,7 +4503,8 @@
             "Chakma": 1,
             "Kannada": 1,
             "Hanunoo": 1
-        }
+        },
+        "huge": true
     },
     "verily": {
         "added": "2014-11-23",

@@ -1,6 +1,7 @@
 import json
 import argparse
 from os import path, unlink
+import hyperglot as hyp
 from hyperglot.checker import FontChecker
 from fontTools.ttLib import TTFont, woff2
 
@@ -120,6 +121,7 @@ with open('fonts.json', 'r+') as user_file:
         encoding 0 = roman, 1 = unicode
         '''
 
+        print(hyp.__version__)
         try:
             woff2.decompress(font_file, 'tmp.otf')
             checker = FontChecker('tmp.otf')

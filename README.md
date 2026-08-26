@@ -109,12 +109,6 @@ Some bitmap fonts are only available in (Windows) FON files. Sometimes conversio
 
 For "the world's biggest collection of classic text mode fonts, system fonts and BIOS fonts from DOS-era IBM PCs and compatibles", please have a look here: https://int10h.org/oldschool-pc-fonts/.
 
-### Mixed fonts
-
-These fonts combine different fonts, that are mostly already featured on this website, to create a complete set of characters for both latin script, and CJK:
-- Ricty Diminished: https://github.com/edihbrandon/RictyDiminished (combines Inconsolata for Latin script with M+ for others)
-- Sarasa-Gothic: https://github.com/be5invis/Sarasa-Gothic A CJK programming font based on Iosevka and Source Han Sans.
-
 The PICO-8 project combines and tweaks several fonts for PICO-8 programming: https://github.com/juanitogan/p8-programming-fonts
 
 ## All the fonts

@@ -3707,6 +3707,35 @@
             "Latin": 296
         }
     },
+    "ricty-diminished": {
+        "added": "2026-08-25",
+        "author": "Yasunori Yusa",
+        "description": "は Linux 環境での研究・開発を想定したプログラミング用フォントです. It combines Inconsolata and Circle M+ 1m",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Ricty Diminished",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "bold",
+            "bold-italic",
+            "italic",
+            "regular"
+        ],
+        "website": "https://rictyfonts.github.io/diminished",
+        "year": 2012,
+        "zerostyle": "slashed",
+        "glyphs": 7466,
+        "characters": 7158,
+        "languages": {
+            "Latin": 445,
+            "Cyrillic": 22,
+            "Kanji": 1,
+            "Hiragana": 2,
+            "Katakana": 2,
+            "Greek": 1
+        }
+    },
     "roboto": {
         "added": "2015-06-27",
         "author": "Christian Robertson",
@@ -3725,6 +3754,86 @@
         "languages": {
             "Latin": 314,
             "Cyrillic": 78,
+            "Greek": 1
+        }
+    },
+    "sarasa-mono": {
+        "added": "2026-08-25",
+        "author": "Renzhi Li",
+        "description": "A CJK composite font based on Inter, Iosevka and Source Han Sans.",
+        "group": "sarasa-mono",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Sarasa Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "bold",
+            "bold-italic",
+            "semi-bold",
+            "semi-bold-italic",
+            "light",
+            "light-italic",
+            "extra-light",
+            "extra-light-italic",
+            "italic",
+            "regular"
+        ],
+        "website": "https://github.com/be5invis/Sarasa-Gothic",
+        "year": 2015,
+        "zerostyle": "slashed",
+        "glyphs": 56699,
+        "characters": 51074,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 83,
+            "Armenian": 2,
+            "Chinese": 7,
+            "Katakana": 3,
+            "Kanji": 1,
+            "Hiragana": 2,
+            "Hangul": 1,
+            "Hanja": 1,
+            "Greek": 1
+        }
+    },
+    "sarasa-mono-slab": {
+        "added": "2026-08-25",
+        "author": "Renzhi Li",
+        "description": "A CJK composite font based on Inter, Iosevka and Source Han Sans.",
+        "group": "sarasa-mono",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Sarasa Mono Slab",
+        "rendering": "vector",
+        "style": "serif",
+        "variants": [
+            "bold",
+            "bold-italic",
+            "semi-bold",
+            "semi-bold-italic",
+            "light",
+            "light-italic",
+            "extra-light",
+            "extra-light-italic",
+            "italic",
+            "regular"
+        ],
+        "website": "https://github.com/be5invis/Sarasa-Gothic",
+        "year": 2015,
+        "zerostyle": "slashed",
+        "glyphs": 56699,
+        "characters": 51074,
+        "languages": {
+            "Latin": 503,
+            "Cyrillic": 83,
+            "Armenian": 2,
+            "Chinese": 7,
+            "Katakana": 3,
+            "Kanji": 1,
+            "Hiragana": 2,
+            "Hangul": 1,
+            "Hanja": 1,
             "Greek": 1
         }
     },

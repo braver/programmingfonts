@@ -2489,6 +2489,30 @@
   src: url('../resources/redhat/redhat.woff2');
 }
 @font-face {
+  font-family: 'ricty-diminished';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/ricty-diminished/ricty-diminished-bold-italic.woff2');
+}
+@font-face {
+  font-family: 'ricty-diminished';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/ricty-diminished/ricty-diminished-bold.woff2');
+}
+@font-face {
+  font-family: 'ricty-diminished';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/ricty-diminished/ricty-diminished-italic.woff2');
+}
+@font-face {
+  font-family: 'ricty-diminished';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/ricty-diminished/ricty-diminished.woff2');
+}
+@font-face {
   font-family: 'roboto';
   font-weight: bold;
   font-style: italic;
@@ -2511,6 +2535,54 @@
   font-weight: normal;
   font-style: normal;
   src: url('../resources/roboto/roboto.woff2');
+}
+@font-face {
+  font-family: 'sarasa-mono';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/sarasa-mono/sarasa-mono-bold-italic.woff2');
+}
+@font-face {
+  font-family: 'sarasa-mono';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/sarasa-mono/sarasa-mono-bold.woff2');
+}
+@font-face {
+  font-family: 'sarasa-mono';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/sarasa-mono/sarasa-mono-italic.woff2');
+}
+@font-face {
+  font-family: 'sarasa-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/sarasa-mono/sarasa-mono.woff2');
+}
+@font-face {
+  font-family: 'sarasa-mono-slab';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/sarasa-mono-slab/sarasa-mono-slab-bold-italic.woff2');
+}
+@font-face {
+  font-family: 'sarasa-mono-slab';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../resources/sarasa-mono-slab/sarasa-mono-slab-bold.woff2');
+}
+@font-face {
+  font-family: 'sarasa-mono-slab';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/sarasa-mono-slab/sarasa-mono-slab-italic.woff2');
+}
+@font-face {
+  font-family: 'sarasa-mono-slab';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/sarasa-mono-slab/sarasa-mono-slab.woff2');
 }
 @font-face {
   font-family: 'sax';

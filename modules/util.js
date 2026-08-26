@@ -220,6 +220,7 @@ export function collapseGroup () {
 const dateAddedKey = (v) => v.added === 'bc' ? String(v.year) : v.added
 
 export function compare(a, b, mode) {
+  // TODO: fonts in a group always come together, and the parent always comes first
   switch (mode) {
     case 'newest': {
       const yearDiff = b.year - a.year

@@ -15,7 +15,7 @@ const pinnedIcon =
       '<svg class="octicon" viewBox="0 0 16 16" width="12" height="12"><path d="M7.655 14.916v-.001h-.002l-.006-.003-.018-.01a22.066 22.066 0 0 1-3.744-2.584C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.044 5.231-3.886 6.818a22.094 22.094 0 0 1-3.433 2.414 7.152 7.152 0 0 1-.31.17l-.018.01-.008.004a.75.75 0 0 1-.69 0Z"></path></svg>'
 
 
-function renderSelectList () {
+function renderSelectList (grouping=true) {
   let favoritesMap = {}
   let favorites = []
 
@@ -45,32 +45,42 @@ function renderSelectList () {
   })
 
   const groups = {}
-  fonts.forEach((v) => {
-    if (v.group && v.group !== v.alias) {
-      if (!groups[v.group]) groups[v.group] = []
-      groups[v.group].push(v)
-    }
-  })
-  const groupChildAliases = new Set(
-    fonts.filter((v) => v.group && v.group !== v.alias).map((v) => v.alias)
-  )
+  if (grouping) {
+    fonts.forEach((v) => {
+      if (v.group && v.group !== v.alias) {
+        if (!groups[v.group]) groups[v.group] = []
+        groups[v.group].push(v)
+      }
+    })
+  }
 
-  fonts.filter((v) => !groupChildAliases.has(v.alias)).forEach((v) => {
+  fonts.forEach((v) => {
     const option = document.createElement('div')
 
     option.classList.add('entry')
     option.setAttribute('data-alias', v.alias)
 
     let heart = pinIcon
-    if (favoritesMap[v.alias]) {
+    let chevron = ''
+    const isfav = favoritesMap[v.alias]
+    if (isfav) {
       option.classList.add('pinned')
       heart = pinnedIcon
-    }
+    } else {
+      // don't count children that are favourites, they're no longer nested
+      // and if the parent is favourited, also un-nest the children
+      const children = (groups[v.alias] || []).filter((child) => !favoritesMap[child.alias])
+      if (children.length > 0) {
+        chevron =  `<button title="Alternatives" class="group-toggle" onclick="toggleGroup('${v.alias}')">+${children.length} ${chevronDownIcon}</button>`
+      }
 
-    const childList = groups[v.alias] || []
-    const chevron = childList.length > 0
-      ? `<button title="Alternatives" class="group-toggle" onclick="toggleGroup('${v.alias}')">+${childList.length} ${chevronDownIcon}</button>`
-      : ''
+      if (v.group && v.group !== v.alias && !favoritesMap[v.group]) {
+        option.setAttribute('data-child-of', v.group)
+        if (!isfav) {
+          option.setAttribute('hidden', 'hidden')
+        }
+      }
+    }
 
     option.innerHTML = `
       <a href="#${v.alias}" data-style="${v.style}">
@@ -83,34 +93,15 @@ function renderSelectList () {
     `
 
     document.getElementById('select-font').appendChild(option)
-
-    childList.forEach((child) => {
-      const childOption = document.createElement('div')
-
-      childOption.classList.add('entry', 'group-child')
-      childOption.setAttribute('data-alias', child.alias)
-      childOption.setAttribute('data-group', v.alias)
-
-      childOption.innerHTML = `
-        <a href="#${child.alias}" data-style="${child.style}">
-          <span class="name">${child.name}</span>
-          <span class="details">${child.year} — ${child.author}</span>
-        </a>
-        ${child.website ? `<a class="website" href="${child.website}" rel="external"> <span>Website</span>${arrowIcon}</a>` : ''}
-      `
-
-      document.getElementById('select-font').appendChild(childOption)
-    })
   })
 
   util.selectFont()
 }
 
 window.toggleGroup = (alias) => {
-  const primary = document.querySelector(`#select-font [data-alias='${alias}']`)
-  const isExpanded = primary.classList.toggle('group-open')
-  document.querySelectorAll(`#select-font [data-group='${alias}']`).forEach((child) => {
-    child.classList.toggle('group-child-visible', isExpanded)
+  document.querySelector(`#select-font [data-alias='${alias}']`).classList.toggle('group-open')
+  document.querySelectorAll(`#select-font [data-child-of='${alias}']:not(.pinned)`).forEach((child) => {
+    child.toggleAttribute('hidden')
   })
 }
 

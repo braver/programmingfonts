@@ -437,10 +437,7 @@ section.select-list {
     .entry.filtered-out {
         display: none;
     }
-    .entry.group-child:not(.group-child-visible) {
-        display: none;
-    }
-    .entry.group-child {
+    .entry[data-child-of] {
         padding-left: 24px;
     }
     button.group-toggle {

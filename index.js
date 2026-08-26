@@ -169,6 +169,6 @@ window.addEventListener('DOMContentLoaded', () => {
       })
 
       renderSelectList()
-      new Filters(data, () => {renderSelectList(true)}).init()
+      new Filters(data, () => {renderSelectList()}).init()
     })
 })

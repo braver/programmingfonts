@@ -130,7 +130,6 @@ window.toggleFavorite = (alias) => {
   }
   window.location.hash = alias
   renderSelectList()
-  return false
 }
 
 window.onhashchange = () => {

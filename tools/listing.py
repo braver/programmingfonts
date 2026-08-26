@@ -2,7 +2,7 @@ import json
 
 TEMPLATE = "- [{name}]({url}) _{license}_ ([view](https://www.programmingfonts.org/#{key}))"
 
-with open('fonts.json') as user_file:
+with open('../fonts.json') as user_file:
     file_contents = user_file.read()
 
     data = json.loads(file_contents)

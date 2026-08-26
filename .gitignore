@@ -45,6 +45,10 @@ Thumbs.db
 ######################
 node_modules
 
+# Python #
+######################
+.venv
+
 # Full font files for analysis only #
 #####################################
 fonts/resources/monolisa/monolisa.ttf

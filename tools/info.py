@@ -71,7 +71,7 @@ lang_count = {
 }
 
 
-with open('fonts.json', 'r+') as user_file:
+with open('../fonts.json', 'r+') as user_file:
     file_contents = user_file.read()
 
     data = json.loads(file_contents)
@@ -85,7 +85,7 @@ with open('fonts.json', 'r+') as user_file:
         print('')
         print(f'---------- {key} ----------')
 
-        dir = path.join('.', 'fonts', 'resources', key)
+        dir = path.join('..', 'fonts', 'resources', key)
         font_file = None
         for ext in ['.ttf', '.otf', '.woff', '.woff2']:
             if path.isfile(path.join(dir, key + ext)):

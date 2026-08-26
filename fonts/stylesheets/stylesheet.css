@@ -1632,15 +1632,27 @@
 }
 @font-face {
   font-family: 'julia-mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../resources/julia-mono/julia-mono.woff2');
+}
+@font-face {
+  font-family: 'julia-mono';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../resources/julia-mono/julia-mono-italic.woff2');
+}
+@font-face {
+  font-family: 'julia-mono';
   font-weight: bold;
   font-style: normal;
   src: url('../resources/julia-mono/julia-mono-bold.woff2');
 }
 @font-face {
   font-family: 'julia-mono';
-  font-weight: normal;
-  font-style: normal;
-  src: url('../resources/julia-mono/julia-mono.woff2');
+  font-weight: bold;
+  font-style: italic;
+  src: url('../resources/julia-mono/julia-mono-bold-italic.woff2');
 }
 @font-face {
   font-family: 'latin-modern';

@@ -2441,27 +2441,24 @@
         "name": "JuliaMono",
         "rendering": "vector",
         "style": "sans",
-        "variants": [
-            "black",
-            "bold",
-            "extrabold",
-            "light",
-            "medium",
-            "regular"
-        ],
+        "variants": "7 weights, all with italics.",
         "website": "https://juliamono.netlify.app",
         "year": 2020,
         "zerostyle": "dotted",
-        "glyphs": 9216,
-        "characters": 8585,
+        "glyphs": 12337,
+        "characters": 11191,
         "languages": {
-            "Latin": 504,
-            "Cyrillic": 86,
+            "Latin": 513,
+            "Georgian": 2,
+            "Cyrillic": 90,
+            "Arabic": 28,
             "Cree": 1,
+            "Hebrew": 5,
+            "Armenian": 2,
+            "Greek": 2,
             "Ojibwe Syllabics": 1,
-            "Inuktitut Syllabics": 1,
-            "Greek": 1
         }
+            "Inuktitut Syllabics": 1
     },
     "latin-modern": {
         "added": "bc",

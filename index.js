@@ -15,11 +15,9 @@ const pinnedIcon =
       '<svg class="octicon" viewBox="0 0 16 16" width="12" height="12"><path d="M7.655 14.916v-.001h-.002l-.006-.003-.018-.01a22.066 22.066 0 0 1-3.744-2.584C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.044 5.231-3.886 6.818a22.094 22.094 0 0 1-3.433 2.414 7.152 7.152 0 0 1-.31.17l-.018.01-.008.004a.75.75 0 0 1-.69 0Z"></path></svg>'
 
 
-function renderSelectList (grouping=true) {
+function getFavs() {
   let favoritesMap = {}
   let favorites = []
-
-  document.getElementById('select-font').innerHTML = ''
 
   try {
     favorites = JSON.parse(localStorage.getItem('favorites')) || []
@@ -31,8 +29,67 @@ function renderSelectList (grouping=true) {
     console.error('could not render favorites', err)
   }
 
+  return favoritesMap
+}
+
+function getGroups(fonts) {
+  const groups = {}
+
+  fonts.forEach((v) => {
+    if (v.group && v.group !== v.alias) {
+      if (!groups[v.group]) groups[v.group] = []
+      groups[v.group].push(v)
+    }
+  })
+
+  return groups
+}
+
+function renderContent(data, chevron, heart) {
+  return `
+    <a href="#${data.alias}" data-style="${data.style}">
+      <span class="name">${data.name}</span>
+      <span class="details">${data.year} — ${data.author}</span>
+    </a>
+    ${chevron}
+    <a class="favoritelink" title="Favourite" onclick="toggleFavorite('${data.alias}')">${heart}</a>
+    ${data.website ? `<a class="website" href="${data.website}" rel="external"> <span>Website</span>${arrowIcon}</a>` : ''}
+  `
+}
+
+function isChild(data) {
+  return data.group && data.group !== data.alias
+}
+
+function renderItem(data, isFav=false, nChildren=0) {
+  const option = document.createElement('div')
+  option.classList.add('entry')
+  option.setAttribute('data-alias', data.alias)
+
+  let heart = pinIcon
+  let chevron = ''
+  if (isFav) {
+    option.classList.add('pinned')
+    heart = pinnedIcon
+  }
+
+  if (nChildren > 0) {
+    chevron =  `<button title="Alternatives" class="group-toggle" onclick="toggleGroup('${data.alias}')">+${nChildren} ${chevronDownIcon}</button>`
+  }
+
+  option.innerHTML = renderContent(data, chevron, heart)
+
+  if (isChild(data)) {
+    option.setAttribute('data-child-of', data.group)
+  }
+  return option
+}
+
+function renderSelectList () {
   const sortMode = document.getElementById('sort-list').value
   const fonts = window.fontsList
+  const favoritesMap = getFavs()
+  const root = document.getElementById('select-font')
 
   fonts.sort((a, b) => {
     if (favoritesMap[a.alias] && !favoritesMap[b.alias]) {
@@ -44,55 +101,20 @@ function renderSelectList (grouping=true) {
     return util.compare(a, b, sortMode)
   })
 
-  const groups = {}
-  if (grouping) {
-    fonts.forEach((v) => {
-      if (v.group && v.group !== v.alias) {
-        if (!groups[v.group]) groups[v.group] = []
-        groups[v.group].push(v)
-      }
-    })
-  }
+  root.innerHTML = ''
 
   fonts.forEach((v) => {
-    const option = document.createElement('div')
+    const children = getGroups(fonts)[v.alias] || []
 
-    option.classList.add('entry')
-    option.setAttribute('data-alias', v.alias)
-
-    let heart = pinIcon
-    let chevron = ''
-    const isfav = favoritesMap[v.alias]
-    if (isfav) {
-      option.classList.add('pinned')
-      heart = pinnedIcon
-    } else {
-      // don't count children that are favourites, they're no longer nested
-      // and if the parent is favourited, also un-nest the children
-      const children = (groups[v.alias] || []).filter((child) => !favoritesMap[child.alias])
-      if (children.length > 0) {
-        chevron =  `<button title="Alternatives" class="group-toggle" onclick="toggleGroup('${v.alias}')">+${children.length} ${chevronDownIcon}</button>`
-      }
-
-      if (v.group && v.group !== v.alias && !favoritesMap[v.group]) {
-        option.setAttribute('data-child-of', v.group)
-        if (!isfav) {
-          option.setAttribute('hidden', 'hidden')
-        }
-      }
+    if (isChild(v)) {
+      // children are rendered in the sub-loop
+      return
     }
+    root.appendChild(renderItem(v, favoritesMap[v.alias] !== undefined, children.length))
 
-    option.innerHTML = `
-      <a href="#${v.alias}" data-style="${v.style}">
-        <span class="name">${v.name}</span>
-        <span class="details">${v.year} — ${v.author}</span>
-      </a>
-      ${chevron}
-      <a class="favoritelink" title="Favourite" onclick="toggleFavorite('${v.alias}')">${heart}</a>
-      ${v.website ? `<a class="website" href="${v.website}" rel="external"> <span>Website</span>${arrowIcon}</a>` : ''}
-    `
-
-    document.getElementById('select-font').appendChild(option)
+    children.forEach((c) => {
+      root.appendChild(renderItem(c, favoritesMap[v.alias] !== undefined))
+    })
   })
 
   util.selectFont()

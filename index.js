@@ -123,7 +123,7 @@ function renderSelectList () {
 
 window.toggleGroup = (alias) => {
   document.querySelector(`#select-font [data-alias='${alias}']`).classList.toggle('group-open')
-  document.querySelectorAll(`#select-font [data-child-of='${alias}']:not(.pinned)`).forEach((child) => {
+  document.querySelectorAll(`#select-font [data-child-of='${alias}']`).forEach((child) => {
     child.classList.toggle('hidden')
   })
 }

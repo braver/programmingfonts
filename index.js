@@ -81,6 +81,7 @@ function renderItem(data, isFav=false, nChildren=0) {
 
   if (isChild(data)) {
     option.setAttribute('data-child-of', data.group)
+    option.classList.add('hidden')
   }
   return option
 }
@@ -123,7 +124,7 @@ function renderSelectList () {
 window.toggleGroup = (alias) => {
   document.querySelector(`#select-font [data-alias='${alias}']`).classList.toggle('group-open')
   document.querySelectorAll(`#select-font [data-child-of='${alias}']:not(.pinned)`).forEach((child) => {
-    child.toggleAttribute('hidden')
+    child.classList.toggle('hidden')
   })
 }
 

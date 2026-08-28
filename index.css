@@ -455,11 +455,11 @@ section.select-list {
         font-size: 11px;
         svg {
             transition: transform .3s ease-in-out;
-            transform: rotate(0deg);
+            transform: rotate(-90deg);
         }
     }
     .group-open button.group-toggle svg {
-        transform: rotate(-90deg);
+        transform: rotate(0deg);
     }
     .entry:hover button.group-toggle,
     .entry.active button.group-toggle {
@@ -528,6 +528,9 @@ section.select-list {
     .entry.pinned:not(.active) .name {
         color: var(--dark-grey);
         font-weight: bold;
+    }
+    .entry.hidden {
+        display: none;
     }
     .details {
         display: block;

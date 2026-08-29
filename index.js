@@ -68,19 +68,13 @@ function isChild(data) {
 }
 
 function renderContent(data, chevron, heart) {
-  let buttons = ''
-  if (!isChild(data)) {
-    buttons = `
-      ${chevron}
-      <a class="favoritelink" title="Favourite" onclick="toggleFavorite('${data.alias}')">${heart}</a>
-    `
-  }
   return `
     <a href="#${data.alias}" data-style="${data.style}">
       <span class="name">${data.name}</span>
       <span class="details">${data.year} — ${data.author}</span>
     </a>
-    ${buttons}
+    ${chevron}
+    <a class="favoritelink" title="Favourite" onclick="toggleFavorite('${data.alias}')">${heart}</a>
     ${data.website ? `<a class="website" href="${data.website}" rel="external"> <span>Website</span>${arrowIcon}</a>` : ''}
   `
 }
@@ -138,7 +132,7 @@ function renderSelectList () {
     root.appendChild(renderItem(v, favoritesMap[v.alias] !== undefined, children.length))
 
     children.forEach((c) => {
-      root.appendChild(renderItem(c, favoritesMap[v.alias] !== undefined))
+      root.appendChild(renderItem(c, favoritesMap[c.alias] !== undefined))
     })
   })
 

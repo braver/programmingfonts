@@ -6,6 +6,11 @@ import { Theme } from './modules/theme.js'
 import * as util from './modules/util.js'
 
 
+// 2 globals: one representing the original json data,
+// the other the reduced list that we're rendering
+window.fontData = {}
+window.fontsList = []
+
 const chevronDownIcon = '<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"/></svg>'
 const arrowIcon =
       '<svg class="octicon" viewBox="0 0 16 16" width="14" height="14"><path d="M4.53 4.75A.75.75 0 0 1 5.28 4h6.01a.75.75 0 0 1 .75.75v6.01a.75.75 0 0 1-1.5 0v-4.2l-5.26 5.261a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L9.48 5.5h-4.2a.75.75 0 0 1-.75-.75Z"></path></svg>'
@@ -32,8 +37,18 @@ function getFavs() {
   return favoritesMap
 }
 
+function allowGrouping() {
+  // we disable grouping if there is any kind of filtering or search
+  return Object.keys(window.fontData).length === window.fontsList.length
+}
+
 function getGroups(fonts) {
   const groups = {}
+
+  if (!allowGrouping()) {
+    // dataset is filtered, break the grouping
+    return {}
+  }
 
   fonts.forEach((v) => {
     if (v.group && v.group !== v.alias) {
@@ -45,20 +60,29 @@ function getGroups(fonts) {
   return groups
 }
 
+function isChild(data) {
+  if (!allowGrouping()) {
+    return false
+  }
+  return data.group && data.group !== data.alias
+}
+
 function renderContent(data, chevron, heart) {
+  let buttons = ''
+  if (!isChild(data)) {
+    buttons = `
+      ${chevron}
+      <a class="favoritelink" title="Favourite" onclick="toggleFavorite('${data.alias}')">${heart}</a>
+    `
+  }
   return `
     <a href="#${data.alias}" data-style="${data.style}">
       <span class="name">${data.name}</span>
       <span class="details">${data.year} — ${data.author}</span>
     </a>
-    ${chevron}
-    <a class="favoritelink" title="Favourite" onclick="toggleFavorite('${data.alias}')">${heart}</a>
+    ${buttons}
     ${data.website ? `<a class="website" href="${data.website}" rel="external"> <span>Website</span>${arrowIcon}</a>` : ''}
   `
-}
-
-function isChild(data) {
-  return data.group && data.group !== data.alias
 }
 
 function renderItem(data, isFav=false, nChildren=0) {
@@ -173,15 +197,7 @@ window.addEventListener('DOMContentLoaded', () => {
     }).then((data) => {
 
       window.fontData = data
-      window.fontsList = []
 
-      Object.keys(data).forEach((key) => {
-        const v = data[key]
-        v.alias = key
-        window.fontsList.push(v)
-      })
-
-      renderSelectList()
       new Filters(data, () => {renderSelectList()}).init()
     })
 })

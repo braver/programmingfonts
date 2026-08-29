@@ -9,7 +9,7 @@ export class Listeners {
 
     while (target === null) {
       if (next) {
-        if (next.matches('.entry:not(.filtered-out):not(.group-child), .entry.group-child.group-child-visible:not(.filtered-out)')) {
+        if (next.matches('.entry:not(.hidden)')) {
           target = next
         } else {
           next = direction === 'up' ? next.previousElementSibling : next.nextElementSibling

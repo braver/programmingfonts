@@ -69,8 +69,8 @@ function getFont() {
   let font = window.location.hash.substring(1)
 
   if (!font) {
-    // Get the first visible (non-filtered) entry's alias from the rendered list
-    const first = document.querySelector('#select-font .entry:not(.filtered-out):not(.group-child)')
+    // Get the first visible entry's alias from the rendered list
+    const first = document.querySelector('#select-font .entry:not(.hidden)')
     font = first ? first.getAttribute('data-alias') : null
   }
 

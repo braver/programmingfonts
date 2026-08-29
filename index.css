@@ -437,33 +437,17 @@ section.select-list {
     .entry[data-child-of] {
         padding-left: 24px;
     }
-    button.group-toggle {
+    .group-count {
+        display: block;
         position: absolute;
         bottom: 8px;
-        right: 6px;
+        right: 12px;
         width: auto;
         background: none;
         border: none;
-        cursor: pointer;
         padding: 0;
-        display: flex;
-        align-items: center;
         color: var(--medium-grey);
         font-size: 11px;
-        svg {
-            transition: transform .3s ease-in-out;
-            transform: rotate(-90deg);
-        }
-    }
-    .group-open button.group-toggle svg {
-        transform: rotate(0deg);
-    }
-    .entry:hover button.group-toggle,
-    .entry.active button.group-toggle {
-        color: var(--dark-grey);
-    }
-    button.group-toggle:hover {
-        color: var(--ink-black);
     }
     a[data-value] {
         display: block;
@@ -525,9 +509,6 @@ section.select-list {
     .entry.pinned:not(.active) .name {
         color: var(--dark-grey);
         font-weight: bold;
-    }
-    .entry.hidden {
-        display: none;
     }
     .details {
         display: block;

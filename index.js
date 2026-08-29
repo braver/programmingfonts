@@ -11,7 +11,6 @@ import * as util from './modules/util.js'
 window.fontData = {}
 window.fontsList = []
 
-const chevronDownIcon = '<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"/></svg>'
 const arrowIcon =
       '<svg class="octicon" viewBox="0 0 16 16" width="14" height="14"><path d="M4.53 4.75A.75.75 0 0 1 5.28 4h6.01a.75.75 0 0 1 .75.75v6.01a.75.75 0 0 1-1.5 0v-4.2l-5.26 5.261a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L9.48 5.5h-4.2a.75.75 0 0 1-.75-.75Z"></path></svg>'
 const pinIcon =
@@ -92,14 +91,13 @@ function renderItem(data, isFav=false, nChildren=0) {
   }
 
   if (nChildren > 0) {
-    chevron =  `<button title="Alternatives" class="group-toggle" onclick="toggleGroup('${data.alias}')">+${nChildren} ${chevronDownIcon}</button>`
+    chevron =  `<span title="Alternatives" class="group-count">+${nChildren}</span>`
   }
 
   option.innerHTML = renderContent(data, chevron, heart)
 
   if (isChild(data)) {
     option.setAttribute('data-child-of', data.group)
-    option.classList.add('hidden')
   }
   return option
 }
@@ -137,13 +135,6 @@ function renderSelectList () {
   })
 
   util.selectFont()
-}
-
-window.toggleGroup = (alias) => {
-  document.querySelector(`#select-font [data-alias='${alias}']`).classList.toggle('group-open')
-  document.querySelectorAll(`#select-font [data-child-of='${alias}']`).forEach((child) => {
-    child.classList.toggle('hidden')
-  })
 }
 
 window.toggleFavorite = (alias) => {

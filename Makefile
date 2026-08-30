@@ -6,7 +6,7 @@ install:
 	cd tools && .venv/bin/python -m pip --require-virtualenv install -r requirements.txt
 
 lint:
-	npx eslint *.js modules/*.js
+	npx eslint *.js modules/*.js --no-warn-ignored
 
 test:
 	cd tools && .venv/bin/python validate.py

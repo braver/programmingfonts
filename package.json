@@ -14,8 +14,8 @@
   },
   "homepage": "https://github.com/braver/programmingfonts#readme",
   "devDependencies": {
-    "@eslint/js": "^9.39.4",
-    "eslint": "^9.39.4",
-    "globals": "^16.5.0"
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.9.1",
+    "globals": "^17.11.0"
   }
 }

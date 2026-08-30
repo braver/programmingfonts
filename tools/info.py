@@ -17,7 +17,7 @@ parser = argparse.ArgumentParser(prog='FontInfo')
 parser.add_argument('--name')
 args = parser.parse_args()
 
-# monolisa and input don't have files in this repo
+# monolisa doesn't have files in this repo
 # to run the script on these ensure the real font file is at the correct path
 # then run with the --name argument
 skip = ['monolisa']

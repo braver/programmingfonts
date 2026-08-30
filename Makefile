@@ -1,4 +1,4 @@
-default: install lint test fonts/stylesheets/stylesheet.css
+default: install lint test stylesheet
 
 install:
 	npm install
@@ -12,8 +12,8 @@ test:
 	npx jsonschema validate fonts-schema.json fonts.json
 	cd tools && .venv/bin/python validate.py
 
-fonts/stylesheets/stylesheet.css: fonts/stylesheets/fonts.less
-	npx lessc $^ $@
+stylesheet:
+	cd tools && .venv/bin/python stylesheet.py > ../fonts/stylesheet.css
 
 list:
 	cd tools && .venv/bin/python listing.py

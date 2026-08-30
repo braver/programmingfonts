@@ -1608,7 +1608,7 @@
     "fixedsys": {
         "added": "2014-11-19",
         "author": "Travis Owens",
-        "bitmap size": 16,
+        "bitmap size": 14,
         "description": "The oldest font in Microsoft Windows, and was the system font in Windows 1.0 and 2.0, where it was simply named System.",
         "group": "fixedsys",
         "license": "GNU GPL",

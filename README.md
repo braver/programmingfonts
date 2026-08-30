@@ -30,7 +30,7 @@ Please feel free to make a little donation via to keep this labour of love runni
 
 ### Development
 
-- Running `make` installs dependencies, lints, validates `fonts.json` (against [fonts-schema.json](https://github.com/braver/programmingfonts/blob/gh-pages/fonts-schema.json) and `validate.js`), and builds the stylesheet.
+- Running `make` installs dependencies, lints, validates `fonts.json`, and builds the stylesheet.
 - Run `make serve` to preview the site locally (`python3 -m http.server`).
 - Run `make list` to print an updated list of all the fonts, be sure to update this README with your addition.
 - Run `python3 tools/info.py --name yourfont` to add glyph, character and language counts.

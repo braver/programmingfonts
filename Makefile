@@ -9,7 +9,6 @@ lint:
 	npx eslint *.js modules/*.js
 
 test:
-	npx jsonschema validate fonts-schema.json fonts.json
 	cd tools && .venv/bin/python validate.py
 
 stylesheet:

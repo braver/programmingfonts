@@ -1,5 +1,5 @@
 ---
-name: Node CI
+name: CI
 
 on: [push]
 
@@ -11,12 +11,15 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: setup Node.js
-        uses: actions/setup-node@v6
+      - uses: actions/setup-node@v6
         with:
           node-version: 24.x
 
-      - name: npm install, build, and test
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.14'
+
+      - name: install, build, and test
         run: make
         env:
           CI: true

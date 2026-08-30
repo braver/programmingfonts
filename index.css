@@ -437,18 +437,6 @@ section.select-list {
     .entry[data-child-of] {
         padding-left: 24px;
     }
-    .group-count {
-        display: block;
-        position: absolute;
-        bottom: 8px;
-        right: 12px;
-        width: auto;
-        background: none;
-        border: none;
-        padding: 0;
-        color: var(--medium-grey);
-        font-size: 11px;
-    }
     a[data-value] {
         display: block;
         width: 66.67%;

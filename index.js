@@ -42,7 +42,7 @@ function renderSelectList () {
       // children are rendered in the sub-loop
       return
     }
-    root.appendChild(list.renderItem(v, children.length))
+    root.appendChild(list.renderItem(v))
 
     children.forEach((c) => {
       root.appendChild(list.renderItem(c))

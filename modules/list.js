@@ -71,7 +71,7 @@ export class List {
     `
   }
 
-  renderItem(data, nChildren=0) {
+  renderItem(data) {
     const option = document.createElement('div')
     option.classList.add('entry')
     option.setAttribute('data-alias', data.alias)
@@ -81,10 +81,6 @@ export class List {
     if (this.isFav(data.alias)) {
       option.classList.add('pinned')
       heart = this.pinnedIcon
-    }
-
-    if (nChildren > 0) {
-      chevron =  `<span title="Has ${nChildren} alternative versions" class="group-count">+${nChildren}</span>`
     }
 
     option.innerHTML = this.renderContent(data, chevron, heart)

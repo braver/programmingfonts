@@ -95,7 +95,7 @@ function renderItem(data, nChildren=0) {
   }
 
   if (nChildren > 0) {
-    chevron =  `<span title="Alternatives" class="group-count">+${nChildren}</span>`
+    chevron =  `<span title="Has ${nChildren} alternative versions" class="group-count">+${nChildren}</span>`
   }
 
   option.innerHTML = renderContent(data, chevron, heart)

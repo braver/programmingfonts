@@ -1,11 +1,20 @@
 import json
 import sys
+from jsonschema import validate
 
 with open('../fonts.json', 'r') as f:
     data = json.load(f)
 
-ok = True
+with open('../fonts-schema.json', 'r') as f:
+    schema = json.load(f)
 
+
+# base json schema validation
+validate(instance=data, schema=schema)
+
+
+# additional grouping validation
+ok = True
 for alias, font in data.items():
     if 'group' not in font or not font['group']:
         continue

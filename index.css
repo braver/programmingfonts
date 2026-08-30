@@ -434,42 +434,8 @@ section.select-list {
         display: block;
         flex: 1;
     }
-    .entry.filtered-out {
-        display: none;
-    }
-    .entry.group-child:not(.group-child-visible) {
-        display: none;
-    }
-    .entry.group-child {
+    .entry[data-child-of] {
         padding-left: 24px;
-    }
-    button.group-toggle {
-        position: absolute;
-        bottom: 8px;
-        right: 6px;
-        width: auto;
-        background: none;
-        border: none;
-        cursor: pointer;
-        padding: 0;
-        display: flex;
-        align-items: center;
-        color: var(--medium-grey);
-        font-size: 11px;
-        svg {
-            transition: transform .3s ease-in-out;
-            transform: rotate(-90deg);
-        }
-    }
-    .group-open button.group-toggle svg {
-        transform: rotate(0deg);
-    }
-    .entry:hover button.group-toggle,
-    .entry.active button.group-toggle {
-        color: var(--dark-grey);
-    }
-    button.group-toggle:hover {
-        color: var(--ink-black);
     }
     a[data-value] {
         display: block;

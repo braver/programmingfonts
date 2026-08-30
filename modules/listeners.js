@@ -1,5 +1,4 @@
 import { Fontsize } from './fontsize.js'
-import * as util from './util.js'
 
 export class Listeners {
   walk (direction) {
@@ -9,7 +8,7 @@ export class Listeners {
 
     while (target === null) {
       if (next) {
-        if (next.matches('.entry:not(.filtered-out):not(.group-child), .entry.group-child.group-child-visible:not(.filtered-out)')) {
+        if (next.matches('.entry')) {
           target = next
         } else {
           next = direction === 'up' ? next.previousElementSibling : next.nextElementSibling
@@ -41,14 +40,6 @@ export class Listeners {
         event.preventDefault()
         event.stopPropagation()
         this.walk('down')
-      } else if (event.key === 'ArrowRight') {
-        event.preventDefault()
-        event.stopPropagation()
-        util.expandGroup()
-      } else if (event.key === 'ArrowLeft') {
-        event.preventDefault()
-        event.stopPropagation()
-        util.collapseGroup()
       }
     }
 

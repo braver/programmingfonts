@@ -26,13 +26,11 @@ Please feel free to make a little donation via to keep this labour of love runni
   - bold: `-bold`, e.g. `iosevka/iosevka-bold.woff2`
   - bold+italic: `-bold-italic`, e.g. `iosevka/iosevka-bold-italic.woff2`
 - Alongside the variants, each font directory should also include the font's license file (e.g. `iosevka/license.md`, `agave/LICENSE`, `audio-link/OFL.txt`), exactly as shipped by the creator.
-- The [fonts.less](https://github.com/braver/programmingfonts/blob/gh-pages/fonts/stylesheets/fonts.less) registers the variants for each font "alias" and is used to generate the stylesheets.
-- The license needs to allow serving in a website, or an agreement with the font creators needs to be made. If available we add a license file along with the font files.
+  - The license needs to allow serving in a website, or an agreement with the font creators needs to be made.
 
 ### Development
 
-- Running `make` installs dependencies, lints, validates `fonts.json` (against [fonts-schema.json](https://github.com/braver/programmingfonts/blob/gh-pages/fonts-schema.json) and `validate.js`), and builds the stylesheet.
-  - The stylesheet [stylesheet.css](https://github.com/braver/programmingfonts/blob/gh-pages/fonts/stylesheets/stylesheet.css) is generated from `fonts.less` via `npx lessc` — don't edit it by hand; edit `fonts.less` and rebuild.
+- Running `make` installs dependencies, lints, validates `fonts.json`, and builds the stylesheet.
 - Run `make serve` to preview the site locally (`python3 -m http.server`).
 - Run `make list` to print an updated list of all the fonts, be sure to update this README with your addition.
 - Run `python3 tools/info.py --name yourfont` to add glyph, character and language counts.

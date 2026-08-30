@@ -25,7 +25,6 @@ export class Filters {
     const sortSelect = document.getElementById('sort-list')
     sortSelect.onchange = () => {
       localStorage.setItem('sort-mode', sortSelect.value)
-      this.renderCallback()  // rerender in the new sort order
       this.apply()           // re-apply filtering
       util.selectFont()      // re-select current font
     }
@@ -85,21 +84,19 @@ export class Filters {
   }
 
   apply () {
-    let count = 0
-
     localStorage.setItem('filters', JSON.stringify(this.filters))
 
-    Object.keys(this.filters).forEach((filter) => {
-      const button = document.querySelector(`button[value="${filter}"]`)
+    Object.keys(this.filters).forEach((key) => {
+      const button = document.querySelector(`button[value="${key}"]`)
       if (!button) {
         return
       }
-      if (this.filters[filter]) {
+      if (this.filters[key]) {
         button.classList.add('selected')
         button.querySelectorAll('svg').forEach((image) => {
           image.classList.remove('selected')
         })
-        button.querySelector(`svg[alt="${this.filters[filter]}"]`).classList.add('selected')
+        button.querySelector(`svg[alt="${this.filters[key]}"]`).classList.add('selected')
       } else {
         button.classList.remove('selected')
         button.querySelectorAll('svg').forEach((image) => {
@@ -115,43 +112,25 @@ export class Filters {
       data.year.toString().indexOf(this.filters.name) > -1
     )
 
-    document.querySelectorAll('.entry[data-alias]').forEach((element) => {
-      const data = this.fontData[element.dataset.alias]
-      const isChild = !!element.dataset.group
+    window.fontsList = []
+    Object.keys(window.fontData).forEach((key) => {
+      const v = window.fontData[key]
+      v.alias = key
 
       if (
-        (!this.filters.style || data.style === this.filters.style) &&
-              (!this.filters.rendering || data.rendering === this.filters.rendering) &&
-              (!this.filters.liga ||
-                  (data.ligatures === false && this.filters.liga === 'no') ||
-                  (data.ligatures === true && this.filters.liga === 'yes')) &&
-              (!this.filters.zerostyle || data.zerostyle === this.filters.zerostyle) &&
-              (isChild || nameMatches(data))
+        (!this.filters.style || v.style === this.filters.style) &&
+        (!this.filters.rendering || v.rendering === this.filters.rendering) &&
+        (!this.filters.liga ||
+            (v.ligatures === false && this.filters.liga === 'no') ||
+            (v.ligatures === true && this.filters.liga === 'yes')) &&
+        (!this.filters.zerostyle || v.zerostyle === this.filters.zerostyle) &&
+        (nameMatches(v))
       ) {
-        element.classList.remove('filtered-out')
-        if (!isChild) count++
-      } else {
-        element.classList.add('filtered-out')
+        window.fontsList.push(v)
       }
     })
 
-    document.querySelectorAll('.entry[data-alias]:not([data-group]).filtered-out').forEach((parent) => {
-      const parentData = this.fontData[parent.dataset.alias]
-      if (!nameMatches(parentData)) return
-      const hasVisibleChild = !!document.querySelector(`.entry.group-child[data-group='${parent.dataset.alias}']:not(.filtered-out)`)
-      if (hasVisibleChild) {
-        parent.classList.remove('filtered-out')
-        count++
-      }
-    })
-
-    document.querySelectorAll('.entry.group-child:not(.filtered-out)').forEach((child) => {
-      const parentData = this.fontData[child.dataset.group]
-      if (parentData && !nameMatches(parentData)) {
-        child.classList.add('filtered-out')
-      }
-    })
-
-    this.setCounter(count)
+    this.renderCallback()
+    this.setCounter(window.fontsList.length)
   }
 }

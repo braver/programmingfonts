@@ -69,8 +69,8 @@ function getFont() {
   let font = window.location.hash.substring(1)
 
   if (!font) {
-    // Get the first visible (non-filtered) entry's alias from the rendered list
-    const first = document.querySelector('#select-font .entry:not(.filtered-out):not(.group-child)')
+    // Get the first visible entry's alias from the rendered list
+    const first = document.querySelector('#select-font .entry')
     font = first ? first.getAttribute('data-alias') : null
   }
 
@@ -189,31 +189,6 @@ export function selectFont () {
         behavior: 'smooth'
       })
     }
-  }
-}
-
-export function expandGroup () {
-  const activeEntry = document.querySelector('.entry.active')
-  if (!activeEntry || activeEntry.classList.contains('group-child')) {
-    return
-  }
-  if (activeEntry.querySelector('.group-toggle') && !activeEntry.classList.contains('group-open')) {
-    window.toggleGroup(activeEntry.getAttribute('data-alias'))
-  }
-}
-
-export function collapseGroup () {
-  const activeEntry = document.querySelector('.entry.active')
-  if (!activeEntry) {
-    return
-  }
-  if (activeEntry.classList.contains('group-child')) {
-    const primary = document.querySelector(`#select-font [data-alias='${activeEntry.getAttribute('data-group')}']`)
-    if (primary) {
-      primary.querySelector('a').click()
-    }
-  } else if (activeEntry.classList.contains('group-open')) {
-    window.toggleGroup(activeEntry.getAttribute('data-alias'))
   }
 }
 

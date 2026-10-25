@@ -1953,6 +1953,33 @@
             "Greek": 1
         }
     },
+    "hari-mono": {
+        "added": "2026-10-25",
+        "author": "Vimal Hari",
+        "description": "An open-source monospaced typeface for terminals and editors, built with Iosevka in the spirit of Berkeley Mono.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Hari Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "regular",
+            "italic",
+            "bold",
+            "bold-italic"
+        ],
+        "website": "https://zorinto.com/hari-mono/",
+        "year": 2026,
+        "zerostyle": "dotted",
+        "glyphs": 11646,
+        "characters": 7758,
+        "languages": {
+            "Latin": 553,
+            "Cyrillic": 92,
+            "Greek": 3,
+            "Armenian": 2
+        }
+    },
     "hasklig": {
         "added": "2016-05-25",
         "author": "Paul D. Hunt, Teo Tuominen",

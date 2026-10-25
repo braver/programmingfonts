@@ -200,6 +200,10 @@
 @font-face { font-family: "hack-ligatured"; font-weight: bold; font-style: normal; src: url("./resources/hack-ligatured/hack-ligatured-bold.woff2"); }
 @font-face { font-family: "hack-ligatured"; font-weight: normal; font-style: italic; src: url("./resources/hack-ligatured/hack-ligatured-italic.woff2"); }
 @font-face { font-family: "hack-ligatured"; font-weight: bold; font-style: italic; src: url("./resources/hack-ligatured/hack-ligatured-bold-italic.woff2"); }
+@font-face { font-family: "hari-mono"; font-weight: normal; font-style: normal; src: url("./resources/hari-mono/hari-mono.woff2"); }
+@font-face { font-family: "hari-mono"; font-weight: bold; font-style: normal; src: url("./resources/hari-mono/hari-mono-bold.woff2"); }
+@font-face { font-family: "hari-mono"; font-weight: normal; font-style: italic; src: url("./resources/hari-mono/hari-mono-italic.woff2"); }
+@font-face { font-family: "hari-mono"; font-weight: bold; font-style: italic; src: url("./resources/hari-mono/hari-mono-bold-italic.woff2"); }
 @font-face { font-family: "hasklig"; font-weight: normal; font-style: normal; src: url("./resources/hasklig/hasklig.woff2"); }
 @font-face { font-family: "hasklig"; font-weight: bold; font-style: normal; src: url("./resources/hasklig/hasklig-bold.woff2"); }
 @font-face { font-family: "hasklig"; font-weight: normal; font-style: italic; src: url("./resources/hasklig/hasklig-italic.woff2"); }

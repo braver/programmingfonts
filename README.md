@@ -193,6 +193,7 @@ The PICO-8 project combines and tweaks several fonts for PICO-8 programming: htt
 - [Google Sans Code](https://github.com/googlefonts/googlesans-code) _SIL OFL_ ([view](https://www.programmingfonts.org/#google-sans-code))
 - [Hack](https://github.com/chrissimpkins/Hack) _MIT_ ([view](https://www.programmingfonts.org/#hack))
 - [Hack Ligatured](https://github.com/gaplo917/Ligatured-Hack) _GNU GPL_ ([view](https://www.programmingfonts.org/#hack-ligatured))
+- [Hari Mono](https://zorinto.com/hari-mono/) _SIL OFL_ ([view](https://www.programmingfonts.org/#hari-mono))
 - [Hasklig](https://github.com/i-tu/Hasklig) _SIL OFL_ ([view](https://www.programmingfonts.org/#hasklig))
 - [Hermit](https://pcaro.es/p/hermit/) _SIL OFL_ ([view](https://www.programmingfonts.org/#hermit))
 - [Heterodox Mono](https://github.com/hckiang/font-new-heterodox-mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#heterodox-mono))

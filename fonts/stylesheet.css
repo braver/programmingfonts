@@ -176,6 +176,10 @@
 @font-face { font-family: "font3270"; font-weight: normal; font-style: normal; src: url("./resources/font3270/font3270.woff2"); }
 @font-face { font-family: "fragment-mono"; font-weight: normal; font-style: normal; src: url("./resources/fragment-mono/fragment-mono.woff2"); }
 @font-face { font-family: "fragment-mono"; font-weight: normal; font-style: italic; src: url("./resources/fragment-mono/fragment-mono-italic.woff2"); }
+@font-face { font-family: "garamonto-code"; font-weight: normal; font-style: normal; src: url("./resources/garamonto-code/garamonto-code.woff2"); }
+@font-face { font-family: "garamonto-code"; font-weight: bold; font-style: normal; src: url("./resources/garamonto-code/garamonto-code-bold.woff2"); }
+@font-face { font-family: "garamonto-code"; font-weight: normal; font-style: italic; src: url("./resources/garamonto-code/garamonto-code-italic.woff2"); }
+@font-face { font-family: "garamonto-code"; font-weight: bold; font-style: italic; src: url("./resources/garamonto-code/garamonto-code-bold-italic.woff2"); }
 @font-face { font-family: "generic"; font-weight: normal; font-style: normal; src: url("./resources/generic/generic.woff2"); }
 @font-face { font-family: "geist"; font-weight: normal; font-style: normal; src: url("./resources/geist/geist.woff2"); }
 @font-face { font-family: "geist"; font-weight: bold; font-style: normal; src: url("./resources/geist/geist-bold.woff2"); }

@@ -183,6 +183,7 @@ The PICO-8 project combines and tweaks several fonts for PICO-8 programming: htt
 - [Fixedsys Excelsior](https://github.com/kika/fixedsys) _public domain_ ([view](https://www.programmingfonts.org/#fixedsys-ligatures))
 - [IBM 3270](https://github.com/rbanffy/3270font) __ ([view](https://www.programmingfonts.org/#font3270))
 - [Fragment Mono](https://github.com/weiweihuanghuang/fragment-mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#fragment-mono))
+- [Garamonto Code](https://rizese.github.io/garamonto-code/) _SIL OFL_ ([view](https://www.programmingfonts.org/#garamonto-code))
 - [Generic Mono II](http://luc.devroye.org/fonts-75172.html) _SIL OFL_ ([view](https://www.programmingfonts.org/#generic))
 - [Geist Mono](https://vercel.com/font/mono) _SIL OFL_ ([view](https://www.programmingfonts.org/#geist))
 - [Gintronic](https://markfromberg.com/projects/gintronic/) _commercial_ ([view](https://www.programmingfonts.org/#gintronic))

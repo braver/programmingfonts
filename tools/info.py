@@ -1,9 +1,9 @@
 import json
 import argparse
-from os import path, unlink
+from os import path
 import hyperglot as hyp
 from hyperglot.checker import FontChecker
-from fontTools.ttLib import TTFont, woff2
+from fontTools.ttLib import TTFont
 
 '''
 List various metadata about each font. Requires:
@@ -123,8 +123,7 @@ with open('../fonts.json', 'r+') as user_file:
 
         print(f'hyperglot:    {hyp.__version__}')
         try:
-            woff2.decompress(font_file, 'tmp.otf')
-            checker = FontChecker('tmp.otf')
+            checker = FontChecker(font_file)
             encoded_chars = len(checker.characters)
             print(f'characters:   {encoded_chars}')
             data[key]['characters'] = encoded_chars
@@ -135,7 +134,6 @@ with open('../fonts.json', 'r+') as user_file:
             for lang in langs:
                 print(f'  {lang}: {len(langs[lang])} of {lang_count[lang]}')
                 data[key]['languages'][str(lang)] = len(langs[lang])
-            unlink('tmp.otf')
         except Exception:
             print('Language support could not be detected')
 

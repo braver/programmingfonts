@@ -1726,7 +1726,12 @@
         "year": 2026,
         "zerostyle": "dotted",
         "glyphs": 1666,
-        "characters": 1473
+        "characters": 1473,
+        "languages": {
+            "Latin": 413,
+            "Cyrillic": 14,
+            "Greek": 1
+        }
     },
     "generic": {
         "added": "bc",

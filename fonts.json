@@ -1705,6 +1705,34 @@
             "Latin": 292
         }
     },
+    "garamonto-code": {
+        "added": "2026-11-04",
+        "author": "Ricky Zese",
+        "description": "A monospace serif font based on EB Garamond meant for coding.",
+        "license": "SIL OFL",
+        "ligatures": true,
+        "name": "Garamonto Code",
+        "rendering": "vector",
+        "style": "serif",
+        "variants": [
+            "bold-italic",
+            "bold",
+            "italic",
+            "medium-italic",
+            "medium",
+            "regular"
+        ],
+        "website": "https://rizese.github.io/garamonto-code/",
+        "year": 2026,
+        "zerostyle": "dotted",
+        "glyphs": 1666,
+        "characters": 1473,
+        "languages": {
+            "Latin": 413,
+            "Cyrillic": 14,
+            "Greek": 1
+        }
+    },
     "generic": {
         "added": "bc",
         "author": "Luc Devroye",

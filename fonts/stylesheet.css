@@ -55,6 +55,10 @@
 @font-face { font-family: "bpmono"; font-weight: normal; font-style: normal; src: url("./resources/bpmono/bpmono.woff2"); }
 @font-face { font-family: "bpmono"; font-weight: bold; font-style: normal; src: url("./resources/bpmono/bpmono-bold.woff2"); }
 @font-face { font-family: "bpmono"; font-weight: normal; font-style: italic; src: url("./resources/bpmono/bpmono-italic.woff2"); }
+@font-face { font-family: "brass-mono"; font-weight: normal; font-style: normal; src: url("./resources/brass-mono/brass-mono.woff2"); }
+@font-face { font-family: "brass-mono"; font-weight: bold; font-style: normal; src: url("./resources/brass-mono/brass-mono-bold.woff2"); }
+@font-face { font-family: "brass-mono"; font-weight: normal; font-style: italic; src: url("./resources/brass-mono/brass-mono-italic.woff2"); }
+@font-face { font-family: "brass-mono"; font-weight: bold; font-style: italic; src: url("./resources/brass-mono/brass-mono-bold-italic.woff2"); }
 @font-face { font-family: "bront-dejavu"; font-weight: normal; font-style: normal; src: url("./resources/bront-dejavu/bront-dejavu.woff2"); }
 @font-face { font-family: "bront-ubuntu"; font-weight: normal; font-style: normal; src: url("./resources/bront-ubuntu/bront-ubuntu.woff2"); }
 @font-face { font-family: "camingocode"; font-weight: normal; font-style: normal; src: url("./resources/camingocode/camingocode.woff2"); }

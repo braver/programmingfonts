@@ -474,6 +474,30 @@
             "Greek": 1
         }
     },
+    "brass-mono": {
+        "added": "2026-11-13",
+        "author": "Peter Fonseca",
+        "description": "Inspired by 20th century electrical and mechanical design. It is also available without ligatures.",
+        "license": "SIL OFL",
+        "ligatures": true,
+        "name": "Brass Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": [
+            "bold",
+            "bold-italic",
+            "italic",
+            "regular"
+        ],
+        "website": "https://github.com/fonsecapeter/brass_mono",
+        "year": 2017,
+        "zerostyle": "slashed",
+        "glyphs": 182,
+        "characters": 170,
+        "languages": {
+            "Latin": 106
+        }
+    },
     "bront-dejavu": {
         "added": "2019-01-26",
         "author": "Chris Wendt",

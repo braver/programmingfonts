@@ -717,7 +717,7 @@ label + .nav-button {
 dialog {
     width: 40rem;
     max-width: calc(100% - 2rem);
-    font-size: 1rem;
+    font-size: 0.88rem;
     border: 1px solid var(--light-grey);
     border-radius: 6px;
     background: var(--paper-white);

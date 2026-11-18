@@ -4290,6 +4290,29 @@
             "Latin": 339
         }
     },
+    "tiny5": {
+        "added": "2026-11-18",
+        "author": "Stefan Schmidt",
+        "bitmap size": 16,
+        "description": "A compact 5-pixel variable font that captures the essence of 1980s–90s digital minimalism. It is also available without ligatures.",
+        "license": "SIL OFL",
+        "ligatures": true,
+        "name": "Tiny5 Mono",
+        "rendering": "bitmap",
+        "style": "sans",
+        "variants": "A variable font with six axes: weight, width, italic, roundness, bleed and jitter.",
+        "website": "https://github.com/Gissio/font_Tiny5Mono",
+        "year": 2026,
+        "zerostyle": "dotted",
+        "glyphs": 5574,
+        "characters": 4966,
+        "languages": {
+            "Latin": 553,
+            "Cyrillic": 92,
+            "Greek": 3,
+            "Armenian": 2
+        }
+    },
     "topaz-a1200": {
         "added": "2026-05-27",
         "author": "TrueSchool Ascii",

@@ -468,6 +468,10 @@
 @font-face { font-family: "tex-gyre-cursor"; font-weight: bold; font-style: normal; src: url("./resources/tex-gyre-cursor/tex-gyre-cursor-bold.woff2"); }
 @font-face { font-family: "tex-gyre-cursor"; font-weight: normal; font-style: italic; src: url("./resources/tex-gyre-cursor/tex-gyre-cursor-italic.woff2"); }
 @font-face { font-family: "tex-gyre-cursor"; font-weight: bold; font-style: italic; src: url("./resources/tex-gyre-cursor/tex-gyre-cursor-bold-italic.woff2"); }
+@font-face { font-family: "tiny5"; font-weight: normal; font-style: normal; src: url("./resources/tiny5/tiny5.woff2"); }
+@font-face { font-family: "tiny5"; font-weight: bold; font-style: normal; src: url("./resources/tiny5/tiny5-bold.woff2"); }
+@font-face { font-family: "tiny5"; font-weight: normal; font-style: italic; src: url("./resources/tiny5/tiny5-italic.woff2"); }
+@font-face { font-family: "tiny5"; font-weight: bold; font-style: italic; src: url("./resources/tiny5/tiny5-bold-italic.woff2"); }
 @font-face { font-family: "topaz-a1200"; font-weight: normal; font-style: normal; src: url("./resources/topaz-a1200/topaz-a1200.woff2"); }
 @font-face { font-family: "topaz-a500"; font-weight: normal; font-style: normal; src: url("./resources/topaz-a500/topaz-a500.woff2"); }
 @font-face { font-family: "twilio-sans-mono"; font-weight: normal; font-style: normal; src: url("./resources/twilio-sans-mono/twilio-sans-mono.woff2"); }

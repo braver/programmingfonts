@@ -2481,6 +2481,26 @@
         },
         "huge": true
     },
+    "kibernetyk": {
+        "added": "2026-11-20",
+        "author": "Pavlo Kilko",
+        "description": "A geometric monospace typeface inspired by the pioneering spirit of the Ukrainian Cybernetics School.",
+        "license": "SIL OFL",
+        "ligatures": false,
+        "name": "Kibernetyk Mono",
+        "rendering": "vector",
+        "style": "sans",
+        "variants": "7 weights, no italics.",
+        "website": "https://pavlokilko.github.io/KibernetykMono/",
+        "year": 2026,
+        "zerostyle": "slashed",
+        "glyphs": 600,
+        "characters": 595,
+        "languages": {
+            "Latin": 274,
+            "Cyrillic": 25
+        }
+    },
     "latin-modern": {
         "added": "bc",
         "author": "Donald E. Knuth",
